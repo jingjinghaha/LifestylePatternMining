@@ -1,0 +1,2 @@
+# LifestylePatternMining
+lifestyle pattern mining
