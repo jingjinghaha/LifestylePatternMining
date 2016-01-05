@@ -12,7 +12,7 @@ def plot_overall_diet(f):
 	sizes = []
 	labels = []
 	temp = 0
-	for line in open('all_diet_frequency.txt','r'):
+	for line in open('dietItemOverallFreq/all_diet_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
 		# print words
@@ -37,14 +37,14 @@ def plot_overall_diet(f):
 	ax.set_xticklabels(['overall_diet_minF_'+str(f)])
 	ax.set_yticklabels([" "])
 	ax.set_aspect('equal')
-	plt.savefig('overall_diet_minF_'+str(f))
+	plt.savefig('VisDietItemOverallPie/overall_diet_minF_'+str(f))
 	return sizes, labels
 
 def plot_overall_activity(f):
 	sizes = []
 	labels = []
 	temp = 0
-	for line in open('all_activity_frequency.txt','r'):
+	for line in open('activityItemOverallFreq/all_activity_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
 		#print words[1], type(words[3])
@@ -68,7 +68,7 @@ def plot_overall_activity(f):
 	ax.set_xticklabels(['overall_activity_minF_'+str(f)])
 	ax.set_yticklabels([" "])
 	ax.set_aspect('equal')
-	plt.savefig('overall_activity_minF_'+str(f))
+	plt.savefig('VisActivityItemOverallPie/overall_activity_minF_'+str(f))
 	return sizes, labels
 
 def plotOverallDietActItemFreq(f):

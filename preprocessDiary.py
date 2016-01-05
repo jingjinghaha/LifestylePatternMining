@@ -61,12 +61,12 @@ def preprocessDiary():
 	singlerun = 0 
 	if singlerun: 
 		subjectID = '039'
-		preprocessing('activity_'+subjectID+'.txt','processed_activity_'+subjectID+'.txt')
-		preprocessing('diet_'+subjectID+'.txt','processed_diet_'+subjectID+'.txt')
+		preprocessing('activityFromExcel/activity_'+subjectID+'.txt','activityProcessed/processed_activity_'+subjectID+'.txt')
+		preprocessing('dietFromExcel/diet_'+subjectID+'.txt','dietProcessed/processed_diet_'+subjectID+'.txt')
 	else:
 		for subjectID in available_list:
 			print subjectID
-			preprocessing('activity_'+subjectID+'.txt','processed_activity_'+subjectID+'.txt')
-			preprocessing('diet_'+subjectID+'.txt','processed_diet_'+subjectID+'.txt')
+			preprocessing('activityFromExcel/activity_'+subjectID+'.txt','activityProcessed/processed_activity_'+subjectID+'.txt')
+			preprocessing('dietFromExcel/diet_'+subjectID+'.txt','dietProcessed/processed_diet_'+subjectID+'.txt')
 
 #preprocessDiary()

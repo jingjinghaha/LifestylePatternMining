@@ -7,16 +7,12 @@ Created on Mon Nov 30 16:26:06 2015
 
 import extractDietAct 
 import preprocessDiary
-import buildFreqIndexTXTFile
+import buildItemFreqTXTFile
 import buildTypeFreqTXTFile
-import plotDietActItemFreq
-import plotOverallDietActItemFreq
-import plotDietActTypeFreq
-import plotOverallDietActTypeFreq
-import dietItemSimilarityTable
-import actItemSimilarityTable
-import dietTypeSimilarityTable
-import actTypeSimilarityTable
+import visDietActPattern
+import buildSimilarityTableExcel
+import visSimilarityDistribution
+import visSimilarityMat
 
 # extract diet and activity information from excel
 extractDietAct.extractDietAct()
@@ -25,33 +21,31 @@ extractDietAct.extractDietAct()
 preprocessDiary.preprocessDiary()
 
 # build the diet/activity index with Item frequency in txt files 
-buildFreqIndexTXTFile.buildFreqIndexTXTFile()
+buildItemFreqTXTFile.buildItemFreqTXTFile()
 
 # build diet/activity type frequency in txt file 
 buildTypeFreqTXTFile.buildTypeFreqTXTFile()
 
-# data visualization (pie chart) for diet/activity Item pattern of each people 
-# the parameter is to set the minimal Item frequency 
-plotDietActItemFreq.plotDietActItemFreq(3)
+# data visualization (pie chart) for diet/activity pattern 
+visDietActPattern.visDietActPattern()
 
-# data visualization (pie chart) for overall diet/activity Item pattern
-# the parameter is to set the minimal Item frequency 
-plotOverallDietActItemFreq.plotOverallDietActItemFreq(10)
+# build excel table for the similarity between two users 
+# the parameter is to set the similarity measurement method, the default is TFIDF
+# numberOfSameWord,jaccard,novelJaccard,TFIDF
+buildSimilarityTableExcel.buildSimilarityTableExcel(dist = 'jaccard')
+buildSimilarityTableExcel.buildSimilarityTableExcel(dist = 'novelJaccard')
+buildSimilarityTableExcel.buildSimilarityTableExcel(dist = 'TFIDF')
 
-# data visualization (pie chart) for diet/activity type pattern of each people 
-plotDietActTypeFreq.plotDietActTypeFreq()
+# visualization of similarity distribution (histogram)
+# the parameter is to set the similarity measurement method, the default is TFIDF
+# numberOfSameWord,jaccard,novelJaccard,TFIDF
+visSimilarityDistribution.plotSimilarityDistribution('jaccard')
+visSimilarityDistribution.plotSimilarityDistribution('novelJaccard')
+visSimilarityDistribution.plotSimilarityDistribution('TFIDF')
 
-# data visualization (pie chart) for overall diet/activity type pattern 
-plotOverallDietActTypeFreq.plotOverallDietActTypeFreq()
-
-# data visualization (table) for the diet Item similarity between two users 
-dietItemSimilarityTable.dietItemSimilarityTable()
-
-# data visualization (table) for the activity Item similarity between two users 
-actItemSimilarityTable.actItemSimilarityTable()
-
-# data visualization (table) for the diet type similarity between two users 
-dietTypeSimilarityTable.dietTypeSimilarityTable()
-
-# data visualization (table) for the activity type similarity between two users 
-actTypeSimilarityTable.actTypeSimilarityTable()
+# visualization of similarity matrix 
+# the parameter is to set the similarity measurement method, the default is TFIDF
+# numberOfSameWord,jaccard,novelJaccard,TFIDF
+visSimilarityMat.plotSimilarityMatrix('jaccard')
+visSimilarityMat.plotSimilarityMatrix('novelJaccard')
+visSimilarityMat.plotSimilarityMatrix('TFIDF')

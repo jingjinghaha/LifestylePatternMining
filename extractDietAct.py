@@ -21,8 +21,8 @@ def extract_act_diet(subjectID):
 	# for col in range(sheet.ncols):
 		# print sheet.cell_value(12,col)
 		# print type(sheet.cell_value(12,col))
-	f_act = open('activity_'+subjectID+'.txt','w')
-	f_diet = open('diet_'+subjectID+'.txt','w')
+	f_act = open('activityFromExcel/activity_'+subjectID+'.txt','w')
+	f_diet = open('dietFromExcel/diet_'+subjectID+'.txt','w')
 
 	for row in range(8,sheet.nrows):
 		if sheet.cell_value(row, 3):

@@ -8,8 +8,8 @@ Created on Mon Nov 20 14:24:53 2015
 import buildItemIndex
 
 # create single and overall diet/activity Item frequency txt files for all users
-def buildFreqIndexTXTFile():
-	print 'in buildFreqIndexTXTFile()'
+def buildItemFreqTXTFile():
+	print 'in buildItemFreqTXTFile()'
 	singlerun = 0 
 	available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
 	if singlerun: 
@@ -17,12 +17,12 @@ def buildFreqIndexTXTFile():
 		print buildItemIndex.build_single_diet_index(subjectID)
 		print buildItemIndex.build_single_activity_index(subjectID)
 	else:
-		f_diet = open('all_diet_frequency.txt','w')
-		f_act = open('all_activity_frequency.txt','w')
+		f_diet = open('dietItemOverallFreq/all_diet_frequency.txt','w')
+		f_act = open('activityItemOverallFreq/all_activity_frequency.txt','w')
 		for subjectID in available_list:
 			print subjectID
-			f_diet_temp = open('diet_frequency_'+subjectID+'.txt','w')
-			f_act_temp = open('activity_frequency_'+subjectID+'.txt','w')
+			f_diet_temp = open('dietItemFreq/diet_frequency_'+subjectID+'.txt','w')
+			f_act_temp = open('activityItemFreq/activity_frequency_'+subjectID+'.txt','w')
 			index_diet = buildItemIndex.build_single_diet_index(subjectID)
 			index_act =  buildItemIndex.build_single_activity_index(subjectID)
 			for key in index_diet:
@@ -48,4 +48,4 @@ def buildFreqIndexTXTFile():
 		f_act.close()
 		f_diet.close()
 
-#buildFreqIndexTXTFile()
+#buildItemFreqTXTFile()

@@ -20,8 +20,8 @@ def extract_act_diet_with_time(subjectID):
 	# for col in range(sheet.ncols):
 		# print sheet.cell_value(12,col)
 		# print type(sheet.cell_value(12,col))
-	f_act = open('activity_'+subjectID+'_with_time'+'.txt','w')
-	f_diet = open('diet_'+subjectID+'_with_time'+'.txt','w')
+	f_act = open('activityFromExcel/activity_'+subjectID+'_with_time'+'.txt','w')
+	f_diet = open('dietFromExcel/diet_'+subjectID+'_with_time'+'.txt','w')
 
 	for row in range(8,sheet.nrows):
 		if sheet.cell_value(row,0):

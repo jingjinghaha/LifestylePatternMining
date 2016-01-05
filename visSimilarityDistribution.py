@@ -27,14 +27,14 @@ def similarityDict2list(input_dict):
 	return list_temp
 
 
-def plotSimilarityMatrix(dist = 'novelJaccard'):
+def plotSimilarityDistribution(dist = 'TFIDF'):
 	actSimilarity_dict = actItemSimilarityTable.actItemSimilarityDict(dist)
 	similarityList = similarityDict2list(actSimilarity_dict)
 	plt.figure()
 	plt.hist(similarityList)
 	plt.title('actSimilarityDistribution_'+dist)
 	plt.xlim(0.0,1.0)
-	plt.savefig('actSimilarityDistribution_'+dist)
+	plt.savefig('visSimilarityDistributionHist/actSimilarityDistribution_'+dist)
 
 	dietSimilarity_dict = dietItemSimilarityTable.dietItemSimilarityDict(dist)
 	similarityList = similarityDict2list(dietSimilarity_dict)
@@ -42,7 +42,7 @@ def plotSimilarityMatrix(dist = 'novelJaccard'):
 	plt.hist(similarityList)
 	plt.title('dietSimilarityDistribution_'+dist)
 	plt.xlim(0.0,1.0)
-	plt.savefig('dietSimilarityDistribution_'+dist)
+	plt.savefig('visSimilarityDistributionHist/dietSimilarityDistribution_'+dist)
 
 	actTypeSimilarity_dict = actTypeSimilarityTable.actTypeSimilarityDict(dist)
 	similarityList = similarityDict2list(actTypeSimilarity_dict)
@@ -50,7 +50,7 @@ def plotSimilarityMatrix(dist = 'novelJaccard'):
 	plt.hist(similarityList)
 	plt.title('actTypeSimilarityDistribution_'+dist)
 	plt.xlim(0.0,1.0)
-	plt.savefig('actTypeSimilarityDistribution_'+dist)
+	plt.savefig('visSimilarityDistributionHist/actTypeSimilarityDistribution_'+dist)
 
 	dietTypeSimilarity_dict = dietTypeSimilarityTable.dietTypeSimilarityDict(dist)
 	similarityList = similarityDict2list(dietTypeSimilarity_dict)
@@ -58,6 +58,6 @@ def plotSimilarityMatrix(dist = 'novelJaccard'):
 	plt.hist(similarityList)
 	plt.title('dietTypeSimilarityDistribution_'+dist)
 	plt.xlim(0.0,1.0)
-	plt.savefig('dietTypeSimilarityDistribution_'+dist)
+	plt.savefig('visSimilarityDistributionHist/dietTypeSimilarityDistribution_'+dist)
 
-plotSimilarityMatrix('TFIDF')
+# plotSimilarityDistribution('TFIDF')

@@ -8,7 +8,7 @@ Created on Mon Nov 23 14:24:53 2015
 #build the diet index for single user
 def build_single_diet_index(subjectID):
 	index = {}
-	for line in open('processed_diet_'+subjectID+'.txt'):
+	for line in open('dietProcessed/processed_diet_'+subjectID+'.txt'):
 		# print 'line in processed_diet_'+subjectID+'.txt'
 		# print line
 		line = line.split('[')[1].split(']')[0].split(',')
@@ -24,7 +24,7 @@ def build_single_diet_index(subjectID):
 #build the activity index for single user
 def build_single_activity_index(subjectID):
 	index = {}
-	for line in open('processed_activity_'+subjectID+'.txt'):
+	for line in open('activityProcessed/processed_activity_'+subjectID+'.txt'):
 		# print 'line in processed_activity_'+subjectID+'.txt'
 		# print line
 		line = line.split('[')[1].split(']')[0].split(',')

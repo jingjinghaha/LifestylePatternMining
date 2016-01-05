@@ -24,18 +24,20 @@ def similarityDict2array(input_dict):
 			aa[i,j] = input_dict[key1][key2]
 			j += 1
 		i += 1
-	sorted = np.sort(aa)
-	return sorted 
+	# sorted = np.sort(aa)
+	# return sorted 
+	# print aa
+	return aa 
 
 
-def plotSimilarityMatrix(dist = 'novelJaccard'):
+def plotSimilarityMatrix(dist = 'TFIDF'):
 	actSimilarity_dict = actItemSimilarityTable.actItemSimilarityDict(dist)
 	a = similarityDict2array(actSimilarity_dict)
 	plt.figure()
 	plt.matshow(a)
 	plt.colorbar()
 	plt.title('actSimilarityMatrix_'+dist)
-	plt.savefig('actSimilarityMatrix_'+dist)
+	plt.savefig('visSimilarityMatrix/actSimilarityMatrix_'+dist)
 
 	dietSimilarity_dict = dietItemSimilarityTable.dietItemSimilarityDict(dist)
 	a = similarityDict2array(dietSimilarity_dict)
@@ -43,7 +45,7 @@ def plotSimilarityMatrix(dist = 'novelJaccard'):
 	plt.matshow(a)
 	plt.colorbar()
 	plt.title('dietSimilarityMatrix_'+dist)
-	plt.savefig('dietSimilarityMatrix_'+dist)
+	plt.savefig('visSimilarityMatrix/dietSimilarityMatrix_'+dist)
 
 	actTypeSimilarity_dict = actTypeSimilarityTable.actTypeSimilarityDict(dist)
 	a = similarityDict2array(actTypeSimilarity_dict)
@@ -51,7 +53,7 @@ def plotSimilarityMatrix(dist = 'novelJaccard'):
 	plt.matshow(a)
 	plt.colorbar()
 	plt.title('actTypeSimilarityMatrix_'+dist)
-	plt.savefig('actTypeSimilarityMatrix_'+dist)
+	plt.savefig('visSimilarityMatrix/actTypeSimilarityMatrix_'+dist)
 
 	dietTypeSimilarity_dict = dietTypeSimilarityTable.dietTypeSimilarityDict(dist)
 	a = similarityDict2array(dietTypeSimilarity_dict)
@@ -59,6 +61,6 @@ def plotSimilarityMatrix(dist = 'novelJaccard'):
 	plt.matshow(a)
 	plt.colorbar()
 	plt.title('dietTypeSimilarityMatrix_'+dist)
-	plt.savefig('dietTypeSimilarityMatrix_'+dist)
+	plt.savefig('visSimilarityMatrix/dietTypeSimilarityMatrix_'+dist)
 
-plotSimilarityMatrix('TFIDF')
+# plotSimilarityMatrix('TFIDF')

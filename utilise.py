@@ -14,7 +14,7 @@ available_list = ['039','044','045','048','049','050','051','052','053','054','0
 def genDietItemDict():
 	item_dict = {}
 	n = 0
-	for line in open('all_diet_frequency.txt','r'):
+	for line in open('dietItemOverallFreq/all_diet_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
 		item_dict[n] = words[1]
@@ -25,7 +25,7 @@ def genDietItemDict():
 def genDietTypeDict():
 	item_dict = {}
 	n = 0
-	for line in open('all_dietType_frequency.txt','r'):
+	for line in open('dietTypeOverallFreq/all_dietType_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
 		item_dict[n] = words[0]
@@ -36,7 +36,7 @@ def genDietTypeDict():
 def genActItemDict():
 	item_dict = {}
 	n = 0
-	for line in open('all_activity_frequency.txt','r'):
+	for line in open('activityItemOverallFreq/all_activity_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
 		item_dict[n] = words[1]
@@ -47,7 +47,7 @@ def genActItemDict():
 def genActTypeDict():
 	item_dict = {}
 	n = 0
-	for line in open('all_activityType_frequency.txt','r'):
+	for line in open('activityTypeOverallFreq/all_activityType_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
 		item_dict[n] = words[0]
