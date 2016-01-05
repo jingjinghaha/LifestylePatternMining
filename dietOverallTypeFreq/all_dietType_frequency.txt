@@ -1,0 +1,12 @@
+meat                     207       
+fish                     45        
+drink                    106       
+caffeine                 101       
+otherAnimalProducts      51        
+fruit                    224       
+grain                    798       
+others                   44        
+confections              282       
+dairy                    234       
+vegetables               256       
+alcohol                  91        

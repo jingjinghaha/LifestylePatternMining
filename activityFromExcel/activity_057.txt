@@ -1,0 +1,61 @@
+driving car
+work
+walking
+work
+sleep (sensor off)
+sensor on
+work
+walking
+driving car
+shopping
+driving car
+work
+driving car
+work
+driving car and walking
+shower (sensor off)
+sensor off
+sensor on
+work
+driving car
+sitting
+driving car
+work
+walking
+work
+sensor off (sleep)
+sensor on
+work
+cleaning/ working at home
+work
+sensor off (sleep)
+getting up
+work
+driving car
+waiting
+driving car
+shopping for bicycle
+work
+shower (sensor off)
+sleep
+sensor on
+walking, moving stuff
+work
+driving car for shopping
+home
+sensor loose cable (from electrode)
+sleep (sensor off)
+sensor on
+walking
+walking
+work
+walking
+work
+driving car
+work
+driving car
+vistit
+driving car
+sleep (sensor off)
+sensor on
+work

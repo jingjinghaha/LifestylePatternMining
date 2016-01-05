@@ -1,0 +1,10 @@
+meat                     7         
+fish                     1         
+drink                    3         
+caffeine                 1         
+fruit                    5         
+grain                    14        
+others                   16        
+confections              6         
+vegetables               6         
+alcohol                  4         

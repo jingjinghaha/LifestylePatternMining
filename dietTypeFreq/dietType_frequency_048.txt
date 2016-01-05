@@ -1,0 +1,10 @@
+alcohol                  1         
+fish                     3         
+drink                    1         
+otherAnimalProducts      2         
+caffeine                 3         
+fruit                    5         
+grain                    5         
+others                   7         
+confections              2         
+meat                     5         

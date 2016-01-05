@@ -1,0 +1,7 @@
+['cycle']
+['work']
+['cycle']
+['work']
+['walk']
+['work']
+['work']

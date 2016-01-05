@@ -1,0 +1,9 @@
+meat                     8         
+fish                     1         
+drink                    1         
+fruit                    4         
+grain                    31        
+others                   15        
+confections              9         
+dairy                    1         
+vegetables               9         

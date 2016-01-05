@@ -1,0 +1,7 @@
+transportation1          19        
+transportation2          33        
+entertainment            9         
+work_study               20        
+rest                     16        
+diet                     20        
+others                   10        

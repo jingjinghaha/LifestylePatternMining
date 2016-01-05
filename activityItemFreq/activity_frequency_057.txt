@@ -1,0 +1,17 @@
+'loose'                  1         
+'walk'                   8         
+'shower'                 2         
+'move'                   1         
+'cable'                  1         
+'wait'                   1         
+'sleep'                  6         
+'sit'                    1         
+'electrode'              1         
+'work'                   18        
+'car'                    13        
+'vistit'                 1         
+'drive'                  13        
+'shop'                   3         
+'bike'                   1         
+'clean'                  1         
+'home'                   2         
