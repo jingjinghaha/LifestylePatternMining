@@ -17,8 +17,8 @@ def buildItemFreqTXTFile():
 		print buildItemIndex.build_single_diet_index(subjectID)
 		print buildItemIndex.build_single_activity_index(subjectID)
 	else:
-		f_diet = open('dietItemOverallFreq/all_diet_frequency.txt','w')
-		f_act = open('activityItemOverallFreq/all_activity_frequency.txt','w')
+		f_diet = open('dietOverallItemFreq/all_diet_frequency.txt','w')
+		f_act = open('activityOverallItemFreq/all_activity_frequency.txt','w')
 		for subjectID in available_list:
 			print subjectID
 			f_diet_temp = open('dietItemFreq/diet_frequency_'+subjectID+'.txt','w')

@@ -8,29 +8,26 @@ Created on Tue Jan 05 09:49:57 2016
 from sklearn.cluster import AffinityPropagation
 import matplotlib.pyplot as plt
 from itertools import cycle
-import dietItemSimilarityTable
-import actItemSimilarityTable
-import dietTypeSimilarityTable
-import actTypeSimilarityTable
 import visSimilarityMat
+import utilise
 
 Domain = ['DietItem','ActItem','DietType','ActType']
-# dist is to set the similarity measurement method, the default is TFIDF
-# jaccard,novelJaccard,TFIDF
+# dist is to set the similarity measurement method, the default is TFIDFCosin
+# jaccard,novelJaccard,TFIDFCosin,TFIDFEclud,TFCosin,TFEclud
 dist = 'jaccard'
 for domain in Domain:
 	dietSimilarity_dict = {}
 	if domain == 'DietItem':
-		Similarity_dict = dietItemSimilarityTable.dietItemSimilarityDict(dist)
+		Similarity_dict = utilise.SimilarityDict(domain,dist)
 	elif domain == 'ActItem':
-		Similarity_dict = actItemSimilarityTable.actItemSimilarityDict(dist)
+		Similarity_dict = utilise.SimilarityDict(domain,dist)
 	elif domain == 'DietType':
-		Similarity_dict = dietTypeSimilarityTable.dietTypeSimilarityDict(dist)
+		Similarity_dict = utilise.SimilarityDict(domain,dist)
 	elif domain == 'ActType':
-		Similarity_dict = actTypeSimilarityTable.actTypeSimilarityDict(dist)
-	X = visSimilarityMat.similarityDict2array(Similarity_dict)
+		Similarity_dict = utilise.SimilarityDict(domain,dist)
+	X = visSimilarityMat.similarityDict2array(Similarity_dict,0)
 
-	af = AffinityPropagation(preference=-50).fit(X)
+	af = AffinityPropagation(affinity = "precomputed").fit(X)
 	cluster_centers_indices = af.cluster_centers_indices_
 	print cluster_centers_indices
 	labels = af.labels_
@@ -50,5 +47,5 @@ for domain in Domain:
 			plt.plot([cluster_center[0], x[0]], [cluster_center[1], x[1]], col)
 
 	plt.title('Estimated number of clusters: %d' % n_clusters_)
-	plt.savefig('VisClustering'+domain+'Pattern/AffinityPropagation_'+dist)
+	plt.savefig('VisClustering'+domain+'Pattern/AffinityPropagation_'+dist+'_'+str(n_clusters_))
 	plt.show()

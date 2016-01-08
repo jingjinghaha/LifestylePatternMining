@@ -43,7 +43,7 @@ def plot_single_diet(subjectID,f):
 	ax.set_xticklabels(['diet_subject'+subjectID+'_minF_'+str(f)])
 	ax.set_yticklabels([" "])
 	ax.set_aspect('equal')
-	plt.savefig('VisDietItemPie/diet_subject'+subjectID+'_minF_'+str(f))
+	plt.savefig('VisDietItemPattPie/diet_subject'+subjectID+'_minF_'+str(f))
 	return sizes, labels
 
 #plot activity pie chart for single user
@@ -79,7 +79,7 @@ def plot_single_activity(subjectID,f):
 	ax.set_xticklabels(['activity_subject'+subjectID+'_minF_'+str(f)])
 	ax.set_yticklabels([" "])
 	ax.set_aspect('equal')
-	plt.savefig('VisActivityItemPie/activity_subject'+subjectID+'_minF_'+str(f))
+	plt.savefig('VisActivityItemPattPie/activity_subject'+subjectID+'_minF_'+str(f))
 	return sizes, labels
 
 

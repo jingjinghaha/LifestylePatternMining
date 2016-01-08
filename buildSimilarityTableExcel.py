@@ -11,9 +11,9 @@ import dietTypeSimilarityTable
 import actTypeSimilarityTable
 
 # build excel table for the similarity between two users 
-# the parameter is to set the similarity measurement method, the default is TFIDF
-# numberOfSameWord,jaccard,novelJaccard,TFIDF
-def buildSimilarityTableExcel(dist = 'TFIDF'):
+# the parameter is to set the similarity measurement method, the default is TFIDFCosin
+# numberOfSameWord,jaccard,novelJaccard,TFIDFCosin,TFIDFEclud,TFCosin,TFEclud
+def buildSimilarityTableExcel(dist = 'TFIDFCosin'):
 	# data visualization (table) for the diet Item similarity between two users
 	dietItemSimilarityTable.dietItemSimilarityTable(dist)
 	# build excel table for the activity Item similarity between two users

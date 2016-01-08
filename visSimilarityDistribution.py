@@ -6,11 +6,7 @@ Created on Fri Dec 11 14:42:24 2015
 """
 
 import matplotlib.pyplot as plt
-import dietItemSimilarityTable
-import actItemSimilarityTable
-import dietTypeSimilarityTable
-import actTypeSimilarityTable
-
+import utilise
 
 def similarityDict2list(input_dict):
 	list_temp = []
@@ -27,8 +23,8 @@ def similarityDict2list(input_dict):
 	return list_temp
 
 
-def plotSimilarityDistribution(dist = 'TFIDF'):
-	actSimilarity_dict = actItemSimilarityTable.actItemSimilarityDict(dist)
+def plotSimilarityDistribution(dist = 'TFIDFCosin'):
+	actSimilarity_dict = utilise.SimilarityDict('ActItem',dist)
 	similarityList = similarityDict2list(actSimilarity_dict)
 	plt.figure()
 	plt.hist(similarityList)
@@ -36,7 +32,7 @@ def plotSimilarityDistribution(dist = 'TFIDF'):
 	plt.xlim(0.0,1.0)
 	plt.savefig('visSimilarityDistributionHist/actSimilarityDistribution_'+dist)
 
-	dietSimilarity_dict = dietItemSimilarityTable.dietItemSimilarityDict(dist)
+	dietSimilarity_dict = utilise.SimilarityDict('DietItem',dist)
 	similarityList = similarityDict2list(dietSimilarity_dict)
 	plt.figure()
 	plt.hist(similarityList)
@@ -44,7 +40,7 @@ def plotSimilarityDistribution(dist = 'TFIDF'):
 	plt.xlim(0.0,1.0)
 	plt.savefig('visSimilarityDistributionHist/dietSimilarityDistribution_'+dist)
 
-	actTypeSimilarity_dict = actTypeSimilarityTable.actTypeSimilarityDict(dist)
+	actTypeSimilarity_dict = utilise.SimilarityDict('ActType',dist)
 	similarityList = similarityDict2list(actTypeSimilarity_dict)
 	plt.figure()
 	plt.hist(similarityList)
@@ -52,7 +48,7 @@ def plotSimilarityDistribution(dist = 'TFIDF'):
 	plt.xlim(0.0,1.0)
 	plt.savefig('visSimilarityDistributionHist/actTypeSimilarityDistribution_'+dist)
 
-	dietTypeSimilarity_dict = dietTypeSimilarityTable.dietTypeSimilarityDict(dist)
+	dietTypeSimilarity_dict = utilise.SimilarityDict('DietType',dist)
 	similarityList = similarityDict2list(dietTypeSimilarity_dict)
 	plt.figure()
 	plt.hist(similarityList)
@@ -60,4 +56,4 @@ def plotSimilarityDistribution(dist = 'TFIDF'):
 	plt.xlim(0.0,1.0)
 	plt.savefig('visSimilarityDistributionHist/dietTypeSimilarityDistribution_'+dist)
 
-# plotSimilarityDistribution('TFIDF')
+# plotSimilarityDistribution('TFIDFCosin')

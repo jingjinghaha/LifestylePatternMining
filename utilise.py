@@ -14,7 +14,7 @@ available_list = ['039','044','045','048','049','050','051','052','053','054','0
 def genDietItemDict():
 	item_dict = {}
 	n = 0
-	for line in open('dietItemOverallFreq/all_diet_frequency.txt','r'):
+	for line in open('dietOverallItemFreq/all_diet_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
 		item_dict[n] = words[1]
@@ -25,7 +25,7 @@ def genDietItemDict():
 def genDietTypeDict():
 	item_dict = {}
 	n = 0
-	for line in open('dietTypeOverallFreq/all_dietType_frequency.txt','r'):
+	for line in open('dietOverallTypeFreq/all_dietType_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
 		item_dict[n] = words[0]
@@ -36,7 +36,7 @@ def genDietTypeDict():
 def genActItemDict():
 	item_dict = {}
 	n = 0
-	for line in open('activityItemOverallFreq/all_activity_frequency.txt','r'):
+	for line in open('activityOverallItemFreq/all_activity_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
 		item_dict[n] = words[1]
@@ -47,7 +47,7 @@ def genActItemDict():
 def genActTypeDict():
 	item_dict = {}
 	n = 0
-	for line in open('activityTypeOverallFreq/all_activityType_frequency.txt','r'):
+	for line in open('activityOverallTypeFreq/all_activityType_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
 		item_dict[n] = words[0]
@@ -197,7 +197,9 @@ def novelJaccard(dict1,dict2):
 	return similarity
 
 def distEclud(vecA, vecB): # real 0 -> 1
-	return 1/(sqrt(sum(power(vecA - vecB, 2)))+1) #la.norm(vecA-vecB)
+	# distance = (np.sqrt(sum(np.power(vecA - vecB, 2)))+1)
+	similarity = 1/(np.sqrt(sum(np.power(vecA - vecB, 2)))+1)
+	return similarity #la.norm(vecA-vecB)
 	
 def distCosin(vecA,vecB): # -1 -> 1
 	innerProduct = sum(vecA*vecB)
@@ -205,19 +207,21 @@ def distCosin(vecA,vecB): # -1 -> 1
 	absA = np.sqrt(sum(np.power(vecA,2)))
 	absB = np.sqrt(sum(np.power(vecB,2)))
 	# print absA,absB
-	return (innerProduct)/(absA*absB)
+	# distance = 1.0-(innerProduct)/(absA*absB)
+	similarity = (innerProduct)/(absA*absB)
+	return similarity
 
 # to calculate the similarity of two user 
-def TFIDF(domain):
+def TFIDFCosin(domain):
 	similarity_dict = {}
 	similarity = 0
-	if domain == 'actItem':
+	if domain == 'ActItem':
 		tfidf = ActItemTfidfArray()
-	elif domain == 'dietItem':
+	elif domain == 'DietItem':
 		tfidf = DietItemTfidfArray()
-	elif domain == 'dietType':
+	elif domain == 'DietType':
 		tfidf = DietTypeTfidfArray()
-	elif domain == 'actType':
+	elif domain == 'ActType':
 		tfidf = ActTypeTfidfArray()
 	x = tfidf.shape[0]
 	for i in range(x):
@@ -227,9 +231,117 @@ def TFIDF(domain):
 			similarity = distCosin(tfidf[i],tfidf[j])
 			# print similarity
 			similarity_dict[i][j] = similarity
-	# similarity = distCosin(tfidf[i],tfidf[j])
 	# print similarity_dict
 	return similarity_dict
 
+def TFIDFEclud(domain):
+	similarity_dict = {}
+	similarity = 0
+	if domain == 'ActItem':
+		tfidf = ActItemTfidfArray()
+	elif domain == 'DietItem':
+		tfidf = DietItemTfidfArray()
+	elif domain == 'DietType':
+		tfidf = DietTypeTfidfArray()
+	elif domain == 'ActType':
+		tfidf = ActTypeTfidfArray()
+	x = tfidf.shape[0]
+	for i in range(x):
+		similarity_dict[i] = {}
+		for j in range(x):
+			# print tfidf[i],tfidf[j]
+			similarity = distEclud(tfidf[i],tfidf[j])
+			# print similarity
+			similarity_dict[i][j] = similarity
+	# print similarity_dict
+	return similarity_dict
 
-	
+def TFCosin(domain):
+	similarity_dict = {}
+	similarity = 0
+	if domain == 'ActItem':
+		tf = genActItemTFArray()
+	elif domain == 'DietItem':
+		tf = genDietItemTFArray()
+	elif domain == 'DietType':
+		tf = genDietTypeTFArray()
+	elif domain == 'ActType':
+		tf = genActTypeTFArray()
+	x = tf.shape[0]
+	for i in range(x):
+		similarity_dict[i] = {}
+		for j in range(x):
+			# print tf[i],tf[j]
+			similarity = distCosin(tf[i],tf[j])
+			# print similarity
+			similarity_dict[i][j] = similarity
+	# print similarity_dict
+	return similarity_dict
+
+def TFEclud(domain):
+	similarity_dict = {}
+	similarity = 0
+	if domain == 'ActItem':
+		tf = genActItemTFArray()
+	elif domain == 'DietItem':
+		tf = genDietItemTFArray()
+	elif domain == 'DietType':
+		tf = genDietTypeTFArray()
+	elif domain == 'ActType':
+		tf = genActTypeTFArray()
+	x = tf.shape[0]
+	for i in range(x):
+		similarity_dict[i] = {}
+		for j in range(x):
+			# print tf[i],tf[j]
+			similarity = distEclud(tf[i],tf[j])
+			# print similarity
+			similarity_dict[i][j] = similarity
+	# print similarity_dict
+	return similarity_dict
+
+def SimilarityDict(domain,dist = 'TFIDFCosin'):
+	Similarity_dict = {} 
+	available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
+	if dist == 'TFIDFCosin':
+		Similarity_dict = TFIDFCosin(domain)
+	elif dist == 'TFIDFEclud':
+		Similarity_dict = TFIDFEclud(domain)
+	elif dist == 'TFCosin':
+		Similarity_dict = TFCosin(domain)
+	elif dist == 'TFEclud':
+		Similarity_dict = TFEclud(domain)
+	else: 
+		i = 0
+		for subjectID in available_list:
+			j = 0
+			similarity = 0
+			Similarity_dict[i] = {}
+			if domain == 'ActItem':
+				ItemIndex = buildItemIndex.build_single_activity_index(subjectID)
+			elif domain == 'DietItem':
+				ItemIndex = buildItemIndex.build_single_diet_index(subjectID)
+			elif domain == 'DietType':
+				ItemIndex = buildTypeIndex.build_single_diet_index(subjectID)
+			elif domain == 'ActType':
+				ItemIndex = buildTypeIndex.build_single_activity_index(subjectID)
+			for subjectid in available_list:
+				if domain == 'ActItem':
+					temp_ItemIndex = buildItemIndex.build_single_activity_index(subjectid)
+				elif domain == 'DietItem':
+					temp_ItemIndex = buildItemIndex.build_single_diet_index(subjectid)
+				elif domain == 'DietType':
+					temp_ItemIndex = buildTypeIndex.build_single_diet_index(subjectid)
+				elif domain == 'ActType':
+					temp_ItemIndex = buildTypeIndex.build_single_activity_index(subjectid)
+				if dist == 'numberOfSameWord':
+					similarity = numberOfSameWord(ItemIndex,temp_ItemIndex)
+				elif dist == 'jaccard':
+					similarity = jaccard(ItemIndex,temp_ItemIndex)
+				elif dist == 'novelJaccard':
+					similarity = novelJaccard(ItemIndex,temp_ItemIndex)
+				Similarity_dict[i][j] = similarity
+				j += 1
+			i += 1
+	# print Similarity_dict
+	return Similarity_dict

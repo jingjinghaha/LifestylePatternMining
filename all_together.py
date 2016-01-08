@@ -4,7 +4,7 @@ Created on Mon Nov 30 16:26:06 2015
 
 @author: wu34
 """
-
+import matplotlib.pyplot as plt
 import extractDietAct 
 import preprocessDiary
 import buildItemFreqTXTFile
@@ -13,6 +13,9 @@ import visDietActPattern
 import buildSimilarityTableExcel
 import visSimilarityDistribution
 import visSimilarityMat
+
+plt.close('all')
+plt.clf()
 
 # extract diet and activity information from excel
 extractDietAct.extractDietAct()
@@ -30,22 +33,31 @@ buildTypeFreqTXTFile.buildTypeFreqTXTFile()
 visDietActPattern.visDietActPattern()
 
 # build excel table for the similarity between two users 
-# the parameter is to set the similarity measurement method, the default is TFIDF
-# numberOfSameWord,jaccard,novelJaccard,TFIDF
+# the parameter is to set the similarity measurement method, the default is TFIDFCosin
+# numberOfSameWord,jaccard,novelJaccard,TFIDFCosin,TFIDFEclud,TFCosin,TFEclud
 buildSimilarityTableExcel.buildSimilarityTableExcel(dist = 'jaccard')
 buildSimilarityTableExcel.buildSimilarityTableExcel(dist = 'novelJaccard')
-buildSimilarityTableExcel.buildSimilarityTableExcel(dist = 'TFIDF')
+buildSimilarityTableExcel.buildSimilarityTableExcel(dist = 'TFIDFCosin')
+buildSimilarityTableExcel.buildSimilarityTableExcel(dist = 'TFIDFEclud')
+buildSimilarityTableExcel.buildSimilarityTableExcel(dist = 'TFCosin')
+buildSimilarityTableExcel.buildSimilarityTableExcel(dist = 'TFEclud')
 
 # visualization of similarity distribution (histogram)
-# the parameter is to set the similarity measurement method, the default is TFIDF
-# numberOfSameWord,jaccard,novelJaccard,TFIDF
+# the parameter is to set the similarity measurement method, the default is TFIDFCosin
+# numberOfSameWord,jaccard,novelJaccard,TFIDFCosin,TFIDFEclud,TFCosin,TFEclud
 visSimilarityDistribution.plotSimilarityDistribution('jaccard')
 visSimilarityDistribution.plotSimilarityDistribution('novelJaccard')
-visSimilarityDistribution.plotSimilarityDistribution('TFIDF')
+visSimilarityDistribution.plotSimilarityDistribution('TFIDFCosin')
+visSimilarityDistribution.plotSimilarityDistribution('TFIDFEclud')
+visSimilarityDistribution.plotSimilarityDistribution('TFCosin')
+visSimilarityDistribution.plotSimilarityDistribution('TFEclud')
 
 # visualization of similarity matrix 
-# the parameter is to set the similarity measurement method, the default is TFIDF
-# numberOfSameWord,jaccard,novelJaccard,TFIDF
+# the parameter is to set the similarity measurement method, the default is TFIDFCosin
+# numberOfSameWord,jaccard,novelJaccard,TFIDFCosin,TFIDFEclud,TFCosin,TFEclud
 visSimilarityMat.plotSimilarityMatrix('jaccard')
 visSimilarityMat.plotSimilarityMatrix('novelJaccard')
-visSimilarityMat.plotSimilarityMatrix('TFIDF')
+visSimilarityMat.plotSimilarityMatrix('TFIDFCosin')
+visSimilarityMat.plotSimilarityMatrix('TFIDFEclud')
+visSimilarityMat.plotSimilarityMatrix('TFCosin')
+visSimilarityMat.plotSimilarityMatrix('TFEclud')

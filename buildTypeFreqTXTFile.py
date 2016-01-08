@@ -37,8 +37,8 @@ def buildSingleActTypeFreqFile():
 # create overall diet type frequency txt file
 def buildDietTypeFreqTXTFile():
 	dietType_dict = {}
-	f_diet = open('dietTypeOverallFreq/all_dietType_frequency.txt','w')
-	for line in open('dietItemOverallFreq/all_diet_frequency.txt','r'):
+	f_diet = open('dietOverallTypeFreq/all_dietType_frequency.txt','w')
+	for line in open('dietOverallItemFreq/all_diet_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
 		#print words[1], type(words[3])
@@ -65,8 +65,8 @@ def buildDietTypeFreqTXTFile():
 # create overall diet type frequency txt file
 def buildActTypeFreqTXTFile():
 	actType_dict = {}
-	f_act = open('activityTypeOverallFreq/all_activityType_frequency.txt','w')
-	for line in open('activityItemOverallFreq/all_activity_frequency.txt','r'):
+	f_act = open('activityOverallTypeFreq/all_activityType_frequency.txt','w')
+	for line in open('activityOverallItemFreq/all_activity_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
 		#print words[1], type(words[3])
