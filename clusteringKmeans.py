@@ -13,16 +13,26 @@ import utilise
 
 Domain = ['DietItem','ActItem','DietType','ActType']
 # metric: TF, TFIDF
-metric = 'TF'
+metric = 'TFIDF'
 for domain in Domain:
-	if domain == 'DietItem':
-		X = utilise.genDietItemTFArray()
-	elif domain == 'ActItem':
-		X = utilise.genActItemTFArray()
-	elif domain == 'DietType':
-		X = utilise.genDietTypeTFArray()
-	elif domain == 'ActType':
-		X = utilise.genActTypeTFArray()
+	if metric == 'TF':
+		if domain == 'DietItem':
+			X = utilise.genDietItemTFArray()
+		elif domain == 'ActItem':
+			X = utilise.genActItemTFArray()
+		elif domain == 'DietType':
+			X = utilise.genDietTypeTFArray()
+		elif domain == 'ActType':
+			X = utilise.genActTypeTFArray()
+	elif metric == 'TFIDF':
+		if domain == 'DietItem':
+			X = utilise.DietItemTfidfArray()
+		elif domain == 'ActItem':
+			X = utilise.ActItemTfidfArray()
+		elif domain == 'DietType':
+			X = utilise.DietTypeTfidfArray()
+		elif domain == 'ActType':
+			X = utilise.ActTypeTfidfArray()
 
 	# af = KMeans().fit(X)
 	# cluster_centers = af.cluster_centers_
@@ -71,3 +81,5 @@ for domain in Domain:
 		plt.xticks(())
 		plt.yticks(())
 		plt.savefig('VisClustering'+domain+'Pattern/KMeans_'+metric+'_'+str(n_clusters))
+		# plt.show()
+		

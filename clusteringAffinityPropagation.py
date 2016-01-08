@@ -48,4 +48,5 @@ for domain in Domain:
 
 	plt.title('Estimated number of clusters: %d' % n_clusters_)
 	plt.savefig('VisClustering'+domain+'Pattern/AffinityPropagation_'+dist+'_'+str(n_clusters_))
-	plt.show()
+	# plt.show()
+	
