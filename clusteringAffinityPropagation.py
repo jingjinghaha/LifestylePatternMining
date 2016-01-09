@@ -14,7 +14,7 @@ import utilise
 Domain = ['DietItem','ActItem','DietType','ActType']
 # dist is to set the similarity measurement method, the default is TFIDFCosin
 # jaccard,novelJaccard,TFIDFCosin,TFIDFEclud,TFCosin,TFEclud
-dist = 'jaccard'
+dist = 'TFIDFCosin'
 for domain in Domain:
 	dietSimilarity_dict = {}
 	if domain == 'DietItem':
