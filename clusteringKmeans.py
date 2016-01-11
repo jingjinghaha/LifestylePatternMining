@@ -13,7 +13,7 @@ import utilise
 
 Domain = ['DietItem','ActItem','DietType','ActType']
 # metric: TF, TFIDF
-metric = 'TFIDF'
+metric = 'TF'
 for domain in Domain:
 	if metric == 'TF':
 		if domain == 'DietItem':

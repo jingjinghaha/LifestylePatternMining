@@ -34,8 +34,8 @@ def similarityDict2array(input_dict,Threshold):
 	return aa 
 
 
-def plotSimilarityMatrix(dist = 'TFIDFCosin'):
-	actSimilarity_dict = utilise.SimilarityDict('ActItem',dist)
+def plotSimilarityMatrix(sim = 'TFIDFCosin'):
+	actSimilarity_dict = utilise.SimilarityDict('ActItem',sim)
 	# print actSimilarity_dict
 	# print '\n'
 	a = similarityDict2array(actSimilarity_dict,0)
@@ -43,33 +43,33 @@ def plotSimilarityMatrix(dist = 'TFIDFCosin'):
 	plt.matshow(a)
 	pl.pcolor(a)
 	plt.colorbar()
-	plt.title('actSimilarityMatrix_'+dist)
-	plt.savefig('visSimilarityMatrix/actSimilarityMatrix_'+dist)
+	plt.title('actSimilarityMatrix_'+sim)
+	plt.savefig('visSimilarityMatrix/actSimilarityMatrix_'+sim)
 
-	dietSimilarity_dict = utilise.SimilarityDict('DietItem',dist)
+	dietSimilarity_dict = utilise.SimilarityDict('DietItem',sim)
 	# print dietSimilarity_dict
 	# print '\n'
 	a = similarityDict2array(dietSimilarity_dict,0)
 	plt.figure()
 	plt.matshow(a)
 	plt.colorbar()
-	plt.title('dietSimilarityMatrix_'+dist)
-	plt.savefig('visSimilarityMatrix/dietSimilarityMatrix_'+dist)
+	plt.title('dietSimilarityMatrix_'+sim)
+	plt.savefig('visSimilarityMatrix/dietSimilarityMatrix_'+sim)
 
-	actTypeSimilarity_dict = utilise.SimilarityDict('ActType',dist)
+	actTypeSimilarity_dict = utilise.SimilarityDict('ActType',sim)
 	a = similarityDict2array(actTypeSimilarity_dict,0)
 	plt.figure()
 	plt.matshow(a)
 	plt.colorbar()
-	plt.title('actTypeSimilarityMatrix_'+dist)
-	plt.savefig('visSimilarityMatrix/actTypeSimilarityMatrix_'+dist)
+	plt.title('actTypeSimilarityMatrix_'+sim)
+	plt.savefig('visSimilarityMatrix/actTypeSimilarityMatrix_'+sim)
 
-	dietTypeSimilarity_dict = utilise.SimilarityDict('DietType',dist)
+	dietTypeSimilarity_dict = utilise.SimilarityDict('DietType',sim)
 	a = similarityDict2array(dietTypeSimilarity_dict,0)
 	plt.figure()
 	plt.matshow(a)
 	plt.colorbar()
-	plt.title('dietTypeSimilarityMatrix_'+dist)
-	plt.savefig('visSimilarityMatrix/dietTypeSimilarityMatrix_'+dist)
+	plt.title('dietTypeSimilarityMatrix_'+sim)
+	plt.savefig('visSimilarityMatrix/dietTypeSimilarityMatrix_'+sim)
 
 # plotSimilarityMatrix('TFIDFCosin')

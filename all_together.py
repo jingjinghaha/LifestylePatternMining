@@ -35,29 +35,32 @@ visDietActPattern.visDietActPattern()
 # build excel table for the similarity between two users 
 # the parameter is to set the similarity measurement method, the default is TFIDFCosin
 # numberOfSameWord,jaccard,novelJaccard,TFIDFCosin,TFIDFEclud,TFCosin,TFEclud
-buildSimilarityTableExcel.buildSimilarityTableExcel(dist = 'jaccard')
-buildSimilarityTableExcel.buildSimilarityTableExcel(dist = 'novelJaccard')
-buildSimilarityTableExcel.buildSimilarityTableExcel(dist = 'TFIDFCosin')
-buildSimilarityTableExcel.buildSimilarityTableExcel(dist = 'TFIDFEclud')
-buildSimilarityTableExcel.buildSimilarityTableExcel(dist = 'TFCosin')
-buildSimilarityTableExcel.buildSimilarityTableExcel(dist = 'TFEclud')
+buildSimilarityTableExcel.buildSimilarityTableExcel(sim = 'jaccard')
+buildSimilarityTableExcel.buildSimilarityTableExcel(sim = 'novelJaccard')
+buildSimilarityTableExcel.buildSimilarityTableExcel(sim = 'TFCosin')
+buildSimilarityTableExcel.buildSimilarityTableExcel(sim = 'TFEclud')
+buildSimilarityTableExcel.buildSimilarityTableExcel(sim = 'TFIDFCosin')
+buildSimilarityTableExcel.buildSimilarityTableExcel(sim = 'TFIDFEclud')
+
 
 # visualization of similarity distribution (histogram)
 # the parameter is to set the similarity measurement method, the default is TFIDFCosin
 # numberOfSameWord,jaccard,novelJaccard,TFIDFCosin,TFIDFEclud,TFCosin,TFEclud
 visSimilarityDistribution.plotSimilarityDistribution('jaccard')
 visSimilarityDistribution.plotSimilarityDistribution('novelJaccard')
-visSimilarityDistribution.plotSimilarityDistribution('TFIDFCosin')
-visSimilarityDistribution.plotSimilarityDistribution('TFIDFEclud')
 visSimilarityDistribution.plotSimilarityDistribution('TFCosin')
 visSimilarityDistribution.plotSimilarityDistribution('TFEclud')
+visSimilarityDistribution.plotSimilarityDistribution('TFIDFCosin')
+visSimilarityDistribution.plotSimilarityDistribution('TFIDFEclud')
+
 
 # visualization of similarity matrix 
 # the parameter is to set the similarity measurement method, the default is TFIDFCosin
 # numberOfSameWord,jaccard,novelJaccard,TFIDFCosin,TFIDFEclud,TFCosin,TFEclud
 visSimilarityMat.plotSimilarityMatrix('jaccard')
 visSimilarityMat.plotSimilarityMatrix('novelJaccard')
-visSimilarityMat.plotSimilarityMatrix('TFIDFCosin')
-visSimilarityMat.plotSimilarityMatrix('TFIDFEclud')
 visSimilarityMat.plotSimilarityMatrix('TFCosin')
 visSimilarityMat.plotSimilarityMatrix('TFEclud')
+visSimilarityMat.plotSimilarityMatrix('TFIDFCosin')
+visSimilarityMat.plotSimilarityMatrix('TFIDFEclud')
+

@@ -13,12 +13,12 @@ import actTypeSimilarityTable
 # build excel table for the similarity between two users 
 # the parameter is to set the similarity measurement method, the default is TFIDFCosin
 # numberOfSameWord,jaccard,novelJaccard,TFIDFCosin,TFIDFEclud,TFCosin,TFEclud
-def buildSimilarityTableExcel(dist = 'TFIDFCosin'):
+def buildSimilarityTableExcel(sim = 'TFIDFCosin'):
 	# data visualization (table) for the diet Item similarity between two users
-	dietItemSimilarityTable.dietItemSimilarityTable(dist)
+	dietItemSimilarityTable.dietItemSimilarityTable(sim)
 	# build excel table for the activity Item similarity between two users
-	actItemSimilarityTable.actItemSimilarityTable(dist)
+	actItemSimilarityTable.actItemSimilarityTable(sim)
 	# build excel table for the diet type similarity between two users
-	dietTypeSimilarityTable.dietTypeSimilarityTable(dist)
+	dietTypeSimilarityTable.dietTypeSimilarityTable(sim)
 	# build excel table for the activity type similarity between two users
-	actTypeSimilarityTable.actTypeSimilarityTable(dist)
+	actTypeSimilarityTable.actTypeSimilarityTable(sim)

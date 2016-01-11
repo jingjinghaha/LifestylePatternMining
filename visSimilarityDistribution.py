@@ -23,37 +23,37 @@ def similarityDict2list(input_dict):
 	return list_temp
 
 
-def plotSimilarityDistribution(dist = 'TFIDFCosin'):
-	actSimilarity_dict = utilise.SimilarityDict('ActItem',dist)
+def plotSimilarityDistribution(sim = 'TFIDFCosin'):
+	actSimilarity_dict = utilise.SimilarityDict('ActItem',sim)
 	similarityList = similarityDict2list(actSimilarity_dict)
 	plt.figure()
 	plt.hist(similarityList)
-	plt.title('actSimilarityDistribution_'+dist)
+	plt.title('actSimilarityDistribution_'+sim)
 	plt.xlim(0.0,1.0)
-	plt.savefig('visSimilarityDistributionHist/actSimilarityDistribution_'+dist)
+	plt.savefig('visSimilarityDistributionHist/actSimilarityDistribution_'+sim)
 
-	dietSimilarity_dict = utilise.SimilarityDict('DietItem',dist)
+	dietSimilarity_dict = utilise.SimilarityDict('DietItem',sim)
 	similarityList = similarityDict2list(dietSimilarity_dict)
 	plt.figure()
 	plt.hist(similarityList)
-	plt.title('dietSimilarityDistribution_'+dist)
+	plt.title('dietSimilarityDistribution_'+sim)
 	plt.xlim(0.0,1.0)
-	plt.savefig('visSimilarityDistributionHist/dietSimilarityDistribution_'+dist)
+	plt.savefig('visSimilarityDistributionHist/dietSimilarityDistribution_'+sim)
 
-	actTypeSimilarity_dict = utilise.SimilarityDict('ActType',dist)
+	actTypeSimilarity_dict = utilise.SimilarityDict('ActType',sim)
 	similarityList = similarityDict2list(actTypeSimilarity_dict)
 	plt.figure()
 	plt.hist(similarityList)
-	plt.title('actTypeSimilarityDistribution_'+dist)
+	plt.title('actTypeSimilarityDistribution_'+sim)
 	plt.xlim(0.0,1.0)
-	plt.savefig('visSimilarityDistributionHist/actTypeSimilarityDistribution_'+dist)
+	plt.savefig('visSimilarityDistributionHist/actTypeSimilarityDistribution_'+sim)
 
-	dietTypeSimilarity_dict = utilise.SimilarityDict('DietType',dist)
+	dietTypeSimilarity_dict = utilise.SimilarityDict('DietType',sim)
 	similarityList = similarityDict2list(dietTypeSimilarity_dict)
 	plt.figure()
 	plt.hist(similarityList)
-	plt.title('dietTypeSimilarityDistribution_'+dist)
+	plt.title('dietTypeSimilarityDistribution_'+sim)
 	plt.xlim(0.0,1.0)
-	plt.savefig('visSimilarityDistributionHist/dietTypeSimilarityDistribution_'+dist)
+	plt.savefig('visSimilarityDistributionHist/dietTypeSimilarityDistribution_'+sim)
 
 # plotSimilarityDistribution('TFIDFCosin')
