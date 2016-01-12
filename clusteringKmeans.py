@@ -12,9 +12,9 @@ import numpy as np
 import utilise
 
 Domain = ['DietItem','ActItem','DietType','ActType']
-# metric: TF, TFIDF
-metric = 'TF'
-for domain in Domain:
+Metric = ['TF','TFIDF']
+
+def KM(domain, metric):
 	if metric == 'TF':
 		if domain == 'DietItem':
 			X = utilise.genDietItemTFArray()
@@ -43,11 +43,15 @@ for domain in Domain:
 	# print('Estimated number of clusters: %d' % n_clusters_)
 
 	range_n_clusters = [2, 3, 4, 5, 6]
-
+	# range_n_clusters = [6]
 	for n_clusters in range_n_clusters:
 		reduced_data = PCA(n_components=2).fit_transform(X)
+		# print X
+		# print reduced_data
 		kmeans = KMeans(init='k-means++', n_clusters=n_clusters, n_init=10)
 		kmeans.fit(reduced_data)
+		inertia = kmeans.inertia_
+		print domain,metric,inertia
 
 		# Step size of the mesh. Decrease to increase the quality of the VQ.
 		h = .02     # point in the mesh [x_min, m_max]x[y_min, y_max].
@@ -62,20 +66,26 @@ for domain in Domain:
 
 		# Put the result into a color plot
 		Z = Z.reshape(xx.shape)
+
 		plt.figure()
+		labels = kmeans.labels_
+		# print labels
 		plt.imshow(Z, interpolation='nearest',
 				   extent=(xx.min(), xx.max(), yy.min(), yy.max()),
 				   cmap=plt.cm.Paired,
 				   aspect='auto', origin='lower')
-
 		plt.plot(reduced_data[:, 0], reduced_data[:, 1], 'k.', markersize=2)
+		for i in range(reduced_data.shape[0]):
+			plt.text(reduced_data[i, 0], reduced_data[i, 1],i)
+
 		# Plot the centroids as a white X
 		centroids = kmeans.cluster_centers_
 		plt.scatter(centroids[:, 0], centroids[:, 1],
-					marker='x', s=169, linewidths=3,
+					marker='x', s=100, linewidths=2,
 					color='w', zorder=10)
 		plt.title('K-means clustering (PCA-reduced data)\n'
 				  'Centroids are marked with white cross')
+
 		plt.xlim(x_min, x_max)
 		plt.ylim(y_min, y_max)
 		plt.xticks(())
@@ -83,3 +93,9 @@ for domain in Domain:
 		plt.savefig('VisClustering'+domain+'Pattern/KMeans_'+metric+'_'+str(n_clusters))
 		# plt.show()
 		
+
+for domain in Domain:
+	for metric in Metric:
+		KM(domain, metric)
+
+# KM('ActItem', 'TFIDF')
