@@ -33,6 +33,7 @@ def KM(domain, metric):
 			X = utilise.DietTypeTfidfArray()
 		elif domain == 'ActType':
 			X = utilise.ActTypeTfidfArray()
+	X = utilise.normArray(X)
 
 	# af = KMeans().fit(X)
 	# cluster_centers = af.cluster_centers_
@@ -69,7 +70,7 @@ def KM(domain, metric):
 
 		plt.figure()
 		labels = kmeans.labels_
-		# print labels
+		print labels
 		plt.imshow(Z, interpolation='nearest',
 				   extent=(xx.min(), xx.max(), yy.min(), yy.max()),
 				   cmap=plt.cm.Paired,
@@ -94,8 +95,8 @@ def KM(domain, metric):
 		# plt.show()
 		
 
-for domain in Domain:
-	for metric in Metric:
-		KM(domain, metric)
+# for domain in Domain:
+	# for metric in Metric:
+		# KM(domain, metric)
 
-# KM('ActItem', 'TFIDF')
+KM('ActItem', 'TFIDF')

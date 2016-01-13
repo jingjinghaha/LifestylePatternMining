@@ -9,7 +9,6 @@ from sklearn.cluster import AffinityPropagation
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 from itertools import cycle
-import numpy as np
 import visSimilarityMat
 import utilise
 
@@ -19,7 +18,7 @@ Domain = ['DietItem','ActItem','DietType','ActType']
 Sim = ['jaccard','novelJaccard','TFCosin','TFEclud','TFIDFCosin','TFIDFEclud']
 
 def AP(domain, sim):
-	dietSimilarity_dict = {}
+	Similarity_dict = {}
 	if domain == 'DietItem':
 		Similarity_dict = utilise.SimilarityDict(domain,sim)
 	elif domain == 'ActItem':
@@ -35,7 +34,7 @@ def AP(domain, sim):
 	# print cluster_centers_indices
 	# print type(cluster_centers_indices)
 	labels = af.labels_
-	# print labels
+	print domain,sim,labels
 	# print type(labels)
 	n_clusters_ = len(cluster_centers_indices)
 	# print('Estimated number of clusters: %d' % n_clusters_)

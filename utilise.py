@@ -131,14 +131,16 @@ def genActTypeTFArray():
 
 def DietItemTfidfArray():
 	counts = genDietItemTFArray()
-	transformer = TfidfTransformer()
+	transformer = TfidfTransformer(norm=None)
+	# transformer = TfidfTransformer()
 	tfidf = transformer.fit_transform(counts)
 	aa = tfidf.toarray()
 	return aa
 
 def DietTypeTfidfArray():
 	counts = genDietTypeTFArray()
-	transformer = TfidfTransformer()
+	transformer = TfidfTransformer(norm=None)
+	# transformer = TfidfTransformer()
 	tfidf = transformer.fit_transform(counts)
 	aa = tfidf.toarray()
 	return aa
@@ -146,14 +148,16 @@ def DietTypeTfidfArray():
 def ActItemTfidfArray():
 	counts = genActItemTFArray()
 	# print counts
-	transformer = TfidfTransformer()
+	transformer = TfidfTransformer(norm=None)
+	# transformer = TfidfTransformer()
 	tfidf = transformer.fit_transform(counts)
 	aa = tfidf.toarray()
 	return aa
 
 def ActTypeTfidfArray():
 	counts = genActTypeTFArray()
-	transformer = TfidfTransformer()
+	transformer = TfidfTransformer(norm=None)
+	# transformer = TfidfTransformer()
 	tfidf = transformer.fit_transform(counts)
 	aa = tfidf.toarray()
 	return aa
@@ -222,13 +226,13 @@ def TFIDFCosin(domain):
 	similarity_dict = {}
 	similarity = 0
 	if domain == 'ActItem':
-		tfidf = ActItemTfidfArray()
+		tfidf = normArray(ActItemTfidfArray())
 	elif domain == 'DietItem':
-		tfidf = DietItemTfidfArray()
+		tfidf = normArray(DietItemTfidfArray())
 	elif domain == 'DietType':
-		tfidf = DietTypeTfidfArray()
+		tfidf = normArray(DietTypeTfidfArray())
 	elif domain == 'ActType':
-		tfidf = ActTypeTfidfArray()
+		tfidf = normArray(ActTypeTfidfArray())
 	x = tfidf.shape[0]
 	for i in range(x):
 		similarity_dict[i] = {}
@@ -244,13 +248,13 @@ def TFIDFEclud(domain):
 	similarity_dict = {}
 	similarity = 0
 	if domain == 'ActItem':
-		tfidf = ActItemTfidfArray()
+		tfidf = normArray(ActItemTfidfArray())
 	elif domain == 'DietItem':
-		tfidf = DietItemTfidfArray()
+		tfidf = normArray(DietItemTfidfArray())
 	elif domain == 'DietType':
-		tfidf = DietTypeTfidfArray()
+		tfidf = normArray(DietTypeTfidfArray())
 	elif domain == 'ActType':
-		tfidf = ActTypeTfidfArray()
+		tfidf = normArray(ActTypeTfidfArray())
 	x = tfidf.shape[0]
 	for i in range(x):
 		similarity_dict[i] = {}
@@ -273,6 +277,7 @@ def TFCosin(domain):
 		tf = genDietTypeTFArray()
 	elif domain == 'ActType':
 		tf = genActTypeTFArray()
+	tf = normArray(tf)
 	x = tf.shape[0]
 	for i in range(x):
 		similarity_dict[i] = {}
@@ -295,6 +300,7 @@ def TFEclud(domain):
 		tf = genDietTypeTFArray()
 	elif domain == 'ActType':
 		tf = genActTypeTFArray()
+	tf = normArray(tf)
 	x = tf.shape[0]
 	for i in range(x):
 		similarity_dict[i] = {}
@@ -351,3 +357,12 @@ def SimilarityDict(domain,sim = 'TFIDFCosin'):
 			i += 1
 	# print Similarity_dict
 	return Similarity_dict
+
+def normVec(vec):
+	abs = np.sqrt(sum(np.power(vec,2)))
+	return vec/abs
+
+def normArray(array):
+	for j in range(array.shape[0]):
+		array[j] = normVec(array[j])
+	return array

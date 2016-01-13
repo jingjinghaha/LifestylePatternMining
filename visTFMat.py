@@ -9,28 +9,30 @@ import utilise
 import matplotlib.pyplot as plt
 
 def visTFMatrix():
-	tf = utilise.genActItemTFArray()
+	tf = utilise.normArray(utilise.genActItemTFArray())
+	print tf
 	plt.figure()
 	plt.matshow(tf)
 	plt.colorbar()
 	plt.title('actTFMatrix')
 	plt.savefig('visTForTFIDFMatrix/actTFMatrix')
 	
-	tf = utilise.genDietItemTFArray()
+	tf = utilise.normArray(utilise.genDietItemTFArray())
+	print tf
 	plt.figure()
 	plt.matshow(tf)
 	plt.colorbar()
 	plt.title('dietTFMatrix')
 	plt.savefig('visTForTFIDFMatrix/dietTFMatrix')
 	
-	tf = utilise.genDietTypeTFArray()
+	tf = utilise.normArray(utilise.genDietTypeTFArray())
 	plt.figure()
 	plt.matshow(tf)
 	plt.colorbar()
 	plt.title('dietTypeTFMatrix')
 	plt.savefig('visTForTFIDFMatrix/dietTypeTFMatrix')
 	
-	tf = utilise.genActTypeTFArray()
+	tf = utilise.normArray(utilise.genActTypeTFArray())
 	plt.figure()
 	plt.matshow(tf)
 	plt.colorbar()
