@@ -35,14 +35,6 @@ def KM(domain, metric):
 			X = utilise.ActTypeTfidfArray()
 	X = utilise.normArray(X)
 
-	# af = KMeans().fit(X)
-	# cluster_centers = af.cluster_centers_
-	# print cluster_centers
-	# labels = af.labels_
-	# print labels
-	# n_clusters_ = len(cluster_centers)
-	# print('Estimated number of clusters: %d' % n_clusters_)
-
 	# range_n_clusters = [2, 3, 4, 5, 6]
 	range_n_clusters = [5]
 	
