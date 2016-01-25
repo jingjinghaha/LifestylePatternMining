@@ -35,7 +35,7 @@ def KM(domain, metric):
 			X = utilise.ActTypeTfidfArray()
 	X = utilise.normArray(X)
 	
-	range_n_clusters = [4]
+	range_n_clusters = [5]
 	for n_clusters in range_n_clusters:
 		# fw = open('labels_KMeans_'+domain+'_'+str(n_clusters)+'.txt','w')
 		reduced_data = PCA(n_components=2).fit_transform(X)
@@ -68,13 +68,35 @@ def KM(domain, metric):
 				sumVec += x 
 			meanVec = sumVec/i 
 			meanVec.tolist()
-			print np.max(meanVec)
-			x = range(X.shape[1])
 			
-			plt.plot(x,meanVec[0])
+			firstMax = np.max(meanVec[0])
+			print firstMax
+			tempVec = np.copy(meanVec)
 			for j in range(X.shape[1]):
-				if meanVec[0,j] == np.max(meanVec):
+				if tempVec[0,j] == firstMax:
+					tempVec[0,j] = 0
+			secondMax = np.max(tempVec[0])
+			print secondMax
+			tempVec2 = np.copy(tempVec)
+			for j in range(X.shape[1]):
+				if tempVec2[0,j]==secondMax:
+					tempVec2[0,j] = 0
+			thirdMax = np.max(tempVec2[0])
+			print thirdMax
+
+			
+			x = range(X.shape[1])
+			plt.title(domain+'_KMeans_'+str(n_clusters))
+			plt.plot(x,meanVec[0])
+			print meanVec[0]
+			for j in range(X.shape[1]):
+				# if meanVec[0,j] == firstMax:
+				if meanVec[0,j] == firstMax or meanVec[0,j] == secondMax:
+				# if meanVec[0,j] == firstMax or meanVec[0,j] == secondMax or meanVec[0,j] == thirdMax:
+					print row_labels[j]
+					print meanVec[0,j]
 					plt.text(x[j],meanVec[0,j],row_labels[j])
+
 		# print row_labels
 		#plt.xlabel(row_labels)
 		plt.savefig('VisClustering'+domain+'Pattern/KMeans_'+metric+'_'+str(n_clusters)+'_groupFreq')
@@ -83,4 +105,4 @@ for domain in Domain:
 	for metric in Metric:
 		KM(domain, metric)
 
-# KM('ActItem', 'TFIDF')
+KM('ActItem', 'TFIDF')
