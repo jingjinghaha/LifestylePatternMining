@@ -68,27 +68,30 @@ def KM(domain, metric):
 				sumVec += x 
 			meanVec = sumVec/i 
 			meanVec.tolist()
+			# totalSum = np.sum(meanVec[0])
+			# print totalSum
+			# meanVec = meanVec/totalSum
 			
 			firstMax = np.max(meanVec[0])
-			print firstMax
+			# print firstMax
 			tempVec = np.copy(meanVec)
 			for j in range(X.shape[1]):
 				if tempVec[0,j] == firstMax:
 					tempVec[0,j] = 0
 			secondMax = np.max(tempVec[0])
-			print secondMax
+			# print secondMax
 			tempVec2 = np.copy(tempVec)
 			for j in range(X.shape[1]):
 				if tempVec2[0,j]==secondMax:
 					tempVec2[0,j] = 0
 			thirdMax = np.max(tempVec2[0])
-			print thirdMax
+			# print thirdMax
 
 			
 			x = range(X.shape[1])
 			plt.title(domain+'_KMeans_'+str(n_clusters))
 			plt.plot(x,meanVec[0])
-			print meanVec[0]
+			# print meanVec[0]
 			for j in range(X.shape[1]):
 				# if meanVec[0,j] == firstMax:
 				if meanVec[0,j] == firstMax or meanVec[0,j] == secondMax:
@@ -100,6 +103,9 @@ def KM(domain, metric):
 		# print row_labels
 		#plt.xlabel(row_labels)
 		plt.savefig('VisClustering'+domain+'Pattern/KMeans_'+metric+'_'+str(n_clusters)+'_groupFreq')
+
+def test(domain,metric):
+	ll = ['5','20','26']
 
 for domain in Domain:
 	for metric in Metric:
