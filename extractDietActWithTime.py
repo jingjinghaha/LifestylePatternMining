@@ -29,33 +29,35 @@ def extract_act_diet_with_time(subjectID):
 		date = temp_date 
 		#print date
 		#print type(sheet.cell_value(row,0))
-		if sheet.cell_value(row,1):
-			start_time = sheet.cell_value(row,1)
-		else:
-			if sheet.cell_value(row,2):
-				start_time = sheet.cell_value(row,2)
-			else: 
-				start_time = 0
-		if sheet.cell_value(row,2):
-			end_time = sheet.cell_value(row,2)
-		else:
-			if sheet.cell_value(row,1):
-				end_time = sheet.cell_value(row,1)
-			else: 
-				end_time = 0
+		
+		# if sheet.cell_value(row,1):
+			# start_time = sheet.cell_value(row,1)
+		# else:
+			# if sheet.cell_value(row,2):
+				# start_time = sheet.cell_value(row,2)
+			# else: 
+				# start_time = 0
+		# if sheet.cell_value(row,2):
+			# end_time = sheet.cell_value(row,2)
+		# else:
+			# if sheet.cell_value(row,1):
+				# end_time = sheet.cell_value(row,1)
+			# else: 
+				# end_time = 0
+		
 		# print start_time
 		# print type(start_time)
 		# print end_time
 		# print type(end_time)
-		duration = end_time - start_time 
+		# duration = end_time - start_time 
 		# print duration 
 		if sheet.cell_value(row, 3):
 			temp_diet = str(sheet.cell_value(row, 3).encode('utf-8'))
-			f_act.write("%-8s%-8s%-8s%-8s%s"%(date,start_time,end_time,duration,temp_diet))
+			f_act.write("%-12s%s"%(date,temp_diet))
 			f_act.write('\n')
 		if sheet.cell_value(row, 4):
 			temp_act = str(sheet.cell_value(row, 4))
-			f_diet.write("%-8s%-8s%-8s%-8s%s"%(date,start_time,end_time,duration,temp_act))
+			f_diet.write("%-12s%s"%(date,temp_act))
 			f_diet.write('\n')
 
 
