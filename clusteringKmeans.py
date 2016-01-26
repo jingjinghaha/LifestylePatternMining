@@ -36,7 +36,7 @@ def KM(domain, metric):
 	X = utilise.normArray(X)
 
 	# range_n_clusters = [2, 3, 4, 5, 6]
-	range_n_clusters = [3]
+	range_n_clusters = [5]
 	
 	for n_clusters in range_n_clusters:
 		# fw = open('labels_KMeans_'+domain+'_'+str(n_clusters)+'.txt','w')
@@ -104,8 +104,11 @@ def KM(domain, metric):
 			# plt.show()
 		
 
+# for domain in Domain:
+# 	for metric in Metric:
+# 		KM(domain, metric)
+
 for domain in Domain:
-	for metric in Metric:
-		KM(domain, metric)
+		KM(domain, 'TFIDF')
 
 # KM('ActItem', 'TFIDF')

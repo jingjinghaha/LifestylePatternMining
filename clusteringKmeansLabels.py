@@ -203,7 +203,7 @@ def test(domain,n_clusters):
 
 for domain in Domain:
 	print domain
-	test(domain,3)
+	test(domain,5)
 
 # test('DietItem',4)
 # KM('ActItem', 'TFIDF')
