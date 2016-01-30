@@ -9,7 +9,7 @@ import xlrd
 
 available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
 
-#extract diet and activity information from the xlsx files
+#extract total diet and activity information of each subject
 def extract_act_diet(subjectID):
 	file_location = 'subject_template_'+subjectID+'.xlsx'
 	workbook = xlrd.open_workbook(file_location)
@@ -43,6 +43,7 @@ def extract_act_diet(subjectID):
 	f_act.close()
 	f_diet.close()
 
+#extract diet and activity information from the xlsx files
 def extractDietAct():
 	print 'in extractDietAct()'
 	# extract_act_diet_with_time('039')

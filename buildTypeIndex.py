@@ -7,8 +7,9 @@ Created on Mon Nov 23 14:24:53 2015
 from nltk import wordpunct_tokenize
 import dietType
 import actType
-
-#build the diet type index for single user
+'''
+build the diet type index for single user
+'''
 def build_single_diet_index(subjectID):
 	singleDietType_dict = {}
 	for line in open('dietItemFreq/diet_frequency_'+subjectID+'.txt','r'):
@@ -28,8 +29,9 @@ def build_single_diet_index(subjectID):
 			singleDietType_dict[diettype] = temp
 			# print singleDietType_dict[diettype]
 	return singleDietType_dict
-
-#build the activity type index for single user
+'''
+build the activity type index for single user
+'''
 def build_single_activity_index(subjectID):
 	singleActType_dict = {}
 	for line in open('activityItemFreq/activity_frequency_'+subjectID+'.txt','r'):

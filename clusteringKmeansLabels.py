@@ -104,7 +104,7 @@ def KM(domain, metric):
 		#plt.xlabel(row_labels)
 		plt.savefig('VisClustering'+domain+'Pattern/KMeans_'+metric+'_'+str(n_clusters)+'_groupFreq')
 
-def test(domain,n_clusters):
+def bestLabel(domain,n_clusters):
 	if domain == 'DietItem':
 		X = utilise.DietItemTfidfArray()
 	elif domain == 'ActItem':
@@ -187,8 +187,8 @@ def test(domain,n_clusters):
 		# print meanVec[0]
 		for j in range(X.shape[1]):
 			# if meanVec[0,j] == firstMax:
-			if meanVec[0,j] == firstMax or meanVec[0,j] == secondMax:
-			# if meanVec[0,j] == firstMax or meanVec[0,j] == secondMax or meanVec[0,j] == thirdMax:
+			# if meanVec[0,j] == firstMax or meanVec[0,j] == secondMax:
+			if meanVec[0,j] == firstMax or meanVec[0,j] == secondMax or meanVec[0,j] == thirdMax:
 				print row_labels[j]
 				print meanVec[0,j]
 				plt.text(x[j],meanVec[0,j],row_labels[j])
@@ -203,7 +203,7 @@ def test(domain,n_clusters):
 
 for domain in Domain:
 	print domain
-	test(domain,5)
+	bestLabel(domain,5)
 
 # test('DietItem',4)
 # KM('ActItem', 'TFIDF')

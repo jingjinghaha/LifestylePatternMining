@@ -36,7 +36,7 @@ def KM(domain, metric):
 	X = utilise.normArray(X)
 
 	# range_n_clusters = [2, 3, 4, 5, 6]
-	range_n_clusters = [4]
+	range_n_clusters = [3]
 	
 	for n_clusters in range_n_clusters:
 		# fw = open('labels_KMeans_'+domain+'_'+str(n_clusters)+'.txt','w')
@@ -45,7 +45,7 @@ def KM(domain, metric):
 			# print X
 			# print reduced_data
 			kmeans = KMeans(init='k-means++', n_clusters=n_clusters, n_init=10)
-			kmeans.fit(X)
+			kmeans.fit(reduced_data)
 			inertia = kmeans.inertia_
 			print domain,metric,inertia
 			labels = kmeans.labels_
@@ -67,50 +67,45 @@ def KM(domain, metric):
 				# plt.figure()
 				# plt.plot(range(X.shape[1]),meanVec)
 
-			# # Step size of the mesh. Decrease to increase the quality of the VQ.
-			# h = .02     # point in the mesh [x_min, m_max]x[y_min, y_max].
+			# Step size of the mesh. Decrease to increase the quality of the VQ.
+			h = .02     # point in the mesh [x_min, m_max]x[y_min, y_max].
 
-			# # Plot the decision boundary. For that, we will assign a color to each
-			# x_min, x_max = reduced_data[:, 0].min() - 1, reduced_data[:, 0].max() + 1
-			# y_min, y_max = reduced_data[:, 1].min() - 1, reduced_data[:, 1].max() + 1
-			# xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
+			# Plot the decision boundary. For that, we will assign a color to each
+			x_min, x_max = reduced_data[:, 0].min() - 1, reduced_data[:, 0].max() + 1
+			y_min, y_max = reduced_data[:, 1].min() - 1, reduced_data[:, 1].max() + 1
+			xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
 
-			# # Obtain labels for each point in mesh. Use last trained model.
-			# Z = kmeans.predict(np.c_[xx.ravel(), yy.ravel()])
-			# # Put the result into a color plot
-			# Z = Z.reshape(xx.shape)
-			# plt.figure()
-			# plt.imshow(Z, interpolation='nearest',
-			# 		   extent=(xx.min(), xx.max(), yy.min(), yy.max()),
-			# 		   cmap=plt.cm.Paired,
-			# 		   aspect='auto', origin='lower')
-			# plt.plot(reduced_data[:, 0], reduced_data[:, 1], 'k.', markersize=2)
-			# for i in range(reduced_data.shape[0]):
-			# 	plt.text(reduced_data[i, 0], reduced_data[i, 1],i)
+			# Obtain labels for each point in mesh. Use last trained model.
+			Z = kmeans.predict(np.c_[xx.ravel(), yy.ravel()])
+			# Put the result into a color plot
+			Z = Z.reshape(xx.shape)
+			plt.figure()
+			plt.imshow(Z, interpolation='nearest',
+					   extent=(xx.min(), xx.max(), yy.min(), yy.max()),
+					   cmap=plt.cm.Paired,
+					   aspect='auto', origin='lower')
+			plt.plot(reduced_data[:, 0], reduced_data[:, 1], 'k.', markersize=2)
+			for i in range(reduced_data.shape[0]):
+				plt.text(reduced_data[i, 0], reduced_data[i, 1],i)
 
-			# # Plot the centroids as a white X
-			# centroids = kmeans.cluster_centers_
-			# plt.scatter(centroids[:, 0], centroids[:, 1],
-			# 			marker='x', s=100, linewidths=2,
-			# 			color='w', zorder=10)
-			# # plt.title('K-means clustering (PCA-reduced data)\n'
-			# 		  # 'Centroids are marked with white cross')
-			# plt.title('K-means clustering \n'
-			# 		  'Centroids are marked with white cross')
+			# Plot the centroids as a white X
+			centroids = kmeans.cluster_centers_
+			plt.scatter(centroids[:, 0], centroids[:, 1],
+						marker='x', s=100, linewidths=2,
+						color='w', zorder=10)
+			plt.title('K-means clustering (PCA-reduced data)\n'
+					  'Centroids are marked with white cross')
 
-			# plt.xlim(x_min, x_max)
-			# plt.ylim(y_min, y_max)
-			# plt.xticks(())
-			# plt.yticks(())
-			# plt.savefig('VisClustering'+domain+'Pattern/KMeans_'+metric+'_'+str(n_clusters)+'_'+str(j))
-			# # plt.show()
+			plt.xlim(x_min, x_max)
+			plt.ylim(y_min, y_max)
+			plt.xticks(())
+			plt.yticks(())
+			plt.savefig('VisClustering'+domain+'Pattern/KMeans_'+metric+'_'+str(n_clusters)+'_'+str(j))
+			# plt.show()
 		
 
-# for domain in Domain:
-# 	for metric in Metric:
-# 		KM(domain, metric)
-
 for domain in Domain:
-		KM(domain, 'TFIDF')
+	for metric in Metric:
+		KM(domain, metric)
 
 # KM('ActItem', 'TFIDF')
