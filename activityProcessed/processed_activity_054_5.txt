@@ -1,0 +1,5 @@
+['sleep', 'friends', 'place']
+['clean']
+['shop']
+['cook']
+['chill']

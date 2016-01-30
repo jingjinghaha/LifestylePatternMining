@@ -1,0 +1,43 @@
+41953.0     sultana
+41953.0     pumpkin soup and crackers
+41954.0     two sandwiches cheese and sprinkles
+41954.0     two sandwiches cheese
+41954.0     zucchini soup, sandwich, goat cheese and dates
+41955.0     coffee and fried egg
+41955.0     sandwich
+41955.0     two sandwiches
+41955.0     stultana
+41955.0     spaghetti, spinach, chocolade ice cream
+41956.0     two sandwiches and coffee
+41956.0     three sandwiches apple syrup
+41956.0     risotto, goat cheese, mushrooms, tomato, mozzarella, ice cream
+41957.0     two sandwiches sprinkles, coffee
+41957.0     three sandwiches apple syrup
+41957.0     8 beer
+41958.0     taco with vegetarian meat
+41959.0     sandwich cheese and sprinkles
+41959.0     salad, sandwich, ice cream
+41960.0     two sandwiches with sprinkles
+41960.0     three sandwiches apple syrup
+41960.0     quiche with goatcheese, spinach and tomato
+41961.0     two sandwiches sprinkles
+41961.0     three sandwiches with tuna
+41961.0     sultana
+41961.0     sultana
+41961.0     pumpkin soup and crackers
+41961.0     one glas wine
+41962.0     sandwich, croissant, egg and coffee
+41962.0     three sandwiches with cheese
+41963.0     two sandwiches sprinkles, coffee
+41963.0     three sandwiches with cheese
+41963.0     salmon, patatoe, salad
+41964.0     sandwich with two eggs
+41964.0     three sandwiches with cheese
+41964.0     salad and veggie burger
+41965.0     sandwich cheese and sprinkles
+41965.0     soup and bread
+41965.0     salad
+41966.0     sandwich cheese and sprinkles
+41966.0     sandwich cheese and sprinkles
+41966.0     fondue
+41964.0     sandwich with cheese

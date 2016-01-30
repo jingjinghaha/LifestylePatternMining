@@ -1,0 +1,16 @@
+'rice'                   1         
+'chicken'                1         
+'soup'                   1         
+'sugar'                  2         
+'wine'                   1         
+'spinach'                1         
+'pudding'                1         
+'tomato'                 1         
+'feta'                   1         
+'muesli'                 1         
+'butter'                 1         
+'milk'                   1         
+'pasta'                  1         
+'bread'                  1         
+'coffee'                 1         
+'courgette'              1         

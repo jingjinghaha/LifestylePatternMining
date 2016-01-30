@@ -1,0 +1,6 @@
+['cycle', 'charge']
+['study', 'dish']
+['exam']
+['watch', 'tv']
+['cook', 'diner']
+['cycle']

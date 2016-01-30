@@ -1,0 +1,4 @@
+'work'                   2         
+'computer'               2         
+'behind'                 2         
+'lunch'                  1         

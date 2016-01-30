@@ -1,0 +1,8 @@
+['shower']
+['walk', 'dog']
+['university', 'bus']
+['bus']
+['walk', 'dog']
+['jacuzzi']
+['watch', 'tv']
+['sleep']

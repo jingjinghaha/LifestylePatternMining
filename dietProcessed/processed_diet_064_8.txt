@@ -1,0 +1,3 @@
+['egg', 'champignon', 'salami']
+['potato', 'chicken', 'broccoli']
+['potato', 'chicken', 'broccoli']

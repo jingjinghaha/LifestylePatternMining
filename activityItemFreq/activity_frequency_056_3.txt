@@ -1,0 +1,7 @@
+'test'                   1         
+'sleep'                  1         
+'babysitting'            1         
+'car'                    2         
+'study'                  1         
+'drive'                  2         
+'charge'                 1         

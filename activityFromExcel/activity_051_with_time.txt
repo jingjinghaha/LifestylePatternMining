@@ -1,0 +1,137 @@
+41956.0     taking the train
+41956.0     Walking
+41956.0     cycling
+41956.0     study
+41956.0     watching tv
+41956.0     Sleep
+41957.0     getting up
+41957.0     driving lessons
+41957.0     shower
+41957.0     study
+41957.0     cycling
+41957.0     taking the train
+41957.0     shopping
+41957.0     taking the train
+41957.0     driving car
+41957.0     waiting 
+41957.0     laserquesten (forgot the phone)
+41957.0     walking
+41957.0     going out
+41957.0     taking the bus
+41957.0     watching tv
+41957.0     sleep (not at home)
+41958.0     shower
+41958.0     taking the car
+41958.0     taking the train
+41958.0     work
+41958.0     cycling
+41958.0     sleep
+41959.0     shower
+41959.0     study
+41959.0     cycling 
+41959.0     driving car
+41959.0     taking the train
+41959.0     driving car
+41959.0     study
+41959.0     sleep
+41960.0     taking the bus
+41960.0     taking the train
+41960.0     taking the bus
+41960.0     school
+41960.0     taking the train
+41960.0     taking the bus
+41960.0     cycling 
+41960.0     sitting
+41960.0     walking with the dog
+41960.0     study
+41960.0     taking a bad
+41960.0     sleep
+41961.0     taking the bus
+41961.0     taking the train
+41961.0     taking the bus
+41961.0     school
+41961.0     taking the train
+41961.0     taking the bus
+41961.0     cycling
+41961.0     sitting
+41961.0     walking with the dog
+41961.0     study
+41961.0     taking a bad
+41961.0     sleep
+41962.0     cycling
+41962.0     taking the train
+41962.0     walking
+41962.0     study
+41962.0     study
+41962.0     walking
+41962.0     taking the train
+41962.0     cycling
+41962.0     shopping
+41962.0     cycling
+41962.0     watching tv
+41962.0     computer 
+41962.0     sleep
+41963.0     cycling
+41963.0     taking the train
+41963.0     taking the bus
+41963.0     taking the train
+41963.0     city
+41963.0     cycling 
+41963.0     study
+41963.0     watching tv
+41963.0     sleep
+41964.0     cycling 
+41964.0     taking the train
+41964.0     taking the bus
+41964.0     study
+41964.0     walking
+41964.0     taking the train
+41964.0     driving lessons
+41964.0     cycling 
+41964.0     fix bicycle
+41964.0     study
+41964.0     sleep
+41965.0     cleaning room
+41965.0     cycling 
+41965.0     work
+41965.0     cycling 
+41965.0     taking the train
+41965.0     taking the bus
+41965.0     watching tv
+41965.0     sleep
+41966.0     shower
+41966.0     taking the bus
+41966.0     taking the train
+41966.0     driving car
+41966.0     watching tv
+41966.0     sleep
+41967.0     cycling 
+41967.0     driving car
+41967.0     lesson
+41967.0     driving car
+41967.0     lesson
+41967.0     driving car
+41967.0     cycling 
+41967.0     study
+41967.0     study
+41967.0     watching tv
+41967.0     sleep
+41968.0     driving lessons
+41968.0     cycling 
+41968.0     taking the bus
+41968.0     taking the train
+41968.0     taking the bus
+41968.0     lesson
+41968.0     driving car
+41968.0     cycling 
+41968.0     fix bicycle
+41968.0     study
+41968.0     shower
+41968.0     sleep 
+41969.0     cycling
+41969.0     taking the train
+41969.0     taking the bus
+41969.0     lesson
+41969.0     study
+41969.0     lesson
+41969.0     taking the train

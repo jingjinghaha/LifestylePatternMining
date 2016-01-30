@@ -1,0 +1,13 @@
+'walk'                   1         
+'shower'                 1         
+'car'                    2         
+'jacuzzi'                1         
+'run'                    1         
+'phone'                  1         
+'sleep'                  1         
+'exam'                   1         
+'drive'                  2         
+'shop'                   1         
+'forbid'                 1         
+'dog'                    1         
+'study'                  1         

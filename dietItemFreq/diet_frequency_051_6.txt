@@ -1,0 +1,6 @@
+'rice'                   1         
+'ginger'                 1         
+'cookie'                 1         
+'meat'                   1         
+'bread'                  2         
+'sauerkraut'             1         

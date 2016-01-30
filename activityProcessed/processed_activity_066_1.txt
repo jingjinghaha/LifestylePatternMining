@@ -1,0 +1,6 @@
+['drive', 'car']
+['visit']
+['drive', 'car']
+['cook']
+['bed']
+['charge']

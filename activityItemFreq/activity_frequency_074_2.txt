@@ -1,0 +1,10 @@
+'sleep'                  1         
+'move'                   5         
+'call'                   1         
+'phone'                  1         
+'pack'                   1         
+'car'                    3         
+'new'                    1         
+'drive'                  3         
+'stuf'                   1         
+'home'                   1         

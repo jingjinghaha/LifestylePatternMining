@@ -1,0 +1,169 @@
+41953.0     study
+41953.0     workout, HIT
+41953.0     cycling
+41953.0     coocking and diner
+41953.0     study
+41953.0     shower and cleaning
+41953.0     sleep
+41954.0     getting up and breakfast
+41954.0     cycling
+41954.0     study
+41954.0     cycling
+41954.0     cycling
+41954.0     lecture at uni
+41954.0     cycling
+41954.0     study
+41954.0     sleep
+41955.0     getting up and breakfast
+41955.0     cycling
+41955.0     study
+41955.0     driving lessons
+41955.0     cycling
+41955.0     reading
+41955.0     shopping and coocking
+41955.0     dishes and cleaning
+41955.0     study
+41955.0     shower
+41955.0     reading
+41955.0     sleep
+41956.0     getting up and breakfast
+41956.0     cycling
+41956.0     study
+41956.0     cycling and shopping
+41956.0     computer work
+41956.0     cleaning
+41956.0     watching pictures
+41956.0     coocking
+41956.0     diner with friends
+41956.0     walking
+41956.0     study
+41956.0     reading and talking with roommate
+41956.0     sleep (phone went off during the night)
+41957.0     getting up, cleaning and breakfast
+41957.0     cycling
+41957.0     study
+41957.0     driving lessons
+41957.0     cycling
+41957.0     sleep
+41957.0     cycling to gym
+41957.0     workout
+41957.0     cycling
+41957.0     talking with roommate, taking a shower
+41957.0     cycling (phone not with me during the night)
+41957.0     diner
+41957.0     cycling
+41957.0     going out
+41958.0     cycling
+41958.0     sleep
+41958.0     shower
+41958.0     cleaning, laundry
+41958.0     cycling
+41958.0     taking the train
+41958.0     walking
+41958.0     lunch and tea
+41958.0     shopping and running to the train
+41958.0     taking the train
+41958.0     going out 
+41958.0     taking the train
+41958.0     walking to the bus
+41958.0     taking the bus
+41958.0     driving car
+41958.0     watchting tv
+41958.0     sleep
+41959.0     crosstrainer/ sports
+41959.0     breakfast
+41959.0     meeting
+41959.0     shower and administration
+41959.0     shopping
+41959.0     study
+41959.0     driving car
+41959.0     walking
+41959.0     waiting
+41959.0     taking the train
+41959.0     cycling
+41959.0     working at home
+41959.0     reading
+41960.0     getting up and breakfast
+41960.0     cycling
+41960.0     study
+41960.0     study
+41960.0     (cannot read text)
+41960.0     cycling
+41960.0     diner with friends
+41960.0     cycling
+41960.0     reading
+41960.0     sleep
+41961.0     getting up and breakfast
+41961.0     cycling
+41961.0     study
+41961.0     driving lessons
+41961.0     to home walking/ cycling, shopping
+41961.0     cleaning, shower, study
+41961.0     going to cinema (by bike)
+41961.0     talking with friend
+41961.0     going out
+41962.0     sleep
+41962.0     getting up
+41962.0     cycling
+41962.0     breakfast
+41962.0     cycling
+41962.0     study with friends
+41962.0     cycling
+41962.0     sleep
+41962.0     cleaning
+41962.0     walking to supermarkt, shopping
+41962.0     coocking
+41962.0     pasta, zucchini, mushrooms
+41962.0     dishes and cleaning
+41962.0     study
+41962.0     cycling to gym
+41962.0     workout, HIT
+41962.0     cycling
+41962.0     shower and dressing up
+41962.0     reading
+41962.0     sleep
+41963.0     getting up and breakfast
+41963.0     running to friend 
+41963.0     going to university (behind the bike)
+41963.0     at university
+41963.0     cycling
+41963.0     exam for car
+41963.0     home resting 
+41963.0     cycling
+41963.0     lecture at uni
+41963.0     going to friend (behind the bike)
+41963.0     coocking and diner
+41963.0     walking to home
+41963.0     study at home
+41963.0     walking
+41963.0     study at home
+41963.0     sleep
+41964.0     getting up and breakfast
+41964.0     cycling 
+41964.0     at university
+41964.0     cycling to trainstation
+41964.0     taking the train
+41964.0     work
+41964.0     train and car to home
+41964.0     watching tv
+41964.0     sleep
+41965.0     crosstrainer/ sports
+41965.0     shower and dressing up
+41965.0     study and making photo book
+41965.0     with train to work (forgot phone)
+41965.0     work
+41965.0     running to train
+41965.0     taking the train
+41966.0     running to car
+41966.0     sleep
+41966.0     crosstrainer/sports
+41966.0     shower and dressing up
+41966.0     study
+41966.0     walking 
+41966.0     study
+41966.0     taking the bus and train
+41966.0     cycling
+41966.0     study and cleaning
+41966.0     sleep
+41964.0     getting up 
+41964.0     cycling

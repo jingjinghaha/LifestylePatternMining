@@ -1,0 +1,5 @@
+driving car
+work
+walking
+work
+sleep (sensor off)

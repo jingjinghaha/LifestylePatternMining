@@ -1,0 +1,4 @@
+['cereals', 'milk']
+['sandwich', 'meat']
+['sandwich']
+['potato', 'meat', 'vegetable']

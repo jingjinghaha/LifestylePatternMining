@@ -1,0 +1,6 @@
+'cheese'                 1         
+'muesli'                 1         
+'pasta'                  1         
+'sandwich'               1         
+'yoghurt'                1         
+'banana'                 1         

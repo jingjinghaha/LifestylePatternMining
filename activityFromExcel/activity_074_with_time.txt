@@ -1,0 +1,186 @@
+41970.0     cycling
+41970.0     household activities
+41970.0     driving car
+41970.0     meeting
+41970.0     driving car
+41970.0     moving stuff 
+41970.0     driving car
+41970.0     shopping
+41970.0     packing stuf
+41970.0     coocking
+41970.0     dishes and cleaning
+41970.0     driving car
+41970.0     moving stuff 
+41970.0     sleep 
+41971.0     moving stuff 
+41971.0     driving car
+41971.0     moving stuff 
+41971.0     driving car
+41971.0     moving stuff 
+41971.0     driving car
+41971.0     moving stuff 
+41971.0     phone call
+41971.0     moving stuff 
+41971.0     packing stuf
+41971.0     sleep (at new home)
+41972.0     nightmare 
+41972.0     going to toilet
+41972.0     awake in bed
+41972.0     breakfast
+41972.0     packing stuf
+41972.0     driving car
+41972.0     shopping
+41972.0     driving car
+41972.0     meeting
+41972.0     driving car
+41972.0     driving car and shopping
+41972.0     coocking and packing stuff
+41972.0     walking
+41972.0     coocking and packing stuff
+41972.0     watching tv
+41972.0     packing stuff and shower
+41972.0     sleep (at new home)
+41973.0     backing pie
+41973.0     cycling
+41973.0     coocking and cleaning
+41973.0     driving car
+41973.0     packing stuff and talking
+41973.0     inflating ait mattress
+41973.0     sleep
+41974.0     toilet
+41974.0     shower and preparing sandwiches
+41974.0     cleaning 
+41974.0     cycling
+41974.0     work
+41974.0     cycling and shopping
+41974.0     running
+41974.0     walking/ jogging
+41974.0     cleaning 
+41974.0     cleaning 
+41974.0     phone call
+41974.0     sleep 
+41975.0     nightmare 
+41975.0     toilet
+41975.0     packing stuf
+41975.0     driving car
+41975.0     walking
+41975.0     cycling
+41975.0     meeting
+41975.0     cycling
+41975.0     work
+41975.0     shopping
+41975.0     cleaning 
+41975.0     lunch
+41975.0     at home
+41975.0     driving car
+41975.0     cleaning and eating
+41975.0     relaxen
+41975.0     dishes and cleaning
+41975.0     cycling and fitness
+41975.0     shower and eating
+41975.0     sleep 
+41976.0     breakfast
+41976.0     work
+41976.0     shopping and cycling
+41976.0     work
+41976.0     cycling and shopping
+41976.0     at home
+41976.0     dishes and computer
+41976.0     shower
+41976.0     sleep
+41977.0     shower
+41977.0     work
+41977.0     cycling
+41977.0     vo2max test
+41977.0     cycling
+41977.0     lunch and computer
+41977.0     work
+41977.0     cleaning windows
+41977.0     coocking
+41977.0     diner and dishes
+41977.0     computer
+41977.0     cycling and fitness
+41977.0     shower
+41977.0     sleep
+41978.0     going to toilet
+41978.0     breakfast
+41978.0     computer
+41978.0     running
+41978.0     lunch and coocking
+41978.0     computer
+41978.0     dishes
+41978.0     computer
+41978.0     running
+41978.0     cycling and shopping
+41978.0     coocking
+41978.0     diner and dishes
+41978.0     watching tv
+41978.0     shower
+41978.0     sleep
+41979.0     training via internet
+41979.0     cycling and fitness
+41979.0     coocking
+41979.0     dishes and dessert
+41979.0     shower
+41979.0     cycling and shopping
+41979.0     coocking
+41979.0     diner and watching movie
+41979.0     at home
+41979.0     sleep
+41980.0     running
+41980.0     shower
+41980.0     packing stuf
+41980.0     cycling
+41980.0     waiting
+41980.0     driving car
+41980.0     visiting
+41980.0     driving car
+41980.0     diner and watching movie
+41980.0     computer, making food
+41980.0     sleep
+41981.0     getting up
+41981.0     computer
+41981.0     household activities
+41981.0     running
+41981.0     shower
+41981.0     cycling and shopping
+41981.0     cycling
+41981.0     household activities
+41981.0     work
+41981.0     phone call
+41981.0     work
+41981.0     dishes
+41981.0     packing stuf
+41981.0     driving car
+41981.0     diner and game
+41981.0     sleep (not at home)
+41982.0     getting up
+41982.0     walking
+41982.0     work
+41982.0     walking and shopping
+41982.0     coocking
+41982.0     driving car
+41982.0     shower
+41982.0     sleep
+41983.0     going to toilet
+41983.0     getting up
+41983.0     packing stuf
+41983.0     walking
+41983.0     meeting
+41983.0     driving car
+41983.0     packing stuf
+41983.0     driving car
+41983.0     computer
+41983.0     meeting
+41983.0     cycling and shopping
+41983.0     at home
+41983.0     work (computer)
+41983.0     cleaning
+41983.0     coocking/ running
+41983.0     dishes
+41983.0     dessert
+41983.0     meeting
+41983.0     cycling and fitness
+41983.0     shower
+41983.0     sleep
+41984.0     going to toilet

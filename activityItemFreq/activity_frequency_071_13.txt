@@ -1,0 +1,8 @@
+'walk'                   1         
+'movie'                  1         
+'pack'                   1         
+'car'                    2         
+'relax'                  1         
+'drive'                  2         
+'watch'                  1         
+'sauna'                  1         

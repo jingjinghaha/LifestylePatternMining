@@ -1,0 +1,9 @@
+'walk'                   2         
+'shower'                 1         
+'pie'                    1         
+'run'                    2         
+'party'                  1         
+'birtday'                1         
+'back'                   1         
+'dog'                    2         
+'study'                  1         

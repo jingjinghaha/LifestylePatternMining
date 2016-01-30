@@ -1,0 +1,8 @@
+'cappuccino'             1         
+'carrot'                 1         
+'muesli'                 2         
+'meat'                   1         
+'yoghurt'                2         
+'sandwich'               2         
+'salad'                  1         
+'potato'                 1         

@@ -1,0 +1,5 @@
+'cycle'                  1         
+'bus'                    1         
+'study'                  1         
+'lesson'                 2         
+'train'                  2         

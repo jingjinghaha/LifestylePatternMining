@@ -1,0 +1,6 @@
+['shower']
+['cycle', 'shop']
+['cycle', 'wait']
+['cycle', 'wait']
+['charge']
+['bed']

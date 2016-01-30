@@ -1,0 +1,4 @@
+['cookie', 'meat', 'waffle', 'tea']
+['doner', 'salmon', 'water']
+['chocolate', 'waffle', 'tea']
+['doner', 'salmon']

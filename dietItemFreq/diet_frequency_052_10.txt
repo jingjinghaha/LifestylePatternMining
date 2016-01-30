@@ -1,0 +1,6 @@
+'meat'                   1         
+'beer'                   1         
+'endive'                 1         
+'sandwich'               4         
+'chip'                   1         
+'banana'                 1         

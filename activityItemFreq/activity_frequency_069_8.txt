@@ -1,0 +1,6 @@
+'cycle'                  3         
+'standard'               1         
+'sleep'                  1         
+'bus'                    1         
+'exam'                   1         
+'protocol'               1         

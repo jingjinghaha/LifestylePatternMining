@@ -1,0 +1,5 @@
+['sandwich']
+['orange']
+['noodles', 'sandwich']
+['cookie']
+['pasta', 'rice']

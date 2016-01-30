@@ -1,0 +1,8 @@
+'soup'                   1         
+'hummus'                 1         
+'split'                  1         
+'bread'                  1         
+'cheese'                 1         
+'sandwich'               1         
+'carrot'                 1         
+'pea'                    1         

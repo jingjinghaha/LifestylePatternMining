@@ -1,0 +1,6 @@
+'cycle'                  5         
+'shower'                 1         
+'sport'                  1         
+'charge'                 1         
+'shop'                   1         
+'clean'                  1         

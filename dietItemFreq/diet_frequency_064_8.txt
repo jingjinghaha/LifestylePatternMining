@@ -1,0 +1,6 @@
+'chicken'                2         
+'egg'                    1         
+'salami'                 1         
+'champignon'             1         
+'broccoli'               2         
+'potato'                 2         

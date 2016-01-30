@@ -1,0 +1,4 @@
+'sandwich'               2         
+'fries'                  1         
+'bread'                  1         
+'coffee'                 1         

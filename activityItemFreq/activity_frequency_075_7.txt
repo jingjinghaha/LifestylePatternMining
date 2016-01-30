@@ -1,0 +1,11 @@
+'pilates'                1         
+'phone'                  1         
+'internet'               1         
+'university'             1         
+'charge'                 1         
+'diner'                  1         
+'shop'                   1         
+'bike'                   2         
+'tv'                     1         
+'study'                  1         
+'watch'                  1         

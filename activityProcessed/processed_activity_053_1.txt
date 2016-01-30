@@ -1,0 +1,5 @@
+['study']
+['cycle']
+['phone']
+['cycle']
+['sleep']

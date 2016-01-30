@@ -1,0 +1,4 @@
+['study', 'cook', 'clean']
+['run']
+['study', 'back']
+['muffins']

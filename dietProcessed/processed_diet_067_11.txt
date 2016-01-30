@@ -1,0 +1,4 @@
+['sandwich', 'egg', 'chicken']
+['healthy', 'sandwich']
+['white', 'wine', 'coffee']
+['soup', 'beef', 'pie', 'candy', 'red', 'wine']

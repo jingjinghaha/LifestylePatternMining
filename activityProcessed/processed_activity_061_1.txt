@@ -1,0 +1,4 @@
+['traineeship', 'ok']
+['train']
+['watch', 'computer', 'tv']
+['charge']

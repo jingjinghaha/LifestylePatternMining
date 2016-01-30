@@ -1,0 +1,7 @@
+'sugar'                  1         
+'choco'                  1         
+'paprika'                1         
+'meat'                   1         
+'sandwich'               1         
+'tea'                    1         
+'potato'                 1         

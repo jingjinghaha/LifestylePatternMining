@@ -1,0 +1,6 @@
+['train']
+['walk']
+['cycle']
+['study']
+['watch', 'tv']
+['sleep']

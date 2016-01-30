@@ -1,0 +1,6 @@
+'potato'                 1         
+'hamburger'              1         
+'sandwich'               1         
+'yoghurt'                2         
+'muesli'                 2         
+'carrot'                 1         

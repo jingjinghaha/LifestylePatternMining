@@ -1,0 +1,5 @@
+['sleep']
+['shower', 'charge']
+['study']
+['run']
+['travel', 'ov']

@@ -1,0 +1,4 @@
+['shower']
+['cook']
+['watch', 'movie']
+['sleep']

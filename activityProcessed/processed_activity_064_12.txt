@@ -1,0 +1,6 @@
+['sleep', 'home']
+['gamen']
+['cycle']
+['charge', 'cook']
+['computer']
+['sleep']

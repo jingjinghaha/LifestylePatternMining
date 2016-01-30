@@ -1,0 +1,5 @@
+'sleep'                  1         
+'car'                    1         
+'empty'                  1         
+'charge'                 1         
+'phone'                  1         

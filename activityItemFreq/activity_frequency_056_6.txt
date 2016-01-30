@@ -1,0 +1,9 @@
+'shower'                 1         
+'household'              1         
+'sleep'                  1         
+'diner'                  1         
+'activity'               1         
+'car'                    8         
+'drive'                  8         
+'shop'                   2         
+'backery'                1         

@@ -1,0 +1,13 @@
+'cycle'                  1         
+'bag'                    1         
+'sleep'                  1         
+'away'                   1         
+'rid'                    1         
+'cook'                   1         
+'garbage'                1         
+'car'                    2         
+'study'                  4         
+'horse'                  1         
+'drive'                  2         
+'shop'                   1         
+'clean'                  1         

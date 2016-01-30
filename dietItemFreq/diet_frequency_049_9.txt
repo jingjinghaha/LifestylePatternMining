@@ -1,0 +1,13 @@
+'rib'                    1         
+'spare'                  1         
+'egg'                    1         
+'orange'                 1         
+'wine'                   1         
+'red'                    1         
+'cocktail'               1         
+'butter'                 1         
+'shrimp'                 1         
+'yoghurt'                1         
+'sandwich'               2         
+'coffee'                 2         
+'juice'                  1         

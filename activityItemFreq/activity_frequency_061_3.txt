@@ -1,0 +1,6 @@
+'cycle'                  2         
+'shower'                 1         
+'computer'               1         
+'meet'                   1         
+'watch'                  1         
+'charge'                 1         

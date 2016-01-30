@@ -1,0 +1,6 @@
+'cycle'                  4         
+'walk'                   1         
+'bus'                    1         
+'work'                   1         
+'train'                  2         
+'sauna'                  1         

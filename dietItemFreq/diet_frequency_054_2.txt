@@ -1,0 +1,8 @@
+'noodles'                1         
+'vegetable'              2         
+'aubergine'              1         
+'champagne'              1         
+'coconut'                2         
+'beer'                   1         
+'salad'                  1         
+'apple'                  2         

@@ -1,0 +1,6 @@
+'cycle'                  1         
+'shower'                 1         
+'bed'                    1         
+'shop'                   1         
+'garden'                 1         
+'charge'                 1         

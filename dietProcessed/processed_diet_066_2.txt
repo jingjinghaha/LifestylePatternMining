@@ -1,0 +1,7 @@
+['muesli', 'yoghurt']
+['sandwich', 'coffee', 'day']
+['curry', 'rice', 'spinach']
+['coffee', 'cookie']
+['drink', 'wine']
+['nut']
+['tea']

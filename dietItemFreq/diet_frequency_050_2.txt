@@ -1,0 +1,3 @@
+'yoghurt'                1         
+'meat'                   2         
+'fries'                  1         

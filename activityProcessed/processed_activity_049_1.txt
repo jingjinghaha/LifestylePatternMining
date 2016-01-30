@@ -1,0 +1,6 @@
+['travel', 'train']
+['walk']
+['work']
+['cook', 'diner']
+['relax']
+['sleep']

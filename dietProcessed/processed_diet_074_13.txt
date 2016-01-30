@@ -1,0 +1,6 @@
+['oatmeal']
+['oatmeal', 'grapes', 'chocolate']
+['sandwich', 'orange', 'yoghurt']
+['orange', 'cookie', 'oatmeal']
+['rice', 'bean', 'lentils', 'curry', 'chocolate']
+['nut', 'tangerines']

@@ -1,0 +1,3 @@
+['sandwich']
+['sandwich', 'banana', 'soup']
+['fries', 'meat']

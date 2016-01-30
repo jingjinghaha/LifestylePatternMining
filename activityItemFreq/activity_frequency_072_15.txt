@@ -1,0 +1,3 @@
+'cyclingtaking'          1         
+'shower'                 1         
+'trainwalking'           1         

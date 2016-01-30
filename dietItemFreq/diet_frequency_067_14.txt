@@ -1,0 +1,4 @@
+'sandwich'               2         
+'muesli'                 2         
+'pasta'                  1         
+'yoghurt'                2         

@@ -1,0 +1,92 @@
+41981.0     Lecture
+41981.0     cycling
+41981.0     cycling and shopping
+41982.0     cycling
+41982.0     cycling
+41982.0     cycling
+41982.0     work 
+41982.0     cycling
+41982.0     work 
+41982.0     cycling
+41982.0     cycling
+41982.0     sleep (sensor off)
+41983.0     cycling
+41983.0     work 
+41983.0     cycling
+41983.0     cycling
+41983.0     sleep
+41984.0     cycling
+41984.0     Lecture
+41984.0     cycling
+41984.0     work 
+41984.0     cycling
+41984.0     cycling
+41984.0     cycling and shopping
+41984.0     sleep
+41985.0     cycling
+41985.0     work 
+41985.0     cycling
+41985.0     cycling
+41985.0     taking the train
+41985.0     taking the bus and walking
+41985.0     sauna (sensor off)
+41985.0     taking the train
+41985.0     cycling
+41986.0     cycling
+41986.0     work 
+41986.0     work 
+41986.0     cycling
+41986.0     sleep
+41987.0     cycling
+41987.0     taking the car
+41987.0     taking the car
+41987.0     cycling
+41987.0     work 
+41987.0     taking the car
+41987.0     cycling
+41987.0     sleep
+41988.0     cycling
+41988.0     exam
+41988.0     cycling
+41988.0     standard protocol
+41988.0     cycling
+41988.0     taking the bus
+41988.0     sleep
+41989.0     cycling
+41989.0     cycling
+41989.0     cycling
+41989.0     cycling
+41989.0     work 
+41989.0     cycling
+41989.0     baby sitting
+41989.0     cycling
+41989.0     solarium (sensor off)
+41989.0     cycling
+41990.0     cleaning/ household activities
+41990.0     cycling
+41990.0     cycling
+41990.0     work 
+41990.0     cycling
+41990.0     cycling
+41990.0     cycling
+41990.0     sleep (elektrodes went loose during the night)
+41991.0     cycling
+41991.0     work 
+41991.0     cycling
+41991.0     cycling
+41991.0     walking
+41992.0     cycling
+41992.0     work 
+41992.0     cycling
+41992.0     cycling
+41992.0     cycling
+41992.0     work 
+41992.0     cycling
+41993.0     taking the bus
+41993.0     taking the train
+41993.0     taking the car
+41993.0     taking the car
+41993.0     taking the train
+41993.0     taking the bus
+41994.0     cycling
+41994.0     taking the bus

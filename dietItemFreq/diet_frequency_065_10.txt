@@ -1,0 +1,5 @@
+'sandwich'               2         
+'egg'                    1         
+'bread'                  1         
+'coffee'                 1         
+'cheese'                 1         

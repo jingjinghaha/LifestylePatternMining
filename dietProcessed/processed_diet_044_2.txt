@@ -1,0 +1,7 @@
+['muesli', 'sugar']
+['bread', 'cheese']
+['carrot']
+['coffee', 'milk', 'sugar']
+['pear']
+['chili', 'con', 'meat', 'vegetable', 'cheese']
+['pudding']

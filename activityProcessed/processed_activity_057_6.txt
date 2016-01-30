@@ -1,0 +1,6 @@
+['walk', 'move']
+['work']
+['drive', 'car', 'shop']
+['home']
+['loose', 'cable', 'electrode']
+['sleep']

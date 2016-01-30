@@ -1,0 +1,3 @@
+['yoghurt', 'fruit', 'muesli', 'coffee']
+['sandwich', 'egg', 'juice', 'orange']
+['chicken', 'vegetable']

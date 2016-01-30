@@ -1,0 +1,4 @@
+'cookie'                 1         
+'banquette'              1         
+'meatballs'              1         
+'candy'                  1         

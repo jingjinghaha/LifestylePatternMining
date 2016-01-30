@@ -1,0 +1,6 @@
+['charge']
+['lunch']
+['shop']
+['cook']
+['diner', 'watch', 'tv']
+['clean', 'pack']

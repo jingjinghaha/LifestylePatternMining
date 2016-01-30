@@ -1,0 +1,6 @@
+['apple']
+['carrot', 'apple', 'egg']
+['sandwich', 'apple', 'syrup']
+['vegetable', 'pasta', 'apple', 'pie']
+['wine']
+['wine', 'chip']

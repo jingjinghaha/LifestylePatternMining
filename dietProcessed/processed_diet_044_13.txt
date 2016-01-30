@@ -1,0 +1,8 @@
+['muesli', 'sugar']
+['bread', 'butter']
+['apple', 'banana']
+['coffee', 'milk', 'sugar']
+['crisp']
+['instant', 'meal', 'chicken', 'juice']
+['fruit', 'bar']
+['yoghurt', 'strawberry']

@@ -1,0 +1,8 @@
+'sleep'                  1         
+'visit'                  1         
+'work'                   1         
+'car'                    2         
+'friends'                1         
+'drive'                  2         
+'swim'                   1         
+'charge'                 1         

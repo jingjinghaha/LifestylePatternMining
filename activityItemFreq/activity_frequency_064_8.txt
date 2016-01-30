@@ -1,0 +1,12 @@
+'cycle'                  2         
+'shower'                 1         
+'sleep'                  3         
+'workout'                1         
+'homework'               1         
+'cook'                   2         
+'charge'                 1         
+'diner'                  1         
+'shop'                   1         
+'computer'               1         
+'study'                  1         
+'lunch'                  1         

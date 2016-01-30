@@ -1,0 +1,6 @@
+'cycle'                  4         
+'sleep'                  1         
+'work'                   1         
+'car'                    1         
+'drive'                  1         
+'charge'                 1         

@@ -1,0 +1,11 @@
+'walk'                   1         
+'play'                   1         
+'travel'                 1         
+'bus'                    1         
+'etc'                    1         
+'car'                    1         
+'charge'                 1         
+'game'                   1         
+'eat'                    1         
+'train'                  1         
+'clean'                  1         

@@ -1,0 +1,8 @@
+'salmon'                 2         
+'water'                  1         
+'chocolate'              1         
+'waffle'                 2         
+'cookie'                 1         
+'meat'                   1         
+'doner'                  2         
+'tea'                    2         

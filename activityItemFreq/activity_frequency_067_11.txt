@@ -1,0 +1,9 @@
+'walk'                   1         
+'jacuzzi'                1         
+'run'                    1         
+'party'                  2         
+'birtday'                1         
+'sleep'                  1         
+'shop'                   1         
+'dog'                    1         
+'study'                  2         

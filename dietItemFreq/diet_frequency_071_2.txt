@@ -1,0 +1,9 @@
+'parsnip'                1         
+'cheese'                 1         
+'muesli'                 1         
+'sandwich'               1         
+'yoghurt'                1         
+'salad'                  1         
+'banana'                 1         
+'potato'                 1         
+'apple'                  1         

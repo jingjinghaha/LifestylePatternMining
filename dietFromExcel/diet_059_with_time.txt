@@ -1,0 +1,41 @@
+41977.0     four sandwiches
+41977.0     pasta
+41977.0     two beer, two red wine
+41978.0     cereals
+41978.0     two sandwiches
+41978.0     peer
+41978.0     four sandwiches
+41978.0     tomato, cucumber
+41978.0     sate
+41979.0     66 kg
+41979.0     two sandwiches
+41979.0     pumpkin soup
+41979.0     sandwich egg salad
+41979.0     stew, meat, ice cream
+41979.0     candy 
+41979.0     chips
+41980.0     tosti cheese
+41980.0     cup a soup
+41980.0     canneloni
+41981.0     cereals with milk
+41981.0     two sandwiches with meat
+41981.0     6 sandwiches
+41981.0     patatoe, meat, vegetables
+41983.0     yoghurt
+41983.0     rice, beans, chicken
+41984.0     cereals with milk
+41984.0     four sandwiches
+41984.0     gingerbread
+41984.0     pasta bolognese
+41985.0     chocopops with milk
+41985.0     soup
+41985.0     two sandwiches
+41985.0     soup, salmon, patatoe, sugar snaps
+41986.0     two sandwiches peanut butter
+41986.0     soup, sandwich chicken
+41986.0     homemade pizza
+41987.0     sandwiches
+41987.0     pumpkin soup and canneloni
+41988.0     chocopops with milk
+41988.0     6 sandwiches
+41988.0     noedles,woksauce

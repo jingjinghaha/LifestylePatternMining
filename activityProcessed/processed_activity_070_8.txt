@@ -1,0 +1,7 @@
+['charge']
+['cycle']
+['work']
+['cycle']
+['cook', 'shop']
+['diner']
+['sleep']

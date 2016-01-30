@@ -1,0 +1,7 @@
+'ginger'                 1         
+'piece'                  1         
+'fish'                   1         
+'cookie'                 1         
+'bread'                  2         
+'sandwich'               1         
+'beef'                   1         

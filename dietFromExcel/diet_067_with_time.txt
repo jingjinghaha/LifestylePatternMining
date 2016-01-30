@@ -1,0 +1,41 @@
+41970.0     carpacio, steak, pannacotta, red wine
+41971.0     yoghurt, muesli, sandwich, coffee
+41971.0     one red wine
+41971.0     yoghurt, two sandwiches, tea
+41972.0     one sandwich, nutmilk with cornflakes
+41972.0     tea with coockie
+41972.0     schrimp cocktail, stew and pie
+41973.0     sandwich with egg, tea, cappucino
+41973.0     two sandwiches
+41974.0     two sandwiches, yoghurt, muesli
+41974.0     salad, two sandwiches, yoghurt, muesli
+41974.0     coffee and pie
+41975.0     two tosti, cappucino, yoghurt and muesli
+41975.0     two sandwiches, yoghurt, muesli
+41975.0     salad, patatoe, meat, carrots
+41976.0     two tosti, cappucino, yoghurt and muesli
+41976.0     two sandwiches, yoghurt, muesli
+41976.0     wraps with chicken
+41977.0     two tosti, yoghurt and muesli
+41977.0     salad, two sandwiches, yoghurt, muesli
+41977.0     sweet patatoe, fish, beans
+41978.0     two tosti
+41978.0     sandwich and salad
+41978.0     steak, patatoe, cauliflower
+41979.0     quark, muesli, wrap with chicken
+41979.0     2 pieces pie, candy
+41980.0     two sandwiches, egg, chicken
+41980.0     one healthy sandwich
+41980.0     1 white wine, two coffee
+41980.0     soup, stew pie, candy. 1 red wine
+41981.0     yoghurt with muesli
+41981.0     one sandwich, yoghurt with muesli
+41981.0     patatoe, hamburger, carrots
+41982.0     two tosti, yoghurt and muesli
+41982.0     two sandwiches and salad
+41982.0     yoghurt
+41982.0     wraps with chicken and vegetables
+41983.0     two tosti, yoghurt and muesli
+41983.0     sandwich
+41983.0     yoghurt with muesli
+41983.0     spaghetti

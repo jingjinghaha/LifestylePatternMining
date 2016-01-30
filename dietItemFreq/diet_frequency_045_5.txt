@@ -1,0 +1,5 @@
+'yoghurt'                1         
+'fish'                   1         
+'rice'                   1         
+'vegetable'              1         
+'sandwich'               1         

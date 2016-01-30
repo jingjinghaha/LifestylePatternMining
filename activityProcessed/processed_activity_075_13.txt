@@ -1,0 +1,7 @@
+['study']
+['university', 'bike']
+['shop']
+['clean']
+['watch', 'tv']
+['charge']
+['watch', 'tv']

@@ -1,0 +1,6 @@
+'sugar'                  1         
+'beer'                   1         
+'sandwich'               2         
+'syrup'                  1         
+'coffee'                 1         
+'apple'                  1         

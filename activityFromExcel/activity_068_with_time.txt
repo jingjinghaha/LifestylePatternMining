@@ -1,0 +1,112 @@
+41981.0     study
+41981.0     cycling
+41981.0     getting dressed
+41981.0     sports
+41981.0     shopping
+41981.0     cycling
+41981.0     sleep
+41982.0     getting up, breakfast
+41982.0     cycling
+41982.0     lecture
+41982.0     study
+41982.0     relaxen
+41982.0     cycling
+41982.0     sleep
+41983.0     getting up
+41983.0     cycling
+41983.0     taking the train
+41983.0     waiting trainstation (delay)
+41983.0     running for train
+41983.0     taking the train
+41983.0     walking
+41983.0     ICC
+41983.0     running for train
+41983.0     den haag
+41983.0     taking the train
+41983.0     cycling
+41983.0     sensor off
+41984.0     cycling
+41984.0     study
+41984.0     zumba and cycling
+41984.0     at home
+41985.0     getting up
+41985.0     cycling
+41985.0     study
+41985.0     cycling, shopping
+41985.0     cycling
+41985.0     walking
+41986.0     study at home
+41986.0     shopping
+41986.0     coocking and diner
+41986.0     walking
+41986.0     study
+41986.0     walking
+41986.0     sensor off
+41987.0     getting up
+41987.0     sensor off
+41987.0     cycling
+41987.0     study
+41987.0     walking
+41987.0     study at home
+41987.0     sensor off
+41988.0     getting up
+41988.0     cycling
+41988.0     exam at school
+41988.0     cycling 
+41988.0     shopping
+41988.0     cycling
+41988.0     study
+41988.0     cycling
+41988.0     at home
+41988.0     cycling
+41988.0     cycling
+41988.0     relaxen
+41988.0     cycling
+41988.0     sensor off
+41989.0     getting up
+41989.0     cycling
+41989.0     study
+41989.0     cycling
+41989.0     meeting
+41989.0     cycling
+41989.0     group work at university
+41989.0     walking
+41989.0     talking while standing
+41989.0     shopping and cycling
+41989.0     sensor off (thereafter sleep)
+41990.0     getting up and breakfast
+41990.0     cycling
+41990.0     group work at university
+41990.0     giving presentation
+41990.0     cycling
+41990.0     sensor off
+41990.0     shopping (forgot phone)
+41990.0     shopping for party
+41990.0     party
+??? (next day)shower and relaxen
+??? (next day)cycling
+??? (next day)relaxen
+??? (next day)relaxen at home
+??? (next day)sensor off
+41991.0     going away and breakfast
+41991.0     taking the train
+41991.0     walking
+41991.0     taking the train
+41991.0     walking
+41991.0     cycling
+41991.0     study
+41991.0     cycling
+41991.0     cycling
+41991.0     cycling
+41991.0     christmas market
+41992.0     sensor off
+41992.0     walking in city
+41992.0     sitting
+41992.0     taking the bus
+41992.0     walking at christmas market
+41992.0     sitting
+41992.0     walking
+41992.0     taking the bus
+41992.0     walking
+41992.0     at home
+41993.0     sensor off

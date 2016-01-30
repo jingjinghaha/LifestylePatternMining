@@ -1,0 +1,6 @@
+'pesto'                  1         
+'nut'                    1         
+'tomato'                 1         
+'avocado'                1         
+'pasta'                  1         
+'banana'                 1         

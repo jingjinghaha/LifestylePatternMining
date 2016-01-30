@@ -1,0 +1,4 @@
+'sandwich'               2         
+'tea'                    1         
+'egg'                    1         
+'cappuccino'             1         

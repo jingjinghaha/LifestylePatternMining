@@ -1,0 +1,6 @@
+'rice'                   2         
+'orange'                 1         
+'kiwi'                   1         
+'cookie'                 2         
+'sandwich'               2         
+'carrot'                 1         

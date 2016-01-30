@@ -1,0 +1,3 @@
+['sandwich', 'milk', 'cornflakes']
+['tea', 'cookie']
+['shrimp', 'cocktail', 'beef', 'pie']

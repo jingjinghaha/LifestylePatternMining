@@ -1,0 +1,8 @@
+'noodles'                1         
+'chicken'                1         
+'vegetable'              1         
+'pie'                    1         
+'pasta'                  1         
+'shrimp'                 1         
+'tea'                    1         
+'potato'                 1         

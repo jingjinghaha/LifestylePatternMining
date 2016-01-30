@@ -1,0 +1,3 @@
+['train', 'shop', 'visit', 'city']
+['lunch']
+['diner']

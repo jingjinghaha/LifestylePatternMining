@@ -1,0 +1,5 @@
+'cookie'                 1         
+'noodles'                1         
+'frenh'                  1         
+'meat'                   1         
+'fries'                  1         

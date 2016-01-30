@@ -1,0 +1,4 @@
+['coffee', 'milk']
+['cheese', 'muesli']
+['juice', 'soup', 'bread', 'cotton', 'cheese', 'tomato']
+['pizza', 'chocolate', 'mandarins', 'wine']

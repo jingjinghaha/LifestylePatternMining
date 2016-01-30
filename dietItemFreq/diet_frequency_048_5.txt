@@ -1,0 +1,4 @@
+'beef'                   1         
+'egg'                    1         
+'chocolate'              1         
+'coffee'                 1         

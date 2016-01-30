@@ -1,0 +1,4 @@
+'sandwich'               2         
+'bread'                  1         
+'chocolate'              1         
+'apple'                  1         

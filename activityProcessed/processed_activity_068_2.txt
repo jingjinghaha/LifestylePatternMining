@@ -1,0 +1,7 @@
+['breakfast']
+['cycle']
+['lecture']
+['study']
+['relax']
+['cycle']
+['sleep']

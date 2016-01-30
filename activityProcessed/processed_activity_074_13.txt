@@ -1,0 +1,7 @@
+['walk']
+['work']
+['walk', 'shop']
+['cook']
+['drive', 'car']
+['shower']
+['sleep']

@@ -1,0 +1,5 @@
+'sandwich'               2         
+'chicken'                1         
+'egg'                    1         
+'custard'                1         
+'rice'                   1         

@@ -1,0 +1,7 @@
+'wine'                   1         
+'muesli'                 1         
+'coffee'                 1         
+'sandwich'               2         
+'yoghurt'                2         
+'tea'                    1         
+'red'                    1         

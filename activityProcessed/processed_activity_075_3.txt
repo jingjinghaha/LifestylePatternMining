@@ -1,0 +1,4 @@
+['shop', 'car']
+['watch', 'tv']
+['cook', 'diner']
+['watch', 'tv']

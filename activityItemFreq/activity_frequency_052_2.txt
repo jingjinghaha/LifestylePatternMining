@@ -1,0 +1,10 @@
+'trainen'                1         
+'cycle'                  6         
+'shower'                 1         
+'sleep'                  1         
+'sport'                  1         
+'lecture'                1         
+'cylcing'                1         
+'school'                 1         
+'train'                  1         
+'charge'                 1         

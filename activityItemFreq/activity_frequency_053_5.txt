@@ -1,0 +1,5 @@
+'sleep'                  1         
+'cycle'                  1         
+'ov'                     1         
+'study'                  1         
+'travel'                 1         

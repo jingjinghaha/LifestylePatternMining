@@ -1,0 +1,7 @@
+'cycle'                  1         
+'shower'                 1         
+'sleep'                  1         
+'car'                    2         
+'drive'                  2         
+'train'                  1         
+'study'                  2         

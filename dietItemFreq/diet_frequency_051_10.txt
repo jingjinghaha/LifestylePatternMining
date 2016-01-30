@@ -1,0 +1,4 @@
+'yoghurt'                1         
+'meat'                   1         
+'chocolate'              1         
+'sauerkraut'             1         

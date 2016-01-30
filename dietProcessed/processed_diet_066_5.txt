@@ -1,0 +1,5 @@
+['sandwich', 'coffee', 'juice']
+['ginger', 'bread']
+['sandwich', 'milk']
+['milk']
+['tilapia', 'broccoli', 'potato']

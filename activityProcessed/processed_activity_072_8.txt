@@ -1,0 +1,8 @@
+['shower']
+['walk', 'train', 'cycle']
+['cycle']
+['cycle']
+['watch', 'judo', 'exam']
+['cycle']
+['charge']
+['bed']

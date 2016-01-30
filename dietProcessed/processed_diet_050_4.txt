@@ -1,0 +1,4 @@
+['tea', 'cookie', 'sandwich']
+['yoghurt', 'muesli']
+['apple', 'pie', 'tea', 'fruit']
+['pizza', 'yoghurt', 'muesli', 'tea']

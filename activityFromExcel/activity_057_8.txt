@@ -1,0 +1,2 @@
+sensor on
+work

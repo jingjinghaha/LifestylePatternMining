@@ -1,0 +1,6 @@
+['sleep']
+['cycle']
+['lecture', 'practicum']
+['cycle']
+['study', 'cook', 'clean']
+['cycle']

@@ -1,0 +1,5 @@
+'sleep'                  1         
+'run'                    1         
+'shower'                 1         
+'charge'                 2         
+'study'                  3         

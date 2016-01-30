@@ -1,0 +1,5 @@
+['sandwich', 'egg']
+['chocolate', 'milk']
+['smoothie']
+['wine', 'wine']
+['rice']

@@ -1,0 +1,5 @@
+'fish'                   1         
+'apple'                  1         
+'potato'                 1         
+'salad'                  1         
+'banana'                 1         

@@ -1,0 +1,5 @@
+'cookie'                 1         
+'sandwich'               1         
+'beef'                   2         
+'orange'                 1         
+'sauerkraut'             1         

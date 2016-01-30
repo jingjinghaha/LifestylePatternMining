@@ -1,0 +1,26 @@
+13-10       apple
+13-10       kale+tuna
+13-10       apricots
+14-10-14    breakfast
+14-10-14    coffee, banana, apple
+14-10-14    apricots
+14-10-14    pasta, fish
+15-10-14    bf
+15-10-14    pasta
+15-10-14    apricots
+16-10-14    bf
+16-10-14    nuts
+16-10-14    sandwich
+16-10-14    apple, banana
+16-10-14    diner
+17-10-14    bf
+17-10-14    coffee
+17-10-14    chocolat
+17-10-14    eggs
+18-10-14    bf
+18-10-14    chocolat, juice
+18-10-14    lunch
+18-10-14    eggs, tuna
+19-10-14    bf, coffee
+19-10-14    lunch
+19-10-14    pizza, beer

@@ -1,0 +1,12 @@
+'soup'                   1         
+'egg'                    1         
+'bar'                    1         
+'almond'                 1         
+'muesli'                 1         
+'cookie'                 1         
+'pumpkin'                1         
+'bread'                  1         
+'snicker'                1         
+'sandwich'               1         
+'chip'                   1         
+'banana'                 1         

@@ -1,0 +1,4 @@
+['sandwich', 'apple']
+['tangerines']
+['stamp', 'chicken']
+['beer']

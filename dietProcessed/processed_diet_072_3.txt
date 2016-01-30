@@ -1,0 +1,6 @@
+['sandwich']
+['kiwi', 'orange']
+['sandwich']
+['cookie']
+['carrot']
+['rice', 'rice', 'cookie']

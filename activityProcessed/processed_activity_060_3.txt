@@ -1,0 +1,8 @@
+['cycle']
+['lecture']
+['cycle']
+['walk']
+['cycle']
+['cycle']
+['shop']
+['sleep']

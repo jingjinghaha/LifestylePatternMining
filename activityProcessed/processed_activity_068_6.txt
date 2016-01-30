@@ -1,0 +1,6 @@
+['study', 'home']
+['shop']
+['cook', 'diner']
+['walk']
+['study']
+['walk']

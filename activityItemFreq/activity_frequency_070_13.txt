@@ -1,0 +1,5 @@
+'sleep'                  2         
+'food'                   1         
+'intake'                 1         
+'car'                    2         
+'drive'                  2         

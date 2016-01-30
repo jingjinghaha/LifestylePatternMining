@@ -1,0 +1,7 @@
+['run']
+['shower']
+['craftwork']
+['shop', 'cycle']
+['dish']
+['watch', 'movie']
+['sleep', 'parent', 'place']

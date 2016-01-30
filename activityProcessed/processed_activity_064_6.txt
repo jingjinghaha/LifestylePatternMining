@@ -1,0 +1,8 @@
+['sleep', 'home']
+['game', 'watch', 'movie']
+['workout']
+['lie']
+['shower']
+['homework']
+['cycle']
+['homework', 'phone', 'empty']

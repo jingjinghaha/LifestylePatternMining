@@ -1,0 +1,4 @@
+sleep
+study, coocking, meeting
+sensor off
+sleep

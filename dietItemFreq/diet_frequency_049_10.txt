@@ -1,0 +1,12 @@
+'fruit'                  1         
+'egg'                    1         
+'nut'                    1         
+'cauliflower'            1         
+'snack'                  1         
+'butter'                 1         
+'meat'                   1         
+'five'                   1         
+'beer'                   1         
+'sandwich'               4         
+'potato'                 1         
+'coffee'                 1         

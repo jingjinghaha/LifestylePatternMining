@@ -1,0 +1,9 @@
+'walk'                   2         
+'sleep'                  2         
+'tv'                     1         
+'friends'                1         
+'charge'                 1         
+'watch'                  1         
+'train'                  1         
+'place'                  1         
+'clean'                  1         

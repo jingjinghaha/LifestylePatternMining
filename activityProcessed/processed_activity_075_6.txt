@@ -1,0 +1,8 @@
+['shower']
+['dress', 'breakfast']
+['study']
+['laundry', 'pack']
+['banana']
+['cycle', 'university']
+['cycle', 'hockey', 'shower']
+['cycle', 'game']

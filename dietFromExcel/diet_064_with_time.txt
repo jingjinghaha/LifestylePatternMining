@@ -1,0 +1,50 @@
+41975.0     crackers and candy
+41975.0     meatballs and banquette
+41975.0     72.6kg
+41976.0     72.1 kg
+41976.0     meatballs and banquette
+41976.0     two sandwiches croquette
+41977.0     egg with meat and mushrooms
+41977.0     73.5 kg
+41977.0     4 sandwiches croquette
+41977.0     apple
+41978.0     two fishes
+41978.0     french fries and mc flurry
+41978.0     chocolade
+41978.0     pasta with meat
+41978.0     chips and candy
+41978.0     two shots
+41979.0     73.1kg
+41979.0     two hamburgers and egg
+41979.0     coockies and chips
+41980.0     73.2kg
+41980.0     4 egg
+41980.0     pizza and cinnastix
+41981.0     patatoe, chicken, broccoli
+41981.0     chocolade cubcake
+41982.0     72.8kg
+41982.0     egg, champginon, salami 
+41982.0     patatoe, chicken, broccoli
+41982.0     M&M
+41982.0     patatoe, chicken, broccoli
+41983.0     72.8kg
+41983.0     egg salami M&M
+41983.0     pasta carbonara
+41983.0     snacken
+41984.0     74 kg
+41984.0     3 eggs
+41984.0     chips
+41984.0     pasta carbonara
+41984.0     pasta carbonara
+41985.0     egg , salami
+41985.0     74.6kg
+41985.0     fried chicken
+41985.0     chicken
+41985.0     chips, coockie, pie
+41986.0     73.6kg
+41986.0     sandwich with egg, meat end cheese
+41986.0     lasagna
+41987.0     72.6kg
+41987.0     lasagna
+41987.0     lasagna
+41988.0     sandwich with egg

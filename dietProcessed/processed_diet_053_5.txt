@@ -1,0 +1,6 @@
+['sandwich']
+['sandwich']
+['apple']
+['sandwich']
+['fries', 'meat', 'sugar']
+['chip']

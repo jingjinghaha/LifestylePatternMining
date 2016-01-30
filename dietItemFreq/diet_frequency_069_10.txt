@@ -1,0 +1,10 @@
+'vegetable'              1         
+'ball'                   1         
+'beef'                   1         
+'muesli'                 1         
+'meat'                   1         
+'pasta'                  1         
+'sandwich'               1         
+'yoghurt'                1         
+'salad'                  1         
+'carrot'                 1         

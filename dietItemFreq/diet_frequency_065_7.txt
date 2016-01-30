@@ -1,0 +1,5 @@
+'sandwich'               2         
+'salad'                  1         
+'iceCream'               1         
+'sugar'                  1         
+'cheese'                 1         

@@ -1,0 +1,11 @@
+'egg'                    1         
+'orange'                 1         
+'cheese'                 1         
+'muesli'                 1         
+'cookie'                 1         
+'sandwich'               1         
+'yoghurt'                2         
+'banana'                 1         
+'potato'                 1         
+'red'                    1         
+'apple'                  1         

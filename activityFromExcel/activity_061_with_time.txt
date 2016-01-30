@@ -1,0 +1,131 @@
+41956.0     traineeship at ok
+41956.0     taking the train
+41956.0     watching computer/ tv
+41956.0     charging sensor
+41957.0     shower
+41957.0     driving car
+41957.0     taking the train
+41957.0     studying
+41957.0     traineeship at ok
+41957.0     running for train
+41957.0     taking the train
+41957.0     driving car
+41957.0     playing soccer
+41957.0     shower (sticker los)
+41957.0     drinking 
+41957.0     going out
+41958.0     charging sensor
+41958.0     watching computer/tv
+41958.0     shower
+41958.0     cycling
+41958.0     meeting
+41958.0     cycling
+41958.0     going out
+41959.0     cycling
+41959.0     going out
+41959.0     getting up
+41959.0     charging sensor
+41959.0     sleep
+41960.0     shower
+41960.0     driving car
+41960.0     taking the train
+41960.0     walking
+41960.0     traineeship
+41960.0     walking
+41960.0     taking the train
+41960.0     driving car
+41960.0     driving car
+41960.0     judo
+41960.0     driving car
+41960.0     charging sensor
+41960.0     going to bed
+41961.0     shower
+41961.0     driving car
+41961.0     taking the train
+41961.0     traineeship
+41961.0     walking
+41961.0     taking the train 
+41961.0     driving car
+41961.0     computer
+41961.0     driving car
+41961.0     playing soccer
+41961.0     driving car
+41961.0     sleep
+41962.0     getting up
+41962.0     driving car
+41962.0     taking the train
+41962.0     walking 
+41962.0     traineeship
+41962.0     phone empty (17.10 charging)
+41962.0     taking the train
+41962.0     driving car
+41962.0     watching computer/ tv
+41962.0     sleep
+41963.0     shower
+41963.0     food
+41963.0     driving car
+41963.0     taking the train
+41963.0     taking the train 
+41963.0     driving car
+41963.0     shower
+41963.0     shopping
+41963.0     driving car
+41963.0     driving car
+41963.0     shopping
+41963.0     driving car
+41963.0     watching computer / tv
+41963.0     charging sensor
+41964.0     shower
+41964.0     breakfast
+41964.0     driving car
+41964.0     taking the train
+41964.0     traineeship
+41964.0     taking the train
+41964.0     driving car
+41964.0     watching computer/ tv
+41964.0     coocking and diner
+41964.0     watching computer/ tv
+41964.0     playing soccer
+41964.0     canteen with friends
+41964.0     going out
+41965.0     charging sensor
+41965.0     watching computer/ tv
+41965.0     shower
+41965.0     driving car
+41965.0     concert, sitting
+41965.0     driving car
+41966.0     watching computer/tv
+41966.0     sleep
+41966.0     charging sensor
+41966.0     watching computer/tv
+41966.0     driving car
+41966.0     warming up before game
+41966.0     playing soccer (1th part sticker ecg loose)
+41966.0     canteen with friends
+41966.0     going to birthday party
+41966.0     watching computer/ tv
+41966.0     sleep
+41967.0     shower
+41967.0     taking the train
+41967.0     traineeship
+41967.0     taking the train
+41967.0     driving car
+41967.0     taking stuff
+Sensor off due to irritation driving car
+Sensor off due to irritation playing judo
+Sensor off due to irritation watching computer/ tv
+41968.0     shower
+41968.0     getting up
+41968.0     driving car
+41968.0     traineeship
+41968.0     driving car
+sensor on   watching computer/ tv
+sensor on   playing soccer
+sensor on   shower
+sensor on   canteen with friends
+sensor on   watching computer/ tv
+41969.0     watching computer/tv
+41969.0     watching computer/tv
+41969.0     playing soccer
+41969.0     canteen with friends
+Sensor off due to irritation watching computer/ tv

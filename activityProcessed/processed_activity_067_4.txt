@@ -1,0 +1,7 @@
+['shower']
+['walk', 'dog']
+['christmas', 'market']
+['run']
+['walk', 'dog']
+['watch', 'tv']
+['sleep']

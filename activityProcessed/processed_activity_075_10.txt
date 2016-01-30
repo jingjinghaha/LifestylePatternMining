@@ -1,0 +1,5 @@
+['shower', 'dress']
+['walk']
+['eat', 'play', 'game', 'etc']
+['relax']
+['play', 'game']

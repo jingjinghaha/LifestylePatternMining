@@ -1,0 +1,8 @@
+['oatmeal']
+['tea', 'nut', 'orange']
+['sandwich', 'carrot']
+['yoghurt', 'apple']
+['sandwich']
+['sandwich', 'nut', 'butter']
+['quiche', 'salad', 'yoghurt', 'muesli']
+['tea', 'chocolate']

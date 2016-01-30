@@ -1,0 +1,6 @@
+['snooze']
+['cycle', 'work']
+['charge']
+['cycle']
+['diner']
+['shower']

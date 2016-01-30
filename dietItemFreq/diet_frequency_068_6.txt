@@ -1,0 +1,2 @@
+'rice'                   1         
+'sandwich'               1         

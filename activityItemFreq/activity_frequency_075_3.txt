@@ -1,0 +1,6 @@
+'cook'                   1         
+'watch'                  2         
+'car'                    1         
+'diner'                  1         
+'shop'                   1         
+'tv'                     2         

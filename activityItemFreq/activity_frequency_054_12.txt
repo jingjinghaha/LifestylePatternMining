@@ -1,0 +1,11 @@
+'cycle'                  1         
+'parent'                 1         
+'sleep'                  1         
+'shower'                 1         
+'run'                    1         
+'place'                  1         
+'movie'                  1         
+'craftwork'              1         
+'watch'                  1         
+'shop'                   1         
+'dish'                   1         

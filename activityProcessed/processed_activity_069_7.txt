@@ -1,0 +1,8 @@
+['cycle']
+['car']
+['car']
+['cycle']
+['work']
+['car']
+['cycle']
+['sleep']

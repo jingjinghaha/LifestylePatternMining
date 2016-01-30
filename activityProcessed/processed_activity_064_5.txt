@@ -1,0 +1,7 @@
+['cycle']
+['sleep', 'home']
+['home', 'ns']
+['charge']
+['sleep']
+['cycle']
+['game', 'watch', 'movie']

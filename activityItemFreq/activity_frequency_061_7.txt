@@ -1,0 +1,12 @@
+'walk'                   1         
+'traineeship'            1         
+'sleep'                  1         
+'empty'                  1         
+'phone'                  1         
+'car'                    2         
+'computer'               1         
+'drive'                  2         
+'watch'                  1         
+'train'                  2         
+'tv'                     1         
+'charge'                 1         

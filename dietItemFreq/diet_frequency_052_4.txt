@@ -1,0 +1,6 @@
+'fries'                  1         
+'drink'                  1         
+'meat'                   2         
+'hamburger'              1         
+'beer'                   1         
+'sandwich'               2         

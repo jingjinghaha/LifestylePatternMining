@@ -1,0 +1,3 @@
+'beef'                   1         
+'pasta'                  1         
+'apricots'               1         

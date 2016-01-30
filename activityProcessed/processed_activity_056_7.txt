@@ -1,0 +1,6 @@
+['drive', 'car']
+['work']
+['drive', 'car']
+['diner']
+['charge']
+['sleep']

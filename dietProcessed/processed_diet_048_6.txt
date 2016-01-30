@@ -1,0 +1,4 @@
+['beef']
+['chocolate', 'juice']
+['lunch']
+['egg', 'tuna']

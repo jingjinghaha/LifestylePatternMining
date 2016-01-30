@@ -1,0 +1,7 @@
+'chocolate'              2         
+'muesli'                 1         
+'cookie'                 1         
+'mango'                  1         
+'gnocchi'                1         
+'yoghurt'                1         
+'apple'                  1         

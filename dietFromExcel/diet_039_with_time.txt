@@ -1,0 +1,56 @@
+14-10       tuna sandwich
+15-10       68kg
+15-10       omelet, sandwich, cheese
+15-10       coffee, cookie
+15-10       minced meat, noodles, salad
+15-10       thee, cookie
+15-10       sandwich meat
+16-10       68kg
+16-10       yoghurt, kellogs, banana
+16-10       coffee, cookie
+16-10       banana, mandarins
+16-10       fries, chicken, salad
+16-10       sandwich, meat
+17-10       68kg
+17-10       yoghert, kellogs, berries
+17-10       omelet, sausage, coffee, cookie
+17-10       1/2l beer
+17-10       doner chicken
+17-10       sandwich chicken
+18-10       67kg
+18-10       yoghurt, kellogs, pancake
+18-10       diner
+18-10       coffee, thee, chocolat
+19-10       sandwich chicken cheese
+19-10       67kg
+19-10       baked egg, sandwich chicken
+19-10       spaghette, minced meat
+19-10       thee, cookie
+20-10       spaghetti, sandwich, pancakes, coffee
+20-10       rice chicken
+21-10       omelet, sausage, pancake
+21-10       chicken rice salad
+22-10       67kg
+22-10       yoghurt kellogs fruit coffee
+22-10       sandwich chicken cheese salmon
+23-10       pizza
+23-10       67kg
+23-10       omelet, sausage, coffee cookie
+23-10       spaghetti bolognese
+24-10       spaghetti bolognese
+24-10       67kg
+24-10       yoghurt kellogs banana
+24-10       fries, hamburger, choco cake
+25-10       sanwich bacon
+25-10       67kg
+25-10       bami chicken
+26-10       spaghetti bolognese
+26-10       67.5kg
+26-10       yoghurt kellogs banana berries
+26-10       sandwich cheese chicken salami
+26-10       pasta chicken
+26-10       67.5
+27-10       baked wggs coffee cookie
+27-10       potatoes salmon
+27-10       banana
+27-10       sandwich cheese, sausage

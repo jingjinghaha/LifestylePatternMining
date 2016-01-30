@@ -1,0 +1,9 @@
+'rice'                   1         
+'chicken'                1         
+'muesli'                 1         
+'cookie'                 2         
+'milk'                   1         
+'beer'                   1         
+'sandwich'               1         
+'yoghurt'                1         
+'coffee'                 1         

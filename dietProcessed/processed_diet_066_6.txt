@@ -1,0 +1,5 @@
+['muesli', 'yoghurt']
+['coffee', 'cookie']
+['sandwich', 'milk']
+['cookie', 'beer']
+['rice', 'chicken']

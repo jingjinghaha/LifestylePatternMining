@@ -1,0 +1,6 @@
+'walk'                   3         
+'sleep'                  1         
+'diner'                  1         
+'watch'                  1         
+'dog'                    3         
+'tv'                     1         

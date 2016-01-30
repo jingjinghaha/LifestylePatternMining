@@ -1,0 +1,6 @@
+['sandwich']
+['sandwich']
+['sandwich']
+['banana']
+['endive', 'meat', 'sandwich']
+['chip', 'beer']

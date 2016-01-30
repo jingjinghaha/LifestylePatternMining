@@ -1,0 +1,9 @@
+'rice'                   1         
+'fish'                   1         
+'soup'                   1         
+'vegetable'              1         
+'muesli'                 1         
+'cookie'                 1         
+'sandwich'               3         
+'yoghurt'                1         
+'potato'                 1         

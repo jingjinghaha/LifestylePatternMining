@@ -1,0 +1,2 @@
+['sandwich', 'egg', 'sandwich', 'butter', 'juice', 'orange', 'coffee', 'yoghurt']
+['shrimp', 'cocktail', 'spare', 'rib', 'coffee', 'red', 'wine']

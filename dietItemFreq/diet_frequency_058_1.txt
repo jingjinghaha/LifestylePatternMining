@@ -1,0 +1,4 @@
+'lasagna'                1         
+'apple'                  1         
+'beer'                   1         
+'banana'                 1         

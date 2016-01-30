@@ -1,0 +1,7 @@
+'walk'                   1         
+'sleep'                  1         
+'visit'                  1         
+'car'                    2         
+'drive'                  2         
+'dog'                    1         
+'charge'                 1         

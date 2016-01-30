@@ -1,0 +1,10 @@
+'noodles'                1         
+'egg'                    1         
+'cookie'                 2         
+'meat'                   2         
+'cheese'                 1         
+'sandwich'               2         
+'salad'                  1         
+'mince'                  1         
+'thee'                   1         
+'coffee'                 1         

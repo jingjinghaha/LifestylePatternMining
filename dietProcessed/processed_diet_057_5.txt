@@ -1,0 +1,4 @@
+['milk', 'muesli', 'coffee']
+['sandwich', 'chocolate', 'sandwich', 'chicken', 'rice', 'cookie', 'cheese', 'coffee']
+['apple']
+['meat', 'vegetable', 'potato', 'sugar']

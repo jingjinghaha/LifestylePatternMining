@@ -1,0 +1,3 @@
+['lecture']
+['cycle']
+['cycle', 'shop']

@@ -1,0 +1,4 @@
+['egg', 'salami']
+['fries', 'chicken']
+['chicken']
+['chip', 'cookie', 'pie']

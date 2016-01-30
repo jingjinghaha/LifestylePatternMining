@@ -1,0 +1,9 @@
+'chicken'                1         
+'broccoli'               1         
+'egg'                    1         
+'muesli'                 1         
+'bacon'                  1         
+'yoghurt'                1         
+'banana'                 1         
+'potato'                 1         
+'apple'                  1         

@@ -1,0 +1,7 @@
+['charge']
+['cycle']
+['lecture']
+['lecture']
+['run', 'phone']
+['cook']
+['sleep']

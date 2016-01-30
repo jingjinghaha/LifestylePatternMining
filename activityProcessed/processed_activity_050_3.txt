@@ -1,0 +1,4 @@
+['walk']
+['computer', 'time']
+['diner']
+['walk']

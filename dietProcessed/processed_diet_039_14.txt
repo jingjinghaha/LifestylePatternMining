@@ -1,0 +1,4 @@
+['egg', 'coffee', 'cookie']
+['potato', 'salmon']
+['banana']
+['sandwich', 'cheese', 'sausage']

@@ -1,0 +1,4 @@
+'shop'                   1         
+'car'                    1         
+'charge'                 1         
+'drive'                  1         

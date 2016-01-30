@@ -1,0 +1,42 @@
+41981.0     apple
+41981.0     sandwich
+41981.0     pasta
+41981.0     2 red wine
+41982.0     quark with muesli
+41982.0     sandwich and fruit
+41982.0     salad
+41983.0     two sandwiches ham
+41984.0     stew
+41984.0     patatoe, meat, vegetables
+41985.0     two sandwiches
+41985.0     croissant, apple, chocolade
+41985.0     sandwich
+41986.0     couscous
+41986.0     two sandwiches
+41987.0     2 sandwiches with chicken
+41987.0     yoghurt and muesli
+41987.0     tangerine
+41987.0     couscous
+41988.0     yoghurt and muesli
+41988.0     yoghurt
+41988.0     cashewnuts
+41989.0     yoghurt and muesli
+41989.0     soup and sandwich
+41989.0     cumcumber and sandwich
+41989.0     patatoe, meat, vegetables
+41990.0     yoghurt and muesli
+41990.0     sandwich
+41990.0     sandwich and tangerine
+41991.0     gluh wine and tosti
+41991.0     couscous
+41991.0     3 red wine
+41992.0     sandwich with egg
+41992.0     chocolade milk
+41992.0     smoothie
+41992.0     3 gluh wine
+41992.0     sushi
+41993.0     yoghurt
+41993.0     water ice
+41993.0     2 tangerine
+41993.0     pizza
+41993.0     tea and tangerine 

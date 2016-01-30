@@ -1,0 +1,8 @@
+'rice'                   1         
+'liqueur'                1         
+'cookie'                 2         
+'pizza'                  1         
+'sandwich'               1         
+'salad'                  1         
+'quiche'                 1         
+'bread'                  1         

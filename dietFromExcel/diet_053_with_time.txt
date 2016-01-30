@@ -1,0 +1,46 @@
+41942.0     four sandwiches with cheese
+41942.0     noodle, meat, vegetables
+41942.0     two cocktails
+41943.0     one sandwich
+41943.0     two sandwiches
+41943.0     tapas
+41944.0     ice cream
+41944.0     63 kg
+41944.0     meat, vegetables, patatoes
+41944.0     chocolade
+41944.0     tomato
+41944.0     ten beer
+41945.0     two sandwiches
+41945.0     pancake
+41945.0     chinese 
+41945.0     kiwi banana
+41946.0     one sandwich
+41946.0     one sandwich
+41946.0     apple
+41946.0     three sandwiches
+41946.0     french fries, meat, dessert
+41946.0     chips
+41947.0     three sandwiches
+41948.0     two sandwiches with egg
+41948.0     sandwich, banana
+41948.0     two crackers with cheese
+41949.0     coockie
+41949.0     three sandwiches with cheese
+41949.0     64.6kg
+41949.0     pasta with meat
+41949.0     three beer
+41950.0     two sandwiches with cheese
+41950.0     aplle and one croissant
+41950.0     salmon, patatoes, ice cream with cream, coke light, red wine
+41951.0     two ice tea
+41951.0     two sandwiches
+41951.0     one sandwich with cheese
+41951.0     french fries, tomato
+41952.0     64 kg
+41952.0     vegetables
+41952.0     sandwich cheese, salad
+41952.0     pancake
+41953.0     two sandwiches with egg
+41953.0     patatoes, fish, vegetables
+41953.0     aplle
+41953.0     deuterium 

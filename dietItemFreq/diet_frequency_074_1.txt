@@ -1,0 +1,10 @@
+'butter'                 1         
+'vegetable'              1         
+'nut'                    1         
+'muesli'                 2         
+'cookie'                 1         
+'quiche'                 1         
+'yoghurt'                3         
+'sandwich'               2         
+'tea'                    1         
+'apple'                  1         

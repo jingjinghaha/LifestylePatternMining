@@ -1,0 +1,17 @@
+'cycle'                  1         
+'shower'                 1         
+'wait'                   1         
+'sleep'                  1         
+'bus'                    1         
+'phone'                  1         
+'watch'                  1         
+'walk'                   1         
+'car'                    1         
+'laserquesten'           1         
+'lesson'                 1         
+'drive'                  2         
+'shop'                   1         
+'train'                  2         
+'tv'                     1         
+'study'                  1         
+'home'                   1         

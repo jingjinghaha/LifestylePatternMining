@@ -1,0 +1,57 @@
+41956.0     five sandwiches
+41956.0     fish and vegetables
+41956.0     milefeuille
+41957.0     75,2kg
+41957.0     two sandwiches and one banana
+41957.0     four sandwiches and one apple
+41957.0     chicken with rice
+41957.0     15 beer
+41958.0     74,4kg
+41958.0     banana, egg, tomato, onion
+41958.0     apple
+41958.0     tapas and pizza
+41958.0     21 beer
+41959.0     peer
+41959.0     74,5kg
+41959.0     apple, peer, two sandwiches
+41959.0     coockie
+41959.0     patatoe, fish, vegetables
+41960.0     one banana, two sandwiches
+41960.0     four sandwiches and one apple
+41960.0     spaghetti, soup, salad
+41961.0     three sandwiches and one apple 
+41961.0     two sandwiches
+41961.0     aplle and three sandwiches
+41961.0     coockie and tangerine
+41961.0     chicken, patatoe, vegetables
+41961.0     one beer
+41961.0     chips
+41962.0     75kg
+41962.0     two sandwiches and one banana
+41962.0     four sandwiches and one apple
+41962.0     tangerine
+41962.0     vegetrable, wrap with chicken
+41962.0     coockie and chips
+41963.0     four sandwiches and one apple
+41963.0     carrotstamp and meat
+41964.0     four sandwiches and one apple
+41964.0     two tangerines
+41964.0     stamp and chicken
+41964.0     11 beer
+41965.0     three sandwiches, one apple, two banana, egg
+41965.0     pizza
+41965.0     four beer
+41965.0     chips
+41966.0     banana, apple, crusli
+41966.0     7 beer
+41967.0     74.6 kg
+41967.0     two sandwiches and one banana
+41967.0     four sandwiches
+Sensor off due to irritation soup, vegetables, patatoe and meat
+41968.0     76.2kg
+41968.0     french fries, zuurvlees, 4 sandwiches, one apple
+sensor on   burrito/wrap
+sensor on   6 beer
+41969.0     75.1kg 5 sandwiches, 1 burrito, banana, apple, coockie
+41969.0     noudles, chicken, nuts
+41969.0     1 beer

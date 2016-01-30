@@ -1,0 +1,8 @@
+['breakfast']
+['shower']
+['work']
+['diner', 'relax']
+['walk']
+['work']
+['walk']
+['sleep']

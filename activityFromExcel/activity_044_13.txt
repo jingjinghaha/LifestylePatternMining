@@ -1,0 +1,8 @@
+shower, dress
+walk
+work
+walk
+relax
+cook, relax, read
+to bed
+sleep

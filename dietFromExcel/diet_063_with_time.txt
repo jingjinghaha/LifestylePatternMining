@@ -1,0 +1,59 @@
+41975.0     pasta
+41975.0     noodles and tea
+41975.0     pie
+41975.0     shrimp, patatoe, chicken, vegetables
+41976.0     dessert
+41976.0     chocolade and tea
+41976.0     coockie, apple, twix
+41976.0     carpacio, chips 
+41976.0     patatoe, meat
+41977.0     custard
+41977.0     coockie, twix
+41977.0     french fries
+41977.0     chocolade
+41977.0     raisin
+41977.0     6 alcohol
+41978.0     apple
+41978.0     french fries with sate
+41978.0     chocolade
+41978.0     patatoe, meat, carrots
+41979.0     tosti and fries
+41979.0     chicken, patatoe, toast
+41980.0     chicken, patatoe, toast
+41980.0     pasta
+41981.0     raisin
+41981.0     pie
+41981.0     pasta
+41981.0     chocolade
+41981.0     salad, chicken, patatoe
+41982.0     sandwich with pate
+41982.0     pie
+41982.0     1/2 sandwich
+41982.0     pasta
+41983.0     yoghurt and sandwich with jam
+41983.0     pie
+41983.0     snack
+41984.0     yoghurt
+41984.0     yoghurt with cruesli
+41984.0     noodles
+41984.0     coockie
+41984.0     french fries
+41984.0     6 beer
+41985.0     yoghurt, quark, raisin
+41985.0     coockie
+41985.0     apple
+41985.0     noodles and chocomel
+41985.0     1 wine
+41985.0     2 cocktails and toast coffee
+41985.0     patatoe, fish, aspargus
+41986.0     yoghurt and quark
+41986.0     gourmetten and 3 wine
+41987.0     dessert, tea, sandwich
+41987.0     patatoe, meat, paprika, chocomouse
+41988.0     chocolademousse
+41988.0     sandwich with jam
+41988.0     patatoe, meat
+41988.0     sandwich with jam
+41988.0     chocolade
+41988.0     pasta with meat
+41988.0     custard

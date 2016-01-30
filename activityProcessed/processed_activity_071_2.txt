@@ -1,0 +1,7 @@
+['sleep']
+['study', 'clean']
+['drive', 'car']
+['horse', 'rid']
+['drive', 'car']
+['shower']
+['sleep']

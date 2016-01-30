@@ -1,0 +1,5 @@
+['watch', 'computer']
+['watch', 'computer']
+['play', 'soccer']
+['canteen', 'friends']
+['watch', 'computer', 'tv']

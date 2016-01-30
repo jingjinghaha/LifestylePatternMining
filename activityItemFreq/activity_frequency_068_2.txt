@@ -1,0 +1,6 @@
+'cycle'                  2         
+'sleep'                  1         
+'lecture'                1         
+'relax'                  1         
+'breakfast'              1         
+'study'                  1         

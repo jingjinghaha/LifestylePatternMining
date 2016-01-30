@@ -1,0 +1,5 @@
+['coffee', 'fries', 'egg']
+['sandwich']
+['sandwich']
+['cookie']
+['pasta', 'spinach', 'chocolate', 'iceCream']

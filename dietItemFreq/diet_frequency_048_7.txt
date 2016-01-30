@@ -1,0 +1,5 @@
+'beer'                   1         
+'beef'                   1         
+'pizza'                  1         
+'coffee'                 1         
+'lunch'                  1         

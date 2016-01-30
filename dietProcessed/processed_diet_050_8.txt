@@ -1,0 +1,3 @@
+['tea', 'cookie']
+['sandwich', 'water', 'drink']
+['sandwich', 'chicken', 'drink']

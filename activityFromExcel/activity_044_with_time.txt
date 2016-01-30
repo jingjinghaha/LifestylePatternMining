@@ -1,0 +1,160 @@
+41920.0     walk home
+41920.0     around the house (clean, dishes, sit)
+41920.0     sleep
+41921.0     shower
+41921.0     dishes, dress
+41921.0     walk work
+41921.0     work
+41921.0     walk home
+41921.0     run
+41921.0     rest
+41921.0     shower
+41921.0     cook
+41921.0     stretch
+41921.0     bed
+41921.0     sleep
+41922.0     dress, pack
+41922.0     car swimming pool
+41922.0     swim
+41922.0     car
+41922.0     walk
+41922.0     work
+41922.0     walk
+41922.0     terrace
+41922.0     home
+41922.0     movie
+41922.0     sleep
+41923.0     awake
+41923.0     work
+41923.0     shower, dress
+41923.0     bike
+41923.0     shop
+41923.0     pc
+41923.0     groceries
+41923.0     pc
+41923.0     make bed
+41923.0     read in bed
+41923.0     sleep
+41924.0     dress
+41924.0     prepare to bike
+41924.0     cycling
+41924.0     shower, dress
+41924.0     prepare lunch
+41924.0     clean
+41924.0     bike
+41924.0     work
+41924.0     bike
+41924.0     clean cook
+41924.0     relax
+41924.0     read
+41924.0     sleep
+41925.0     shower, dress, pack
+41925.0     walk
+41925.0     work
+41925.0     walk
+41925.0     car
+41925.0     work
+41925.0     groceries, car
+41925.0     cook
+41925.0     relax
+41925.0     to bed
+41925.0     sleep
+41926.0     get up
+41926.0     walk
+41926.0     work
+41926.0     walk
+41926.0     run
+41926.0     shower, dress
+41926.0     car
+41926.0     restaurant
+41926.0     car
+41926.0     dress, chat
+41926.0     sleep
+41927.0     dress
+41927.0     walk
+41927.0     work
+41927.0     VO2max
+41927.0     walk
+41927.0     sit
+41927.0     cook
+41927.0     bath
+41927.0     relax
+41928.0     sleep
+41928.0     dress, pack
+41928.0     walk
+41928.0     work
+41928.0     walk
+41928.0     walk, bike pack
+41928.0     train
+41928.0     wait
+41928.0     car
+41928.0     drinks
+41929.0     sleep
+41929.0     awake
+41929.0     shower
+41929.0     walk
+41929.0     train
+41929.0     bus
+41929.0     walk
+41929.0     sit
+41929.0     walk
+41929.0     sit, drinks
+41929.0     walk
+41929.0     car
+41929.0     walk
+41929.0     restaurant
+41929.0     walk, bike
+41929.0     party
+41930.0     walk
+41930.0     pub
+41930.0     walk
+41930.0     sleep
+41930.0     awake
+41930.0     pack
+41930.0     car
+41930.0     stuff at home
+41930.0     run
+41930.0     shower, clean
+41930.0     groceries
+41930.0     cook, relax
+41930.0     sleep
+41931.0     dress
+41931.0     car
+41931.0     swim
+41931.0     dress
+41931.0     car home
+41931.0     pc
+41931.0     walk
+41931.0     work
+41931.0     walk
+41931.0     study
+41931.0     groceries, car
+41931.0     cook, relax, pc
+41931.0     sleep
+41932.0     shower, dress
+41932.0     walk
+41932.0     work
+41932.0     walk
+41932.0     relax
+41932.0     cook, relax, read
+41932.0     to bed
+41932.0     sleep
+41933.0     shower, dress
+41933.0     walk
+41933.0     work
+41933.0     walk
+41933.0     sit
+41933.0     dress
+41933.0     read
+41933.0     sleep
+41934.0     shower, dress
+41934.0     walk
+41934.0     work
+41934.0     walk
+41934.0     bike
+41934.0     sit
+41934.0     bike
+41934.0     run
+41934.0     cook, pc
+41934.0     awake
+41935.0     sleep

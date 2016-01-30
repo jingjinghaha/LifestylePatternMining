@@ -1,0 +1,7 @@
+['cycle', 'work']
+['charge']
+['cycle']
+['spin', 'lesson', 'sport', 'bike']
+['shower']
+['push', 'up']
+['deuterium', 'water', 'procedure']

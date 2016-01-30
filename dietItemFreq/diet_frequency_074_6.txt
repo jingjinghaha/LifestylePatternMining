@@ -1,0 +1,5 @@
+'cake'                   1         
+'yoghurt'                1         
+'vegetable'              1         
+'potato'                 1         
+'oatmeal'                2         

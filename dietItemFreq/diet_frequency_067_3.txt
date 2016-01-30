@@ -1,0 +1,9 @@
+'pie'                    1         
+'cornflakes'             1         
+'cookie'                 1         
+'milk'                   1         
+'shrimp'                 1         
+'cocktail'               1         
+'sandwich'               1         
+'beef'                   1         
+'tea'                    1         

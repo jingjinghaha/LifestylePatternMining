@@ -1,0 +1,5 @@
+['sugar']
+['chocolate', 'tea']
+['cookie', 'apple', 'chocolate']
+['cappuccino', 'chip']
+['potato', 'meat']

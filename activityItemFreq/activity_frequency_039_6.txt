@@ -1,0 +1,7 @@
+'walk'                   1         
+'sleep'                  1         
+'charge'                 1         
+'computer'               2         
+'bike'                   1         
+'study'                  1         
+'home'                   1         

@@ -1,0 +1,12 @@
+'walk'                   6         
+'xco'                    1         
+'sleep'                  1         
+'workout'                1         
+'bus'                    2         
+'phone'                  1         
+'car'                    3         
+'school'                 1         
+'drive'                  3         
+'train'                  2         
+'dog'                    2         
+'study'                  1         

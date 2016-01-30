@@ -1,0 +1,6 @@
+'run'                    1         
+'muffins'                1         
+'back'                   1         
+'study'                  2         
+'cook'                   1         
+'clean'                  1         

@@ -1,0 +1,7 @@
+'vegetable'              1         
+'kiwi'                   1         
+'healthy'                1         
+'cookie'                 1         
+'meat'                   1         
+'sandwich'               1         
+'potato'                 1         

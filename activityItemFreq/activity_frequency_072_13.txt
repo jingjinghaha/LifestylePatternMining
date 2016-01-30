@@ -1,0 +1,7 @@
+'walk'                   1         
+'shower'                 1         
+'bed'                    1         
+'car'                    2         
+'drive'                  2         
+'zoo'                    2         
+'charge'                 1         

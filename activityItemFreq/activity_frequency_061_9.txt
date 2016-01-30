@@ -1,0 +1,15 @@
+'soccer'                 1         
+'play'                   1         
+'traineeship'            1         
+'shower'                 1         
+'diner'                  1         
+'canteen'                1         
+'cook'                   1         
+'car'                    2         
+'friends'                1         
+'computer'               2         
+'drive'                  2         
+'watch'                  2         
+'train'                  2         
+'breakfast'              1         
+'tv'                     2         

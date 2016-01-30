@@ -1,0 +1,5 @@
+'cookie'                 1         
+'yoghurt'                1         
+'soup'                   1         
+'sandwich'               1         
+'muesli'                 1         

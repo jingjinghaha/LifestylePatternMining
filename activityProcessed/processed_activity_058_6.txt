@@ -1,0 +1,4 @@
+['run']
+['work', 'behind', 'computer']
+['cycle']
+['shop']

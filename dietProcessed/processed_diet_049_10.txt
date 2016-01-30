@@ -1,0 +1,4 @@
+['sandwich', 'egg', 'sandwich', 'nut', 'butter', 'coffee']
+['sandwich', 'sandwich', 'meat', 'fruit']
+['cauliflower', 'potato']
+['five', 'beer', 'snack']

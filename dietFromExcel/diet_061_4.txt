@@ -1,0 +1,5 @@
+peer
+74,5kg
+apple, peer, two sandwiches
+coockie
+patatoe, fish, vegetables

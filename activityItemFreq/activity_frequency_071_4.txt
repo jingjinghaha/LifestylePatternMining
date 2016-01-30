@@ -1,0 +1,9 @@
+'cycle'                  6         
+'shower'                 1         
+'loose'                  1         
+'spin'                   1         
+'practicum'              1         
+'lecture'                1         
+'university'             1         
+'phone'                  1         
+'elektrodes'             1         

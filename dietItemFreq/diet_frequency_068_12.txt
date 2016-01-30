@@ -1,0 +1,7 @@
+'rice'                   1         
+'egg'                    1         
+'chocolate'              1         
+'milk'                   1         
+'smoothie'               1         
+'sandwich'               1         
+'wine'                   2         

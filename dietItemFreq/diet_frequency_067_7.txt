@@ -1,0 +1,6 @@
+'yoghurt'                2         
+'chicken'                1         
+'cappuccino'             1         
+'muesli'                 2         
+'doner'                  1         
+'sandwich'               2         

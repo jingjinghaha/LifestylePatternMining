@@ -1,0 +1,5 @@
+['banana', 'shake']
+['sandwich', 'meat']
+['fish', 'meat', 'potato', 'vegetable']
+['sandwich', 'cheese']
+['yoghurt', 'muesli']

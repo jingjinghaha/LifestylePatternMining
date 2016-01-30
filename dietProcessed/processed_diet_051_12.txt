@@ -1,0 +1,3 @@
+['ginger', 'bread']
+['sandwich', 'vegetable', 'meat']
+['chine']

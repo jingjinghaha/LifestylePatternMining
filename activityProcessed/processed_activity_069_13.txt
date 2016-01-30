@@ -1,0 +1,6 @@
+['bus']
+['train']
+['car']
+['car']
+['train']
+['bus']

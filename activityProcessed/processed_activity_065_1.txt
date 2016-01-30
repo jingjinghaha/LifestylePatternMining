@@ -1,0 +1,7 @@
+['study']
+['workout', 'hit']
+['cycle']
+['cook', 'diner']
+['study']
+['shower', 'clean']
+['sleep']

@@ -1,0 +1,6 @@
+['drive', 'car']
+['practicum', 'university']
+['drive', 'car']
+['study', 'pack']
+['run']
+['cycle']

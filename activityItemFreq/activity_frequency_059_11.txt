@@ -1,0 +1,13 @@
+'water'                  1         
+'cycle'                  2         
+'procedure'              1         
+'shower'                 1         
+'spin'                   1         
+'deuterium'              1         
+'sport'                  1         
+'work'                   1         
+'up'                     1         
+'charge'                 1         
+'bike'                   1         
+'push'                   1         
+'lesson'                 1         

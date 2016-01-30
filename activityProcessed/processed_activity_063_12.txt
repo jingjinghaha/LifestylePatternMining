@@ -1,0 +1,4 @@
+['sleep']
+['charge']
+['city', 'bike']
+['train', 'car', 'parent', 'home']

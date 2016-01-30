@@ -1,0 +1,5 @@
+['work']
+['cook']
+['shower']
+['drive', 'car']
+['sleep', 'home']

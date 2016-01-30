@@ -1,0 +1,6 @@
+'linz'                   1         
+'cake'                   1         
+'hummus'                 1         
+'sandwich'               1         
+'carrot'                 1         
+'apple'                  2         

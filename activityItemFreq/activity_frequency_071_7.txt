@@ -1,0 +1,10 @@
+'cycle'                  2         
+'walk'                   1         
+'sleep'                  2         
+'lecture'                1         
+'presentation'           1         
+'university'             1         
+'car'                    2         
+'drive'                  2         
+'phone'                  1         
+'study'                  1         

@@ -1,0 +1,3 @@
+painting
+charging sensor
+traveling (walking, bus, train, car)

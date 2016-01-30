@@ -1,0 +1,14 @@
+'cycle'                  2         
+'friend'                 1         
+'shower'                 1         
+'walk'                   1         
+'cinema'                 1         
+'talk'                   1         
+'study'                  2         
+'drive'                  1         
+'shop'                   1         
+'bike'                   1         
+'breakfast'              1         
+'clean'                  1         
+'lesson'                 1         
+'home'                   1         

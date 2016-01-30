@@ -1,0 +1,10 @@
+'wait'                   1         
+'den'                    1         
+'trainstation'           1         
+'cycle'                  2         
+'run'                    2         
+'haag'                   1         
+'icc'                    1         
+'delay'                  1         
+'walk'                   1         
+'train'                  5         

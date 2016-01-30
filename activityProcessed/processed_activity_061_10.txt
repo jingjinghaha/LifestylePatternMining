@@ -1,0 +1,6 @@
+['charge']
+['watch', 'computer', 'tv']
+['shower']
+['drive', 'car']
+['concert', 'sit']
+['drive', 'car']

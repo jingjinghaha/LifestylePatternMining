@@ -1,0 +1,7 @@
+'walk'                   2         
+'shower'                 1         
+'sleep'                  1         
+'work'                   2         
+'relax'                  1         
+'diner'                  1         
+'breakfast'              1         

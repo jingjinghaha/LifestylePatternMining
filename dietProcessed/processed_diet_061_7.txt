@@ -1,0 +1,5 @@
+['sandwich', 'banana']
+['sandwich', 'apple']
+['orange']
+['vegetable', 'doner', 'chicken']
+['cookie', 'chip']

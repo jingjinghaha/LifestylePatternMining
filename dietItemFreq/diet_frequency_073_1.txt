@@ -1,0 +1,7 @@
+'noodles'                1         
+'soup'                   2         
+'wine'                   1         
+'meat'                   1         
+'sandwich'               1         
+'red'                    1         
+'chocolate'              1         

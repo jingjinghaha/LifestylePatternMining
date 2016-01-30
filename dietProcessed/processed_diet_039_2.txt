@@ -1,0 +1,5 @@
+['egg', 'sandwich', 'cheese']
+['coffee', 'cookie']
+['mince', 'meat', 'noodles', 'salad']
+['thee', 'cookie']
+['sandwich', 'meat']

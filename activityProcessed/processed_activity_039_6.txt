@@ -1,0 +1,7 @@
+['bike', 'home']
+['sleep']
+['computer']
+['charge']
+['computer']
+['study']
+['walk']

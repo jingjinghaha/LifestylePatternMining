@@ -1,0 +1,6 @@
+'chocolate'              2         
+'fries'                  1         
+'cookie'                 1         
+'custard'                1         
+'alcohol'                1         
+'raisin'                 1         

@@ -1,0 +1,5 @@
+['study']
+['clean']
+['study']
+['cycle', 'workout', 'cycle']
+['shower', 'charge']

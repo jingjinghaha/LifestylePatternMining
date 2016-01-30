@@ -1,0 +1,16 @@
+'walk'                   1         
+'play'                   1         
+'sleep'                  1         
+'shower'                 1         
+'household'              2         
+'babysitting'            1         
+'run'                    1         
+'diner'                  1         
+'wii'                    1         
+'movie'                  1         
+'activity'               2         
+'car'                    6         
+'drive'                  6         
+'cook'                   2         
+'watch'                  1         
+'clean'                  1         

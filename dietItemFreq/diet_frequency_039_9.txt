@@ -1,0 +1,8 @@
+'salmon'                 1         
+'fruit'                  1         
+'chicken'                1         
+'cheese'                 1         
+'kellogs'                1         
+'sandwich'               1         
+'yoghurt'                1         
+'coffee'                 1         

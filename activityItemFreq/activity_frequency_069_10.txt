@@ -1,0 +1,9 @@
+'loose'                  1         
+'cycle'                  5         
+'night'                  1         
+'household'              1         
+'work'                   1         
+'sleep'                  1         
+'activity'               1         
+'elektrodes'             1         
+'clean'                  1         

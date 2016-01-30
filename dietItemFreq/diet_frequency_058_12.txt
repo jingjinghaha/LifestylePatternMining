@@ -1,0 +1,4 @@
+'cookie'                 2         
+'sugar'                  1         
+'chocolate'              1         
+'cheese'                 1         

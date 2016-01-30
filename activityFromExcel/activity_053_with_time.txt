@@ -1,0 +1,68 @@
+41942.0     study
+41942.0     cycling
+41942.0     going out (forgot the phone)
+41942.0     cycling
+41942.0     sleep
+41943.0     shower
+41943.0     cycling
+41943.0     shower
+41943.0     travelling with ov
+41943.0     walking
+41943.0     sleep
+41944.0     teaching tennis game 
+41944.0     weight measurement 
+41944.0     study
+41944.0     driving car
+41944.0     going out
+41944.0     sitting in the car
+41944.0     sleep
+41945.0     cycling
+41945.0     charging sensor
+41945.0     work
+41945.0     cycling
+41945.0     sleep
+41946.0     travelling with ov
+41946.0     study
+41946.0     cycling
+41946.0     sleep
+41947.0     charging and skillslab
+41947.0     study
+41947.0     study
+41947.0     travelling with ov
+41947.0     watching movie
+41947.0     sleep (not at home, sensor off)
+41948.0     shower
+41948.0     travelling with ov
+41948.0     shopping
+41948.0     travelling with ov
+41948.0     watching tv
+41948.0     charging sensor
+41948.0     sleep
+41949.0     study
+41949.0     study
+41949.0     going out
+41950.0     sleep
+41950.0     shower (charging sensor)
+41950.0     study
+41950.0     running
+41950.0     travelling with ov
+41951.0     driving car
+41951.0     party
+41951.0     driving car
+41951.0     sleep
+41951.0     work
+41951.0     study
+41951.0     study
+41951.0     visiting friends
+41951.0     sleep
+41952.0     study
+41952.0     work
+41952.0     charging sensor
+41952.0     shower 
+41952.0     driving car
+41953.0     sleep, shower (sensor off)
+41953.0     traveling and shopping
+41953.0     travelling with ov
+41953.0     study
+41953.0     charging sensor
+41953.0     sleep

@@ -1,0 +1,3 @@
+'sleep'                  1         
+'cycle'                  1         
+'charge'                 1         

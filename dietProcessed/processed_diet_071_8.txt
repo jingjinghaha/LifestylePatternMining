@@ -1,0 +1,4 @@
+['muesli', 'yoghurt', 'pineapple']
+['bread']
+['pasta', 'vegetable', 'pesto']
+['bread', 'cheese', 'apple']

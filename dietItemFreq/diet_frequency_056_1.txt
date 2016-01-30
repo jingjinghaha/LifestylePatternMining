@@ -1,0 +1,6 @@
+'chocolate'              1         
+'nut'                    1         
+'waffle'                 1         
+'pasta'                  1         
+'sandwich'               1         
+'salad'                  1         

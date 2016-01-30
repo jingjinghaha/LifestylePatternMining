@@ -1,0 +1,5 @@
+'shop'                   1         
+'cycle'                  4         
+'walk'                   1         
+'sleep'                  1         
+'lecture'                1         

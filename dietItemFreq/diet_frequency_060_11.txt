@@ -1,0 +1,4 @@
+'pasta'                  2         
+'rice'                   1         
+'orange'                 1         
+'muesli'                 1         

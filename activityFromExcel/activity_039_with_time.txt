@@ -1,0 +1,111 @@
+14-10       study
+15-10       sleep
+15-10       pc
+15-10       recharge
+15-10       tv
+15-10       bike uni
+15-10       study
+15-10       bike home
+15-10       bike uni
+15-10       bike home
+15-10       pc
+16-10       sleep
+16-10       study
+16-10       recharge
+16-10       running
+16-10       shower, recharge
+16-10       study
+16-10       study
+17-10       sleep
+17-10       bus, walk
+17-10       exam
+17-10       walk city
+17-10       walk city
+17-10       bus
+17-10       recharge
+17-10       pc
+18-10       sleep
+18-10       relax
+18-10       bike gym
+18-10       gym
+18-10       bike home
+18-10       recharge, shower
+18-10       study
+18-10       bike pub
+19-10       bike home
+19-10       sleep
+19-10       pc
+19-10       recharge
+19-10       pc
+19-10       study
+19-10       walk
+20-10       sleep
+20-10       67kg
+20-10       recharge
+20-10       bike uni
+20-10       study
+20-10       bike home
+20-10       study
+20-10       recharge
+21-10       sleep
+21-10       household
+21-10       bike uni
+21-10       VO2max
+21-10       gym
+21-10       shower, recharge
+21-10       study
+22-10       sandwich, cheese chicken
+22-10       sleep
+22-10       tv
+22-10       recharge
+22-10       bike city
+22-10       study
+22-10       study
+22-10       bike home
+23-10       sleep
+23-10       recharge
+23-10       bike uni
+23-10       study
+23-10       bike home
+23-10       bike gym
+23-10       gym
+23-10       bike home
+23-10       recharge rest
+24-10       sleep
+24-10       study, household
+24-10       bike city
+24-10       study
+24-10       walk city, shop
+24-10       walk
+24-10       bike home
+24-10       recharge
+25-10       study
+25-10       sleep
+25-10       baked egg, bread cheese
+25-10       recharge
+25-10       bike city
+25-10       study
+25-10       walk
+25-10       walk
+25-10       study
+25-10       bike home
+25-10       study
+26-10       sleep
+26-10       clean
+26-10       bike
+26-10       study
+26-10       study
+26-10       walk
+26-10       study
+26-10       bike home
+26-10       sleep
+27-10       recharge
+27-10       bike uni
+27-10       exam
+27-10       bike city
+27-10       bike
+27-10       pc
+27-10       bike uni
+27-10       gym
+27-10       bike
+27-10       bike

@@ -1,0 +1,8 @@
+['dress']
+['walk']
+['work']
+['walk']
+['sit']
+['cook']
+['bath']
+['relax']

@@ -1,0 +1,5 @@
+'cookie'                 1         
+'fruit'                  1         
+'alcohol'                1         
+'oatmeal'                1         
+'drink'                  1         

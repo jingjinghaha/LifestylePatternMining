@@ -1,0 +1,7 @@
+'walk'                   2         
+'sleep'                  1         
+'car'                    2         
+'shop'                   2         
+'centre'                 1         
+'charge'                 2         
+'home'                   1         

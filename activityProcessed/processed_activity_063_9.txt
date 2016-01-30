@@ -1,0 +1,6 @@
+['run']
+['shower']
+['charge']
+['walk']
+['diner', 'lesson']
+['walk']

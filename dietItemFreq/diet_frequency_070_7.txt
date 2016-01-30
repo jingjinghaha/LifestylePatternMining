@@ -1,0 +1,6 @@
+'paprika'                1         
+'meat'                   1         
+'pasta'                  1         
+'zucchini'               1         
+'sandwich'               2         
+'banana'                 1         

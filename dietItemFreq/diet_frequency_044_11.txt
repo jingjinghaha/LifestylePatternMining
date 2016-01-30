@@ -1,0 +1,16 @@
+'fruit'                  1         
+'egg'                    1         
+'beer'                   1         
+'mango'                  1         
+'cookies'                1         
+'cheese'                 1         
+'tomato'                 1         
+'lemonade'               1         
+'drinkbf'                1         
+'bread'                  1         
+'durum'                  1         
+'baguette'               1         
+'doner'                  1         
+'beef'                   1         
+'carrot'                 1         
+'chocolate'              2         

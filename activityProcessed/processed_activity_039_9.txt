@@ -1,0 +1,8 @@
+['sandwich', 'cheese', 'chicken']
+['sleep']
+['tv']
+['charge']
+['bike', 'city']
+['study']
+['study']
+['bike', 'home']

@@ -1,0 +1,12 @@
+'cycle'                  1         
+'karaoke'                1         
+'cook'                   1         
+'walk'                   2         
+'sleep'                  1         
+'phone'                  1         
+'drink'                  1         
+'shop'                   1         
+'train'                  1         
+'roommate'               1         
+'tea'                    1         
+'charge'                 1         

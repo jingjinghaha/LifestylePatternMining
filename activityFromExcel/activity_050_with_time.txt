@@ -1,0 +1,121 @@
+23.10.2014  travelling by train
+23.10.2014  shopping
+23.10.2014  car driving
+23.10.2014  walking
+23.10.2014  car driving
+23.10.2014  shopping
+23.10.2014  car driving
+23.10.2014  walking
+23.10.2014  taxi
+23.10.2014  taxi
+23.10.2014  going out
+23.10.2014  taxi
+24.10.2014  walking
+24.10.2014  car driving
+24.10.2014  diner
+25.10.2014  walking
+25.10.2014  computer time
+25.10.2014  diner
+25.10.2014  walking
+26.10.2014  walking
+26.10.2014  breakfast
+26.10.2014  snack
+26.10.2014  car driving 
+26.10.2014  visiting grandmother
+26.10.2014  car driving
+26.10.2014  diner
+27.10.2014  walking
+27.10.2014  driving car
+27.10.2014  walking
+27.10.2014  taking the train
+27.10.2014  taking the train
+27.10.2014  driving car
+27.10.2014  walking with the dog
+27.10.2014  washing the car
+27.10.2014  computer
+27.10.2014  walking with the dog
+27.10.2014  cleaning the car
+27.10.2014  watching tv
+27.10.2014  studying
+27.10.2014  sleep
+28.10.2014  walking with the dog
+28.10.2014  charging sensor
+28.10.2014  studying
+28.10.2014  walking with the dog (forgot the phone)
+28.10.2014  computer
+28.10.2014  studying
+28.10.2014  sleep
+29.10.2014  walking with the dog (forgot the phone)
+29.10.2014  working on school
+29.10.2014  driving car
+29.10.2014  workout XCO
+29.10.2014  workout total abs
+29.10.2014  driving car
+29.10.2014  sleep (charging sensor)
+Forgot the phonedriving car
+Forgot the phonewalking
+Forgot the phonetaking the train
+Forgot the phonetaking the bus
+Forgot the phonecourse at school: medical taping
+Forgot the phonetaking the bus
+Forgot the phonetaking the train
+Forgot the phonewalking
+Forgot the phonewatching tv
+Forgot the phonesleep
+41943.0     driving car
+41943.0     walking
+41943.0     taking the train
+41943.0     taking the bus
+41943.0     course at school: medical taping
+41943.0     taking the bus
+41943.0     taking the train
+41943.0     walking
+41943.0     driving car
+41943.0     walking with the dog
+41943.0     walking with the dog
+41943.0     sleep
+41944.0     walking with the dog
+41944.0     driving car
+41944.0     computer
+41944.0     sleep
+41945.0     walking with the dog
+41945.0     charging sensor
+41945.0     driving car
+41945.0     visiting
+41945.0     driving car
+41945.0     sleep
+41946.0     walking with the dog
+41946.0     driving car
+41946.0     walking
+41946.0     taking the train
+41946.0     taking the bus
+41946.0     walking
+41946.0     school
+41946.0     walking
+41946.0     taking the bus
+41946.0     taking the train
+41946.0     walking
+41946.0     driving car
+41946.0     walking with the dog
+41946.0     workout XCO (forgot the phone)
+41946.0     driving car
+41946.0     studying
+41946.0     sleep
+41947.0     walking with the dog
+41947.0     driving car
+41947.0     driving car
+41947.0     walking with the dog
+41947.0     sleep
+41948.0     walking with the dog (forgot the phone)
+41948.0     driving car
+41948.0     walking
+41948.0     taking the train
+41948.0     taking the bus
+41948.0     walking
+41948.0     school
+41948.0     walking
+41948.0     taking the bus
+41948.0     taking the train
+41948.0     walking
+41948.0     driving car
+41948.0     sleep

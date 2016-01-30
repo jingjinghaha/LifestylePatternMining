@@ -1,0 +1,9 @@
+'walk'                   4         
+'sleep'                  1         
+'diner'                  1         
+'car'                    3         
+'drive'                  3         
+'watch'                  1         
+'dog'                    4         
+'tv'                     1         
+'lunch'                  1         

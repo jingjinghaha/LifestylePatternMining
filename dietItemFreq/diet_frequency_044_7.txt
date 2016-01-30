@@ -1,0 +1,12 @@
+'ravioli'                1         
+'natriumnitrate'         1         
+'jam'                    1         
+'pear'                   1         
+'butter'                 1         
+'drink'                  1         
+'meat'                   1         
+'milk'                   1         
+'bread'                  2         
+'cheese'                 3         
+'salad'                  1         
+'juice'                  1         

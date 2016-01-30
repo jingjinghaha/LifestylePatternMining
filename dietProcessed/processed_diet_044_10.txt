@@ -1,0 +1,5 @@
+['cookie', 'juice']
+['wine', 'snack', 'cake']
+['wine', 'piece', 'baguette', 'butter']
+['beef', 'fries', 'lettuce', 'mayo']
+['beer']

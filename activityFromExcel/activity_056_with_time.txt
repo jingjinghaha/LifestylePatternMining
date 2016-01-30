@@ -1,0 +1,133 @@
+41967.0     shopping 
+41967.0     shopping (with the car)
+41967.0     coocking
+41967.0     watching tv
+41967.0     sleep
+41968.0     household activities
+41968.0     charging sensor
+41968.0     shower
+41968.0     driving car
+41968.0     work
+41968.0     sleep (at work)
+41969.0     driving car
+41969.0     study
+41969.0     babysitting
+41969.0     test and driving car
+41969.0     charging sensor
+41969.0     sleep
+41970.0     driving car
+41970.0     work
+41970.0     soccer training
+41970.0     charging sensor
+41970.0     sleep
+41971.0     driving car
+41971.0     running/ walking
+41971.0     coocking
+41971.0     driving car
+41971.0     household activities
+41971.0     shower
+41971.0     household activities
+41971.0     driving car
+41971.0     babysitting
+41971.0     driving car
+41971.0     coocking
+41971.0     diner
+41971.0     cleaning
+41971.0     driving car
+41971.0     driving car
+41971.0     watching movie/ playing wii
+41971.0     sleep
+41972.0     driving car
+41972.0     backery
+41972.0     driving car
+41972.0     shopping
+41972.0     driving car
+41972.0     household activities
+41972.0     driving car
+41972.0     driving car/ shopping
+41972.0     driving car
+41972.0     shower
+41972.0     driving car
+41972.0     going out for diner
+41972.0     driving car
+41972.0     going out
+41972.0     sleep
+41973.0     driving car
+41973.0     work
+41973.0     driving car
+41973.0     going out for diner
+41973.0     charging sensor
+41973.0     sleep
+41974.0     driving car
+41974.0     babysitting
+41974.0      
+41974.0     driving car
+41974.0     coocking
+41974.0     driving car
+41974.0     fitness
+41974.0     driving car
+41974.0     shower
+41974.0     sleep
+41975.0      driving car
+41975.0     driving car
+41975.0     sleep
+41975.0     charging sensor
+41975.0     babysitting
+41975.0     driving car
+41975.0     work
+41975.0     sleep (at work)
+41976.0     driving car
+41976.0     shower
+41976.0     driving car
+41976.0     babysitting
+41976.0     driving car
+41976.0     household activities
+41976.0     coocking
+41976.0     diner
+41976.0     dishes
+41976.0     driving car
+41976.0     fitness (forgot phone)
+41976.0     driving car
+41976.0     shower and charging sensor
+41976.0     sleep
+41977.0     driving car
+41977.0     work
+41977.0     driving car
+41977.0     diner
+41977.0     driving car
+41977.0     soccer training
+41977.0     driving car
+41977.0     shower and charging sensor
+41977.0     sleep
+41978.0     driving car
+41978.0     driving car
+41978.0     shopping
+41978.0     driving car
+41978.0     driving car
+41978.0     going out (voetbal international)
+41978.0     driving car (phone empty)
+41979.0     sleep
+41979.0     driving car
+41979.0     driving car
+41979.0     lunch
+41979.0     driving car
+41979.0     driving car
+41979.0     charging sensor
+41979.0     walking
+41979.0     birthday party
+41979.0     walking
+41979.0     charging sensor
+41979.0     diner
+41979.0     driving car
+41979.0     driving car
+41979.0     sleep
+41980.0     driving car
+41980.0     driving car
+41980.0     soccer game
+41980.0     forgot new elektrodes
+41980.0     driving car/ shopping
+41980.0     diner
+41980.0     driving car
+41980.0     set up christmas tree
+41980.0     watching tv
+41980.0     stop wearing sensor 

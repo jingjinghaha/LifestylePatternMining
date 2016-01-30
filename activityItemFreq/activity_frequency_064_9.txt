@@ -1,0 +1,9 @@
+'study'                  1         
+'cycle'                  2         
+'sleep'                  1         
+'pushups'                1         
+'relax'                  1         
+'school'                 1         
+'cook'                   1         
+'charge'                 1         
+'lunch'                  1         

@@ -1,0 +1,10 @@
+'fruit'                  1         
+'chicken'                1         
+'soup'                   2         
+'pumpkin'                1         
+'meat'                   1         
+'onion'                  1         
+'sandwich'               1         
+'yoghurt'                1         
+'choco'                  1         
+'doner'                  1         

@@ -1,0 +1,5 @@
+['bread', 'butter', 'jam', 'cheese', 'juice']
+['baguette', 'meat']
+['strawberry', 'cheese']
+['chocolate', 'milk', 'chocolate', 'muffin']
+['olives', 'beer', 'lasagna']

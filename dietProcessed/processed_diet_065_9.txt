@@ -1,0 +1,6 @@
+['sandwich', 'sugar']
+['sandwich', 'tuna']
+['cookie']
+['cookie']
+['pumpkin', 'soup', 'cookie']
+['drink', 'wine']

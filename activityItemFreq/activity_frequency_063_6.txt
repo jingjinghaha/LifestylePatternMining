@@ -1,0 +1,5 @@
+'sleep'                  1         
+'walk'                   1         
+'drive'                  1         
+'car'                    1         
+'home'                   1         

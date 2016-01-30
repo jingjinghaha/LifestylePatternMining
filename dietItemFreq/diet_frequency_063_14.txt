@@ -1,0 +1,8 @@
+'chocolate'              1         
+'jam'                    2         
+'choco'                  1         
+'custard'                1         
+'meat'                   2         
+'pasta'                  1         
+'sandwich'               2         
+'potato'                 1         

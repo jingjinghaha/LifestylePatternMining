@@ -1,0 +1,6 @@
+'egg'                    1         
+'chocolate'              1         
+'tuna'                   1         
+'beef'                   1         
+'juice'                  1         
+'lunch'                  1         

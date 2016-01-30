@@ -1,0 +1,4 @@
+'cookie'                 1         
+'sausage'                1         
+'tomato'                 1         
+'beer'                   1         

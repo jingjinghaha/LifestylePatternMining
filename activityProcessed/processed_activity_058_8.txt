@@ -1,0 +1,5 @@
+['cycle', 'trainstation', 'visit', 'orbis', 'hospital']
+['university', 'labprotocol']
+['cycle', 'shop']
+['work', 'horeca']
+['sleep']

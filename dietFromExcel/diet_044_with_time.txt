@@ -1,0 +1,79 @@
+41920.0     Nasi, vegetables, vegetarian meatballs
+41920.0     M&Ms
+41920.0     3 Prosecco
+41921.0     350g flat cheese,cruesli, honey
+41921.0     4x brown bread, cheese
+41921.0     150g carrots
+41921.0     coffee, milk sugar
+41921.0     pear
+41921.0     Chili con carne, vegies, flat cheese
+41921.0     pudding
+41922.0     banana
+41922.0     pear
+41922.0     350g flat cheese,cruesli, honey
+41922.0     300g carrots
+41922.0     4 beer, 3 bitterballs
+41922.0     1 wine, bread aioli
+41923.0     coffee milk
+41923.0     flat cheese, cruesli
+41923.0     2 juice, 1 soup, 2 brown bread, cotton cheese, tomato
+41923.0     pizza,  175g chocolate, 3 mandarins, 1 wine
+41924.0     flat cheese,cruesli, honey
+41924.0     0.5L Lemonade
+41924.0     2 buns, cheese, boiled egg
+41924.0     bun, humus, rucola, avocado
+41924.0     125g camembert, 2 buns, 80 g pasta, pumpkin, leek, courgette, onion, chicken
+41924.0     2 mandarin, 1 wine
+41925.0     3 coffee sugar milk
+41925.0     instant meal chicken, yoghurt strawberry
+41925.0     2 fruitbars, 2 juice
+41926.0     3 brown bread, butter, cheese, jam, juice, glass natriumnitrate
+41926.0     3 brown bread, cheese, cheese salaede, milk, pear
+41926.0     antipasta ravioli
+41927.0     flat cheese,cruesli, honey
+41927.0     5 coffee, milk, 1 sugar
+41927.0     soup, 4 brown bread, 2 peanutbutter
+41927.0     pasta, chicken, tomato courgette, spinach, feta
+41927.0     rice pudding, 4 wine
+41928.0     flat cheese,cruesli, honey
+41928.0     4 brown bread, peanutbutter
+41928.0     2 coffee
+41928.0     banana, pear
+41928.0     pizza, chocolat "kruidnoten", crisps
+41928.0     pasat, tomato, shrimps, rucola
+41928.0     7 wine
+41929.0     2 crackers, juice
+41929.0     5 wine, snacks, cream cake
+41929.0     3 wine, 4 pieces baguette, herbbutter
+41929.0     steak fries, lettuce, mayo
+41929.0     8 beer
+41930.0     1 beer
+41930.0     durum doner
+41930.0     croissant, "fruitbf" carrots, chocolate egg, "drinkbf"
+41930.0     baguette cheese
+41930.0     chocolat cookies
+41930.0     steak, tomato
+41930.0     mango, 2 lemonade
+41931.0     banana
+41931.0     flat cheese,cruesli, honey
+41931.0     2 buns, cheese, egg
+41931.0     375ml pudding
+41931.0     pasta, vegetables,80g port salut, 1,5 brown bread, 50g olives+feta, wine
+41932.0     flat cheese,cruesli, honey
+41932.0     4 brown bread, peanutbutter
+41932.0     apple, banana
+41932.0     coffee, milk, 1 sugar
+41932.0     1 crisps
+41932.0     instant meal chicken, 2 juice
+41932.0     2 fruit bars
+41932.0     yoghurt strawberry
+41933.0     3 brown bread, butter, j2 jam, 2 cheese, juce
+41933.0     baguette meatball
+41933.0     strawberry flat cheese
+41933.0     chocolat milk, chocolat muffin
+41933.0     olives, beer, lasagna
+41934.0     flat cheese,cruesli, honey
+41934.0     banana
+41934.0     4 brown bread, 2 cheese
+41934.0     2 coffee, milk sugar
+41934.0     pasta chicken, pudding

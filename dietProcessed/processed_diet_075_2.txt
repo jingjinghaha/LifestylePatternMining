@@ -1,0 +1,3 @@
+['egg', 'bacon', 'yoghurt', 'muesli']
+['apple', 'banana']
+['broccoli', 'chicken', 'potato']

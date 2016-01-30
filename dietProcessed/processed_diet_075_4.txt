@@ -1,0 +1,4 @@
+['sandwich']
+['orange']
+['sandwich', 'tomato']
+['apple', 'banana']

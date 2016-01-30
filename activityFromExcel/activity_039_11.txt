@@ -1,0 +1,8 @@
+sleep
+study, household
+bike city
+study
+walk city, shop
+walk
+bike home
+recharge

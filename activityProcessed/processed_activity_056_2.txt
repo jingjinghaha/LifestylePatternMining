@@ -1,0 +1,6 @@
+['household', 'activity']
+['charge']
+['shower']
+['drive', 'car']
+['work']
+['sleep', 'work']

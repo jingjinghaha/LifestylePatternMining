@@ -1,0 +1,29 @@
+41984.0     banana and apple
+41984.0     lasagna, 6 beer
+41985.0     3 crackers, 2 kiwi
+41985.0     healthy sandwich
+41985.0     patatoe, vegetable, meat
+41986.0     1 sandwich chocolade sprinkles and 2 crackers
+41986.0     sandwich with goatcheese/bacon
+41986.0     tapas
+41987.0     crackers and soup (ill)
+41988.0     3 crackers
+41988.0     toast
+41988.0     couscous
+41989.0     3 crackers
+41989.0     crackers and soup
+41989.0     wraps
+41990.0     3 crackers
+41990.0     yoghurt, muesli, mango, apple
+41990.0     gnochhi, chocolade bonbonbloc
+41991.0     yoghurt, muesli, banana
+41991.0     2 sandwiches cheese
+41991.0     pasta
+41992.0     2 sandwiches cheese
+41993.0     salad with cheese
+41993.0     sandwich ham
+41993.0     home made pizza
+41994.0     sandwich cheese and sandwich chocolade sprinkles
+41994.0     tosti, 2 kiwi and salad
+41994.0     salmon with gratin
+41995.0     cracker cheese, cracker chocolade sprinkles

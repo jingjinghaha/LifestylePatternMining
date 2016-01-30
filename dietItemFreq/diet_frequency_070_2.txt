@@ -1,0 +1,5 @@
+'sandwich'               2         
+'meat'                   1         
+'vegetable'              1         
+'doner'                  1         
+'yoghurt'                1         

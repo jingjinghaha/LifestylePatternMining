@@ -1,0 +1,5 @@
+['yoghurt', 'kellogs', 'banana']
+['coffee', 'cookie']
+['banana', 'mandarins']
+['fries', 'chicken', 'salad']
+['sandwich', 'meat']

@@ -1,0 +1,8 @@
+['craftwork']
+['craftwork']
+['shop', 'cycle']
+['cook']
+['drive', 'car']
+['train']
+['walk']
+['sleep']

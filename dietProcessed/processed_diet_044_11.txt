@@ -1,0 +1,7 @@
+['beer']
+['durum', 'doner']
+['bread', 'fruit', 'carrot', 'chocolate', 'egg', 'drinkbf']
+['baguette', 'cheese']
+['chocolate', 'cookies']
+['beef', 'tomato']
+['mango', 'lemonade']

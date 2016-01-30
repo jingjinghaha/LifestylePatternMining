@@ -1,0 +1,5 @@
+'sandwich'               2         
+'salad'                  1         
+'beef'                   1         
+'cauliflower'            1         
+'potato'                 1         

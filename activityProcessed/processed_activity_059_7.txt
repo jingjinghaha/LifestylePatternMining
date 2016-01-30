@@ -1,0 +1,5 @@
+['cycle', 'work']
+['charge']
+['cycle', 'shop']
+['drive', 'car']
+['charge']

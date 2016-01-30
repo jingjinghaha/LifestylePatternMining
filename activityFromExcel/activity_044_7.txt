@@ -1,0 +1,11 @@
+get up
+walk
+work
+walk
+run
+shower, dress
+car
+restaurant
+car
+dress, chat
+sleep

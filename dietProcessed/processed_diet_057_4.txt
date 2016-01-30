@@ -1,0 +1,3 @@
+['milk', 'cookie', 'coffee']
+['sandwich', 'sandwich', 'rice', 'cookie', 'cheese', 'coffee']
+['fries', 'meat', 'mayo', 'sate']

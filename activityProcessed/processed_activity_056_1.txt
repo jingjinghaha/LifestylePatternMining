@@ -1,0 +1,5 @@
+['shop']
+['shop', 'car']
+['cook']
+['watch', 'tv']
+['sleep']

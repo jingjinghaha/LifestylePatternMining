@@ -1,0 +1,7 @@
+'walk'                   4         
+'bus'                    2         
+'sit'                    2         
+'market'                 1         
+'city'                   1         
+'christmas'              1         
+'home'                   1         

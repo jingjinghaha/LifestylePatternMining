@@ -1,0 +1,8 @@
+'salmon'                 1         
+'fruit'                  2         
+'tuna'                   1         
+'muesli'                 1         
+'hamburger'              1         
+'sandwich'               1         
+'yoghurt'                1         
+'salad'                  1         

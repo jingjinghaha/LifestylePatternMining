@@ -1,0 +1,6 @@
+['shower']
+['bus']
+['train']
+['drive', 'car']
+['watch', 'tv']
+['sleep']

@@ -1,0 +1,137 @@
+41975.0     coocking
+41975.0     cycling
+41975.0     shopping
+41975.0     cycling
+41975.0     homework
+41976.0     sleep (one elektrode during the night loose)
+41976.0     charging sensor
+41976.0     homework
+41976.0     coocking and lunch
+41976.0     shower
+41976.0     cycling
+41976.0     at school
+41976.0     cycling
+41976.0     coocking and diner
+41976.0     computer
+41976.0     charging sensor
+41976.0     homework
+41976.0     sleep
+41977.0     shower and getting ready
+41977.0     cycling
+41977.0     at school
+41977.0     cycling
+41977.0     computer
+41977.0     sleep
+41977.0     computer
+41977.0     workout
+41977.0     charging sensor
+41977.0     computer
+41977.0     sleep
+41978.0     breakfast
+41978.0     cycling
+41978.0     at school
+41978.0     cycling
+41978.0     shower and getting ready
+41978.0     shopping (by bus)
+41978.0     MRI research
+41978.0     taking the train
+41978.0     cycling
+41978.0     party
+41979.0     cycling
+41979.0     sleep (not at home)
+41979.0     going home (NS)
+41979.0     charging sensor
+41979.0     sleep
+41979.0     cycling
+41979.0     game/ watching movie
+41980.0     sleep (not at home)
+41980.0     game/ watching movie
+41980.0     workout
+41980.0     lying 
+41980.0     shower
+41980.0     homework
+41980.0     cycling
+41980.0     homework (phone empty)
+41981.0     charging phone
+41981.0     sleep
+41981.0     homework
+41981.0     shower
+41981.0     at school
+41981.0     experiment sensor off
+41981.0     shopping (by bus)
+41981.0     coocking and diner
+41981.0     charging sensor
+41981.0     chatten
+41982.0     sleep
+41982.0     shower
+41982.0     cycling
+41982.0     shopping
+41982.0     cycling
+41982.0     coocking and lunch
+41982.0     sleep
+41982.0     homework
+41982.0     workout
+41982.0     coocking and diner
+41982.0     study
+41982.0     charging sensor
+41982.0     computer
+41982.0     sleep
+41983.0     30 pushups
+41983.0     relaxen
+41983.0     cycling
+41983.0     at school
+41983.0     cycling
+41983.0     coocking and lunch
+41983.0     sleep
+41983.0     charging sensor
+41983.0     study
+41984.0     shower
+41984.0     trying to sleep
+41984.0     sleep
+41984.0     30 pushups
+41984.0     study
+41984.0     coocking and lunch
+41984.0     study
+41984.0     coocking and lunch
+41984.0     charging sensor
+41984.0     study
+41984.0     shower
+41984.0     study
+41984.0     sleep
+41985.0     watching tv
+41985.0     washing clothes
+41985.0     30 pushups
+41985.0     cycling
+41985.0     at school
+41985.0     cycling
+41985.0     coocking and lunch
+41985.0     study
+41985.0     sleep
+41985.0     watching tv
+41985.0     cycling
+41985.0     experiment sensor off
+41985.0     cycling
+41985.0     coocking
+41985.0     game/ watching movie
+41986.0     sleep (not at home)
+41986.0     gamen
+41986.0     cycling
+41986.0     charging sensor and coocking
+41986.0     computer
+41986.0     sleep
+41987.0     study
+41987.0     charging sensor
+41987.0     study
+41987.0     shower
+41987.0     cycling
+41987.0     at school
+41987.0     cycling
+41987.0     shopping
+41987.0     cycling
+41987.0     study
+41987.0     study
+41987.0     sleep
+41987.0     gamen
+41987.0     charging sensor
+41988.0     sleep
+41988.0     cycling

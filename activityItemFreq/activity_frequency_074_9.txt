@@ -1,0 +1,14 @@
+'cycle'                  1         
+'sleep'                  1         
+'shower'                 1         
+'toilet'                 1         
+'run'                    2         
+'tv'                     1         
+'shop'                   1         
+'computer'               3         
+'diner'                  1         
+'cook'                   2         
+'watch'                  1         
+'breakfast'              1         
+'dish'                   2         
+'lunch'                  1         

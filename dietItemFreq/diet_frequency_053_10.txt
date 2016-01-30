@@ -1,0 +1,6 @@
+'iceCream'               1         
+'fries'                  1         
+'tomato'                 1         
+'cheese'                 1         
+'sandwich'               2         
+'tea'                    1         

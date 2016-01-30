@@ -1,0 +1,6 @@
+['oatmeal']
+['kaki', 'nut']
+['cabbage', 'rice', 'bread', 'yoghurt']
+['bread', 'grapes', 'kiwi']
+['zucchini', 'soup']
+['red', 'wine', 'lasagna', 'cake']

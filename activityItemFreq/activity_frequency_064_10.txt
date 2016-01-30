@@ -1,0 +1,8 @@
+'shower'                 2         
+'sleep'                  3         
+'pushups'                1         
+'charge'                 1         
+'cook'                   2         
+'try'                    1         
+'study'                  4         
+'lunch'                  2         

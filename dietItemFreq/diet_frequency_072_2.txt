@@ -1,0 +1,6 @@
+'rice'                   1         
+'orange'                 1         
+'noodles'                1         
+'cookie'                 1         
+'pasta'                  1         
+'sandwich'               2         

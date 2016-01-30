@@ -1,0 +1,4 @@
+'drink'                  1         
+'fish'                   1         
+'alcohol'                1         
+'spinach'                1         

@@ -1,0 +1,8 @@
+['run']
+['walk', 'dog']
+['back', 'pie']
+['run']
+['shower']
+['study']
+['walk', 'dog']
+['birtday', 'party']

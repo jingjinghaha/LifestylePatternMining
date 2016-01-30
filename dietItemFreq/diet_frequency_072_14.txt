@@ -1,0 +1,7 @@
+'fruit'                  1         
+'rice'                   1         
+'cookie'                 2         
+'kaki'                   1         
+'sandwich'               2         
+'salad'                  1         
+'pasta'                  1         

@@ -1,0 +1,11 @@
+'tap'                    1         
+'walk'                   4         
+'sleep'                  1         
+'bus'                    2         
+'medical'                1         
+'car'                    2         
+'school'                 1         
+'drive'                  2         
+'train'                  2         
+'dog'                    2         
+'lesson'                 1         

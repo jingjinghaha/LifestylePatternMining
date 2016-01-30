@@ -1,0 +1,4 @@
+['charge']
+['clean']
+['travel', 'walk', 'bus', 'train', 'car']
+['eat', 'play', 'game', 'etc']

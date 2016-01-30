@@ -1,0 +1,9 @@
+'cycle'                  7         
+'shower'                 1         
+'walk'                   1         
+'sleep'                  1         
+'lesson'                 1         
+'behind'                 1         
+'meet'                   1         
+'shop'                   1         
+'charge'                 1         

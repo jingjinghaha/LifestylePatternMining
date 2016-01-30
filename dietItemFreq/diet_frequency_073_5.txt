@@ -1,0 +1,7 @@
+'vegetable'              1         
+'piece'                  1         
+'drop'                   1         
+'meat'                   1         
+'bread'                  1         
+'potato'                 1         
+'chocolate'              1         

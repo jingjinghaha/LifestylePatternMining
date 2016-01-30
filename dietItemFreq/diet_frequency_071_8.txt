@@ -1,0 +1,9 @@
+'pesto'                  1         
+'vegetable'              1         
+'muesli'                 1         
+'pasta'                  1         
+'bread'                  2         
+'cheese'                 1         
+'yoghurt'                1         
+'pineapple'              1         
+'apple'                  1         

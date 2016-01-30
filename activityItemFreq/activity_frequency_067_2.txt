@@ -1,0 +1,13 @@
+'walk'                   2         
+'sleep'                  1         
+'shower'                 1         
+'jacuzzi'                1         
+'run'                    2         
+'bus'                    1         
+'work'                   1         
+'computer'               1         
+'behind'                 1         
+'diner'                  1         
+'shop'                   1         
+'dog'                    2         
+'lesson'                 1         

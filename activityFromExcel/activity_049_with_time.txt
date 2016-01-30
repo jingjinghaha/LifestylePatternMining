@@ -1,0 +1,115 @@
+23.10.2014  travelling by train
+23.10.2014  walking
+23.10.2014  working
+23.10.2014  coocking and diner
+23.10.2014  relaxen
+23.10.2014  sleep
+24.10.2014  breakfast
+24.10.2014  taking shower
+24.10.2014  working
+24.10.2014  diner and relaxen
+24.10.2014  walking
+24.10.2014  working
+24.10.2014  walking
+24.10.2014  sleep
+25.10.2014  food intake
+25.10.2014  walking
+25.10.2014  working
+25.10.2014  walking
+25.10.2014  coocking and diner
+25.10.2014  walking
+25.10.2014  working
+25.10.2014  sleep
+26.10.2014  food intake
+26.10.2014  shower
+26.10.2014  driving
+26.10.2014  driving
+26.10.2014  walking
+26.10.2014  working
+26.10.2014  cinema
+26.10.2014  walking
+26.10.2014  sleep
+27-10       getting up
+27-10       walking
+27-10       taking the train
+27-10       vo2max test
+27-10       taking the train
+27-10       studying
+27-10       coocking and diner
+27-10       watching a movie
+27-10       sleep
+28-10       shower
+28-10       coocking
+28-10       watching a movie
+28-10       sleep
+29-10       taking the train
+29-10       studying
+29-10       taking the train
+29-10       coocking
+29-10       visit
+29-10       sleep
+30-10       traineeship
+30-10       shopping
+30-10       coocking
+30-10       working
+30-10       shower
+30-10       sleep
+31-10       working
+31-10       walking
+31-10       taking the train
+31-10       shopping
+31-10       going out for diner
+31-10       driving car
+31-10       shower
+31-10       sleep
+41944.0     working
+41944.0     coocking
+41944.0     shower
+41944.0     driving car
+41944.0     going out 
+41944.0     sleep (not at home)
+41945.0     driving car
+41945.0     shower
+41945.0     walking
+41945.0     working
+41945.0     driving car
+41945.0     driving car
+41945.0     going out for diner
+41945.0     driving car
+41945.0     sleep
+41946.0     walking
+41946.0     taking the train
+41946.0     taking the bus
+41946.0     school
+41946.0     taking the bus
+41946.0     taking the train
+41946.0     walking
+41946.0     shopping
+41946.0     walking
+41946.0     shower
+41946.0     studying
+41946.0     coocking and diner
+41946.0     studying
+41946.0     sleep
+41947.0     driving car
+41947.0     studying
+41947.0     taking the bus
+41947.0     taking the train
+41947.0     walking
+41947.0     studying
+41947.0     sleep
+41948.0     walking
+41948.0     taking the train
+41948.0     taking the bus
+41948.0     studying
+41948.0     taking the bus
+41948.0     taking the train
+41948.0     walking
+41948.0     shopping
+41948.0     walking
+41948.0     shower
+41948.0     coocking and diner
+41948.0     studying
+41948.0     sleep
+41949.0     walking
+41949.0     taking the train

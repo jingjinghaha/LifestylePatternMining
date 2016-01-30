@@ -1,0 +1,15 @@
+'cycle'                  3         
+'parent'                 1         
+'shower'                 2         
+'injure'                 1         
+'walk'                   1         
+'sleep'                  1         
+'hockey'                 1         
+'play'                   1         
+'car'                    3         
+'game'                   1         
+'drive'                  3         
+'train'                  1         
+'place'                  1         
+'charge'                 1         
+'home'                   1         

@@ -1,0 +1,10 @@
+'walk'                   1         
+'bus'                    1         
+'travel'                 1         
+'drive'                  1         
+'visit'                  1         
+'car'                    2         
+'charge'                 1         
+'eat'                    1         
+'train'                  1         
+'clean'                  1         

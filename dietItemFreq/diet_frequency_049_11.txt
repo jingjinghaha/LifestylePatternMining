@@ -1,0 +1,12 @@
+'water'                  1         
+'fruit'                  1         
+'egg'                    1         
+'tea'                    1         
+'orange'                 1         
+'cucumber'               1         
+'gyros'                  1         
+'bread'                  1         
+'sandwich'               1         
+'gree'                   1         
+'coffee'                 1         
+'juice'                  1         

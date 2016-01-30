@@ -1,0 +1,5 @@
+['cook']
+['cycle']
+['shop']
+['cycle']
+['homework']

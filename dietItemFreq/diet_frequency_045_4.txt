@@ -1,0 +1,4 @@
+'yoghurt'                1         
+'soup'                   1         
+'beer'                   1         
+'sandwich'               1         

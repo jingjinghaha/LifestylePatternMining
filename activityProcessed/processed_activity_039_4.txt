@@ -1,0 +1,8 @@
+['sleep']
+['bus', 'walk']
+['exam']
+['walk', 'city']
+['walk', 'city']
+['bus']
+['charge']
+['computer']

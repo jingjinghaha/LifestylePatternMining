@@ -1,0 +1,5 @@
+['sauna']
+['walk']
+['drive', 'car']
+['relax', 'watch', 'movie', 'pack']
+['drive', 'car']

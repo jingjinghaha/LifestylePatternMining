@@ -1,0 +1,7 @@
+['walk', 'dog', 'phone']
+['work', 'school']
+['drive', 'car']
+['workout', 'xco']
+['workout', 'total', 'abs']
+['drive', 'car']
+['sleep', 'charge']

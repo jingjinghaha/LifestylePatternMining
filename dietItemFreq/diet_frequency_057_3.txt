@@ -1,0 +1,10 @@
+'rice'                   1         
+'yoghurt'                1         
+'meat'                   1         
+'cookie'                 1         
+'milk'                   1         
+'macaroni'               1         
+'cheese'                 1         
+'sandwich'               3         
+'choco'                  1         
+'coffee'                 1         

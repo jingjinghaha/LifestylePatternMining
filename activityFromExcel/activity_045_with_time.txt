@@ -1,0 +1,53 @@
+41956.0     lunch
+41956.0     work
+41956.0     cycling
+41956.0     diner
+41957.0     cycling
+41957.0     work
+41957.0     cycling
+41957.0     going out
+41957.0     irriation sensor, sensor off
+41958.0     cycling
+41959.0     referee
+41959.0     playing hockey
+41959.0     charging sensor
+41960.0     work
+41960.0     lecture
+41960.0     cycling for 20 minutes
+41961.0     cycling
+41961.0     work
+41961.0     charging sensor
+41962.0     cycling for 20 minutes
+41962.0     work
+41963.0     work
+41963.0     sleep
+41964.0     breakfast
+41964.0     cycling for 20 minutes
+41964.0     work
+41964.0     running
+41964.0     relaxen
+41964.0     cleaning
+41964.0     going out
+41964.0     sleep
+41965.0     shopping
+41965.0     relaxen
+41965.0     sleep
+41966.0     driving car
+41966.0     playing hockey
+41966.0     relaxen
+41966.0     sleep
+41967.0     cycling
+41967.0     work
+41967.0     cycling
+41967.0     hockey training
+41967.0     sleep
+41968.0     cycling
+41968.0     work
+41968.0     cycling
+41968.0     sleep
+41969.0     work
+41969.0     cycling
+41969.0     hockey training
+41969.0     sleep
+41970.0     cycling
+41970.0     work

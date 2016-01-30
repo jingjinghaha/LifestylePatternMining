@@ -1,0 +1,12 @@
+'fish'                   1         
+'vegetable'              1         
+'cake'                   1         
+'nut'                    1         
+'muesli'                 1         
+'cookie'                 1         
+'raisin'                 1         
+'bar'                    1         
+'sandwich'               1         
+'potato'                 1         
+'chip'                   1         
+'apple'                  1         

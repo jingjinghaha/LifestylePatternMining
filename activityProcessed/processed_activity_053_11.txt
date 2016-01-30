@@ -1,0 +1,5 @@
+['study']
+['work']
+['charge']
+['shower']
+['drive', 'car']

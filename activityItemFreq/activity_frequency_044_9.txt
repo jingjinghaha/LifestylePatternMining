@@ -1,0 +1,10 @@
+'wait'                   1         
+'walk'                   3         
+'pack'                   2         
+'sleep'                  1         
+'drink'                  1         
+'dress'                  1         
+'work'                   1         
+'car'                    1         
+'train'                  1         
+'bike'                   1         

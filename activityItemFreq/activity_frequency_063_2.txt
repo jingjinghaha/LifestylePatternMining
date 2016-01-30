@@ -1,0 +1,9 @@
+'walk'                   2         
+'play'                   1         
+'shower'                 1         
+'phone'                  1         
+'university'             1         
+'car'                    2         
+'drive'                  2         
+'tennis'                 1         
+'study'                  1         

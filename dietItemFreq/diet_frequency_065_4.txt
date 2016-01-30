@@ -1,0 +1,11 @@
+'mozzarella'             1         
+'rice'                   1         
+'iceCream'               1         
+'tomato'                 1         
+'cheese'                 1         
+'sandwich'               2         
+'mushroom'               1         
+'apple'                  1         
+'syrup'                  1         
+'coffee'                 1         
+'goat'                   1         

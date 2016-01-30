@@ -1,0 +1,4 @@
+'sleep'                  1         
+'work'                   3         
+'clean'                  1         
+'home'                   1         

@@ -1,0 +1,4 @@
+'sandwich'               2         
+'soup'                   1         
+'vegetable'              1         
+'meat'                   1         

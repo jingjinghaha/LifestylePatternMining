@@ -1,0 +1,8 @@
+['walk']
+['train']
+['test']
+['train']
+['study']
+['cook', 'diner']
+['watch', 'movie']
+['sleep']

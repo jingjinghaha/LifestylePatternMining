@@ -1,0 +1,7 @@
+['walk']
+['breakfast']
+['snack']
+['car', 'drive']
+['visit', 'grandmother']
+['car', 'drive']
+['diner']

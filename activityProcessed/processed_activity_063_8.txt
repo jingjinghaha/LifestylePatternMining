@@ -1,0 +1,5 @@
+['shower']
+['walk']
+['practicum', 'university']
+['walk']
+['sleep']

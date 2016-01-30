@@ -1,0 +1,8 @@
+'cycle'                  2         
+'ns'                     1         
+'sleep'                  2         
+'movie'                  1         
+'game'                   1         
+'watch'                  1         
+'charge'                 1         
+'home'                   2         

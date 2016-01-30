@@ -1,0 +1,6 @@
+'wine'                   1         
+'donut'                  1         
+'butter'                 1         
+'pasta'                  1         
+'cheese'                 1         
+'sandwich'               1         

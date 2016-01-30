@@ -1,0 +1,10 @@
+'waffle'                 1         
+'tuna'                   1         
+'cookie'                 1         
+'coconut'                1         
+'meat'                   2         
+'bread'                  1         
+'sandwich'               1         
+'beef'                   1         
+'tea'                    1         
+'sauerkraut'             1         

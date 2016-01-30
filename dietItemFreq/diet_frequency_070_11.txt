@@ -1,0 +1,7 @@
+'egg'                    1         
+'healthy'                1         
+'meat'                   1         
+'chili'                  1         
+'sandwich'               1         
+'bacon'                  1         
+'con'                    1         

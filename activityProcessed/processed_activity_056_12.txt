@@ -1,0 +1,7 @@
+['drive', 'car']
+['drive', 'car']
+['shop']
+['drive', 'car']
+['drive', 'car']
+['voetbal', 'international']
+['drive', 'car', 'phone', 'empty']

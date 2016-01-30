@@ -1,0 +1,5 @@
+['apple', 'yoghurt', 'muesli', 'chocolate']
+['eat', 'olives']
+['potato', 'fish', 'vegetable', 'yoghurt', 'chocolate']
+['orange']
+['pizza', 'salad', 'yoghurt']

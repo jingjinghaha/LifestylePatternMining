@@ -1,0 +1,10 @@
+shower, dress
+walk
+work
+walk
+bike
+sit
+bike
+run
+cook, pc
+awake

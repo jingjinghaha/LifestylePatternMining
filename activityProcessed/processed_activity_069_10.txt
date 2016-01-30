@@ -1,0 +1,8 @@
+['clean', 'household', 'activity']
+['cycle']
+['cycle']
+['work']
+['cycle']
+['cycle']
+['cycle']
+['sleep', 'elektrodes', 'loose', 'night']

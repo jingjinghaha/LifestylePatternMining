@@ -1,0 +1,9 @@
+'walk'                   2         
+'party'                  1         
+'sleep'                  2         
+'diner'                  1         
+'birthday'               1         
+'car'                    6         
+'drive'                  6         
+'charge'                 2         
+'lunch'                  1         

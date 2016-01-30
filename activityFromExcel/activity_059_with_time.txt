@@ -1,0 +1,92 @@
+41977.0     sleep
+41978.0     snooze
+41978.0     getting up
+41978.0     cycling to work
+41978.0     charging
+41978.0     cycling
+41978.0     going out for diner
+41978.0     shower
+41979.0     getting up
+41979.0     taking the car
+41979.0     charging sensor
+41979.0     shopping (taking the car to shopping centre)
+41979.0     walking
+41979.0     walking
+41979.0     sleep (not at home)
+41979.0     charging sensor
+41980.0     getting up 
+41980.0     taking the car
+41980.0     taking the train
+41980.0     taking the bus
+41980.0     walking
+41980.0     charging sensor
+41980.0     chillen at home
+41980.0     restart GPS logger (phone was empty)
+41980.0     taking the car for shopping
+41980.0     push ups
+41980.0     shower
+41980.0     going to bed
+41980.0     sleep
+41981.0     getting up 
+41981.0     cycling
+41981.0     taking the train
+41981.0     taking the bus
+41981.0     charging sensor
+41981.0     walking
+41981.0     taking the bus
+41981.0     walking
+41981.0     walking and running to bus
+41981.0     taking the bus
+41981.0     taking the train
+41983.0     cycling
+41983.0     sleep
+41983.0     getting up 
+41983.0     cycling to work
+41983.0     charging sensor
+41983.0     cycling
+41983.0     cycling
+41983.0     mountain bike (60km)
+41983.0     taking the car
+41983.0     taking the car
+41983.0     sleep
+41984.0     getting up
+41984.0     cycling to work
+41984.0     charging sensor
+41984.0     cycling and shopping
+41984.0     driving car
+41984.0     charging sensor
+41985.0     getting up
+41985.0     driving car 
+41985.0     maximum CPET 
+41985.0     shower
+41985.0     driving car
+41985.0     driving car and shopping
+41985.0     driving car
+41985.0     sleep (not at home)
+41986.0     getting up
+41986.0     charging sensor
+41986.0     driving car
+41986.0     driving car
+41986.0     driving car
+41986.0     walking
+41986.0     walking
+41986.0     sleep (not at home)
+41987.0     getting up
+41987.0     taking the car
+41987.0     charging sensor
+41987.0     driving car
+41987.0     taking the car
+41987.0     driving car
+41987.0     shower
+41987.0     sleep
+41988.0     getting up
+41988.0     cycling to work
+41988.0     charging sensor
+41988.0     cycling
+41988.0     spinning lesson (sport on bicycle)
+41988.0     shower
+41988.0     push ups
+41988.0     deuterium water procedure
+41989.0     getting up 
+41989.0     cycling to work
+41989.0     end of free living 

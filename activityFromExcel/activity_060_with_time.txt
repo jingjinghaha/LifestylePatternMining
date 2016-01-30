@@ -1,0 +1,140 @@
+41974.0     cycling
+41974.0     walking
+41974.0     taking the train
+41974.0     walking
+41974.0     cycling
+41974.0     table football
+41974.0     cycling
+41974.0     charging sensor
+41974.0     shopping
+41974.0     coocking
+41974.0     fitness and cycling
+41974.0     sleep
+41975.0     charging sensor
+41975.0     cycling
+41975.0     lunch part 2
+41975.0     cycling
+41975.0     cycling
+41975.0     cycling
+41975.0     sleep
+41976.0     cycling
+41976.0     lecture
+41976.0     cycling
+41976.0     walking
+41976.0     cycling
+41976.0     cycling
+41976.0     shopping
+41976.0     sleep
+41977.0     charging sensor
+41977.0     cycling
+41977.0     lecture
+41977.0     with friends
+41977.0     sleep
+41978.0     charging sensor
+41978.0     cycling
+41978.0     meeting
+41978.0     cycling
+41978.0     cycling and shopping
+41978.0     walking
+41978.0     taking the train
+41978.0     watching movie
+41978.0     sleep (not at home)
+41979.0     charging sensor
+41979.0     relaxen in bed
+41979.0     at home
+41979.0     going to the city
+41979.0     coocking
+41979.0     diner and watching tv
+41979.0     sleep (not at home)
+41980.0     charging sensor
+41980.0     lunch
+41980.0     shopping
+41980.0     coocking
+41980.0     diner and watching tv
+41980.0     cleaning and packing stuff
+41981.0     charging sensor
+41981.0     walking
+41981.0     vo2max test
+41981.0     cycling
+41981.0     shopping and walking to train
+41981.0     taking the train
+41981.0     walking
+41981.0     lecture
+41981.0     walking
+41981.0     cleaning
+41981.0     cycling
+41981.0     climbing
+41981.0     cycling
+41981.0     coocking
+41981.0     sleep
+41982.0     charging sensor
+41982.0     cycling
+41982.0     lecture
+41982.0     lecture
+41982.0     10km running (phone not with me)
+41982.0     coocking
+41982.0     sleep 
+41983.0     charging sensor
+41983.0     cycling
+41983.0     lecture
+41983.0     cycling
+forgot phone cleaning
+forgot phone shopping
+forgot phone household activities
+forgot phone cycling (pick up some stuff)
+forgot phone shopping
+forgot phone core stability
+forgot phone 6km running
+forgot phone cooling down
+forgot phone shower
+forgot phone coocking
+forgot phone study
+forgot phone sleep
+41984.0     charging sensor
+41984.0     study
+41984.0     cycling
+41984.0     lecture
+41984.0     lecture
+41984.0     cycling
+41984.0     shopping
+41984.0     coocking
+41984.0     sleep
+41985.0     charging sensor
+41985.0     relaxen
+41985.0     walking
+41985.0     dentist
+41985.0     walking
+41985.0     coffee with friends
+41985.0     at university
+41985.0     fitness
+41985.0     walking
+41985.0     shopping
+41985.0     making soup
+41985.0     study
+41985.0     walking
+41985.0     sleep
+41986.0     walking for shopping
+41986.0     charging sensor
+41986.0     shopping
+41986.0     coffee (walking)
+41986.0     getting dressed
+41986.0     walking
+41986.0     taking the train
+41986.0     walking
+41986.0     going out for diner
+41986.0     walking
+41986.0     speedboat 
+41986.0     gala party
+41987.0     taking the taxi and train
+41987.0     walking
+41987.0     sleep
+41987.0     charging sensor
+41987.0     relaxen
+41987.0     cleaning and packing stuff
+41987.0     shopping and walking to train
+41987.0     taking the train
+41987.0     walking
+41987.0     coocking
+41987.0     watching movie
+41987.0     cleaning
+41987.0     sleep (not at home)

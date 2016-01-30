@@ -1,0 +1,14 @@
+'water'                  1         
+'salmon'                 1         
+'currants'               1         
+'soup'                   1         
+'vegetable'              1         
+'cake'                   1         
+'biscuit'                1         
+'drink'                  1         
+'cheese'                 1         
+'sandwich'               2         
+'tea'                    2         
+'dish'                   1         
+'potato'                 1         
+'doner'                  1         

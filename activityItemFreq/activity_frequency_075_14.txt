@@ -1,0 +1,10 @@
+'cycle'                  3         
+'pilates'                1         
+'bed'                    1         
+'study'                  2         
+'diner'                  1         
+'cook'                   2         
+'bike'                   1         
+'tennis'                 1         
+'charge'                 1         
+'lunch'                  1         

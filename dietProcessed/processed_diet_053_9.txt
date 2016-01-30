@@ -1,0 +1,3 @@
+['sandwich', 'cheese']
+['apple', 'bread']
+['salmon', 'potato', 'iceCream', 'cola', 'light', 'red', 'wine']

@@ -1,0 +1,7 @@
+['drive', 'car']
+['maximum', 'cpet']
+['shower']
+['drive', 'car']
+['drive', 'car', 'shop']
+['drive', 'car']
+['sleep', 'home']

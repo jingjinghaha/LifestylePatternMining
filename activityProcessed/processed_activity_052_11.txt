@@ -1,0 +1,7 @@
+['drive', 'car']
+['drive', 'car']
+['study']
+['drive', 'car']
+['drive', 'car']
+['drive', 'car']
+['drive', 'car']

@@ -1,0 +1,6 @@
+'cycle'                  1         
+'shower'                 2         
+'travel'                 1         
+'walk'                   1         
+'sleep'                  1         
+'ov'                     1         

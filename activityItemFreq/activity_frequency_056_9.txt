@@ -1,0 +1,6 @@
+'work'                   2         
+'sleep'                  2         
+'babysitting'            1         
+'car'                    3         
+'drive'                  3         
+'charge'                 1         

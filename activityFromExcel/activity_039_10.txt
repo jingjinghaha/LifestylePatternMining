@@ -1,0 +1,9 @@
+sleep
+recharge
+bike uni
+study
+bike home
+bike gym
+gym
+bike home
+recharge rest

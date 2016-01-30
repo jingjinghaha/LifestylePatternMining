@@ -1,0 +1,7 @@
+['yoghurt', 'raisin']
+['cookie']
+['apple']
+['noodles', 'choco']
+['wine']
+['cocktails', 'bread', 'coffee']
+['potato', 'fish', 'asparagus']

@@ -1,0 +1,4 @@
+['walk', 'phone']
+['drive', 'car']
+['watch', 'tv', 'charge']
+['sleep', 'home']

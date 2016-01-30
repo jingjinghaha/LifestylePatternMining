@@ -1,0 +1,8 @@
+['cycle']
+['cook']
+['read']
+['cycle', 'swim']
+['swim']
+['cycle']
+['cinema']
+['cycle']

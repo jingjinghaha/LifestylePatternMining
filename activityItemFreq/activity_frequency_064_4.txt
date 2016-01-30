@@ -1,0 +1,11 @@
+'cycle'                  3         
+'shower'                 1         
+'party'                  1         
+'bus'                    1         
+'research'               1         
+'ready'                  1         
+'school'                 1         
+'mri'                    1         
+'shop'                   1         
+'train'                  1         
+'breakfast'              1         

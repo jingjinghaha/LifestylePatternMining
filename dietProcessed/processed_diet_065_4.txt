@@ -1,0 +1,3 @@
+['sandwich', 'coffee']
+['sandwich', 'apple', 'syrup']
+['rice', 'goat', 'cheese', 'mushroom', 'tomato', 'mozzarella', 'iceCream']

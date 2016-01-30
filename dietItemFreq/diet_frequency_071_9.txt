@@ -1,0 +1,8 @@
+'salmon'                 1         
+'rice'                   1         
+'muesli'                 1         
+'curry'                  1         
+'blueberries'            1         
+'yoghurt'                1         
+'apple'                  1         
+'banana'                 1         

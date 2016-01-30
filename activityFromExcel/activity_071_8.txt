@@ -1,0 +1,12 @@
+sensor off
+study
+cycling
+study
+cycling
+cleaning and study
+cycling to swimmingpool
+meeting
+swimming (sensor off)
+cycling 
+sensor off
+sleep

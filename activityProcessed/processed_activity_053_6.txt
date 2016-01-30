@@ -1,0 +1,6 @@
+['charge', 'skillslab']
+['study']
+['study']
+['travel', 'ov']
+['watch', 'movie']
+['sleep', 'home']

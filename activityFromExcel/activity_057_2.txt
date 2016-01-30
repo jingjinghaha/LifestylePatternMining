@@ -1,0 +1,12 @@
+sensor on
+work
+walking
+driving car
+shopping
+driving car
+work
+driving car
+work
+driving car and walking
+shower (sensor off)
+sensor off

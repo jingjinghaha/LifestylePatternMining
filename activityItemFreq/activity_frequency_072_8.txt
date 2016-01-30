@@ -1,0 +1,9 @@
+'walk'                   1         
+'shower'                 1         
+'cycle'                  4         
+'bed'                    1         
+'judo'                   1         
+'exam'                   1         
+'watch'                  1         
+'train'                  1         
+'charge'                 1         

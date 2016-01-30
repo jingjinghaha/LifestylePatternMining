@@ -1,0 +1,6 @@
+['drive', 'car']
+['study']
+['babysitting']
+['test', 'drive', 'car']
+['charge']
+['sleep']

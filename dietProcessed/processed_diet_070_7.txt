@@ -1,0 +1,3 @@
+['sandwich']
+['sandwich', 'banana']
+['pasta', 'meat', 'paprika', 'zucchini']

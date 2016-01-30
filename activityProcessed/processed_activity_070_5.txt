@@ -1,0 +1,7 @@
+['shower', 'dress']
+['buy', 'new', 'car']
+['visit', 'parent']
+['interclassis', 'car', 'maastricht', 'walk']
+['charge']
+['shop', 'cook']
+['due', 'irritations']

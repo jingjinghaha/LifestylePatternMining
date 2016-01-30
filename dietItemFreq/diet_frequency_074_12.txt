@@ -1,0 +1,15 @@
+'rice'                   1         
+'soup'                   1         
+'wine'                   1         
+'cabbage'                1         
+'kiwi'                   1         
+'nut'                    1         
+'oatmeal'                1         
+'cake'                   1         
+'kaki'                   1         
+'bread'                  2         
+'grapes'                 1         
+'zucchini'               1         
+'lasagna'                1         
+'yoghurt'                1         
+'red'                    1         

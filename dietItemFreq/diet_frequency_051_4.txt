@@ -1,0 +1,4 @@
+'sandwich'               1         
+'vegetable'              1         
+'bread'                  2         
+'drop'                   1         

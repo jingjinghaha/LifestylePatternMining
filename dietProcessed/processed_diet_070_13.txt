@@ -1,0 +1,4 @@
+['sandwich']
+['beer']
+['red', 'wine']
+['rice']

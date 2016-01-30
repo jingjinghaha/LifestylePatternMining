@@ -1,0 +1,3 @@
+['egg', 'meat', 'mushroom']
+['sandwich', 'meat']
+['apple']

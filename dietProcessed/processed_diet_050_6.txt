@@ -1,0 +1,4 @@
+['tea', 'sandwich', 'meat', 'cookie']
+['bread', 'tuna']
+['sauerkraut', 'beef', 'meat']
+['coconut', 'waffle']

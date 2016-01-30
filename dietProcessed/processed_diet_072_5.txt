@@ -1,0 +1,6 @@
+['sandwich']
+['orange']
+['sandwich', 'cup', 'soup']
+['cookie']
+['chip', 'beer']
+['pizza']

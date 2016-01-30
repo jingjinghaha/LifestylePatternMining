@@ -1,0 +1,10 @@
+'study'                  4         
+'walk'                   2         
+'egg'                    1         
+'sleep'                  1         
+'city'                   1         
+'bread'                  1         
+'cheese'                 1         
+'bike'                   2         
+'charge'                 1         
+'home'                   1         

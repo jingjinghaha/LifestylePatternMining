@@ -1,0 +1,6 @@
+'walk'                   2         
+'shower'                 1         
+'work'                   3         
+'car'                    4         
+'drive'                  4         
+'shop'                   1         

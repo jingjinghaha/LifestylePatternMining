@@ -1,0 +1,3 @@
+['sleep']
+['charge']
+['car', 'phone', 'empty']

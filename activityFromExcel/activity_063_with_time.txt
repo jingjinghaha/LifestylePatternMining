@@ -1,0 +1,85 @@
+41975.0     walking (phone not with me)
+41975.0     driving car
+41975.0     going in bad
+41975.0     watching tv, charging sensor
+41975.0     sleep (not at home)
+41976.0     going in bad
+41976.0     walking 
+41976.0     at university (phone with me)
+41976.0     walking
+41976.0     driving car
+41976.0     playing tennis
+41976.0     driving car
+41976.0     shower
+41976.0     study
+41977.0     sleep
+41977.0     shower
+41977.0     cycling
+41977.0     at university
+41977.0     cycling
+41977.0     going out
+41978.0     getting up and charging sensor
+41978.0     walking (phone not with me)
+41978.0     at university
+41978.0     walking
+41978.0     driving car
+41978.0     going in bad
+41978.0     sleep (not at home)
+41979.0     getting up
+41979.0     driving car
+41979.0     driving car
+41979.0     driving car
+41980.0     sleep (not at home)
+41980.0     walking
+41980.0     driving car
+41981.0     sleep
+41981.0     walking
+41981.0     walking
+41981.0     bringing car back
+41981.0     sleep
+41982.0     getting up and shower
+41982.0     walking
+41982.0     practicum at university
+41982.0     walking
+41982.0     sleep
+41983.0     getting up
+41983.0     running
+41983.0     shower
+41983.0     charging sensor
+41983.0     walking
+41983.0     diner three courses
+41983.0     walking
+41984.0     sleep
+41984.0     getting up and charging sensor
+41984.0     shower
+41984.0     cycling
+41984.0     at university
+41984.0     cycling
+41984.0     sleep
+41984.0     cycling
+41984.0     going out
+41985.0     cycling
+41985.0     sleep
+41985.0     getting up and charging sensor
+41985.0     cycling
+41985.0     at university
+41985.0     cycling
+41985.0     cleaning/ household activity
+41985.0     cycling
+41985.0     walking
+41986.0     sleep
+41986.0     charging sensor
+41986.0     going to city by bike
+41986.0     taking the train and car to parents home
+41987.0     sleep
+41987.0     charging sensor
+41987.0     going in bad
+41987.0     taking the car (phone empty)
+41988.0     sleep
+41988.0     getting up
+41988.0     shower
+41988.0     walking
+41988.0     at university
+41988.0     walking and shopping
+41989.0     sleep
+41989.0     getting up

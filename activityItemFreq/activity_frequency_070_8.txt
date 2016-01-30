@@ -1,0 +1,7 @@
+'cycle'                  2         
+'work'                   1         
+'sleep'                  1         
+'shop'                   1         
+'diner'                  1         
+'cook'                   1         
+'charge'                 1         

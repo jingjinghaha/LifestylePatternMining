@@ -1,0 +1,12 @@
+sensor on
+walking
+walking
+work
+walking
+work
+driving car
+work
+driving car
+vistit
+driving car
+sleep (sensor off)

@@ -1,0 +1,3 @@
+['sandwich', 'cheese', 'sugar']
+['sandwich', 'cheese']
+['zucchini', 'soup', 'sandwich', 'goat', 'cheese', 'date']

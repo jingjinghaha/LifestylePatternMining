@@ -1,0 +1,9 @@
+'walk'                   2         
+'shower'                 1         
+'run'                    1         
+'bus'                    2         
+'sleep'                  1         
+'university'             1         
+'watch'                  1         
+'dog'                    2         
+'tv'                     1         

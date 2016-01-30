@@ -1,0 +1,4 @@
+'beef'                   1         
+'meat'                   1         
+'vegetable'              1         
+'potato'                 1         

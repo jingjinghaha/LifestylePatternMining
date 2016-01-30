@@ -1,0 +1,6 @@
+'walk'                   2         
+'cook'                   1         
+'diner'                  1         
+'shop'                   1         
+'study'                  2         
+'home'                   1         

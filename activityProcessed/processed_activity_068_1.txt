@@ -1,0 +1,7 @@
+['study']
+['cycle']
+['dress']
+['sport']
+['shop']
+['cycle']
+['sleep']

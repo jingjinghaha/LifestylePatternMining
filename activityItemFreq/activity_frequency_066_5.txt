@@ -1,0 +1,10 @@
+'walk'                   1         
+'shower'                 1         
+'sleep'                  2         
+'bed'                    2         
+'phone'                  1         
+'car'                    2         
+'drive'                  2         
+'shop'                   1         
+'read'                   1         
+'charge'                 1         

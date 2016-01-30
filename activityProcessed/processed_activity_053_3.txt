@@ -1,0 +1,6 @@
+['teach', 'tennis', 'game']
+['weight', 'measurement']
+['study']
+['drive', 'car']
+['sit', 'car']
+['sleep']

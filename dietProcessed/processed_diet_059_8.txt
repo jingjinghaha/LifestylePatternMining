@@ -1,0 +1,4 @@
+['choco', 'milk']
+['soup']
+['sandwich']
+['soup', 'salmon', 'potato', 'sugar', 'snap']

@@ -1,0 +1,61 @@
+41953.0     driving car
+41953.0     work
+41953.0     walking
+41953.0     work
+41953.0     sleep (sensor off)
+41954.0     sensor on
+41954.0     work
+41954.0     walking
+41954.0     driving car
+41954.0     shopping
+41954.0     driving car
+41954.0     work
+41954.0     driving car
+41954.0     work
+41954.0     driving car and walking
+41954.0     shower (sensor off)
+41954.0     sensor off
+41955.0     sensor on
+41955.0     work
+41955.0     driving car
+41955.0     sitting
+41955.0     driving car
+41955.0     work
+41955.0     walking
+41955.0     work
+41955.0     sensor off (sleep)
+41956.0     sensor on
+41956.0     work
+41956.0     cleaning/ working at home
+41956.0     work
+41956.0     sensor off (sleep)
+41957.0     getting up
+41957.0     work
+41957.0     driving car
+41957.0     waiting
+41957.0     driving car
+41957.0     shopping for bicycle
+41957.0     work
+41957.0     shower (sensor off)
+41957.0     sleep
+41958.0     sensor on
+41958.0     walking, moving stuff
+41958.0     work
+41958.0     driving car for shopping
+41958.0     home
+41958.0     sensor loose cable (from electrode)
+41958.0     sleep (sensor off)
+41959.0     sensor on
+41959.0     walking
+41959.0     walking
+41959.0     work
+41959.0     walking
+41959.0     work
+41959.0     driving car
+41959.0     work
+41959.0     driving car
+41959.0     vistit
+41959.0     driving car
+41959.0     sleep (sensor off)
+41960.0     sensor on
+41960.0     work

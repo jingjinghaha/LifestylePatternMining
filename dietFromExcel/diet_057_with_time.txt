@@ -1,0 +1,23 @@
+41953.0     sandwich with egg, 1/2 sandwich with chicken 
+41953.0     fruit
+41953.0     rice, goulash, salad,7up
+41954.0     two rice crackers with cheese and glas water
+41954.0     salad, two rice crackers with cheese and one sandwich with chocolade 
+41954.0     meat, vegetables, patatoes, soup
+41955.0     milk, chocopops, coffee
+41955.0     sadnwich meat, sandwich sandwichspread, two rice crackers with cheese
+41955.0     macaroni, vanilleyoghurt, 7up
+41956.0     milk, honeyloops, coffee
+41956.0     one sandwich with cheese/sandwichsperad, 1 rice cracker with cheese, two coffee
+41956.0     french fries, frikandel, mayo, sate, 7up
+41957.0     milk, muslie, coffee
+41957.0     one sandwich with chocolade, one sandwich chicken, one rice cracker with cheese, coffee
+41957.0     apple, peer
+41957.0     meat, vegetables, patatoes, dessert
+41958.0     milk, muslie, coffee
+41958.0     two croissants with cheese, one sandwich chocolade, coffee, one cubcake
+41958.0     patatoes, meat, vegetables
+41959.0     milk, honeyloops, coffee
+41959.0     sandwich chicken, sandwich cheese, coffee
+41959.0     french fries, frikandel
+41960.0     milk, muslie, coffee

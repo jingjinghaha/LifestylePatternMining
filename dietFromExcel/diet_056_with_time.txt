@@ -1,0 +1,40 @@
+41967.0     sandwich
+41967.0     chocolade waffle
+41967.0     spaghetti and salad
+41967.0     nuts
+41968.0     yoghurt and granola
+41968.0     two wraps with ham
+41968.0     stew and meat
+41968.0     apple, kiwi, banana
+41969.0     two tosti
+41969.0     apple nut cake
+41969.0     french fries
+41970.0     3 crackers
+41970.0     two raisin sandwiches
+41970.0     muesli bar
+41970.0     apple nut cake
+41970.0     patatoe, fish, vegetables
+41970.0     peer
+41970.0     chips
+41971.0     crackers
+41971.0     spinach omelet
+41971.0     tangerine
+41972.0     sandwich
+41972.0     pie
+41973.0     quark
+41973.0     2 tangerine
+41973.0     apple pie
+41973.0     chinees
+41974.0     quark
+41974.0     salad
+41974.0     patatoe, chicken, vegetables
+41975.0     cracker
+41975.0     3 tangerines
+41975.0     sandwich, meat, salad
+41976.0     quark, 2 tangerines
+41977.0     breakfast cake
+41977.0     sandwich
+41978.0     spinach salad
+41978.0     pizza
+41979.0     nutcracker with cheese
+41980.0     tosti

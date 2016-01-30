@@ -1,0 +1,4 @@
+'salmon'                 1         
+'sandwich'               1         
+'pasta'                  1         
+'banana'                 1         

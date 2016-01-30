@@ -1,0 +1,9 @@
+'salmon'                 1         
+'sausage'                1         
+'egg'                    1         
+'cookie'                 1         
+'cheese'                 1         
+'sandwich'               1         
+'potato'                 1         
+'coffee'                 1         
+'banana'                 1         

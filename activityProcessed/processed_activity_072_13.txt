@@ -1,0 +1,6 @@
+['shower']
+['drive', 'car', 'zoo']
+['walk', 'zoo']
+['drive', 'car']
+['charge']
+['bed']

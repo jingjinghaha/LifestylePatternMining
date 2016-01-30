@@ -1,0 +1,38 @@
+41974.0     cofee and chocolade
+41974.0     vegetarian couscous
+41974.0     87kg
+41974.0     quark and fruit
+41975.0     vegetarian couscous
+41975.0     sauerkraut
+41976.0     cofee, croissant, banana
+41976.0     pasta
+41977.0     crackers, tomato, chorizo
+41977.0     beer
+41978.0     coffee
+41978.0     pizza
+41979.0     pizza
+41981.0     oatmeal
+41981.0     croissant, 3 muesli bread
+41981.0     pasta with broccoli
+41982.0     6 sandwiches with cheese/peanut butter
+41982.0     pasta
+41982.0     3 gluhwine, 1 donut
+41983.0     muesli
+forgot phone 8 sandwcihes peanut butter
+forgot phone quark
+forgot phone couscous
+41984.0     muesli
+41984.0     couscous
+41984.0     3 tangerine
+41984.0     pasta carbonara
+41985.0     muesli
+41985.0     2 sandwiches peanut butter
+41985.0     4 sandwiches cheese, 3 tangerine
+41985.0     quark and banana
+41986.0     croissant
+41986.0     soup
+41986.0     5 wine
+41986.0     10 alcohol 
+41987.0     french fries
+41987.0     sandwich mozzarella
+41987.0     pasta

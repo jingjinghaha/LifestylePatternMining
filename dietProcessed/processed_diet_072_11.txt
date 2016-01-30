@@ -1,0 +1,6 @@
+['sandwich']
+['bread']
+['quiche']
+['cookie']
+['pizza', 'salad', 'rice', 'cookie']
+['liqueur']

@@ -1,0 +1,15 @@
+'cycle'                  6         
+'gym'                    1         
+'shower'                 1         
+'sleep'                  1         
+'workout'                1         
+'diner'                  1         
+'phone'                  1         
+'night'                  1         
+'talk'                   1         
+'study'                  1         
+'drive'                  1         
+'breakfast'              1         
+'clean'                  1         
+'roommate'               1         
+'lesson'                 1         

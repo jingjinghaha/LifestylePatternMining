@@ -1,0 +1,8 @@
+['walk']
+['university', 'phone']
+['walk']
+['drive', 'car']
+['play', 'tennis']
+['drive', 'car']
+['shower']
+['study']

@@ -1,0 +1,8 @@
+'water'                  1         
+'sleep'                  1         
+'deuterium'              1         
+'char'                   2         
+'car'                    2         
+'drive'                  2         
+'train'                  2         
+'study'                  1         

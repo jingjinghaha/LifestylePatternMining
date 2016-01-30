@@ -1,0 +1,4 @@
+'garden'                 1         
+'shower'                 1         
+'bed'                    1         
+'charge'                 1         

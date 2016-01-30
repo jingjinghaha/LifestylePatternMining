@@ -1,0 +1,4 @@
+'work'                   1         
+'cycle'                  1         
+'diner'                  1         
+'lunch'                  1         

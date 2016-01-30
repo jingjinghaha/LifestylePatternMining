@@ -1,0 +1,5 @@
+'cookie'                 1         
+'sandwich'               1         
+'salad'                  1         
+'meat'                   1         
+'tangerines'             1         

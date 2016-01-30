@@ -1,0 +1,6 @@
+'walk'                   1         
+'sleep'                  2         
+'clean'                  1         
+'bike'                   2         
+'study'                  3         
+'home'                   1         

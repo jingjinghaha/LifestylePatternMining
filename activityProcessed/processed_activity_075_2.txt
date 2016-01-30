@@ -1,0 +1,3 @@
+['clean', 'dish']
+['travel', 'walk', 'bus', 'train', 'car']
+['car']

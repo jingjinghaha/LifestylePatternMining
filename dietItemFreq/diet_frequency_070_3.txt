@@ -1,0 +1,5 @@
+'sandwich'               2         
+'meat'                   1         
+'soup'                   1         
+'fries'                  1         
+'banana'                 1         

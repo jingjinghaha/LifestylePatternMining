@@ -1,0 +1,3 @@
+['walk', 'city']
+['party', 'due', 'irritation']
+['sleep']

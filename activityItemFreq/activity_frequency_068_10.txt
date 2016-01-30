@@ -1,0 +1,13 @@
+'cycle'                  3         
+'shower'                 1         
+'party'                  2         
+'group'                  1         
+'give'                   1         
+'phone'                  1         
+'presentation'           1         
+'work'                   1         
+'university'             1         
+'relax'                  3         
+'shop'                   2         
+'breakfast'              1         
+'home'                   1         

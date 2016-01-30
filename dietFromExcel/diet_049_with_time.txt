@@ -1,0 +1,32 @@
+27-10       69.7kg
+27-10       yoghurt, fruit, muslie
+27-10       waldkorn sandwich with tuna and a coffee
+27-10       pasta,broccoli,chicken
+28-10       69.5 kg yoghurt, fruit, muslie, coffee
+28-10       sandwich, eggs, jus d'orange
+28-10       chicken and vegetables 
+29-10       68.9kg yoghurt, fruit, muslie, jus d'orange
+29-10       two sandwiches with chicken and a coffee
+29-10       sauerkraut with bacon
+30-10       70.1kg yoghurt, fruit, muslie
+30-10       sandwich tuna, soup and pancake
+30-10       tomatosoup and pizza
+31-10       68.8kg sandwich with egg, sandwich with peanutbutter, jus d'orange, coffee, yoghurtdrink
+31-10       shrimp cocktail, spare ribs, coffee, red wine
+41944.0     68.9kg sandwich egg, sandwich peanut butter, coffee
+41944.0     sandwich, sandwich croquette, fruit
+41944.0     cauliflower and potatoes
+41944.0     five beer and some snacks
+41945.0     croissant, sandwich egg, jus d'orange, coffee, cucumber
+41945.0     fruit and water
+41945.0     gyros, gree tea
+41946.0     69 kg yoghurt, fruit, chocomel
+41946.0     pumpkin soup, sandwich filet american
+41946.0     onion soup, wrap with chicken
+41947.0     68.9kg sandwich, coffee, drink yoghurt
+41947.0     sandwich filet american, soup
+41947.0     beef, potatoes, vegetables
+41948.0     yoghurt, fruit, muslie
+41948.0     sandwich ham, fruit 
+41948.0     salad tuna and salmon 
+41949.0     69 kg

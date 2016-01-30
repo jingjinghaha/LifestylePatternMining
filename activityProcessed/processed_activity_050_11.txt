@@ -1,0 +1,6 @@
+['walk', 'dog']
+['charge']
+['drive', 'car']
+['visit']
+['drive', 'car']
+['sleep']

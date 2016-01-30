@@ -1,0 +1,8 @@
+'kaassoufle'             1         
+'spinach'                1         
+'pasta'                  1         
+'chip'                   1         
+'beer'                   1         
+'sandwich'               2         
+'candy'                  1         
+'banana'                 1         

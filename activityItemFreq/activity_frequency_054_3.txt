@@ -1,0 +1,14 @@
+'cycle'                  5         
+'shower'                 1         
+'behind'                 1         
+'walk'                   1         
+'sleep'                  2         
+'party'                  1         
+'lecture'                1         
+'friends'                1         
+'chain'                  1         
+'diner'                  1         
+'watch'                  1         
+'bike'                   1         
+'tv'                     1         
+'charge'                 1         

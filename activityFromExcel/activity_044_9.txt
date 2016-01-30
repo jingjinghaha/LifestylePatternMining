@@ -1,0 +1,10 @@
+sleep
+dress, pack
+walk
+work
+walk
+walk, bike pack
+train
+wait
+car
+drinks

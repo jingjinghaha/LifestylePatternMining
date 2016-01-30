@@ -1,0 +1,7 @@
+'walk'                   1         
+'paint'                  1         
+'travel'                 1         
+'bus'                    1         
+'car'                    1         
+'train'                  1         
+'charge'                 1         

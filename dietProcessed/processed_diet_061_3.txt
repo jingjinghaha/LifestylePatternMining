@@ -1,0 +1,4 @@
+['banana', 'egg', 'tomato', 'onion']
+['apple']
+['snack', 'pizza']
+['beer']

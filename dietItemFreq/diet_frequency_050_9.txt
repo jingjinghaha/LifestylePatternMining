@@ -1,0 +1,10 @@
+'salmon'                 1         
+'water'                  1         
+'cake'                   1         
+'kinder'                 1         
+'cookie'                 2         
+'meat'                   1         
+'bread'                  1         
+'sandwich'               1         
+'doner'                  1         
+'tea'                    1         

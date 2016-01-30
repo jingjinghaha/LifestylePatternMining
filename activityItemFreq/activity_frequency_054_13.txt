@@ -1,0 +1,9 @@
+'cycle'                  1         
+'walk'                   1         
+'sleep'                  1         
+'craftwork'              2         
+'cook'                   1         
+'car'                    1         
+'drive'                  1         
+'shop'                   1         
+'train'                  1         

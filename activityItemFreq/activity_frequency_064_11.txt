@@ -1,0 +1,14 @@
+'cycle'                  4         
+'clothe'                 1         
+'sleep'                  1         
+'game'                   1         
+'movie'                  1         
+'pushups'                1         
+'cook'                   2         
+'school'                 1         
+'watch'                  3         
+'experiment'             1         
+'wash'                   1         
+'tv'                     2         
+'study'                  1         
+'lunch'                  1         

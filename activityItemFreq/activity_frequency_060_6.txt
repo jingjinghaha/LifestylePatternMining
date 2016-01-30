@@ -1,0 +1,10 @@
+'sleep'                  1         
+'bed'                    1         
+'watch'                  1         
+'city'                   1         
+'relax'                  1         
+'diner'                  1         
+'cook'                   1         
+'tv'                     1         
+'charge'                 1         
+'home'                   2         

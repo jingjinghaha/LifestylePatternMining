@@ -1,0 +1,7 @@
+'noodles'                1         
+'ginger'                 1         
+'spinach'                1         
+'meat'                   1         
+'pasta'                  1         
+'bread'                  1         
+'piece'                  1         

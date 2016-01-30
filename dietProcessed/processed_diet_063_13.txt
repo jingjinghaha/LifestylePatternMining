@@ -1,0 +1,2 @@
+['sugar', 'tea', 'sandwich']
+['potato', 'meat', 'paprika', 'choco']

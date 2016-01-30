@@ -1,0 +1,6 @@
+'cycle'                  4         
+'sleep'                  1         
+'work'                   1         
+'shop'                   1         
+'swim'                   1         
+'charge'                 1         

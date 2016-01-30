@@ -1,0 +1,47 @@
+41981.0     2 sandwiches
+41981.0     soup
+41982.0     yoghurt with cruesli
+41982.0     2 sandwiches
+41982.0     coockie
+41982.0     soup
+41983.0     yoghurt with cruesli
+41983.0     2 sandwiches
+41983.0     snack
+41983.0     pasta
+41984.0     yoghurt with cruesli
+41984.0     rice cracker
+41984.0     2 sandwiches
+41984.0     soup and tosti (sandwich)
+41984.0     patatoe, fish, vegetables
+41985.0     2 sandwiches
+41985.0     2 sandwiches
+41986.0     2 sandwiches
+41986.0     coffee bread
+41986.0     sandwich
+41986.0     french fries
+41987.0     banana
+41987.0     lasagna
+41988.0     yoghurt with cruesli
+41988.0     banana
+41988.0     banana and salad
+41988.0     soup
+41989.0     2 eggs
+41989.0     banana
+41989.0     spelt coockie
+41989.0     nuts and apple
+41989.0     soup and sandwich
+41990.0     yoghurt with cruesli
+41990.0     2 sandwiches
+41990.0     salad with pasta
+41990.0     carrot stew with vegetarian meat balls
+41991.0     breakfast
+41991.0     2 sandwiches
+41991.0     sushi
+41992.0     yoghurt with cruesli
+41992.0     coffee bread and banana
+41992.0     soup and bread
+41993.0     2 sandwiches
+41993.0     soup and sandwich
+41993.0     vegetables and meat
+41994.0     yoghurt with cruesli
+41994.0     soup with bread

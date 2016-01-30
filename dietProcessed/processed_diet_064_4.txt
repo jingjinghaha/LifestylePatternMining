@@ -1,0 +1,6 @@
+['fish']
+['fries', 'mc', 'flurry']
+['chocolate']
+['pasta', 'meat']
+['chip', 'candy']
+['shots']

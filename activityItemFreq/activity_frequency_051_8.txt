@@ -1,0 +1,8 @@
+'cycle'                  2         
+'sleep'                  1         
+'bus'                    1         
+'city'                   1         
+'watch'                  1         
+'train'                  2         
+'tv'                     1         
+'study'                  1         

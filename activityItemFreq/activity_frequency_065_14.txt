@@ -1,0 +1,12 @@
+'crosstrainersports'     1         
+'shower'                 1         
+'walk'                   1         
+'run'                    1         
+'bus'                    1         
+'dress'                  1         
+'sleep'                  2         
+'car'                    1         
+'clean'                  1         
+'train'                  1         
+'cycle'                  1         
+'study'                  3         

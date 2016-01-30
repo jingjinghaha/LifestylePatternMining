@@ -1,0 +1,111 @@
+23-10       Study
+23-10       cycling
+23-10       50 sit ups
+23-10       shower
+23-10       sleep
+24-10       shower
+24-10       cycling
+24-10       cycling
+24-10       lecture at school
+24-10       cylcing
+24-10       taking the train
+24-10       cycling
+24-10       cycling
+24-10       cycling
+24-10       charging sensor
+24-10       trainen sport 
+24-10       cycling
+24-10       sleep
+25-10       charging sensor
+25-10       driving car
+25-10       driving car
+25-10       sleep
+26-10       shower
+26-10       charging sensor
+26-10       cycling
+26-10       playing hockey (sensor off)
+26-10       alcohol
+27-10       sleep
+27-10       taking the train
+27-10       study
+27-10       relaxing
+27-10       shower
+27-10       charging sensor
+27-10       cycling
+27-10       cycling
+27-10       french fries, sate, salad
+27-10       cycling
+27-10       ice cream
+27-10       cycling
+27-10       sleep
+28-10       shower
+28-10       cycling
+28-10       study
+28-10       cycling
+28-10       taking the train
+28-10       cycling
+28-10       relaxing
+28-10       hockey
+28-10       driving car
+28-10       shower
+28-10       driving car. Charging sensor 
+28-10       with girlfriend, charging sensor
+28-10       driving car
+29-10       sleep
+29-10       study
+29-10       taking the train
+29-10       cycling
+29-10       taking the train
+29-10       taking the train
+29-10       cycling
+29-10       cycling
+29-10       study
+29-10       cycling
+29-10       sensorr off because of irritation
+30-10       cycling
+30-10       study
+30-10       cycling
+30-10       cycling
+30-10       cycling
+30-10       charging sensor
+30-10       shower
+30-10       sensorr on
+30-10       cycling
+30-10       cycling
+30-10       meeting
+30-10       cycling
+30-10       sleep
+31-10       shower
+31-10       cycling
+31-10       cycling
+31-10       walking
+31-10       taking the train
+31-10       cycling
+31-10       home at parents place 
+31-10       charging sensor
+31-10       driving car
+31-10       playing hockey game, get injured 
+31-10       shower
+31-10       driving car
+31-10       driving car
+31-10       sleep
+41944.0     driving car
+41944.0     driving car
+41944.0     study
+41944.0     driving car
+41944.0     driving car
+41944.0     driving car
+41944.0     driving car
+41945.0     sleep
+41946.0     sleep
+41946.0     charing sensor
+41946.0     study
+41946.0     driving car
+41946.0     driving car
+41946.0     taking the train
+41946.0     taking the train
+41946.0     charing sensor
+41946.0     deuterium water
+41947.0     sleep
+41947.0     shower
+41947.0     taking the train

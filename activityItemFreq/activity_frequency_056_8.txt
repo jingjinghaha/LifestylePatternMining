@@ -1,0 +1,7 @@
+'shower'                 1         
+'sleep'                  1         
+'babysitting'            1         
+'car'                    4         
+'drive'                  4         
+'cook'                   1         
+'fitness'                1         

@@ -1,0 +1,6 @@
+'rice'                   1         
+'chicken'                1         
+'egg'                    1         
+'fruit'                  1         
+'sandwich'               2         
+'goulash'                1         

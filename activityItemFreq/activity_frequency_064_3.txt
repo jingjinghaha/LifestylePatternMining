@@ -1,0 +1,8 @@
+'cycle'                  2         
+'shower'                 1         
+'sleep'                  2         
+'workout'                1         
+'ready'                  1         
+'computer'               3         
+'school'                 1         
+'charge'                 1         

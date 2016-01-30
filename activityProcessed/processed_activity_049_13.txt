@@ -1,0 +1,7 @@
+['drive', 'car']
+['study']
+['bus']
+['train']
+['walk']
+['study']
+['sleep']

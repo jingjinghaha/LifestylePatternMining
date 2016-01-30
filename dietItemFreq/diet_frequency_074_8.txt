@@ -1,0 +1,10 @@
+'orange'                 1         
+'fill'                   1         
+'nut'                    1         
+'oatmeal'                1         
+'muesli'                 2         
+'cookie'                 1         
+'yoghurt'                1         
+'zucchini'               1         
+'banana'                 1         
+'apple'                  1         

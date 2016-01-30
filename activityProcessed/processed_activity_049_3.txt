@@ -1,0 +1,8 @@
+['food', 'intake']
+['walk']
+['work']
+['walk']
+['cook', 'diner']
+['walk']
+['work']
+['sleep']

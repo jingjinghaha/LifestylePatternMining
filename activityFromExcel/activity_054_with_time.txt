@@ -1,0 +1,142 @@
+41961.0     cycling
+41961.0     cleaning
+41961.0     study
+41961.0     dancing
+41961.0     shower and charging
+41961.0     craftwork
+41961.0     watching tv
+41961.0     study
+41961.0     study
+41961.0     cycling
+41961.0     meeting
+41961.0     shopping
+41961.0     cycling
+41961.0     chillen with roommates
+41961.0     sleep
+41962.0     running
+41962.0     shower
+41962.0     cycling
+41962.0     at university
+41962.0     cycling
+41962.0     craftwork and study
+41962.0     cycling
+41962.0     at church 
+41962.0     cycling
+41962.0     cycling
+41962.0     going out
+41963.0     cycling (behind)
+41963.0     chain off bicycle
+41963.0     sleep
+41963.0     charging sensor and sleep
+41963.0     watching tv
+41963.0     shower
+41963.0     cycling
+41963.0     lecture
+41963.0     cycling
+41963.0     diner with friends
+41963.0     cycling
+41963.0     going out
+41963.0     walking
+41963.0     cycling
+41963.0     party
+41964.0     cycling
+41964.0     sleep (with my roommate)
+41964.0     charging sensor
+41964.0     walking
+41964.0     taking the train
+41964.0     walking
+41964.0     drinking tea
+41964.0     shopping (phone not with me)
+41964.0     coocking
+41964.0     karaoke
+41965.0     sleep (at friends place)
+41965.0     cleaning
+41965.0     shopping
+41965.0     coocking
+41965.0     chilling
+41966.0     sleep (at friends place)
+41966.0     (charging sensor)
+41966.0     cleaning
+41966.0     walking
+41966.0     taking the train
+41966.0     walking
+41966.0     watching tv
+41966.0     sleep
+41967.0     shower
+41967.0     cycling
+41967.0     lesson
+41967.0     cycling and walking
+41967.0     shopping
+41967.0     cycling
+41967.0     cycling
+41967.0     charging sensor
+41967.0     cycling
+41967.0     meeting
+41967.0     cycling
+41967.0     going out
+41967.0     cycling (behind)
+41967.0     sleep (sensor off)
+41968.0     cycling 
+41968.0     cycling
+41968.0     study
+41968.0     shower
+41968.0     cycling  (phone not with me)
+41968.0     walking
+41968.0     coockie
+41968.0     shopping
+41968.0     coocking
+41968.0     talking and watching movie
+41968.0     sleep
+41969.0     study
+41969.0     cycling (phone not with me)
+41969.0     lecture
+41969.0     cycling
+41969.0     shopping
+41969.0     cycling
+41969.0     coocking
+41969.0     cycling
+41969.0     at city (phone empty)
+41969.0     cycling
+41969.0     sleep
+41970.0     running
+41970.0     shower
+41970.0     cycling
+41970.0     at university
+41970.0     cycling
+41970.0     cycling
+41970.0     taking the train
+41970.0     walking
+41970.0     driving lessons
+41970.0     sleep (at parents place)
+41971.0     driving lessons
+41971.0     driving exam
+41971.0     walking
+41971.0     taking the train
+41971.0     cycling
+41971.0     at university
+41971.0     cycling
+41971.0     walking
+41971.0     taking the train
+41971.0     walking
+41971.0     sleep (at parents place)
+41972.0     running
+41972.0     shower
+41972.0     craftwork
+41972.0     shopping (cycling)
+41972.0     dishes
+41972.0     watching movie
+41972.0     sleep (at parents place)
+41973.0     craftwork
+41973.0     craftwork
+41973.0     shopping (cycling)
+41973.0     coocking
+41973.0     driving car
+41973.0     taking the train
+41973.0     walking
+41973.0     sleep
+41974.0     shower
+41974.0     cycling
+41974.0     going out
+41975.0     cycling
+41975.0     sleep
+41975.0     cycling

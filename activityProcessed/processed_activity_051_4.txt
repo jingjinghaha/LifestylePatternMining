@@ -1,0 +1,8 @@
+['shower']
+['study']
+['cycle']
+['drive', 'car']
+['train']
+['drive', 'car']
+['study']
+['sleep']

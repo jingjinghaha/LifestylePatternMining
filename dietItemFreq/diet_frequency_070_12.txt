@@ -1,0 +1,9 @@
+'salmon'                 1         
+'water'                  1         
+'soup'                   1         
+'spinach'                1         
+'bean'                   2         
+'meat'                   1         
+'sandwich'               1         
+'potato'                 1         
+'sugar'                  1         

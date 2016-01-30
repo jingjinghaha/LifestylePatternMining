@@ -1,0 +1,10 @@
+'cycle'                  4         
+'football'               1         
+'walk'                   2         
+'sleep'                  1         
+'table'                  1         
+'cook'                   1         
+'fitness'                1         
+'shop'                   1         
+'train'                  1         
+'charge'                 1         

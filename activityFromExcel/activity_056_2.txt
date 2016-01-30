@@ -1,0 +1,6 @@
+household activities
+charging sensor
+shower
+driving car
+work
+sleep (at work)

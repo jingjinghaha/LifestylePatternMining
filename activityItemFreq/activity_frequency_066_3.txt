@@ -1,0 +1,13 @@
+'walk'                   1         
+'shower'                 1         
+'cycle'                  3         
+'sleep'                  1         
+'party'                  1         
+'bed'                    2         
+'work'                   3         
+'car'                    4         
+'drive'                  4         
+'watch'                  1         
+'read'                   1         
+'tv'                     1         
+'charge'                 1         

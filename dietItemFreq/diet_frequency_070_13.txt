@@ -1,0 +1,5 @@
+'sandwich'               1         
+'rice'                   1         
+'red'                    1         
+'beer'                   1         
+'wine'                   1         

@@ -1,0 +1,9 @@
+'walk'                   2         
+'household'              1         
+'sleep'                  1         
+'city'                   2         
+'charge'                 1         
+'shop'                   1         
+'bike'                   2         
+'study'                  2         
+'home'                   1         

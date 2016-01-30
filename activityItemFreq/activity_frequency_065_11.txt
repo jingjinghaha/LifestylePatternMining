@@ -1,0 +1,17 @@
+'cycle'                  2         
+'friend'                 2         
+'car'                    1         
+'walk'                   2         
+'run'                    1         
+'rest'                   1         
+'lecture'                1         
+'sleep'                  1         
+'university'             3         
+'exam'                   1         
+'behind'                 2         
+'diner'                  1         
+'cook'                   1         
+'bike'                   2         
+'breakfast'              1         
+'study'                  2         
+'home'                   4         

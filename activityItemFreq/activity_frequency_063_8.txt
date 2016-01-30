@@ -1,0 +1,5 @@
+'sleep'                  1         
+'walk'                   2         
+'university'             1         
+'practicum'              1         
+'shower'                 1         

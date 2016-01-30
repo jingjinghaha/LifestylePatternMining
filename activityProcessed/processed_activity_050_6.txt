@@ -1,0 +1,7 @@
+['walk', 'dog']
+['charge']
+['study']
+['walk', 'dog', 'phone']
+['computer']
+['study']
+['sleep']

@@ -1,0 +1,10 @@
+'fruit'                  1         
+'chicken'                1         
+'orange'                 1         
+'muesli'                 1         
+'sandwich'               1         
+'bacon'                  1         
+'yoghurt'                1         
+'sauerkraut'             1         
+'coffee'                 1         
+'juice'                  1         

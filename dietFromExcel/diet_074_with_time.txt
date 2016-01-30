@@ -1,0 +1,76 @@
+41970.0     two sandwiches, vegetables, yoghurt, musli
+41970.0     apple
+41970.0     tea, cracker, yoghurt, musli
+41970.0     quiche and yoghurt
+41970.0     sandwich with peanut butter
+41971.0     oatmeal
+41971.0     tea, nuts, orange
+41971.0     two sandwiches, carrot
+41971.0     yoghurt, apple
+41971.0     one sandwich
+41971.0     sandwich with peanut butter
+41971.0     quiche, salad, yoghurt and musli
+41971.0     tea and chocolade
+41972.0     50.4kg
+41972.0     apple, yoghury, muesli, chocolade
+41972.0     eating olives
+41972.0     patatoe, fish, vegetables, yoghurt, chocolade
+41972.0     orange
+41972.0     pizzam salad, yoghurt
+41973.0     50.6 kg
+41973.0     oatmeal
+41973.0     orange
+41973.0     vegetables, patatoe, cracker peanutbutter
+41973.0     5 red wine, tapas, coquille, duck and pie
+41974.0     oatmeal
+41974.0     50.3kg
+41974.0     apple, sandwich peanut butter
+41974.0     soup, three sandwiches, yoghurt
+41974.0     orange, sandwich, coockie
+41974.0     stamp and yoghurt
+41975.0     50.6kg
+41975.0     oatmeal
+41975.0     patatoe, vegetables, yohurt, cake
+41975.0     oatmeal
+41976.0     50.1kg
+41976.0     orange, yoghurt, muesli
+41976.0     bread, crackers, nuts, salad
+41976.0     fish, vegetables, patatoe, cake
+41977.0     50.4kg
+41977.0     oatmeal
+41977.0     orange
+41977.0     cracker and nuts
+41977.0     filled zucchini, muesli
+41977.0     yoghurt, apple, muesli, banana
+41978.0     orange, nuts, muesli
+41978.0     cale, patatoe, cheese
+41979.0     oatmeal
+41979.0     oatmeal and banana
+41979.0     rice, vegetables, tofu, yoghurt
+41979.0     pancakes
+41980.0     50.8kg
+41980.0     orange and oatmeal
+41980.0     oatmeal
+41980.0     soup, cheese, vegetables, patatoe, crumble
+41980.0     soup, pancakes
+41981.0     50.4kg
+41981.0     oatmeal
+41981.0     kaki and nuts
+41981.0     cabbage, rice, bread, yoghurt
+41981.0     bread, grapes, kiwi
+41981.0     zucchini soup
+41981.0     2 red wine, lasagna, cake
+41982.0     oatmeal
+41982.0     oatmeal, grapes, chocoalde
+41982.0     two sandwiches, tangerine, yoghurt
+41982.0     tangerine, cracker, oatmeal
+41982.0     rice, beans, lentils, curry, chocolade
+41982.0     nuts, tangerines
+41983.0     50.2kg
+41983.0     two sandwiches
+41983.0     apple and nuts
+41983.0     soup, two sandwiches, yoghurt, chocolade
+41983.0     grapes, sandwich, candy
+41983.0     rice and vegetables
+41983.0     sandwich, cheese, muesli, yoghurt
+41984.0     50.2kg

@@ -1,0 +1,6 @@
+['train']
+['study']
+['train']
+['cook']
+['visit']
+['sleep']

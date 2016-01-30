@@ -1,0 +1,55 @@
+24-10       yoghurt and muslie 
+24-10       four sandwiches 
+24-10       two sandwiches with peanut butter
+24-10       banana
+24-10       sausage roll
+24-10       20.30 sensor off 
+24-10       alcohol 30 glasses
+24-10       two Turkish pizza
+25-10       three banana in shake 
+25-10       three sandwiches with meat 
+25-10       fish, meat, potatoes, vegetables
+25-10       sandwitch cheese
+25-10       yoghurt and muslie 
+26-10       fries, hamburger, sandwiche croquette and sandwiche frikandel
+26-10       15-20 glasses beer
+27-10       two sandwiches
+27-10       four sandwiches 
+27-10       yoghurt and muslie 
+27-10       chips
+28-10       yoghurt and muslie 
+28-10       7 sandwiches
+28-10       spaghetti and yoghurt
+29-10       two sandwiches, two eggs with meat and cheese
+29-10       sandwich
+30-10       yoghurt and muslie 
+30-10       soup, four sandwiches
+30-10       two sandwiches, one apple
+30-10       banana, chocopeanuts
+31-10       3 sandwiches
+31-10       2 sandwiches
+31-10       4 sandwiches
+31-10       banana
+31-10       endive, meat and sandwich
+31-10       chips and 4 beer
+31-10       88.8kg
+41944.0     two sandwiches
+41944.0     two eggs and two sandwiches
+41944.0     french fries and frikandel
+41944.0     two sandwiches and one banana
+41944.0     two sandwiches and one banana
+41944.0     yoghurt and apple
+41945.0     88.8kg
+41945.0     two sandwiches and two eggs
+41945.0     three sandwiches  
+41945.0     rice and chicken
+41945.0     custard
+41946.0     88.8kg
+41946.0     two sandwiches and two eggs
+41946.0     banana milkshake
+41946.0     sandwich, croissant, sugarbread
+41946.0     potatoes, beans and meat
+41946.0     chocopeanuts
+41947.0     yoghurt and muslie 
+41947.0     six sandwiches
+41947.0     two sandwiches

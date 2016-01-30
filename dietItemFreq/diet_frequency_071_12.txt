@@ -1,0 +1,8 @@
+'muesli'                 1         
+'hamburger'              1         
+'bread'                  1         
+'cheese'                 1         
+'bar'                    1         
+'sandwich'               2         
+'pasta'                  1         
+'vongde'                 1         

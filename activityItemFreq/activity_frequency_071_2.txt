@@ -1,0 +1,8 @@
+'shower'                 1         
+'sleep'                  2         
+'rid'                    1         
+'car'                    2         
+'study'                  1         
+'horse'                  1         
+'drive'                  2         
+'clean'                  1         

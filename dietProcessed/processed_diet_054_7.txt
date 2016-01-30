@@ -1,0 +1,4 @@
+['carrot', 'sugar']
+['cookie']
+['candy']
+['beer', 'sandwich']

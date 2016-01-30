@@ -1,0 +1,6 @@
+'meat'                   1         
+'fries'                  1         
+'drink'                  1         
+'alcohol'                1         
+'bread'                  1         
+'sandwich'               1         

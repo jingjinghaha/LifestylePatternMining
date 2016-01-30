@@ -1,0 +1,5 @@
+'cook'                   1         
+'watch'                  1         
+'sleep'                  1         
+'shower'                 1         
+'movie'                  1         

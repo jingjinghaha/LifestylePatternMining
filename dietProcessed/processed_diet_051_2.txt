@@ -1,0 +1,4 @@
+['apple', 'banana', 'dry', 'fruit']
+['cup', 'soup']
+['cookie']
+['macaroni']

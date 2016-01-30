@@ -1,0 +1,3 @@
+['sandwich', 'sugar', 'coffee']
+['sandwich', 'cheese']
+['salmon', 'potato', 'salad']

@@ -1,0 +1,7 @@
+'gym'                    1         
+'exam'                   1         
+'university'             2         
+'city'                   1         
+'computer'               1         
+'bike'                   6         
+'charge'                 1         

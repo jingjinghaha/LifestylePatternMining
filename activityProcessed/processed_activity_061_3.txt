@@ -1,0 +1,6 @@
+['charge']
+['watch', 'computer']
+['shower']
+['cycle']
+['meet']
+['cycle']

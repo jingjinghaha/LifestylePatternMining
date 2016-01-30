@@ -1,0 +1,6 @@
+'water'                  1         
+'chicken'                1         
+'cookie'                 1         
+'drink'                  2         
+'sandwich'               2         
+'tea'                    1         

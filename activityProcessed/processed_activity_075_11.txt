@@ -1,0 +1,5 @@
+['clean']
+['drive', 'car']
+['eat', 'visit']
+['travel', 'walk', 'bus', 'train', 'car']
+['charge']

@@ -1,0 +1,9 @@
+'walk'                   1         
+'cycle'                  1         
+'sleep'                  1         
+'bus'                    3         
+'sit'                    1         
+'school'                 1         
+'train'                  2         
+'dog'                    1         
+'study'                  1         

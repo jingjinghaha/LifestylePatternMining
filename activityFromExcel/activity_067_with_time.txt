@@ -1,0 +1,124 @@
+41970.0     shopping
+41970.0     sleep
+41971.0     running
+41971.0     shower
+41971.0     running
+41971.0     walking with the dog
+41971.0     taking the bus
+41971.0     work (behind computer)
+41971.0     shopping
+41971.0     walking with the dog
+41971.0     diner (three courses)
+41971.0     jacuzzi
+41971.0     sleep
+41972.0     running
+41972.0     cleaning
+41972.0     running
+41972.0     shower
+41972.0     walking with the dog
+41972.0     study and lunch
+41972.0     shopping
+41972.0     meeting with friends
+41972.0     study
+41972.0     diner with family
+41972.0     sleep
+41973.0     shower
+41973.0     walking with the dog
+41973.0     christmas market
+41973.0     running
+41973.0     walking with the dog
+41973.0     watching tv
+41973.0     sleep
+41974.0     getting up
+41974.0     shower
+41974.0     walking with the dog
+41974.0     going to the university by bus
+41974.0     taking the bus
+41974.0     walking with the dog
+41974.0     chillen
+41974.0     sleep
+41975.0     getting up
+41975.0     shower
+41975.0     walking with the dog
+41975.0     going to the university by bus
+41975.0     taking the bus
+41975.0     walking with the dog
+41975.0     jacuzzi
+41975.0     watching tv
+41975.0     sleep
+41976.0     getting up
+41976.0     running
+41976.0     shower
+41976.0     walking with the dog
+41976.0     study
+41976.0     going to the university by bus
+41976.0     work (behind computer)
+41976.0     taking the bus
+41976.0     walking with the dog
+41976.0     watching tv
+41976.0     sleep
+41977.0     getting up
+41977.0     running
+41977.0     shower
+41977.0     study
+41977.0     walking with the dog
+41977.0     going to the university by bus
+41977.0     taking the bus
+41977.0     relaxen
+41977.0     jacuzzi
+41977.0     sleep
+41978.0     getting up
+41978.0     shower
+41978.0     walking with the dog
+41978.0     going to the university by bus
+41978.0     driving car
+41978.0     set up christmas tree
+41978.0     running
+41978.0     sleep
+41979.0     getting up
+41979.0     running
+41979.0     walking with the dog
+41979.0     backing pie
+41979.0     running
+41979.0     shower
+41979.0     study
+41979.0     walking with the dog
+41979.0     birtday party
+41980.0     running
+41980.0     study
+41980.0     walking with the dog
+41980.0     jacuzzi
+41980.0     study
+41980.0     shopping
+41980.0     birtday party
+41980.0     party
+41980.0     sleep
+41981.0     getting up
+41981.0     running
+41981.0     shower
+41981.0     walking with the dog
+41981.0     going to the university by bus
+41981.0     taking the bus
+41981.0     walking with the dog
+41981.0     sleep
+41982.0     getting up
+41982.0     running
+41982.0     shower
+41982.0     walking with the dog
+41982.0     going to the university by bus
+41982.0     taking the bus
+41982.0     walking with the dog
+41982.0     going in bad
+41982.0     watching tv
+41982.0     sleep
+41983.0     getting up
+41983.0     running
+41983.0     shower
+41983.0     study
+41983.0     driving car
+41983.0     exam (phone not with me; forbidden)
+41983.0     shopping
+41983.0     driving car
+41983.0     walking with the dog
+41983.0     jacuzzi
+41983.0     sleep

@@ -1,0 +1,6 @@
+['sandwich']
+['pumpkin', 'soup']
+['sandwich', 'egg', 'salad']
+['beef', 'meat', 'iceCream']
+['candy']
+['chip']

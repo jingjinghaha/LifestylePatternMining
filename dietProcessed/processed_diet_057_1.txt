@@ -1,0 +1,3 @@
+['sandwich', 'egg', 'sandwich', 'chicken']
+['fruit']
+['rice', 'goulash']

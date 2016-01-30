@@ -1,0 +1,11 @@
+'fish'                   1         
+'orange'                 1         
+'cake'                   1         
+'nut'                    1         
+'muesli'                 1         
+'cookie'                 1         
+'bread'                  1         
+'yoghurt'                1         
+'salad'                  1         
+'potato'                 1         
+'vegetable'              1         

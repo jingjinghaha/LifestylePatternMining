@@ -1,0 +1,4 @@
+'sleep'                  2         
+'walk'                   2         
+'car'                    1         
+'back'                   1         

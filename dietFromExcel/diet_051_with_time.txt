@@ -1,0 +1,44 @@
+41956.0     two coockies
+41956.0     Noedles
+41956.0     Frenh fries and croquette
+41957.0     apple, banana, dried fruit
+41957.0     cup a soup
+41957.0     coockies 
+41957.0     macaroni
+41958.0     three sandwiches
+41958.0     apple pie
+41958.0     macaroni
+41959.0     one sandwich and one croissant
+41959.0     drop
+41959.0     toast
+41959.0     vegetables 
+41960.0     sandwich
+41960.0     three rice crackers and gingerbread
+41960.0     sauerkraut and meat
+41961.0     french bread
+41961.0     ginger bread and three rice crackers
+41961.0     sauerkraut and meat
+41962.0     two pieces ginger bread
+41962.0     coockies 
+41962.0     two sandwiches and one peer
+41962.0     stew
+41962.0     toast with fish
+41963.0     two pieces ginger bread
+41963.0     noodles
+41963.0     pasta with spinach and meat
+41964.0     french fries and crocquette
+41965.0     yoghurt and chocolade
+41965.0     sauerkraut and meat
+41966.0     croissant and sandwich
+41966.0     pie
+41966.0     carrot stamp
+41967.0     ginger bread
+41967.0     sandwich and vegetable crocquette
+41967.0     chinees
+41968.0     ginger bread
+41968.0     sandwich and noodles
+41968.0     patatoe and vegetables
+41968.0     ginger bread
+41969.0     sandwich
+41969.0     coockie
+41969.0     healthy sandwich

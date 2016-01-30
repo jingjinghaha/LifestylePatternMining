@@ -1,0 +1,16 @@
+sleep
+awake
+shower
+walk
+train
+bus
+walk
+sit
+walk
+sit, drinks
+walk
+car
+walk
+restaurant
+walk, bike
+party

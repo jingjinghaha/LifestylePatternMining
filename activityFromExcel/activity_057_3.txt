@@ -1,0 +1,9 @@
+sensor on
+work
+driving car
+sitting
+driving car
+work
+walking
+work
+sensor off (sleep)

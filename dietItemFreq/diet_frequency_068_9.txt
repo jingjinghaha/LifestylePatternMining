@@ -1,0 +1,8 @@
+'soup'                   1         
+'cucumber'               1         
+'vegetable'              1         
+'muesli'                 1         
+'meat'                   1         
+'sandwich'               2         
+'yoghurt'                1         
+'potato'                 1         

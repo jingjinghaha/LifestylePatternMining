@@ -1,0 +1,8 @@
+['breakfast']
+['cycle']
+['study']
+['drive', 'lesson']
+['home', 'walk', 'cycle', 'shop']
+['clean', 'shower', 'study']
+['cinema', 'bike']
+['talk', 'friend']

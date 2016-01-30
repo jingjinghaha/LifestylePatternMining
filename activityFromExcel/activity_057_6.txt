@@ -1,0 +1,7 @@
+sensor on
+walking, moving stuff
+work
+driving car for shopping
+home
+sensor loose cable (from electrode)
+sleep (sensor off)

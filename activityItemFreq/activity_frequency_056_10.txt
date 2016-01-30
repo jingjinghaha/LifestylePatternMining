@@ -1,0 +1,13 @@
+'shower'                 2         
+'household'              1         
+'activity'               1         
+'sleep'                  1         
+'diner'                  1         
+'phone'                  1         
+'babysitting'            1         
+'car'                    5         
+'drive'                  5         
+'cook'                   1         
+'fitness'                1         
+'dish'                   1         
+'charge'                 1         

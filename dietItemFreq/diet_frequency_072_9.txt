@@ -1,0 +1,7 @@
+'orange'                 1         
+'bean'                   1         
+'cookie'                 1         
+'curry'                  1         
+'bread'                  2         
+'yoghurt'                1         
+'sandwich'               2         

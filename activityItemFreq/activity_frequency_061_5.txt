@@ -1,0 +1,9 @@
+'walk'                   2         
+'traineeship'            1         
+'shower'                 1         
+'bed'                    1         
+'judo'                   1         
+'car'                    4         
+'drive'                  4         
+'train'                  2         
+'charge'                 1         

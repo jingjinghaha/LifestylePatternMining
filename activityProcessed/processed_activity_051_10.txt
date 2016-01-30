@@ -1,0 +1,8 @@
+['clean', 'room']
+['cycle']
+['work']
+['cycle']
+['train']
+['bus']
+['watch', 'tv']
+['sleep']

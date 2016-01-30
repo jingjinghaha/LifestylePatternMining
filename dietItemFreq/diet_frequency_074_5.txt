@@ -1,0 +1,10 @@
+'cookie'                 1         
+'soup'                   1         
+'orange'                 1         
+'nut'                    1         
+'oatmeal'                1         
+'butter'                 1         
+'stamp'                  1         
+'yoghurt'                2         
+'sandwich'               3         
+'apple'                  1         

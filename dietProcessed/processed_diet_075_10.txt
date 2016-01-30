@@ -1,0 +1,3 @@
+['sandwich']
+['pasta', 'bread', 'meat', 'drink', 'alcohol']
+['drink', 'alcohol']

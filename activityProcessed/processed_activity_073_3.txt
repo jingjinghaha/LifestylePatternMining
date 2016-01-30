@@ -1,0 +1,6 @@
+['walk', 'dog']
+['walk', 'dog']
+['diner']
+['watch', 'tv']
+['walk', 'dog']
+['sleep']

@@ -1,0 +1,4 @@
+['sandwich', 'egg']
+['potato', 'fish', 'vegetable']
+['apple']
+['deuterium']

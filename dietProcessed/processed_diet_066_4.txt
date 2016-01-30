@@ -1,0 +1,4 @@
+['sandwich', 'juice', 'coffee']
+['sandwich', 'milk']
+['dim', 'sum', 'beer']
+['popcorn', 'beer']

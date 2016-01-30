@@ -1,0 +1,10 @@
+'walk'                   1         
+'play'                   1         
+'traineeship'            1         
+'shower'                 1         
+'soccer'                 1         
+'sleep'                  1         
+'car'                    4         
+'computer'               1         
+'drive'                  4         
+'train'                  2         

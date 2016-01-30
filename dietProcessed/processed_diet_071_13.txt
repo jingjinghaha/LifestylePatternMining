@@ -1,0 +1,3 @@
+['sandwich', 'hamburger', 'yoghurt', 'pineapple', 'egg', 'juice']
+['pie']
+['rice', 'salad']

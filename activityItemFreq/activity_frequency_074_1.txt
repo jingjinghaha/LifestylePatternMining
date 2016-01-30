@@ -1,0 +1,14 @@
+'cycle'                  1         
+'move'                   2         
+'household'              1         
+'pack'                   1         
+'sleep'                  1         
+'drive'                  4         
+'activity'               1         
+'car'                    4         
+'meet'                   1         
+'shop'                   1         
+'cook'                   1         
+'dish'                   1         
+'stuf'                   1         
+'clean'                  1         

@@ -1,0 +1,7 @@
+['shower']
+['walk', 'dog']
+['university', 'bus']
+['drive', 'car']
+['set', 'christmas', 'tree']
+['run']
+['sleep']

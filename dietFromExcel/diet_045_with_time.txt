@@ -1,0 +1,42 @@
+41956.0     three beer
+41957.0     sandwich
+41957.0     sandwich
+41957.0     patatoe, vegetables, meat
+41957.0     one beer
+41958.0     yoghurt
+41958.0     sandwich
+41958.0     wraps
+41959.0     yoghurt
+41959.0     four beer
+41959.0     soup and sandwich
+41960.0     yoghurt
+41960.0     sandwich
+41960.0     fish, rice, vegetables
+41961.0     yoghurt
+41961.0     sandwich
+41961.0     pasta with fish
+41962.0     yoghurt
+41962.0     sandwich
+41962.0     patatoe, vegetables, meat
+41963.0     yoghurt
+41963.0     sandwich
+41963.0     5 beer
+41963.0     soup and taco
+41964.0     tosti
+41964.0     bread, meat, french fries
+41964.0     15 glasses alcohol
+41965.0     sandwich
+41965.0     soup and tosti
+41965.0     lasagne and 3 glasses alcohol
+41966.0     sandwich with cheese
+41966.0     bread and meat
+41966.0     pasta
+41967.0     two sandwich with cheese
+41967.0     bread
+41967.0     fish, potatoes and vegetables
+41968.0     sandwich
+41968.0     bread and soup
+41968.0     soup and salad
+41969.0     two sandwich with cheese
+41969.0     two sandwiches
+41969.0     pasta

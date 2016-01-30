@@ -1,0 +1,7 @@
+['breakfast']
+['cycle', 'minutes']
+['work']
+['run']
+['relax']
+['clean']
+['sleep']

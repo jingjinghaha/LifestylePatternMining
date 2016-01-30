@@ -1,0 +1,45 @@
+41984.0     cycling (forgot phone)
+41984.0     cleaning house
+41984.0     1 sandwich cheese, 2 kiwi
+41984.0     study at home
+41985.0     getting up
+41985.0     workout insanity
+41985.0     work (horeca)
+41985.0     diner
+41986.0     getting up
+41986.0     taking the train, shopping, visiting city
+41986.0     lunch
+41986.0     diner
+41987.0     work
+41987.0     breakfast
+41987.0     lunch
+41987.0     diner
+41988.0     getting up
+41988.0     working behind computer
+41988.0     lunch
+41988.0     working behind computer
+41989.0     running 6km
+41989.0     working behind computer
+41989.0     cycling
+41989.0     shopping
+41990.0     getting up
+41990.0     workout insanity
+41990.0     cycling to city
+41990.0     going to supermarket
+41990.0     lunch
+41991.0     cycling to trainstation and visiting ORBIS hospital
+41991.0     to university for labprotocol
+41991.0     cycling and shopping
+41991.0     work (horeca)
+41991.0     sleep
+41992.0     walking in city
+41992.0     party (sensor off due to irritation)
+41992.0     sleep
+41993.0     getting up
+41993.0     cycling and work
+41993.0     sleep
+41994.0     getting up
+41994.0     cycling and work
+41994.0     sleep
+41995.0     getting up
+41995.0     cycling to university 

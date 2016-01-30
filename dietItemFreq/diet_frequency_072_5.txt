@@ -1,0 +1,8 @@
+'soup'                   1         
+'orange'                 1         
+'cookie'                 1         
+'pizza'                  1         
+'beer'                   1         
+'sandwich'               2         
+'cup'                    1         
+'chip'                   1         

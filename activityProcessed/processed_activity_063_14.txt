@@ -1,0 +1,5 @@
+['sleep']
+['shower']
+['walk']
+['university']
+['walk', 'shop']

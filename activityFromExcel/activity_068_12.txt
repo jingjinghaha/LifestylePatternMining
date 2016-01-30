@@ -1,0 +1,10 @@
+sensor off
+walking in city
+sitting
+taking the bus
+walking at christmas market
+sitting
+walking
+taking the bus
+walking
+at home

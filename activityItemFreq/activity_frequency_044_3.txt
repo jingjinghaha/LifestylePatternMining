@@ -1,0 +1,11 @@
+'walk'                   2         
+'pool'                   1         
+'work'                   1         
+'sleep'                  1         
+'terrace'                1         
+'movie'                  1         
+'dress'                  1         
+'pack'                   1         
+'car'                    2         
+'swim'                   2         
+'home'                   1         

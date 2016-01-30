@@ -1,0 +1,59 @@
+41961.0     banana
+41961.0     tomato soup and two carrots
+41961.0     banana
+41961.0     vegetarian salad with aubergine
+41961.0     coconut and apple
+41962.0     coconut and apple
+41962.0     coconut and apple
+41962.0     vegetarian salad with aubergine
+41962.0     bami with vegetables
+41962.0     8 beer 2 champagne
+41963.0     apple
+41963.0     carot, apple, eggs
+41963.0     sandwich with apple syrup
+41963.0     vegetarian pasta and apple pie
+41963.0     two wine
+41963.0     two wine and chips
+41964.0     musli
+41964.0     sandwich with egg and one banana
+41964.0     two snickers
+41964.0     coockie
+41964.0     pumpkin soup and bread
+41964.0     chips and almond bar
+41965.0     4 sandwiches and one banana
+41965.0     one beer and kaassoufle
+41965.0     two sandwiches
+41965.0     pasta with spinach
+41965.0     candy and chips
+41966.0     six sandwiches
+41967.0     carrot with honey
+41967.0     peer
+41967.0     coockie
+41967.0     candy
+41967.0     7 beer and one tosti
+41968.0     peer, carrot, egg, eggplant
+41968.0     peer
+41968.0     musli
+41968.0     pasta with spinach. Two beer
+41969.0     sandwich with cheese
+41969.0     peer
+41969.0     carrot, hummus
+41969.0     split pea soup with bread
+41970.0     apple
+41970.0     apple
+41970.0     carrot, hummus
+41970.0     linz cake 
+41970.0     sandwich
+41971.0     sandwich, apple
+41971.0     apple
+41972.0     apple
+41972.0     raisin bread
+41972.0     pumpkin soup and applepie
+41973.0     raisin bread
+41973.0     apple
+41973.0     vegetarian chicken tandori
+41974.0     apple
+41974.0     apple
+41974.0     peer
+41974.0     patatoe,egg, vegetables
+41974.0     7 beer

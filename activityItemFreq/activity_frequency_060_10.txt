@@ -1,0 +1,16 @@
+'study'                  1         
+'cycle'                  3         
+'sleep'                  1         
+'shower'                 1         
+'household'              1         
+'run'                    1         
+'pick'                   1         
+'lecture'                1         
+'activity'               1         
+'stability'              1         
+'charge'                 1         
+'shop'                   2         
+'cook'                   1         
+'core'                   1         
+'cool'                   1         
+'clean'                  1         

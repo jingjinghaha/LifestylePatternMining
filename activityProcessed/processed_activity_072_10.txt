@@ -1,0 +1,7 @@
+['cycle', 'school']
+['crosstrainer', 'bodypump']
+['cycle']
+['shower']
+['cycle', 'wait']
+['charge']
+['bed']

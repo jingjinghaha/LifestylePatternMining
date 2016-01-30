@@ -1,0 +1,6 @@
+'cycle'                  1         
+'walk'                   3         
+'run'                    1         
+'bus'                    4         
+'train'                  2         
+'charge'                 1         

@@ -1,0 +1,3 @@
+['bread', 'butter', 'cheese', 'jam', 'juice', 'drink', 'natriumnitrate']
+['bread', 'cheese', 'cheese', 'salad', 'milk', 'pear']
+['meat', 'ravioli']

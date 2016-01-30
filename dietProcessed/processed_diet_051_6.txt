@@ -1,0 +1,3 @@
+['bread']
+['ginger', 'bread', 'rice', 'cookie']
+['sauerkraut', 'meat']

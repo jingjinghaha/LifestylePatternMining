@@ -1,0 +1,6 @@
+['sleep']
+['household']
+['bike', 'university']
+['gym']
+['shower', 'charge']
+['study']

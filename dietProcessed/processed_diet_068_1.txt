@@ -1,0 +1,4 @@
+['apple']
+['sandwich']
+['pasta']
+['red', 'wine']

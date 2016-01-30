@@ -1,0 +1,5 @@
+sensor on
+work
+cleaning/ working at home
+work
+sensor off (sleep)

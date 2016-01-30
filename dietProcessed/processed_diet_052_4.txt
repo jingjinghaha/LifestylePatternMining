@@ -1,0 +1,2 @@
+['fries', 'hamburger', 'sandwich', 'meat', 'sandwich', 'meat']
+['drink', 'beer']

@@ -1,0 +1,5 @@
+['iceCream']
+['meat', 'vegetable', 'potato']
+['chocolate']
+['tomato']
+['ten', 'beer']

@@ -1,0 +1,7 @@
+['crosstrainer', 'sport']
+['shower', 'dress']
+['study', 'make', 'photo', 'book']
+['train', 'work', 'phone']
+['work']
+['run', 'train']
+['train']

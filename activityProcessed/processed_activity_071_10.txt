@@ -1,0 +1,6 @@
+['study', 'pack']
+['cycle']
+['lecture']
+['cycle']
+['study', 'pack']
+['sleep']

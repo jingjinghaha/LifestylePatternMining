@@ -1,0 +1,13 @@
+'orange'                 1         
+'chocolate'              1         
+'nut'                    2         
+'oatmeal'                1         
+'muesli'                 1         
+'butter'                 1         
+'quiche'                 1         
+'yoghurt'                2         
+'sandwich'               3         
+'salad'                  1         
+'tea'                    2         
+'carrot'                 1         
+'apple'                  1         

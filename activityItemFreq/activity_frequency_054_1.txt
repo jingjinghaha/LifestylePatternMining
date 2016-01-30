@@ -1,0 +1,14 @@
+'roommates'              1         
+'cycle'                  3         
+'shower'                 1         
+'sleep'                  1         
+'dance'                  1         
+'charge'                 1         
+'craftwork'              1         
+'shop'                   1         
+'clean'                  1         
+'meet'                   1         
+'watch'                  1         
+'chillen'                1         
+'tv'                     1         
+'study'                  3         

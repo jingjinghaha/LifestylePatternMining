@@ -1,0 +1,5 @@
+'sleep'                  1         
+'cycle'                  4         
+'part'                   1         
+'charge'                 1         
+'lunch'                  1         

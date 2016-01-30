@@ -1,0 +1,3 @@
+['cookie', 'apple', 'pie']
+['sandwich', 'currants']
+['potato', 'spinach', 'bacon']

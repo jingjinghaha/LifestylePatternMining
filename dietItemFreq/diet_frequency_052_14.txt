@@ -1,0 +1,4 @@
+'yoghurt'                1         
+'sandwich'               2         
+'six'                    1         
+'muesli'                 1         

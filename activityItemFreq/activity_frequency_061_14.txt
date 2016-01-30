@@ -1,0 +1,7 @@
+'soccer'                 1         
+'play'                   1         
+'canteen'                1         
+'friends'                1         
+'computer'               3         
+'watch'                  3         
+'tv'                     1         

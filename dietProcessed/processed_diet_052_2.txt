@@ -1,0 +1,7 @@
+['yoghurt', 'muesli']
+['sandwich']
+['sandwich', 'nut', 'butter']
+['banana']
+['sausage', 'roll']
+['alcohol', 'drink']
+['pizza']

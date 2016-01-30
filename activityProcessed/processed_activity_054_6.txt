@@ -1,0 +1,8 @@
+['sleep', 'friends', 'place']
+['charge']
+['clean']
+['walk']
+['train']
+['walk']
+['watch', 'tv']
+['sleep']

@@ -1,0 +1,10 @@
+'cycle'                  3         
+'walk'                   1         
+'sleep'                  1         
+'movie'                  1         
+'watch'                  1         
+'meet'                   1         
+'shop'                   1         
+'train'                  1         
+'charge'                 1         
+'home'                   1         

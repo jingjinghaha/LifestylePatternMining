@@ -1,0 +1,6 @@
+['sandwich']
+['egg', 'sandwich']
+['fries', 'meat']
+['sandwich', 'banana']
+['sandwich', 'banana']
+['yoghurt', 'apple']

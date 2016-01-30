@@ -1,0 +1,9 @@
+'walk'                   2         
+'sleep'                  1         
+'shower'                 1         
+'run'                    1         
+'dress'                  2         
+'work'                   1         
+'car'                    2         
+'chat'                   1         
+'restaurant'             1         

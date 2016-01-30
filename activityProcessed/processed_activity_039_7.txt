@@ -1,0 +1,7 @@
+['sleep']
+['charge']
+['bike', 'university']
+['study']
+['bike', 'home']
+['study']
+['charge']

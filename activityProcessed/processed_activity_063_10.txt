@@ -1,0 +1,8 @@
+['sleep']
+['charge']
+['shower']
+['cycle']
+['university']
+['cycle']
+['sleep']
+['cycle']

@@ -1,0 +1,8 @@
+['shower']
+['train']
+['traineeship']
+['train']
+['drive', 'car']
+['drive', 'car']
+['play', 'judo']
+['watch', 'computer', 'tv']

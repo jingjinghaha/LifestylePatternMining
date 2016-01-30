@@ -1,0 +1,8 @@
+'cycle'                  3         
+'shower'                 1         
+'sleep'                  1         
+'gamen'                  1         
+'study'                  4         
+'school'                 1         
+'shop'                   1         
+'charge'                 2         

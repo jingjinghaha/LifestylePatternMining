@@ -1,0 +1,6 @@
+'visit'                  1         
+'bed'                    1         
+'car'                    2         
+'drive'                  2         
+'cook'                   1         
+'charge'                 1         

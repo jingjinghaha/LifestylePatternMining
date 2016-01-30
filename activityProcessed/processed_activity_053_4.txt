@@ -1,0 +1,5 @@
+['cycle']
+['charge']
+['work']
+['cycle']
+['sleep']
