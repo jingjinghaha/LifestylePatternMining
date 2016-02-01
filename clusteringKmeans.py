@@ -34,13 +34,14 @@ def KM(domain, metric):
 		elif domain == 'ActType':
 			X = utilise.ActTypeTfidfArray()
 	X = utilise.normArray(X)
+	print X.shape
 
 	# range_n_clusters = [2, 3, 4, 5, 6]
-	range_n_clusters = [3]
+	range_n_clusters = [4]
 	
 	for n_clusters in range_n_clusters:
 		# fw = open('labels_KMeans_'+domain+'_'+str(n_clusters)+'.txt','w')
-		for j in range(5):
+		for j in range(8):
 			reduced_data = PCA(n_components=2).fit_transform(X)
 			# print X
 			# print reduced_data

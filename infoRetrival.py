@@ -6,7 +6,7 @@ Created on Fri Jan 29 13:25:44 2016
 """
 
 import xlrd
-
+import utilise
 available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
 
 def diaryDurationList():
@@ -51,4 +51,7 @@ def diaryTimeDict():
 	return totalTimeDict
 
 # print diaryTimeDict()
-
+# tf = utilise.genActItemTFArray()
+# print tf.shape
+# tf = utilise.genDietItemTFArray()
+# print tf.shape

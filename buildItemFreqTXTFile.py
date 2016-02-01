@@ -9,10 +9,11 @@ import buildItemIndex
 import infoRetrival
 available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
 
-'''
-create single and overall diet/activity Item frequency txt files for all users
-'''
+
 def buildItemFreqTXTFile():
+	'''
+	create single and overall diet/activity Item frequency txt files for all users
+	'''
 	print 'in buildItemFreqTXTFile()'
 	singlerun = 0 
 	if singlerun: 
@@ -48,18 +49,21 @@ def buildItemFreqTXTFile():
 		#print index_act
 		for key in index_diet:
 			if index_diet[key] >= 5:
+			# if index_diet[key]:
 				f_diet.write("%-25s%-10s"%(key,index_diet[key]))
 				f_diet.write('\n')
 		for key in index_act:
 			if index_act[key] >=5 :
+			# if index_act[key]:
 				f_act.write("%-25s%-10s"%(key,index_act[key]))
 				f_act.write('\n')
 		f_act.close()
 		f_diet.close()
-'''
-write daily diet and activity index of each subject into txt files 
-'''
+
 def buildDailyItemFreqTXTFile():
+	'''
+	write daily diet and activity index of each subject into txt files 
+	'''
 	for subjectID in available_list:
 		duration = infoRetrival.getDuration(subjectID)
 		for n in range(1,duration+1):

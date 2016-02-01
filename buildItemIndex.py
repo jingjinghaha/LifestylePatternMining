@@ -19,38 +19,38 @@ def buildIndex(file):
 	# print index
 	return index 
 
-'''
-build the diet index for single user
-'''
 def build_single_diet_index(subjectID):
+	'''
+	build the diet index for single user
+	'''
 	index = buildIndex('dietProcessed/processed_diet_'+subjectID+'.txt')
 	return index 
 
-'''
-build the daily diet index for single user
-'''
 def build_daily_single_diet_index(subjectID,n):
+	'''
+	build the daily diet index for single user
+	'''
 	index = buildIndex('dietProcessed/processed_diet_'+subjectID+'_'+str(n)+'.txt')
 	return index 
 
-'''
-build the activity index for single user
-'''
 def build_single_activity_index(subjectID):
+	'''
+	build the activity index for single user
+	'''
 	index = buildIndex('activityProcessed/processed_activity_'+subjectID+'.txt')
 	return index 
 
-'''
-build the daily diet index for single user
-'''
 def build_daily_single_activity_index(subjectID,n):
+	'''
+	build the daily diet index for single user
+	'''
 	index = buildIndex('activityProcessed/processed_activity_'+subjectID+'_'+str(n)+'.txt')
 	return index 
 
-'''
-build the diet index for all users
-'''
 def build_all_diet_index(available_list):
+	'''
+	build the diet index for all users
+	'''
 	index = {}
 	for subjectID in available_list:
 		small_index = build_single_diet_index(subjectID)
@@ -61,10 +61,10 @@ def build_all_diet_index(available_list):
 				index[key] = small_index[key]
 	return index
 
-'''
-build the activity index for all users
-'''
 def build_all_activity_index(available_list):
+	'''
+	build the activity index for all users
+	'''
 	index = {}
 	for subjectID in available_list:
 		small_index = build_single_activity_index(subjectID)

@@ -14,6 +14,14 @@ import utilise
 Domain = ['DietItem','ActItem','DietType','ActType']
 Metric = ['TF','TFIDF']
 
+def string2array(str):
+	temp = str.split(' ')
+	for i in range(len(temp)):
+		token = int(temp[i])
+		temp[i] = token
+	array = np.array(temp)
+	return array 
+
 def KM(domain, metric):
 	if metric == 'TF':
 		if domain == 'DietItem':
@@ -148,50 +156,77 @@ def bestLabel(domain,n_clusters):
 		labels = np.array([2, 1, 0, 1, 4, 1, 4, 0, 4, 3, 3, 2, 1, 0, 0, 3, 1, 1, 2, 2, 2, 0, 0, 4, 3, 4, 1, 4, 3])
 	if domain == 'ActType' and n_clusters == 5:
 		labels = np.array([0, 1, 2, 2, 1, 3, 4, 4, 1, 0, 3, 4, 0, 4, 0, 3, 1, 0, 0, 3, 1, 2, 2, 4, 2, 0, 3, 1, 0])
-	print type(labels)
 	
+	# if domain == 'ActItem' and n_clusters == 3:
+		# labels = 
+	# if domain == 'DietItem' and n_clusters == 3:
+		# labels = 
+	# if domain == 'DietType' and n_clusters == 3:
+		# labels = 
+	# if domain == 'ActType' and n_clusters == 3:
+		# labels = 
+	# if domain == 'ActItem' and n_clusters == 4:
+		# labels = string2array('0 1 3 3 1 2 0 0 1 0 1 1 3 1 0 1 1 0 0 1 2 0 3 1 0 0 2 1 0')
+	# if domain == 'DietItem' and n_clusters == 4:
+		# labels = string2array('0 3 0 3 1 2 2 0 0 0 0 3 0 0 1 0 2 2 0 3 1 1 1 0 1 1 2 1 1')
+	# if domain == 'DietType' and n_clusters == 4:
+		# labels = string2array('1 3 2 3 1 1 2 2 2 0 0 1 1 2 2 0 1 1 1 1 1 2 2 2 0 2 3 2 0')
+	# if domain == 'ActType' and n_clusters == 4:
+		# labels = string2array('1 3 1 1 0 0 2 2 2 1 2 2 1 2 3 0 2 3 1 2 0 1 1 2 1 3 0 3 3')
+	# if domain == 'ActItem' and n_clusters == 5:
+		# labels = 
+	# if domain == 'DietItem' and n_clusters == 5:
+		# labels = 
+	# if domain == 'DietType' and n_clusters == 5:
+		# labels = 
+	# if domain == 'ActType' and n_clusters == 5:
+		# labels = 
+	
+	# print type(labels)
 	plt.figure()
 	plt.title(domain+'_KMeans_'+str(n_clusters))
 	for k in range(n_clusters):
 		class_members = labels == k
 		i = 0
-		dims = (1,X.shape[1])
-		sumVec = np.zeros(dims)
+		# dims = (1,X.shape[1])
+		# sumVec = np.zeros(dims)
+		sumVec = np.zeros(X.shape[1])
 		for x in X[class_members]:
 			i += 1
 			sumVec += x 
 		meanVec = sumVec/i 
 		meanVec.tolist()
+		# we don't have to do normalization here, as the input X has already been normalized 
 		# totalSum = np.sum(meanVec[0])
 		# print totalSum
 		# meanVec = meanVec/totalSum
 		
-		firstMax = np.max(meanVec[0])
+		firstMax = np.max(meanVec)
 		# print firstMax
 		tempVec = np.copy(meanVec)
 		for j in range(X.shape[1]):
-			if tempVec[0,j] == firstMax:
-				tempVec[0,j] = 0
-		secondMax = np.max(tempVec[0])
+			if tempVec[j] == firstMax:
+				tempVec[j] = 0
+		secondMax = np.max(tempVec)
 		# print secondMax
 		tempVec2 = np.copy(tempVec)
 		for j in range(X.shape[1]):
-			if tempVec2[0,j]==secondMax:
-				tempVec2[0,j] = 0
-		thirdMax = np.max(tempVec2[0])
+			if tempVec2[j]==secondMax:
+				tempVec2[j] = 0
+		thirdMax = np.max(tempVec2)
 		# print thirdMax
 
 		
 		x = range(X.shape[1])
-		plt.plot(x,meanVec[0])
-		# print meanVec[0]
+		plt.plot(x,meanVec)
+		print meanVec
 		for j in range(X.shape[1]):
 			# if meanVec[0,j] == firstMax:
-			# if meanVec[0,j] == firstMax or meanVec[0,j] == secondMax:
-			if meanVec[0,j] == firstMax or meanVec[0,j] == secondMax or meanVec[0,j] == thirdMax:
-				print row_labels[j]
-				print meanVec[0,j]
-				plt.text(x[j],meanVec[0,j],row_labels[j])
+			if meanVec[j] == firstMax or meanVec[j] == secondMax:
+			# if meanVec[0,j] == firstMax or meanVec[0,j] == secondMax or meanVec[0,j] == thirdMax:
+				# print row_labels[j]
+				# print meanVec[0,j]
+				plt.text(x[j],meanVec[j],row_labels[j])
 
 	# print row_labels
 	#plt.xlabel(row_labels)
@@ -201,9 +236,10 @@ def bestLabel(domain,n_clusters):
 	# for metric in Metric:
 		# KM(domain, metric)
 
-for domain in Domain:
-	print domain
-	bestLabel(domain,5)
+# for domain in Domain:
+	# print domain
+	# n_clusters = 4
+	# bestLabel(domain,n_clusters)
 
-# test('DietItem',4)
+bestLabel('DietItem',4)
 # KM('ActItem', 'TFIDF')
