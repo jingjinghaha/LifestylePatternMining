@@ -61,38 +61,6 @@ def itemDict2list(dict):
 		list.append(dict[key])
 	return list
 
-def genDietItemTFArray():
-	item_dict = genDietItemDict()
-	x = len(available_list)
-	n = len(item_dict)
-	dims = (x,n)
-	array = np.zeros(dims)
-	i = 0 
-	for subjectID in available_list:
-		ItemIndex = buildItemIndex.build_single_diet_index(subjectID)
-		for key in item_dict:
-			if "'"+item_dict[key]+"'" in ItemIndex: 
-				# print item_dict[key]
-				array[i,key] = ItemIndex["'"+item_dict[key]+"'"]
-		i += 1
-	return array
-
-def genDietTypeTFArray():
-	item_dict = genDietTypeDict()
-	x = len(available_list)
-	n = len(item_dict)
-	dims = (x,n)
-	array = np.zeros(dims)
-	i = 0 
-	for subjectID in available_list:
-		ItemIndex = buildTypeIndex.build_single_diet_index(subjectID)
-		for key in item_dict:
-			if item_dict[key] in ItemIndex: 
-				# print item_dict[key]
-				array[i,key] = ItemIndex[item_dict[key]]
-		i += 1
-	return array
-
 def genActItemTFArray():
 	item_dict = genActItemDict()
 	# print item_dict
@@ -111,6 +79,40 @@ def genActItemTFArray():
 		i += 1
 	# print array
 	return array
+
+def genDietItemTFArray():
+	item_dict = genDietItemDict()
+	x = len(available_list)
+	n = len(item_dict)
+	dims = (x,n)
+	array = np.zeros(dims)
+	i = 0 
+	for subjectID in available_list:
+		ItemIndex = buildItemIndex.build_single_diet_index(subjectID)
+		for key in item_dict:
+			if "'"+item_dict[key]+"'" in ItemIndex: 
+				# print item_dict[key]
+				array[i,key] = ItemIndex["'"+item_dict[key]+"'"]
+		i += 1
+	return array
+
+
+def genDietTypeTFArray():
+	item_dict = genDietTypeDict()
+	x = len(available_list)
+	n = len(item_dict)
+	dims = (x,n)
+	array = np.zeros(dims)
+	i = 0 
+	for subjectID in available_list:
+		ItemIndex = buildTypeIndex.build_single_diet_index(subjectID)
+		for key in item_dict:
+			if item_dict[key] in ItemIndex: 
+				# print item_dict[key]
+				array[i,key] = ItemIndex[item_dict[key]]
+		i += 1
+	return array
+
 
 def genActTypeTFArray():
 	item_dict = genActTypeDict()
@@ -161,6 +163,15 @@ def ActTypeTfidfArray():
 	tfidf = transformer.fit_transform(counts)
 	aa = tfidf.toarray()
 	return aa
+	
+def genCombiArray(aa1,aa2):
+	x = aa1.shape[0]
+	n = aa1.shape[1] + aa2.shape[1]
+	dims = (x,n)
+	aa = np.zeros(dims)
+	for i in range(aa1.shape[0]):
+		aa[i] = np.append(aa1[i],aa2[i])
+	return aa 
 
 # to calculate the similarity of two user 
 def numberOfSameWord(dict1,dict2):

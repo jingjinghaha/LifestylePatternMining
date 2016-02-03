@@ -11,7 +11,7 @@ from sklearn.decomposition import PCA
 import numpy as np
 import utilise
 
-Domain = ['DietItem','ActItem','DietType','ActType']
+Domain = ['DietItem','ActItem','DietType','ActType','ActDietItem','ActDietType']
 Metric = ['TF','TFIDF']
 
 def KM(domain, metric):
@@ -24,6 +24,10 @@ def KM(domain, metric):
 			X = utilise.genDietTypeTFArray()
 		elif domain == 'ActType':
 			X = utilise.genActTypeTFArray()
+		elif domain == 'ActDietItem':
+			X = utilise.genCombiArray(utilise.genActItemTFArray(),utilise.genDietItemTFArray())
+		elif domain == 'ActDietType':
+			X = utilise.genCombiArray(utilise.genActTypeTFArray(),utilise.genDietTypeTFArray())
 	elif metric == 'TFIDF':
 		if domain == 'DietItem':
 			X = utilise.DietItemTfidfArray()
@@ -33,8 +37,12 @@ def KM(domain, metric):
 			X = utilise.DietTypeTfidfArray()
 		elif domain == 'ActType':
 			X = utilise.ActTypeTfidfArray()
+		elif domain == 'ActDietItem':
+			X = utilise.genCombiArray(utilise.ActItemTfidfArray(),utilise.DietItemTfidfArray())
+		elif domain == 'ActDietType':
+			X = utilise.genCombiArray(utilise.ActTypeTfidfArray(),utilise.DietTypeTfidfArray())
 	X = utilise.normArray(X)
-	print X.shape
+	# print X.shape
 
 	# range_n_clusters = [2, 3, 4, 5, 6]
 	range_n_clusters = [4]
@@ -101,7 +109,7 @@ def KM(domain, metric):
 			plt.ylim(y_min, y_max)
 			plt.xticks(())
 			plt.yticks(())
-			plt.savefig('VisClustering'+domain+'Pattern/KMeans_'+metric+'_'+str(n_clusters)+'_'+str(j))
+			plt.savefig('visClustering'+domain+'Pattern/KMeans_'+metric+'_'+str(n_clusters)+'_'+str(j))
 			# plt.show()
 		
 
