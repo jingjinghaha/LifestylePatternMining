@@ -1,0 +1,6 @@
+beef                     1         
+lunch                    1         
+chocolate                1         
+juice                    1         
+tuna                     1         
+egg                      1         

@@ -1,9 +1,0 @@
-'rice'                   1         
-'egg'                    1         
-'pie'                    1         
-'hamburger'              1         
-'yoghurt'                1         
-'sandwich'               1         
-'salad'                  1         
-'pineapple'              1         
-'juice'                  1         

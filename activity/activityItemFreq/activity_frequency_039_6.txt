@@ -1,0 +1,7 @@
+computer                 2         
+study                    1         
+walk                     1         
+charge                   1         
+bike                     1         
+sleep                    1         
+home                     1         

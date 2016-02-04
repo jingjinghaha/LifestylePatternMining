@@ -1,0 +1,12 @@
+computer                 1         
+traineeship              1         
+tv                       1         
+car                      2         
+watch                    1         
+drive                    2         
+walk                     1         
+phone                    1         
+charge                   1         
+train                    2         
+sleep                    1         
+empty                    1         

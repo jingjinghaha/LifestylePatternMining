@@ -1,0 +1,6 @@
+study                    2         
+shower                   1         
+charge                   1         
+clean                    1         
+workout                  1         
+cycle                    2         

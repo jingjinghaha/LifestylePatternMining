@@ -1,3 +1,0 @@
-'sandwich'               1         
-'yoghurt'                1         
-'banana'                 1         

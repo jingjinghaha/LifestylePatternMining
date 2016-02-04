@@ -1,0 +1,3 @@
+muesli                   1         
+coffee                   1         
+milk                     1         

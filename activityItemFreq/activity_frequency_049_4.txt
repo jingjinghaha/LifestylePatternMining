@@ -1,8 +1,0 @@
-'walk'                   2         
-'sleep'                  1         
-'shower'                 1         
-'food'                   1         
-'intake'                 1         
-'work'                   1         
-'cinema'                 1         
-'drive'                  2         

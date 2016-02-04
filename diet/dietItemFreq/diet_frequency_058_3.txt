@@ -1,0 +1,6 @@
+snack                    1         
+meat                     1         
+sugar                    1         
+sandwich                 2         
+cookie                   1         
+chocolate                1         

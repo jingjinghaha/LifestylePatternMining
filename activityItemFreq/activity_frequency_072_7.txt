@@ -1,8 +1,0 @@
-'cycle'                  6         
-'play'                   1         
-'shower'                 1         
-'sport'                  1         
-'charge'                 1         
-'shop'                   1         
-'garden'                 1         
-'clean'                  1         

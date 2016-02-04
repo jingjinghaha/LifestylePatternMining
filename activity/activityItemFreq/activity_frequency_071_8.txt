@@ -1,0 +1,6 @@
+swim                     2         
+study                    3         
+sleep                    1         
+clean                    1         
+meet                     1         
+cycle                    4         

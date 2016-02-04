@@ -1,0 +1,6 @@
+sit                      1         
+car                      2         
+work                     3         
+drive                    2         
+walk                     1         
+sleep                    1         

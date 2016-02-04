@@ -1,0 +1,6 @@
+play                     1         
+relax                    1         
+car                      1         
+drive                    1         
+sleep                    1         
+hockey                   1         

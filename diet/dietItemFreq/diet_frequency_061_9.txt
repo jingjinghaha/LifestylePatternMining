@@ -1,0 +1,6 @@
+sandwich                 1         
+apple                    1         
+stamp                    1         
+beer                     1         
+tangerines               1         
+chicken                  1         

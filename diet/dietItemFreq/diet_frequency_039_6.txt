@@ -1,0 +1,9 @@
+cheese                   1         
+sandwich                 2         
+meat                     1         
+thee                     1         
+mince                    1         
+cookie                   1         
+pasta                    1         
+chicken                  2         
+egg                      1         

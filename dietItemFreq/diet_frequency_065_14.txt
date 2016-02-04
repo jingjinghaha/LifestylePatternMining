@@ -1,4 +1,0 @@
-'sandwich'               2         
-'fondue'                 1         
-'sugar'                  2         
-'cheese'                 2         

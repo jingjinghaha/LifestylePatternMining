@@ -1,0 +1,10 @@
+sandwich                 2         
+salad                    1         
+beef                     1         
+iceCream                 1         
+chip                     1         
+candy                    1         
+meat                     1         
+soup                     1         
+egg                      1         
+pumpkin                  1         

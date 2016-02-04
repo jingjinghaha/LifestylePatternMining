@@ -1,0 +1,7 @@
+coffee                   1         
+diner                    1         
+kellogs                  1         
+thee                     1         
+chocolate                1         
+cake                     1         
+yoghurt                  1         

@@ -1,6 +1,0 @@
-'soup'                   1         
-'pumpkin'                1         
-'raisin'                 1         
-'bread'                  1         
-'applepie'               1         
-'apple'                  1         

@@ -1,2 +1,0 @@
-'shake'                  1         
-'protein'                1         

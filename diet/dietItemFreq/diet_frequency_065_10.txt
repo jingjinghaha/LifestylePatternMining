@@ -1,0 +1,5 @@
+cheese                   1         
+coffee                   1         
+sandwich                 2         
+egg                      1         
+bread                    1         

@@ -1,0 +1,5 @@
+shop                     1         
+lecture                  1         
+walk                     1         
+sleep                    1         
+cycle                    4         

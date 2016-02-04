@@ -1,0 +1,4 @@
+train                    1         
+cycle                    1         
+dog                      1         
+walk                     1         

@@ -1,0 +1,11 @@
+school                   1         
+tap                      1         
+car                      2         
+medical                  1         
+dog                      2         
+drive                    2         
+walk                     4         
+train                    2         
+sleep                    1         
+bus                      2         
+lesson                   1         

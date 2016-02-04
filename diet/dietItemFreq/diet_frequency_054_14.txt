@@ -1,0 +1,4 @@
+vegetable                1         
+beer                     1         
+apple                    2         
+potato                   1         

@@ -1,0 +1,11 @@
+bike                     1         
+bus                      2         
+fix                      1         
+drive                    2         
+shower                   1         
+train                    1         
+sleep                    1         
+car                      1         
+lesson                   2         
+study                    1         
+cycle                    2         

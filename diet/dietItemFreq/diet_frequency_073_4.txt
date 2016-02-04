@@ -1,0 +1,4 @@
+beer                     1         
+piece                    1         
+hamburger                1         
+bread                    2         

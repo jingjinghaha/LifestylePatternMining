@@ -1,6 +1,0 @@
-'sausage'                1         
-'egg'                    1         
-'cookie'                 1         
-'pasta'                  2         
-'pizza'                  1         
-'coffee'                 1         

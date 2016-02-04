@@ -1,6 +1,0 @@
-'chicken'                1         
-'piece'                  1         
-'pie'                    1         
-'muesli'                 1         
-'doner'                  1         
-'candy'                  1         

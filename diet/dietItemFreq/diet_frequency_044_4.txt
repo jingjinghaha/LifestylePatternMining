@@ -1,0 +1,13 @@
+tomato                   1         
+cheese                   2         
+coffee                   1         
+soup                     1         
+mandarins                1         
+chocolate                1         
+juice                    1         
+pizza                    1         
+wine                     1         
+muesli                   1         
+cotton                   1         
+milk                     1         
+bread                    1         

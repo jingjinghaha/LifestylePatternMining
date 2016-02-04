@@ -1,0 +1,9 @@
+play                     1         
+car                      2         
+university               1         
+tennis                   1         
+drive                    2         
+walk                     2         
+shower                   1         
+phone                    1         
+study                    1         

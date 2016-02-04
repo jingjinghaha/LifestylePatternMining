@@ -1,0 +1,5 @@
+food                     1         
+car                      2         
+intake                   1         
+sleep                    2         
+drive                    2         

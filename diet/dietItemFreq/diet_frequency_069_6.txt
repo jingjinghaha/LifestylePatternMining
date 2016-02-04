@@ -1,0 +1,4 @@
+coffee                   1         
+sandwich                 2         
+fries                    1         
+bread                    1         

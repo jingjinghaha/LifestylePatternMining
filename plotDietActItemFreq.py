@@ -15,19 +15,19 @@ def plot_single_diet(subjectID,f):
 	sizes = []
 	labels = []
 	temp = 0
-	for line in open('dietItemFreq/diet_frequency_'+subjectID+'.txt','r'):
+	for line in open('diet/dietItemFreq/diet_frequency_'+subjectID+'.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
-		#print words[1], type(words[3])
-		#words[1]: Item
-		#words[3]: Item frequency
-		if int(words[3]) > f:
-			sizes.append(int(words[3]))
+		#print words[0], type(words[1])
+		#words[0]: Item
+		#words[1]: Item frequency
+		if int(words[1]) > f:
+			sizes.append(int(words[1]))
 			#print sizes
-			labels.append(words[1])
+			labels.append(words[0])
 			#print labels
 		else:
-			temp += int(words[3])
+			temp += int(words[1])
 	# sizes.append(temp)
 	# labels.append('others')
 	labels = tuple(labels)
@@ -43,7 +43,7 @@ def plot_single_diet(subjectID,f):
 	ax.set_xticklabels(['diet_subject'+subjectID+'_minF_'+str(f)])
 	ax.set_yticklabels([" "])
 	ax.set_aspect('equal')
-	plt.savefig('VisDietItemPattPie/diet_subject'+subjectID+'_minF_'+str(f))
+	plt.savefig('visSigSubPattPie/visDietItemPattPie/diet_subject'+subjectID+'_minF_'+str(f))
 	return sizes, labels
 
 #plot activity pie chart for single user
@@ -51,19 +51,19 @@ def plot_single_activity(subjectID,f):
 	sizes = []
 	labels = []
 	temp = 0
-	for line in open('activityItemFreq/activity_frequency_'+subjectID+'.txt','r'):
+	for line in open('activity/activityItemFreq/activity_frequency_'+subjectID+'.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
-		#print words[1], type(words[3])
-		#words[1]: Item
-		#words[3]: Item frequency
-		if int(words[3]) > f:
-			sizes.append(int(words[3]))
+		#print words[0], type(words[1])
+		#words[0]: Item
+		#words[1]: Item frequency
+		if int(words[1]) > f:
+			sizes.append(int(words[1]))
 			#print sizes
-			labels.append(words[1])
+			labels.append(words[0])
 			#print labels
 		else:
-			temp += int(words[3])
+			temp += int(words[1])
 	# sizes.append(temp)
 	# labels.append('others')
 	labels = tuple(labels)
@@ -79,7 +79,7 @@ def plot_single_activity(subjectID,f):
 	ax.set_xticklabels(['activity_subject'+subjectID+'_minF_'+str(f)])
 	ax.set_yticklabels([" "])
 	ax.set_aspect('equal')
-	plt.savefig('VisActivityItemPattPie/activity_subject'+subjectID+'_minF_'+str(f))
+	plt.savefig('visSigSubPattPie/visActivityItemPattPie/activity_subject'+subjectID+'_minF_'+str(f))
 	return sizes, labels
 
 

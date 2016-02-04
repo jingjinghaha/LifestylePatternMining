@@ -1,0 +1,4 @@
+orange                   1         
+muesli                   1         
+yoghurt                  1         
+sandwich                 2         

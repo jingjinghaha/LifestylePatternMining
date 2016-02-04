@@ -1,8 +1,0 @@
-'crumble'                1         
-'soup'                   2         
-'vegetable'              1         
-'cake'                   1         
-'oatmeal'                2         
-'cheese'                 1         
-'orange'                 1         
-'potato'                 1         

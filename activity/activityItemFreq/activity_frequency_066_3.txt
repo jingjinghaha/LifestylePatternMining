@@ -1,0 +1,13 @@
+tv                       1         
+car                      4         
+work                     3         
+watch                    1         
+drive                    4         
+bed                      2         
+walk                     1         
+shower                   1         
+read                     1         
+charge                   1         
+sleep                    1         
+party                    1         
+cycle                    3         

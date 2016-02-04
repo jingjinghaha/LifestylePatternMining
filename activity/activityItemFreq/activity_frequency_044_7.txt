@@ -1,0 +1,9 @@
+run                      1         
+restaurant               1         
+car                      2         
+work                     1         
+walk                     2         
+shower                   1         
+sleep                    1         
+chat                     1         
+dress                    2         

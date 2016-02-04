@@ -1,0 +1,5 @@
+lecture                  1         
+study                    2         
+cycle                    2         
+sleep                    1         
+pack                     2         

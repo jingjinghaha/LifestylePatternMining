@@ -1,5 +1,0 @@
-'sandwich'               2         
-'banana'                 1         
-'orange'                 1         
-'tomato'                 1         
-'apple'                  1         

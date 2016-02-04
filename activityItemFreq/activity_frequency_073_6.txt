@@ -1,8 +1,0 @@
-'walk'                   4         
-'test'                   1         
-'cycle'                  2         
-'sleep'                  1         
-'work'                   1         
-'train'                  2         
-'dog'                    3         
-'lunch'                  1         

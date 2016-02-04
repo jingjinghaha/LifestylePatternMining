@@ -1,0 +1,7 @@
+relax                    1         
+sit                      1         
+work                     1         
+bath                     1         
+cook                     1         
+walk                     2         
+dress                    1         

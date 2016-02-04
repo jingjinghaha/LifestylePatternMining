@@ -1,0 +1,3 @@
+orange                   1         
+sandwich                 1         
+sauerkraut               1         

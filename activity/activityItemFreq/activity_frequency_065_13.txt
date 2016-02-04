@@ -1,0 +1,12 @@
+run                      1         
+phone                    1         
+photo                    1         
+study                    1         
+work                     2         
+shower                   1         
+book                     1         
+crosstrainer             1         
+train                    3         
+sport                    1         
+dress                    1         
+make                     1         

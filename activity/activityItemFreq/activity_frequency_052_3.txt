@@ -1,0 +1,4 @@
+car                      2         
+charge                   1         
+sleep                    1         
+drive                    2         

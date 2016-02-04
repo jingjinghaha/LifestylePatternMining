@@ -1,0 +1,7 @@
+cheese                   3         
+sandwich                 3         
+sugar                    1         
+soup                     1         
+date                     1         
+goat                     1         
+zucchini                 1         

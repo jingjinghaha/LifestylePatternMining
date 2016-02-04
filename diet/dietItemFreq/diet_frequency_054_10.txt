@@ -1,0 +1,6 @@
+sandwich                 1         
+apple                    2         
+hummus                   1         
+carrot                   1         
+cake                     1         
+linz                     1         

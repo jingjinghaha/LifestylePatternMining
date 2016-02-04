@@ -1,0 +1,12 @@
+computer                 1         
+tv                       1         
+car                      4         
+study                    1         
+watch                    1         
+dog                      2         
+drive                    2         
+wash                     1         
+train                    2         
+sleep                    1         
+clean                    1         
+walk                     4         

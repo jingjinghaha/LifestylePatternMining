@@ -1,0 +1,10 @@
+run                      2         
+den                      1         
+icc                      1         
+walk                     1         
+delay                    1         
+train                    5         
+trainstation             1         
+cycle                    2         
+haag                     1         
+wait                     1         

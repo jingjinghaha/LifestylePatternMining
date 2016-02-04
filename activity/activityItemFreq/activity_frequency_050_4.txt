@@ -1,0 +1,8 @@
+snack                    1         
+diner                    1         
+car                      2         
+visit                    1         
+drive                    2         
+walk                     1         
+grandmother              1         
+breakfast                1         

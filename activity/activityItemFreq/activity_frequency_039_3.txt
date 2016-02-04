@@ -1,0 +1,5 @@
+shower                   1         
+run                      1         
+study                    3         
+sleep                    1         
+charge                   2         

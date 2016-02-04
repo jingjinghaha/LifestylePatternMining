@@ -1,0 +1,6 @@
+car                      1         
+drive                    1         
+dog                      1         
+computer                 1         
+sleep                    1         
+walk                     1         

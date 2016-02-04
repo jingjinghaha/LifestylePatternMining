@@ -1,6 +1,0 @@
-'soup'                   1         
-'pasta'                  1         
-'sandwich'               2         
-'salad'                  1         
-'banana'                 1         
-'apple'                  1         

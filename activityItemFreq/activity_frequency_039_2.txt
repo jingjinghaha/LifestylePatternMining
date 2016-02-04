@@ -1,8 +1,0 @@
-'study'                  1         
-'sleep'                  1         
-'university'             2         
-'computer'               2         
-'bike'                   4         
-'tv'                     1         
-'charge'                 1         
-'home'                   2         

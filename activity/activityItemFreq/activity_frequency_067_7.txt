@@ -1,0 +1,13 @@
+run                      1         
+tv                       1         
+bus                      2         
+university               1         
+work                     1         
+watch                    1         
+dog                      2         
+walk                     2         
+shower                   1         
+behind                   1         
+computer                 1         
+sleep                    1         
+study                    1         

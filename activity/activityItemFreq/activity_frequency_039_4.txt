@@ -1,0 +1,7 @@
+city                     2         
+exam                     1         
+bus                      2         
+walk                     3         
+charge                   1         
+computer                 1         
+sleep                    1         

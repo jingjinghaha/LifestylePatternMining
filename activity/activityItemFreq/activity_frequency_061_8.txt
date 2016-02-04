@@ -1,0 +1,10 @@
+shop                     2         
+computer                 1         
+food                     1         
+car                      5         
+watch                    1         
+drive                    5         
+shower                   2         
+tv                       1         
+charge                   1         
+train                    2         

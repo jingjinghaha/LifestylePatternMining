@@ -1,0 +1,4 @@
+pasta                    1         
+muesli                   1         
+yoghurt                  2         
+sandwich                 1         

@@ -1,0 +1,13 @@
+butter                   1         
+coffee                   2         
+sandwich                 2         
+cocktail                 1         
+rib                      1         
+shrimp                   1         
+juice                    1         
+spare                    1         
+orange                   1         
+yoghurt                  1         
+egg                      1         
+red                      1         
+wine                     1         

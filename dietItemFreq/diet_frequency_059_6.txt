@@ -1,4 +1,0 @@
-'yoghurt'                1         
-'chicken'                1         
-'bean'                   1         
-'rice'                   1         

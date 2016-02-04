@@ -1,9 +1,0 @@
-'walk'                   1         
-'test'                   1         
-'sleep'                  1         
-'movie'                  1         
-'watch'                  1         
-'diner'                  1         
-'cook'                   1         
-'train'                  2         
-'study'                  1         

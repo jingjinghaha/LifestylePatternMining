@@ -1,0 +1,6 @@
+car                      3         
+work                     2         
+drive                    3         
+charge                   1         
+sleep                    2         
+babysitting              1         

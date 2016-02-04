@@ -1,6 +1,0 @@
-'cycle'                  4         
-'sleep'                  1         
-'study'                  3         
-'meet'                   1         
-'swim'                   2         
-'clean'                  1         

@@ -1,0 +1,8 @@
+cheese                   1         
+sandwich                 1         
+salad                    1         
+enchiladas               1         
+pineapple                1         
+orange                   1         
+muesli                   1         
+yoghurt                  1         

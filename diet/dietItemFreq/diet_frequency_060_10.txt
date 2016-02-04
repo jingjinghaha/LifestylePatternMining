@@ -1,0 +1,5 @@
+butter                   1         
+muesli                   1         
+nut                      1         
+sandwich                 1         
+rice                     1         

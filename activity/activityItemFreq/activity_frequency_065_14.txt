@@ -1,0 +1,12 @@
+run                      1         
+car                      1         
+study                    3         
+walk                     1         
+shower                   1         
+train                    1         
+crosstrainersports       1         
+clean                    1         
+bus                      1         
+sleep                    2         
+dress                    1         
+cycle                    1         

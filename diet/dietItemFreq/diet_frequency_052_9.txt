@@ -1,0 +1,7 @@
+sandwich                 2         
+apple                    1         
+chocolate                1         
+soup                     1         
+muesli                   1         
+yoghurt                  1         
+banana                   1         

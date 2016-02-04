@@ -1,3 +1,0 @@
-'yoghurt'                1         
-'meat'                   1         
-'wine'                   1         

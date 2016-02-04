@@ -1,0 +1,5 @@
+shower                   1         
+charge                   1         
+sleep                    2         
+university               1         
+cycle                    3         

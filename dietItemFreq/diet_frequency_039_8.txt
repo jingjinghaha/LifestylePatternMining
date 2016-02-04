@@ -1,6 +1,0 @@
-'rice'                   1         
-'sausage'                1         
-'egg'                    1         
-'cake'                   1         
-'chicken'                1         
-'salad'                  1         

@@ -1,0 +1,5 @@
+macaroni                 1         
+chip                     1         
+sandwich                 2         
+cookie                   1         
+beer                     1         

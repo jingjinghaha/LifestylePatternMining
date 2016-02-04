@@ -1,4 +1,0 @@
-'pasta'                  1         
-'sandwich'               2         
-'pate'                   1         
-'pie'                    1         

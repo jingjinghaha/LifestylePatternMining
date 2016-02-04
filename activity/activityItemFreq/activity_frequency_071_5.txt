@@ -1,0 +1,4 @@
+cook                     1         
+meet                     1         
+study                    1         
+sleep                    2         

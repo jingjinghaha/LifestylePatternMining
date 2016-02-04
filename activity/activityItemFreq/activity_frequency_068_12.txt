@@ -1,0 +1,7 @@
+city                     1         
+sit                      2         
+bus                      2         
+walk                     4         
+home                     1         
+christmas                1         
+market                   1         

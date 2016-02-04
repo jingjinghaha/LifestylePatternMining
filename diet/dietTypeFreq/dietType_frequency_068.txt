@@ -1,0 +1,11 @@
+meat                     5         
+vegetables               6         
+drink                    2         
+caffeine                 1         
+otherAnimalProducts      1         
+fruit                    7         
+dairy                    7         
+others                   3         
+confections              3         
+grain                    26        
+alcohol                  6         

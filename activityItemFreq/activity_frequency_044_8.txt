@@ -1,7 +1,0 @@
-'walk'                   2         
-'bath'                   1         
-'sit'                    1         
-'dress'                  1         
-'work'                   1         
-'relax'                  1         
-'cook'                   1         

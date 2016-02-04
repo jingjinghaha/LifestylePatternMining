@@ -1,0 +1,5 @@
+pasta                    1         
+muesli                   1         
+broccoli                 1         
+oatmeal                  1         
+bread                    2         

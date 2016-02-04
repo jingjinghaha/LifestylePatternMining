@@ -1,0 +1,6 @@
+car                      1         
+study                    1         
+work                     1         
+drive                    1         
+shower                   1         
+charge                   1         

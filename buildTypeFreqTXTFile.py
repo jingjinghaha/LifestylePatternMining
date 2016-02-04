@@ -13,7 +13,7 @@ import buildTypeIndex
 def buildSingleDietTypeFreqFile():
 	available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
 	for subjectID in available_list:
-		f_diet = open('dietTypeFreq/dietType_frequency_'+subjectID+'.txt','w')
+		f_diet = open('diet/dietTypeFreq/dietType_frequency_'+subjectID+'.txt','w')
 		singleDietType_dict = buildTypeIndex.build_single_diet_index(subjectID)
 		for key in singleDietType_dict:
 			# if key != 'others':
@@ -26,7 +26,7 @@ def buildSingleDietTypeFreqFile():
 def buildSingleActTypeFreqFile():
 	available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
 	for subjectID in available_list:
-		f_act = open('activityTypeFreq/activityType_frequency_'+subjectID+'.txt','w')
+		f_act = open('activity/activityTypeFreq/activityType_frequency_'+subjectID+'.txt','w')
 		singleActType_dict = buildTypeIndex.build_single_activity_index(subjectID)
 		for key in singleActType_dict:
 			if key != 'none':
@@ -37,16 +37,16 @@ def buildSingleActTypeFreqFile():
 # create overall diet type frequency txt file
 def buildDietTypeFreqTXTFile():
 	dietType_dict = {}
-	f_diet = open('dietOverallTypeFreq/all_dietType_frequency.txt','w')
-	for line in open('dietOverallItemFreq/all_diet_frequency.txt','r'):
+	f_diet = open('diet/dietOverallTypeFreq/all_dietType_frequency.txt','w')
+	for line in open('diet/dietOverallItemFreq/all_diet_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
-		#print words[1], type(words[3])
-		#words[1]: item
-		#words[3]: item frequency
-		diettype = dietType.dietType(words[1])
+		#print words[0], type(words[1])
+		#words[0]: item
+		#words[1]: item frequency
+		diettype = dietType.dietType(words[0])
 		# print diettype
-		temp = int(words[3])
+		temp = int(words[1])
 		if diettype in dietType_dict:
 			dietType_dict[diettype] += temp
 			# print dietType_dict[diettype]
@@ -65,15 +65,15 @@ def buildDietTypeFreqTXTFile():
 # create overall diet type frequency txt file
 def buildActTypeFreqTXTFile():
 	actType_dict = {}
-	f_act = open('activityOverallTypeFreq/all_activityType_frequency.txt','w')
-	for line in open('activityOverallItemFreq/all_activity_frequency.txt','r'):
+	f_act = open('activity/activityOverallTypeFreq/all_activityType_frequency.txt','w')
+	for line in open('activity/activityOverallItemFreq/all_activity_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
-		#print words[1], type(words[3])
-		#words[1]: item
-		#words[3]: item frequency
-		acttype = actType.actType(words[1]) 
-		temp = int(words[3])
+		#print words[0], type(words[1])
+		#words[0]: item
+		#words[1]: item frequency
+		acttype = actType.actType(words[0]) 
+		temp = int(words[1])
 		if acttype in actType_dict:
 			actType_dict[acttype] += temp
 		else:

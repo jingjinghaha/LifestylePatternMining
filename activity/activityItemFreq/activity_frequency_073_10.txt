@@ -1,0 +1,5 @@
+car                      5         
+dog                      1         
+sleep                    1         
+drive                    5         
+walk                     3         

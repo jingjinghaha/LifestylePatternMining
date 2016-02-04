@@ -1,0 +1,13 @@
+pie                      1         
+car                      1         
+drive                    1         
+back                     1         
+sleep                    1         
+clean                    1         
+ait                      1         
+cook                     1         
+mattress                 1         
+inflate                  1         
+pack                     1         
+talk                     1         
+cycle                    1         

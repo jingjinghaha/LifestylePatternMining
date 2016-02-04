@@ -1,0 +1,8 @@
+shop                     1         
+school                   1         
+gamen                    1         
+study                    4         
+shower                   1         
+charge                   2         
+sleep                    1         
+cycle                    3         

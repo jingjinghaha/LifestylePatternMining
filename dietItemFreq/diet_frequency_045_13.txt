@@ -1,4 +1,0 @@
-'sandwich'               1         
-'salad'                  1         
-'soup'                   2         
-'bread'                  1         

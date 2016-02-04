@@ -1,0 +1,12 @@
+bike                     1         
+sit                      2         
+bus                      1         
+drink                    1         
+walk                     6         
+shower                   1         
+train                    1         
+awake                    1         
+party                    1         
+car                      1         
+sleep                    1         
+restaurant               1         

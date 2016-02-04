@@ -1,0 +1,13 @@
+shop                     1         
+coffee                   1         
+relax                    1         
+university               1         
+dentist                  1         
+walk                     4         
+soup                     1         
+charge                   1         
+sleep                    1         
+fitness                  1         
+study                    1         
+friends                  1         
+make                     1         

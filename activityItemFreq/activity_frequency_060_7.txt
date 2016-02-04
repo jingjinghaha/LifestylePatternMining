@@ -1,9 +1,0 @@
-'pack'                   1         
-'cook'                   1         
-'clean'                  1         
-'diner'                  1         
-'shop'                   1         
-'watch'                  1         
-'tv'                     1         
-'charge'                 1         
-'lunch'                  1         

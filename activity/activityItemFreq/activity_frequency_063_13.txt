@@ -1,0 +1,5 @@
+car                      1         
+charge                   1         
+sleep                    1         
+empty                    1         
+phone                    1         

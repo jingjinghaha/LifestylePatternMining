@@ -1,0 +1,9 @@
+diner                    1         
+car                      4         
+work                     1         
+drive                    4         
+shower                   1         
+charge                   1         
+train                    1         
+sleep                    1         
+soccer                   1         

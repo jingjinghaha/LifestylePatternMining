@@ -1,0 +1,8 @@
+sandwich                 2         
+salad                    1         
+potato                   1         
+sweet                    1         
+fish                     1         
+bean                     1         
+muesli                   2         
+yoghurt                  2         

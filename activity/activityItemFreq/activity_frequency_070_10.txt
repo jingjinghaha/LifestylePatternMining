@@ -1,0 +1,6 @@
+car                      1         
+work                     1         
+drive                    1         
+shower                   1         
+sleep                    1         
+dress                    1         

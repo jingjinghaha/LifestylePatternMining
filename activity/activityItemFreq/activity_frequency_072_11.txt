@@ -1,0 +1,6 @@
+shop                     1         
+garden                   1         
+bed                      1         
+shower                   1         
+charge                   1         
+cycle                    1         

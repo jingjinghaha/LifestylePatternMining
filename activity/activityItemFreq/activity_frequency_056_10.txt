@@ -1,0 +1,13 @@
+diner                    1         
+phone                    1         
+car                      5         
+household                1         
+fitness                  1         
+drive                    5         
+shower                   2         
+dish                     1         
+charge                   1         
+sleep                    1         
+activity                 1         
+cook                     1         
+babysitting              1         

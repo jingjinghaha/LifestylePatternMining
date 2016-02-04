@@ -1,0 +1,11 @@
+shop                     1         
+school                   1         
+bus                      1         
+research                 1         
+shower                   1         
+train                    1         
+mri                      1         
+ready                    1         
+party                    1         
+breakfast                1         
+cycle                    3         

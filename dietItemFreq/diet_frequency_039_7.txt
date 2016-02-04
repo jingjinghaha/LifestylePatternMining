@@ -1,6 +1,0 @@
-'rice'                   1         
-'chicken'                1         
-'cake'                   1         
-'pasta'                  1         
-'sandwich'               1         
-'coffee'                 1         

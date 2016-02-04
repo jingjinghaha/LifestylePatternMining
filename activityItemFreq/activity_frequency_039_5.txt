@@ -1,9 +1,0 @@
-'study'                  1         
-'gym'                    2         
-'shower'                 1         
-'pub'                    1         
-'sleep'                  1         
-'relax'                  1         
-'bike'                   3         
-'charge'                 1         
-'home'                   1         

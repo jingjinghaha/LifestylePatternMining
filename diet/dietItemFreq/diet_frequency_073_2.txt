@@ -1,0 +1,12 @@
+sandwich                 1         
+meat                     1         
+sugar                    1         
+potato                   1         
+tea                      1         
+waffle                   1         
+soup                     1         
+gram                     1         
+protein                  2         
+piece                    1         
+banana                   1         
+bread                    1         

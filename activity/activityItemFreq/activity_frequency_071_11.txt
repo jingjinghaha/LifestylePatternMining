@@ -1,0 +1,8 @@
+run                      1         
+car                      2         
+university               1         
+drive                    2         
+practicum                1         
+cycle                    1         
+study                    1         
+pack                     1         

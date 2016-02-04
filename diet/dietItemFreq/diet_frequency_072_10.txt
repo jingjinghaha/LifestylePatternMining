@@ -1,0 +1,6 @@
+sandwich                 1         
+soup                     1         
+cookie                   1         
+orange                   1         
+macaroni                 1         
+rice                     1         

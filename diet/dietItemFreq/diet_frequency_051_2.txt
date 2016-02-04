@@ -1,0 +1,8 @@
+dry                      1         
+apple                    1         
+cup                      1         
+soup                     1         
+fruit                    1         
+cookie                   1         
+macaroni                 1         
+banana                   1         

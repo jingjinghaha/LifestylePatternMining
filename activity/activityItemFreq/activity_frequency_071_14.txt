@@ -1,0 +1,7 @@
+study                    1         
+sleep                    1         
+clean                    1         
+cook                     1         
+lecture                  1         
+practicum                1         
+cycle                    3         

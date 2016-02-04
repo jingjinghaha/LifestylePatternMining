@@ -1,0 +1,8 @@
+university               1         
+gym                      1         
+shower                   1         
+charge                   1         
+bike                     1         
+sleep                    1         
+study                    1         
+household                1         

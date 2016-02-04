@@ -1,0 +1,4 @@
+phone                    1         
+study                    1         
+sleep                    1         
+cycle                    2         

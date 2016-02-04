@@ -1,0 +1,4 @@
+egg                      1         
+chip                     1         
+hamburger                1         
+cookie                   1         

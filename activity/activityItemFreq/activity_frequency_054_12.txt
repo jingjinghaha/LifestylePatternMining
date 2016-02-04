@@ -1,0 +1,11 @@
+shop                     1         
+craftwork                1         
+parent                   1         
+movie                    1         
+watch                    1         
+shower                   1         
+sleep                    1         
+place                    1         
+dish                     1         
+run                      1         
+cycle                    1         

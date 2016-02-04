@@ -1,8 +1,0 @@
-'salmon'                 1         
-'soup'                   2         
-'sugar'                  1         
-'snap'                   1         
-'potato'                 1         
-'milk'                   1         
-'sandwich'               1         
-'choco'                  1         

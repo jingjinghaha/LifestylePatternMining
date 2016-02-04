@@ -1,0 +1,4 @@
+orange                   1         
+egg                      1         
+cookie                   1         
+spinach                  1         

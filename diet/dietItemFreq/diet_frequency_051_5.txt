@@ -1,0 +1,6 @@
+sandwich                 1         
+meat                     1         
+cookie                   1         
+bread                    1         
+rice                     1         
+sauerkraut               1         

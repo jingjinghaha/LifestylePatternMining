@@ -1,0 +1,16 @@
+shop                     1         
+laundry                  1         
+car                      1         
+tv                       1         
+tea                      1         
+watch                    1         
+drive                    1         
+walk                     2         
+shower                   1         
+lunch                    1         
+train                    4         
+sleep                    2         
+clean                    1         
+bus                      2         
+run                      1         
+cycle                    2         

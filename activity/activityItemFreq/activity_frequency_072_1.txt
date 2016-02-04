@@ -1,0 +1,11 @@
+diner                    1         
+read                     1         
+watch                    1         
+walk                     2         
+dish                     1         
+charge                   1         
+sleep                    1         
+rabbit                   1         
+tv                       1         
+cook                     2         
+cycle                    4         

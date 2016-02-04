@@ -1,0 +1,6 @@
+cheese                   1         
+sandwich                 1         
+meat                     1         
+beer                     1         
+cookie                   1         
+pasta                    1         

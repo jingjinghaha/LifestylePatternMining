@@ -1,0 +1,14 @@
+shop                     1         
+toilet                   1         
+run                      2         
+diner                    1         
+tv                       1         
+watch                    1         
+shower                   1         
+lunch                    1         
+computer                 3         
+sleep                    1         
+dish                     2         
+cook                     2         
+breakfast                1         
+cycle                    1         

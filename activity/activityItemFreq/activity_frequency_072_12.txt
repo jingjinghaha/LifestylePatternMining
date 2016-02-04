@@ -1,0 +1,4 @@
+shower                   1         
+charge                   1         
+garden                   1         
+bed                      1         

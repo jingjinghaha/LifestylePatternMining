@@ -1,6 +1,0 @@
-'visit'                  1         
-'city'                   1         
-'diner'                  1         
-'shop'                   1         
-'train'                  1         
-'lunch'                  1         

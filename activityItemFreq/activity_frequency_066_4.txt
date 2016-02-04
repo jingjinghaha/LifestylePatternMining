@@ -1,9 +1,0 @@
-'walk'                   1         
-'shower'                 1         
-'cycle'                  2         
-'bus'                    1         
-'bed'                    1         
-'watch'                  1         
-'computer'               1         
-'shop'                   2         
-'tv'                     1         

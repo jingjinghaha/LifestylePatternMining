@@ -1,0 +1,7 @@
+sandwich                 1         
+beef                     1         
+fish                     1         
+ginger                   1         
+cookie                   1         
+piece                    1         
+bread                    2         

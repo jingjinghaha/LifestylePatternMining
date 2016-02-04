@@ -1,0 +1,4 @@
+home                     1         
+study                    1         
+zumba                    1         
+cycle                    2         

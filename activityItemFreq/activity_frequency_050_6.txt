@@ -1,7 +1,0 @@
-'walk'                   2         
-'sleep'                  1         
-'charge'                 1         
-'computer'               1         
-'phone'                  1         
-'dog'                    2         
-'study'                  2         

@@ -1,3 +1,0 @@
-'sleep'                  1         
-'train'                  1         
-'shower'                 1         

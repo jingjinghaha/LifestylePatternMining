@@ -1,0 +1,6 @@
+sandwich                 1         
+hamburger                1         
+potato                   1         
+carrot                   1         
+muesli                   2         
+yoghurt                  2         

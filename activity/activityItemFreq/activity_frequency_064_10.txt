@@ -1,0 +1,8 @@
+try                      1         
+study                    4         
+pushups                  1         
+shower                   2         
+lunch                    2         
+charge                   1         
+sleep                    3         
+cook                     2         

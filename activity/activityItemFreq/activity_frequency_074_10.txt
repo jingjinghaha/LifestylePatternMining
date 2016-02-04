@@ -1,0 +1,15 @@
+shop                     1         
+via                      1         
+diner                    1         
+movie                    1         
+internet                 1         
+watch                    1         
+sugar                    1         
+shower                   1         
+dish                     1         
+train                    1         
+sleep                    1         
+fitness                  1         
+cook                     2         
+home                     1         
+cycle                    2         

@@ -1,7 +1,0 @@
-'wine'                   1         
-'nut'                    1         
-'bread'                  1         
-'white'                  1         
-'sandwich'               1         
-'lychees'                1         
-'piece'                  1         

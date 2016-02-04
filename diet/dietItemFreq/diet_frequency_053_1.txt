@@ -1,0 +1,6 @@
+cheese                   1         
+sandwich                 1         
+meat                     1         
+cocktails                1         
+vegetable                1         
+noodles                  1         

@@ -1,0 +1,7 @@
+sandwich                 1         
+apple                    1         
+salad                    1         
+sugar                    1         
+muesli                   1         
+yoghurt                  1         
+meat                     1         

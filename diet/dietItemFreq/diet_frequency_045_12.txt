@@ -1,0 +1,6 @@
+cheese                   1         
+sandwich                 1         
+potato                   1         
+fish                     1         
+vegetable                1         
+bread                    1         

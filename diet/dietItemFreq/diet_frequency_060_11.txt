@@ -1,0 +1,4 @@
+orange                   1         
+muesli                   1         
+rice                     1         
+pasta                    2         

@@ -1,0 +1,7 @@
+shop                     1         
+sleep                    1         
+clean                    1         
+cook                     1         
+place                    1         
+friends                  1         
+chill                    1         

@@ -1,0 +1,8 @@
+study                    1         
+gym                      2         
+rest                     1         
+charge                   2         
+bike                     4         
+sleep                    1         
+home                     2         
+university               1         

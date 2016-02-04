@@ -1,7 +1,0 @@
-'walk'                   3         
-'cycle'                  8         
-'sleep'                  1         
-'phone'                  2         
-'car'                    2         
-'drive'                  2         
-'dog'                    3         

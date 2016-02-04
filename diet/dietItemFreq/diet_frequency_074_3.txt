@@ -1,0 +1,12 @@
+olives                   1         
+apple                    1         
+salad                    1         
+potato                   1         
+fish                     1         
+chocolate                2         
+orange                   1         
+vegetable                1         
+muesli                   1         
+yoghurt                  3         
+eat                      1         
+pizza                    1         

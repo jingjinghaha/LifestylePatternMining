@@ -1,0 +1,10 @@
+cheese                   1         
+coffee                   2         
+sandwich                 2         
+meat                     1         
+mayo                     1         
+fries                    1         
+cookie                   2         
+sate                     1         
+rice                     1         
+milk                     1         

@@ -1,0 +1,6 @@
+meat                     1         
+ginger                   1         
+cookie                   1         
+bread                    2         
+rice                     1         
+sauerkraut               1         

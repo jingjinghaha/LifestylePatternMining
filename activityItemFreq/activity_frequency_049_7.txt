@@ -1,5 +1,0 @@
-'cook'                   1         
-'train'                  2         
-'sleep'                  1         
-'visit'                  1         
-'study'                  1         

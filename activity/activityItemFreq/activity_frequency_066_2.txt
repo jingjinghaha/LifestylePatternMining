@@ -1,0 +1,9 @@
+tv                       1         
+car                      6         
+work                     2         
+watch                    1         
+drive                    6         
+walk                     2         
+shower                   1         
+sleep                    2         
+cycle                    2         

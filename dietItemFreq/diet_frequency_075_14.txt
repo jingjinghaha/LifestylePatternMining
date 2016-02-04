@@ -1,4 +1,0 @@
-'rice'                   1         
-'chicken'                1         
-'soup'                   1         
-'oatmeal'                1         

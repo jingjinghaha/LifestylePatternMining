@@ -1,0 +1,4 @@
+soup                     1         
+sandwich                 3         
+alcohol                  1         
+drink                    1         

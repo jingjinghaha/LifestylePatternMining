@@ -1,0 +1,7 @@
+sandwich                 2         
+salad                    1         
+kaki                     1         
+fruit                    1         
+cookie                   2         
+pasta                    1         
+rice                     1         

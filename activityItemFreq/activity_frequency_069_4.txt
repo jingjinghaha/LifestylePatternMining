@@ -1,5 +1,0 @@
-'shop'                   1         
-'cycle'                  5         
-'sleep'                  1         
-'work'                   1         
-'lecture'                1         

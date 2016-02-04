@@ -1,0 +1,5 @@
+shower                   1         
+university               1         
+sleep                    1         
+practicum                1         
+walk                     2         

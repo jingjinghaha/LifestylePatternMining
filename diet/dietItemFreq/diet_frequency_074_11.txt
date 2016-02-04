@@ -1,0 +1,8 @@
+cheese                   1         
+vegetable                1         
+potato                   1         
+oatmeal                  2         
+crumble                  1         
+soup                     2         
+cake                     1         
+orange                   1         

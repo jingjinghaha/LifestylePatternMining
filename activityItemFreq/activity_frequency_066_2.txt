@@ -1,9 +1,0 @@
-'cycle'                  2         
-'shower'                 1         
-'walk'                   2         
-'sleep'                  2         
-'work'                   2         
-'car'                    6         
-'drive'                  6         
-'watch'                  1         
-'tv'                     1         

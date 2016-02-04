@@ -1,0 +1,10 @@
+run                      1         
+relax                    1         
+bus                      2         
+university               1         
+dog                      1         
+walk                     1         
+shower                   1         
+jacuzzi                  1         
+sleep                    1         
+study                    1         

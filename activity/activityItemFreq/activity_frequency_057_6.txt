@@ -1,0 +1,11 @@
+shop                     1         
+move                     1         
+cable                    1         
+car                      1         
+work                     1         
+drive                    1         
+walk                     1         
+sleep                    1         
+loose                    1         
+home                     1         
+electrode                1         

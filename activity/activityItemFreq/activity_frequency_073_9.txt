@@ -1,0 +1,7 @@
+car                      2         
+drive                    2         
+dog                      3         
+phone                    2         
+sleep                    1         
+walk                     3         
+cycle                    8         

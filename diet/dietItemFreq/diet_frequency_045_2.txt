@@ -1,0 +1,5 @@
+vegetable                1         
+beer                     1         
+sandwich                 2         
+meat                     1         
+potato                   1         

@@ -1,9 +1,0 @@
-'cycle'                  1         
-'kiwi'                   1         
-'phone'                  1         
-'study'                  1         
-'cheese'                 1         
-'sandwich'               1         
-'house'                  1         
-'clean'                  1         
-'home'                   1         

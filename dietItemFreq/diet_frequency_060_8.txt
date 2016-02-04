@@ -1,5 +1,0 @@
-'broccoli'               1         
-'pasta'                  1         
-'bread'                  2         
-'oatmeal'                1         
-'muesli'                 1         

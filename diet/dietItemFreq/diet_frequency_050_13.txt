@@ -1,0 +1,6 @@
+salad                    1         
+doner                    1         
+tea                      1         
+salmon                   1         
+cake                     1         
+pasta                    1         

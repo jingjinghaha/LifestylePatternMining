@@ -1,0 +1,10 @@
+drink                    1         
+car                      1         
+train                    1         
+work                     1         
+walk                     3         
+bike                     1         
+sleep                    1         
+wait                     1         
+dress                    1         
+pack                     2         

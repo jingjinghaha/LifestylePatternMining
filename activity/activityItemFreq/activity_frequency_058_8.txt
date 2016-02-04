@@ -1,0 +1,11 @@
+shop                     1         
+university               1         
+work                     1         
+visit                    1         
+horeca                   1         
+sleep                    1         
+trainstation             1         
+labprotocol              1         
+hospital                 1         
+orbis                    1         
+cycle                    2         

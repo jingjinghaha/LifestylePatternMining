@@ -1,0 +1,6 @@
+sandwich                 2         
+pasta                    1         
+cookie                   1         
+rice                     1         
+orange                   1         
+noodles                  1         

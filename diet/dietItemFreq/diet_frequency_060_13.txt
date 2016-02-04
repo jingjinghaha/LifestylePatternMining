@@ -1,0 +1,4 @@
+soup                     1         
+wine                     1         
+alcohol                  1         
+bread                    1         

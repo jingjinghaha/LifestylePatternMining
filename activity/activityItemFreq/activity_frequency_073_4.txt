@@ -1,0 +1,9 @@
+diner                    1         
+tv                       1         
+car                      3         
+watch                    1         
+drive                    3         
+dog                      4         
+lunch                    1         
+sleep                    1         
+walk                     4         

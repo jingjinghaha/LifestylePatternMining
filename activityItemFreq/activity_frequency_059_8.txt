@@ -1,8 +1,0 @@
-'shower'                 1         
-'cpet'                   1         
-'sleep'                  1         
-'car'                    4         
-'drive'                  4         
-'shop'                   1         
-'home'                   1         
-'maximum'                1         

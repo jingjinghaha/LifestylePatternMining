@@ -1,0 +1,3 @@
+muesli                   1         
+chip                     1         
+yoghurt                  1         

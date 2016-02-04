@@ -1,0 +1,7 @@
+shop                     2         
+centre                   1         
+car                      2         
+walk                     2         
+charge                   2         
+sleep                    1         
+home                     1         

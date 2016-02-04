@@ -1,3 +1,0 @@
-'cookie'                 2         
-'doner'                  1         
-'soup'                   1         

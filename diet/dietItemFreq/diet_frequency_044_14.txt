@@ -1,0 +1,14 @@
+butter                   1         
+cheese                   2         
+olives                   1         
+meat                     1         
+baguette                 1         
+muffin                   1         
+strawberry               1         
+juice                    1         
+beer                     1         
+jam                      1         
+lasagna                  1         
+chocolate                2         
+milk                     1         
+bread                    1         

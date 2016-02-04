@@ -1,6 +1,0 @@
-'sugar'                  1         
-'cookie'                 1         
-'beer'                   1         
-'sandwich'               1         
-'carrot'                 1         
-'candy'                  1         

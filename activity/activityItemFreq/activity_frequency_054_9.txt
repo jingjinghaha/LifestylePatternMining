@@ -1,0 +1,9 @@
+shop                     1         
+city                     1         
+study                    1         
+phone                    2         
+sleep                    1         
+cook                     1         
+lecture                  1         
+empty                    1         
+cycle                    5         

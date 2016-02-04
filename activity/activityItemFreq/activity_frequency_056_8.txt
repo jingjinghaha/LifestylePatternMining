@@ -1,0 +1,7 @@
+car                      4         
+drive                    4         
+shower                   1         
+sleep                    1         
+fitness                  1         
+cook                     1         
+babysitting              1         

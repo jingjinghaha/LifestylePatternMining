@@ -1,4 +1,0 @@
-'pasta'                  1         
-'bread'                  1         
-'coffee'                 1         
-'banana'                 1         

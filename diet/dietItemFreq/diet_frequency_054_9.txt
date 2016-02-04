@@ -1,0 +1,8 @@
+cheese                   1         
+sandwich                 1         
+soup                     1         
+hummus                   1         
+carrot                   1         
+split                    1         
+pea                      1         
+bread                    1         

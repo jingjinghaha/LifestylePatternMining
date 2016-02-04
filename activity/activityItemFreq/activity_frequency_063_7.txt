@@ -1,0 +1,4 @@
+car                      1         
+sleep                    2         
+back                     1         
+walk                     2         

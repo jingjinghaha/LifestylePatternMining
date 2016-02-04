@@ -1,6 +1,0 @@
-'noodles'                1         
-'vegetable'              1         
-'meat'                   1         
-'cheese'                 1         
-'sandwich'               1         
-'cocktails'              1         

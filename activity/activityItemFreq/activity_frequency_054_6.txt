@@ -1,0 +1,9 @@
+tv                       1         
+watch                    1         
+walk                     2         
+charge                   1         
+train                    1         
+sleep                    2         
+clean                    1         
+place                    1         
+friends                  1         

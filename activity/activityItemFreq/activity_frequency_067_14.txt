@@ -1,0 +1,13 @@
+shop                     1         
+run                      1         
+exam                     1         
+forbid                   1         
+car                      2         
+study                    1         
+dog                      1         
+drive                    2         
+walk                     1         
+shower                   1         
+phone                    1         
+jacuzzi                  1         
+sleep                    1         

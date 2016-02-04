@@ -1,7 +1,0 @@
-'yoghurt'                2         
-'chicken'                1         
-'vegetable'              1         
-'muesli'                 1         
-'doner'                  1         
-'sandwich'               2         
-'salad'                  1         

@@ -1,0 +1,8 @@
+city                     1         
+tv                       1         
+bus                      1         
+study                    1         
+watch                    1         
+train                    2         
+sleep                    1         
+cycle                    2         

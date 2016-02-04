@@ -1,4 +1,0 @@
-'vegetable'              1         
-'potato'                 1         
-'beer'                   1         
-'apple'                  2         

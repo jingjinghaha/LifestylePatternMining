@@ -1,0 +1,13 @@
+play                     1         
+ok                       1         
+traineeship              1         
+car                      2         
+study                    1         
+drink                    1         
+drive                    2         
+shower                   2         
+los                      1         
+train                    3         
+run                      1         
+soccer                   1         
+sticker                  1         

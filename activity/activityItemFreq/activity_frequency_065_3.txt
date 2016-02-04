@@ -1,0 +1,12 @@
+shop                     1         
+read                     2         
+study                    2         
+drive                    1         
+shower                   1         
+dish                     1         
+sleep                    1         
+clean                    1         
+cook                     1         
+lesson                   1         
+breakfast                1         
+cycle                    2         

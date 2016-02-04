@@ -1,6 +1,0 @@
-'cycle'                  1         
-'run'                    1         
-'work'                   1         
-'computer'               1         
-'behind'                 1         
-'shop'                   1         

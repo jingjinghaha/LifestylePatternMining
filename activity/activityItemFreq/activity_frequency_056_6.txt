@@ -1,0 +1,9 @@
+shop                     2         
+diner                    1         
+backery                  1         
+car                      8         
+household                1         
+drive                    8         
+shower                   1         
+sleep                    1         
+activity                 1         

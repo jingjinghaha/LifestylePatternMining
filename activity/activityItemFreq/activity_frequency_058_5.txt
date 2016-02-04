@@ -1,0 +1,4 @@
+lunch                    1         
+behind                   2         
+work                     2         
+computer                 2         

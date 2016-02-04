@@ -1,0 +1,10 @@
+city                     1         
+diner                    1         
+relax                    1         
+tv                       1         
+watch                    1         
+bed                      1         
+charge                   1         
+sleep                    1         
+cook                     1         
+home                     2         

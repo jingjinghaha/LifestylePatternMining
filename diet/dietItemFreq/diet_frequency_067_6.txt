@@ -1,0 +1,8 @@
+cappuccino               1         
+meat                     1         
+salad                    1         
+potato                   1         
+carrot                   1         
+sandwich                 2         
+muesli                   2         
+yoghurt                  2         

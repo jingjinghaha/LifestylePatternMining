@@ -1,0 +1,5 @@
+vegetable                1         
+yoghurt                  1         
+meat                     1         
+sandwich                 1         
+potato                   1         

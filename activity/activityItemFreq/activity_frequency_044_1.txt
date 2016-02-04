@@ -1,0 +1,8 @@
+around                   1         
+sit                      1         
+house                    1         
+walk                     1         
+sleep                    1         
+clean                    1         
+dish                     1         
+home                     1         

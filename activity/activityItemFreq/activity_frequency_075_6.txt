@@ -1,0 +1,11 @@
+laundry                  1         
+university               1         
+study                    1         
+shower                   2         
+game                     1         
+hockey                   1         
+breakfast                1         
+cycle                    3         
+dress                    1         
+banana                   1         
+pack                     1         

@@ -1,3 +1,0 @@
-'yoghurt'                1         
-'chip'                   1         
-'muesli'                 1         

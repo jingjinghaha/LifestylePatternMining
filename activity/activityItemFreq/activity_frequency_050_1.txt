@@ -1,0 +1,7 @@
+shop                     2         
+taxi                     3         
+car                      3         
+travel                   1         
+drive                    3         
+walk                     2         
+train                    1         

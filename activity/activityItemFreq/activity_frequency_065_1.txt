@@ -1,0 +1,9 @@
+hit                      1         
+diner                    1         
+study                    2         
+shower                   1         
+sleep                    1         
+clean                    1         
+cook                     1         
+workout                  1         
+cycle                    1         

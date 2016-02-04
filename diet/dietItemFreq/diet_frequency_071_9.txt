@@ -1,0 +1,8 @@
+blueberries              1         
+apple                    1         
+salmon                   1         
+rice                     1         
+muesli                   1         
+yoghurt                  1         
+curry                    1         
+banana                   1         

@@ -1,6 +1,0 @@
-'sleep'                  1         
-'university'             1         
-'charge'                 2         
-'bike'                   2         
-'study'                  2         
-'home'                   1         

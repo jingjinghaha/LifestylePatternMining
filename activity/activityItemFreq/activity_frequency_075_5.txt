@@ -1,0 +1,6 @@
+shop                     1         
+university               2         
+charge                   1         
+clean                    1         
+thereafter               1         
+cycle                    2         

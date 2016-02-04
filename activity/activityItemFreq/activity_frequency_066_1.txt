@@ -1,0 +1,6 @@
+car                      2         
+visit                    1         
+drive                    2         
+bed                      1         
+charge                   1         
+cook                     1         

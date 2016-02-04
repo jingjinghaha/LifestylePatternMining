@@ -1,0 +1,9 @@
+run                      2         
+study                    1         
+dog                      2         
+back                     1         
+pie                      1         
+shower                   1         
+party                    1         
+walk                     2         
+birtday                  1         

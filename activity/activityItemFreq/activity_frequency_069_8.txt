@@ -1,0 +1,6 @@
+protocol                 1         
+exam                     1         
+bus                      1         
+standard                 1         
+sleep                    1         
+cycle                    3         

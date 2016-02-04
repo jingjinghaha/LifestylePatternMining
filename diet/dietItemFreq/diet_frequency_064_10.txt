@@ -1,0 +1,3 @@
+pasta                    4         
+chip                     1         
+egg                      1         

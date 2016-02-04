@@ -1,0 +1,9 @@
+diner                    1         
+movie                    1         
+study                    1         
+watch                    1         
+walk                     1         
+cook                     1         
+train                    2         
+sleep                    1         
+test                     1         

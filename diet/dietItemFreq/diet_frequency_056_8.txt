@@ -1,0 +1,4 @@
+vegetable                1         
+chicken                  1         
+salad                    1         
+potato                   1         

@@ -1,0 +1,17 @@
+run                      1         
+exam                     1         
+diner                    1         
+car                      1         
+university               3         
+rest                     1         
+walk                     2         
+behind                   2         
+bike                     2         
+sleep                    1         
+lecture                  1         
+cook                     1         
+home                     4         
+breakfast                1         
+study                    2         
+friend                   2         
+cycle                    2         

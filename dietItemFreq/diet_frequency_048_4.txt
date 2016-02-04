@@ -1,6 +1,0 @@
-'nut'                    1         
-'diner'                  1         
-'sandwich'               1         
-'beef'                   1         
-'apple'                  1         
-'banana'                 1         

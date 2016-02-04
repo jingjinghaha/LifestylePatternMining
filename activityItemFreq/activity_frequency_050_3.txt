@@ -1,4 +1,0 @@
-'walk'                   2         
-'diner'                  1         
-'computer'               1         
-'time'                   1         

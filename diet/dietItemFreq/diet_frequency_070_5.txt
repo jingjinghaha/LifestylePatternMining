@@ -1,0 +1,4 @@
+pasta                    1         
+sandwich                 1         
+salmon                   1         
+banana                   1         

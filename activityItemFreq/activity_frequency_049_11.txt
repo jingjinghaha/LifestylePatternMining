@@ -1,7 +1,0 @@
-'walk'                   1         
-'shower'                 1         
-'sleep'                  1         
-'drive'                  4         
-'work'                   1         
-'car'                    4         
-'diner'                  1         

@@ -62,21 +62,21 @@ def preprocessDiary():
 	singlerun = 0 
 	if singlerun: 
 		subjectID = '039'
-		preprocessing('activityFromExcel/activity_'+subjectID+'.txt','activityProcessed/processed_activity_'+subjectID+'.txt')
-		preprocessing('dietFromExcel/diet_'+subjectID+'.txt','dietProcessed/processed_diet_'+subjectID+'.txt')
+		preprocessing('activity/activityFromExcel/activity_'+subjectID+'.txt','activity/activityProcessed/processed_activity_'+subjectID+'.txt')
+		preprocessing('diet/dietFromExcel/diet_'+subjectID+'.txt','diet/dietProcessed/processed_diet_'+subjectID+'.txt')
 	else:
 		for subjectID in available_list:
 			print subjectID
-			preprocessing('activityFromExcel/activity_'+subjectID+'.txt','activityProcessed/processed_activity_'+subjectID+'.txt')
-			preprocessing('dietFromExcel/diet_'+subjectID+'.txt','dietProcessed/processed_diet_'+subjectID+'.txt')
+			preprocessing('activity/activityFromExcel/activity_'+subjectID+'.txt','activity/activityProcessed/processed_activity_'+subjectID+'.txt')
+			preprocessing('diet/dietFromExcel/diet_'+subjectID+'.txt','diet/dietProcessed/processed_diet_'+subjectID+'.txt')
 
 def preprocessDailyDiary():
 	print 'in preprocessDailyDiary()'
 	for subjectID in available_list:
 		duration = infoRetrival.getDuration(subjectID)
 		for n in range(1,duration+1):
-			preprocessing('activityFromExcel/activity_'+subjectID+'_'+str(n)+'.txt','activityProcessed/processed_activity_'+subjectID+'_'+str(n)+'.txt')
-			preprocessing('dietFromExcel/diet_'+subjectID+'_'+str(n)+'.txt','dietProcessed/processed_diet_'+subjectID+'_'+str(n)+'.txt')
+			preprocessing('activity/activityFromExcel/activity_'+subjectID+'_'+str(n)+'.txt','activity/activityProcessed/processed_activity_'+subjectID+'_'+str(n)+'.txt')
+			preprocessing('diet/dietFromExcel/diet_'+subjectID+'_'+str(n)+'.txt','diet/dietProcessed/processed_diet_'+subjectID+'_'+str(n)+'.txt')
 			
 #preprocessDiary()
-preprocessDailyDiary()
+# preprocessDailyDiary()

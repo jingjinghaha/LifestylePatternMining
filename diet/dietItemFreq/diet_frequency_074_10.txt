@@ -1,0 +1,7 @@
+rice                     1         
+tofu                     1         
+oatmeal                  2         
+cake                     1         
+vegetable                1         
+yoghurt                  1         
+banana                   1         

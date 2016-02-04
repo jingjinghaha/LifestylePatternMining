@@ -1,5 +1,0 @@
-'soup'                   1         
-'yoghurt'                1         
-'salad'                  1         
-'banana'                 2         
-'muesli'                 1         

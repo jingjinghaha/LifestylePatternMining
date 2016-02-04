@@ -1,0 +1,9 @@
+shop                     1         
+behind                   1         
+walk                     1         
+shower                   1         
+charge                   1         
+sleep                    1         
+meet                     1         
+lesson                   1         
+cycle                    7         

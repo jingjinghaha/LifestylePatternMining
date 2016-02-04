@@ -14,10 +14,10 @@ available_list = ['039','044','045','048','049','050','051','052','053','054','0
 def genDietItemDict():
 	item_dict = {}
 	n = 0
-	for line in open('dietOverallItemFreq/all_diet_frequency.txt','r'):
+	for line in open('diet/dietOverallItemFreq/all_diet_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
-		item_dict[n] = words[1]
+		item_dict[n] = words[0]
 		n += 1
 	# print item_dict
 	return item_dict
@@ -25,7 +25,7 @@ def genDietItemDict():
 def genDietTypeDict():
 	item_dict = {}
 	n = 0
-	for line in open('dietOverallTypeFreq/all_dietType_frequency.txt','r'):
+	for line in open('diet/dietOverallTypeFreq/all_dietType_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
 		item_dict[n] = words[0]
@@ -36,10 +36,10 @@ def genDietTypeDict():
 def genActItemDict():
 	item_dict = {}
 	n = 0
-	for line in open('activityOverallItemFreq/all_activity_frequency.txt','r'):
+	for line in open('activity/activityOverallItemFreq/all_activity_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
-		item_dict[n] = words[1]
+		item_dict[n] = words[0]
 		n += 1
 	# print item_dict
 	return item_dict
@@ -47,7 +47,7 @@ def genActItemDict():
 def genActTypeDict():
 	item_dict = {}
 	n = 0
-	for line in open('activityOverallTypeFreq/all_activityType_frequency.txt','r'):
+	for line in open('activity/activityOverallTypeFreq/all_activityType_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
 		item_dict[n] = words[0]
@@ -73,9 +73,9 @@ def genActItemTFArray():
 		ItemIndex = buildItemIndex.build_single_activity_index(subjectID)
 		# print ItemIndex
 		for key in item_dict:
-			if "'"+item_dict[key]+"'" in ItemIndex: 
+			if item_dict[key] in ItemIndex: 
 				# print item_dict[key]
-				array[i,key] = ItemIndex["'"+item_dict[key]+"'"]
+				array[i,key] = ItemIndex[item_dict[key]]
 		i += 1
 	# print array
 	return array
@@ -90,9 +90,9 @@ def genDietItemTFArray():
 	for subjectID in available_list:
 		ItemIndex = buildItemIndex.build_single_diet_index(subjectID)
 		for key in item_dict:
-			if "'"+item_dict[key]+"'" in ItemIndex: 
+			if item_dict[key] in ItemIndex: 
 				# print item_dict[key]
-				array[i,key] = ItemIndex["'"+item_dict[key]+"'"]
+				array[i,key] = ItemIndex[item_dict[key]]
 		i += 1
 	return array
 

@@ -1,0 +1,8 @@
+potato                   1         
+tea                      1         
+pie                      1         
+shrimp                   1         
+vegetable                1         
+pasta                    1         
+chicken                  1         
+noodles                  1         

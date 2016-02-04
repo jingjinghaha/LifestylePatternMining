@@ -1,7 +1,0 @@
-'shower'                 1         
-'sleep'                  1         
-'work'                   1         
-'car'                    1         
-'drive'                  1         
-'cook'                   1         
-'home'                   1         

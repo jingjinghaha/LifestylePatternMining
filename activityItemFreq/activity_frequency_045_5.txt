@@ -1,4 +1,0 @@
-'minutes'                1         
-'work'                   1         
-'cycle'                  1         
-'lecture'                1         

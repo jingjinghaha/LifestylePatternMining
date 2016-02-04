@@ -1,3 +1,0 @@
-'rice'                   1         
-'vegetable'              1         
-'sauerkraut'             1         

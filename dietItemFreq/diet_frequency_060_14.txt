@@ -1,4 +1,0 @@
-'pasta'                  1         
-'sandwich'               1         
-'fries'                  1         
-'mozzarella'             1         

@@ -1,6 +1,0 @@
-'water'                  1         
-'iceCream'               1         
-'orange'                 2         
-'pizza'                  1         
-'yoghurt'                1         
-'tea'                    1         

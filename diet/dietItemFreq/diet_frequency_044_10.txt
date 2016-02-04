@@ -1,0 +1,13 @@
+butter                   1         
+baguette                 1         
+snack                    1         
+beef                     1         
+lettuce                  1         
+mayo                     1         
+fries                    1         
+juice                    1         
+beer                     1         
+cookie                   1         
+cake                     1         
+piece                    1         
+wine                     2         

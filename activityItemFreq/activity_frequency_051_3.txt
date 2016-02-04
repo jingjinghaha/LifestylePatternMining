@@ -1,6 +1,0 @@
-'cycle'                  1         
-'shower'                 1         
-'sleep'                  1         
-'work'                   1         
-'car'                    1         
-'train'                  1         

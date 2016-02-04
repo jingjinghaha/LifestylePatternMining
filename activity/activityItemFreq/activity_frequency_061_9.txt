@@ -1,0 +1,15 @@
+play                     1         
+computer                 2         
+traineeship              1         
+tv                       2         
+car                      2         
+watch                    2         
+drive                    2         
+shower                   1         
+train                    2         
+cook                     1         
+canteen                  1         
+breakfast                1         
+soccer                   1         
+friends                  1         
+diner                    1         

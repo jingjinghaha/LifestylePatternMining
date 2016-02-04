@@ -1,4 +1,0 @@
-'sandwich'               1         
-'meat'                   1         
-'carrot'                 1         
-'apple'                  1         

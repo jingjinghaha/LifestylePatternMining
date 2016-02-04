@@ -1,3 +1,0 @@
-'cycle'                  1         
-'charge'                 1         
-'work'                   1         

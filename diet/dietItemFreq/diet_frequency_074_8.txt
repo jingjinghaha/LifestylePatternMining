@@ -1,0 +1,10 @@
+yoghurt                  1         
+apple                    1         
+nut                      1         
+oatmeal                  1         
+cookie                   1         
+orange                   1         
+muesli                   2         
+fill                     1         
+banana                   1         
+zucchini                 1         

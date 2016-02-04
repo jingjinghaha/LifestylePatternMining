@@ -1,0 +1,5 @@
+shower                   1         
+charge                   1         
+cycle                    1         
+garden                   1         
+walk                     1         

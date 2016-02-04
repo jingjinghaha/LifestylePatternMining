@@ -1,4 +1,0 @@
-'sleep'                  1         
-'cycle'                  2         
-'study'                  1         
-'phone'                  1         

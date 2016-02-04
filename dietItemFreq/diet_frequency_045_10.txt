@@ -1,4 +1,0 @@
-'sandwich'               3         
-'soup'                   1         
-'alcohol'                1         
-'drink'                  1         

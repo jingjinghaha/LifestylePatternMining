@@ -1,0 +1,6 @@
+play                     1         
+alcohol                  1         
+shower                   1         
+charge                   1         
+hockey                   1         
+cycle                    1         

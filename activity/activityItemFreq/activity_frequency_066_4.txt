@@ -1,0 +1,9 @@
+shop                     2         
+tv                       1         
+bus                      1         
+watch                    1         
+bed                      1         
+walk                     1         
+shower                   1         
+computer                 1         
+cycle                    2         

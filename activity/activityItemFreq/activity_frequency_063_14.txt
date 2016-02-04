@@ -1,0 +1,5 @@
+shower                   1         
+shop                     1         
+university               1         
+sleep                    1         
+walk                     2         

@@ -1,0 +1,5 @@
+baby                     1         
+solarium                 1         
+work                     1         
+sit                      1         
+cycle                    7         

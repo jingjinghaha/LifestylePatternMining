@@ -1,0 +1,6 @@
+sausage                  1         
+coffee                   1         
+cookie                   1         
+pasta                    2         
+egg                      1         
+pizza                    1         

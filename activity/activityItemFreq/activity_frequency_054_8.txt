@@ -1,0 +1,12 @@
+shop                     1         
+movie                    1         
+study                    1         
+watch                    1         
+walk                     1         
+shower                   1         
+phone                    1         
+cookie                   1         
+cook                     1         
+sleep                    1         
+talk                     1         
+cycle                    3         

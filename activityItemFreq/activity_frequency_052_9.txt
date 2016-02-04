@@ -1,7 +1,0 @@
-'cycle'                  7         
-'shower'                 1         
-'sensorr'                1         
-'sleep'                  1         
-'study'                  1         
-'meet'                   1         
-'charge'                 1         

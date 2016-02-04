@@ -1,0 +1,10 @@
+cheese                   1         
+coffee                   1         
+sandwich                 3         
+meat                     1         
+yoghurt                  1         
+cookie                   1         
+macaroni                 1         
+rice                     1         
+milk                     1         
+choco                    1         

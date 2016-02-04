@@ -1,2 +1,0 @@
-'cycle'                  1         
-'university'             1         

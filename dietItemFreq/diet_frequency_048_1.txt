@@ -1,3 +1,0 @@
-'apricots'               1         
-'tuna'                   1         
-'apple'                  1         

@@ -1,5 +1,0 @@
-'vegetable'              1         
-'chicken'                2         
-'raisin'                 1         
-'bread'                  1         
-'apple'                  1         

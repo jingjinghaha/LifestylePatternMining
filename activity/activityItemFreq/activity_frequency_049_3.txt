@@ -1,0 +1,7 @@
+intake                   1         
+diner                    1         
+food                     1         
+work                     2         
+walk                     3         
+sleep                    1         
+cook                     1         

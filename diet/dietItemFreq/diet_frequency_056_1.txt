@@ -1,0 +1,6 @@
+sandwich                 1         
+salad                    1         
+nut                      1         
+waffle                   1         
+pasta                    1         
+chocolate                1         

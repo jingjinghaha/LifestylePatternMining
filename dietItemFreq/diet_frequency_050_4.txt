@@ -1,9 +1,0 @@
-'fruit'                  1         
-'pie'                    1         
-'muesli'                 2         
-'cookie'                 1         
-'pizza'                  1         
-'yoghurt'                2         
-'sandwich'               1         
-'tea'                    3         
-'apple'                  1         

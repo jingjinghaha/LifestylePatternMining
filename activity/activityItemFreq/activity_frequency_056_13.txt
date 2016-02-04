@@ -1,0 +1,9 @@
+diner                    1         
+car                      6         
+drive                    6         
+walk                     2         
+lunch                    1         
+charge                   2         
+birthday                 1         
+sleep                    2         
+party                    1         

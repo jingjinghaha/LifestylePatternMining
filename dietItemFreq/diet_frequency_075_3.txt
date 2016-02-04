@@ -1,6 +1,0 @@
-'fish'                   1         
-'chocolate'              1         
-'bean'                   1         
-'sandwich'               1         
-'potato'                 1         
-'coffee'                 1         

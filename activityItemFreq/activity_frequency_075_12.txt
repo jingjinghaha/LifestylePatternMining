@@ -1,6 +1,0 @@
-'cycle'                  2         
-'shower'                 1         
-'workout'                1         
-'charge'                 1         
-'study'                  2         
-'clean'                  1         

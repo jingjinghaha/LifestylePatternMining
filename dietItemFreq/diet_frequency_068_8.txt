@@ -1,3 +1,0 @@
-'yoghurt'                2         
-'nut'                    1         
-'muesli'                 1         

@@ -1,7 +1,0 @@
-'walk'                   3         
-'sleep'                  1         
-'bus'                    2         
-'exam'                   1         
-'city'                   2         
-'computer'               1         
-'charge'                 1         

@@ -1,8 +1,0 @@
-'shower'                 1         
-'travel'                 2         
-'sleep'                  1         
-'ov'                     2         
-'watch'                  1         
-'shop'                   1         
-'tv'                     1         
-'charge'                 1         

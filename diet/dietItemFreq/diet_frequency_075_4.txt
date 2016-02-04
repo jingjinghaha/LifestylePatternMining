@@ -1,0 +1,5 @@
+orange                   1         
+tomato                   1         
+sandwich                 2         
+apple                    1         
+banana                   1         

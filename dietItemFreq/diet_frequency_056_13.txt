@@ -1,2 +1,0 @@
-'cookie'                 1         
-'cheese'                 1         

@@ -1,9 +1,0 @@
-'skillslab'              1         
-'travel'                 1         
-'sleep'                  1         
-'ov'                     1         
-'movie'                  1         
-'charge'                 1         
-'watch'                  1         
-'study'                  2         
-'home'                   1         

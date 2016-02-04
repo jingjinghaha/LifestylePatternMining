@@ -1,6 +1,0 @@
-'pie'                    1         
-'muesli'                 2         
-'yoghurt'                2         
-'sandwich'               2         
-'salad'                  1         
-'coffee'                 1         

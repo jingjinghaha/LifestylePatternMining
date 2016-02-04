@@ -1,0 +1,5 @@
+cake                     1         
+chicken                  1         
+chocolate                1         
+broccoli                 1         
+potato                   1         

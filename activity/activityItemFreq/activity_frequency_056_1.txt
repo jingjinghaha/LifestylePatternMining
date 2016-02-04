@@ -1,0 +1,6 @@
+shop                     2         
+tv                       1         
+car                      1         
+watch                    1         
+sleep                    1         
+cook                     1         

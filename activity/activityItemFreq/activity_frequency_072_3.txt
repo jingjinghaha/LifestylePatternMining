@@ -1,0 +1,15 @@
+shop                     1         
+school                   1         
+read                     1         
+car                      2         
+household                2         
+watch                    1         
+drive                    2         
+shower                   1         
+tv                       1         
+charge                   1         
+computer                 1         
+sleep                    1         
+activity                 2         
+cook                     1         
+cycle                    5         

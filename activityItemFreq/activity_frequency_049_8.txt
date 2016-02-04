@@ -1,6 +1,0 @@
-'traineeship'            1         
-'shower'                 1         
-'work'                   1         
-'sleep'                  1         
-'cook'                   1         
-'shop'                   1         

@@ -1,0 +1,7 @@
+mountain                 1         
+car                      2         
+work                     1         
+charge                   1         
+bike                     1         
+sleep                    2         
+cycle                    4         

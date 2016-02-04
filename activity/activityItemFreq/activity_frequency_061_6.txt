@@ -1,0 +1,10 @@
+play                     1         
+computer                 1         
+traineeship              1         
+car                      4         
+drive                    4         
+walk                     1         
+shower                   1         
+train                    2         
+sleep                    1         
+soccer                   1         

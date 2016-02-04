@@ -1,0 +1,12 @@
+shop                     1         
+chatten                  1         
+school                   1         
+diner                    1         
+bus                      1         
+shower                   1         
+phone                    1         
+charge                   2         
+experiment               1         
+sleep                    1         
+cook                     1         
+homework                 1         

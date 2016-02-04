@@ -1,0 +1,5 @@
+rice                     1         
+chicken                  1         
+sandwich                 2         
+egg                      1         
+custard                  1         

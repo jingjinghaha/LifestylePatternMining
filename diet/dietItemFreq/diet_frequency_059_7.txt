@@ -1,0 +1,5 @@
+pasta                    2         
+sandwich                 1         
+cereals                  1         
+milk                     1         
+bread                    1         

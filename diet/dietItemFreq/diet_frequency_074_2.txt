@@ -1,0 +1,13 @@
+butter                   1         
+sandwich                 3         
+apple                    1         
+salad                    1         
+tea                      2         
+nut                      2         
+oatmeal                  1         
+chocolate                1         
+carrot                   1         
+muesli                   1         
+orange                   1         
+quiche                   1         
+yoghurt                  2         

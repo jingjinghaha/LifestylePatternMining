@@ -1,0 +1,8 @@
+sandwich                 1         
+soup                     2         
+fruit                    1         
+cake                     1         
+muesli                   1         
+tuna                     1         
+yoghurt                  1         
+pizza                    1         

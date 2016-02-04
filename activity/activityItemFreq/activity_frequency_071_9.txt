@@ -1,0 +1,13 @@
+shop                     1         
+horse                    1         
+garbage                  1         
+car                      2         
+study                    4         
+drive                    2         
+bag                      1         
+sleep                    1         
+clean                    1         
+cook                     1         
+rid                      1         
+away                     1         
+cycle                    1         

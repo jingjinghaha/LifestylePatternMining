@@ -1,0 +1,16 @@
+tomato                   1         
+baguette                 1         
+cookies                  1         
+mango                    1         
+beef                     1         
+doner                    1         
+lemonade                 1         
+durum                    1         
+fruit                    1         
+chocolate                2         
+beer                     1         
+carrot                   1         
+drinkbf                  1         
+egg                      1         
+cheese                   1         
+bread                    1         

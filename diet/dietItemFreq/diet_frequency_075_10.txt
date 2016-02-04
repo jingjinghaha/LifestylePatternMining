@@ -1,0 +1,6 @@
+sandwich                 1         
+alcohol                  2         
+drink                    2         
+pasta                    1         
+bread                    1         
+meat                     1         

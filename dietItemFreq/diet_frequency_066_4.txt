@@ -1,8 +1,0 @@
-'sum'                    1         
-'dim'                    1         
-'milk'                   1         
-'popcorn'                1         
-'beer'                   2         
-'sandwich'               2         
-'coffee'                 1         
-'juice'                  1         

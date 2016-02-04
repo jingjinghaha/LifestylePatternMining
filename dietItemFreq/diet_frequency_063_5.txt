@@ -1,5 +1,0 @@
-'sandwich'               1         
-'chicken'                1         
-'fries'                  1         
-'potato'                 1         
-'bread'                  1         

@@ -1,0 +1,6 @@
+sandwich                 1         
+diner                    1         
+beef                     1         
+nut                      1         
+banana                   1         
+apple                    1         

@@ -1,0 +1,11 @@
+play                     1         
+traineeship              1         
+tv                       2         
+car                      2         
+watch                    2         
+drive                    2         
+shower                   2         
+computer                 2         
+canteen                  1         
+soccer                   1         
+friends                  1         

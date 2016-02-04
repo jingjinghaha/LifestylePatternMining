@@ -1,7 +1,0 @@
-'walk'                   2         
-'chillen'                1         
-'sleep'                  1         
-'bus'                    2         
-'university'             1         
-'shower'                 1         
-'dog'                    2         

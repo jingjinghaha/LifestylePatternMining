@@ -1,0 +1,10 @@
+bike                     1         
+bus                      1         
+study                    2         
+drive                    1         
+walk                     1         
+train                    2         
+sleep                    1         
+lesson                   1         
+fix                      1         
+cycle                    2         

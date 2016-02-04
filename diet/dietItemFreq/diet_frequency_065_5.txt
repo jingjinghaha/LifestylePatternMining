@@ -1,0 +1,6 @@
+coffee                   1         
+sandwich                 2         
+apple                    1         
+sugar                    1         
+beer                     1         
+syrup                    1         

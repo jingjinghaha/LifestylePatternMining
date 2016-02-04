@@ -1,0 +1,4 @@
+car                      1         
+diner                    1         
+drive                    1         
+walk                     1         

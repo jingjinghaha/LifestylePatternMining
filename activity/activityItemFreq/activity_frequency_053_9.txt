@@ -1,0 +1,7 @@
+run                      1         
+study                    1         
+shower                   1         
+charge                   1         
+sleep                    1         
+ov                       1         
+travel                   1         

@@ -1,0 +1,13 @@
+parent                   1         
+home                     1         
+car                      3         
+hotel                    1         
+drive                    3         
+mountainbike             1         
+sauna                    1         
+shower                   1         
+place                    1         
+fitness                  1         
+sleep                    2         
+papendael                1         
+cycle                    1         

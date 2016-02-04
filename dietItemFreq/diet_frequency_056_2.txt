@@ -1,9 +1,0 @@
-'kiwi'                   1         
-'meat'                   1         
-'hamburger'              1         
-'doner'                  1         
-'yoghurt'                1         
-'beef'                   1         
-'banana'                 1         
-'granola'                1         
-'apple'                  1         

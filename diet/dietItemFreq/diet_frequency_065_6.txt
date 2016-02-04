@@ -1,0 +1,3 @@
+vegetable                1         
+meat                     1         
+taco                     1         

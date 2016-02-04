@@ -1,0 +1,15 @@
+workout                  1         
+diner                    1         
+study                    1         
+gym                      1         
+drive                    1         
+shower                   1         
+phone                    1         
+roommate                 1         
+sleep                    1         
+clean                    1         
+night                    1         
+lesson                   1         
+breakfast                1         
+talk                     1         
+cycle                    6         

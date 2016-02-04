@@ -1,0 +1,5 @@
+fish                     1         
+potato                   1         
+banana                   1         
+salad                    1         
+apple                    1         

@@ -1,0 +1,10 @@
+pilates                  1         
+diner                    1         
+study                    2         
+tennis                   1         
+bed                      1         
+lunch                    1         
+charge                   1         
+bike                     1         
+cook                     2         
+cycle                    3         

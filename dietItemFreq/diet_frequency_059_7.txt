@@ -1,5 +1,0 @@
-'pasta'                  2         
-'sandwich'               1         
-'milk'                   1         
-'cereals'                1         
-'bread'                  1         

@@ -1,0 +1,5 @@
+lunch                    1         
+coffee                   1         
+beer                     1         
+beef                     1         
+pizza                    1         

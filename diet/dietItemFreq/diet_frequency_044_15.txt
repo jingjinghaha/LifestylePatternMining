@@ -1,0 +1,10 @@
+cheese                   1         
+coffee                   1         
+milk                     1         
+sugar                    2         
+pudding                  1         
+pasta                    1         
+muesli                   1         
+chicken                  1         
+banana                   1         
+bread                    1         

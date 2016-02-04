@@ -1,0 +1,6 @@
+study                    3         
+walk                     1         
+bike                     2         
+sleep                    2         
+clean                    1         
+home                     1         

@@ -1,4 +1,0 @@
-'work'                   1         
-'breakfast'              1         
-'diner'                  1         
-'lunch'                  1         

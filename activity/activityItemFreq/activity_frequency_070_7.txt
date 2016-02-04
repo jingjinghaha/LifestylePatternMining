@@ -1,0 +1,9 @@
+shop                     1         
+car                      1         
+work                     1         
+drive                    1         
+walk                     2         
+sleep                    1         
+cook                     1         
+lecture                  1         
+cycle                    2         

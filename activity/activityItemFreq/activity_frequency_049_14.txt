@@ -1,0 +1,9 @@
+shop                     1         
+diner                    1         
+bus                      2         
+study                    2         
+walk                     3         
+shower                   1         
+train                    2         
+sleep                    1         
+cook                     1         

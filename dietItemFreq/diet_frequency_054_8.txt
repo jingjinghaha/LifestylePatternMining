@@ -1,7 +1,0 @@
-'egg'                    1         
-'spinach'                1         
-'eggplant'               1         
-'muesli'                 1         
-'pasta'                  1         
-'beer'                   1         
-'carrot'                 1         

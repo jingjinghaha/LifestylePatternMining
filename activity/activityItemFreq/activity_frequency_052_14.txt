@@ -1,0 +1,3 @@
+shower                   1         
+train                    1         
+sleep                    1         

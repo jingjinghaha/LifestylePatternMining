@@ -1,4 +1,0 @@
-'pasta'                  2         
-'salami'                 1         
-'egg'                    1         
-'snack'                  1         

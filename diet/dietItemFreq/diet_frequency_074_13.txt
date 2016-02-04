@@ -1,0 +1,13 @@
+lentils                  1         
+sandwich                 1         
+tangerines               1         
+nut                      1         
+oatmeal                  3         
+chocolate                2         
+rice                     1         
+bean                     1         
+cookie                   1         
+grapes                   1         
+orange                   2         
+yoghurt                  1         
+curry                    1         

@@ -1,0 +1,6 @@
+sandwich                 1         
+alcohol                  1         
+drink                    1         
+fries                    1         
+bread                    1         
+meat                     1         

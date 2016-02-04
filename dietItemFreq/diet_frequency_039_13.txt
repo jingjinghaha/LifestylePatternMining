@@ -1,9 +1,0 @@
-'chicken'                2         
-'salami'                 1         
-'cheese'                 1         
-'kellogs'                1         
-'pasta'                  3         
-'sandwich'               1         
-'yoghurt'                1         
-'banana'                 1         
-'berry'                  1         

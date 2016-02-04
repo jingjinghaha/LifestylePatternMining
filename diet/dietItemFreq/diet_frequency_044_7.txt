@@ -1,0 +1,12 @@
+butter                   1         
+cheese                   3         
+meat                     1         
+salad                    1         
+natriumnitrate           1         
+drink                    1         
+pear                     1         
+ravioli                  1         
+juice                    1         
+jam                      1         
+milk                     1         
+bread                    2         

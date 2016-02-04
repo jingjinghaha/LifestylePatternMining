@@ -1,0 +1,8 @@
+intake                   1         
+cinema                   1         
+food                     1         
+work                     1         
+drive                    2         
+walk                     2         
+shower                   1         
+sleep                    1         

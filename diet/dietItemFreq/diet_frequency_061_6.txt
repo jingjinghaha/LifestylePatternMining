@@ -1,0 +1,9 @@
+sandwich                 3         
+apple                    2         
+potato                   1         
+chip                     1         
+vegetable                1         
+beer                     1         
+cookie                   1         
+orange                   1         
+chicken                  1         

@@ -1,4 +1,0 @@
-'shop'                   1         
-'cycle'                  3         
-'study'                  1         
-'walk'                   1         

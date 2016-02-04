@@ -1,0 +1,7 @@
+meat                     1         
+potato                   1         
+fries                    1         
+chocolate                1         
+carrot                   1         
+sate                     1         
+apple                    1         

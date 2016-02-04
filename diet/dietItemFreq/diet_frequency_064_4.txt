@@ -1,0 +1,10 @@
+meat                     1         
+mc                       1         
+fish                     1         
+fries                    1         
+candy                    1         
+chocolate                1         
+flurry                   1         
+shots                    1         
+pasta                    1         
+chip                     1         

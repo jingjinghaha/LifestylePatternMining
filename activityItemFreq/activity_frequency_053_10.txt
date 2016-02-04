@@ -1,8 +1,0 @@
-'party'                  1         
-'sleep'                  2         
-'visit'                  1         
-'work'                   1         
-'car'                    2         
-'friends'                1         
-'drive'                  2         
-'study'                  2         

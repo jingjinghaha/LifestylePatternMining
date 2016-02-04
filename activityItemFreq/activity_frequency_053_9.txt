@@ -1,7 +1,0 @@
-'shower'                 1         
-'travel'                 1         
-'sleep'                  1         
-'ov'                     1         
-'run'                    1         
-'charge'                 1         
-'study'                  1         

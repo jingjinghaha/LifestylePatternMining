@@ -1,4 +1,0 @@
-'cookie'                 1         
-'orange'                 1         
-'egg'                    1         
-'spinach'                1         

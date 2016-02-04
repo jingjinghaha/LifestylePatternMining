@@ -1,0 +1,4 @@
+home                     1         
+work                     3         
+sleep                    1         
+clean                    1         

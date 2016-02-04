@@ -1,6 +1,0 @@
-'salmon'                 1         
-'cake'                   1         
-'pasta'                  1         
-'doner'                  1         
-'salad'                  1         
-'tea'                    1         

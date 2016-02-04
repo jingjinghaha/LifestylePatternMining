@@ -1,0 +1,6 @@
+shop                     1         
+city                     1         
+diner                    1         
+visit                    1         
+lunch                    1         
+train                    1         

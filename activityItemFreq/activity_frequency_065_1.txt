@@ -1,9 +1,0 @@
-'cycle'                  1         
-'shower'                 1         
-'hit'                    1         
-'workout'                1         
-'sleep'                  1         
-'clean'                  1         
-'diner'                  1         
-'cook'                   1         
-'study'                  2         

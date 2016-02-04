@@ -1,0 +1,5 @@
+ov                       1         
+travel                   1         
+sleep                    1         
+study                    1         
+cycle                    1         

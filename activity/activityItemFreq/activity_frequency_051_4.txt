@@ -1,0 +1,7 @@
+car                      2         
+study                    2         
+drive                    2         
+shower                   1         
+train                    1         
+sleep                    1         
+cycle                    1         

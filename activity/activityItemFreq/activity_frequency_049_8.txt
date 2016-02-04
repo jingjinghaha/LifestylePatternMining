@@ -1,0 +1,6 @@
+shop                     1         
+traineeship              1         
+work                     1         
+shower                   1         
+sleep                    1         
+cook                     1         

@@ -12,20 +12,19 @@ def plot_overall_diet(f):
 	sizes = []
 	labels = []
 	temp = 0
-	for line in open('dietOverallItemFreq/all_diet_frequency.txt','r'):
+	for line in open('diet/dietOverallItemFreq/all_diet_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
-		# print words
-		#print words[1], type(words[3])
-		#words[1]: iterm
-		#words[3]: iterm frequency
-		if int(words[3]) > f:
-			sizes.append(int(words[3]))
+		#print words[0], type(words[1])
+		#words[0]: Item
+		#words[1]: Item frequency
+		if int(words[1]) > f:
+			sizes.append(int(words[1]))
 			#print sizes
-			labels.append(words[1])
+			labels.append(words[0])
 			#print labels
 		else:
-			temp += int(words[3])
+			temp += int(words[1])
 	# sizes.append(temp)
 	# labels.append('others')
 	labels = tuple(labels)
@@ -37,26 +36,26 @@ def plot_overall_diet(f):
 	ax.set_xticklabels(['overall_diet_minF_'+str(f)])
 	ax.set_yticklabels([" "])
 	ax.set_aspect('equal')
-	plt.savefig('VisOverallDietItemPie/overall_diet_minF_'+str(f))
+	plt.savefig('visOverallPattPie/visOverallDietItemPie/overall_diet_minF_'+str(f))
 	return sizes, labels
 
 def plot_overall_activity(f):
 	sizes = []
 	labels = []
 	temp = 0
-	for line in open('activityOverallItemFreq/all_activity_frequency.txt','r'):
+	for line in open('activity/activityOverallItemFreq/all_activity_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
-		#print words[1], type(words[3])
-		#words[1]: iterm
-		#words[3]: iterm frequency
-		if int(words[3]) > f:
-			sizes.append(int(words[3]))
+		#print words[0], type(words[1])
+		#words[0]: Item
+		#words[1]: Item frequency
+		if int(words[1]) > f:
+			sizes.append(int(words[1]))
 			#print sizes
-			labels.append(words[1])
+			labels.append(words[0])
 			#print labels
 		else:
-			temp += int(words[3])
+			temp += int(words[1])
 	# sizes.append(temp)
 	# labels.append('others')
 	labels = tuple(labels)
@@ -68,7 +67,7 @@ def plot_overall_activity(f):
 	ax.set_xticklabels(['overall_activity_minF_'+str(f)])
 	ax.set_yticklabels([" "])
 	ax.set_aspect('equal')
-	plt.savefig('VisOverallActivityItemPie/overall_activity_minF_'+str(f))
+	plt.savefig('visOverallPattPie/visOverallActivityItemPie/overall_activity_minF_'+str(f))
 	return sizes, labels
 
 def plotOverallDietActItemFreq(f):

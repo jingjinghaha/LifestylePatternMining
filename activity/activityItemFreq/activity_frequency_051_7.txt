@@ -1,0 +1,9 @@
+shop                     1         
+computer                 1         
+tv                       1         
+study                    2         
+watch                    1         
+walk                     2         
+train                    2         
+sleep                    1         
+cycle                    3         

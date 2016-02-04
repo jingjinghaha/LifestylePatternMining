@@ -1,0 +1,15 @@
+play                     1         
+parent                   1         
+injure                   1         
+car                      3         
+drive                    3         
+walk                     1         
+shower                   2         
+game                     1         
+charge                   1         
+train                    1         
+place                    1         
+hockey                   1         
+home                     1         
+sleep                    1         
+cycle                    3         

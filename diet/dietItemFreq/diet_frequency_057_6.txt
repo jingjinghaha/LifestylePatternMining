@@ -1,0 +1,11 @@
+cheese                   1         
+coffee                   2         
+sandwich                 1         
+meat                     1         
+potato                   1         
+chocolate                1         
+vegetable                1         
+croissants               1         
+cake                     1         
+muesli                   1         
+milk                     1         

@@ -1,6 +1,0 @@
-'cycle'                  1         
-'workout'                1         
-'insanity'               1         
-'city'                   1         
-'supermarket'            1         
-'lunch'                  1         

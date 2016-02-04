@@ -1,0 +1,7 @@
+apple                    1         
+oatmeal                  1         
+carrot                   1         
+cookie                   1         
+orange                   1         
+rice                     1         
+banana                   1         

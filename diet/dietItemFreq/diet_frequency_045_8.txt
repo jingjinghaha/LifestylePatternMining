@@ -1,0 +1,5 @@
+soup                     1         
+beer                     1         
+yoghurt                  1         
+sandwich                 1         
+taco                     1         

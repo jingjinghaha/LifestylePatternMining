@@ -1,7 +1,0 @@
-'soup'                   1         
-'sugar'                  1         
-'date'                   1         
-'cheese'                 3         
-'zucchini'               1         
-'sandwich'               3         
-'goat'                   1         

@@ -1,6 +1,0 @@
-'rice'                   1         
-'cookie'                 1         
-'meat'                   1         
-'bread'                  1         
-'sandwich'               1         
-'sauerkraut'             1         

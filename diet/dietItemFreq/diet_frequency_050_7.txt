@@ -1,0 +1,8 @@
+meat                     1         
+doner                    2         
+tea                      2         
+salmon                   2         
+waffle                   2         
+water                    1         
+cookie                   1         
+chocolate                1         

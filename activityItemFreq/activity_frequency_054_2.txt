@@ -1,7 +1,0 @@
-'cycle'                  5         
-'shower'                 1         
-'run'                    1         
-'craftwork'              1         
-'university'             1         
-'church'                 1         
-'study'                  1         

@@ -1,0 +1,9 @@
+cheese                   1         
+coffee                   1         
+sandwich                 1         
+potato                   1         
+salmon                   1         
+sausage                  1         
+cookie                   1         
+egg                      1         
+banana                   1         

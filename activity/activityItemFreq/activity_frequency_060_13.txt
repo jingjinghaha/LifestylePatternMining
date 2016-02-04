@@ -1,0 +1,10 @@
+shop                     2         
+coffee                   1         
+diner                    1         
+speedboat                1         
+walk                     5         
+charge                   1         
+train                    1         
+gala                     1         
+party                    1         
+dress                    1         

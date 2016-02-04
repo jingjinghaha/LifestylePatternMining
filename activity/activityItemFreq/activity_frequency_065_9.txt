@@ -1,0 +1,14 @@
+shop                     1         
+cinema                   1         
+study                    2         
+drive                    1         
+walk                     1         
+shower                   1         
+bike                     1         
+friend                   1         
+clean                    1         
+home                     1         
+lesson                   1         
+breakfast                1         
+talk                     1         
+cycle                    2         

@@ -1,0 +1,9 @@
+sandwich                 1         
+apple                    1         
+tea                      3         
+pie                      1         
+fruit                    1         
+cookie                   1         
+muesli                   2         
+yoghurt                  2         
+pizza                    1         

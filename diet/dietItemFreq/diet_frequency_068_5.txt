@@ -1,0 +1,4 @@
+chocolate                1         
+sandwich                 2         
+apple                    1         
+bread                    1         

@@ -1,5 +1,0 @@
-'sleep'                  1         
-'walk'                   2         
-'university'             1         
-'shop'                   1         
-'shower'                 1         

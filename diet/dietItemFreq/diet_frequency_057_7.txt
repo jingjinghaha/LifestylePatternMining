@@ -1,0 +1,8 @@
+cheese                   1         
+coffee                   2         
+sandwich                 2         
+meat                     1         
+fries                    1         
+cookie                   1         
+chicken                  1         
+milk                     1         

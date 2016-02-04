@@ -1,0 +1,7 @@
+sandwich                 1         
+meat                     1         
+potato                   1         
+tea                      1         
+paprika                  1         
+sugar                    1         
+choco                    1         

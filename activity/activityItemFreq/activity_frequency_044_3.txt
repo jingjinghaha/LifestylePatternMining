@@ -1,0 +1,11 @@
+swim                     2         
+car                      2         
+work                     1         
+walk                     2         
+sleep                    1         
+terrace                  1         
+movie                    1         
+home                     1         
+dress                    1         
+pool                     1         
+pack                     1         

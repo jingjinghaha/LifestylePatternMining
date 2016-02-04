@@ -1,0 +1,9 @@
+shop                     1         
+diner                    1         
+tv                       1         
+watch                    1         
+lunch                    1         
+charge                   1         
+clean                    1         
+cook                     1         
+pack                     1         

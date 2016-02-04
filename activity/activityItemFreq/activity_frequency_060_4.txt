@@ -1,0 +1,5 @@
+lecture                  1         
+charge                   1         
+friends                  1         
+sleep                    1         
+cycle                    1         

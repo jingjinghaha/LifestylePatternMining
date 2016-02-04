@@ -1,0 +1,17 @@
+shop                     1         
+laserquesten             1         
+tv                       1         
+car                      1         
+study                    1         
+watch                    1         
+drive                    2         
+walk                     1         
+shower                   1         
+phone                    1         
+train                    2         
+sleep                    1         
+bus                      1         
+home                     1         
+lesson                   1         
+wait                     1         
+cycle                    1         

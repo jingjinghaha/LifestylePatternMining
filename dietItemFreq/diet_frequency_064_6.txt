@@ -1,3 +1,0 @@
-'egg'                    1         
-'pizza'                  1         
-'bread'                  1         

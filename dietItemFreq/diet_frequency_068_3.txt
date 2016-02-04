@@ -1,2 +1,0 @@
-'sandwich'               1         
-'hamburger'              1         

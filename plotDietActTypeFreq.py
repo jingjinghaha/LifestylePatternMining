@@ -15,7 +15,7 @@ def plot_single_diet(subjectID):
 	sizes = []
 	labels = []
 	temp = 0
-	for line in open('dietTypeFreq/dietType_frequency_'+subjectID+'.txt','r'):
+	for line in open('diet/dietTypeFreq/dietType_frequency_'+subjectID+'.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
 		#print words
@@ -35,7 +35,7 @@ def plot_single_diet(subjectID):
 	ax.set_xticklabels(['dietType_subject'+subjectID])
 	ax.set_yticklabels([" "])
 	ax.set_aspect('equal')
-	plt.savefig('VisDietTypePattPie/dietType_subject'+subjectID)
+	plt.savefig('visSigSubPattPie/visDietTypePattPie/dietType_subject'+subjectID)
 	return sizes, labels
 
 #plot activity type pie chart for single user
@@ -43,7 +43,7 @@ def plot_single_activity(subjectID):
 	sizes = []
 	labels = []
 	temp = 0
-	for line in open('activityTypeFreq/activityType_frequency_'+subjectID+'.txt','r'):
+	for line in open('activity/activityTypeFreq/activityType_frequency_'+subjectID+'.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
 		#print words
@@ -63,7 +63,7 @@ def plot_single_activity(subjectID):
 	ax.set_xticklabels(['activityType_subject'+subjectID])
 	ax.set_yticklabels([" "])
 	ax.set_aspect('equal')
-	plt.savefig('VisActivityTypePattPie/activityType_subject'+subjectID)
+	plt.savefig('visSigSubPattPie/visActivityTypePattPie/activityType_subject'+subjectID)
 	return sizes, labels
 
 def plotDietActTypeFreq():

@@ -1,0 +1,11 @@
+run                      1         
+parent                   1         
+university               1         
+drive                    1         
+walk                     1         
+shower                   1         
+train                    1         
+sleep                    1         
+place                    1         
+lesson                   1         
+cycle                    3         

@@ -1,0 +1,15 @@
+shop                     1         
+buy                      1         
+interclassis             1         
+parent                   1         
+car                      2         
+visit                    1         
+charge                   1         
+walk                     1         
+shower                   1         
+maastricht               1         
+due                      1         
+cook                     1         
+new                      1         
+irritations              1         
+dress                    1         

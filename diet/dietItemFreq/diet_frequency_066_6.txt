@@ -1,0 +1,9 @@
+coffee                   1         
+sandwich                 1         
+rice                     1         
+beer                     1         
+cookie                   2         
+muesli                   1         
+chicken                  1         
+yoghurt                  1         
+milk                     1         

@@ -1,0 +1,5 @@
+vegetable                1         
+cake                     1         
+fish                     1         
+sandwich                 1         
+five                     1         

@@ -1,0 +1,8 @@
+run                      1         
+relax                    1         
+work                     1         
+sleep                    1         
+clean                    1         
+breakfast                1         
+minutes                  1         
+cycle                    1         

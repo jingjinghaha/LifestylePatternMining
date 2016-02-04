@@ -1,7 +1,0 @@
-'walk'                   1         
-'travel'                 1         
-'bus'                    1         
-'car'                    2         
-'train'                  1         
-'dish'                   1         
-'clean'                  1         

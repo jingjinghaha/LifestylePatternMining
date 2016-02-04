@@ -1,6 +1,0 @@
-'cycle'                  2         
-'sleep'                  1         
-'sport'                  1         
-'dress'                  1         
-'shop'                   1         
-'study'                  1         

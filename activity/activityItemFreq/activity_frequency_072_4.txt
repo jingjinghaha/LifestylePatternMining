@@ -1,0 +1,17 @@
+shop                     1         
+school                   1         
+help                     1         
+tv                       2         
+household                3         
+watch                    2         
+charge                   1         
+walk                     1         
+shower                   1         
+phone                    1         
+outside                  1         
+computer                 1         
+read                     1         
+activity                 3         
+sleep                    1         
+wait                     1         
+cycle                    5         

@@ -1,0 +1,7 @@
+car                      2         
+drive                    2         
+bed                      1         
+walk                     1         
+shower                   1         
+charge                   1         
+zoo                      2         

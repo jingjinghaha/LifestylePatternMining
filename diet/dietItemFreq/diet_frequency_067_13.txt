@@ -1,0 +1,7 @@
+sandwich                 2         
+salad                    1         
+doner                    1         
+vegetable                1         
+muesli                   1         
+chicken                  1         
+yoghurt                  2         

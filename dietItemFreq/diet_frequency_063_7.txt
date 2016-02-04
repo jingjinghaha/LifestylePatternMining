@@ -1,7 +1,0 @@
-'chicken'                1         
-'chocolate'              1         
-'pie'                    1         
-'pasta'                  1         
-'raisin'                 1         
-'salad'                  1         
-'potato'                 1         

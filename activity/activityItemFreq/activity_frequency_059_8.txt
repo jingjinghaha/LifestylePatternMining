@@ -1,0 +1,8 @@
+shop                     1         
+car                      4         
+drive                    4         
+maximum                  1         
+shower                   1         
+sleep                    1         
+home                     1         
+cpet                     1         

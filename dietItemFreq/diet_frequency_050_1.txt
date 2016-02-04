@@ -1,6 +1,0 @@
-'cake'                   2         
-'cheese'                 1         
-'bread'                  1         
-'kale'                   1         
-'sandwich'               1         
-'beef'                   1         

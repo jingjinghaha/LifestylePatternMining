@@ -1,7 +1,0 @@
-'cycle'                  4         
-'sleep'                  2         
-'work'                   1         
-'car'                    2         
-'bike'                   1         
-'charge'                 1         
-'mountain'               1         

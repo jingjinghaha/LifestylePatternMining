@@ -1,9 +1,0 @@
-meat                     6         
-fish                     1         
-otherAnimalProducts      1         
-fruit                    8         
-dairy                    2         
-others                   6         
-confections              12        
-grain                    15        
-vegetables               10        

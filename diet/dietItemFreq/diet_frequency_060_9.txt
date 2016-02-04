@@ -1,0 +1,6 @@
+butter                   1         
+cheese                   1         
+sandwich                 1         
+donut                    1         
+pasta                    1         
+wine                     1         

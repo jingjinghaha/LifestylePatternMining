@@ -1,0 +1,11 @@
+butter                   1         
+sausage                  1         
+sandwich                 2         
+alcohol                  1         
+nut                      1         
+drink                    1         
+roll                     1         
+muesli                   1         
+yoghurt                  1         
+banana                   1         
+pizza                    1         

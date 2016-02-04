@@ -1,0 +1,7 @@
+study                    1         
+shower                   1         
+charge                   1         
+sleep                    1         
+meet                     1         
+sensorr                  1         
+cycle                    7         

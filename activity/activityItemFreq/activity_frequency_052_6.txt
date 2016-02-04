@@ -1,0 +1,9 @@
+salad                    1         
+relax                    1         
+fries                    1         
+shower                   1         
+iceCream                 1         
+charge                   1         
+sleep                    1         
+sate                     1         
+cycle                    4         

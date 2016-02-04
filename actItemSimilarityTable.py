@@ -27,7 +27,7 @@ def excelTable(domain,sim = 'TFIDFCosin'):
 	workbook.save('SimilarityTableExcel/actItemSimilarityTable_'+sim+'.xls')
 
 def actItemSimilarityTable(sim = 'TFIDFCosin'):
-	print 'in actItemSimilarityTable()'
+	# print 'in actItemSimilarityTable()'
 	excelTable('ActItem',sim)
 
 

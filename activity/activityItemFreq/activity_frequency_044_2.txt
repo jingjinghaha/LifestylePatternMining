@@ -1,0 +1,12 @@
+run                      1         
+stretch                  1         
+work                     2         
+rest                     1         
+walk                     2         
+shower                   2         
+cook                     1         
+sleep                    1         
+bed                      1         
+dish                     1         
+home                     1         
+dress                    1         

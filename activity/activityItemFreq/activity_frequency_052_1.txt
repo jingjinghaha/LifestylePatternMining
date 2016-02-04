@@ -1,0 +1,6 @@
+sit                      1         
+study                    1         
+up                       1         
+shower                   1         
+sleep                    1         
+cycle                    1         

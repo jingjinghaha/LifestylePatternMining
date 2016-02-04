@@ -1,4 +1,0 @@
-'chine'                  1         
-'pie'                    1         
-'orange'                 1         
-'apple'                  1         

@@ -1,0 +1,12 @@
+cheese                   1         
+sandwich                 4         
+apple                    1         
+nut                      1         
+candy                    1         
+chocolate                1         
+soup                     1         
+grapes                   1         
+rice                     1         
+vegetable                1         
+muesli                   1         
+yoghurt                  2         

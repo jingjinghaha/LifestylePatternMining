@@ -1,8 +1,0 @@
-'cycle'                  3         
-'shower'                 1         
-'sleep'                  1         
-'drive'                  7         
-'bed'                    1         
-'car'                    7         
-'meet'                   1         
-'charge'                 1         

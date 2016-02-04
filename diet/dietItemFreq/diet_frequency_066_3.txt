@@ -1,0 +1,11 @@
+coffee                   1         
+sandwich                 1         
+tea                      1         
+juice                    1         
+snack                    1         
+cookie                   2         
+cola                     1         
+muesli                   1         
+yoghurt                  1         
+milk                     1         
+bread                    1         

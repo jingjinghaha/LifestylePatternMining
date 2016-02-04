@@ -1,0 +1,6 @@
+shop                     1         
+car                      4         
+work                     3         
+drive                    4         
+walk                     2         
+shower                   1         

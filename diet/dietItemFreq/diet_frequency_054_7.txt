@@ -1,0 +1,6 @@
+sandwich                 1         
+candy                    1         
+sugar                    1         
+beer                     1         
+carrot                   1         
+cookie                   1         

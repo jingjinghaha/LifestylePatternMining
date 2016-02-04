@@ -1,0 +1,7 @@
+meat                     1         
+potato                   1         
+drop                     1         
+chocolate                1         
+vegetable                1         
+piece                    1         
+bread                    1         

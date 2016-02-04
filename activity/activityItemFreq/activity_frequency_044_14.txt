@@ -1,0 +1,7 @@
+sit                      1         
+read                     1         
+work                     1         
+walk                     2         
+shower                   1         
+sleep                    1         
+dress                    2         

@@ -1,0 +1,14 @@
+cheese                   1         
+coffee                   2         
+sandwich                 2         
+apple                    1         
+potato                   1         
+sugar                    1         
+chocolate                1         
+cookie                   1         
+vegetable                1         
+muesli                   1         
+chicken                  1         
+rice                     1         
+milk                     1         
+meat                     1         

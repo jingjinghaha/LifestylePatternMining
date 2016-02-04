@@ -1,0 +1,10 @@
+transportation1          20        
+transportation2          9         
+entertainment            20        
+work_study               12        
+social                   6         
+transportation3          25        
+rest                     17        
+diet                     13        
+others                   27        
+sport                    4         

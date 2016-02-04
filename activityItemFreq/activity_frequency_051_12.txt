@@ -1,8 +1,0 @@
-'cycle'                  2         
-'sleep'                  1         
-'car'                    3         
-'lesson'                 2         
-'drive'                  3         
-'watch'                  1         
-'tv'                     1         
-'study'                  2         

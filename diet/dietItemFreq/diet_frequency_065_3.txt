@@ -1,0 +1,9 @@
+coffee                   1         
+sandwich                 2         
+spinach                  1         
+fries                    1         
+chocolate                1         
+iceCream                 1         
+cookie                   1         
+pasta                    1         
+egg                      1         

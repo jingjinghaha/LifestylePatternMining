@@ -1,0 +1,16 @@
+play                     1         
+run                      1         
+diner                    1         
+car                      6         
+household                2         
+watch                    1         
+drive                    6         
+wii                      1         
+walk                     1         
+shower                   1         
+sleep                    1         
+clean                    1         
+activity                 2         
+cook                     2         
+movie                    1         
+babysitting              1         

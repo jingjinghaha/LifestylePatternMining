@@ -1,8 +1,0 @@
-'charge'                 1         
-'watch'                  2         
-'university'             1         
-'study'                  1         
-'shop'                   1         
-'bike'                   1         
-'tv'                     2         
-'clean'                  1         

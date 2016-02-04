@@ -1,0 +1,8 @@
+car                      7         
+drive                    7         
+bed                      1         
+shower                   1         
+charge                   1         
+sleep                    1         
+meet                     1         
+cycle                    3         

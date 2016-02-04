@@ -1,0 +1,12 @@
+prepare                  2         
+relax                    1         
+read                     1         
+work                     1         
+shower                   1         
+lunch                    1         
+bike                     3         
+sleep                    1         
+clean                    2         
+cook                     1         
+dress                    2         
+cycle                    1         

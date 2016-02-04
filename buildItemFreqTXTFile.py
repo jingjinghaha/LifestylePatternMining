@@ -21,15 +21,15 @@ def buildItemFreqTXTFile():
 		print buildItemIndex.build_single_diet_index(subjectID)
 		print buildItemIndex.build_single_activity_index(subjectID)
 	else:
-		f_diet = open('dietOverallItemFreq/all_diet_frequency.txt','w')
-		f_act = open('activityOverallItemFreq/all_activity_frequency.txt','w')
+		f_diet = open('diet/dietOverallItemFreq/all_diet_frequency.txt','w')
+		f_act = open('activity/activityOverallItemFreq/all_activity_frequency.txt','w')
 		for subjectID in available_list:
 			print subjectID
 			'''
 			wirte diet and activity index for each subject into txt files 
 			'''
-			f_diet_temp = open('dietItemFreq/diet_frequency_'+subjectID+'.txt','w')
-			f_act_temp = open('activityItemFreq/activity_frequency_'+subjectID+'.txt','w')
+			f_diet_temp = open('diet/dietItemFreq/diet_frequency_'+subjectID+'.txt','w')
+			f_act_temp = open('activity/activityItemFreq/activity_frequency_'+subjectID+'.txt','w')
 			index_diet = buildItemIndex.build_single_diet_index(subjectID)
 			index_act =  buildItemIndex.build_single_activity_index(subjectID)
 			for key in index_diet:
@@ -68,8 +68,8 @@ def buildDailyItemFreqTXTFile():
 		duration = infoRetrival.getDuration(subjectID)
 		for n in range(1,duration+1):
 			print subjectID, n 
-			f_act = open('activityItemFreq/activity_frequency_'+subjectID+'_'+str(n)+'.txt','w')
-			f_diet = open('dietItemFreq/diet_frequency_'+subjectID+'_'+str(n)+'.txt','w')
+			f_act = open('activity/activityItemFreq/activity_frequency_'+subjectID+'_'+str(n)+'.txt','w')
+			f_diet = open('diet/dietItemFreq/diet_frequency_'+subjectID+'_'+str(n)+'.txt','w')
 			index_act = buildItemIndex.build_daily_single_activity_index(subjectID,n)
 			index_diet = buildItemIndex.build_daily_single_diet_index(subjectID,n)
 			print index_act
@@ -84,4 +84,4 @@ def buildDailyItemFreqTXTFile():
 			f_diet.close()
 
 #buildItemFreqTXTFile()
-buildDailyItemFreqTXTFile() 
+#buildDailyItemFreqTXTFile() 

@@ -1,0 +1,7 @@
+diner                    1         
+car                      4         
+work                     1         
+drive                    4         
+walk                     1         
+shower                   1         
+sleep                    1         

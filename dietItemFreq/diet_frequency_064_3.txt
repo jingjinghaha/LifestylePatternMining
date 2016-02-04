@@ -1,5 +1,0 @@
-'sandwich'               1         
-'mushroom'               1         
-'meat'                   2         
-'egg'                    1         
-'apple'                  1         

@@ -1,5 +1,0 @@
-'rice'                   1         
-'meatballs'              1         
-'vegetable'              2         
-'wine'                   1         
-'mms'                    1         

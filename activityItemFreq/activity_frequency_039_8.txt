@@ -1,8 +1,0 @@
-'gym'                    1         
-'shower'                 1         
-'household'              1         
-'sleep'                  1         
-'university'             1         
-'study'                  1         
-'bike'                   1         
-'charge'                 1         

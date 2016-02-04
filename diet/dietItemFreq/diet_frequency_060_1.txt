@@ -1,0 +1,5 @@
+vegetable                1         
+coffee                   1         
+rice                     1         
+fruit                    1         
+chocolate                1         

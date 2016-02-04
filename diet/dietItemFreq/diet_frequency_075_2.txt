@@ -1,0 +1,9 @@
+apple                    1         
+potato                   1         
+bacon                    1         
+broccoli                 1         
+muesli                   1         
+chicken                  1         
+yoghurt                  1         
+egg                      1         
+banana                   1         

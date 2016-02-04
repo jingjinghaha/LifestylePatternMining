@@ -1,0 +1,7 @@
+shop                     1         
+travel                   2         
+shower                   1         
+charge                   1         
+sleep                    2         
+ov                       1         
+study                    1         

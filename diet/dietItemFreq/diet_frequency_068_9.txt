@@ -1,0 +1,8 @@
+sandwich                 2         
+meat                     1         
+potato                   1         
+soup                     1         
+cucumber                 1         
+vegetable                1         
+muesli                   1         
+yoghurt                  1         

@@ -1,6 +1,0 @@
-'noodles'                1         
-'ginger'                 2         
-'vegetable'              1         
-'bread'                  2         
-'sandwich'               1         
-'potato'                 1         

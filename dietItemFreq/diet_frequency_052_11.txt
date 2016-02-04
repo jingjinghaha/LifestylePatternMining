@@ -1,7 +1,0 @@
-'egg'                    1         
-'fries'                  1         
-'meat'                   1         
-'yoghurt'                1         
-'sandwich'               4         
-'apple'                  1         
-'banana'                 2         

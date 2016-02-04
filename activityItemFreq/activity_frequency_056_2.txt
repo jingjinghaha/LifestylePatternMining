@@ -1,8 +1,0 @@
-'shower'                 1         
-'household'              1         
-'work'                   2         
-'sleep'                  1         
-'activity'               1         
-'car'                    1         
-'drive'                  1         
-'charge'                 1         

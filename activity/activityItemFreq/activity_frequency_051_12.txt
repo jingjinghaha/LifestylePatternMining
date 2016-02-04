@@ -1,0 +1,8 @@
+tv                       1         
+car                      3         
+study                    2         
+watch                    1         
+drive                    3         
+sleep                    1         
+lesson                   2         
+cycle                    2         

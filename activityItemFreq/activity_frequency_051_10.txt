@@ -1,9 +1,0 @@
-'cycle'                  2         
-'room'                   1         
-'sleep'                  1         
-'bus'                    1         
-'work'                   1         
-'watch'                  1         
-'train'                  1         
-'tv'                     1         
-'clean'                  1         

@@ -1,0 +1,9 @@
+movie                    1         
+study                    2         
+watch                    1         
+skillslab                1         
+charge                   1         
+sleep                    1         
+home                     1         
+ov                       1         
+travel                   1         

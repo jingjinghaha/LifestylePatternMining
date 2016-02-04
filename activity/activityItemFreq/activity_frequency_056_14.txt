@@ -1,0 +1,15 @@
+shop                     1         
+stop                     1         
+set                      1         
+diner                    1         
+tv                       1         
+car                      4         
+tree                     1         
+drive                    4         
+elektrodes               1         
+watch                    1         
+game                     1         
+wear                     1         
+new                      1         
+soccer                   1         
+christmas                1         

@@ -1,6 +1,0 @@
-'snooze'                 1         
-'cycle'                  2         
-'shower'                 1         
-'work'                   1         
-'diner'                  1         
-'charge'                 1         

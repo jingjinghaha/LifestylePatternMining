@@ -1,0 +1,8 @@
+coconut                  2         
+aubergine                1         
+apple                    2         
+salad                    1         
+beer                     1         
+champagne                1         
+vegetable                2         
+noodles                  1         

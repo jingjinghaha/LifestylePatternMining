@@ -1,0 +1,8 @@
+horse                    1         
+car                      2         
+study                    1         
+drive                    2         
+shower                   1         
+sleep                    2         
+clean                    1         
+rid                      1         

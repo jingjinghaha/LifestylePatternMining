@@ -1,0 +1,6 @@
+swim                     1         
+shop                     1         
+work                     1         
+charge                   1         
+sleep                    1         
+cycle                    4         

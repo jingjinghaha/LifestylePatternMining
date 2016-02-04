@@ -1,0 +1,3 @@
+shop                     1         
+sleep                    1         
+relax                    1         

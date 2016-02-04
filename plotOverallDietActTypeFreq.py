@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 def plot_overall_diet():
 	sizes = []
 	labels = []
-	for line in open('dietOverallTypeFreq/all_dietType_frequency.txt','r'):
+	for line in open('diet/dietOverallTypeFreq/all_dietType_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
 		#print words
@@ -31,13 +31,13 @@ def plot_overall_diet():
 	ax.set_xticklabels(['overall_dietType'])
 	ax.set_yticklabels([" "])
 	ax.set_aspect('equal')
-	plt.savefig('VisOverallDietTypePie/overall_dietType')
+	plt.savefig('visOverallPattPie/visOverallDietTypePie/overall_dietType')
 	return sizes, labels
 
 def plot_overall_activity():
 	sizes = []
 	labels = []
-	for line in open('activityOverallTypeFreq/all_activityType_frequency.txt','r'):
+	for line in open('activity/activityOverallTypeFreq/all_activityType_frequency.txt','r'):
 		line = line.strip('\n')
 		words = wordpunct_tokenize(line)
 		#print words[0], type(words[1])
@@ -56,7 +56,7 @@ def plot_overall_activity():
 	ax.set_xticklabels(['overall_activityType'])
 	ax.set_yticklabels([" "])
 	ax.set_aspect('equal')
-	plt.savefig('VisOverallActivityTypePie/overall_activityType')
+	plt.savefig('visOverallPattPie/visOverallActivityTypePie/overall_activityType')
 	return sizes, labels
 
 def plotOverallDietActTypeFreq():

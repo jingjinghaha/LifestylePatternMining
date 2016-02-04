@@ -1,8 +1,0 @@
-'walk'                   1         
-'diner'                  1         
-'visit'                  1         
-'car'                    2         
-'drive'                  2         
-'grandmother'            1         
-'breakfast'              1         
-'snack'                  1         

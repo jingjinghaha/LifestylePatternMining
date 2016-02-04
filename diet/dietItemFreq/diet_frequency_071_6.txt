@@ -1,0 +1,7 @@
+apple                    1         
+salad                    1         
+potato                   1         
+parsnip                  1         
+pineapple                1         
+muesli                   1         
+egg                      1         

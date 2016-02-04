@@ -1,8 +1,0 @@
-'cycle'                  4         
-'walk'                   2         
-'away'                   1         
-'market'                 1         
-'christmas'              1         
-'train'                  2         
-'breakfast'              1         
-'study'                  1         

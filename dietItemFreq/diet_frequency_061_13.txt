@@ -1,6 +1,0 @@
-'fries'                  1         
-'meat'                   1         
-'beer'                   1         
-'doner'                  1         
-'sandwich'               1         
-'apple'                  1         

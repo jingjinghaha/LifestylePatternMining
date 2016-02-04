@@ -1,0 +1,8 @@
+relax                    1         
+car                      2         
+watch                    1         
+drive                    2         
+walk                     1         
+movie                    1         
+sauna                    1         
+pack                     1         

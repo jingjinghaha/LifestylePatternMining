@@ -1,0 +1,8 @@
+car                      2         
+study                    2         
+work                     1         
+visit                    1         
+drive                    2         
+sleep                    2         
+party                    1         
+friends                  1         

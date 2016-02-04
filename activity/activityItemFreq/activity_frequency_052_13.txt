@@ -1,0 +1,8 @@
+water                    1         
+car                      2         
+study                    1         
+drive                    2         
+deuterium                1         
+char                     2         
+train                    2         
+sleep                    1         

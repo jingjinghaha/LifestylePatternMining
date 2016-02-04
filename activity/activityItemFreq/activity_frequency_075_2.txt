@@ -1,0 +1,7 @@
+bus                      1         
+travel                   1         
+walk                     1         
+train                    1         
+clean                    1         
+car                      2         
+dish                     1         

@@ -1,0 +1,8 @@
+currants                 1         
+sandwich                 1         
+apple                    1         
+potato                   1         
+spinach                  1         
+bacon                    1         
+pie                      1         
+cookie                   1         

@@ -1,5 +1,0 @@
-'cake'                   1         
-'sandwich'               1         
-'fish'                   1         
-'five'                   1         
-'vegetable'              1         

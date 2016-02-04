@@ -1,0 +1,10 @@
+shop                     1         
+football                 1         
+walk                     2         
+charge                   1         
+train                    1         
+sleep                    1         
+fitness                  1         
+cook                     1         
+table                    1         
+cycle                    4         

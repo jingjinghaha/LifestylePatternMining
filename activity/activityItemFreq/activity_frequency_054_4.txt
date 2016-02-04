@@ -1,0 +1,12 @@
+shop                     1         
+tea                      1         
+drink                    1         
+charge                   1         
+walk                     2         
+phone                    1         
+roommate                 1         
+train                    1         
+sleep                    1         
+cook                     1         
+karaoke                  1         
+cycle                    1         

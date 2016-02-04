@@ -1,0 +1,4 @@
+sandwich                 1         
+macaroni                 1         
+apple                    1         
+pie                      1         

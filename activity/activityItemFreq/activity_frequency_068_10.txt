@@ -1,0 +1,13 @@
+shop                     2         
+relax                    3         
+group                    1         
+give                     1         
+university               1         
+work                     1         
+shower                   1         
+phone                    1         
+home                     1         
+party                    2         
+breakfast                1         
+presentation             1         
+cycle                    3         

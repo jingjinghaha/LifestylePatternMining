@@ -1,0 +1,5 @@
+pasta                    1         
+cheese                   1         
+sandwich                 1         
+meat                     1         
+bread                    1         

@@ -1,0 +1,7 @@
+play                     1         
+tv                       1         
+watch                    3         
+computer                 3         
+canteen                  1         
+soccer                   1         
+friends                  1         

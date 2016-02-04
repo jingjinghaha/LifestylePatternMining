@@ -1,9 +1,0 @@
-'milkshake'              1         
-'egg'                    1         
-'chocolate'              1         
-'bean'                   1         
-'meat'                   1         
-'bread'                  2         
-'sandwich'               2         
-'potato'                 1         
-'banana'                 1         

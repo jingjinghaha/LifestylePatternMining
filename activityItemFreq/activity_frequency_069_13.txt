@@ -1,3 +1,0 @@
-'train'                  2         
-'bus'                    2         
-'car'                    2         

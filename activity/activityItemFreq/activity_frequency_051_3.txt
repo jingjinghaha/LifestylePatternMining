@@ -1,0 +1,6 @@
+car                      1         
+work                     1         
+shower                   1         
+train                    1         
+sleep                    1         
+cycle                    1         

@@ -1,0 +1,6 @@
+alcohol                  1         
+raisin                   1         
+fries                    1         
+chocolate                2         
+cookie                   1         
+custard                  1         

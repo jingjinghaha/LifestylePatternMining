@@ -1,0 +1,10 @@
+sandwich                 1         
+beef                     1         
+salad                    1         
+ball                     1         
+vegetable                1         
+carrot                   1         
+pasta                    1         
+muesli                   1         
+yoghurt                  1         
+meat                     1         

@@ -1,0 +1,10 @@
+sauerkraut               1         
+coconut                  1         
+sandwich                 1         
+meat                     2         
+beef                     1         
+tea                      1         
+waffle                   1         
+cookie                   1         
+tuna                     1         
+bread                    1         

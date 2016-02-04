@@ -1,0 +1,9 @@
+coffee                   1         
+sandwich                 2         
+tilapia                  1         
+potato                   1         
+ginger                   1         
+broccoli                 1         
+juice                    1         
+milk                     2         
+bread                    1         

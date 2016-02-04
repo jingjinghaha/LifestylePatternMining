@@ -1,7 +1,0 @@
-'voetbal'                1         
-'empty'                  1         
-'phone'                  1         
-'car'                    5         
-'drive'                  5         
-'shop'                   1         
-'international'          1         

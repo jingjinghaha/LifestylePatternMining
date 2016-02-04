@@ -1,0 +1,6 @@
+cheese                   1         
+sandwich                 1         
+kale                     1         
+beef                     1         
+cake                     2         
+bread                    1         

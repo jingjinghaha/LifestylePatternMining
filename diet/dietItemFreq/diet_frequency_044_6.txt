@@ -1,0 +1,10 @@
+coffee                   1         
+yoghurt                  1         
+instant                  1         
+juice                    1         
+milk                     1         
+strawberry               1         
+fruit                    1         
+chicken                  1         
+sugar                    1         
+meal                     1         

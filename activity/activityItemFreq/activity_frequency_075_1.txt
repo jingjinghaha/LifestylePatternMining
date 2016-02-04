@@ -1,0 +1,9 @@
+exam                     1         
+tv                       1         
+study                    1         
+watch                    1         
+cook                     1         
+charge                   1         
+diner                    1         
+dish                     1         
+cycle                    2         

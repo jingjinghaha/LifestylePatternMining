@@ -1,5 +1,0 @@
-'butter'                 1         
-'sandwich'               1         
-'nut'                    1         
-'rice'                   1         
-'muesli'                 1         

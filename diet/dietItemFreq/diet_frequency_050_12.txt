@@ -1,0 +1,14 @@
+doner                    1         
+vegetable                1         
+currants                 1         
+sandwich                 2         
+potato                   1         
+tea                      2         
+biscuit                  1         
+drink                    1         
+salmon                   1         
+water                    1         
+soup                     1         
+dish                     1         
+cake                     1         
+cheese                   1         

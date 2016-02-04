@@ -1,0 +1,3 @@
+vegetable                1         
+rice                     1         
+sauerkraut               1         

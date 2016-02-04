@@ -1,0 +1,11 @@
+salad                    1         
+potato                   1         
+nut                      1         
+vegetable                1         
+cookie                   1         
+cake                     1         
+orange                   1         
+muesli                   1         
+yoghurt                  1         
+fish                     1         
+bread                    1         

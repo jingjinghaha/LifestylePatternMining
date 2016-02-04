@@ -1,0 +1,5 @@
+vegetable                2         
+rice                     1         
+meatballs                1         
+mms                      1         
+wine                     1         

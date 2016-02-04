@@ -1,8 +1,0 @@
-'cycle'                  4         
-'household'              1         
-'walk'                   1         
-'sleep'                  1         
-'activity'               1         
-'university'             1         
-'charge'                 1         
-'clean'                  1         

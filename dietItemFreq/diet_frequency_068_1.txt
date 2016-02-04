@@ -1,5 +1,0 @@
-'sandwich'               1         
-'pasta'                  1         
-'wine'                   1         
-'red'                    1         
-'apple'                  1         

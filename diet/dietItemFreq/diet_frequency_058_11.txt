@@ -1,0 +1,8 @@
+kiwi                     1         
+cheese                   1         
+sandwich                 3         
+salad                    1         
+salmon                   1         
+sugar                    1         
+gratin                   1         
+chocolate                1         

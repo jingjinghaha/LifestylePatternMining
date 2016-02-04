@@ -1,0 +1,8 @@
+sandwich                 2         
+drink                    1         
+sugar                    1         
+soup                     1         
+cookie                   3         
+tuna                     1         
+wine                     1         
+pumpkin                  1         

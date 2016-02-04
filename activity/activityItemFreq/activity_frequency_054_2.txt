@@ -1,0 +1,7 @@
+craftwork                1         
+university               1         
+shower                   1         
+church                   1         
+run                      1         
+study                    1         
+cycle                    5         

@@ -1,0 +1,8 @@
+christmas                1         
+study                    1         
+walk                     2         
+train                    2         
+breakfast                1         
+away                     1         
+market                   1         
+cycle                    4         

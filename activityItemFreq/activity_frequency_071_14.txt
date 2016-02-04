@@ -1,7 +1,0 @@
-'cycle'                  3         
-'sleep'                  1         
-'practicum'              1         
-'lecture'                1         
-'clean'                  1         
-'cook'                   1         
-'study'                  1         

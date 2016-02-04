@@ -1,0 +1,6 @@
+apple                    1         
+pie                      1         
+pasta                    1         
+beer                     1         
+orange                   1         
+chicken                  1         

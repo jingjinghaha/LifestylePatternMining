@@ -1,0 +1,5 @@
+fries                    1         
+noodles                  1         
+cookie                   1         
+meat                     1         
+frenh                    1         

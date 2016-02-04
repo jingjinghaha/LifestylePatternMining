@@ -1,0 +1,7 @@
+coffee                   1         
+apple                    1         
+fish                     1         
+apricots                 1         
+pasta                    1         
+breakfast                1         
+banana                   1         

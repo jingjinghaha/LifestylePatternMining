@@ -1,7 +1,0 @@
-'cycle'                  7         
-'exam'                   1         
-'relax'                  1         
-'school'                 1         
-'shop'                   1         
-'study'                  1         
-'home'                   1         

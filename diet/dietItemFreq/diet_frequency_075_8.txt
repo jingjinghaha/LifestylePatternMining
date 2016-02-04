@@ -1,0 +1,5 @@
+drink                    1         
+fruit                    1         
+cookie                   1         
+alcohol                  1         
+oatmeal                  1         

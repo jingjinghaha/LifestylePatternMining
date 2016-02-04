@@ -1,0 +1,8 @@
+coffee                   1         
+sandwich                 1         
+fruit                    1         
+muesli                   1         
+tuna                     1         
+yoghurt                  1         
+chicken                  1         
+bread                    1         

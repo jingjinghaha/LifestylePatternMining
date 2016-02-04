@@ -1,5 +1,0 @@
-'cookie'                 1         
-'sandwich'               2         
-'iceCream'               1         
-'chip'                   1         
-'quiche'                 1         

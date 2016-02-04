@@ -1,4 +1,0 @@
-'macaroni'               1         
-'sandwich'               1         
-'pie'                    1         
-'apple'                  1         

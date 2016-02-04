@@ -1,5 +1,0 @@
-'sleep'                  1         
-'walk'                   5         
-'car'                    5         
-'dog'                    3         
-'drive'                  5         

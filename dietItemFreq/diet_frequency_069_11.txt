@@ -1,3 +1,0 @@
-'sandwich'               1         
-'breakfast'              1         
-'rice'                   1         

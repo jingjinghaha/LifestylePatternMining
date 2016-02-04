@@ -1,5 +1,0 @@
-'end'                    1         
-'cycle'                  1         
-'free'                   1         
-'live'                   1         
-'work'                   1         

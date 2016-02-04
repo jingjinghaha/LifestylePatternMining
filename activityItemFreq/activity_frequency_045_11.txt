@@ -1,6 +1,0 @@
-'play'                   1         
-'sleep'                  1         
-'drive'                  1         
-'car'                    1         
-'relax'                  1         
-'hockey'                 1         

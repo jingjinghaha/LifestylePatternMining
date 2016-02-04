@@ -1,0 +1,7 @@
+diner                    1         
+relax                    1         
+work                     2         
+walk                     2         
+shower                   1         
+sleep                    1         
+breakfast                1         

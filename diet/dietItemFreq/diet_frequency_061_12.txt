@@ -1,0 +1,6 @@
+sandwich                 2         
+meat                     1         
+potato                   1         
+soup                     1         
+vegetable                1         
+banana                   1         

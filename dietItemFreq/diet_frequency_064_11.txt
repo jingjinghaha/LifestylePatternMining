@@ -1,7 +1,0 @@
-'chicken'                2         
-'egg'                    1         
-'pie'                    1         
-'salami'                 1         
-'fries'                  1         
-'cookie'                 1         
-'chip'                   1         

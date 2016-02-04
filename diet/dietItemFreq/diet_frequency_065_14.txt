@@ -1,0 +1,4 @@
+cheese                   2         
+sandwich                 2         
+fondue                   1         
+sugar                    2         

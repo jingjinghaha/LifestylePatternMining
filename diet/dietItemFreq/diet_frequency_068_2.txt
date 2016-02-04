@@ -1,0 +1,4 @@
+muesli                   1         
+sandwich                 1         
+salad                    1         
+fruit                    1         

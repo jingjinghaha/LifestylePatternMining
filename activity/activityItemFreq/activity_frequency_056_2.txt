@@ -1,0 +1,8 @@
+car                      1         
+household                1         
+work                     2         
+drive                    1         
+shower                   1         
+charge                   1         
+sleep                    1         
+activity                 1         

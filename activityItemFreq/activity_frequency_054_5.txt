@@ -1,7 +1,0 @@
-'chill'                  1         
-'sleep'                  1         
-'cook'                   1         
-'friends'                1         
-'shop'                   1         
-'place'                  1         
-'clean'                  1         

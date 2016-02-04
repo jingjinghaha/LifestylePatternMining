@@ -1,0 +1,6 @@
+cheese                   1         
+sandwich                 1         
+end                      1         
+meat                     1         
+lasagna                  1         
+egg                      1         

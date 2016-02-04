@@ -1,0 +1,4 @@
+cheese                   1         
+sugar                    1         
+cookie                   2         
+chocolate                1         

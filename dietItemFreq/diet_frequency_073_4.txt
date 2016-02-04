@@ -1,4 +1,0 @@
-'hamburger'              1         
-'piece'                  1         
-'beer'                   1         
-'bread'                  2         

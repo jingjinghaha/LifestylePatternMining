@@ -1,0 +1,8 @@
+dim                      1         
+coffee                   1         
+sandwich                 2         
+sum                      1         
+juice                    1         
+beer                     2         
+popcorn                  1         
+milk                     1         

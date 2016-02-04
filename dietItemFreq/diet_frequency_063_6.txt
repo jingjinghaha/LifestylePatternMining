@@ -1,4 +1,0 @@
-'chicken'                1         
-'pasta'                  1         
-'potato'                 1         
-'bread'                  1         

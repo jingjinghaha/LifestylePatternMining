@@ -1,0 +1,5 @@
+train                    1         
+work                     1         
+sleep                    1         
+hockey                   1         
+cycle                    1         

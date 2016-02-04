@@ -1,0 +1,7 @@
+sandwich                 1         
+apple                    1         
+potato                   1         
+fish                     1         
+deuterium                1         
+vegetable                1         
+egg                      1         

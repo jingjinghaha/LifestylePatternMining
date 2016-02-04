@@ -1,8 +1,0 @@
-'fruit'                  1         
-'soup'                   2         
-'cake'                   1         
-'tuna'                   1         
-'muesli'                 1         
-'pizza'                  1         
-'sandwich'               1         
-'yoghurt'                1         

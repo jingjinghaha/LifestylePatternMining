@@ -1,0 +1,5 @@
+vegetable                1         
+cake                     1         
+yoghurt                  1         
+oatmeal                  2         
+potato                   1         

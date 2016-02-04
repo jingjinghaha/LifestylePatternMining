@@ -1,0 +1,11 @@
+coffee                   1         
+sandwich                 1         
+kellogs                  1         
+doner                    1         
+sausage                  1         
+beer                     1         
+cookie                   1         
+berry                    1         
+chicken                  2         
+yoghurt                  1         
+egg                      1         

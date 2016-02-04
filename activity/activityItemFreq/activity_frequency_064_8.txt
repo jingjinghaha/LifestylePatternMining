@@ -1,0 +1,12 @@
+shop                     1         
+diner                    1         
+workout                  1         
+shower                   1         
+lunch                    1         
+charge                   1         
+computer                 1         
+sleep                    3         
+cook                     2         
+study                    1         
+homework                 1         
+cycle                    2         

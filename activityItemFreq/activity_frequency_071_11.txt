@@ -1,8 +1,0 @@
-'cycle'                  1         
-'run'                    1         
-'practicum'              1         
-'pack'                   1         
-'university'             1         
-'car'                    2         
-'drive'                  2         
-'study'                  1         

@@ -1,0 +1,6 @@
+cheese                   1         
+potato                   1         
+nut                      1         
+cake                     1         
+orange                   1         
+muesli                   1         

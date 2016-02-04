@@ -1,0 +1,6 @@
+diner                    1         
+study                    3         
+shower                   1         
+dress                    1         
+university               3         
+cycle                    4         

@@ -1,0 +1,10 @@
+run                      1         
+diner                    1         
+work                     1         
+dog                      2         
+walk                     2         
+lunch                    1         
+train                    2         
+sleep                    1         
+breakfast                1         
+cycle                    2         

@@ -1,0 +1,4 @@
+tomato                   1         
+sausage                  1         
+cookie                   1         
+beer                     1         

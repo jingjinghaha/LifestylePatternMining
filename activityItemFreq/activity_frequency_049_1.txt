@@ -1,8 +1,0 @@
-'walk'                   1         
-'travel'                 1         
-'sleep'                  1         
-'work'                   1         
-'relax'                  1         
-'diner'                  1         
-'cook'                   1         
-'train'                  1         

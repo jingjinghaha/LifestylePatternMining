@@ -1,0 +1,5 @@
+muesli                   1         
+yoghurt                  1         
+banana                   2         
+salad                    1         
+soup                     1         

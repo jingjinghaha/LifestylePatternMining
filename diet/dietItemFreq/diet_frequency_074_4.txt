@@ -1,0 +1,12 @@
+butter                   1         
+snack                    1         
+potato                   1         
+pie                      1         
+oatmeal                  1         
+vegetable                1         
+cookie                   1         
+duck                     1         
+orange                   1         
+coquille                 1         
+red                      1         
+wine                     1         

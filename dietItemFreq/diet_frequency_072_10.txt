@@ -1,6 +1,0 @@
-'cookie'                 1         
-'soup'                   1         
-'orange'                 1         
-'rice'                   1         
-'macaroni'               1         
-'sandwich'               1         

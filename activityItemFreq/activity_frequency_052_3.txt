@@ -1,4 +1,0 @@
-'sleep'                  1         
-'car'                    2         
-'charge'                 1         
-'drive'                  2         

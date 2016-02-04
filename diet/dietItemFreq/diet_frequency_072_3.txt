@@ -1,0 +1,6 @@
+kiwi                     1         
+sandwich                 2         
+carrot                   1         
+cookie                   2         
+orange                   1         
+rice                     2         

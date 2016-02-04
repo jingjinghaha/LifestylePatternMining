@@ -1,0 +1,10 @@
+weight                   1         
+sit                      1         
+car                      2         
+study                    1         
+tennis                   1         
+drive                    1         
+game                     1         
+sleep                    1         
+measurement              1         
+teach                    1         

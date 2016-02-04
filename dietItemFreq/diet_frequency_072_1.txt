@@ -1,3 +1,0 @@
-'sandwich'               1         
-'orange'                 1         
-'sauerkraut'             1         

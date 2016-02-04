@@ -1,0 +1,8 @@
+school                   1         
+charge                   1         
+bed                      1         
+shower                   1         
+bodypump                 1         
+crosstrainer             1         
+cycle                    3         
+wait                     1         

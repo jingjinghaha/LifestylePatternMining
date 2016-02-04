@@ -1,0 +1,12 @@
+shop                     1         
+computer                 2         
+read                     1         
+make                     1         
+work                     1         
+bed                      2         
+shower                   1         
+bike                     1         
+awake                    1         
+groceries                1         
+dress                    1         
+sleep                    1         

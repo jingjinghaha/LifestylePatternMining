@@ -1,0 +1,4 @@
+cook                     1         
+shop                     1         
+homework                 1         
+cycle                    2         

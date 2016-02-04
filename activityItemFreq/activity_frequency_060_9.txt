@@ -1,7 +1,0 @@
-'cycle'                  1         
-'run'                    1         
-'phone'                  1         
-'sleep'                  1         
-'cook'                   1         
-'lecture'                2         
-'charge'                 1         

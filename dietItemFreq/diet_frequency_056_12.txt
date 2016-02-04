@@ -1,3 +1,0 @@
-'salad'                  1         
-'spinach'                1         
-'pizza'                  1         

@@ -1,7 +1,0 @@
-'walk'                   2         
-'read'                   1         
-'sleep'                  1         
-'sit'                    1         
-'dress'                  2         
-'work'                   1         
-'shower'                 1         

@@ -1,0 +1,9 @@
+sandwich                 2         
+apple                    1         
+doner                    1         
+chip                     1         
+vegetable                1         
+cookie                   1         
+orange                   1         
+chicken                  1         
+banana                   1         

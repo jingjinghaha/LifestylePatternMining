@@ -1,6 +1,0 @@
-'cycle'                  4         
-'sensorr'                1         
-'sleep'                  1         
-'irritation'             1         
-'train'                  3         
-'study'                  2         

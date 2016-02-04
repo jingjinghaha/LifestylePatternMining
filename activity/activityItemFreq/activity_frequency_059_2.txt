@@ -1,0 +1,6 @@
+diner                    1         
+work                     1         
+shower                   1         
+charge                   1         
+snooze                   1         
+cycle                    2         

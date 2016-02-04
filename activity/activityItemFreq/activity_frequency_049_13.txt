@@ -1,0 +1,7 @@
+car                      1         
+study                    2         
+drive                    1         
+walk                     1         
+train                    1         
+sleep                    1         
+bus                      1         

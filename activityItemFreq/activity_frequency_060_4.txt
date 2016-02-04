@@ -1,5 +1,0 @@
-'sleep'                  1         
-'cycle'                  1         
-'friends'                1         
-'charge'                 1         
-'lecture'                1         

@@ -1,7 +1,0 @@
-'soup'                   1         
-'wine'                   1         
-'muesli'                 1         
-'drink'                  1         
-'bread'                  1         
-'yoghurt'                1         
-'coffee'                 1         

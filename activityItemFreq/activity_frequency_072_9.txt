@@ -1,6 +1,0 @@
-'cycle'                  3         
-'shower'                 1         
-'wait'                   2         
-'bed'                    1         
-'shop'                   1         
-'charge'                 1         

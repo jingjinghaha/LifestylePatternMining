@@ -1,0 +1,6 @@
+run                      1         
+diner                    1         
+walk                     2         
+shower                   1         
+charge                   1         
+lesson                   1         

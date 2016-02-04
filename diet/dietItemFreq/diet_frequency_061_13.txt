@@ -1,0 +1,6 @@
+sandwich                 1         
+meat                     1         
+doner                    1         
+fries                    1         
+beer                     1         
+apple                    1         

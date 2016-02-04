@@ -1,0 +1,9 @@
+relax                    2         
+read                     1         
+work                     1         
+bed                      1         
+walk                     2         
+shower                   1         
+sleep                    1         
+cook                     1         
+dress                    1         

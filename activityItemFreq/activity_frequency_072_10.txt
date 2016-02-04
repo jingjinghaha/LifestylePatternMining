@@ -1,8 +1,0 @@
-'wait'                   1         
-'shower'                 1         
-'school'                 1         
-'cycle'                  3         
-'bed'                    1         
-'crosstrainer'           1         
-'bodypump'               1         
-'charge'                 1         

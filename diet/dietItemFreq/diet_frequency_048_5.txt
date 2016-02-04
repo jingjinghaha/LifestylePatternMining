@@ -1,0 +1,4 @@
+coffee                   1         
+egg                      1         
+beef                     1         
+chocolate                1         

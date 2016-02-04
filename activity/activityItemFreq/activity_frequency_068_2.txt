@@ -1,0 +1,6 @@
+relax                    1         
+study                    1         
+sleep                    1         
+lecture                  1         
+breakfast                1         
+cycle                    2         

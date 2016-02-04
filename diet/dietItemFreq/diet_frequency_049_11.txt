@@ -1,0 +1,12 @@
+coffee                   1         
+sandwich                 1         
+gyros                    1         
+gree                     1         
+tea                      1         
+water                    1         
+juice                    1         
+fruit                    1         
+cucumber                 1         
+orange                   1         
+egg                      1         
+bread                    1         

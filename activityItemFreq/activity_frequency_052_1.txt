@@ -1,6 +1,0 @@
-'cycle'                  1         
-'shower'                 1         
-'sleep'                  1         
-'sit'                    1         
-'up'                     1         
-'study'                  1         

@@ -1,0 +1,6 @@
+bus                      1         
+work                     1         
+walk                     1         
+train                    2         
+sauna                    1         
+cycle                    4         

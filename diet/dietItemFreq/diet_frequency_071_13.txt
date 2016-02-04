@@ -1,0 +1,9 @@
+sandwich                 1         
+hamburger                1         
+salad                    1         
+pie                      1         
+rice                     1         
+juice                    1         
+pineapple                1         
+yoghurt                  1         
+egg                      1         

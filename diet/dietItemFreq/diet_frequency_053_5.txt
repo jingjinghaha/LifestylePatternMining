@@ -1,0 +1,6 @@
+sandwich                 3         
+apple                    1         
+chip                     1         
+fries                    1         
+sugar                    1         
+meat                     1         

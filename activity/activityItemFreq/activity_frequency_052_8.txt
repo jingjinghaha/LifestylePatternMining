@@ -1,0 +1,6 @@
+study                    2         
+train                    3         
+sleep                    1         
+irritation               1         
+sensorr                  1         
+cycle                    4         

@@ -1,0 +1,9 @@
+cheese                   1         
+sandwich                 1         
+kellogs                  1         
+salami                   1         
+berry                    1         
+pasta                    3         
+chicken                  2         
+yoghurt                  1         
+banana                   1         

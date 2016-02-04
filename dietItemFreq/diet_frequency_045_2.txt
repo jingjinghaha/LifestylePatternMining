@@ -1,5 +1,0 @@
-'sandwich'               2         
-'meat'                   1         
-'vegetable'              1         
-'potato'                 1         
-'beer'                   1         

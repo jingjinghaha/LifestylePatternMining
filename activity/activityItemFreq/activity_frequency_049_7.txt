@@ -1,0 +1,5 @@
+cook                     1         
+sleep                    1         
+study                    1         
+train                    2         
+visit                    1         

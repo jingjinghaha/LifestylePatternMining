@@ -1,0 +1,5 @@
+chicken                  1         
+sandwich                 1         
+fries                    1         
+bread                    1         
+potato                   1         

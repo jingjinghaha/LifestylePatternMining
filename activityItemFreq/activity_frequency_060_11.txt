@@ -1,7 +1,0 @@
-'cycle'                  2         
-'sleep'                  1         
-'lecture'                2         
-'cook'                   1         
-'charge'                 1         
-'shop'                   1         
-'study'                  1         

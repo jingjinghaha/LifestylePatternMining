@@ -1,0 +1,7 @@
+sandwich                 2         
+bean                     1         
+cookie                   1         
+orange                   1         
+yoghurt                  1         
+curry                    1         
+bread                    2         

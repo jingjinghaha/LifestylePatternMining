@@ -1,0 +1,13 @@
+cheese                   2         
+coffee                   1         
+meat                     1         
+pear                     1         
+sugar                    2         
+carrot                   1         
+pudding                  1         
+vegetable                1         
+muesli                   1         
+chili                    1         
+con                      1         
+milk                     1         
+bread                    1         

@@ -1,4 +1,0 @@
-'cookie'                 1         
-'egg'                    1         
-'hamburger'              1         
-'chip'                   1         

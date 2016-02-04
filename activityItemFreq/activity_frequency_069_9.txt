@@ -1,5 +1,0 @@
-'baby'                   1         
-'cycle'                  7         
-'solarium'               1         
-'sit'                    1         
-'work'                   1         

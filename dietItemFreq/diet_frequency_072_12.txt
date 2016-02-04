@@ -1,8 +1,0 @@
-'soup'                   1         
-'cookie'                 1         
-'bread'                  1         
-'beer'                   1         
-'yoghurt'                1         
-'sandwich'               2         
-'chip'                   1         
-'apple'                  1         

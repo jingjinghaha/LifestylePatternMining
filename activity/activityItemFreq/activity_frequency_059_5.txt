@@ -1,0 +1,6 @@
+run                      1         
+bus                      4         
+walk                     3         
+charge                   1         
+train                    2         
+cycle                    1         

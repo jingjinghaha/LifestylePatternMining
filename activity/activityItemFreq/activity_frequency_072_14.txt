@@ -1,0 +1,6 @@
+shop                     1         
+shower                   1         
+charge                   1         
+clean                    1         
+sport                    1         
+cycle                    5         

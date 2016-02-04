@@ -1,0 +1,5 @@
+cook                     1         
+read                     1         
+cinema                   1         
+swim                     2         
+cycle                    4         

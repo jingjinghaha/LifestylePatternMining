@@ -1,0 +1,5 @@
+soup                     1         
+sandwich                 2         
+fries                    1         
+banana                   1         
+meat                     1         

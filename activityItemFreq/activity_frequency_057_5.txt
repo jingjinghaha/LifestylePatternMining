@@ -1,8 +1,0 @@
-'wait'                   1         
-'shower'                 1         
-'sleep'                  1         
-'work'                   2         
-'car'                    2         
-'drive'                  2         
-'shop'                   1         
-'bike'                   1         

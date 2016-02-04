@@ -1,0 +1,6 @@
+sandwich                 2         
+apple                    1         
+salad                    1         
+soup                     1         
+pasta                    1         
+banana                   1         

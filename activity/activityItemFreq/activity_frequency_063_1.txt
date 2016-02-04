@@ -1,0 +1,9 @@
+tv                       1         
+car                      1         
+watch                    1         
+drive                    1         
+walk                     1         
+phone                    1         
+charge                   1         
+sleep                    1         
+home                     1         

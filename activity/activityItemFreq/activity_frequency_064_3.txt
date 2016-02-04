@@ -1,0 +1,8 @@
+school                   1         
+workout                  1         
+shower                   1         
+charge                   1         
+computer                 3         
+sleep                    2         
+ready                    1         
+cycle                    2         

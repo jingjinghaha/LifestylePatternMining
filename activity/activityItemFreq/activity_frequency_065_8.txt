@@ -1,0 +1,9 @@
+diner                    1         
+read                     2         
+text                     1         
+study                    2         
+cannot                   1         
+sleep                    1         
+breakfast                1         
+friends                  1         
+cycle                    3         

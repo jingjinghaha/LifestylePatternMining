@@ -1,4 +1,0 @@
-'cake'                   1         
-'sandwich'               1         
-'kiwi'                   1         
-'banana'                 1         

@@ -1,6 +1,0 @@
-'walk'                   2         
-'shower'                 1         
-'run'                    1         
-'charge'                 1         
-'diner'                  1         
-'lesson'                 1         

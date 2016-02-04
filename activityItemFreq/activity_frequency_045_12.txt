@@ -1,5 +1,0 @@
-'sleep'                  1         
-'cycle'                  2         
-'hockey'                 1         
-'train'                  1         
-'work'                   1         

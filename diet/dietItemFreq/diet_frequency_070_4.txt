@@ -1,0 +1,5 @@
+soup                     1         
+bread                    1         
+sandwich                 2         
+banana                   1         
+cup                      1         

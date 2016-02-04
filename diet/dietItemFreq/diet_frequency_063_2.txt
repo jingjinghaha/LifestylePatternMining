@@ -1,0 +1,9 @@
+cappuccino               1         
+apple                    1         
+potato                   1         
+tea                      1         
+chip                     1         
+chocolate                2         
+cookie                   1         
+sugar                    1         
+meat                     1         

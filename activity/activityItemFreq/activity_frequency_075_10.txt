@@ -1,0 +1,8 @@
+play                     2         
+relax                    1         
+walk                     1         
+shower                   1         
+etc                      1         
+game                     2         
+dress                    1         
+eat                      1         

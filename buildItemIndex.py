@@ -11,6 +11,7 @@ def buildIndex(file):
 		line = line.split('[')[1].split(']')[0].split(',')
 		for word in line: 
 			word = word.strip(' ')
+			word = word.split("'")[1]
 			# print word
 			if word in index:
 				index[word] += 1
@@ -23,28 +24,28 @@ def build_single_diet_index(subjectID):
 	'''
 	build the diet index for single user
 	'''
-	index = buildIndex('dietProcessed/processed_diet_'+subjectID+'.txt')
+	index = buildIndex('diet/dietProcessed/processed_diet_'+subjectID+'.txt')
 	return index 
 
 def build_daily_single_diet_index(subjectID,n):
 	'''
 	build the daily diet index for single user
 	'''
-	index = buildIndex('dietProcessed/processed_diet_'+subjectID+'_'+str(n)+'.txt')
+	index = buildIndex('diet/dietProcessed/processed_diet_'+subjectID+'_'+str(n)+'.txt')
 	return index 
 
 def build_single_activity_index(subjectID):
 	'''
 	build the activity index for single user
 	'''
-	index = buildIndex('activityProcessed/processed_activity_'+subjectID+'.txt')
+	index = buildIndex('activity/activityProcessed/processed_activity_'+subjectID+'.txt')
 	return index 
 
 def build_daily_single_activity_index(subjectID,n):
 	'''
 	build the daily diet index for single user
 	'''
-	index = buildIndex('activityProcessed/processed_activity_'+subjectID+'_'+str(n)+'.txt')
+	index = buildIndex('activity/activityProcessed/processed_activity_'+subjectID+'_'+str(n)+'.txt')
 	return index 
 
 def build_all_diet_index(available_list):
@@ -75,4 +76,4 @@ def build_all_activity_index(available_list):
 				index[key] = small_index[key]
 	return index
 
-# buildIndex('activityProcessed/processed_activity_'+'039'+'_'+str(1)+'.txt')
+# buildIndex('activity/activityProcessed/processed_activity_'+'039'+'_'+str(1)+'.txt')

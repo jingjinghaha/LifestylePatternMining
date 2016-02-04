@@ -1,0 +1,8 @@
+hamburger                1         
+kellogs                  1         
+fries                    1         
+cake                     1         
+pasta                    2         
+yoghurt                  1         
+banana                   1         
+choco                    1         

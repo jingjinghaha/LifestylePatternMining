@@ -1,0 +1,4 @@
+pasta                    1         
+chicken                  1         
+bread                    1         
+potato                   1         

@@ -1,0 +1,9 @@
+judo                     1         
+traineeship              1         
+car                      4         
+drive                    4         
+bed                      1         
+walk                     2         
+shower                   1         
+charge                   1         
+train                    2         

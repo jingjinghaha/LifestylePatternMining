@@ -1,6 +1,0 @@
-'rice'                   1         
-'chicken'                1         
-'beer'                   1         
-'sandwich'               2         
-'banana'                 1         
-'apple'                  1         

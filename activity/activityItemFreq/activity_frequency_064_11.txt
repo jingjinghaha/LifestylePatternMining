@@ -1,0 +1,14 @@
+school                   1         
+lunch                    1         
+tv                       2         
+movie                    1         
+study                    1         
+watch                    3         
+pushups                  1         
+wash                     1         
+game                     1         
+experiment               1         
+sleep                    1         
+cook                     2         
+clothe                   1         
+cycle                    4         

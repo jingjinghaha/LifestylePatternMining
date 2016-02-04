@@ -1,9 +1,0 @@
-'cycle'                  2         
-'shower'                 1         
-'sleep'                  1         
-'work'                   2         
-'computer'               1         
-'shop'                   2         
-'breakfast'              1         
-'dish'                   1         
-'home'                   1         

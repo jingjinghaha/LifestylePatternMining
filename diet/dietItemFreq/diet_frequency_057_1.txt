@@ -1,0 +1,6 @@
+sandwich                 2         
+egg                      1         
+fruit                    1         
+chicken                  1         
+rice                     1         
+goulash                  1         

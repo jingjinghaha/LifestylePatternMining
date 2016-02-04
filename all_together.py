@@ -13,6 +13,8 @@ import visDietActPattern
 import buildSimilarityTableExcel
 import visSimilarityDistribution
 import visSimilarityMat
+import visTFMat 
+import visTFIDFMat
 
 plt.close('all')
 plt.clf()
@@ -64,3 +66,6 @@ visSimilarityMat.plotSimilarityMatrix('TFEclud')
 visSimilarityMat.plotSimilarityMatrix('TFIDFCosin')
 visSimilarityMat.plotSimilarityMatrix('TFIDFEclud')
 
+# visualization of TF and TFIDF matrix
+visTFMat.visTFMatrix()
+visTFIDFMat.visTFIDFMatrix()

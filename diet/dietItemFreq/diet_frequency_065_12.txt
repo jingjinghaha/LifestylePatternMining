@@ -1,0 +1,6 @@
+cheese                   1         
+sandwich                 2         
+salad                    1         
+veggie                   1         
+burger                   1         
+egg                      1         

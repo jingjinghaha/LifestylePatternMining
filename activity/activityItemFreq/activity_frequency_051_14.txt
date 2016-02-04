@@ -1,0 +1,5 @@
+bus                      1         
+lesson                   2         
+train                    2         
+study                    1         
+cycle                    1         

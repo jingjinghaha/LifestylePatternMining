@@ -1,0 +1,10 @@
+car                      2         
+travel                   1         
+visit                    1         
+drive                    1         
+walk                     1         
+charge                   1         
+train                    1         
+clean                    1         
+bus                      1         
+eat                      1         

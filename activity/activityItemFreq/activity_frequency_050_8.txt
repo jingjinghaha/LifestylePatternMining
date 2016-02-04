@@ -1,0 +1,12 @@
+school                   1         
+tap                      1         
+tv                       1         
+car                      1         
+medical                  1         
+watch                    1         
+drive                    1         
+walk                     2         
+train                    2         
+sleep                    1         
+bus                      2         
+lesson                   1         

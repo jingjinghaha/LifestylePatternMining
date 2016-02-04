@@ -1,0 +1,12 @@
+lie                      1         
+movie                    1         
+workout                  1         
+watch                    1         
+shower                   1         
+phone                    1         
+game                     1         
+sleep                    1         
+empty                    1         
+home                     1         
+homework                 2         
+cycle                    1         

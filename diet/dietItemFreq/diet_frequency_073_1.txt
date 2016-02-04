@@ -1,0 +1,7 @@
+sandwich                 1         
+meat                     1         
+chocolate                1         
+soup                     2         
+noodles                  1         
+red                      1         
+wine                     1         

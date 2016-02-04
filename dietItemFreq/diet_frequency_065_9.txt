@@ -1,8 +1,0 @@
-'soup'                   1         
-'sugar'                  1         
-'drink'                  1         
-'tuna'                   1         
-'cookie'                 3         
-'pumpkin'                1         
-'sandwich'               2         
-'wine'                   1         

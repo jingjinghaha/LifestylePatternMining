@@ -1,0 +1,6 @@
+potato                   2         
+salami                   1         
+champignon               1         
+chicken                  2         
+egg                      1         
+broccoli                 2         

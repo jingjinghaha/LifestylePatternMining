@@ -1,5 +1,0 @@
-'sleep'                  1         
-'friends'                1         
-'car'                    1         
-'visit'                  1         
-'drive'                  1         

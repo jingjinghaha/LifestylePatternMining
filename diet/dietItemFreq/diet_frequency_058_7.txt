@@ -1,0 +1,7 @@
+apple                    1         
+chocolate                2         
+mango                    1         
+cookie                   1         
+muesli                   1         
+yoghurt                  1         
+gnocchi                  1         

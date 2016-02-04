@@ -1,4 +1,0 @@
-'yoghurt'                1         
-'fish'                   1         
-'pasta'                  1         
-'sandwich'               1         

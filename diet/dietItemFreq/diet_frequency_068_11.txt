@@ -1,0 +1,4 @@
+rice                     1         
+sandwich                 1         
+red                      1         
+wine                     3         

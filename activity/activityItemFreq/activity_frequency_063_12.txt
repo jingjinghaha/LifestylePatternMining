@@ -1,0 +1,8 @@
+city                     1         
+parent                   1         
+car                      1         
+bike                     1         
+charge                   1         
+train                    1         
+sleep                    1         
+home                     1         

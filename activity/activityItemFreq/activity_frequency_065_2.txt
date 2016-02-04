@@ -1,0 +1,6 @@
+university               1         
+sleep                    1         
+lecture                  1         
+breakfast                1         
+study                    2         
+cycle                    4         

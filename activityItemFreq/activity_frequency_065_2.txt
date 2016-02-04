@@ -1,6 +1,0 @@
-'cycle'                  4         
-'sleep'                  1         
-'lecture'                1         
-'university'             1         
-'breakfast'              1         
-'study'                  2         

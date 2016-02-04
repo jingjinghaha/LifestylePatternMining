@@ -1,8 +1,0 @@
-'currants'               1         
-'spinach'                1         
-'pie'                    1         
-'cookie'                 1         
-'bacon'                  1         
-'sandwich'               1         
-'potato'                 1         
-'apple'                  1         

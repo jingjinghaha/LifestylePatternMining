@@ -1,0 +1,4 @@
+tea                      1         
+cappuccino               1         
+sandwich                 2         
+egg                      1         

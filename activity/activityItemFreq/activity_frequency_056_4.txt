@@ -1,0 +1,7 @@
+car                      1         
+work                     1         
+drive                    1         
+charge                   1         
+train                    1         
+sleep                    1         
+soccer                   1         

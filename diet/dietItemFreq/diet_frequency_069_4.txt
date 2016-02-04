@@ -1,0 +1,9 @@
+sandwich                 3         
+potato                   1         
+fish                     1         
+soup                     1         
+cookie                   1         
+rice                     1         
+vegetable                1         
+muesli                   1         
+yoghurt                  1         

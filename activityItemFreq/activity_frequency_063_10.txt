@@ -1,5 +1,0 @@
-'sleep'                  2         
-'cycle'                  3         
-'university'             1         
-'shower'                 1         
-'charge'                 1         

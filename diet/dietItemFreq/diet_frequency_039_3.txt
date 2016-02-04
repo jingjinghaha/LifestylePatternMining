@@ -1,0 +1,11 @@
+coffee                   1         
+sandwich                 1         
+salad                    1         
+kellogs                  1         
+mandarins                1         
+fries                    1         
+cookie                   1         
+chicken                  1         
+yoghurt                  1         
+banana                   2         
+meat                     1         

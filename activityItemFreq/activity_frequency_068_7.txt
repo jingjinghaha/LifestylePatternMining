@@ -1,4 +1,0 @@
-'cycle'                  1         
-'home'                   1         
-'study'                  2         
-'walk'                   1         

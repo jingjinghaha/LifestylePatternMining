@@ -1,7 +1,0 @@
-'cycle'                  1         
-'sleep'                  2         
-'gamen'                  1         
-'computer'               1         
-'cook'                   1         
-'charge'                 1         
-'home'                   1         

@@ -1,0 +1,10 @@
+school                   1         
+shower                   1         
+charge                   1         
+train                    1         
+sleep                    1         
+lecture                  1         
+sport                    1         
+trainen                  1         
+cylcing                  1         
+cycle                    6         

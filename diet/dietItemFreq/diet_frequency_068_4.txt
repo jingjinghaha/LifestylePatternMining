@@ -1,0 +1,4 @@
+vegetable                1         
+meat                     1         
+beef                     1         
+potato                   1         
