@@ -5,6 +5,7 @@ Created on Fri Jan 29 13:25:44 2016
 @author: wu34
 """
 
+import numpy as np 
 import xlrd
 import utilise
 available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
@@ -49,6 +50,22 @@ def diaryTimeDict():
 	for i in range(len(available_list)):
 		totalTimeDict[i] = getTimeDict(available_list[i])
 	return totalTimeDict
+
+def getGroups(labels):
+	groups = {} 
+
+	for k in range(4):
+		groups[k] = []
+		class_members = labels == k
+		print class_members.shape[0]
+
+		for i in range(class_members.shape[0]):
+			if class_members[i] == True:
+				groups[k].append(i)
+
+	print groups 
+
+getGroups()
 
 # print diaryTimeDict()
 # tf = utilise.genActItemTFArray()
