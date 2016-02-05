@@ -16,7 +16,6 @@ def diaryDurationList():
 		durationList.append(getDuration(subjectID))
 	return durationList
 	
-
 def getDuration(subjectID):
 	file_location = 'subject_template_'+subjectID+'.xlsx'
 	workbook = xlrd.open_workbook(file_location)
@@ -51,21 +50,92 @@ def diaryTimeDict():
 		totalTimeDict[i] = getTimeDict(available_list[i])
 	return totalTimeDict
 
+# def getSleepInfo():
+	# file_location = 'allSubjectsSleepDatamatrix.xls'
+	# workbook = xlrd.open_workbook(file_location)
+	# sheet = workbook.sheet_by_index(0)
+	# date =  unicode(int(sheet.cell_value(8,0)))
+	# print unicode(date),type(date)
+	
 def getGroups(labels):
 	groups = {} 
 
 	for k in range(4):
 		groups[k] = []
 		class_members = labels == k
-		print class_members.shape[0]
+		# print class_members.shape[0]
 
 		for i in range(class_members.shape[0]):
 			if class_members[i] == True:
 				groups[k].append(i)
 
-	print groups 
+	return groups 
 
-getGroups()
+def string2array(str):
+	temp = str.split(' ')
+	for i in range(len(temp)):
+		token = int(temp[i])
+		temp[i] = token
+	array = np.array(temp)
+	return array 
+	
+labelsDietType = string2array('1 2 3 2 3 1 1 3 1 0 1 1 1 3 3 0 1 1 1 1 1 3 3 3 0 3 2 1 0')
+labelsActType = string2array('1 1 2 2 3 3 0 0 0 2 0 0 2 0 1 3 0 1 2 0 3 2 2 0 2 1 3 1 1')
+
+groupDiet = getGroups(labelsDietType)
+groupAct = getGroups(labelsActType)
+print groupAct
+print groupDiet
+
+dd = {}
+for key1 in groupAct:
+	dd[key1] = {}
+	for key2 in groupDiet:
+		dd[key1][key2] = 0 
+		for item in groupAct[key1]:
+			if item in groupDiet[key2]:
+				dd[key1][key2] += 1 
+print dd 
+				
+dd = {}
+for key1 in groupDiet:
+	dd[key1] = {}
+	for key2 in groupAct:
+		dd[key1][key2] = 0 
+		for item in groupDiet[key1]:
+			if item in groupAct[key2]:
+				dd[key1][key2] += 1 
+print dd 			
+	
+labelsActItem = string2array('3 3 2 2 3 3 0 0 0 0 1 1 2 1 0 1 3 0 0 1 3 0 2 1 0 0 3 1 0')
+labelsDietItem = string2array('2 3 2 0 2 1 1 2 2 1 1 2 1 2 3 1 1 1 2 2 2 2 2 2 3 2 1 3 1')
+
+groupDiet = getGroups(labelsDietItem)
+groupAct = getGroups(labelsActItem)
+print groupAct
+print groupDiet
+
+dd = {}
+for key1 in groupAct:
+	dd[key1] = {}
+	for key2 in groupDiet:
+		dd[key1][key2] = 0 
+		for item in groupAct[key1]:
+			if item in groupDiet[key2]:
+				dd[key1][key2] += 1 
+print dd 
+				
+dd = {}
+for key1 in groupDiet:
+	dd[key1] = {}
+	for key2 in groupAct:
+		dd[key1][key2] = 0 
+		for item in groupDiet[key1]:
+			if item in groupAct[key2]:
+				dd[key1][key2] += 1 
+print dd 
+
+# getSleepInfo()
 
 # print diaryTimeDict()
 # tf = utilise.genActItemTFArray()

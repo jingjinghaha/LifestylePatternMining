@@ -8,6 +8,7 @@ Created on Thu Feb 04 16:35:07 2016
 import xlwt
 import xlrd
 import actType
+import dietType
 from nltk import wordpunct_tokenize
 
 available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
@@ -25,14 +26,15 @@ def buildSingleActExcel(subjectID):
 	
 	rowW = 0 
 	index = 0 
-	itemString = ''
-	typeString = '' 
+
 	
 	for rowR in range(8,sheet.nrows):
 		if sheet.cell_value(rowR,0):
 			ws.write(rowW,0,subjectID)
 			ws.write(rowW,1,sheet.cell_value(rowR,0))
 			index += 1 
+			itemString = ''
+			typeString = '' 
 			for line in open('activity/activityItemFreq/activity_frequency_'+subjectID+'_'+str(index)+'.txt','r'):
 				line = line.strip('\n')
 				words = wordpunct_tokenize(line)
@@ -66,11 +68,13 @@ def buildSingleDietExcel(subjectID):
 			ws.write(rowW,0,subjectID)
 			ws.write(rowW,1,sheet.cell_value(rowR,0))
 			index += 1 
+			itemString = ''
+			typeString = ''
 			for line in open('diet/dietItemFreq/diet_frequency_'+subjectID+'_'+str(index)+'.txt','r'):
 				line = line.strip('\n')
 				words = wordpunct_tokenize(line)
 				itemString = itemString+' '+words[0]
-				type = actType.actType(words[0])
+				type = dietType.dietType(words[0])
 				typeString = typeString+' '+type 
 			ws.write(rowW,2,itemString)
 			ws.write(rowW,3,typeString)
@@ -95,6 +99,7 @@ def buildActExcel():
 			ws.write(rowW,0,sheet.cell_value(rowR,0))
 			ws.write(rowW,1,sheet.cell_value(rowR,1))
 			ws.write(rowW,2,sheet.cell_value(rowR,2))
+			ws.write(rowW,3,sheet.cell_value(rowR,3))
 			rowW += 1
 
 	workbookW.save('activity/activityTable.xls')
@@ -116,13 +121,129 @@ def buildDietExcel():
 			ws.write(rowW,0,sheet.cell_value(rowR,0))
 			ws.write(rowW,1,sheet.cell_value(rowR,1))
 			ws.write(rowW,2,sheet.cell_value(rowR,2))
+			ws.write(rowW,3,sheet.cell_value(rowR,3))
 			rowW += 1
 
 	workbookW.save('diet/dietTable.xls')
+
+def buildActWithSleepExcel():
+	'''
+	build activity excel for all the subjects, including the date, activity item and type, sleep
+	'''
+	workbookW = xlwt.Workbook()
+	ws = workbookW.add_sheet('sheet1')
+	titles = ['SubjId','Day','Act','ActType','Morningness','Eveningness','Lark','Owl','HoursSleep','SleepMoveCount','SleepQuality','MedianHR','MedianBefore','MedianHRAfter','age','gender','height','weight','BMI','FatFreeMass','FatMass','PercFat','vo2max']
+	
+	for i in range(len(titles)):
+		ws.write(0,i,titles[i])
+
+	rowW = 1
+	file_location1 = 'activity/activityTable.xls'
+	workbookR1 = xlrd.open_workbook(file_location1)
+	sheet1 = workbookR1.sheet_by_index(0)
+	
+	file_location2 = 'allSubjectsSleepDatamatrix.xls'
+	workbookR2 = xlrd.open_workbook(file_location2)
+	sheet2 = workbookR2.sheet_by_index(0)
+	
+	for rowRAct in range(0,sheet1.nrows):
+		for rowRSlp in range(1,sheet2.nrows):
+			sub = unicode(int(sheet2.cell_value(rowRSlp,0)))
+			sub = '0'+sub 
+			# print sub 
+			if sheet1.cell_value(rowRAct,0) == sub:
+				day = sheet2.cell_value(rowRSlp,1)
+				# print day 
+				if sheet1.cell_value(rowRAct,1) == day:
+					ws.write(rowW,0,sub)
+					ws.write(rowW,1,day)
+					ws.write(rowW,2,sheet1.cell_value(rowRAct,2))
+					ws.write(rowW,3,sheet1.cell_value(rowRAct,3))
+					ws.write(rowW,4,sheet2.cell_value(rowRSlp,5))
+					ws.write(rowW,5,sheet2.cell_value(rowRSlp,6))
+					ws.write(rowW,6,sheet2.cell_value(rowRSlp,7))
+					ws.write(rowW,7,sheet2.cell_value(rowRSlp,8))
+					ws.write(rowW,8,sheet2.cell_value(rowRSlp,9))
+					ws.write(rowW,9,sheet2.cell_value(rowRSlp,10))
+					ws.write(rowW,10,sheet2.cell_value(rowRSlp,11))
+					ws.write(rowW,11,sheet2.cell_value(rowRSlp,12))
+					ws.write(rowW,12,sheet2.cell_value(rowRSlp,13))
+					ws.write(rowW,13,sheet2.cell_value(rowRSlp,14))
+					ws.write(rowW,14,sheet2.cell_value(rowRSlp,15))
+					ws.write(rowW,15,sheet2.cell_value(rowRSlp,16))
+					ws.write(rowW,16,sheet2.cell_value(rowRSlp,17))
+					ws.write(rowW,17,sheet2.cell_value(rowRSlp,18))
+					ws.write(rowW,18,sheet2.cell_value(rowRSlp,19))
+					ws.write(rowW,19,sheet2.cell_value(rowRSlp,20))
+					ws.write(rowW,20,sheet2.cell_value(rowRSlp,21))
+					ws.write(rowW,21,sheet2.cell_value(rowRSlp,22))
+					ws.write(rowW,22,sheet2.cell_value(rowRSlp,23))
+					rowW += 1
+
+	workbookW.save('activity/activityTableWithSleep.xls')
+
+def buildDietWithSleepExcel():
+	'''
+	build diet excel for all the subjects, including the date, activity item and type, sleep
+	'''
+	workbookW = xlwt.Workbook()
+	ws = workbookW.add_sheet('sheet1')
+	titles = ['SubjId','Day','Diet','DietType','Morningness','Eveningness','Lark','Owl','HoursSleep','SleepMoveCount','SleepQuality','MedianHR','MedianBefore','MedianHRAfter','age','gender','height','weight','BMI','FatFreeMass','FatMass','PercFat','vo2max']
+	
+	for i in range(len(titles)):
+		ws.write(0,i,titles[i])
+
+	rowW = 1
+	file_location1 = 'diet/dietTable.xls'
+	workbookR1 = xlrd.open_workbook(file_location1)
+	sheet1 = workbookR1.sheet_by_index(0)
+	
+	file_location2 = 'allSubjectsSleepDatamatrix.xls'
+	workbookR2 = xlrd.open_workbook(file_location2)
+	sheet2 = workbookR2.sheet_by_index(0)
+	
+	for rowRAct in range(0,sheet1.nrows):
+		for rowRSlp in range(1,sheet2.nrows):
+			sub = unicode(int(sheet2.cell_value(rowRSlp,0)))
+			sub = '0'+sub 
+			# print sub 
+			if sheet1.cell_value(rowRAct,0) == sub:
+				day = sheet2.cell_value(rowRSlp,1)
+				# print day 
+				if sheet1.cell_value(rowRAct,1) == day:
+					ws.write(rowW,0,sub)
+					ws.write(rowW,1,day)
+					ws.write(rowW,2,sheet1.cell_value(rowRAct,2))
+					ws.write(rowW,3,sheet1.cell_value(rowRAct,3))
+					ws.write(rowW,4,sheet2.cell_value(rowRSlp,5))
+					ws.write(rowW,5,sheet2.cell_value(rowRSlp,6))
+					ws.write(rowW,6,sheet2.cell_value(rowRSlp,7))
+					ws.write(rowW,7,sheet2.cell_value(rowRSlp,8))
+					ws.write(rowW,8,sheet2.cell_value(rowRSlp,9))
+					ws.write(rowW,9,sheet2.cell_value(rowRSlp,10))
+					ws.write(rowW,10,sheet2.cell_value(rowRSlp,11))
+					ws.write(rowW,11,sheet2.cell_value(rowRSlp,12))
+					ws.write(rowW,12,sheet2.cell_value(rowRSlp,13))
+					ws.write(rowW,13,sheet2.cell_value(rowRSlp,14))
+					ws.write(rowW,14,sheet2.cell_value(rowRSlp,15))
+					ws.write(rowW,15,sheet2.cell_value(rowRSlp,16))
+					ws.write(rowW,16,sheet2.cell_value(rowRSlp,17))
+					ws.write(rowW,17,sheet2.cell_value(rowRSlp,18))
+					ws.write(rowW,18,sheet2.cell_value(rowRSlp,19))
+					ws.write(rowW,19,sheet2.cell_value(rowRSlp,20))
+					ws.write(rowW,20,sheet2.cell_value(rowRSlp,21))
+					ws.write(rowW,21,sheet2.cell_value(rowRSlp,22))
+					ws.write(rowW,22,sheet2.cell_value(rowRSlp,23))
+					rowW += 1
+
+	workbookW.save('diet/dietTableWithSleep.xls')
 
 for subjectID in available_list:
 	buildSingleActExcel(subjectID)
 	buildSingleDietExcel(subjectID)
 
-# buildActExcel()
-# buildDietExcel()
+buildActExcel()
+buildDietExcel()
+
+buildActWithSleepExcel()
+buildDietWithSleepExcel()
