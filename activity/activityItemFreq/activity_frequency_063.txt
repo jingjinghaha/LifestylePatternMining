@@ -1,11 +1,8 @@
 shop                     1         
 household                1         
-back                     1         
 walk                     15        
 sleep                    14        
-home                     4         
 lesson                   1         
-city                     1         
 tv                       1         
 tennis                   1         
 charge                   7         

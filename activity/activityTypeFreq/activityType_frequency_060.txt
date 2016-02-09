@@ -6,5 +6,5 @@ social                   6
 transportation3          25        
 rest                     17        
 diet                     13        
-others                   27        
+others                   23        
 sport                    4         

@@ -7,7 +7,6 @@ beer                     1
 vegetable                2         
 yoghurt                  2         
 banana                   6         
-red                      1         
 zucchini                 1         
 sandwich                 19        
 doner                    1         
@@ -21,7 +20,6 @@ rice                     2
 meat                     5         
 salad                    1         
 potato                   2         
-healthy                  2         
 egg                      1         
 cup                      1         
 fries                    2         

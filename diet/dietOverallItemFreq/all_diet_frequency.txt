@@ -1,5 +1,5 @@
 chicken                  56        
-milk                     25        
+milk                     26        
 choco                    8         
 snack                    10        
 sugar                    35        
@@ -19,17 +19,16 @@ fish                     19
 bacon                    5         
 waffle                   5         
 iceCream                 9         
+quiche                   5         
 noodles                  15        
 oatmeal                  22        
 sausage                  7         
 alcohol                  9         
 soup                     65        
-red                      14        
 water                    8         
 cookie                   103       
 pasta                    71        
 muesli                   93        
-healthy                  5         
 raisin                   6         
 lasagna                  8         
 curry                    5         
@@ -42,7 +41,7 @@ beer                     44
 yoghurt                  116       
 banana                   65        
 kiwi                     6         
-butter                   17        
+tomato                   15        
 doner                    18        
 chocolate                45        
 nut                      26        
@@ -56,9 +55,8 @@ pie                      20
 ginger                   7         
 juice                    15        
 carrot                   20        
-quiche                   5         
 macaroni                 6         
-vegetable                59        
+vegetable                63        
 pudding                  5         
 pizza                    21        
 sandwich                 348       
@@ -68,7 +66,7 @@ fruit                    21
 tuna                     8         
 broccoli                 6         
 sauerkraut               8         
-tomato                   15        
+butter                   17        
 potato                   67        
 egg                      51        
 wine                     38        

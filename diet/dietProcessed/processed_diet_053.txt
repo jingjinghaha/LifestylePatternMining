@@ -28,7 +28,7 @@
 ['beer']
 ['sandwich', 'cheese']
 ['apple', 'bread']
-['salmon', 'potato', 'iceCream', 'cola', 'light', 'red', 'wine']
+['salmon', 'potato', 'iceCream', 'cola', 'light', 'wine']
 ['iceCream', 'tea']
 ['sandwich']
 ['sandwich', 'cheese']

@@ -4,7 +4,6 @@ walk                     1
 skillslab                1         
 sleep                    12        
 measurement              1         
-home                     1         
 sit                      1         
 tv                       1         
 movie                    1         

@@ -2,7 +2,6 @@ shop                     4
 cinema                   1         
 walk                     19        
 sleep                    14        
-home                     1         
 breakfast                1         
 movie                    2         
 travel                   1         

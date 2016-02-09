@@ -1,6 +1,6 @@
-work_study               28        
-entertainment            24        
-others                   25        
+work_study               25        
+entertainment            27        
+others                   21        
 transportation3          25        
 diet                     22        
 transportation2          3         

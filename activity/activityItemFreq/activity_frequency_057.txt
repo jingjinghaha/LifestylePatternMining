@@ -10,7 +10,6 @@ shower                   2
 bike                     1         
 sleep                    6         
 clean                    1         
-home                     2         
 vistit                   1         
 loose                    1         
 electrode                1         

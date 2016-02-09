@@ -93,13 +93,13 @@ def bestLabel(domain,metric,n_clusters):
 		# if domain ==  'ActDietType' and n_clusters == 3:
 			# labels = string2array('')
 		if domain == 'ActItem' and n_clusters == 4:
-			labels = string2array('3 3 2 2 3 3 0 0 0 0 1 1 2 1 0 1 3 0 0 1 3 0 2 1 0 0 3 1 0')
+			labels = string2array('0 0 3 3 0 2 1 1 0 1 2 2 3 2 1 2 2 1 1 2 0 1 3 2 1 1 2 2 1')
 		if domain == 'DietItem' and n_clusters == 4:
-			labels = string2array('2 3 2 0 2 1 1 2 2 1 1 2 1 2 3 1 1 1 2 2 2 2 2 2 3 2 1 3 1')
+			labels = string2array('2 0 3 0 3 1 1 3 3 0 1 2 2 3 0 3 1 1 3 2 3 3 3 3 0 3 1 0 0')
 		if domain == 'DietType' and n_clusters == 4:
-			labels = string2array('1 2 3 2 3 1 1 3 1 0 1 1 1 3 3 0 1 1 1 1 1 3 3 3 0 3 2 1 0')
+			labels = string2array('1 3 2 0 0 1 3 2 1 0 1 1 1 2 2 0 1 1 1 3 2 2 2 2 0 2 3 3 0')
 		if domain == 'ActType' and n_clusters == 4:
-			labels = string2array('1 1 2 2 3 3 0 0 0 2 0 0 2 0 1 3 0 1 2 0 3 2 2 0 2 1 3 1 1')
+			labels = string2array('0 2 0 0 2 1 1 1 2 0 1 1 0 1 3 1 2 3 0 1 2 0 0 1 0 3 1 3 3')
 		# if domain == 'ActDietItem' and n_clusters == 4:
 			# labels = string2array('')
 		# if domain ==  'ActDietType' and n_clusters == 4:
@@ -143,13 +143,13 @@ def bestLabel(domain,metric,n_clusters):
 		# if domain ==  'ActDietType' and n_clusters == 3:
 			# labels = string2array('')
 		if domain == 'ActItem' and n_clusters == 4:
-			labels = string2array('2 1 0 0 1 3 2 2 2 2 1 1 0 1 2 1 2 2 2 1 3 2 0 1 2 2 3 1 2')
+			labels = string2array('0 0 2 2 0 3 1 1 0 1 3 3 2 3 1 3 3 1 1 3 0 1 1 3 1 1 3 3 1')
 		if domain == 'DietItem' and n_clusters == 4:
-			labels = string2array('3 0 2 3 2 3 3 2 3 3 3 0 3 2 1 3 3 3 0 0 2 2 2 2 1 3 3 1 1')
+			labels = string2array('1 2 1 2 2 3 1 1 1 1 1 2 1 1 0 1 3 3 1 2 1 1 1 1 0 1 3 0 0')
 		if domain == 'DietType' and n_clusters == 4:
-			labels = string2array('3 0 1 0 3 3 1 1 1 2 2 3 3 1 1 2 3 3 3 3 3 1 1 1 2 1 0 1 2')
+			labels = string2array('1 3 2 3 0 3 3 2 1 0 0 1 1 2 2 0 3 3 1 1 1 2 2 2 0 2 3 0 0')
 		if domain == 'ActType' and n_clusters == 4:
-			labels = string2array('1 3 1 1 0 0 2 2 2 1 2 2 1 2 3 0 2 3 1 2 0 1 1 2 1 3 0 3 3')
+			labels = string2array('1 3 1 1 3 2 2 2 3 1 2 2 0 2 0 2 3 0 1 2 3 1 1 3 1 0 2 0 0')
 		# if domain == 'ActDietItem' and n_clusters == 4:
 			# labels = string2array('')
 		# if domain ==  'ActDietType' and n_clusters == 4:
@@ -226,7 +226,7 @@ def bestLabel(domain,metric,n_clusters):
 		# KM(domain, metric)
 
 for domain in Domain:
-	for n_clusters in range(2,6):
+	for n_clusters in range(4,5):
 		for metric in Metric:
 			bestLabel(domain,metric,n_clusters)
 

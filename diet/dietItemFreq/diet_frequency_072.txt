@@ -2,7 +2,6 @@ apple                    2
 chip                     5         
 iceCream                 1         
 carrot                   1         
-home                     1         
 quiche                   2         
 noodles                  1         
 sauerkraut               2         

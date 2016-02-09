@@ -22,7 +22,7 @@
 ['lemonade']
 ['buns', 'cheese', 'boil', 'egg']
 ['bun', 'humus', 'cola', 'avocado']
-['cheese', 'buns', 'g', 'pasta', 'pumpkin', 'leek', 'courgette', 'onion', 'chicken']
+['cheese', 'buns', 'g', 'pasta', 'pumpkin', 'leek', 'courgette', 'vegetable', 'chicken']
 ['mandarin', 'wine']
 ['coffee', 'sugar', 'milk']
 ['instant', 'meal', 'chicken', 'yoghurt', 'strawberry']

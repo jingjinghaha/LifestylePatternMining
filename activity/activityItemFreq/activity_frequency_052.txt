@@ -4,7 +4,6 @@ iceCream                 1
 sleep                    11        
 irritation               1         
 girlfriend               1         
-home                     1         
 sport                    1         
 trainen                  1         
 alcohol                  1         

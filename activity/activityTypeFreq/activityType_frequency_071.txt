@@ -5,6 +5,6 @@ work_study               29
 transportation3          31        
 rest                     15        
 diet                     5         
-others                   13        
+social                   5         
 sport                    7         
-social                   4         
+others                   12        

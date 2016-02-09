@@ -7,7 +7,6 @@ sleep                    15
 terrace                  1         
 chat                     1         
 dish                     2         
-home                     5         
 dress                    16        
 prepare                  2         
 sit                      6         
@@ -39,5 +38,4 @@ work                     14
 bed                      5         
 shower                   11        
 clean                    4         
-groceries                4         
 pack                     5         

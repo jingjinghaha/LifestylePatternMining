@@ -1,6 +1,6 @@
 ['sandwich']
 ['pasta']
-['beer', 'red', 'wine']
+['beer', 'wine']
 ['cereals']
 ['sandwich']
 ['sandwich']

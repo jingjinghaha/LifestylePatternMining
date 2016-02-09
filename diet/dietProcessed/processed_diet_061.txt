@@ -5,7 +5,7 @@
 ['sandwich', 'apple']
 ['chicken', 'rice']
 ['beer']
-['banana', 'egg', 'tomato', 'onion']
+['banana', 'egg', 'tomato', 'vegetable']
 ['apple']
 ['snack', 'pizza']
 ['beer']

@@ -6,11 +6,9 @@ stability                1
 sleep                    13        
 gala                     1         
 table                    1         
-home                     4         
 activity                 1         
 dress                    1         
 pick                     1         
-city                     1         
 tv                       2         
 movie                    2         
 make                     1         

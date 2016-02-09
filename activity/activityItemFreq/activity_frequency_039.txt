@@ -5,9 +5,7 @@ rest                     1
 walk                     9         
 computer                 6         
 sleep                    13        
-home                     11        
 chicken                  1         
-city                     7         
 tv                       2         
 charge                   15        
 bike                     29        

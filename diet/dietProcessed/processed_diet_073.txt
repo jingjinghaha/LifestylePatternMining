@@ -1,6 +1,6 @@
 ['sandwich', 'meat', 'soup']
 ['soup', 'noodles']
-['red', 'wine']
+['wine']
 ['chocolate']
 ['piece', 'bread', 'tea']
 ['sandwich']

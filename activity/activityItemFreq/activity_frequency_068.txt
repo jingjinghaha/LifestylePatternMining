@@ -3,13 +3,11 @@ give                     1
 thereafter               1         
 walk                     12        
 sleep                    3         
-home                     6         
 breakfast                3         
 sport                    1         
 dress                    1         
 haag                     1         
 market                   2         
-city                     1         
 group                    2         
 zumba                    1         
 sit                      2         

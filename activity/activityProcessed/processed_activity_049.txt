@@ -65,7 +65,7 @@
 ['cook']
 ['shower']
 ['drive', 'car']
-['sleep', 'home']
+['sleep']
 ['drive', 'car']
 ['shower']
 ['walk']

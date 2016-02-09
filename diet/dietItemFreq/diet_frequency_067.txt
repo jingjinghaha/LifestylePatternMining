@@ -13,7 +13,6 @@ sweet                    1
 vegetable                1         
 white                    1         
 yoghurt                  16        
-red                      3         
 coffee                   3         
 cappuccino               4         
 cocktail                 1         
@@ -25,7 +24,6 @@ muesli                   15
 meat                     1         
 salad                    5         
 potato                   4         
-healthy                  1         
 sandwich                 22        
 shrimp                   1         
 soup                     1         

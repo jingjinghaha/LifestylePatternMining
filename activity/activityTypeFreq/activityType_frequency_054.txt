@@ -7,4 +7,4 @@ diet                     8
 rest                     15        
 others                   16        
 sport                    3         
-social                   11        
+social                   14        

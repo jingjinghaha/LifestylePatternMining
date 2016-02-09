@@ -8,7 +8,6 @@ shake                    2
 protein                  4         
 noodles                  1         
 chicken                  2         
-red                      1         
 beef                     1         
 sugar                    1         
 beer                     2         

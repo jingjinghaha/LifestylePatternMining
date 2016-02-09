@@ -42,7 +42,7 @@
 ['rice', 'chicken']
 ['custard']
 ['sandwich', 'egg']
-['banana', 'milkshake']
+['banana', 'milk']
 ['sandwich', 'bread', 'bread']
 ['potato', 'bean', 'meat']
 ['chocolate']

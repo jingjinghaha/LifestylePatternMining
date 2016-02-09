@@ -4,6 +4,6 @@ entertainment            3
 work_study               11        
 transportation3          29        
 rest                     13        
-others                   19        
+others                   18        
 sport                    4         
-social                   1         
+social                   2         

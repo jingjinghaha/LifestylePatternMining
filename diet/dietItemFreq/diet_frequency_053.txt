@@ -12,7 +12,6 @@ sugar                    1
 beer                     2         
 vegetable                4         
 banana                   2         
-red                      1         
 kiwi                     1         
 sandwich                 16        
 fish                     1         

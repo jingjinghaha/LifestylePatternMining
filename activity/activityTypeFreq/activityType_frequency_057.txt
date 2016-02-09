@@ -4,4 +4,4 @@ entertainment            3
 work_study               19        
 transportation3          1         
 rest                     6         
-others                   6         
+others                   4         

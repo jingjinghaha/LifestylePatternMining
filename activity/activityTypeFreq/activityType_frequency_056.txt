@@ -5,5 +5,5 @@ work_study               8
 social                   8         
 diet                     14        
 rest                     14        
-others                   22        
+others                   27        
 sport                    6         

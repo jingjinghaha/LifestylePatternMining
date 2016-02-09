@@ -1,6 +1,6 @@
 transportation1          46        
 transportation2          64        
-entertainment            43        
+entertainment            8         
 work_study               4         
 transportation3          17        
 diet                     13        

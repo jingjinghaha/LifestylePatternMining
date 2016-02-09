@@ -15,6 +15,9 @@ import visSimilarityDistribution
 import visSimilarityMat
 import visTFMat 
 import visTFIDFMat
+import visDailyPatternInterGroup
+import visDailyPatternIntraGroup
+import buildDietActTable
 
 plt.close('all')
 plt.clf()
@@ -72,3 +75,11 @@ visSimilarityMat.plotSimilarityMatrix('TFIDFEclud')
 # visualization of TF and TFIDF matrix
 visTFMat.visTFMatrix()
 visTFIDFMat.visTFIDFMatrix()
+
+# visualization of subject's daily pattern based best grouping results from KMeans
+visDailyPatternIntraGroup.visDailyPatternIntraGroup()
+visDailyPatternInterGroup.visDailyPatternInterGroup()
+
+# build excel file that combine the act/diet with sleep informaiton 
+buildDietActTable.buildDietActTableWithSlp()
+

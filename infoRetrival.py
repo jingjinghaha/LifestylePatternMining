@@ -80,8 +80,8 @@ def string2array(str):
 	return array 
 	
 def groupingAnalysis():
-	labelsDietType = string2array('1 2 3 2 3 1 1 3 1 0 1 1 1 3 3 0 1 1 1 1 1 3 3 3 0 3 2 1 0')
-	labelsActType = string2array('1 1 2 2 3 3 0 0 0 2 0 0 2 0 1 3 0 1 2 0 3 2 2 0 2 1 3 1 1')
+	labelsDietType = string2array('1 3 2 0 0 1 3 2 1 0 1 1 1 2 2 0 1 1 1 3 2 2 2 2 0 2 3 3 0')
+	labelsActType = string2array('0 2 0 0 2 1 1 1 2 0 1 1 0 1 3 1 2 3 0 1 2 0 0 1 0 3 1 3 3')
 
 	groupDiet = getGroups(labelsDietType)
 	groupAct = getGroups(labelsActType)
@@ -108,8 +108,8 @@ def groupingAnalysis():
 					dd[key1][key2] += 1 
 	print dd 			
 		
-	labelsActItem = string2array('3 3 2 2 3 3 0 0 0 0 1 1 2 1 0 1 3 0 0 1 3 0 2 1 0 0 3 1 0')
-	labelsDietItem = string2array('2 3 2 0 2 1 1 2 2 1 1 2 1 2 3 1 1 1 2 2 2 2 2 2 3 2 1 3 1')
+	labelsActItem = string2array('0 0 3 3 0 2 1 1 0 1 2 2 3 2 1 2 2 1 1 2 0 1 3 2 1 1 2 2 1')
+	labelsDietItem = string2array('2 0 3 0 3 1 1 3 3 0 1 2 2 3 0 3 1 1 3 2 3 3 3 3 0 3 1 0 0')
 
 	groupDiet = getGroups(labelsDietItem)
 	groupAct = getGroups(labelsActItem)
@@ -135,6 +135,8 @@ def groupingAnalysis():
 				if item in groupAct[key2]:
 					dd[key1][key2] += 1 
 	print dd 
+
+# groupingAnalysis()
 
 # getSleepInfo()
 

@@ -13,11 +13,10 @@ orange                   6
 pesto                    2         
 yoghurt                  12        
 banana                   6         
-red                      2         
 pizza                    1         
 sandwich                 6         
 salmon                   3         
-vegetable                1         
+vegetable                2         
 cookie                   1         
 pasta                    5         
 muesli                   12        
@@ -25,7 +24,6 @@ bread                    8
 tomato                   2         
 rice                     3         
 bar                      1         
-onion                    1         
 salad                    4         
 potato                   4         
 curry                    1         

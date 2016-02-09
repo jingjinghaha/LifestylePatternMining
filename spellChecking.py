@@ -19,8 +19,8 @@ def train(features):
 		model[f] += 1
 	return model
 
-NWORDS = train(words(file('big.txt').read()))
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
+# NWORDS = train(words(file('big.txt').read()))
+# alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
 def edits1(word):
 	s = [(word[:i], word[i:]) for i in range(len(word) + 1)]

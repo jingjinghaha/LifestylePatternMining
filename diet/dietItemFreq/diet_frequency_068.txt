@@ -9,7 +9,6 @@ beef                     1
 smoothie                 1         
 orange                   4         
 yoghurt                  6         
-red                      2         
 pizza                    1         
 sandwich                 13        
 chocolate                2         

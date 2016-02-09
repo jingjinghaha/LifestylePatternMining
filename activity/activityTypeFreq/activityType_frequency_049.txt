@@ -4,4 +4,5 @@ entertainment            9
 work_study               20        
 diet                     20        
 rest                     16        
-others                   10        
+social                   1         
+others                   9         

@@ -18,7 +18,6 @@ stamp                    1
 orange                   10        
 yoghurt                  18        
 fish                     2         
-red                      2         
 pizza                    1         
 kiwi                     1         
 sandwich                 13        

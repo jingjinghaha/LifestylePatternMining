@@ -1,11 +1,9 @@
 shop                     1         
 garbage                  1         
 cinema                   1         
-back                     1         
 mountainbike             1         
 walk                     2         
 sleep                    14        
-home                     1         
 muffins                  1         
 rid                      2         
 horse                    2         

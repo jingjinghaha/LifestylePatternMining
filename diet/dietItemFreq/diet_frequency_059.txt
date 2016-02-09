@@ -15,7 +15,6 @@ homemade                 1
 vegetable                1         
 yoghurt                  1         
 nut                      1         
-red                      1         
 pumpkin                  2         
 butter                   1         
 sandwich                 14        

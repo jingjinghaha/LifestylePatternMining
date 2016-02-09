@@ -1,8 +1,9 @@
-meat                     5         
-vegetables               8         
-drink                    7         
-grain                    26        
-others                   1         
-dairy                    9         
-fish                     3         
-alcohol                  6         
+meatP                    4         
+dairyP                   9         
+vegetables               5         
+alcoholD                 6         
+starchyP                 4         
+others                   3         
+compositeP               27        
+seafood                  3         
+grainP                   4         

@@ -1,10 +1,10 @@
 transportation1          293       
+transportation2          807       
+entertainment            380       
+work_study               470       
 transportation3          507       
-transportation2          803       
-entertainment            435       
-work_study               482       
-diet                     219       
-rest                     351       
-others                   504       
+diet                     226       
+rest                     354       
+others                   449       
 sport                    100       
-social                   111       
+social                   133       

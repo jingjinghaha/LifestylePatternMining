@@ -24,7 +24,6 @@ dry                      1
 yoghurt                  1         
 meat                     7         
 potato                   1         
-healthy                  1         
 drop                     1         
 fries                    2         
 frenh                    1         

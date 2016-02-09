@@ -8,11 +8,9 @@ sleep                    15
 church                   1         
 dish                     1         
 lesson                   3         
-city                     1         
 tv                       3         
 movie                    2         
 charge                   5         
-behind                   2         
 bike                     1         
 lecture                  2         
 chill                    1         

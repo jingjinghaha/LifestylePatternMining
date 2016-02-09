@@ -2,7 +2,6 @@ shop                     5
 maximum                  1         
 walk                     8         
 sleep                    8         
-home                     4         
 lesson                   1         
 sport                    1         
 mountain                 1         

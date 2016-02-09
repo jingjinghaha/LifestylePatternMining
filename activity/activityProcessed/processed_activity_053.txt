@@ -29,7 +29,7 @@
 ['study']
 ['travel', 'ov']
 ['watch', 'movie']
-['sleep', 'home']
+['sleep']
 ['shower']
 ['travel', 'ov']
 ['shop']

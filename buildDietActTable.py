@@ -252,12 +252,13 @@ def buildDietWithSleepExcel():
 
 	workbookW.save('diet/dietTableWithSleep.xls')
 
-for subjectID in available_list:
-	buildSingleActExcel(subjectID)
-	buildSingleDietExcel(subjectID)
+def buildDietActTableWithSlp():
+	for subjectID in available_list:
+		buildSingleActExcel(subjectID)
+		buildSingleDietExcel(subjectID)
 
-buildActExcel()
-buildDietExcel()
+	buildActExcel()
+	buildDietExcel()
 
-buildActWithSleepExcel()
-buildDietWithSleepExcel()
+	buildActWithSleepExcel()
+	buildDietWithSleepExcel()

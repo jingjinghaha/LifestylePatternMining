@@ -12,13 +12,11 @@ sauerkraut               1
 beef                     1         
 gyros                    1         
 beer                     1         
-vegetable                2         
+vegetable                3         
 yoghurt                  8         
-red                      1         
 pizza                    1         
 coffee                   8         
 sandwich                 15        
-salad                    1         
 cocktail                 1         
 doner                    1         
 drink                    1         
@@ -33,7 +31,7 @@ bread                    2
 butter                   2         
 cucumber                 1         
 meat                     3         
-onion                    1         
+salad                    1         
 potato                   2         
 gree                     1         
 shrimp                   1         

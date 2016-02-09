@@ -81,7 +81,7 @@
 ['walk']
 ['train']
 ['cycle']
-['home', 'parent', 'place']
+['parent', 'place']
 ['charge']
 ['drive', 'car']
 ['play', 'hockey', 'game', 'injure']

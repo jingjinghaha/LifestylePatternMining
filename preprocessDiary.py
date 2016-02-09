@@ -81,5 +81,5 @@ def preprocessDailyDiary():
 			preprocessing('activity/activityFromExcel/activity_'+subjectID+'_'+str(n)+'.txt','activity/activityProcessed/processed_activity_'+subjectID+'_'+str(n)+'.txt')
 			preprocessing('diet/dietFromExcel/diet_'+subjectID+'_'+str(n)+'.txt','diet/dietProcessed/processed_diet_'+subjectID+'_'+str(n)+'.txt')
 			
-#preprocessDiary()
+# preprocessDiary()
 # preprocessDailyDiary()

@@ -3,7 +3,6 @@ wash                     1
 computer                 6         
 sleep                    20        
 ready                    2         
-home                     4         
 breakfast                1         
 clothe                   1         
 lie                      1         

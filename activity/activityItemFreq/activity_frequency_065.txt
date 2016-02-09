@@ -8,7 +8,6 @@ walk                     9
 pasta                    1         
 computer                 1         
 sleep                    15        
-home                     7         
 dish                     2         
 laundry                  1         
 lesson                   3         
@@ -19,7 +18,6 @@ photo                    1
 tv                       2         
 make                     1         
 administration           1         
-behind                   2         
 crosstrainer             2         
 run                      4         
 text                     1         

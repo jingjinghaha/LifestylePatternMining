@@ -2,9 +2,9 @@ transportation1          6
 transportation2          41        
 entertainment            31        
 work_study               10        
-social                   16        
+social                   17        
 transportation3          20        
 diet                     34        
 rest                     16        
-others                   51        
+others                   44        
 sport                    10        

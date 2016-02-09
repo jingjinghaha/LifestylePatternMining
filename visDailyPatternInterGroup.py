@@ -22,10 +22,10 @@ def string2array(str):
 
 Domain = ['ActItem','DietItem','DietType','ActType']
 available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
-labelsActItem = string2array('3 3 2 2 3 3 0 0 0 0 1 1 2 1 0 1 3 0 0 1 3 0 2 1 0 0 3 1 0')
-labelsDietItem = string2array('2 3 2 0 2 1 1 2 2 1 1 2 1 2 3 1 1 1 2 2 2 2 2 2 3 2 1 3 1')
-labelsDietType = string2array('1 2 3 2 3 1 1 3 1 0 1 1 1 3 3 0 1 1 1 1 1 3 3 3 0 3 2 1 0')
-labelsActType = string2array('1 1 2 2 3 3 0 0 0 2 0 0 2 0 1 3 0 1 2 0 3 2 2 0 2 1 3 1 1')
+labelsActItem = string2array('0 0 3 3 0 2 1 1 0 1 2 2 3 2 1 2 2 1 1 2 0 1 3 2 1 1 2 2 1')
+labelsDietItem = string2array('2 0 3 0 3 1 1 3 3 0 1 2 2 3 0 3 1 1 3 2 3 3 3 3 0 3 1 0 0')
+labelsDietType = string2array('1 3 2 0 0 1 3 2 1 0 1 1 1 2 2 0 1 1 1 3 2 2 2 2 0 2 3 3 0')
+labelsActType = string2array('0 2 0 0 2 1 1 1 2 0 1 1 0 1 3 1 2 3 0 1 2 0 0 1 0 3 1 3 3')
 
 def singleSubjectDailyArray(domain,subjectID):
 	'''
@@ -183,8 +183,9 @@ def visSBDailyPatternInterGroup(domain,subjectID):
 	plt.title(domain+'_'+subjectID+'_'+str(groupID)+'_InterGroupDailyPattern')
 	plt.savefig('visInterGroupDailyPattern/'+domain+'/daily'+domain+'Pattern_'+subjectID)
 
-for domain in Domain:
-	for subjectID in available_list:
-		visSBDailyPatternInterGroup(domain,subjectID)
+def visDailyPatternInterGroup():
+	for domain in Domain:
+		for subjectID in available_list:
+			visSBDailyPatternInterGroup(domain,subjectID)
 
 # visSBDailyPatternInterGroup('DietItem','039')

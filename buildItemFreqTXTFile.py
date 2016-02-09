@@ -93,5 +93,5 @@ def buildDailyItemFreqTXTFile():
 			f_act.close()
 			f_diet.close()
 
-#buildItemFreqTXTFile()
+# buildItemFreqTXTFile()
 #buildDailyItemFreqTXTFile() 

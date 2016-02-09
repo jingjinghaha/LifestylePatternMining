@@ -43,7 +43,7 @@ def KM(domain, metric, n_clusters):
 		# elif domain == 'ActDietType':
 			# X = utilise.genCombiArray(utilise.ActTypeTfidfArray(),utilise.DietTypeTfidfArray())
 	X = utilise.normArray(X)
-	# print X.shape
+	print X.shape
 
 	# range_n_clusters = [2, 3, 4, 5, 6]
 	# range_n_clusters = [4]
@@ -98,7 +98,7 @@ def KM(domain, metric, n_clusters):
 		# plt.savefig('visClustering'+domain+'Pattern/KMeans_'+metric+'_'+str(n_clusters)+'_'+str(j))
 		# # plt.show()
 		
-for n_clusters in range(2,6):
+for n_clusters in range(4,5):
 	for domain in Domain:
 		for metric in Metric:
 			KM(domain, metric,n_clusters)
