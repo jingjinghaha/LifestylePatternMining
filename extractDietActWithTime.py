@@ -57,44 +57,9 @@ def extract_act_diet_with_time(subjectID):
 	f_act.close()
 	f_diet.close()
 
-#extract daily diet and activity information of each subject 
-def extractSingleDailyActDiet(subjectID):
-	file_location = 'subject_template_'+subjectID+'.xlsx'
-	workbook = xlrd.open_workbook(file_location)
-	sheet = workbook.sheet_by_index(3)
-	duration = infoRetrival.getDuration(subjectID)
-	for n in range(1,duration+1):
-		f_act = open('activityFromExcel/activity_'+subjectID+'_'+str(n)+'.txt','w')
-		f_diet = open('dietFromExcel/diet_'+subjectID+'_'+str(n)+'.txt','w')
-		f_act.close()
-		f_diet.close()
-	
-	count = 0 
-	for row in range(8,sheet.nrows):
-		if sheet.cell_value(row,0):
-			count += 1
-		if sheet.cell_value(row,3):
-			temp = str(sheet.cell_value(row,3).encode('utf-8'))
-			f_act = open('activityFromExcel/activity_'+subjectID+'_'+str(count)+'.txt','a')
-			f_act.write(temp)
-			f_act.write('\n')
-			f_act.close()
-		if sheet.cell_value(row,4):
-			temp = str(sheet.cell_value(row,4))
-			f_diet = open('dietFromExcel/diet_'+subjectID+'_'+str(count)+'.txt','a')
-			f_diet.write(temp)
-			f_diet.write('\n')
-			f_diet.close()
-
 #extract the diet and activity information with time into a txt file
 def extractDietActWithTime():
 	for subjectID in available_list:
 		print subjectID
 		extract_act_diet_with_time(subjectID)
-
-#extract daily diet and activity information into corresponding txt files 
-def extractDailyActDiet():
-	for subjectID in available_list:
-		print subjectID
-		extractSingleDailyActDiet(subjectID)
 	

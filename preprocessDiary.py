@@ -50,7 +50,9 @@ def preprocessing(in_file, out_file):
 						token = token.encode('utf-8')
 						if token!='peer' and token!='quark' and token!='flat' and token!='go' and token!='take' and \
 						token!='get' and token!='forget' and token!='stuff' and token!='brown' and token!='bad' and \
-						token!='child' and token!='bring' and token!='cream' and token!='mm' and token!='sensor':
+						token!='child' and token!='bring' and token!='cream' and token!='mm' and token!='sensor' and \
+						token!='stuf' and token!='groceries' and token!='back' and token!='home' and token!='behind' and \
+						token!='city' and token!='dog' and token!='red' and token!='healthy':
 							new_tokens.append(token)
 		if new_tokens:
 			print >> fw, new_tokens
@@ -73,6 +75,7 @@ def preprocessDiary():
 def preprocessDailyDiary():
 	print 'in preprocessDailyDiary()'
 	for subjectID in available_list:
+		print subjectID
 		duration = infoRetrival.getDuration(subjectID)
 		for n in range(1,duration+1):
 			preprocessing('activity/activityFromExcel/activity_'+subjectID+'_'+str(n)+'.txt','activity/activityProcessed/processed_activity_'+subjectID+'_'+str(n)+'.txt')

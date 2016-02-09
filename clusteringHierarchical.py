@@ -108,7 +108,8 @@ def HC(domain,para):
 	# heatmap.show()
 	heatmap.export('VisClustering'+domain+'Pattern/Hierarchy_'+para+'_'+method+'.png')
 
-# for domain in Domain:
-	# HC(domain,'TFIDF')
+for domain in Domain:
+	for sim in Sim:
+		HC(domain,sim)
 
-HC('ActItem','TFIDFEclud')
+# HC('ActItem','TFIDFEclud')

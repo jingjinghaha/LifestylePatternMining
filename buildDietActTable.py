@@ -155,6 +155,13 @@ def buildActWithSleepExcel():
 				day = sheet2.cell_value(rowRSlp,1)
 				# print day 
 				if sheet1.cell_value(rowRAct,1) == day:
+					if rowRSlp < sheet2.nrows -1:
+						if day == sheet2.cell_value(rowRSlp+1,1):
+							temp = int(day.split('.')[1]) - 1
+							day = day.split('.')[0]+'.'+str(temp)+'.'+day.split('.')[2]
+						else:
+							temp = int(day.split('.')[1]) - 1
+							day = day.split('.')[0]+'.'+str(temp)+'.'+day.split('.')[2]
 					ws.write(rowW,0,sub)
 					ws.write(rowW,1,day)
 					ws.write(rowW,2,sheet1.cell_value(rowRAct,2))
@@ -211,6 +218,13 @@ def buildDietWithSleepExcel():
 				day = sheet2.cell_value(rowRSlp,1)
 				# print day 
 				if sheet1.cell_value(rowRAct,1) == day:
+					if rowRSlp < sheet2.nrows -1:
+						if day == sheet2.cell_value(rowRSlp+1,1):
+							temp = int(day.split('.')[1]) - 1
+							day = day.split('.')[0]+'.'+str(temp)+'.'+day.split('.')[2]
+						else:
+							temp = int(day.split('.')[1]) - 1
+							day = day.split('.')[0]+'.'+str(temp)+'.'+day.split('.')[2]
 					ws.write(rowW,0,sub)
 					ws.write(rowW,1,day)
 					ws.write(rowW,2,sheet1.cell_value(rowRAct,2))

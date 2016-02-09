@@ -72,7 +72,7 @@ def correct(word):
 		word = 'champignon'
 	if word == 'cumcumber':
 		word = 'cucumber'
-	if word == 'vegetables' or word == 'vegetarian' or word == 'vegies' or word =='vegetrable' or word=='vegetables80g':
+	if word == 'vegetables' or word == 'vegetarian' or word == 'vegies' or word =='vegetrable' or word=='vegetables80g' or word=='onion':
 		word = 'vegetable'
 	if word == 'tandori' or word=='pastabroccolichicken':
 		word = 'chicken'
@@ -132,7 +132,7 @@ def correct(word):
 		word = 'drink'
 	if word == 'pannacotta':
 		word = 'pudding'
-	if word == 'nutmilk' or word == 'chocolademilk':
+	if word == 'nutmilk' or word == 'chocolademilk' or word == 'milkshake':
 		word = 'milk'
 	if word == 'coke' or word == 'rucola':
 		word = 'cola'

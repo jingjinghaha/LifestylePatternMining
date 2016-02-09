@@ -12,11 +12,11 @@ Type2 = ['ov','car','bus','train','taxi','drive']
 #transportaion3
 Type3 = ['bike','cycle']
 #work/study related
-Type4 = ['craftwork','traineeship','exam','homework','read','work','lesson','sit','university','lecture','school','study','workout']
+Type4 = ['craftwork','traineeship','exam','homework','read','work','lesson','sit','university','lecture','school','study']
 #entertainment:
-Type5 = ['dog','shop','travel','watch','game','play','computer','tv','movie']
+Type5 = ['shop','travel','watch','game','play','computer','tv','movie','jacuzzi','workout','pub']
 #social related
-Type6 = ['activity','meet','friends','call','party','talk','phone']
+Type6 = ['activity','meet','friends','call','party','talk','phone','parent','visit']
 #sport related
 Type7 = ['run','sport','gym','hockey','swim','fitness','soccer']
 #diet related
@@ -24,7 +24,7 @@ Type8 = ['food','drink','cheese','dish','eat','diner','breakfast','lunch','bread
 #rest related
 Type9 = ['rest','sleep','relax','bed']
 #others
-Type10 = ['wait','home','household','pack','shower','charge','recharge','clean','dress','toilet']
+Type10 = ['wait','household','pack','shower','charge','recharge','clean','dress','toilet','babysitting']
 
 def actType(word):
     act_type = 'none'

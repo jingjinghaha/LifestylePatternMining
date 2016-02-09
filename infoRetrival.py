@@ -79,61 +79,62 @@ def string2array(str):
 	array = np.array(temp)
 	return array 
 	
-labelsDietType = string2array('1 2 3 2 3 1 1 3 1 0 1 1 1 3 3 0 1 1 1 1 1 3 3 3 0 3 2 1 0')
-labelsActType = string2array('1 1 2 2 3 3 0 0 0 2 0 0 2 0 1 3 0 1 2 0 3 2 2 0 2 1 3 1 1')
+def groupingAnalysis():
+	labelsDietType = string2array('1 2 3 2 3 1 1 3 1 0 1 1 1 3 3 0 1 1 1 1 1 3 3 3 0 3 2 1 0')
+	labelsActType = string2array('1 1 2 2 3 3 0 0 0 2 0 0 2 0 1 3 0 1 2 0 3 2 2 0 2 1 3 1 1')
 
-groupDiet = getGroups(labelsDietType)
-groupAct = getGroups(labelsActType)
-print groupAct
-print groupDiet
+	groupDiet = getGroups(labelsDietType)
+	groupAct = getGroups(labelsActType)
+	print groupAct
+	print groupDiet
 
-dd = {}
-for key1 in groupAct:
-	dd[key1] = {}
-	for key2 in groupDiet:
-		dd[key1][key2] = 0 
-		for item in groupAct[key1]:
-			if item in groupDiet[key2]:
-				dd[key1][key2] += 1 
-print dd 
-				
-dd = {}
-for key1 in groupDiet:
-	dd[key1] = {}
-	for key2 in groupAct:
-		dd[key1][key2] = 0 
-		for item in groupDiet[key1]:
-			if item in groupAct[key2]:
-				dd[key1][key2] += 1 
-print dd 			
-	
-labelsActItem = string2array('3 3 2 2 3 3 0 0 0 0 1 1 2 1 0 1 3 0 0 1 3 0 2 1 0 0 3 1 0')
-labelsDietItem = string2array('2 3 2 0 2 1 1 2 2 1 1 2 1 2 3 1 1 1 2 2 2 2 2 2 3 2 1 3 1')
+	dd = {}
+	for key1 in groupAct:
+		dd[key1] = {}
+		for key2 in groupDiet:
+			dd[key1][key2] = 0 
+			for item in groupAct[key1]:
+				if item in groupDiet[key2]:
+					dd[key1][key2] += 1 
+	print dd 
+					
+	dd = {}
+	for key1 in groupDiet:
+		dd[key1] = {}
+		for key2 in groupAct:
+			dd[key1][key2] = 0 
+			for item in groupDiet[key1]:
+				if item in groupAct[key2]:
+					dd[key1][key2] += 1 
+	print dd 			
+		
+	labelsActItem = string2array('3 3 2 2 3 3 0 0 0 0 1 1 2 1 0 1 3 0 0 1 3 0 2 1 0 0 3 1 0')
+	labelsDietItem = string2array('2 3 2 0 2 1 1 2 2 1 1 2 1 2 3 1 1 1 2 2 2 2 2 2 3 2 1 3 1')
 
-groupDiet = getGroups(labelsDietItem)
-groupAct = getGroups(labelsActItem)
-print groupAct
-print groupDiet
+	groupDiet = getGroups(labelsDietItem)
+	groupAct = getGroups(labelsActItem)
+	print groupAct
+	print groupDiet
 
-dd = {}
-for key1 in groupAct:
-	dd[key1] = {}
-	for key2 in groupDiet:
-		dd[key1][key2] = 0 
-		for item in groupAct[key1]:
-			if item in groupDiet[key2]:
-				dd[key1][key2] += 1 
-print dd 
-				
-dd = {}
-for key1 in groupDiet:
-	dd[key1] = {}
-	for key2 in groupAct:
-		dd[key1][key2] = 0 
-		for item in groupDiet[key1]:
-			if item in groupAct[key2]:
-				dd[key1][key2] += 1 
-print dd 
+	dd = {}
+	for key1 in groupAct:
+		dd[key1] = {}
+		for key2 in groupDiet:
+			dd[key1][key2] = 0 
+			for item in groupAct[key1]:
+				if item in groupDiet[key2]:
+					dd[key1][key2] += 1 
+	print dd 
+					
+	dd = {}
+	for key1 in groupDiet:
+		dd[key1] = {}
+		for key2 in groupAct:
+			dd[key1][key2] = 0 
+			for item in groupDiet[key1]:
+				if item in groupAct[key2]:
+					dd[key1][key2] += 1 
+	print dd 
 
 # getSleepInfo()
 

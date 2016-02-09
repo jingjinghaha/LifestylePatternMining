@@ -21,12 +21,15 @@ plt.clf()
 
 # extract diet and activity information from excel
 extractDietAct.extractDietAct()
+extractDietAct.extractDailyActDiet()
 
 # preprocessing include: tokenization, word removal, spell checking, lemmatization
 preprocessDiary.preprocessDiary()
+preprocessDiary.preprocessDailyDiary()
 
 # build the diet/activity index with Item frequency in txt files 
 buildItemFreqTXTFile.buildItemFreqTXTFile()
+buildItemFreqTXTFile.buildDailyItemFreqTXTFile()
 
 # build diet/activity type frequency in txt file 
 buildTypeFreqTXTFile.buildTypeFreqTXTFile()

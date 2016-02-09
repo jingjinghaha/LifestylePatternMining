@@ -51,8 +51,8 @@ def singleSubjectDailyArray(domain,subjectID):
 		for i in range(duration):
 			ItemIndex = buildItemIndex.build_daily_single_activity_index(subjectID,i+1)
 			for key in item_dict:
-				if "'"+item_dict[key]+"'" in ItemIndex:
-					array[i,key] = ItemIndex["'"+item_dict[key]+"'"]
+				if item_dict[key] in ItemIndex:
+					array[i,key] = ItemIndex[item_dict[key]]
 				else:
 					array[i,key] = 0.0
 	
@@ -61,8 +61,8 @@ def singleSubjectDailyArray(domain,subjectID):
 			ItemIndex = buildItemIndex.build_daily_single_diet_index(subjectID,i+1)
 			# print ItemIndex
 			for key in item_dict:
-				if "'"+item_dict[key]+"'" in ItemIndex:
-					array[i,key] = ItemIndex["'"+item_dict[key]+"'"]
+				if item_dict[key] in ItemIndex:
+					array[i,key] = ItemIndex[item_dict[key]]
 				else:
 					array[i,key] = 0.0
 	
