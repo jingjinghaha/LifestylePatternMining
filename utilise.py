@@ -369,11 +369,19 @@ def SimilarityDict(domain,sim = 'TFIDFCosin'):
 	# print Similarity_dict
 	return Similarity_dict
 
-def normVec(vec):
+def normVec_abs(vec):
 	abs = np.sqrt(sum(np.power(vec,2)))
 	return vec/abs
 
+def normVec_max(vec):
+	max = np.max(vec)
+	return vec/max
+
+def normVec_sum(vec):
+	sum = np.sum(vec)
+	return vec/sum
+
 def normArray(array):
 	for j in range(array.shape[0]):
-		array[j] = normVec(array[j])
+		array[j] = normVec_sum(array[j])
 	return array

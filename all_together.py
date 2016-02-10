@@ -18,6 +18,7 @@ import visTFIDFMat
 import visDailyPatternInterGroup
 import visDailyPatternIntraGroup
 import buildDietActTable
+import clusteringKmeansLabels
 
 plt.close('all')
 plt.clf()
@@ -75,6 +76,9 @@ visSimilarityMat.plotSimilarityMatrix('TFIDFEclud')
 # visualization of TF and TFIDF matrix
 visTFMat.visTFMatrix()
 visTFIDFMat.visTFIDFMatrix()
+
+# plot best labels got from KMeans 
+clusteringKmeansLabels.clusteringKmeansLabels()
 
 # visualization of subject's daily pattern based best grouping results from KMeans
 visDailyPatternIntraGroup.visDailyPatternIntraGroup()

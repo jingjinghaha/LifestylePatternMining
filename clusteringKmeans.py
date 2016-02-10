@@ -43,13 +43,16 @@ def KM(domain, metric, n_clusters):
 		# elif domain == 'ActDietType':
 			# X = utilise.genCombiArray(utilise.ActTypeTfidfArray(),utilise.DietTypeTfidfArray())
 	X = utilise.normArray(X)
-	print X.shape
-
+	# print X
+	# print X.shape
+	
+	Inertia = []
+	Labels = []
 	# range_n_clusters = [2, 3, 4, 5, 6]
 	# range_n_clusters = [4]
 	
 	# for n_clusters in range_n_clusters:
-	for j in range(5):
+	for j in range(200):
 		reduced_data = PCA(n_components=2).fit_transform(X)
 		# print X
 		# print reduced_data
@@ -57,9 +60,11 @@ def KM(domain, metric, n_clusters):
 		# kmeans.fit(reduced_data)
 		kmeans.fit(X)
 		inertia = kmeans.inertia_
-		print domain,metric,inertia
+		Inertia.append(inertia)
+		# print domain,metric,inertia
 		labels = kmeans.labels_
-		print labels
+		Labels.append(labels)
+		# print labels
 		
 		# # plot based on PCA 
 		# # Step size of the mesh. Decrease to increase the quality of the VQ.
@@ -97,10 +102,20 @@ def KM(domain, metric, n_clusters):
 		# plt.yticks(())
 		# plt.savefig('visClustering'+domain+'Pattern/KMeans_'+metric+'_'+str(n_clusters)+'_'+str(j))
 		# # plt.show()
-		
-for n_clusters in range(4,5):
+	min = np.min(Inertia)
+	for i in range(len(Inertia)):
+		if Inertia[i] == min:
+			inertia = Inertia[i] 
+			labels = Labels[i] 
+	print domain,metric,inertia, labels
+
+for n_clusters in range(2,4):
 	for domain in Domain:
-		for metric in Metric:
-			KM(domain, metric,n_clusters)
+		KM(domain, 'TF',n_clusters)
+
+# for n_clusters in range(4,5):
+	# for domain in Domain:
+		# for metric in Metric:
+			# KM(domain, metric,n_clusters)
 
 # KM('ActItem', 'TFIDF')

@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def visTFMatrix():
-	# tf = utilise.normArray(utilise.genActItemTFArray())
+	# tf_ActItem = utilise.normArray(utilise.genActItemTFArray())
 	tf_ActItem = utilise.genActItemTFArray()
 	plt.figure()
 	plt.matshow(tf_ActItem)
@@ -18,7 +18,7 @@ def visTFMatrix():
 	plt.title('actTFMatrix')
 	plt.savefig('visTForTFIDFMatrix/actTFMatrix')
 	
-	# tf = utilise.normArray(utilise.genDietItemTFArray())
+	# tf_DietItem = utilise.normArray(utilise.genDietItemTFArray())
 	tf_DietItem = utilise.genDietItemTFArray()
 	plt.figure()
 	plt.matshow(tf_DietItem)
@@ -33,7 +33,7 @@ def visTFMatrix():
 	plt.title('actDietTFMatrix')
 	plt.savefig('visTForTFIDFMatrix/actDietTFMatrix')
 	
-	# tf = utilise.normArray(utilise.genDietTypeTFArray())
+	# tf_DietType = utilise.normArray(utilise.genDietTypeTFArray())
 	tf_DietType = utilise.genDietTypeTFArray()
 	plt.figure()
 	plt.matshow(tf_DietType)
@@ -41,7 +41,7 @@ def visTFMatrix():
 	plt.title('dietTypeTFMatrix')
 	plt.savefig('visTForTFIDFMatrix/dietTypeTFMatrix')
 	
-	# tf = utilise.normArray(utilise.genActTypeTFArray())
+	# tf_ActType = utilise.normArray(utilise.genActTypeTFArray())
 	tf_ActType = utilise.genActTypeTFArray()
 	plt.figure()
 	plt.matshow(tf_ActType)
@@ -56,4 +56,4 @@ def visTFMatrix():
 	plt.title('actDietTypeTFMatrix')
 	plt.savefig('visTForTFIDFMatrix/actDietTypeTFMatrix')
 
-# visTFMatrix()
+visTFMatrix()

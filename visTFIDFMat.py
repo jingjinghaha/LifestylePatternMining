@@ -9,16 +9,16 @@ import utilise
 import matplotlib.pyplot as plt
 
 def visTFIDFMatrix():
-	# tfidf = utilise.normArray(utilise.ActItemTfidfArray())
-	tfidf1 = utilise.ActItemTfidfArray()
+	tfidf1 = utilise.normArray(utilise.ActItemTfidfArray())
+	# tfidf1 = utilise.ActItemTfidfArray()
 	plt.figure()
 	plt.matshow(tfidf1)
 	plt.colorbar()
 	plt.title('actTFIDFMatrix')
 	plt.savefig('visTForTFIDFMatrix/actTFIDFMatrix')
 	
-	# tfidf = utilise.normArray(utilise.DietItemTfidfArray())
-	tfidf2 = utilise.DietItemTfidfArray()
+	tfidf2 = utilise.normArray(utilise.DietItemTfidfArray())
+	# tfidf2 = utilise.DietItemTfidfArray()
 	plt.figure()
 	plt.matshow(tfidf2)
 	plt.colorbar()
@@ -32,16 +32,16 @@ def visTFIDFMatrix():
 	plt.title('actDietTFIDFMatrix')
 	plt.savefig('visTForTFIDFMatrix/actDietTFIDFMatrix')
 	
-	# tfidf = utilise.normArray(utilise.DietTypeTfidfArray())
-	tfidf2 = utilise.DietTypeTfidfArray()
+	tfidf2 = utilise.normArray(utilise.DietTypeTfidfArray())
+	# tfidf2 = utilise.DietTypeTfidfArray()
 	plt.figure()
 	plt.matshow(tfidf2)
 	plt.colorbar()
 	plt.title('dietTypeTFIDFMatrix')
 	plt.savefig('visTForTFIDFMatrix/dietTypeTFIDFMatrix')
 	
-	# tfidf = utilise.normArray(utilise.ActTypeTfidfArray())
-	tfidf1 = utilise.ActTypeTfidfArray()
+	tfidf1 = utilise.normArray(utilise.ActTypeTfidfArray())
+	# tfidf1 = utilise.ActTypeTfidfArray()
 	plt.figure()
 	plt.matshow(tfidf1)
 	plt.colorbar()
@@ -55,4 +55,4 @@ def visTFIDFMatrix():
 	plt.title('actDietTypeTFIDFMatrix')
 	plt.savefig('visTForTFIDFMatrix/actDietTypeTFIDFMatrix')
 
-# visTFIDFMatrix()
+visTFIDFMatrix()
