@@ -14,7 +14,7 @@ from nltk.corpus import stopwords
 # from nltk.stem.lancaster import LancasterStemmer
 # from nltk.stem.porter import PorterStemmer
 import spellChecking 
-import infoRetrival 
+import dietActInfoRetrv 
 
 available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
 
@@ -76,7 +76,7 @@ def preprocessDailyDiary():
 	print 'in preprocessDailyDiary()'
 	for subjectID in available_list:
 		print subjectID
-		duration = infoRetrival.getDuration(subjectID)
+		duration = dietActInfoRetrv.getDuration(subjectID)
 		for n in range(1,duration+1):
 			preprocessing('activity/activityFromExcel/activity_'+subjectID+'_'+str(n)+'.txt','activity/activityProcessed/processed_activity_'+subjectID+'_'+str(n)+'.txt')
 			preprocessing('diet/dietFromExcel/diet_'+subjectID+'_'+str(n)+'.txt','diet/dietProcessed/processed_diet_'+subjectID+'_'+str(n)+'.txt')

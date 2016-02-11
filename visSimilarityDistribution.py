@@ -56,4 +56,9 @@ def plotSimilarityDistribution(sim = 'TFIDFCosin'):
 	plt.xlim(0.0,1.0)
 	plt.savefig('visSimilarityDistributionHist/dietTypeSimilarityDistribution_'+sim)
 
-# plotSimilarityDistribution('TFIDFCosin')
+plotSimilarityDistribution('jaccard')
+plotSimilarityDistribution('novelJaccard')
+plotSimilarityDistribution('TFCosin')
+plotSimilarityDistribution('TFEclud')
+plotSimilarityDistribution('TFIDFCosin')
+plotSimilarityDistribution('TFIDFEclud')

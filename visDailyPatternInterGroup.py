@@ -9,7 +9,7 @@ import numpy as np
 import utilise 
 import buildItemIndex
 import buildTypeIndex
-import infoRetrival
+import dietActInfoRetrv
 import matplotlib.pyplot as plt
 
 def string2array(str):
@@ -41,7 +41,7 @@ def singleSubjectDailyArray(domain,subjectID):
 		item_dict = utilise.genActTypeDict()
 	# print item_dict
 	
-	duration = infoRetrival.getDuration(subjectID)
+	duration = dietActInfoRetrv.getDuration(subjectID)
 	x = duration 
 	n = len(item_dict)
 	dims = (x,n)
@@ -189,4 +189,3 @@ def visDailyPatternInterGroup():
 			visSBDailyPatternInterGroup(domain,subjectID)
 
 # visSBDailyPatternInterGroup('DietItem','039')
-visDailyPatternInterGroup()

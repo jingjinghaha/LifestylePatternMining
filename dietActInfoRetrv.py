@@ -50,14 +50,6 @@ def diaryTimeDict():
 		totalTimeDict[i] = getTimeDict(available_list[i])
 	return totalTimeDict
 
-def getDemoGInfo():
-	file_location = 'allSubjectsSleepDatamatrix.xls'
-	workbook = xlrd.open_workbook(file_location)
-	sheet = workbook.sheet_by_index(0)
-	
-	for subject in available_list:
-		for rowRSlp in range(1,sheet2.nrows):
-			pass 
 
 	
 def getGroups(labels):
@@ -140,8 +132,6 @@ def groupingAnalysis():
 	print dd 
 
 # groupingAnalysis()
-
-# getSleepInfo()
 
 # print diaryTimeDict()
 # tf = utilise.genActItemTFArray()
