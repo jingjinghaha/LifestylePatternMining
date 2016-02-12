@@ -38,6 +38,9 @@ def sihouetteScore(domain,metric):
 	range_n_clusters = [2, 3, 4, 5, 6] 
 
 	for n_clusters in range_n_clusters:
+		clusterer = KMeans(n_clusters=n_clusters, n_init = 200)
+		clusterer.fit(X)
+		cluster_labels = clusterer.labels_
 
 		if metric == 'TF':
 			# the labels are got from KMeans based on TF without PCA
@@ -87,9 +90,10 @@ def sihouetteScore(domain,metric):
 		
 		# The silhouette_score gives the average value for all the samples.
 		# This gives a perspective into the density and separation of the formed clusters
-		silhouette_avg = silhouette_score(X, labels)
-		print(domain, 'For n_clusters =', n_clusters,
+		silhouette_avg = silhouette_score(X, cluster_labels)
+		print(metric, domain, 'For n_clusters =', n_clusters,
 			  'The average silhouette_score is :', silhouette_avg)
 
-for domain in Domain:
-	sihouetteScore(domain,'TF')
+for metric in Metric:
+	for domain in Domain:
+		sihouetteScore(domain,metric)

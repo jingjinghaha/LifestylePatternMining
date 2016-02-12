@@ -168,9 +168,9 @@ def main(minSup, minConf):
 	goods = defaultdict(list)
 	noRules = True
 
-	goods = dataGenForAssoRule.genItemList()
+	goods = dataGenForAssoRule.genDietItemList()
 	print goods
-	dataset = dataGenForAssoRule.genDataSet()
+	dataset = dataGenForAssoRule.genDietDataSet()
 	print 'hahaha'
 	print dataset 
 
