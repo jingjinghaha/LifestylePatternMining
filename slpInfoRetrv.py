@@ -82,5 +82,60 @@ def getSlpFeatTabl():
 			
 	return feaTable
 		
+def getMornessLabel():
+	file_location = 'activity/activityTableWithSleep.xls'
+	workbook = xlrd.open_workbook(file_location)
+	sheet = workbook.sheet_by_index(0)
+	label = [] 
+
+	for row in range(1,sheet.nrows):
+		label.append(sheet.cell_value(row,4))
+
+	return label 
+
+def getEvenessLabel():
+	file_location = 'activity/activityTableWithSleep.xls'
+	workbook = xlrd.open_workbook(file_location)
+	sheet = workbook.sheet_by_index(0)
+	label = [] 
+
+	for row in range(1,sheet.nrows):
+		label.append(sheet.cell_value(row,5))
+
+	return label
+
+def getLarkLabel():
+	file_location = 'activity/activityTableWithSleep.xls'
+	workbook = xlrd.open_workbook(file_location)
+	sheet = workbook.sheet_by_index(0)
+	label = [] 
+
+	for row in range(1,sheet.nrows):
+		label.append(sheet.cell_value(row,6))
+
+	return label
+
+def getOwlLabel():
+	file_location = 'activity/activityTableWithSleep.xls'
+	workbook = xlrd.open_workbook(file_location)
+	sheet = workbook.sheet_by_index(0)
+	label = [] 
+
+	for row in range(1,sheet.nrows):
+		label.append(sheet.cell_value(row,7))
+
+	return label
+
+def getGender():
+	file_location = 'activity/activityTableWithSleep.xls'
+	workbook = xlrd.open_workbook(file_location)
+	sheet = workbook.sheet_by_index(0)
+	Gender = [] 
+
+	for row in range(1,sheet.nrows):
+		Gender.append(sheet.cell_value(row,15))
+
+	return Gender
+
 # getDemoGInfo()
 # getSlpFeatTabl()
