@@ -19,6 +19,7 @@ import visDailyPatternInterGroup
 import visDailyPatternIntraGroup
 import buildDietActTable
 import clusteringKmeansLabels
+import buildDietActTableWithFreq
 
 plt.close('all')
 plt.clf()
@@ -86,4 +87,4 @@ visDailyPatternInterGroup.visDailyPatternInterGroup()
 
 # build excel file that combine the act/diet with sleep informaiton 
 buildDietActTable.buildDietActTableWithSlp()
-
+buildDietActTableWithFreq.buildDietActTableWithSlpWithFreq()

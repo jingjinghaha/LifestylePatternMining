@@ -156,7 +156,7 @@ def KM_slp(n_clusters):
 	for j in range(200):
 		reduced_data = PCA(n_components=2).fit_transform(X)
 		kmeans = KMeans(init='k-means++', n_clusters=n_clusters, n_init=10)
-		kmeans.fit(reduced_data)
+		kmeans.fit(X)
 		
 		inertia = kmeans.inertia_
 		Inertia.append(inertia)
@@ -184,9 +184,9 @@ def KM_slp(n_clusters):
 			labels = Labels[i] 
 	print inertia, labels
 
-for n_clusters in range(5,7):
-	for domain in Domain:
-		KM(domain, 'TF',n_clusters)
+# for n_clusters in range(5,7):
+	# for domain in Domain:
+		# KM(domain, 'TF',n_clusters)
 
 # for n_clusters in range(5,7):
 	# for domain in Domain:
@@ -194,4 +194,4 @@ for n_clusters in range(5,7):
 			# KM(domain, metric,n_clusters)
 
 # KM('ActItem', 'TFIDF')
-# KM_slp(4)
+KM_slp(4)

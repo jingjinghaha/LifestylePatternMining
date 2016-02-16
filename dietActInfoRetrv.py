@@ -49,8 +49,6 @@ def diaryTimeDict():
 	for i in range(len(available_list)):
 		totalTimeDict[i] = getTimeDict(available_list[i])
 	return totalTimeDict
-
-
 	
 def getGroups(labels):
 	groups = {} 
@@ -62,7 +60,7 @@ def getGroups(labels):
 
 		for i in range(class_members.shape[0]):
 			if class_members[i] == True:
-				groups[k].append(i)
+				groups[k].append(available_list[i])
 
 	return groups 
 
@@ -75,8 +73,8 @@ def string2array(str):
 	return array 
 	
 def groupingAnalysis():
-	labelsDietType = string2array('2 1 0 1 1 2 1 0 2 1 2 2 2 0 0 0 2 2 2 1 2 0 0 0 1 0 1 1 1')
-	labelsActType = string2array('1 0 1 1 2 2 2 2 0 0 2 2 0 2 0 2 0 0 0 2 0 1 1 0 1 0 2 0 0')
+	labelsDietType = string2array('0 1 2 1 2 0 1 2 2 3 3 0 2 2 2 2 0 1 2 0 2 2 2 2 3 2 1 3 3')
+	labelsActType = string2array('1 3 1 1 2 2 2 2 3 1 2 2 1 2 0 2 3 0 1 2 3 1 1 2 1 0 2 0 0')
 
 	groupDiet = getGroups(labelsDietType)
 	groupAct = getGroups(labelsActType)

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Feb 04 16:35:07 2016
+Created on Mon Feb 15 14:57:34 2016
 
 @author: wu34
 """
@@ -20,34 +20,30 @@ def buildSingleActExcel(subjectID):
 	file_location = 'subject_template_'+subjectID+'.xlsx'
 	workbookR = xlrd.open_workbook(file_location)
 	sheet = workbookR.sheet_by_index(3)
-
+	
 	workbookW = xlwt.Workbook()
 	ws = workbookW.add_sheet('sheet1')
 	
 	rowW = 0 
 	index = 0 
-
+	
 	for rowR in range(8,sheet.nrows):
-
+	
 		if sheet.cell_value(rowR,0):
-			ws.write(rowW,0,subjectID)
-			ws.write(rowW,1,sheet.cell_value(rowR,0))
-			index += 1 
-			itemString = ''
-			typeString = '' 
 
+			index += 1 
+			
 			for line in open('activity/activityItemFreq/activity_frequency_'+subjectID+'_'+str(index)+'.txt','r'):
 				line = line.strip('\n')
 				words = wordpunct_tokenize(line)
-				itemString = itemString+' '+words[0]
-				type = actType.actType(words[0])
-				typeString = typeString+' '+type 
-
-			ws.write(rowW,2,itemString)
-			ws.write(rowW,3,typeString)
-			rowW += 1
+				ws.write(rowW,0,subjectID)
+				ws.write(rowW,1,sheet.cell_value(rowR,0))
+				ws.write(rowW,2,words[0])
+				ws.write(rowW,3,words[1])
+				ws.write(rowW,4,actType.actType(words[0]))
+				rowW += 1
 		
-	workbookW.save('activity/activityTable_'+subjectID+'.xls')
+	workbookW.save('activity/activityTable_'+subjectID+'_withFreq.xls')
 
 def buildSingleDietExcel(subjectID):
 	'''
@@ -66,24 +62,20 @@ def buildSingleDietExcel(subjectID):
 	for rowR in range(8,sheet.nrows):
 
 		if sheet.cell_value(rowR,0):
-			ws.write(rowW,0,subjectID)
-			ws.write(rowW,1,sheet.cell_value(rowR,0))
+		
 			index += 1 
-			itemString = ''
-			typeString = ''
 
 			for line in open('diet/dietItemFreq/diet_frequency_'+subjectID+'_'+str(index)+'.txt','r'):
 				line = line.strip('\n')
 				words = wordpunct_tokenize(line)
-				itemString = itemString+' '+words[0]
-				type = dietType.dietType(words[0])
-				typeString = typeString+' '+type 
+				ws.write(rowW,0,subjectID)
+				ws.write(rowW,1,sheet.cell_value(rowR,0))
+				ws.write(rowW,2,words[0])
+				ws.write(rowW,3,words[1])
+				ws.write(rowW,4,dietType.dietType(words[0]))
+				rowW += 1
 
-			ws.write(rowW,2,itemString)
-			ws.write(rowW,3,typeString)
-			rowW += 1
-		
-	workbookW.save('diet/dietTable_'+subjectID+'.xls')
+	workbookW.save('diet/dietTable_'+subjectID+'_withFreq.xls')
 
 def buildActExcel():
 	'''
@@ -95,7 +87,7 @@ def buildActExcel():
 	rowW = 0
 
 	for subjectID in available_list:
-		file_location = 'activity/activityTable_'+subjectID+'.xls'
+		file_location = 'activity/activityTable_'+subjectID+'_withFreq.xls'
 		workbookR = xlrd.open_workbook(file_location)
 		sheet = workbookR.sheet_by_index(0)
 
@@ -104,9 +96,10 @@ def buildActExcel():
 			ws.write(rowW,1,sheet.cell_value(rowR,1))
 			ws.write(rowW,2,sheet.cell_value(rowR,2))
 			ws.write(rowW,3,sheet.cell_value(rowR,3))
+			ws.write(rowW,4,sheet.cell_value(rowR,4))
 			rowW += 1
 
-	workbookW.save('activity/activityTable.xls')
+	workbookW.save('activity/activityTable_withFreq.xls')
 
 def buildDietExcel():
 	'''
@@ -118,7 +111,7 @@ def buildDietExcel():
 	rowW = 0
 
 	for subjectID in available_list:
-		file_location = 'diet/dietTable_'+subjectID+'.xls'
+		file_location = 'diet/dietTable_'+subjectID+'_withFreq.xls'
 		workbookR = xlrd.open_workbook(file_location)
 		sheet = workbookR.sheet_by_index(0)
 		
@@ -127,9 +120,10 @@ def buildDietExcel():
 			ws.write(rowW,1,sheet.cell_value(rowR,1))
 			ws.write(rowW,2,sheet.cell_value(rowR,2))
 			ws.write(rowW,3,sheet.cell_value(rowR,3))
+			ws.write(rowW,4,sheet.cell_value(rowR,4))
 			rowW += 1
 
-	workbookW.save('diet/dietTable.xls')
+	workbookW.save('diet/dietTable_withFreq.xls')
 
 def buildActWithSleepExcel():
 	'''
@@ -212,7 +206,7 @@ def buildActWithSleepExcel():
 					ws.write(rowW,22,sheet2.cell_value(rowRSlp,23))
 					rowW += 1
 
-	workbookW.save('activity/activityTableWithSleep.xls')
+	workbookW.save('activity/activityTableWithSleep_withFreq.xls')
 
 def buildDietWithSleepExcel():
 	'''
@@ -295,9 +289,9 @@ def buildDietWithSleepExcel():
 					ws.write(rowW,22,sheet2.cell_value(rowRSlp,23))
 					rowW += 1
 
-	workbookW.save('diet/dietTableWithSleep.xls')
+	workbookW.save('diet/dietTableWithSleep_withFreq.xls')
 
-def buildDietActTableWithSlp():
+def buildDietActTableWithSlpWithFreq():
 	for subjectID in available_list:
 		buildSingleActExcel(subjectID)
 		buildSingleDietExcel(subjectID)
@@ -305,7 +299,7 @@ def buildDietActTableWithSlp():
 	buildActExcel()
 	buildDietExcel()
 
-	buildActWithSleepExcel()
-	buildDietWithSleepExcel()
+	# buildActWithSleepExcel()
+	# buildDietWithSleepExcel()
 
-# buildDietActTableWithSlp() 
+# buildDietActTableWithSlpWithFreq() 

@@ -383,5 +383,5 @@ def normVec_sum(vec):
 
 def normArray(array):
 	for j in range(array.shape[0]):
-		array[j] = normVec_abs(array[j])
+		array[j] = normVec_max(array[j])
 	return array

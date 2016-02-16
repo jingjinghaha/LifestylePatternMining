@@ -55,4 +55,4 @@ def visTFIDFMatrix():
 	plt.title('actDietTypeTFIDFMatrix')
 	plt.savefig('visTForTFIDFMatrix/actDietTypeTFIDFMatrix')
 
-visTFIDFMatrix()
+# visTFIDFMatrix()

@@ -7,8 +7,13 @@ Created on Thu Feb 11 11:31:40 2016
 
 import xlrd 
 import numpy as np
+import dietActInfoRetrv 
 available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
+sleep_list = ['044','045','048','050','051','052','053','056','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
 
+labelsDietType = dietActInfoRetrv.string2array('0 1 2 1 2 0 1 2 2 3 3 0 2 2 2 2 0 1 2 0 2 2 2 2 3 2 1 3 3')
+labelsActType = dietActInfoRetrv.string2array('1 3 1 1 2 2 2 2 3 1 2 2 1 2 0 2 3 0 1 2 3 1 1 2 1 0 2 0 0')
+	
 def getDemoGInfo():
 	file_location = 'allSubjectsSleepDatamatrix.xls'
 	workbook = xlrd.open_workbook(file_location)
@@ -24,6 +29,7 @@ def getDemoGInfo():
 	PercFat = []
 	Vo2max = []
 	gender = [0, 0]
+	
 
 	for subject in available_list:
 		for rowRSlp in range(1,sheet.nrows):
@@ -31,7 +37,7 @@ def getDemoGInfo():
 			sub = '0'+sub
 			# print sub
 			if sub == subject: 
-				print sub
+				# print sub
 				Age.append(sheet.cell_value(rowRSlp,15))
 				Gender.append(sheet.cell_value(rowRSlp,16))
 				Height.append(sheet.cell_value(rowRSlp,17))
@@ -65,6 +71,8 @@ def getDemoGInfo():
 	print 'Average fat_mass is: ', fatMass
 	print 'Average perc_fat is: ', percFat
 	print 'Average vo2max is: ', vo2max
+	
+	return Age, Gender, Height, Weight, BMI, FatFree, FatMass, PercFat, Vo2max
 
 def getSlpFeatTabl():
 	file_location = 'activity/activityTableWithSleep.xls'
@@ -126,16 +134,192 @@ def getOwlLabel():
 
 	return label
 
-def getGender():
+def getSlpHours():
 	file_location = 'activity/activityTableWithSleep.xls'
 	workbook = xlrd.open_workbook(file_location)
 	sheet = workbook.sheet_by_index(0)
-	Gender = [] 
+	
+	Duration = []
+	for subject in sleep_list:
+		duration = 0.0 
+		count = 0 
+		for rowRSlp in range(1,sheet.nrows):
+			sub = unicode(int(sheet.cell_value(rowRSlp,0)))
+			sub = '0'+sub
+			if sub == subject: 
+				duration += sheet.cell_value(rowRSlp,8)
+				count += 1 
+		duration /= float(count)
+		Duration.append(duration) 
+	# print Duration 
+	return Duration
 
-	for row in range(1,sheet.nrows):
-		Gender.append(sheet.cell_value(row,15))
+def getMedianHR():
+	file_location = 'activity/activityTableWithSleep.xls'
+	workbook = xlrd.open_workbook(file_location)
+	sheet = workbook.sheet_by_index(0)
+	
+	MedianHR = []
+	for subject in sleep_list:
+		medianHR = 0.0 
+		count = 0 
+		for rowRSlp in range(1,sheet.nrows):
+			sub = unicode(int(sheet.cell_value(rowRSlp,0)))
+			sub = '0'+sub
+			if sub == subject: 
+				medianHR += sheet.cell_value(rowRSlp,11)
+				count += 1 
+		medianHR /= float(count)
+		MedianHR.append(medianHR) 
+	# print MedianHR 
+	return MedianHR
 
-	return Gender
+def getMedianHRBefore():
+	file_location = 'activity/activityTableWithSleep.xls'
+	workbook = xlrd.open_workbook(file_location)
+	sheet = workbook.sheet_by_index(0)
+	
+	MedianHRBefore = []
+	for subject in sleep_list:
+		medianHRBefore = 0.0 
+		count = 0 
+		for rowRSlp in range(1,sheet.nrows):
+			sub = unicode(int(sheet.cell_value(rowRSlp,0)))
+			sub = '0'+sub
+			if sub == subject: 
+				medianHRBefore += sheet.cell_value(rowRSlp,12)
+				count += 1 
+		medianHRBefore /= float(count)
+		MedianHRBefore.append(medianHRBefore) 
+	# print MedianHRBefore 
+	return MedianHRBefore
 
+def getMedianHRAfter():
+	file_location = 'activity/activityTableWithSleep.xls'
+	workbook = xlrd.open_workbook(file_location)
+	sheet = workbook.sheet_by_index(0)
+	
+	MedianHRAfter = []
+	for subject in sleep_list:
+		medianHRAfter = 0.0 
+		count = 0 
+		for rowRSlp in range(1,sheet.nrows):
+			sub = unicode(int(sheet.cell_value(rowRSlp,0)))
+			sub = '0'+sub
+			if sub == subject: 
+				medianHRAfter += sheet.cell_value(rowRSlp,13)
+				count += 1 
+		medianHRAfter /= float(count)
+		MedianHRAfter.append(medianHRAfter) 
+	# print MedianHRAfter 
+	return MedianHRAfter
+
+def genDemoInfoActGroups():
+	groupAct = dietActInfoRetrv.getGroups(labelsActType)
+	Age, Gender, Height, Weight, BMI, FatFree, FatMass, PercFat, Vo2max = getDemoGInfo() 
+	SlpHours = getSlpHours()
+	
+	demoDict = {} 
+	
+	for key in groupAct:
+	
+		demoDict[key] = {}
+		
+		temp_Age = []
+		temp_Gender = [] 
+		temp_Height = []
+		temp_Weight = [] 
+		temp_BMI = []
+		temp_FatFree = []
+		temp_FatMass = []
+		temp_PercFat = []
+		temp_Vo2max = []
+		temp_gender = [0, 0] 
+		temp_slpHours = []
+		
+		for index in range(len(sleep_list)):
+			if sleep_list[index] in groupAct[key]:
+				temp_Age.append(Age[index])
+				temp_Gender.append(Gender[index])
+				temp_Height.append(Height[index])
+				temp_Weight.append(Weight[index])
+				temp_BMI.append(BMI[index])
+				temp_FatFree.append(FatFree[index])
+				temp_FatMass.append(FatMass[index])
+				temp_PercFat.append(PercFat[index])
+				temp_Vo2max.append(Vo2max[index])
+				temp_slpHours.append(SlpHours[index])
+		
+		demoDict[key]['age'] = sum(temp_Age)/float(len(temp_Age))
+		temp_gender[0] = temp_Gender.count(1.0)
+		temp_gender[1] = temp_Gender.count(0.0)
+		demoDict[key]['gender'] = temp_gender
+		demoDict[key]['height'] = sum(temp_Height)/float(len(temp_Height))
+		demoDict[key]['weight'] = sum(temp_Weight)/float(len(temp_Weight))
+		demoDict[key]['BMI'] = sum(temp_BMI)/float(len(temp_BMI))
+		demoDict[key]['fat_free'] = sum(temp_FatFree)/float(len(temp_FatFree))
+		demoDict[key]['fat_mass'] = sum(temp_FatMass)/float(len(temp_FatMass))
+		demoDict[key]['perc_fat'] = sum(temp_PercFat)/float(len(temp_PercFat))
+		demoDict[key]['vo2max'] = sum(temp_Vo2max)/float(len(temp_Vo2max))
+		demoDict[key]['slpHours'] = sum(temp_slpHours)/float(len(temp_slpHours))
+	
+	print demoDict
+		
+def genDemoInfoDietGroups():
+	groupDiet = dietActInfoRetrv.getGroups(labelsDietType)
+	Age, Gender, Height, Weight, BMI, FatFree, FatMass, PercFat, Vo2max = getDemoGInfo() 
+	SlpHours = getSlpHours()
+	
+	demoDict = {} 
+	
+	for key in groupDiet:
+	
+		demoDict[key] = {}
+		
+		temp_Age = []
+		temp_Gender = [] 
+		temp_Height = []
+		temp_Weight = [] 
+		temp_BMI = []
+		temp_FatFree = []
+		temp_FatMass = []
+		temp_PercFat = []
+		temp_Vo2max = []
+		temp_gender = [0, 0] 
+		temp_slpHours = [] 
+		
+		for index in range(len(sleep_list)):
+			if sleep_list[index] in groupDiet[key]:
+				temp_Age.append(Age[index])
+				temp_Gender.append(Gender[index])
+				temp_Height.append(Height[index])
+				temp_Weight.append(Weight[index])
+				temp_BMI.append(BMI[index])
+				temp_FatFree.append(FatFree[index])
+				temp_FatMass.append(FatMass[index])
+				temp_PercFat.append(PercFat[index])
+				temp_Vo2max.append(Vo2max[index])
+				temp_slpHours.append(SlpHours[index])
+		
+		demoDict[key]['age'] = sum(temp_Age)/float(len(temp_Age))
+		temp_gender[0] = temp_Gender.count(1.0)
+		temp_gender[1] = temp_Gender.count(0.0)
+		demoDict[key]['gender'] = temp_gender
+		demoDict[key]['height'] = sum(temp_Height)/float(len(temp_Height))
+		demoDict[key]['weight'] = sum(temp_Weight)/float(len(temp_Weight))
+		demoDict[key]['BMI'] = sum(temp_BMI)/float(len(temp_BMI))
+		demoDict[key]['fat_free'] = sum(temp_FatFree)/float(len(temp_FatFree))
+		demoDict[key]['fat_mass'] = sum(temp_FatMass)/float(len(temp_FatMass))
+		demoDict[key]['perc_fat'] = sum(temp_PercFat)/float(len(temp_PercFat))
+		demoDict[key]['vo2max'] = sum(temp_Vo2max)/float(len(temp_Vo2max))
+		demoDict[key]['slpHours'] = sum(temp_slpHours)/float(len(temp_slpHours))
+	
+	print demoDict
+
+
+	
 # getDemoGInfo()
 # getSlpFeatTabl()
+# genDemoInfoActGroups() 
+# genDemoInfoDietGroups()
+getSlpHours()

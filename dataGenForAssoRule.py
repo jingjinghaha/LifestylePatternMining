@@ -56,12 +56,12 @@ def genDailyDietDataSet():
 	for subjectid in available_list:
 		duration = dietActInfoRetrv.getDuration(subjectid)
 		for i in range(duration):
-			indexDict = buildItemIndex.build_daily_single_diet_index(subjectID,i+1)
+			indexDict = buildItemIndex.build_daily_single_diet_index(subjectid,i+1)
 			temp = tuple(indexDict)
 			dataset.append(temp)
 
 	dataset = tuple(dataset)
-	# print dataset
+	print len(dataset)
 	return dataset
 
 def genDailyActDataSet():
@@ -70,24 +70,24 @@ def genDailyActDataSet():
 	for subjectid in available_list:
 		duration = dietActInfoRetrv.getDuration(subjectid)
 		for i in range(duration):
-			indexDict = buildItemIndex.build_daily_single_activity_index(subjectID,i+1)
+			indexDict = buildItemIndex.build_daily_single_activity_index(subjectid,i+1)
 			temp = tuple(indexDict)
 			dataset.append(temp)
 
 	dataset = tuple(dataset)
-	# print dataset
+	print len(dataset)
 	return dataset
 
 # transactions = genDietItemDataSet()
-transactions = genActItemDataSet()
+# transactions = genActItemDataSet()
 # transactions = genDietActItemDataSet()
 # transactions = genDailyDietDataSet()
-# transactions = genDailyActDataSet()
+transactions = genDailyActDataSet()
 
 relim_input = itemmining.get_relim_input(transactions)
 item_sets = itemmining.relim(relim_input, min_support=20)
 # print item_sets
-rules = assocrules.mine_assoc_rules(item_sets, min_support=22, min_confidence=0.90)
+rules = assocrules.mine_assoc_rules(item_sets, min_support=50, min_confidence=0.90)
 print rules 
 
 
