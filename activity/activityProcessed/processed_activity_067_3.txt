@@ -2,7 +2,7 @@
 ['clean']
 ['run']
 ['shower']
-['walk', 'dog']
+['walk']
 ['study', 'lunch']
 ['shop']
 ['meet', 'friends']

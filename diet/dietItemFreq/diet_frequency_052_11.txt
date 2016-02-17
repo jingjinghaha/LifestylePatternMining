@@ -1,7 +1,5 @@
-sandwich                 4         
-meat                     1         
-fries                    1         
-yoghurt                  1         
+rice                     1         
+chicken                  1         
+sandwich                 2         
 egg                      1         
-banana                   2         
-apple                    1         
+custard                  1         

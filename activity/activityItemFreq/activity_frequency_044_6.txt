@@ -4,8 +4,7 @@ work                     2
 bed                      1         
 walk                     2         
 shower                   1         
-groceries                1         
-cook                     1         
 sleep                    1         
+cook                     1         
 dress                    1         
 pack                     1         

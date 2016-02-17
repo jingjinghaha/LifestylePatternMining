@@ -3,7 +3,7 @@
 ['bus']
 ['walk']
 ['charge']
-['chillen', 'home']
+['chillen']
 ['restart', 'gps', 'logger', 'phone', 'empty']
 ['car', 'shop']
 ['push', 'up']

@@ -3,4 +3,4 @@
 ['university']
 ['walk']
 ['drive', 'car']
-['sleep', 'home']
+['sleep']

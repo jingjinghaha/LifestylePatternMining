@@ -1,4 +1,4 @@
 ['work']
-['clean', 'work', 'home']
+['clean', 'work']
 ['work']
 ['sleep']

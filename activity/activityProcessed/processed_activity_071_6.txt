@@ -1,4 +1,4 @@
 ['study', 'cook', 'clean']
 ['run']
-['study', 'back']
+['study']
 ['muffins']

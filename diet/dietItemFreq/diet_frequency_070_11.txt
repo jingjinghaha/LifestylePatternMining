@@ -1,6 +1,5 @@
 sandwich                 1         
 meat                     1         
-healthy                  1         
 bacon                    1         
 chili                    1         
 egg                      1         

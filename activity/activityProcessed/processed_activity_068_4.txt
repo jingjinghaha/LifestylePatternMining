@@ -1,4 +1,3 @@
 ['cycle']
 ['study']
 ['zumba', 'cycle']
-['home']

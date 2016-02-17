@@ -1,3 +1,2 @@
-healthy                  1         
 sandwich                 2         
 cookie                   1         

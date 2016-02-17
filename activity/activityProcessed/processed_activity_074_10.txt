@@ -6,5 +6,4 @@
 ['cycle', 'shop']
 ['cook']
 ['diner', 'watch', 'movie']
-['home']
 ['sleep']

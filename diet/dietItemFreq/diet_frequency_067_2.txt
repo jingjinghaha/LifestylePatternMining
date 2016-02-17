@@ -3,5 +3,4 @@ sandwich                 2
 tea                      1         
 muesli                   1         
 yoghurt                  2         
-red                      1         
 wine                     1         

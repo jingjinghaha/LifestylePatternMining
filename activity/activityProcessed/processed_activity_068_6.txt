@@ -1,4 +1,4 @@
-['study', 'home']
+['study']
 ['shop']
 ['cook', 'diner']
 ['walk']

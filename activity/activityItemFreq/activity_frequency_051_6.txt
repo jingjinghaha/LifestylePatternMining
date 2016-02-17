@@ -2,7 +2,6 @@ school                   1
 sit                      1         
 bus                      3         
 study                    1         
-dog                      1         
 walk                     1         
 train                    2         
 sleep                    1         

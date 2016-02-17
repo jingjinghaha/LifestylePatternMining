@@ -9,5 +9,5 @@
 ['wait']
 ['train']
 ['cycle']
-['work', 'home']
+['work']
 ['read']

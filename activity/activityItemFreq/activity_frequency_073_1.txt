@@ -1,7 +1,6 @@
 tv                       1         
 work                     1         
 watch                    1         
-dog                      1         
 walk                     3         
 charge                   1         
 train                    1         

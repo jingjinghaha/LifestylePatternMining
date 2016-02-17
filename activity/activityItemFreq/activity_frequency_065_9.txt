@@ -7,7 +7,6 @@ shower                   1
 bike                     1         
 friend                   1         
 clean                    1         
-home                     1         
 lesson                   1         
 breakfast                1         
 talk                     1         

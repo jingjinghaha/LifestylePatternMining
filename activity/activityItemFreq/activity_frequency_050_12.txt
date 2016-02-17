@@ -2,11 +2,10 @@ school                   1
 car                      3         
 workout                  1         
 drive                    3         
-dog                      2         
+walk                     6         
 phone                    1         
 train                    2         
 sleep                    1         
 bus                      2         
 xco                      1         
-walk                     6         
 study                    1         

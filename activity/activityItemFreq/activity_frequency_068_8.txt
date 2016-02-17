@@ -3,5 +3,4 @@ school                   1
 exam                     1         
 relax                    1         
 study                    1         
-home                     1         
 cycle                    7         

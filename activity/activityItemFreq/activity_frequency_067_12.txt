@@ -1,7 +1,6 @@
 run                      1         
 bus                      2         
 university               1         
-dog                      2         
 walk                     2         
 shower                   1         
 sleep                    1         

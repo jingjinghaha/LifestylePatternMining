@@ -2,7 +2,6 @@
 ['train']
 ['bus']
 ['train']
-['city']
 ['cycle']
 ['study']
 ['watch', 'tv']

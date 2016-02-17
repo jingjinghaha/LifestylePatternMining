@@ -4,6 +4,5 @@ shower                   1
 computer                 1         
 sleep                    1         
 dish                     1         
-home                     1         
 breakfast                1         
 cycle                    2         

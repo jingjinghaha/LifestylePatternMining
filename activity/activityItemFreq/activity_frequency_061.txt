@@ -26,11 +26,11 @@ phone                    1
 game                     1         
 train                    16        
 cook                     1         
-judo                     2         
+ok                       2         
 part                     1         
 friends                  4         
 cycle                    3         
-ok                       2         
+judo                     2         
 traineeship              8         
 car                      26        
 study                    1         

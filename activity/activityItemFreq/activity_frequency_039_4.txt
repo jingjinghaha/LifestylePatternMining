@@ -1,4 +1,3 @@
-city                     2         
 exam                     1         
 bus                      2         
 walk                     3         

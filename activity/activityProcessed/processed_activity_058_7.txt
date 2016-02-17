@@ -1,4 +1,4 @@
 ['workout', 'insanity']
-['cycle', 'city']
+['cycle']
 ['supermarket']
 ['lunch']

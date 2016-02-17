@@ -5,8 +5,6 @@ study                    1
 work                     1         
 walk                     2         
 computer                 2         
-groceries                1         
-cook                     1         
-home                     1         
-dress                    2         
 sleep                    1         
+cook                     1         
+dress                    2         

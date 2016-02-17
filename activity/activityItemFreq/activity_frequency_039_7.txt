@@ -2,5 +2,4 @@ study                    2
 charge                   2         
 bike                     2         
 sleep                    1         
-home                     1         
 university               1         

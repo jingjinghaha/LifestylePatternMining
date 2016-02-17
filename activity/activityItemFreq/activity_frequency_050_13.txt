@@ -1,5 +1,4 @@
 car                      2         
-drive                    2         
 sleep                    1         
-dog                      2         
+drive                    2         
 walk                     2         

@@ -1,6 +1,5 @@
 phone                    1         
 work                     1         
-dog                      3         
 walk                     5         
 lunch                    1         
 train                    2         

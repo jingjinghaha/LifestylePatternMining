@@ -1,5 +1,4 @@
 parent                   1         
-home                     1         
 car                      3         
 hotel                    1         
 drive                    3         

@@ -3,4 +3,4 @@
 ['orange']
 ['big', 'sandwich']
 ['chip', 'beer']
-['bean', 'home', 'make', 'meat']
+['bean', 'make', 'meat']

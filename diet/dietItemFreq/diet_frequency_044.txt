@@ -5,7 +5,6 @@ apple                    1
 natriumnitrate           1         
 avocado                  1         
 lemonade                 2         
-bar                      1         
 mango                    1         
 juice                    6         
 carrot                   3         
@@ -19,6 +18,7 @@ baguette                 3
 olives                   1         
 snack                    1         
 muffin                   1         
+lasagna                  1         
 beef                     2         
 strawberry               3         
 meatballs                1         
@@ -32,7 +32,7 @@ salut                    1
 feta                     1         
 humus                    1         
 vegetable                4         
-lasagna                  1         
+bar                      1         
 rice                     2         
 banana                   5         
 boil                     1         

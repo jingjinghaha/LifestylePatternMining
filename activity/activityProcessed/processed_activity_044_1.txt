@@ -1,3 +1,3 @@
-['walk', 'home']
+['walk']
 ['around', 'house', 'clean', 'dish', 'sit']
 ['sleep']

@@ -7,5 +7,4 @@ salmon                   1
 iceCream                 1         
 wine                     1         
 cola                     1         
-red                      1         
 bread                    1         

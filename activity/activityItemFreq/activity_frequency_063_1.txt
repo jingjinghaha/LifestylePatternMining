@@ -6,4 +6,3 @@ walk                     1
 phone                    1         
 charge                   1         
 sleep                    1         
-home                     1         

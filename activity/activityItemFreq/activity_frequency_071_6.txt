@@ -1,6 +1,5 @@
-run                      1         
-study                    2         
-back                     1         
-clean                    1         
 cook                     1         
 muffins                  1         
+study                    2         
+run                      1         
+clean                    1         

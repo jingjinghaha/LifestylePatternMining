@@ -4,7 +4,6 @@
 ['bike']
 ['shop']
 ['computer']
-['groceries']
 ['computer']
 ['make', 'bed']
 ['read', 'bed']

@@ -1,7 +1,6 @@
-pie                      1         
 car                      1         
 drive                    1         
-back                     1         
+pie                      1         
 sleep                    1         
 clean                    1         
 ait                      1         

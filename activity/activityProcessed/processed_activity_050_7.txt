@@ -1,4 +1,4 @@
-['walk', 'dog', 'phone']
+['walk', 'phone']
 ['work', 'school']
 ['drive', 'car']
 ['workout', 'xco']

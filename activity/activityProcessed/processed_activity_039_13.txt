@@ -5,5 +5,5 @@
 ['study']
 ['walk']
 ['study']
-['bike', 'home']
+['bike']
 ['sleep']

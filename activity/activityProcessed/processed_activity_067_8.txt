@@ -1,7 +1,7 @@
 ['run']
 ['shower']
 ['study']
-['walk', 'dog']
+['walk']
 ['university', 'bus']
 ['bus']
 ['relax']

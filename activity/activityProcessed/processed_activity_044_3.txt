@@ -6,6 +6,5 @@
 ['work']
 ['walk']
 ['terrace']
-['home']
 ['movie']
 ['sleep']

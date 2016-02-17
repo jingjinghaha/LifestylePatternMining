@@ -3,6 +3,5 @@ watch                    1
 game                     1         
 charge                   1         
 sleep                    2         
-home                     2         
 ns                       1         
 cycle                    2         

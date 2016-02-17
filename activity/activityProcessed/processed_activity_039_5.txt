@@ -2,7 +2,7 @@
 ['relax']
 ['bike', 'gym']
 ['gym']
-['bike', 'home']
+['bike']
 ['charge', 'shower']
 ['study']
 ['bike', 'pub']

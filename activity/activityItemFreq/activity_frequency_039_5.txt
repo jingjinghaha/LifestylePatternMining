@@ -5,5 +5,4 @@ shower                   1
 charge                   1         
 bike                     3         
 sleep                    1         
-home                     1         
 study                    1         

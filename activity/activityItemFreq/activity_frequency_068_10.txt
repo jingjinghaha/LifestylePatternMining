@@ -6,7 +6,6 @@ university               1
 work                     1         
 shower                   1         
 phone                    1         
-home                     1         
 party                    2         
 breakfast                1         
 presentation             1         

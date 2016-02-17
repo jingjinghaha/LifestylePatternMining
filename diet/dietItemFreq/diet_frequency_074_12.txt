@@ -11,5 +11,4 @@ wine                     1
 cake                     1         
 cabbage                  1         
 rice                     1         
-red                      1         
 bread                    2         

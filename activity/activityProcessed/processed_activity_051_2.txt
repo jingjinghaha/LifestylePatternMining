@@ -11,4 +11,4 @@
 ['walk']
 ['bus']
 ['watch', 'tv']
-['sleep', 'home']
+['sleep']

@@ -9,5 +9,4 @@ train                    3
 sleep                    2         
 clean                    2         
 cook                     1         
-home                     1         
 pack                     1         

@@ -4,10 +4,8 @@ diner                    1
 bus                      1         
 work                     1         
 jacuzzi                  1         
-dog                      2         
 walk                     2         
 shower                   1         
-behind                   1         
 computer                 1         
 sleep                    1         
 lesson                   1         

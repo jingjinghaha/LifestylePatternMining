@@ -1,4 +1,4 @@
 ['muesli', 'yoghurt']
-['pasta', 'zucchini', 'tomato', 'onion']
+['pasta', 'zucchini', 'tomato', 'vegetable']
 ['bread', 'cheese']
 ['wine', 'orange', 'chip']

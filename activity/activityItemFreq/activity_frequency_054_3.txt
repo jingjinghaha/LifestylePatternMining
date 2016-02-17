@@ -2,10 +2,9 @@ diner                    1
 chain                    1         
 tv                       1         
 watch                    1         
-charge                   1         
 walk                     1         
 shower                   1         
-behind                   1         
+charge                   1         
 bike                     1         
 sleep                    2         
 party                    1         

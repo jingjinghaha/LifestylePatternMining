@@ -9,5 +9,5 @@
 ['cycle']
 ['meet']
 ['cycle']
-['cycle', 'behind']
+['cycle']
 ['sleep']

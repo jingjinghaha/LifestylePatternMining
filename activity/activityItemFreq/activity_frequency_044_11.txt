@@ -6,8 +6,6 @@ walk                     2
 shower                   1         
 awake                    1         
 clean                    1         
-home                     1         
 cook                     1         
 sleep                    2         
-groceries                1         
 pack                     1         

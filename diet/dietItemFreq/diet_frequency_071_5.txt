@@ -5,4 +5,3 @@ cake                     1
 muesli                   1         
 yoghurt                  1         
 egg                      1         
-red                      1         

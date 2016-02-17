@@ -4,5 +4,5 @@
 ['walk', 'charge']
 ['walk']
 ['watch', 'tv']
-['walk', 'dog']
+['walk']
 ['sleep']

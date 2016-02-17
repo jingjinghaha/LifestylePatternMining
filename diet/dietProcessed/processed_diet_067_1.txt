@@ -1,1 +1,1 @@
-['cappuccino', 'beef', 'pudding', 'red', 'wine']
+['cappuccino', 'beef', 'pudding', 'wine']

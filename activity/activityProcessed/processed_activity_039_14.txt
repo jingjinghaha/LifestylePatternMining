@@ -1,7 +1,7 @@
 ['charge']
 ['bike', 'university']
 ['exam']
-['bike', 'city']
+['bike']
 ['bike']
 ['computer']
 ['bike', 'university']

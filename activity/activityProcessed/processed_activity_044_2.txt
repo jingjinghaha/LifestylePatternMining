@@ -2,7 +2,7 @@
 ['dish', 'dress']
 ['walk', 'work']
 ['work']
-['walk', 'home']
+['walk']
 ['run']
 ['rest']
 ['shower']

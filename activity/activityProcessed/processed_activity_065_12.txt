@@ -4,6 +4,6 @@
 ['cycle', 'trainstation']
 ['train']
 ['work']
-['train', 'car', 'home']
+['train', 'car']
 ['watch', 'tv']
 ['sleep']

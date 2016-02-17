@@ -6,6 +6,6 @@
 ['bus']
 ['cycle']
 ['sit']
-['walk', 'dog']
+['walk']
 ['study']
 ['sleep']

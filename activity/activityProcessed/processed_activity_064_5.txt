@@ -1,6 +1,6 @@
 ['cycle']
-['sleep', 'home']
-['home', 'ns']
+['sleep']
+['ns']
 ['charge']
 ['sleep']
 ['cycle']

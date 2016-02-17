@@ -1,4 +1,3 @@
-home                     1         
 study                    2         
 walk                     1         
 cycle                    1         

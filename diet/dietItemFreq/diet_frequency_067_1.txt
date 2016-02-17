@@ -1,5 +1,4 @@
 cappuccino               1         
 pudding                  1         
-red                      1         
 beef                     1         
 wine                     1         

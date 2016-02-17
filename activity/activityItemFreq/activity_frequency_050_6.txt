@@ -1,5 +1,4 @@
 study                    2         
-dog                      2         
 walk                     2         
 phone                    1         
 charge                   1         

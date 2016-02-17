@@ -1,5 +1,4 @@
-home                     1         
+car                      1         
 sleep                    1         
 drive                    1         
-car                      1         
 walk                     1         

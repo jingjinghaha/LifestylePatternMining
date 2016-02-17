@@ -7,9 +7,8 @@ visit                    1
 drive                    2         
 shower                   1         
 pack                     1         
-stuf                     1         
-movie                    1         
 sleep                    1         
+movie                    1         
 wait                     1         
 computer                 1         
 make                     1         

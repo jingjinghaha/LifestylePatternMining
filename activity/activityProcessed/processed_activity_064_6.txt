@@ -1,4 +1,4 @@
-['sleep', 'home']
+['sleep']
 ['game', 'watch', 'movie']
 ['workout']
 ['lie']

@@ -1,5 +1,3 @@
-['sandwich', 'egg']
-['banana', 'milkshake']
-['sandwich', 'bread', 'bread']
-['potato', 'bean', 'meat']
-['chocolate']
+['yoghurt', 'muesli']
+['six', 'sandwich']
+['sandwich']

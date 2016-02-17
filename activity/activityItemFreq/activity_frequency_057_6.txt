@@ -7,5 +7,4 @@ drive                    1
 walk                     1         
 sleep                    1         
 loose                    1         
-home                     1         
 electrode                1         

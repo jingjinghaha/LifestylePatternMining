@@ -1,9 +1,8 @@
 school                   1         
-car                      2         
+bus                      2         
 drive                    2         
-dog                      1         
+walk                     5         
 phone                    1         
 train                    2         
 sleep                    1         
-bus                      2         
-walk                     5         
+car                      2         

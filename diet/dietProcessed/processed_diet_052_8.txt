@@ -1,2 +1,4 @@
-['sandwich', 'egg', 'meat', 'cheese']
-['sandwich']
+['yoghurt', 'muesli']
+['soup', 'sandwich']
+['sandwich', 'apple']
+['banana', 'chocolate']

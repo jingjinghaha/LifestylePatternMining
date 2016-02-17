@@ -6,7 +6,7 @@
 ['move']
 ['drive', 'car']
 ['shop']
-['pack', 'stuf']
+['pack']
 ['cook']
 ['dish', 'clean']
 ['drive', 'car']

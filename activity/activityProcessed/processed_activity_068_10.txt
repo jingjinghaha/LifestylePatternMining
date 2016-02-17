@@ -9,4 +9,4 @@
 ['shower', 'relax']
 ['cycle']
 ['relax']
-['relax', 'home']
+['relax']

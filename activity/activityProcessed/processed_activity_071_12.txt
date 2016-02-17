@@ -7,4 +7,4 @@
 ['sauna']
 ['drive', 'car']
 ['drive', 'car']
-['sleep', 'home', 'hotel', 'papendael']
+['sleep', 'hotel', 'papendael']

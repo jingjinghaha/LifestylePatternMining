@@ -1,6 +1,5 @@
 shop                     1         
-run                      1         
 work                     1         
-behind                   1         
-computer                 1         
+run                      1         
 cycle                    1         
+computer                 1         

@@ -3,7 +3,6 @@
 ['shop', 'cycle']
 ['work']
 ['cycle', 'shop']
-['home']
 ['dish', 'computer']
 ['shower']
 ['sleep']

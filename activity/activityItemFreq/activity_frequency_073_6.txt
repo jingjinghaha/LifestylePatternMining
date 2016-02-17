@@ -1,5 +1,4 @@
 work                     1         
-dog                      3         
 walk                     4         
 lunch                    1         
 train                    2         

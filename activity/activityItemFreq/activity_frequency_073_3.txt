@@ -1,6 +1,5 @@
-diner                    1         
 tv                       1         
-watch                    1         
-dog                      3         
-walk                     3         
 sleep                    1         
+watch                    1         
+diner                    1         
+walk                     3         

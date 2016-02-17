@@ -4,4 +4,4 @@
 ['drive', 'car']
 ['drive', 'car', 'shop']
 ['drive', 'car']
-['sleep', 'home']
+['sleep']

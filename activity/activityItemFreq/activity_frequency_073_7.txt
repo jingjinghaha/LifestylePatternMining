@@ -1,6 +1,5 @@
 car                      2         
 drive                    2         
-dog                      3         
 walk                     3         
 lunch                    1         
 train                    1         

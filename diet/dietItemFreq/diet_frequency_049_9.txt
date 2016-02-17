@@ -9,5 +9,4 @@ spare                    1
 orange                   1         
 yoghurt                  1         
 egg                      1         
-red                      1         
 wine                     1         

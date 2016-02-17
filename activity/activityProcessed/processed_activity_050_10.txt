@@ -1,4 +1,4 @@
-['walk', 'dog']
+['walk']
 ['drive', 'car']
 ['computer']
 ['sleep']

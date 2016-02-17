@@ -1,13 +1,12 @@
 school                   1         
-total                    1         
 car                      2         
 workout                  2         
 work                     1         
 drive                    2         
-dog                      1         
+walk                     1         
 phone                    1         
 charge                   1         
 abs                      1         
 sleep                    1         
 xco                      1         
-walk                     1         
+total                    1         

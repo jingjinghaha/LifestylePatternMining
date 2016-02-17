@@ -3,5 +3,4 @@ sandwich                 1
 hamburger                1         
 salad                    1         
 make                     1         
-home                     1         
 pizza                    1         

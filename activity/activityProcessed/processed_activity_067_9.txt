@@ -1,5 +1,5 @@
 ['shower']
-['walk', 'dog']
+['walk']
 ['university', 'bus']
 ['drive', 'car']
 ['set', 'christmas', 'tree']

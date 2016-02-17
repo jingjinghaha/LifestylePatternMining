@@ -8,4 +8,3 @@ muesli                   1
 yoghurt                  2         
 egg                      1         
 banana                   1         
-red                      1         

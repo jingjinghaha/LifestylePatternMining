@@ -2,4 +2,4 @@
 ['cook']
 ['shower']
 ['drive', 'car']
-['sleep', 'home']
+['sleep']

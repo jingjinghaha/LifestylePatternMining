@@ -4,4 +4,3 @@ drive                    1
 shower                   1         
 sleep                    1         
 cook                     1         
-home                     1         

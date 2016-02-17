@@ -218,6 +218,9 @@ def genDemoInfoActGroups():
 	groupAct = dietActInfoRetrv.getGroups(labelsActType)
 	Age, Gender, Height, Weight, BMI, FatFree, FatMass, PercFat, Vo2max = getDemoGInfo() 
 	SlpHours = getSlpHours()
+	MedianHR = getMedianHR()
+	MedianHRBefore = getMedianHRBefore()
+	MedianHRAfter = getMedianHRAfter()
 	
 	demoDict = {} 
 	
@@ -236,6 +239,9 @@ def genDemoInfoActGroups():
 		temp_Vo2max = []
 		temp_gender = [0, 0] 
 		temp_slpHours = []
+		temp_MedianHR = []
+		temp_MedianHRBefore = []
+		temp_MedianHRAfter = []
 		
 		for index in range(len(sleep_list)):
 			if sleep_list[index] in groupAct[key]:
@@ -249,6 +255,9 @@ def genDemoInfoActGroups():
 				temp_PercFat.append(PercFat[index])
 				temp_Vo2max.append(Vo2max[index])
 				temp_slpHours.append(SlpHours[index])
+				temp_MedianHR.append(MedianHR[index])
+				temp_MedianHRBefore.append(MedianHRBefore[index])
+				temp_MedianHRAfter.append(MedianHRAfter[index])
 		
 		demoDict[key]['age'] = sum(temp_Age)/float(len(temp_Age))
 		temp_gender[0] = temp_Gender.count(1.0)
@@ -262,6 +271,9 @@ def genDemoInfoActGroups():
 		demoDict[key]['perc_fat'] = sum(temp_PercFat)/float(len(temp_PercFat))
 		demoDict[key]['vo2max'] = sum(temp_Vo2max)/float(len(temp_Vo2max))
 		demoDict[key]['slpHours'] = sum(temp_slpHours)/float(len(temp_slpHours))
+		demoDict[key]['medianHR'] = sum(temp_MedianHR)/float(len(temp_MedianHR))
+		demoDict[key]['medianHRBefore'] = sum(temp_MedianHRBefore)/float(len(temp_MedianHRBefore))
+		demoDict[key]['medianHRAfter'] = sum(temp_MedianHRAfter)/float(len(temp_MedianHRAfter))
 	
 	print demoDict
 		
@@ -269,6 +281,9 @@ def genDemoInfoDietGroups():
 	groupDiet = dietActInfoRetrv.getGroups(labelsDietType)
 	Age, Gender, Height, Weight, BMI, FatFree, FatMass, PercFat, Vo2max = getDemoGInfo() 
 	SlpHours = getSlpHours()
+	MedianHR = getMedianHR()
+	MedianHRBefore = getMedianHRBefore()
+	MedianHRAfter = getMedianHRAfter()
 	
 	demoDict = {} 
 	
@@ -287,6 +302,9 @@ def genDemoInfoDietGroups():
 		temp_Vo2max = []
 		temp_gender = [0, 0] 
 		temp_slpHours = [] 
+		temp_MedianHR = []
+		temp_MedianHRBefore = []
+		temp_MedianHRAfter = []
 		
 		for index in range(len(sleep_list)):
 			if sleep_list[index] in groupDiet[key]:
@@ -300,6 +318,9 @@ def genDemoInfoDietGroups():
 				temp_PercFat.append(PercFat[index])
 				temp_Vo2max.append(Vo2max[index])
 				temp_slpHours.append(SlpHours[index])
+				temp_MedianHR.append(MedianHR[index])
+				temp_MedianHRBefore.append(MedianHRBefore[index])
+				temp_MedianHRAfter.append(MedianHRAfter[index])
 		
 		demoDict[key]['age'] = sum(temp_Age)/float(len(temp_Age))
 		temp_gender[0] = temp_Gender.count(1.0)
@@ -313,6 +334,9 @@ def genDemoInfoDietGroups():
 		demoDict[key]['perc_fat'] = sum(temp_PercFat)/float(len(temp_PercFat))
 		demoDict[key]['vo2max'] = sum(temp_Vo2max)/float(len(temp_Vo2max))
 		demoDict[key]['slpHours'] = sum(temp_slpHours)/float(len(temp_slpHours))
+		demoDict[key]['medianHR'] = sum(temp_MedianHR)/float(len(temp_MedianHR))
+		demoDict[key]['medianHRBefore'] = sum(temp_MedianHRBefore)/float(len(temp_MedianHRBefore))
+		demoDict[key]['medianHRAfter'] = sum(temp_MedianHRAfter)/float(len(temp_MedianHRAfter))
 	
 	print demoDict
 
@@ -320,6 +344,6 @@ def genDemoInfoDietGroups():
 	
 # getDemoGInfo()
 # getSlpFeatTabl()
-# genDemoInfoActGroups() 
-# genDemoInfoDietGroups()
-getSlpHours()
+genDemoInfoActGroups() 
+genDemoInfoDietGroups()
+# getSlpHours()

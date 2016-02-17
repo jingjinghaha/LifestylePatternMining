@@ -1,4 +1,4 @@
-['walk', 'dog']
+['walk']
 ['breakfast']
 ['cycle']
 ['train']
@@ -8,5 +8,5 @@
 ['cycle']
 ['diner']
 ['run']
-['walk', 'dog']
+['walk']
 ['sleep']

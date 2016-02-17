@@ -1,7 +1,6 @@
-city                     1         
 computer                 1         
 exam                     1         
-university               2         
+gym                      1         
 charge                   1         
 bike                     6         
-gym                      1         
+university               2         

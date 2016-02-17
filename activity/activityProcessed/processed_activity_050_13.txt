@@ -1,5 +1,5 @@
-['walk', 'dog']
+['walk']
 ['drive', 'car']
 ['drive', 'car']
-['walk', 'dog']
+['walk']
 ['sleep']

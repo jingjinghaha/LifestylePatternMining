@@ -1,7 +1,5 @@
 ['charge']
 ['relax', 'bed']
-['home']
-['city']
 ['cook']
 ['diner', 'watch', 'tv']
-['sleep', 'home']
+['sleep']

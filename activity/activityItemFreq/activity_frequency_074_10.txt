@@ -11,5 +11,4 @@ train                    1
 sleep                    1         
 fitness                  1         
 cook                     2         
-home                     1         
 cycle                    2         

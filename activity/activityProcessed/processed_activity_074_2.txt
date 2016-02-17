@@ -7,5 +7,5 @@
 ['move']
 ['phone', 'call']
 ['move']
-['pack', 'stuf']
-['sleep', 'new', 'home']
+['pack']
+['sleep', 'new']

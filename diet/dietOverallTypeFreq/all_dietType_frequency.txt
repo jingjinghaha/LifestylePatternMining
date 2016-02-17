@@ -2,8 +2,8 @@ caffeineD                93
 dairyP                   218       
 eggP                     51        
 vegetables               193       
+starchyP                 118       
 nuts                     26        
-animalFat                17        
 alcoholD                 91        
 fruitP                   250       
 meatP                    177       
@@ -11,5 +11,5 @@ others                   51
 confections              275       
 compositeP               601       
 seafood                  45        
-starchyP                 118       
+animalFat                17        
 grainP                   219       

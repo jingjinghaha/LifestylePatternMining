@@ -3,5 +3,5 @@
 ['shop', 'car', 'shop', 'centre']
 ['walk']
 ['walk']
-['sleep', 'home']
+['sleep']
 ['charge']

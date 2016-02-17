@@ -10,4 +10,4 @@
 ['cook']
 ['watch', 'movie']
 ['clean']
-['sleep', 'home']
+['sleep']

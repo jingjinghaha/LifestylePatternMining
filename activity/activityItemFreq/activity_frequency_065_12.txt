@@ -6,6 +6,5 @@ watch                    1
 train                    2         
 sleep                    1         
 trainstation             1         
-home                     1         
 breakfast                1         
 cycle                    2         

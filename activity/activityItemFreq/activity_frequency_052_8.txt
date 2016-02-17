@@ -1,6 +1,7 @@
-study                    2         
-train                    3         
+study                    1         
+shower                   1         
+charge                   1         
 sleep                    1         
-irritation               1         
+meet                     1         
 sensorr                  1         
-cycle                    4         
+cycle                    7         

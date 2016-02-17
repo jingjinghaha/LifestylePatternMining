@@ -5,6 +5,6 @@
 ['exam', 'phone', 'forbid']
 ['shop']
 ['drive', 'car']
-['walk', 'dog']
+['walk']
 ['jacuzzi']
 ['sleep']

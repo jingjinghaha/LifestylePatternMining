@@ -1,4 +1,4 @@
-pasta                    1         
-muesli                   1         
-yoghurt                  2         
-sandwich                 1         
+cheese                   1         
+sandwich                 2         
+egg                      1         
+meat                     1         

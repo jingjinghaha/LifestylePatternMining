@@ -1,4 +1,4 @@
-['sleep', 'home']
+['sleep']
 ['gamen']
 ['cycle']
 ['charge', 'cook']

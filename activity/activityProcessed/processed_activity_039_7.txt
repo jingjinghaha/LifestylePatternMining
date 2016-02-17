@@ -2,6 +2,6 @@
 ['charge']
 ['bike', 'university']
 ['study']
-['bike', 'home']
+['bike']
 ['study']
 ['charge']

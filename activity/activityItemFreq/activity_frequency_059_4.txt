@@ -12,7 +12,6 @@ sleep                    1
 empty                    1         
 bus                      1         
 push                     1         
-home                     1         
 logger                   1         
 restart                  1         
 gps                      1         

@@ -1,7 +1,6 @@
 car                      2         
 visit                    1         
 drive                    2         
-dog                      1         
+walk                     1         
 charge                   1         
 sleep                    1         
-walk                     1         

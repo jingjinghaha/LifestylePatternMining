@@ -1,12 +1,10 @@
 coffee                   1         
 sandwich                 2         
 beef                     1         
-healthy                  1         
 pie                      1         
 candy                    1         
 soup                     1         
 chicken                  1         
 egg                      1         
 white                    1         
-red                      1         
 wine                     2         

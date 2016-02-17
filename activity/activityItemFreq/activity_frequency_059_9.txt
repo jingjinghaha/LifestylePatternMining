@@ -1,6 +1,5 @@
 car                      3         
-drive                    3         
-walk                     2         
 charge                   1         
 sleep                    1         
-home                     1         
+drive                    3         
+walk                     2         

@@ -6,5 +6,4 @@ bean                     1
 beer                     1         
 cookie                   1         
 orange                   1         
-home                     1         
 make                     1         

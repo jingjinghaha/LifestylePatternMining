@@ -1,7 +1,6 @@
 shop                     1         
 run                      1         
 diner                    1         
-home                     1         
 car                      1         
 household                2         
 work                     2         
@@ -13,7 +12,6 @@ computer                 1
 call                     1         
 activity                 2         
 dish                     1         
-stuf                     1         
-pack                     1         
 sleep                    1         
+pack                     1         
 cycle                    2         

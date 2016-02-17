@@ -3,9 +3,8 @@ car                      8
 strenght                 1         
 watch                    1         
 drive                    8         
-dog                      3         
+walk                     5         
 train                    1         
 sleep                    1         
 stand                    1         
 fitness                  1         
-walk                     5         

@@ -1,3 +1,4 @@
+pasta                    1         
 muesli                   1         
-chip                     1         
-yoghurt                  1         
+yoghurt                  2         
+sandwich                 1         

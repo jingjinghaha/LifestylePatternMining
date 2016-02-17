@@ -1,4 +1,4 @@
-['bike', 'home']
+['bike']
 ['sleep']
 ['computer']
 ['charge']

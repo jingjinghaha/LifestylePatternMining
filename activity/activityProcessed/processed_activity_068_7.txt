@@ -1,4 +1,4 @@
 ['cycle']
 ['study']
 ['walk']
-['study', 'home']
+['study']

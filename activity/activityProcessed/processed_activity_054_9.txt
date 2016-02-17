@@ -6,6 +6,6 @@
 ['cycle']
 ['cook']
 ['cycle']
-['city', 'phone', 'empty']
+['phone', 'empty']
 ['cycle']
 ['sleep']

@@ -4,11 +4,10 @@ household                1
 move                     2         
 drive                    4         
 dish                     1         
-stuf                     1         
+sleep                    1         
 clean                    1         
 activity                 1         
 cook                     1         
 meet                     1         
 pack                     1         
-sleep                    1         
 cycle                    1         

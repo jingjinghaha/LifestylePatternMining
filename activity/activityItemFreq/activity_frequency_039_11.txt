@@ -1,9 +1,7 @@
 shop                     1         
-city                     2         
 study                    2         
 walk                     2         
 charge                   1         
 bike                     2         
 sleep                    1         
-home                     1         
 household                1         

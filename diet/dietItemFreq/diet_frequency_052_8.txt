@@ -1,4 +1,7 @@
-cheese                   1         
 sandwich                 2         
-egg                      1         
-meat                     1         
+apple                    1         
+chocolate                1         
+soup                     1         
+muesli                   1         
+yoghurt                  1         
+banana                   1         

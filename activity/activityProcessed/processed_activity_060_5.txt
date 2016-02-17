@@ -6,4 +6,4 @@
 ['walk']
 ['train']
 ['watch', 'movie']
-['sleep', 'home']
+['sleep']

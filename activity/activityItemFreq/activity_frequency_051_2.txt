@@ -11,7 +11,6 @@ phone                    1
 train                    2         
 sleep                    1         
 bus                      1         
-home                     1         
 lesson                   1         
 wait                     1         
 cycle                    1         

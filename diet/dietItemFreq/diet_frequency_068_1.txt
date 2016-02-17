@@ -1,5 +1,4 @@
 pasta                    1         
 sandwich                 1         
 apple                    1         
-red                      1         
 wine                     1         

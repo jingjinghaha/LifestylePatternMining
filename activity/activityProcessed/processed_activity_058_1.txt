@@ -1,4 +1,4 @@
 ['cycle', 'phone']
 ['clean', 'house']
 ['sandwich', 'cheese', 'kiwi']
-['study', 'home']
+['study']

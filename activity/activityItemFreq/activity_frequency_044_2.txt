@@ -8,5 +8,4 @@ cook                     1
 sleep                    1         
 bed                      1         
 dish                     1         
-home                     1         
 dress                    1         

@@ -7,6 +7,6 @@
 ['train']
 ['walk']
 ['drive', 'car']
-['walk', 'dog']
-['walk', 'dog']
+['walk']
+['walk']
 ['sleep']

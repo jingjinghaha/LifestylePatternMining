@@ -1,6 +1,6 @@
 ['run']
 ['study']
-['walk', 'dog']
+['walk']
 ['jacuzzi']
 ['study']
 ['shop']

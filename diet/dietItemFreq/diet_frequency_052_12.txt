@@ -1,5 +1,9 @@
-rice                     1         
-chicken                  1         
 sandwich                 2         
+meat                     1         
+potato                   1         
+milk                     1         
+bean                     1         
+chocolate                1         
 egg                      1         
-custard                  1         
+banana                   1         
+bread                    2         

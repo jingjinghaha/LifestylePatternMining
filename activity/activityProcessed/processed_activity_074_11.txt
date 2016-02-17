@@ -1,6 +1,6 @@
 ['run']
 ['shower']
-['pack', 'stuf']
+['pack']
 ['cycle']
 ['wait']
 ['drive', 'car']

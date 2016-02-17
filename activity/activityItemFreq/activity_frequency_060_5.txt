@@ -5,6 +5,5 @@ walk                     1
 charge                   1         
 train                    1         
 sleep                    1         
-home                     1         
 meet                     1         
 cycle                    3         

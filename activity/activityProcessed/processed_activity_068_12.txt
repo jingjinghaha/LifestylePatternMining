@@ -1,4 +1,4 @@
-['walk', 'city']
+['walk']
 ['sit']
 ['bus']
 ['walk', 'christmas', 'market']
@@ -6,4 +6,3 @@
 ['walk']
 ['bus']
 ['walk']
-['home']

@@ -8,5 +8,4 @@ cookie                   1
 duck                     1         
 orange                   1         
 coquille                 1         
-red                      1         
 wine                     1         
