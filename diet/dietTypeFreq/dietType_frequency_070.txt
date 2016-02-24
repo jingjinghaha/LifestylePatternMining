@@ -1,12 +1,10 @@
 dairyP                   2         
-eggP                     1         
+snacks                   1         
 vegetables               8         
 seafood                  2         
 fruitP                   7         
 meatP                    7         
-others                   6         
-confections              1         
-compositeP               32        
+compositeP               33        
 alcoholD                 2         
 starchyP                 4         
 grainP                   1         

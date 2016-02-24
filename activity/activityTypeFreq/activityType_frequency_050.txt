@@ -1,8 +1,7 @@
 transportation1          34        
 transportation2          70        
-entertainment            14        
-work_study               12        
-diet                     4         
-rest                     10        
+others                   1         
+entertainmentRelax       11        
+sport                    3         
 social                   6         
-others                   4         
+workStudy                12        

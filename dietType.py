@@ -13,8 +13,8 @@ Type2 = ['shake','milk','cheese','yoghurt']
 Type3 = ['noodles','oatmeal','muesli','bread','macaroni']
 #meat products:
 Type4 = ['beef','bacon','meat','sausage','chicken','steak']
-#confections
-Type5 = ['choco','pie','candy','iceCream','chocolate','cake','snack','cookie','sugar','waffle','pudding','kellogs'] 
+#snacks
+Type5 = ['nut','choco','pie','candy','iceCream','chocolate','cake','snack','cookie','sugar','waffle','pudding','kellogs'] 
 #vegetables products: 
 Type6 = ['salad','sauerkraut','cucumber','spinach','carrot','pumpkin','broccoli','tomato','vegetable','zucchini','bean']
 #caffeine drink: 
@@ -23,16 +23,10 @@ Type7 = ['cola','tea','coffee','cappuccino']
 Type8 = ['beer','wine','alcohol']
 #Seafood
 Type9 = ['fish','tuna','salmon','tilapia']
-#egg products:
-Type10 = ['egg']
-#animal fats:
-Type11 = ['butter']
-#nuts:
-Type12 = ['nut']
 #Composite dishes
-Type13 = ['doner','sandwich','pizza','soup','snack','rice','pasta','lasagna','hamburger']
+Type10 = ['egg','doner','sandwich','pizza','soup','rice','pasta','lasagna','hamburger']
 #Starchy products:
-Type14 = ['potato','chip','fries']
+Type11 = ['potato','chip','fries']
 
 def dietType(word):
     diet_type = 'others'
@@ -45,7 +39,7 @@ def dietType(word):
     if word in Type4:
         diet_type = 'meatP'
     if word in Type5:
-        diet_type = 'confections'
+        diet_type = 'snacks'
     if word in Type6:
         diet_type = 'vegetables'
     if word in Type7:
@@ -55,14 +49,8 @@ def dietType(word):
     if word in Type9:
         diet_type = 'seafood'
     if word in Type10:
-        diet_type = 'eggP'
-    if word in Type11:
-        diet_type = 'animalFat'
-    if word in Type12:
-        diet_type = 'nuts'
-    if word in Type13:
         diet_type = 'compositeP'
-    if word in Type14:
+    if word in Type11:
         diet_type = 'starchyP'
     return diet_type 
 

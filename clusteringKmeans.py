@@ -14,7 +14,7 @@ import slpInfoRetrv
 
 # Domain = ['DietItem','ActItem','DietType','ActType','ActDietItem','ActDietType']
 Domain = ['DietType','ActType']
-Metric = ['TF','TFIDF']
+Metric = ['TF']
 
 def KM(domain, metric, n_clusters):
 	if metric == 'TF':
@@ -53,7 +53,7 @@ def KM(domain, metric, n_clusters):
 	# range_n_clusters = [4]
 	
 	# for n_clusters in range_n_clusters:
-	for j in range(200):
+	for j in range(300):
 		reduced_data = PCA(n_components=2).fit_transform(X)
 		# print X
 		# print reduced_data
@@ -111,6 +111,8 @@ def KM(domain, metric, n_clusters):
 	print domain,metric,inertia, labels
 
 def plotPCA(reduced_data,):
+	kmeans = KMeans(init='k-means++', n_clusters=n_clusters, n_init=10)
+	
 	# plot based on PCA 
 	# Step size of the mesh. Decrease to increase the quality of the VQ.
 	h = .02     # point in the mesh [x_min, m_max]x[y_min, y_max].
@@ -184,9 +186,9 @@ def KM_slp(n_clusters):
 			labels = Labels[i] 
 	print inertia, labels
 
-# for n_clusters in range(5,7):
-	# for domain in Domain:
-		# KM(domain, 'TF',n_clusters)
+for n_clusters in range(2,3):
+	for domain in Domain:
+		KM(domain, 'TF',n_clusters)
 
 # for n_clusters in range(5,7):
 	# for domain in Domain:
@@ -194,4 +196,4 @@ def KM_slp(n_clusters):
 			# KM(domain, metric,n_clusters)
 
 # KM('ActItem', 'TFIDF')
-KM_slp(4)
+# KM_slp(4)

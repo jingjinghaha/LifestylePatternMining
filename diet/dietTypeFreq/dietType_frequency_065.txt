@@ -1,13 +1,11 @@
 caffeineD                5         
 dairyP                   13        
-eggP                     3         
-vegetables               12        
+snacks                   19        
+alcoholD                 2         
 seafood                  2         
 fruitP                   3         
 meatP                    1         
-others                   14        
-confections              19        
-compositeP               31        
-alcoholD                 2         
+compositeP               34        
+vegetables               12        
 starchyP                 2         
 grainP                   2         

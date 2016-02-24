@@ -28,9 +28,8 @@ def getDemoGInfo():
 	FatMass = []
 	PercFat = []
 	Vo2max = []
-	gender = [0, 0]
+	gender = [0, 0] 
 	
-
 	for subject in available_list:
 		for rowRSlp in range(1,sheet.nrows):
 			sub = unicode(int(sheet.cell_value(rowRSlp,0)))
@@ -339,11 +338,11 @@ def genDemoInfoDietGroups():
 		demoDict[key]['medianHRAfter'] = sum(temp_MedianHRAfter)/float(len(temp_MedianHRAfter))
 	
 	print demoDict
-
-
 	
 # getDemoGInfo()
 # getSlpFeatTabl()
-genDemoInfoActGroups() 
-genDemoInfoDietGroups()
+
+# genDemoInfoActGroups() 
+# genDemoInfoDietGroups()
+
 # getSlpHours()

@@ -1,13 +1,10 @@
 caffeineD                3         
 dairyP                   2         
+snacks                   4         
 vegetables               5         
-starchyP                 1         
-nuts                     2         
 fruitP                   5         
 meatP                    1         
-others                   2         
-confections              2         
 compositeP               18        
 alcoholD                 4         
-animalFat                3         
+starchyP                 1         
 grainP                   9         

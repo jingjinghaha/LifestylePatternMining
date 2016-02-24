@@ -5,9 +5,7 @@ Created on Fri Jan 22 11:10:18 2016
 @author: wu34
 """
 
-from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
-from sklearn.decomposition import PCA
 import numpy as np
 import utilise
 
@@ -52,99 +50,33 @@ def bestLabel(domain,metric,n_clusters):
 		row_labels = utilise.itemDict2list(utilise.genDietTypeDict())
 	elif domain == 'ActType':
 		row_labels = utilise.itemDict2list(utilise.genActTypeDict())
+	print row_labels 
 	
 	if metric == 'TF':
 		# the labels are got from KMeans based on TF without PCA
-		# if domain == 'ActItem' and n_clusters == 2:
-			# labels = string2array('1 0 1 1 0 0 1 1 1 1 0 0 1 0 1 0 0 1 1 0 0 1 1 0 1 1 0 0 1')
-		# if domain == 'DietItem' and n_clusters == 2:
-			# labels = string2array('0 1 0 1 0 0 1 0 0 1 0 0 0 0 1 0 1 1 0 0 0 0 0 0 1 0 1 0 1')
+		
 		if domain == 'DietType' and n_clusters == 2:
-			labels = string2array('1 1 0 1 1 1 1 0 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 0 1 0 1 1 1')
+			labels = string2array('0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0')
 		if domain == 'ActType' and n_clusters == 2:
-			labels = string2array('0 0 0 0 1 1 1 1 1 0 1 1 0 1 0 1 1 0 0 1 1 0 0 1 0 0 1 1 0')
-		# if domain == 'ActItem' and n_clusters == 3:
-			# labels = string2array('2 0 1 1 0 0 2 2 2 2 0 0 1 0 2 0 0 2 2 0 0 2 1 0 2 2 0 0 2')
-		# if domain == 'DietItem' and n_clusters == 3:
-			# labels = string2array('2 0 2 0 1 0 0 2 2 2 2 2 2 2 1 2 0 0 2 1 1 1 1 2 1 2 0 1 1')
+			labels = string2array('0 0 0 0 0 1 1 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 1 1 0')
+
 		if domain == 'DietType' and n_clusters == 3:
-			labels = string2array('2 1 0 1 1 2 1 0 2 1 2 2 2 0 0 0 2 2 2 1 2 0 0 0 1 0 1 1 1')
+			labels = string2array('')
 		if domain == 'ActType' and n_clusters == 3:
-			labels = string2array('1 0 1 1 2 2 2 2 0 0 2 2 0 2 0 2 0 0 0 2 0 1 1 0 1 0 2 0 0')
-		# if domain == 'ActItem' and n_clusters == 4:
-			# labels = string2array('0 0 3 3 0 2 1 1 1 1 2 2 3 2 1 2 2 1 1 2 0 1 3 2 1 1 2 2 1')
-		# if domain == 'DietItem' and n_clusters == 4:
-			# labels = string2array('0 3 0 2 0 1 1 0 0 2 2 0 0 0 3 2 1 1 0 3 0 0 0 0 3 0 1 3 2')
+			labels = string2array('')
+
 		if domain == 'DietType' and n_clusters == 4:
-			labels = string2array('2 1 2 0 2 2 0 2 0 0 0 2 0 2 0 2 0 0 2 0 2 0 2 2 3 2 0 3 0')
+			labels = string2array('0 1 2 1 2 0 1 2 2 3 3 0 2 2 2 2 0 1 2 0 2 2 2 2 3 2 1 3 3')
 		if domain == 'ActType' and n_clusters == 4:
-			labels = string2array('2 2 0 0 1 3 1 1 1 2 3 1 0 1 2 3 1 2 2 1 1 0 0 1 1 2 3 2 2')
-		# if domain == 'ActItem' and n_clusters == 5:
-			# labels = string2array('4 3 0 0 3 3 2 2 2 2 1 1 0 1 2 1 3 2 2 1 3 2 0 1 2 2 3 1 2')
-		# if domain == 'DietItem' and n_clusters == 5:
-			# labels = string2array('4 1 3 4 3 0 2 3 3 0 0 1 1 3 1 0 2 4 3 1 3 3 3 3 0 3 2 0 0')
-		if domain == 'DietType' and n_clusters == 5:
-			labels = string2array('3 2 1 3 4 3 2 1 0 4 4 0 0 1 1 4 3 3 0 2 0 1 1 1 4 1 2 2 4')
-		if domain == 'ActType' and n_clusters == 5:
-			labels = string2array('2 4 0 3 4 1 1 1 4 2 1 1 2 1 2 1 4 2 2 1 4 0 0 4 0 2 1 4 2')
-		# if domain == 'ActItem' and n_clusters == 6:
-			# labels = string2array('4 3 0 0 3 3 2 2 2 2 1 1 0 1 2 1 3 2 2 1 3 2 0 1 2 2 3 1 2')
-		# if domain == 'DietItem' and n_clusters == 6:
-			# labels = string2array('4 1 3 4 3 0 2 3 3 0 0 1 1 3 1 0 2 4 3 1 3 3 3 3 0 3 2 0 0')
-		if domain == 'DietType' and n_clusters == 6:
-			labels = string2array('4 5 3 4 1 4 5 3 0 1 4 2 0 3 3 1 4 4 0 2 2 3 3 3 1 0 5 5 1')
-		if domain == 'ActType' and n_clusters == 6:
-			labels = string2array('1 2 3 5 0 0 4 4 2 1 4 0 1 4 1 4 2 1 1 4 2 3 3 2 3 1 0 2 1')
+			labels = string2array('1 3 1 1 2 2 2 2 3 1 2 2 1 2 0 2 3 0 1 2 3 1 1 2 1 0 2 0 0')
+
 	elif metric == 'TFIDF':
 		# # the labels are got from KMeans based on TFIDF without PCA
-		# if domain == 'ActItem' and n_clusters == 2:
-			# labels = string2array('1 0 1 1 0 0 1 1 1 1 0 0 1 0 1 0 0 1 1 0 0 1 1 0 1 1 0 0 1')
-		# if domain == 'DietItem' and n_clusters == 2:
-			# labels = string2array('1 1 0 1 1 1 0 0 0 0 0 1 0 0 1 0 0 0 0 1 1 1 0 0 1 0 0 1 1')
-		# if domain == 'DietType' and n_clusters == 2:
-			# labels = string2array('1 1 0 1 1 1 0 0 0 0 0 1 1 0 0 0 1 1 1 1 1 0 0 0 0 0 1 0 0')
-		# if domain == 'ActType' and n_clusters == 2:
-			# labels = string2array('1 1 1 1 0 0 0 0 0 1 0 0 1 0 1 0 0 1 1 0 0 1 1 0 1 1 0 0 1')
-		# # if domain == 'ActDietItem' and n_clusters == 2:
-			# # labels = string2array('')
-		# # if domain ==  'ActDietType' and n_clusters == 2:
-			# # labels = string2array('')
-		# if domain == 'ActItem' and n_clusters == 3:
-			# labels = string2array('1 2 1 1 2 0 1 1 1 1 2 2 1 2 1 2 2 1 1 2 0 1 1 2 1 1 0 2 1')
-		# if domain == 'DietItem' and n_clusters == 3:
-			# labels = string2array('0 2 1 2 2 0 1 1 1 0 0 2 1 1 2 0 0 0 1 2 2 1 1 1 0 1 0 0 0')
-		# if domain == 'DietType' and n_clusters == 3:
-			# labels = string2array('1 0 2 0 1 1 0 2 2 0 0 1 0 2 2 2 1 0 1 1 1 2 2 2 2 2 0 2 2')
-		# if domain == 'ActType' and n_clusters == 3:
-			# labels = string2array('2 0 2 2 1 1 1 1 1 2 1 1 2 1 0 1 1 0 2 1 1 2 2 1 2 0 1 0 0')
-		# # if domain == 'ActDietItem' and n_clusters == 3:
-			# # labels = string2array('')
-		# # if domain ==  'ActDietType' and n_clusters == 3:
-			# # labels = string2array('')
-		if domain == 'ActItem' and n_clusters == 4:
-			labels = string2array('3 2 1 1 2 2 3 3 3 3 0 0 1 0 3 0 0 3 3 0 2 3 3 0 3 3 0 0 3')
-		if domain == 'DietItem' and n_clusters == 4:
-			labels = string2array('1 2 1 1 0 1 1 1 1 1 1 1 1 1 2 1 3 1 1 0 0 0 0 1 0 1 1 0 1')
+
 		if domain == 'DietType' and n_clusters == 4:
-			labels = string2array('2 0 1 0 1 2 0 1 1 3 3 2 1 1 1 1 0 0 1 2 2 1 1 1 3 1 0 3 3')
+			labels = string2array('')
 		if domain == 'ActType' and n_clusters == 4:
-			labels = string2array('2 3 2 2 1 1 1 1 3 2 1 1 0 1 0 1 3 0 2 1 3 2 2 1 2 2 1 0 0')
-		# # if domain == 'ActDietItem' and n_clusters == 4:
-			# # labels = string2array('')
-		# # if domain ==  'ActDietType' and n_clusters == 4:
-			# # labels = string2array('')
-		# if domain == 'ActItem' and n_clusters == 5:
-			# labels = string2array('4 0 1 1 0 3 2 2 4 2 0 0 1 0 2 0 0 2 2 0 3 2 1 0 2 2 3 0 2')
-		# if domain == 'DietItem' and n_clusters == 5:
-			# labels = string2array('3 3 1 3 3 1 4 1 2 2 2 3 2 1 3 2 4 4 2 3 1 1 1 1 1 1 4 0 0')
-		# if domain == 'DietType' and n_clusters == 5:
-			# labels = string2array('4 3 0 3 4 4 2 0 2 1 2 4 2 0 0 1 2 2 2 4 4 0 0 0 1 2 3 2 1')
-		# if domain == 'ActType' and n_clusters == 5:
-			# labels = string2array('4 4 2 1 0 0 3 3 3 2 3 3 1 3 4 0 3 4 2 3 0 2 2 3 2 4 0 4 4')
-		# # if domain == 'ActDietItem' and n_clusters == 5:
-			# # labels = string2array('')
-		# # if domain ==  'ActDietType' and n_clusters == 5:
-			# # labels = string2array('')
+			labels = string2array('')
 	
 	# print type(labels)
 	plt.figure()
@@ -158,6 +90,8 @@ def bestLabel(domain,metric,n_clusters):
 			sumVec += x 
 		meanVec = sumVec/i 
 		meanVec.tolist()
+		
+		print meanVec 
 		
 		# we don't have to do normalization here, as the input X has already been normalized 
 		# totalSum = np.sum(meanVec[0])
@@ -207,7 +141,7 @@ def bestLabel(domain,metric,n_clusters):
 
 def clusteringKmeansLabels():
 	for domain in Domain:
-		for n_clusters in range(5,7):
+		for n_clusters in range(2,3):
 			bestLabel(domain,'TF',n_clusters)
 
 # bestLabel('DietItem',4)

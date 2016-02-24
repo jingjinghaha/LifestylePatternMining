@@ -16,8 +16,8 @@ def buildSingleDietTypeFreqFile():
 		f_diet = open('diet/dietTypeFreq/dietType_frequency_'+subjectID+'.txt','w')
 		singleDietType_dict = buildTypeIndex.build_single_diet_index(subjectID)
 		for key in singleDietType_dict:
-			# if key != 'others':
-			if key:
+			if key != 'others':
+			# if key:
 				f_diet.write("%-25s%-10s"%(key,singleDietType_dict[key]))
 				f_diet.write('\n')
 		f_diet.close()
@@ -56,8 +56,8 @@ def buildDietTypeFreqTXTFile():
 			# print dietType_dict[diettype]
 	# print dietType_dict
 	for key in dietType_dict:
-		# if key != 'others':
-		if key:
+		if key != 'others':
+		# if key:
 			f_diet.write("%-25s%-10s"%(key,dietType_dict[key]))
 			f_diet.write('\n')
 	f_diet.close()

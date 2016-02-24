@@ -1,10 +1,7 @@
 caffeineD                3         
-eggP                     2         
+snacks                   3         
 seafood                  3         
-nuts                     1         
 fruitP                   6         
 meatP                    5         
-others                   7         
-confections              2         
-compositeP               4         
+compositeP               6         
 alcoholD                 1         

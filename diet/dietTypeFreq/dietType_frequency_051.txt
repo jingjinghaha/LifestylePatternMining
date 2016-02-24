@@ -1,9 +1,8 @@
 grainP                   17        
+snacks                   9         
 seafood                  1         
 fruitP                   4         
 meatP                    8         
-others                   14        
-confections              9         
 compositeP               13        
 vegetables               8         
 starchyP                 3         

@@ -78,13 +78,16 @@ visSimilarityMat.plotSimilarityMatrix('TFIDFEclud')
 visTFMat.visTFMatrix()
 visTFIDFMat.visTFIDFMatrix()
 
-# plot best labels got from KMeans 
-clusteringKmeansLabels.clusteringKmeansLabels()
+'''
+The following steps are done after we finish the Kmeans and get the best labels 
+'''
+# # plot best labels got from KMeans 
+# clusteringKmeansLabels.clusteringKmeansLabels()
 
-# visualization of subject's daily pattern based best grouping results from KMeans
-visDailyPatternIntraGroup.visDailyPatternIntraGroup()
-visDailyPatternInterGroup.visDailyPatternInterGroup()
+# # visualization of subject's daily pattern based best grouping results from KMeans
+# visDailyPatternIntraGroup.visDailyPatternIntraGroup()
+# visDailyPatternInterGroup.visDailyPatternInterGroup()
 
-# build excel file that combine the act/diet with sleep informaiton 
-buildDietActTable.buildDietActTableWithSlp()
-buildDietActTableWithFreq.buildDietActTableWithSlpWithFreq()
+# # build excel file that combine the act/diet with sleep informaiton 
+# buildDietActTable.buildDietActTableWithSlp()
+# buildDietActTableWithFreq.buildDietActTableWithSlpWithFreq()

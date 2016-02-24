@@ -3,7 +3,6 @@ dairyP                   9
 vegetables               5         
 alcoholD                 6         
 starchyP                 4         
-others                   3         
 compositeP               27        
 seafood                  3         
 grainP                   4         
