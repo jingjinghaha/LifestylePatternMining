@@ -10,8 +10,8 @@ import slpInfoRetrv
 import dietActInfoRetrv
 sleep_list = ['044','045','048','050','051','052','053','056','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
 
-labelsDietType = dietActInfoRetrv.string2array('0 1 2 1 2 0 1 2 2 3 3 0 2 2 2 2 0 1 2 0 2 2 2 2 3 2 1 3 3')
-labelsActType = dietActInfoRetrv.string2array('1 3 1 1 2 2 2 2 3 1 2 2 1 2 0 2 3 0 1 2 3 1 1 2 1 0 2 0 0')
+labelsDietType = dietActInfoRetrv.string2array('1 0 1 1 1 0 0 1 1 1 0 0 0 1 1 1 0 1 1 0 1 1 1 1 0 1 0 0 0')
+labelsActType = dietActInfoRetrv.string2array('2 1 2 2 0 0 0 0 1 2 0 0 2 0 1 0 0 2 2 0 1 2 2 0 2 2 0 1 1')
 
 def buildSubAveInfo():
 	workbookW = xlwt.Workbook()

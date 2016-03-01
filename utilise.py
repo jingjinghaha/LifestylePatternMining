@@ -381,7 +381,14 @@ def normVec_sum(vec):
 	sum = np.sum(vec)
 	return vec/sum
 
+def featureScaling(vec):
+	avg = vec.mean()
+	std = vec.std()
+	return (vec-avg)/std 
+
 def normArray(array):
-	# for j in range(array.shape[0]):
-		# array[j] = normVec_sum(array[j])
+	for j in range(array.shape[0]):
+		array[j] = normVec_max(array[j])
+	# for j in range(array.shape[1]):
+		# array[:,j] = featureScaling(array[:,j]) 
 	return array

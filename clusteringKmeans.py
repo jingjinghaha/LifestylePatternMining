@@ -186,7 +186,7 @@ def KM_slp(n_clusters):
 			labels = Labels[i] 
 	print inertia, labels
 
-for n_clusters in range(2,3):
+for n_clusters in range(3,4):
 	for domain in Domain:
 		KM(domain, 'TF',n_clusters)
 

@@ -308,4 +308,4 @@ def buildDietActTableWithSlp():
 	buildActWithSleepExcel()
 	buildDietWithSleepExcel()
 
-# buildDietActTableWithSlp() 
+buildDietActTableWithSlp() 

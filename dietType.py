@@ -10,7 +10,7 @@ Type1 = ['jam','raisin','currants','fruit','orange','apple','banana','kiwi','sul
 #dairy products:
 Type2 = ['shake','milk','cheese','yoghurt']
 #grain products:
-Type3 = ['noodles','oatmeal','muesli','bread','macaroni']
+Type3 = ['noodles','oatmeal','muesli','bread','macaroni''rice',]
 #meat products:
 Type4 = ['beef','bacon','meat','sausage','chicken','steak']
 #snacks
@@ -24,7 +24,7 @@ Type8 = ['beer','wine','alcohol']
 #Seafood
 Type9 = ['fish','tuna','salmon','tilapia']
 #Composite dishes
-Type10 = ['egg','doner','sandwich','pizza','soup','rice','pasta','lasagna','hamburger']
+Type10 = ['egg','doner','sandwich','pizza','soup','pasta','lasagna','hamburger']
 #Starchy products:
 Type11 = ['potato','chip','fries']
 
