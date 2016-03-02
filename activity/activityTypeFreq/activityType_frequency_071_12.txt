@@ -1,0 +1,5 @@
+transportation2          6         
+social                   1         
+transportation3          1         
+others                   1         
+sport                    1         

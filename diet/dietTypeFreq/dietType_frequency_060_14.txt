@@ -1,0 +1,2 @@
+compositeP               2         
+starchyP                 1         

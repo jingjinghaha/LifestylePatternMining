@@ -1,0 +1,8 @@
+caffeineD                1         
+grainP                   2         
+snacks                   2         
+seafood                  1         
+fruitP                   2         
+starchyP                 1         
+alcoholD                 1         
+dairyP                   1         

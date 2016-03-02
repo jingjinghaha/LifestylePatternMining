@@ -1,0 +1,5 @@
+starchyP                 1         
+vegetables               1         
+dairyP                   1         
+grainP                   2         
+snacks                   1         

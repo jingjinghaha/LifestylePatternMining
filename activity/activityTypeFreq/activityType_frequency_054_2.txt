@@ -1,0 +1,4 @@
+workStudy                3         
+sport                    1         
+transportation3          5         
+others                   1         

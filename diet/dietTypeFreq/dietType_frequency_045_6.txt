@@ -1,0 +1,3 @@
+compositeP               2         
+seafood                  1         
+dairyP                   1         

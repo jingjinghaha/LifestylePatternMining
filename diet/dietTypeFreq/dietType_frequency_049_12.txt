@@ -1,0 +1,6 @@
+dairyP                   1         
+snacks                   1         
+vegetables               2         
+fruitP                   1         
+meatP                    2         
+compositeP               4         

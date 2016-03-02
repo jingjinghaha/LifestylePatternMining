@@ -1,0 +1,5 @@
+caffeineD                1         
+snacks                   2         
+alcoholD                 2         
+meatP                    2         
+compositeP               4         

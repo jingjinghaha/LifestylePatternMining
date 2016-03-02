@@ -1,0 +1,5 @@
+transportation1          2         
+transportation2          2         
+workStudy                1         
+transportation3          2         
+sport                    1         

@@ -1,0 +1,5 @@
+dairyP                   1         
+snacks                   1         
+alcoholD                 2         
+fruitP                   1         
+compositeP               2         

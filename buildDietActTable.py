@@ -137,7 +137,7 @@ def buildActWithSleepExcel():
 	'''
 	workbookW = xlwt.Workbook()
 	ws = workbookW.add_sheet('sheet1')
-	titles = ['SubjId','Day','Act','ActType','Morningness','Eveningness','Lark','Owl','HoursSleep','SleepMoveCount','SleepQuality','MedianHR','MedianBefore','MedianHRAfter','age','gender','height','weight','BMI','FatFreeMass','FatMass','PercFat','vo2max']
+	titles = ['SubjId','Day','WeekDay','Act','ActType','GoToBed','GetUp','Morningness','Eveningness','Lark','Owl','HoursSleep','SleepMoveCount','SleepQuality','MedianHR','MedianBefore','MedianHRAfter','age','gender','height','weight','BMI','FatFreeMass','FatMass','PercFat','vo2max']
 	
 	for i in range(len(titles)):
 		ws.write(0,i,titles[i])
@@ -170,8 +170,8 @@ def buildActWithSleepExcel():
 								temp = int(dd.split('.')[1])
 								dd = dd.split('.')[0]+'.'+str(temp)+'.'+dd.split('.')[2]
 								if dd == day: 
-									ws.write(rowW,2,sheet1.cell_value(rowRAct-1,2))
-									ws.write(rowW,3,sheet1.cell_value(rowRAct-1,3))
+									ws.write(rowW,3,sheet1.cell_value(rowRAct-1,2))
+									ws.write(rowW,4,sheet1.cell_value(rowRAct-1,3))
 								else: 
 									break
 							else:
@@ -180,36 +180,39 @@ def buildActWithSleepExcel():
 							day = sheet2.cell_value(rowRSlp,1)
 							temp = int(day.split('.')[1])
 							day = day.split('.')[0]+'.'+str(temp)+'.'+day.split('.')[2]
-							ws.write(rowW,2,sheet1.cell_value(rowRAct,2))
-							ws.write(rowW,3,sheet1.cell_value(rowRAct,3))
+							ws.write(rowW,3,sheet1.cell_value(rowRAct,2))
+							ws.write(rowW,4,sheet1.cell_value(rowRAct,3))
 					else: 
 						day = sheet2.cell_value(rowRSlp,1)
 						temp = int(day.split('.')[1])
 						day = day.split('.')[0]+'.'+str(temp)+'.'+day.split('.')[2]
-						ws.write(rowW,2,sheet1.cell_value(rowRAct,2))
-						ws.write(rowW,3,sheet1.cell_value(rowRAct,3))
+						ws.write(rowW,3,sheet1.cell_value(rowRAct,2))
+						ws.write(rowW,4,sheet1.cell_value(rowRAct,3))
 					
 					ws.write(rowW,0,sub)
 					ws.write(rowW,1,day)
-					ws.write(rowW,4,sheet2.cell_value(rowRSlp,5))
-					ws.write(rowW,5,sheet2.cell_value(rowRSlp,6))
-					ws.write(rowW,6,sheet2.cell_value(rowRSlp,7))
-					ws.write(rowW,7,sheet2.cell_value(rowRSlp,8))
-					ws.write(rowW,8,sheet2.cell_value(rowRSlp,9))
-					ws.write(rowW,9,sheet2.cell_value(rowRSlp,10))
-					ws.write(rowW,10,sheet2.cell_value(rowRSlp,11))
-					ws.write(rowW,11,sheet2.cell_value(rowRSlp,12))
-					ws.write(rowW,12,sheet2.cell_value(rowRSlp,13))
-					ws.write(rowW,13,sheet2.cell_value(rowRSlp,14))
-					ws.write(rowW,14,sheet2.cell_value(rowRSlp,15))
-					ws.write(rowW,15,sheet2.cell_value(rowRSlp,16))
-					ws.write(rowW,16,sheet2.cell_value(rowRSlp,17))
-					ws.write(rowW,17,sheet2.cell_value(rowRSlp,18))
-					ws.write(rowW,18,sheet2.cell_value(rowRSlp,19))
-					ws.write(rowW,19,sheet2.cell_value(rowRSlp,20))
-					ws.write(rowW,20,sheet2.cell_value(rowRSlp,21))
-					ws.write(rowW,21,sheet2.cell_value(rowRSlp,22))
-					ws.write(rowW,22,sheet2.cell_value(rowRSlp,23))
+					ws.write(rowW,2,sheet2.cell_value(rowRSlp,2))
+					ws.write(rowW,5,sheet2.cell_value(rowRSlp,3))
+					ws.write(rowW,6,sheet2.cell_value(rowRSlp,4))
+					ws.write(rowW,7,sheet2.cell_value(rowRSlp,5))
+					ws.write(rowW,8,sheet2.cell_value(rowRSlp,6))
+					ws.write(rowW,9,sheet2.cell_value(rowRSlp,7))
+					ws.write(rowW,10,sheet2.cell_value(rowRSlp,8))
+					ws.write(rowW,11,sheet2.cell_value(rowRSlp,9))
+					ws.write(rowW,12,sheet2.cell_value(rowRSlp,10))
+					ws.write(rowW,13,sheet2.cell_value(rowRSlp,11))
+					ws.write(rowW,14,sheet2.cell_value(rowRSlp,12))
+					ws.write(rowW,15,sheet2.cell_value(rowRSlp,13))
+					ws.write(rowW,16,sheet2.cell_value(rowRSlp,14))
+					ws.write(rowW,17,sheet2.cell_value(rowRSlp,15))
+					ws.write(rowW,18,sheet2.cell_value(rowRSlp,16))
+					ws.write(rowW,19,sheet2.cell_value(rowRSlp,17))
+					ws.write(rowW,20,sheet2.cell_value(rowRSlp,18))
+					ws.write(rowW,21,sheet2.cell_value(rowRSlp,19))
+					ws.write(rowW,22,sheet2.cell_value(rowRSlp,20))
+					ws.write(rowW,23,sheet2.cell_value(rowRSlp,21))
+					ws.write(rowW,25,sheet2.cell_value(rowRSlp,22))
+					ws.write(rowW,26,sheet2.cell_value(rowRSlp,23))
 					rowW += 1
 
 	workbookW.save('activity/activityTableWithSleep.xls')
@@ -220,7 +223,7 @@ def buildDietWithSleepExcel():
 	'''
 	workbookW = xlwt.Workbook()
 	ws = workbookW.add_sheet('sheet1')
-	titles = ['SubjId','Day','Diet','DietType','Morningness','Eveningness','Lark','Owl','HoursSleep','SleepMoveCount','SleepQuality','MedianHR','MedianBefore','MedianHRAfter','age','gender','height','weight','BMI','FatFreeMass','FatMass','PercFat','vo2max']
+	titles = ['SubjId','Day','WeekDay','Diet','DietType','GoToBed','GetUp','Morningness','Eveningness','Lark','Owl','HoursSleep','SleepMoveCount','SleepQuality','MedianHR','MedianBefore','MedianHRAfter','age','gender','height','weight','BMI','FatFreeMass','FatMass','PercFat','vo2max']
 	
 	for i in range(len(titles)):
 		ws.write(0,i,titles[i])
@@ -253,8 +256,8 @@ def buildDietWithSleepExcel():
 								temp = int(dd.split('.')[1])
 								dd = dd.split('.')[0]+'.'+str(temp)+'.'+dd.split('.')[2]
 								if dd == day: 
-									ws.write(rowW,2,sheet1.cell_value(rowRDiet-1,2))
-									ws.write(rowW,3,sheet1.cell_value(rowRDiet-1,3))
+									ws.write(rowW,3,sheet1.cell_value(rowRDiet-1,2))
+									ws.write(rowW,4,sheet1.cell_value(rowRDiet-1,3))
 								else: 
 									break
 							else:
@@ -263,36 +266,39 @@ def buildDietWithSleepExcel():
 							day = sheet2.cell_value(rowRSlp,1)
 							temp = int(day.split('.')[1])
 							day = day.split('.')[0]+'.'+str(temp)+'.'+day.split('.')[2]
-							ws.write(rowW,2,sheet1.cell_value(rowRDiet,2))
-							ws.write(rowW,3,sheet1.cell_value(rowRDiet,3))
+							ws.write(rowW,3,sheet1.cell_value(rowRDiet,2))
+							ws.write(rowW,4,sheet1.cell_value(rowRDiet,3))
 					else: 
 						day = sheet2.cell_value(rowRSlp,1)
 						temp = int(day.split('.')[1])
 						day = day.split('.')[0]+'.'+str(temp)+'.'+day.split('.')[2]
-						ws.write(rowW,2,sheet1.cell_value(rowRDiet,2))
-						ws.write(rowW,3,sheet1.cell_value(rowRDiet,3))
+						ws.write(rowW,3,sheet1.cell_value(rowRDiet,2))
+						ws.write(rowW,4,sheet1.cell_value(rowRDiet,3))
 					
 					ws.write(rowW,0,sub)
 					ws.write(rowW,1,day)
-					ws.write(rowW,4,sheet2.cell_value(rowRSlp,5))
-					ws.write(rowW,5,sheet2.cell_value(rowRSlp,6))
-					ws.write(rowW,6,sheet2.cell_value(rowRSlp,7))
-					ws.write(rowW,7,sheet2.cell_value(rowRSlp,8))
-					ws.write(rowW,8,sheet2.cell_value(rowRSlp,9))
-					ws.write(rowW,9,sheet2.cell_value(rowRSlp,10))
-					ws.write(rowW,10,sheet2.cell_value(rowRSlp,11))
-					ws.write(rowW,11,sheet2.cell_value(rowRSlp,12))
-					ws.write(rowW,12,sheet2.cell_value(rowRSlp,13))
-					ws.write(rowW,13,sheet2.cell_value(rowRSlp,14))
-					ws.write(rowW,14,sheet2.cell_value(rowRSlp,15))
-					ws.write(rowW,15,sheet2.cell_value(rowRSlp,16))
-					ws.write(rowW,16,sheet2.cell_value(rowRSlp,17))
-					ws.write(rowW,17,sheet2.cell_value(rowRSlp,18))
-					ws.write(rowW,18,sheet2.cell_value(rowRSlp,19))
-					ws.write(rowW,19,sheet2.cell_value(rowRSlp,20))
-					ws.write(rowW,20,sheet2.cell_value(rowRSlp,21))
-					ws.write(rowW,21,sheet2.cell_value(rowRSlp,22))
-					ws.write(rowW,22,sheet2.cell_value(rowRSlp,23))
+					ws.write(rowW,2,sheet2.cell_value(rowRSlp,2))
+					ws.write(rowW,5,sheet2.cell_value(rowRSlp,3))
+					ws.write(rowW,6,sheet2.cell_value(rowRSlp,4))
+					ws.write(rowW,7,sheet2.cell_value(rowRSlp,5))
+					ws.write(rowW,8,sheet2.cell_value(rowRSlp,6))
+					ws.write(rowW,9,sheet2.cell_value(rowRSlp,7))
+					ws.write(rowW,10,sheet2.cell_value(rowRSlp,8))
+					ws.write(rowW,11,sheet2.cell_value(rowRSlp,9))
+					ws.write(rowW,12,sheet2.cell_value(rowRSlp,10))
+					ws.write(rowW,13,sheet2.cell_value(rowRSlp,11))
+					ws.write(rowW,14,sheet2.cell_value(rowRSlp,12))
+					ws.write(rowW,15,sheet2.cell_value(rowRSlp,13))
+					ws.write(rowW,16,sheet2.cell_value(rowRSlp,14))
+					ws.write(rowW,17,sheet2.cell_value(rowRSlp,15))
+					ws.write(rowW,18,sheet2.cell_value(rowRSlp,16))
+					ws.write(rowW,19,sheet2.cell_value(rowRSlp,17))
+					ws.write(rowW,20,sheet2.cell_value(rowRSlp,18))
+					ws.write(rowW,21,sheet2.cell_value(rowRSlp,19))
+					ws.write(rowW,22,sheet2.cell_value(rowRSlp,20))
+					ws.write(rowW,23,sheet2.cell_value(rowRSlp,21))
+					ws.write(rowW,25,sheet2.cell_value(rowRSlp,22))
+					ws.write(rowW,26,sheet2.cell_value(rowRSlp,23))
 					rowW += 1
 
 	workbookW.save('diet/dietTableWithSleep.xls')

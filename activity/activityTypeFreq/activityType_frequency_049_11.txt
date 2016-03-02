@@ -1,0 +1,4 @@
+transportation1          1         
+transportation2          8         
+others                   1         
+workStudy                1         

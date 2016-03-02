@@ -1,0 +1,7 @@
+caffeineD                1         
+grainP                   1         
+snacks                   2         
+vegetables               1         
+meatP                    3         
+compositeP               1         
+seafood                  1         

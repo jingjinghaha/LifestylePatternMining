@@ -4,7 +4,7 @@ seafood                  1
 vegetables               2         
 fruitP                   9         
 meatP                    10        
-compositeP               36        
+compositeP               35        
 alcoholD                 3         
 starchyP                 6         
 grainP                   8         

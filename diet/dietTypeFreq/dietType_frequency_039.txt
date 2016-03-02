@@ -5,7 +5,7 @@ alcoholD                 1
 vegetables               3         
 fruitP                   6         
 meatP                    20        
-compositeP               32        
+compositeP               30        
 seafood                  3         
 starchyP                 3         
 dairyP                   11        

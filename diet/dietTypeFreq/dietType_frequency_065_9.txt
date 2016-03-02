@@ -1,0 +1,5 @@
+snacks                   4         
+seafood                  1         
+vegetables               1         
+compositeP               3         
+alcoholD                 1         

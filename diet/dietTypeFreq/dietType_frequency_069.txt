@@ -4,7 +4,7 @@ snacks                   5
 seafood                  1         
 fruitP                   6         
 meatP                    3         
-compositeP               29        
+compositeP               27        
 vegetables               6         
 starchyP                 2         
 dairyP                   7         

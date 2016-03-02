@@ -5,7 +5,7 @@ vegetables               193
 alcoholD                 91        
 fruitP                   250       
 meatP                    177       
-compositeP               642       
+compositeP               594       
 seafood                  45        
 starchyP                 118       
-grainP                   219       
+grainP                   213       

@@ -1,0 +1,3 @@
+alcoholD                 1         
+dairyP                   1         
+meatP                    1         

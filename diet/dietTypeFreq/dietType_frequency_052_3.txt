@@ -1,0 +1,8 @@
+dairyP                   3         
+grainP                   1         
+seafood                  1         
+fruitP                   1         
+meatP                    2         
+compositeP               2         
+vegetables               1         
+starchyP                 1         

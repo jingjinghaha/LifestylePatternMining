@@ -1,0 +1,5 @@
+dairyP                   2         
+alcoholD                 1         
+grainP                   2         
+starchyP                 1         
+snacks                   1         

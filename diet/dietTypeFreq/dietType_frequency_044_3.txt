@@ -1,0 +1,6 @@
+grainP                   2         
+snacks                   1         
+alcoholD                 2         
+fruitP                   1         
+meatP                    1         
+vegetables               1         

@@ -1,0 +1,5 @@
+transportation2          3         
+workStudy                3         
+social                   1         
+others                   2         
+sport                    2         

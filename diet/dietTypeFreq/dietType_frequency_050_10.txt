@@ -1,0 +1,5 @@
+caffeineD                1         
+dairyP                   1         
+snacks                   2         
+starchyP                 1         
+grainP                   2         

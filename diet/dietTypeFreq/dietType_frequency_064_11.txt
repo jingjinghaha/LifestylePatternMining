@@ -1,0 +1,4 @@
+compositeP               1         
+meatP                    2         
+starchyP                 2         
+snacks                   2         

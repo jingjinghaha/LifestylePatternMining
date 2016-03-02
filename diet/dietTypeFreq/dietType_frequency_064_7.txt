@@ -1,0 +1,4 @@
+vegetables               1         
+starchyP                 1         
+meatP                    1         
+snacks                   2         

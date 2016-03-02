@@ -1,0 +1,5 @@
+compositeP               1         
+caffeineD                1         
+fruitP                   1         
+grainP                   3         
+dairyP                   1         

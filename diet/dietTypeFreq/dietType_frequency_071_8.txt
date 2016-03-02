@@ -1,0 +1,5 @@
+dairyP                   2         
+vegetables               1         
+fruitP                   2         
+compositeP               1         
+grainP                   3         

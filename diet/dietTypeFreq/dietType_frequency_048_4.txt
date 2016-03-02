@@ -1,0 +1,4 @@
+compositeP               1         
+snacks                   1         
+fruitP                   2         
+meatP                    1         

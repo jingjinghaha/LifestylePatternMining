@@ -1,0 +1,4 @@
+compositeP               3         
+fruitP                   1         
+meatP                    1         
+starchyP                 1         

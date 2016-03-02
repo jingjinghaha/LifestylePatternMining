@@ -1,0 +1,4 @@
+compositeP               1         
+caffeineD                1         
+fruitP                   2         
+seafood                  1         

@@ -1,0 +1,6 @@
+snacks                   1         
+vegetables               1         
+fruitP                   1         
+starchyP                 1         
+compositeP               3         
+alcoholD                 1         

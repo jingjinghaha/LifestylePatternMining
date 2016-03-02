@@ -1,0 +1,7 @@
+grainP                   1         
+snacks                   1         
+alcoholD                 1         
+fruitP                   1         
+meatP                    1         
+compositeP               3         
+dairyP                   1         

@@ -5,6 +5,6 @@ vegetables               15
 alcoholD                 2         
 fruitP                   19        
 starchyP                 6         
-compositeP               24        
+compositeP               20        
 seafood                  2         
 grainP                   26        

@@ -1,0 +1,3 @@
+seafood                  1         
+vegetables               1         
+alcoholD                 1         

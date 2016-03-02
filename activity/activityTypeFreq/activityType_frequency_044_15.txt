@@ -1,0 +1,6 @@
+transportation1          2         
+transportation3          2         
+workStudy                2         
+entertainmentRelax       1         
+others                   2         
+sport                    1         

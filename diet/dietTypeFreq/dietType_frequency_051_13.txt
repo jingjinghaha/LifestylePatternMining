@@ -1,0 +1,4 @@
+compositeP               1         
+vegetables               1         
+grainP                   3         
+starchyP                 1         

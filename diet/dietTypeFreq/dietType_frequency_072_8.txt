@@ -1,0 +1,3 @@
+compositeP               2         
+snacks                   2         
+starchyP                 1         

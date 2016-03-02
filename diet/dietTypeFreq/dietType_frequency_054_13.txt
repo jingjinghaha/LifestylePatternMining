@@ -1,0 +1,4 @@
+vegetables               1         
+fruitP                   2         
+grainP                   1         
+meatP                    2         

@@ -1,0 +1,4 @@
+vegetables               1         
+fruitP                   3         
+grainP                   1         
+snacks                   1         

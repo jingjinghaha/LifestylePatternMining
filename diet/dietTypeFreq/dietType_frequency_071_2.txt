@@ -1,0 +1,6 @@
+dairyP                   2         
+vegetables               1         
+fruitP                   2         
+starchyP                 1         
+compositeP               1         
+grainP                   1         

@@ -1,0 +1,4 @@
+compositeP               1         
+alcoholD                 1         
+vegetables               1         
+snacks                   3         

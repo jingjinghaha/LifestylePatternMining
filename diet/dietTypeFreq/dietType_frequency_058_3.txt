@@ -1,0 +1,3 @@
+compositeP               2         
+meatP                    1         
+snacks                   4         

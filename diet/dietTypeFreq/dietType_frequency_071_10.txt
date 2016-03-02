@@ -1,0 +1,4 @@
+seafood                  1         
+fruitP                   4         
+dairyP                   2         
+grainP                   2         

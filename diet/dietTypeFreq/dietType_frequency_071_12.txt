@@ -1,0 +1,3 @@
+compositeP               4         
+dairyP                   1         
+grainP                   2         

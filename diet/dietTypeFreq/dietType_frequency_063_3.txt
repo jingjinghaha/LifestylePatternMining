@@ -1,0 +1,4 @@
+alcoholD                 1         
+fruitP                   1         
+starchyP                 1         
+snacks                   3         

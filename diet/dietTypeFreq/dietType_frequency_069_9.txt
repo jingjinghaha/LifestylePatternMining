@@ -1,0 +1,3 @@
+compositeP               3         
+fruitP                   2         
+snacks                   2         

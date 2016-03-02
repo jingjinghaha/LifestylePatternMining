@@ -1,0 +1,4 @@
+compositeP               2         
+fruitP                   1         
+dairyP                   2         
+grainP                   1         

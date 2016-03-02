@@ -1,0 +1,3 @@
+compositeP               1         
+alcoholD                 2         
+grainP                   1         

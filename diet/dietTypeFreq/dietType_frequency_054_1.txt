@@ -1,0 +1,3 @@
+compositeP               1         
+vegetables               4         
+fruitP                   3         

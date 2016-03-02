@@ -1,0 +1,5 @@
+seafood                  1         
+fruitP                   1         
+starchyP                 1         
+compositeP               2         
+vegetables               1         

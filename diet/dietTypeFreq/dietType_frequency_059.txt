@@ -3,7 +3,7 @@ snacks                   6
 alcoholD                 2         
 seafood                  1         
 meatP                    6         
-compositeP               28        
+compositeP               27        
 vegetables               7         
 starchyP                 3         
 dairyP                   6         

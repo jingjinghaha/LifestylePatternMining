@@ -1,0 +1,4 @@
+compositeP               2         
+alcoholD                 2         
+grainP                   1         
+meatP                    1         

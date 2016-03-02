@@ -1,0 +1,7 @@
+dairyP                   2         
+vegetables               3         
+fruitP                   1         
+starchyP                 1         
+compositeP               1         
+alcoholD                 1         
+grainP                   2         

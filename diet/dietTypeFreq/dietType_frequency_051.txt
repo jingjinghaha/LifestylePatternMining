@@ -1,9 +1,9 @@
-grainP                   17        
+grainP                   15        
 snacks                   9         
 seafood                  1         
 fruitP                   4         
 meatP                    8         
-compositeP               13        
+compositeP               11        
 vegetables               8         
 starchyP                 3         
 dairyP                   1         

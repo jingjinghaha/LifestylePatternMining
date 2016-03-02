@@ -1,0 +1,4 @@
+transportation1          3         
+transportation2          4         
+transportation3          8         
+social                   2         

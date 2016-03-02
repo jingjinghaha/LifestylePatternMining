@@ -1,0 +1,5 @@
+caffeineD                1         
+meatP                    1         
+snacks                   2         
+starchyP                 1         
+compositeP               1         

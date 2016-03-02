@@ -1,0 +1,5 @@
+caffeineD                2         
+dairyP                   1         
+alcoholD                 1         
+fruitP                   2         
+compositeP               3         

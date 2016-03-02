@@ -4,7 +4,7 @@ snacks                   4
 vegetables               4         
 fruitP                   8         
 meatP                    4         
-compositeP               22        
+compositeP               18        
 alcoholD                 6         
 starchyP                 2         
 grainP                   6         

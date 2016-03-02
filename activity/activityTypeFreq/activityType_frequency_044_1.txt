@@ -1,0 +1,3 @@
+transportation1          1         
+workStudy                1         
+others                   1         

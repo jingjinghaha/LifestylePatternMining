@@ -1,0 +1,4 @@
+compositeP               3         
+alcoholD                 1         
+starchyP                 1         
+meatP                    2         

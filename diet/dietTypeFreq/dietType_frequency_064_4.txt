@@ -1,0 +1,5 @@
+meatP                    1         
+snacks                   2         
+seafood                  1         
+starchyP                 2         
+compositeP               1         

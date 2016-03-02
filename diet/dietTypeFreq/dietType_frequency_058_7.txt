@@ -1,0 +1,4 @@
+dairyP                   1         
+fruitP                   1         
+grainP                   1         
+snacks                   3         
