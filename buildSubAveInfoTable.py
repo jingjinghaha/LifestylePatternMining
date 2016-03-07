@@ -6,16 +6,18 @@ Created on Tue Feb 16 16:26:50 2016
 """
 
 import xlwt
+import utilise
 import slpInfoRetrv
 import dietActInfoRetrv
+available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
 sleep_list = ['044','045','048','050','051','052','053','056','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
 
-labelsDietType = dietActInfoRetrv.string2array('0 1 2 1 2 0 1 2 2 3 3 0 2 2 2 2 0 1 2 0 2 2 2 2 3 2 1 3 3')
-labelsActType = dietActInfoRetrv.string2array('1 3 1 1 2 2 2 2 3 1 2 2 1 2 0 2 3 0 1 2 3 1 1 2 1 0 2 0 0')
+labelsDietType = dietActInfoRetrv.string2array('1 0 1 1 1 0 0 1 1 1 0 0 0 1 1 1 0 1 1 0 1 1 1 1 0 1 0 0 0')
+labelsActType = dietActInfoRetrv.string2array('2 1 2 2 0 0 0 0 1 2 0 0 2 0 1 0 0 2 2 0 1 2 2 0 2 2 0 1 1')
 
 def buildSubAveInfo():
 	workbookW = xlwt.Workbook()
-	ws = workbookW.add_sheet('sheet1')
+	ws = workbookW.add_sheet('AveInfo')
 	
 	groupAct = dietActInfoRetrv.getGroups(labelsActType)
 	groupDiet = dietActInfoRetrv.getGroups(labelsDietType)
@@ -61,6 +63,54 @@ def buildSubAveInfo():
 		ws.write(rowW,13+2,Vo2max[index])
 		rowW += 1 
 	
+	ws2 = workbookW.add_sheet('DietTF')
+	row_labels = utilise.itemDict2list(utilise.genDietTypeDict())
+	X = utilise.normArray(utilise.genDietTypeTFArray())
+
+	ws2.write(0,0,'SubjId')
+	ws2.write(0,1,'DietGroup')
+
+	for i in range(len(row_labels)):
+		ws2.write(0,i+2,row_labels[i])
+
+	rowW = 1 
+	for index in range(len(available_list)):
+		ws2.write(rowW,0,available_list[index])
+
+		for key in groupDiet:
+			if available_list[index] in groupDiet[key]:
+				ws2.write(rowW,1,key)
+				break
+
+		for i in range(len(row_labels)):
+			ws2.write(rowW,i+2,X[index][i])
+
+		rowW += 1
+
+	ws3 = workbookW.add_sheet('ActTF')
+	row_labels = utilise.itemDict2list(utilise.genActTypeDict())
+	X = utilise.normArray(utilise.genActTypeTFArray())
+
+	ws3.write(0,0,'SubjId')
+	ws3.write(0,1,'ActGroup')
+	
+	for i in range(len(row_labels)):
+		ws3.write(0,i+2,row_labels[i])
+
+	rowW = 1 
+	for index in range(len(available_list)):
+		ws3.write(rowW,0,available_list[index])
+
+		for key in groupAct: 
+			if available_list[index] in groupAct[key]:
+				ws3.write(rowW,1,key)
+				break 
+
+		for i in range(len(row_labels)):
+			ws3.write(rowW,i+2,X[index][i])
+
+		rowW += 1
+
 	workbookW.save('SubAveInfo.xls')
 
 buildSubAveInfo()

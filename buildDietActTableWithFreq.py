@@ -7,8 +7,7 @@ Created on Mon Feb 15 14:57:34 2016
 
 import xlwt
 import xlrd
-import actType
-import dietType
+import utilise
 from nltk import wordpunct_tokenize
 
 available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
@@ -27,21 +26,28 @@ def buildSingleActExcel(subjectID):
 	rowW = 0 
 	index = 0 
 	
+	row_labels = utilise.itemDict2list(utilise.genActTypeDict())
+	dd = {}
+	for label in row_labels:
+		dd[label] = 0
+
 	for rowR in range(8,sheet.nrows):
 	
 		if sheet.cell_value(rowR,0):
 
+			ws.write(rowW,0,subjectID)
+			ws.write(rowW,1,sheet.cell_value(rowR,0))
 			index += 1 
-			
-			for line in open('activity/activityItemFreq/activity_frequency_'+subjectID+'_'+str(index)+'.txt','r'):
+
+			for line in open('activity/activityTypeFreq/activityType_frequency_'+subjectID+'_'+str(index)+'.txt','r'):
 				line = line.strip('\n')
 				words = wordpunct_tokenize(line)
-				ws.write(rowW,0,subjectID)
-				ws.write(rowW,1,sheet.cell_value(rowR,0))
-				ws.write(rowW,2,words[0])
-				ws.write(rowW,3,words[1])
-				ws.write(rowW,4,actType.actType(words[0]))
-				rowW += 1
+				if words[0] in dd: 
+					dd[words[0]] = int(words[1])
+
+			ws.write(rowW,2,str(dd.keys()))
+			ws.write(rowW,3,str(dd.values()))
+			rowW += 1	
 		
 	workbookW.save('activity/activityTable_'+subjectID+'_withFreq.xls')
 
@@ -59,21 +65,28 @@ def buildSingleDietExcel(subjectID):
 	rowW = 0 
 	index = 0 
 	
+	row_labels = utilise.itemDict2list(utilise.genDietTypeDict())
+	dd = {}
+	for label in row_labels:
+		dd[label] = 0
+
 	for rowR in range(8,sheet.nrows):
 
 		if sheet.cell_value(rowR,0):
 		
+			ws.write(rowW,0,subjectID)
+			ws.write(rowW,1,sheet.cell_value(rowR,0))
 			index += 1 
 
-			for line in open('diet/dietItemFreq/diet_frequency_'+subjectID+'_'+str(index)+'.txt','r'):
+			for line in open('diet/dietTypeFreq/dietType_frequency_'+subjectID+'_'+str(index)+'.txt','r'):
 				line = line.strip('\n')
 				words = wordpunct_tokenize(line)
-				ws.write(rowW,0,subjectID)
-				ws.write(rowW,1,sheet.cell_value(rowR,0))
-				ws.write(rowW,2,words[0])
-				ws.write(rowW,3,words[1])
-				ws.write(rowW,4,dietType.dietType(words[0]))
-				rowW += 1
+				if words[0] in dd: 
+					dd[words[0]] = int(words[1])
+
+			ws.write(rowW,2,str(dd.keys()))
+			ws.write(rowW,3,str(dd.values()))
+			rowW += 1
 
 	workbookW.save('diet/dietTable_'+subjectID+'_withFreq.xls')
 
@@ -96,7 +109,7 @@ def buildActExcel():
 			ws.write(rowW,1,sheet.cell_value(rowR,1))
 			ws.write(rowW,2,sheet.cell_value(rowR,2))
 			ws.write(rowW,3,sheet.cell_value(rowR,3))
-			ws.write(rowW,4,sheet.cell_value(rowR,4))
+			# ws.write(rowW,4,sheet.cell_value(rowR,4))
 			rowW += 1
 
 	workbookW.save('activity/activityTable_withFreq.xls')
@@ -120,7 +133,7 @@ def buildDietExcel():
 			ws.write(rowW,1,sheet.cell_value(rowR,1))
 			ws.write(rowW,2,sheet.cell_value(rowR,2))
 			ws.write(rowW,3,sheet.cell_value(rowR,3))
-			ws.write(rowW,4,sheet.cell_value(rowR,4))
+			# ws.write(rowW,4,sheet.cell_value(rowR,4))
 			rowW += 1
 
 	workbookW.save('diet/dietTable_withFreq.xls')
@@ -131,13 +144,13 @@ def buildActWithSleepExcel():
 	'''
 	workbookW = xlwt.Workbook()
 	ws = workbookW.add_sheet('sheet1')
-	titles = ['SubjId','Day','Act','ActType','Morningness','Eveningness','Lark','Owl','HoursSleep','SleepMoveCount','SleepQuality','MedianHR','MedianBefore','MedianHRAfter','age','gender','height','weight','BMI','FatFreeMass','FatMass','PercFat','vo2max']
+	titles = ['SubjId','Day','ActType','frequency','Morningness','Eveningness','Lark','Owl','HoursSleep','SleepMoveCount','SleepQuality','MedianHR','MedianBefore','MedianHRAfter','age','gender','height','weight','BMI','FatFreeMass','FatMass','PercFat','vo2max']
 	
 	for i in range(len(titles)):
 		ws.write(0,i,titles[i])
 
 	rowW = 1
-	file_location1 = 'activity/activityTable.xls'
+	file_location1 = 'activity/activityTable_withFreq.xls'
 	workbookR1 = xlrd.open_workbook(file_location1)
 	sheet1 = workbookR1.sheet_by_index(0)
 	
@@ -214,13 +227,13 @@ def buildDietWithSleepExcel():
 	'''
 	workbookW = xlwt.Workbook()
 	ws = workbookW.add_sheet('sheet1')
-	titles = ['SubjId','Day','Diet','DietType','Morningness','Eveningness','Lark','Owl','HoursSleep','SleepMoveCount','SleepQuality','MedianHR','MedianBefore','MedianHRAfter','age','gender','height','weight','BMI','FatFreeMass','FatMass','PercFat','vo2max']
+	titles = ['SubjId','Day','DietType','frequency','Morningness','Eveningness','Lark','Owl','HoursSleep','SleepMoveCount','SleepQuality','MedianHR','MedianBefore','MedianHRAfter','age','gender','height','weight','BMI','FatFreeMass','FatMass','PercFat','vo2max']
 	
 	for i in range(len(titles)):
 		ws.write(0,i,titles[i])
 
 	rowW = 1
-	file_location1 = 'diet/dietTable.xls'
+	file_location1 = 'diet/dietTable_withFreq.xls'
 	workbookR1 = xlrd.open_workbook(file_location1)
 	sheet1 = workbookR1.sheet_by_index(0)
 	
@@ -299,7 +312,7 @@ def buildDietActTableWithSlpWithFreq():
 	buildActExcel()
 	buildDietExcel()
 
-	# buildActWithSleepExcel()
-	# buildDietWithSleepExcel()
+	buildActWithSleepExcel()
+	buildDietWithSleepExcel()
 
-# buildDietActTableWithSlpWithFreq() 
+buildDietActTableWithSlpWithFreq() 

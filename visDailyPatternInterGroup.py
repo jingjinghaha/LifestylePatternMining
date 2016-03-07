@@ -25,8 +25,8 @@ Domain = ['DietType','ActType']
 available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
 # labelsActItem = string2array('0 0 3 3 0 2 1 1 1 1 2 2 3 2 1 2 2 1 1 2 0 1 3 2 1 1 2 2 1')
 # labelsDietItem = string2array('0 3 0 2 0 1 1 0 0 2 2 0 0 0 3 2 1 1 0 3 0 0 0 0 3 0 1 3 2')
-labelsDietType = string2array('0 1 2 1 2 0 1 2 2 3 3 0 2 2 2 2 0 1 2 0 2 2 2 2 3 2 1 3 3')
-labelsActType = string2array('1 3 1 1 2 2 2 2 3 1 2 2 1 2 0 2 3 0 1 2 3 1 1 2 1 0 2 0 0')
+labelsDietType = string2array('1 0 1 1 1 0 0 1 1 1 0 0 0 1 1 1 0 1 1 0 1 1 1 1 0 1 0 0 0')
+labelsActType = string2array('2 1 2 2 0 0 0 0 1 2 0 0 2 0 1 0 0 2 2 0 1 2 2 0 2 2 0 1 1')
 
 def singleSubjectDailyArray(domain,subjectID):
 	'''
@@ -134,10 +134,12 @@ def getMeanVec(domain):
 		labels = labelsActType
 		X = utilise.genActTypeTFArray()
 	
-	dims = (4,X.shape[1])
+	N = np.max(labels) + 1
+
+	dims = (N,X.shape[1])
 	MeanVec = np.zeros(dims)
-	
-	for k in range(4):
+
+	for k in range(N):
 		class_members = labels == k
 		number = 0
 		sumVec = np.zeros(X.shape[1])
@@ -163,21 +165,30 @@ def visSBDailyPatternInterGroup(domain,subjectID):
 	groupID = whichGroup(domain,subjectID)
 	MeanVec = getMeanVec(domain)
 	tf = singleSubjectDailyArray(domain,subjectID)
-	dims = (4,tf.shape[0])
+
+	if domain == 'DietType':
+		labels = labelsDietType
+	if domain == 'ActType':
+		labels = labelsActType
+
+	N = np.max(labels) + 1 
+
+	dims = (N,tf.shape[0])
 	s = np.zeros(dims)
 	p = np.zeros(dims)
 	x = range(tf.shape[0])
 	
 	plt.figure()
 	
-	for i in range(4):
+	for i in range(N):
 		for j in range(tf.shape[0]):
 			s[i][j] = 1/np.sqrt(sum(np.power(tf[j] - MeanVec[i], 2)))
 			# print i,j,tf[j],MeanVec[i],s[i][j]
 	
-	for i in range(4):
+	for i in range(N):
 		for j in range(tf.shape[0]):
-			p[i][j] = ((s[i][j])/(s[0][j]+s[1][j]+s[2][j]+s[3][j]))*100
+			p[i][j] = ((s[i][j])/np.sum(s[:,j]))*100
+
 		plt.plot(x,p[i])
 		plt.text(x[-1],p[i][-1],i)
 	
@@ -190,3 +201,4 @@ def visDailyPatternInterGroup():
 			visSBDailyPatternInterGroup(domain,subjectID)
 
 # visSBDailyPatternInterGroup('DietItem','039')
+visDailyPatternInterGroup()
