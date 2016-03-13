@@ -1,8 +1,8 @@
 caffeineD                1         
-meatP                    2         
-snacks                   2         
+sweetF                   2         
+starchyP                 1         
 vegetables               1         
 fruitP                   2         
-starchyP                 1         
+meatP                    2         
 compositeP               1         
 dairyP                   1         

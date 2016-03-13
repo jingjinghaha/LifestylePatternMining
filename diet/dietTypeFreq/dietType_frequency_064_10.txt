@@ -1,2 +1,3 @@
-compositeP               5         
+compositeP               4         
 starchyP                 1         
+eggP                     1         

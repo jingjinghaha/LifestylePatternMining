@@ -1,8 +1,8 @@
 transportation1          293       
+transportation3          507       
 transportation2          807       
 workStudy                470       
 others                   312       
-transportation3          507       
 entertainmentRelax       425       
 social                   133       
 sport                    112       

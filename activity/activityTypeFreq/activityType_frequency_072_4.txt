@@ -1,6 +1,6 @@
 transportation1          1         
-others                   5         
 transportation3          5         
+others                   5         
 entertainmentRelax       6         
 social                   4         
 workStudy                2         

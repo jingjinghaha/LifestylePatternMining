@@ -1,5 +1,5 @@
 transportation1          1         
 transportation2          2         
-social                   2         
-entertainmentRelax       1         
 others                   2         
+entertainmentRelax       1         
+social                   2         

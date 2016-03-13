@@ -1,7 +1,8 @@
 caffeineD                3         
+sweetF                   21        
 dairyP                   21        
-snacks                   31        
 vegetables               15        
+nutP                     10        
 alcoholD                 2         
 fruitP                   19        
 starchyP                 6         

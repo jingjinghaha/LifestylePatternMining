@@ -1,3 +1,4 @@
-compositeP               2         
+eggP                     1         
+sweetF                   1         
 starchyP                 1         
-snacks                   1         
+compositeP               1         

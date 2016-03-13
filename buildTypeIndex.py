@@ -21,13 +21,14 @@ def build_single_diet_index(subjectID):
 		diettype = dietType.dietType(words[0])
 		# print diettype
 		temp = int(words[1])
-		if diettype in singleDietType_dict:
-			singleDietType_dict[diettype] += temp
-			# print singleDietType_dict[diettype]
-			# print type(singleDietType_dict[diettype])
-		else:
-			singleDietType_dict[diettype] = temp
-			# print singleDietType_dict[diettype]
+		if diettype != 'others':
+			if diettype in singleDietType_dict:
+				singleDietType_dict[diettype] += temp
+				# print singleDietType_dict[diettype]
+				# print type(singleDietType_dict[diettype])
+			else:
+				singleDietType_dict[diettype] = temp
+				# print singleDietType_dict[diettype]
 	return singleDietType_dict
 '''
 build the activity type index for single user
@@ -42,13 +43,14 @@ def build_single_activity_index(subjectID):
 		#words[1]: item frequency
 		acttype = actType.actType(words[0])
 		temp = int(words[1])
-		if acttype in singleActType_dict:
-			singleActType_dict[acttype] += temp
-			# print singleActType_dict[acttype]
-			# print type(singleActType_dict[acttype])
-		else:
-			singleActType_dict[acttype] = temp
-			# print singleActType_dict[acttype]
+		if acttype != 'none':
+			if acttype in singleActType_dict:
+				singleActType_dict[acttype] += temp
+				# print singleActType_dict[acttype]
+				# print type(singleActType_dict[acttype])
+			else:
+				singleActType_dict[acttype] = temp
+				# print singleActType_dict[acttype]
 	return singleActType_dict
 
 '''
@@ -65,13 +67,14 @@ def build_daily_single_diet_index(subjectID,n):
 		diettype = dietType.dietType(words[0])
 		# print diettype
 		temp = int(words[1])
-		if diettype in singleDietType_dict:
-			singleDietType_dict[diettype] += temp
-			# print singleDietType_dict[diettype]
-			# print type(singleDietType_dict[diettype])
-		else:
-			singleDietType_dict[diettype] = temp
-			# print singleDietType_dict[diettype]
+		if diettype != 'others':
+			if diettype in singleDietType_dict:
+				singleDietType_dict[diettype] += temp
+				# print singleDietType_dict[diettype]
+				# print type(singleDietType_dict[diettype])
+			else:
+				singleDietType_dict[diettype] = temp
+				# print singleDietType_dict[diettype]
 	return singleDietType_dict
 '''
 build the daily activity type index for single user
@@ -86,11 +89,12 @@ def build_daily_single_activity_index(subjectID,n):
 		#words[1]: item frequency
 		acttype = actType.actType(words[0])
 		temp = int(words[1])
-		if acttype in singleActType_dict:
-			singleActType_dict[acttype] += temp
-			# print singleActType_dict[acttype]
-			# print type(singleActType_dict[acttype])
-		else:
-			singleActType_dict[acttype] = temp
-			# print singleActType_dict[acttype]
+		if acttype != 'none':
+			if acttype in singleActType_dict:
+				singleActType_dict[acttype] += temp
+				# print singleActType_dict[acttype]
+				# print type(singleActType_dict[acttype])
+			else:
+				singleActType_dict[acttype] = temp
+				# print singleActType_dict[acttype]
 	return singleActType_dict

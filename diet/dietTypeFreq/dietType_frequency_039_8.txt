@@ -1,4 +1,4 @@
-compositeP               1         
+eggP                     1         
 vegetables               1         
+sweetF                   1         
 meatP                    2         
-snacks                   1         

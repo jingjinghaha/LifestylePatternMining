@@ -1,4 +1,4 @@
-workStudy                5         
 transportation3          3         
+workStudy                5         
 entertainmentRelax       1         
 others                   1         

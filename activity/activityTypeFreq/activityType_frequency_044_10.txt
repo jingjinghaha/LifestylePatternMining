@@ -1,6 +1,6 @@
 transportation1          6         
 transportation3          1         
 transportation2          3         
-social                   1         
 others                   1         
+social                   1         
 workStudy                2         

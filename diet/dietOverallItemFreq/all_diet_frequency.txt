@@ -41,7 +41,7 @@ beer                     44
 yoghurt                  116       
 banana                   65        
 kiwi                     6         
-butter                   17        
+tomato                   15        
 doner                    18        
 chocolate                45        
 nut                      26        
@@ -66,7 +66,7 @@ fruit                    21
 tuna                     8         
 broccoli                 6         
 sauerkraut               8         
-tomato                   15        
+butter                   17        
 potato                   67        
 egg                      51        
 wine                     38        

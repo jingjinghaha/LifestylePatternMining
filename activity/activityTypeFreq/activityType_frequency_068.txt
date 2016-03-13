@@ -1,7 +1,7 @@
 transportation1          12        
+transportation3          30        
 workStudy                20        
 social                   5         
-transportation3          30        
 entertainmentRelax       12        
 transportation2          9         
 others                   3         

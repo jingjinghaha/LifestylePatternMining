@@ -1,5 +1,6 @@
-compositeP               4         
 caffeineD                1         
+sweetF                   3         
+eggP                     1         
 vegetables               1         
 starchyP                 1         
-snacks                   3         
+compositeP               3         

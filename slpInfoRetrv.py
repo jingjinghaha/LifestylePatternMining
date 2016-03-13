@@ -95,7 +95,7 @@ def getMornessLabel():
 	for row in range(1,sheet.nrows):
 		label.append(sheet.cell_value(row,4))
 
-	return label 
+	return np.array(label)
 
 def getEvenessLabel():
 	file_location = 'activity/activityTableWithSleep.xls'
@@ -106,7 +106,7 @@ def getEvenessLabel():
 	for row in range(1,sheet.nrows):
 		label.append(sheet.cell_value(row,5))
 
-	return label
+	return np.array(label)
 
 def getLarkLabel():
 	file_location = 'activity/activityTableWithSleep.xls'
@@ -117,7 +117,7 @@ def getLarkLabel():
 	for row in range(1,sheet.nrows):
 		label.append(sheet.cell_value(row,6))
 
-	return label
+	return np.array(label)
 
 def getOwlLabel():
 	file_location = 'activity/activityTableWithSleep.xls'
@@ -128,7 +128,7 @@ def getOwlLabel():
 	for row in range(1,sheet.nrows):
 		label.append(sheet.cell_value(row,7))
 
-	return label
+	return np.array(label)
 
 def getSlpHours():
 	file_location = 'activity/activityTableWithSleep.xls'

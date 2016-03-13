@@ -1,6 +1,7 @@
+sweetF                   2         
 dairyP                   2         
-snacks                   2         
+eggP                     1         
 alcoholD                 1         
 fruitP                   1         
-compositeP               2         
+compositeP               1         
 grainP                   2         

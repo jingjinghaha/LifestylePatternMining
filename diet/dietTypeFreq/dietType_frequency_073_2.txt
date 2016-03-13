@@ -1,6 +1,6 @@
 caffeineD                1         
+sweetF                   2         
 meatP                    1         
-snacks                   2         
 fruitP                   1         
 starchyP                 1         
 compositeP               2         

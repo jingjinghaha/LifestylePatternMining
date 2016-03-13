@@ -1,5 +1,5 @@
+sweetF                   1         
 dairyP                   1         
-snacks                   1         
 alcoholD                 1         
 fruitP                   1         
 starchyP                 1         

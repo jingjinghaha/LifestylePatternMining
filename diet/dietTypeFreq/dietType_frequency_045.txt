@@ -1,8 +1,8 @@
-meatP                    4         
 dairyP                   9         
-vegetables               5         
-alcoholD                 6         
-starchyP                 4         
-compositeP               26        
-seafood                  3         
 grainP                   4         
+seafood                  3         
+alcoholD                 6         
+meatP                    4         
+compositeP               26        
+vegetables               5         
+starchyP                 4         

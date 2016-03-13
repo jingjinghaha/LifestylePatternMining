@@ -1,5 +1,5 @@
-others                   2         
-transportation3          3         
-entertainmentRelax       3         
 social                   1         
+transportation3          3         
 workStudy                4         
+entertainmentRelax       3         
+others                   2         

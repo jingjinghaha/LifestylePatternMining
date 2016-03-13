@@ -1,6 +1,6 @@
 caffeineD                3         
-dairyP                   2         
-snacks                   3         
+sweetF                   3         
+grainP                   2         
 fruitP                   1         
 compositeP               1         
-grainP                   2         
+dairyP                   2         

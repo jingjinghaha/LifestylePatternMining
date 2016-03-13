@@ -11,6 +11,9 @@ import buildItemIndex
 import buildTypeIndex
 available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
 
+'''
+return all diet item in dictionary format {1:item1, 2:item2, ... n:itemn}
+'''
 def genDietItemDict():
 	item_dict = {}
 	n = 0
@@ -22,6 +25,9 @@ def genDietItemDict():
 	# print item_dict
 	return item_dict
 
+'''
+return all diet type in dictionary format {1:type1, 2:type2, ... n:typen}
+'''
 def genDietTypeDict():
 	item_dict = {}
 	n = 0
@@ -33,6 +39,9 @@ def genDietTypeDict():
 	# print item_dict
 	return item_dict
 
+'''
+return all activity item in dictionary format {1:item1, 2:item2, ... n:itemn}
+'''
 def genActItemDict():
 	item_dict = {}
 	n = 0
@@ -44,6 +53,9 @@ def genActItemDict():
 	# print item_dict
 	return item_dict
 
+'''
+return all activity type in dictionary format {1:type1, 2:type2, ... n:typen}
+'''
 def genActTypeDict():
 	item_dict = {}
 	n = 0
@@ -55,12 +67,18 @@ def genActTypeDict():
 	# print item_dict
 	return item_dict
 
+'''
+change the itemDict or typeDict into list 
+'''
 def itemDict2list(dict):
 	list = []
 	for key in dict:
 		list.append(dict[key])
 	return list
 
+'''
+generate the acitvity item TF numpy array m(number of subjects)*n(number of items)
+'''
 def genActItemTFArray():
 	item_dict = genActItemDict()
 	# print item_dict
@@ -80,6 +98,9 @@ def genActItemTFArray():
 	# print array
 	return array
 
+'''
+generate the diet item TF numpy array m(number of subjects)*n(number of items)
+'''
 def genDietItemTFArray():
 	item_dict = genDietItemDict()
 	x = len(available_list)
@@ -96,7 +117,9 @@ def genDietItemTFArray():
 		i += 1
 	return array
 
-
+'''
+generate the diet type TF numpy array m(number of subjects)*n(number of type)
+'''
 def genDietTypeTFArray():
 	item_dict = genDietTypeDict()
 	x = len(available_list)
@@ -113,7 +136,9 @@ def genDietTypeTFArray():
 		i += 1
 	return array
 
-
+'''
+generate the activity type TF numpy array m(number of subjects)*n(number of type)
+'''
 def genActTypeTFArray():
 	item_dict = genActTypeDict()
 	# print item_dict
@@ -163,12 +188,16 @@ def ActTypeTfidfArray():
 	tfidf = transformer.fit_transform(counts)
 	aa = tfidf.toarray()
 	return aa
-	
+
+'''
+combine two numpy arrays (m*q + m*p = m*(p+q))
+'''
 def genCombiArray(aa1,aa2):
 	x = aa1.shape[0]
 	n = aa1.shape[1] + aa2.shape[1]
 	dims = (x,n)
 	aa = np.zeros(dims)
+
 	for i in range(aa1.shape[0]):
 		aa[i] = np.append(aa1[i],aa2[i])
 	return aa 
@@ -186,16 +215,19 @@ def jaccard(dict1,dict2):
 	similarity = 0
 	listA = []
 	listB = []
+
 	for key in dict1:
 		listA.append(key)
 	for key in dict2:
 		listB.append(key)
+
 	setA = set(listA)
 	setB = set(listB)
 	similarity = float(len(setA.intersection(setB)))/len(setA.union(setB))
 	return similarity
 
-# this dict2list is to modify the diet/activity dict of each user for novel Jaccard computation 
+# modify the diet/activity dict {key1:number; key2:number; ...} of each user 
+# for novel Jaccard computation 
 def dict2list(dict):
 	list = []
 	for key in dict:

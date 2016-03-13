@@ -1,6 +1,7 @@
+sweetF                   1         
 grainP                   2         
-snacks                   1         
+eggP                     1         
 vegetables               1         
 fruitP                   1         
 starchyP                 1         
-compositeP               3         
+compositeP               2         

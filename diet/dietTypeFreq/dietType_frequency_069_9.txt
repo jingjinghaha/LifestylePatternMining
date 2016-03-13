@@ -1,3 +1,5 @@
-compositeP               3         
+sweetF                   1         
+compositeP               2         
+eggP                     1         
 fruitP                   2         
-snacks                   2         
+nutP                     1         

@@ -72,9 +72,9 @@ def buildDailyItemFreqTXTFile():
 	'''
 	print 'in buildDailyItemFreqTXTFile()'
 	for subjectID in available_list:
-		print subjectID
+		# print subjectID
 		duration = dietActInfoRetrv.getDuration(subjectID)
-		
+		# print duration 
 		for n in range(1,duration+1):
 			f_act = open('activity/activityItemFreq/activity_frequency_'+subjectID+'_'+str(n)+'.txt','w')
 			f_diet = open('diet/dietItemFreq/diet_frequency_'+subjectID+'_'+str(n)+'.txt','w')
@@ -93,5 +93,5 @@ def buildDailyItemFreqTXTFile():
 			f_act.close()
 			f_diet.close()
 
-# buildItemFreqTXTFile()
-#buildDailyItemFreqTXTFile() 
+buildItemFreqTXTFile()
+buildDailyItemFreqTXTFile() 

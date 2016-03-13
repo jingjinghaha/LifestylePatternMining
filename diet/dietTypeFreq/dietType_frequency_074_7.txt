@@ -1,7 +1,8 @@
-dairyP                   1         
-snacks                   3         
+sweetF                   2         
+grainP                   2         
 vegetables               2         
+nutP                     1         
 fruitP                   1         
 starchyP                 1         
 seafood                  1         
-grainP                   2         
+dairyP                   1         

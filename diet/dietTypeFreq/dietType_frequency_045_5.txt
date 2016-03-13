@@ -1,4 +1,4 @@
-dairyP                   1         
 compositeP               1         
 vegetables               1         
 seafood                  1         
+dairyP                   1         

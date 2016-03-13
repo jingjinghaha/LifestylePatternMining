@@ -1,1 +1,2 @@
-compositeP               2         
+compositeP               1         
+eggP                     1         

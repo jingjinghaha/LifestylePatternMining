@@ -1,4 +1,4 @@
 meatP                    1         
+sweetF                   1         
 grainP                   1         
 starchyP                 1         
-snacks                   1         

@@ -18,11 +18,11 @@ def buildSingleDietTypeFreqFile():
 	for subjectID in available_list:
 		f_diet = open('diet/dietTypeFreq/dietType_frequency_'+subjectID+'.txt','w')
 		singleDietType_dict = buildTypeIndex.build_single_diet_index(subjectID)
+
 		for key in singleDietType_dict:
-			if key != 'others':
-			# if key:
-				f_diet.write("%-25s%-10s"%(key,singleDietType_dict[key]))
-				f_diet.write('\n')
+			f_diet.write("%-25s%-10s"%(key,singleDietType_dict[key]))
+			f_diet.write('\n')
+
 		f_diet.close()
 
 #create activity type frequency txt file for every user 
@@ -31,10 +31,11 @@ def buildSingleActTypeFreqFile():
 	for subjectID in available_list:
 		f_act = open('activity/activityTypeFreq/activityType_frequency_'+subjectID+'.txt','w')
 		singleActType_dict = buildTypeIndex.build_single_activity_index(subjectID)
+
 		for key in singleActType_dict:
-			if key != 'none':
-				f_act.write("%-25s%-10s"%(key,singleActType_dict[key]))
-				f_act.write('\n')
+			f_act.write("%-25s%-10s"%(key,singleActType_dict[key]))
+			f_act.write('\n')
+
 		f_act.close()
 
 #create diet type frequency txt file for every user 
@@ -47,10 +48,8 @@ def buildDailySingleDietTypeFreqFile():
 			f_diet = open('diet/dietTypeFreq/dietType_frequency_'+subjectID+'_'+str(n)+'.txt','w')
 			singleDietType_dict = buildTypeIndex.build_daily_single_diet_index(subjectID,n)
 			for key in singleDietType_dict:
-				if key != 'others':
-				# if key:
-					f_diet.write("%-25s%-10s"%(key,singleDietType_dict[key]))
-					f_diet.write('\n')
+				f_diet.write("%-25s%-10s"%(key,singleDietType_dict[key]))
+				f_diet.write('\n')
 			f_diet.close()
 
 #create activity type frequency txt file for every user 
@@ -63,9 +62,8 @@ def buildDailySingleActTypeFreqFile():
 			f_act = open('activity/activityTypeFreq/activityType_frequency_'+subjectID+'_'+str(n)+'.txt','w')
 			singleActType_dict = buildTypeIndex.build_daily_single_activity_index(subjectID,n)
 			for key in singleActType_dict:
-				if key != 'none':
-					f_act.write("%-25s%-10s"%(key,singleActType_dict[key]))
-					f_act.write('\n')
+				f_act.write("%-25s%-10s"%(key,singleActType_dict[key]))
+				f_act.write('\n')
 			f_act.close()
 
 # create overall diet type frequency txt file
@@ -81,19 +79,18 @@ def buildDietTypeFreqTXTFile():
 		diettype = dietType.dietType(words[0])
 		# print diettype
 		temp = int(words[1])
-		if diettype in dietType_dict:
-			dietType_dict[diettype] += temp
-			# print dietType_dict[diettype]
-			# print type(dietType_dict[diettype])
-		else:
-			dietType_dict[diettype] = temp
-			# print dietType_dict[diettype]
+		if diettype != 'others':
+			if diettype in dietType_dict:
+				dietType_dict[diettype] += temp
+				# print dietType_dict[diettype]
+				# print type(dietType_dict[diettype])
+			else:
+				dietType_dict[diettype] = temp
+				# print dietType_dict[diettype]
 	# print dietType_dict
 	for key in dietType_dict:
-		if key != 'others':
-		# if key:
-			f_diet.write("%-25s%-10s"%(key,dietType_dict[key]))
-			f_diet.write('\n')
+		f_diet.write("%-25s%-10s"%(key,dietType_dict[key]))
+		f_diet.write('\n')
 	f_diet.close()
 
 # create overall diet type frequency txt file
@@ -108,15 +105,15 @@ def buildActTypeFreqTXTFile():
 		#words[1]: item frequency
 		acttype = actType.actType(words[0]) 
 		temp = int(words[1])
-		if acttype in actType_dict:
-			actType_dict[acttype] += temp
-		else:
-			actType_dict[acttype] = temp
+		if acttype != 'none':
+			if acttype in actType_dict:
+				actType_dict[acttype] += temp
+			else:
+				actType_dict[acttype] = temp
 	# print actType_dict
 	for key in actType_dict:
-		if key != 'none':
-			f_act.write("%-25s%-10s"%(key,actType_dict[key]))
-			f_act.write('\n')
+		f_act.write("%-25s%-10s"%(key,actType_dict[key]))
+		f_act.write('\n')
 	f_act.close()
 
 def buildTypeFreqTXTFile():
@@ -128,4 +125,4 @@ def buildTypeFreqTXTFile():
 	buildDietTypeFreqTXTFile()
 	buildActTypeFreqTXTFile()
 
-# buildTypeFreqTXTFile()
+buildTypeFreqTXTFile()

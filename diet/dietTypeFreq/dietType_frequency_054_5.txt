@@ -1,4 +1,4 @@
-snacks                   1         
+sweetF                   1         
 vegetables               1         
 fruitP                   1         
 starchyP                 1         

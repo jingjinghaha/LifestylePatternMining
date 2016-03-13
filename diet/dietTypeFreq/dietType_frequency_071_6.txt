@@ -1,5 +1,5 @@
-grainP                   1         
+eggP                     1         
 vegetables               1         
 fruitP                   2         
+grainP                   1         
 starchyP                 1         
-compositeP               1         

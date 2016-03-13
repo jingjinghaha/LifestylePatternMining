@@ -1,6 +1,7 @@
-snacks                   1         
+sweetF                   1         
+eggP                     1         
 vegetables               2         
 fruitP                   4         
 starchyP                 1         
-compositeP               3         
+compositeP               2         
 alcoholD                 2         

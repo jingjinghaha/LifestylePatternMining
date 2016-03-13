@@ -1,9 +1,11 @@
+sweetF                   4         
 dairyP                   20        
-snacks                   6         
+eggP                     4         
 seafood                  3         
+nutP                     2         
 alcoholD                 2         
 fruitP                   28        
 starchyP                 5         
-compositeP               19        
+compositeP               15        
 vegetables               9         
 grainP                   20        

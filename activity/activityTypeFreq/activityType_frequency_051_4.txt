@@ -1,4 +1,4 @@
-transportation2          5         
 transportation3          1         
+transportation2          5         
 others                   1         
 workStudy                2         

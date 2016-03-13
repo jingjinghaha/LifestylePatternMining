@@ -1,6 +1,6 @@
+transportation3          14        
 transportation2          4         
 workStudy                12        
-transportation3          14        
 entertainmentRelax       6         
 others                   1         
 sport                    5         

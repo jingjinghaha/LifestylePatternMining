@@ -1,9 +1,10 @@
-meatP                    2         
+sweetF                   7         
 dairyP                   1         
-snacks                   7         
+grainP                   7         
+eggP                     3         
 vegetables               19        
 fruitP                   21        
-starchyP                 4         
-compositeP               19        
+meatP                    2         
+compositeP               16        
 alcoholD                 7         
-grainP                   7         
+starchyP                 4         

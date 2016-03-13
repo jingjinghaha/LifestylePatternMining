@@ -1,4 +1,4 @@
 compositeP               2         
 vegetables               1         
-snacks                   2         
+sweetF                   2         
 grainP                   1         

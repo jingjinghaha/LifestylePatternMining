@@ -1,5 +1,5 @@
 transportation1          2         
-transportation2          2         
 transportation3          3         
-entertainmentRelax       4         
 workStudy                2         
+entertainmentRelax       4         
+transportation2          2         

@@ -1,5 +1,5 @@
-dairyP                   2         
+compositeP               1         
 vegetables               1         
 fruitP                   2         
-compositeP               1         
+dairyP                   2         
 grainP                   1         

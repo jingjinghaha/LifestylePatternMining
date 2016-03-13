@@ -1,6 +1,6 @@
-grainP                   2         
+dairyP                   2         
 vegetables               2         
 starchyP                 1         
 compositeP               2         
 seafood                  1         
-dairyP                   2         
+grainP                   2         

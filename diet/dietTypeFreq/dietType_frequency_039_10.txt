@@ -1,4 +1,5 @@
-compositeP               4         
+compositeP               3         
 caffeineD                1         
+sweetF                   1         
 meatP                    1         
-snacks                   1         
+eggP                     1         

@@ -1,5 +1,5 @@
-caffeineD                1         
 dairyP                   1         
-alcoholD                 1         
 compositeP               1         
+caffeineD                1         
+alcoholD                 1         
 grainP                   2         

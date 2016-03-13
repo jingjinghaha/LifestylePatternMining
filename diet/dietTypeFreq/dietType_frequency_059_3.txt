@@ -1,5 +1,6 @@
-compositeP               4         
+sweetF                   2         
+meatP                    2         
+eggP                     1         
 vegetables               2         
 starchyP                 1         
-meatP                    2         
-snacks                   2         
+compositeP               3         

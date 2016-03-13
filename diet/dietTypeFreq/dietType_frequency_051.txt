@@ -1,5 +1,5 @@
+sweetF                   9         
 grainP                   15        
-snacks                   9         
 seafood                  1         
 fruitP                   4         
 meatP                    8         

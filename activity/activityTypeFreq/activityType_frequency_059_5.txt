@@ -1,4 +1,4 @@
 transportation1          3         
-sport                    1         
 transportation3          1         
+sport                    1         
 transportation2          6         

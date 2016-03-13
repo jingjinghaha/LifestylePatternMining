@@ -1,5 +1,6 @@
-compositeP               5         
+meatP                    1         
+eggP                     1         
 fruitP                   3         
 starchyP                 1         
-meatP                    1         
+compositeP               4         
 dairyP                   1         

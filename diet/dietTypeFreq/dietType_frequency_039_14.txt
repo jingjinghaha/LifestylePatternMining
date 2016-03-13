@@ -1,8 +1,9 @@
 caffeineD                1         
+sweetF                   1         
 dairyP                   1         
-snacks                   1         
+eggP                     1         
 seafood                  1         
 fruitP                   1         
 meatP                    1         
-compositeP               2         
+compositeP               1         
 starchyP                 1         

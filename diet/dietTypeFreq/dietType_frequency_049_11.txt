@@ -1,5 +1,6 @@
 caffeineD                2         
 grainP                   1         
+eggP                     1         
 vegetables               1         
 fruitP                   3         
-compositeP               2         
+compositeP               1         

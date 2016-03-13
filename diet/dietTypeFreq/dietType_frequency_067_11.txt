@@ -1,5 +1,6 @@
 caffeineD                1         
-snacks                   2         
+sweetF                   2         
+eggP                     1         
 alcoholD                 2         
 meatP                    2         
-compositeP               4         
+compositeP               3         

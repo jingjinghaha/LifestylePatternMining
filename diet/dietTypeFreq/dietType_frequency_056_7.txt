@@ -1,2 +1,2 @@
-snacks                   1         
+sweetF                   1         
 fruitP                   2         

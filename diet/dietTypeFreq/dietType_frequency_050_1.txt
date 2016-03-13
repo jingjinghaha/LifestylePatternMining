@@ -1,5 +1,5 @@
-grainP                   1         
-snacks                   2         
-meatP                    1         
 compositeP               1         
+sweetF                   2         
 dairyP                   1         
+meatP                    1         
+grainP                   1         

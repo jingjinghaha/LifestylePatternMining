@@ -1,5 +1,5 @@
+workStudy                2         
 sport                    2         
+others                   2         
 entertainmentRelax       1         
 transportation2          7         
-others                   2         
-workStudy                2         

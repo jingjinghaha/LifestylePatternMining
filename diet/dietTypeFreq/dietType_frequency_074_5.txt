@@ -1,5 +1,6 @@
-dairyP                   2         
-snacks                   2         
+sweetF                   1         
+grainP                   1         
+nutP                     1         
 fruitP                   2         
 compositeP               4         
-grainP                   1         
+dairyP                   2         

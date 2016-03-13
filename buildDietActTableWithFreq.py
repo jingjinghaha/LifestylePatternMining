@@ -27,9 +27,7 @@ def buildSingleActExcel(subjectID):
 	index = 0 
 	
 	row_labels = utilise.itemDict2list(utilise.genActTypeDict())
-	dd = {}
-	for label in row_labels:
-		dd[label] = 0
+	
 
 	for rowR in range(8,sheet.nrows):
 	
@@ -37,7 +35,11 @@ def buildSingleActExcel(subjectID):
 
 			ws.write(rowW,0,subjectID)
 			ws.write(rowW,1,sheet.cell_value(rowR,0))
-			index += 1 
+			index += 1
+
+			dd = {}
+			for label in row_labels:
+				dd[label] = 0
 
 			for line in open('activity/activityTypeFreq/activityType_frequency_'+subjectID+'_'+str(index)+'.txt','r'):
 				line = line.strip('\n')
@@ -45,6 +47,7 @@ def buildSingleActExcel(subjectID):
 				if words[0] in dd: 
 					dd[words[0]] = int(words[1])
 
+			sorted_dd = 
 			ws.write(rowW,2,str(dd.keys()))
 			ws.write(rowW,3,str(dd.values()))
 			rowW += 1	
@@ -66,9 +69,6 @@ def buildSingleDietExcel(subjectID):
 	index = 0 
 	
 	row_labels = utilise.itemDict2list(utilise.genDietTypeDict())
-	dd = {}
-	for label in row_labels:
-		dd[label] = 0
 
 	for rowR in range(8,sheet.nrows):
 
@@ -77,6 +77,10 @@ def buildSingleDietExcel(subjectID):
 			ws.write(rowW,0,subjectID)
 			ws.write(rowW,1,sheet.cell_value(rowR,0))
 			index += 1 
+
+			dd = {}
+			for label in row_labels:
+				dd[label] = 0
 
 			for line in open('diet/dietTypeFreq/dietType_frequency_'+subjectID+'_'+str(index)+'.txt','r'):
 				line = line.strip('\n')

@@ -1,5 +1,6 @@
 caffeineD                2         
 dairyP                   1         
+eggP                     1         
 alcoholD                 1         
 fruitP                   2         
-compositeP               3         
+compositeP               2         

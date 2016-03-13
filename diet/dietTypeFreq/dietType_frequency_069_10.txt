@@ -1,5 +1,5 @@
-dairyP                   1         
-vegetables               3         
-meatP                    2         
 compositeP               2         
+vegetables               3         
 grainP                   1         
+meatP                    2         
+dairyP                   1         

@@ -1,3 +1,4 @@
-compositeP               2         
+compositeP               1         
 fruitP                   1         
 meatP                    2         
+eggP                     1         

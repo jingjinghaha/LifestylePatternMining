@@ -1,3 +1,4 @@
-compositeP               3         
+compositeP               2         
 dairyP                   1         
 meatP                    1         
+eggP                     1         

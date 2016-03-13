@@ -1,2 +1,3 @@
-compositeP               3         
-snacks                   1         
+compositeP               2         
+sweetF                   1         
+eggP                     1         
