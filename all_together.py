@@ -19,7 +19,9 @@ import visDailyPatternInterGroup
 import visDailyPatternIntraGroup
 import buildDietActTable
 import clusteringKmeansLabels
+import groupAnalysis
 import buildDietActTableWithFreq
+import buildSubAveInfoTable 
 
 plt.close('all')
 plt.clf()
@@ -78,16 +80,23 @@ visSimilarityMat.plotSimilarityMatrix('TFIDFEclud')
 visTFMat.visTFMatrix()
 visTFIDFMat.visTFIDFMatrix()
 
+# # build excel file that combine the act/diet with sleep informaiton 
+buildDietActTable.buildDietActTableWithSlp()
+buildDietActTableWithFreq.buildDietActTableWithSlpWithFreq()
+
 '''
 The following steps are done after we finish the Kmeans and get the best labels 
 '''
-# # plot best labels got from KMeans 
-# clusteringKmeansLabels.clusteringKmeansLabels()
+# plot best labels got from KMeans 
+clusteringKmeansLabels.clusteringKmeansLabels()
 
-# # visualization of subject's daily pattern based best grouping results from KMeans
-# visDailyPatternIntraGroup.visDailyPatternIntraGroup()
-# visDailyPatternInterGroup.visDailyPatternInterGroup()
+# grouping analysis will give the demo and sleep info of the groups and also the integration 
+groupAnalysis.groupAnalysis()
 
-# # build excel file that combine the act/diet with sleep informaiton 
-# buildDietActTable.buildDietActTableWithSlp()
-# buildDietActTableWithFreq.buildDietActTableWithSlpWithFreq()
+# visualization of subject's daily pattern based best grouping results from KMeans
+visDailyPatternIntraGroup.visDailyPatternIntraGroup()
+visDailyPatternInterGroup.visDailyPatternInterGroup()
+
+# build table 1 for subjects' demo and avrage sleep info with their grouping info 
+# table 2 for diet type TF table; table 3 for avtivity type TF table; 
+buildSubAveInfoTable.buildSubAveInfo()

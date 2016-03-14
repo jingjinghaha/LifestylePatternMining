@@ -125,4 +125,4 @@ def buildTypeFreqTXTFile():
 	buildDietTypeFreqTXTFile()
 	buildActTypeFreqTXTFile()
 
-buildTypeFreqTXTFile()
+# buildTypeFreqTXTFile()

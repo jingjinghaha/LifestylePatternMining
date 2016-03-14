@@ -159,7 +159,7 @@ def bestLabel(metric,n_clusters):
 				# bestLabel(domain,metric,n_clusters)
 
 def clusteringKmeansLabels():
-	for n_clusters in range(2,3):
+	for n_clusters in range(3,4):
 		bestLabel('TF',n_clusters)
 
 # bestLabel('DietItem',4)

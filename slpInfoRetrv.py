@@ -143,7 +143,7 @@ def getSlpHours():
 			sub = unicode(int(sheet.cell_value(rowRSlp,0)))
 			sub = '0'+sub
 			if sub == subject: 
-				duration += sheet.cell_value(rowRSlp,8)
+				duration += sheet.cell_value(rowRSlp,11)
 				count += 1 
 		duration /= float(count)
 		Duration.append(duration) 
@@ -163,7 +163,7 @@ def getMedianHR():
 			sub = unicode(int(sheet.cell_value(rowRSlp,0)))
 			sub = '0'+sub
 			if sub == subject: 
-				medianHR += sheet.cell_value(rowRSlp,11)
+				medianHR += sheet.cell_value(rowRSlp,14)
 				count += 1 
 		medianHR /= float(count)
 		MedianHR.append(medianHR) 
@@ -183,7 +183,7 @@ def getMedianHRBefore():
 			sub = unicode(int(sheet.cell_value(rowRSlp,0)))
 			sub = '0'+sub
 			if sub == subject: 
-				medianHRBefore += sheet.cell_value(rowRSlp,12)
+				medianHRBefore += sheet.cell_value(rowRSlp,15)
 				count += 1 
 		medianHRBefore /= float(count)
 		MedianHRBefore.append(medianHRBefore) 
@@ -203,7 +203,7 @@ def getMedianHRAfter():
 			sub = unicode(int(sheet.cell_value(rowRSlp,0)))
 			sub = '0'+sub
 			if sub == subject: 
-				medianHRAfter += sheet.cell_value(rowRSlp,13)
+				medianHRAfter += sheet.cell_value(rowRSlp,16)
 				count += 1 
 		medianHRAfter /= float(count)
 		MedianHRAfter.append(medianHRAfter) 

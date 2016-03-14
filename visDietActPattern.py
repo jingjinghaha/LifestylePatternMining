@@ -23,4 +23,4 @@ def visDietActPattern():
 	# data visualization (pie chart) for overall diet/activity type pattern 
 	plotOverallDietActTypeFreq.plotOverallDietActTypeFreq()
 	
-visDietActPattern()
+# visDietActPattern()

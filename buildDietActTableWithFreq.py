@@ -47,7 +47,7 @@ def buildSingleActExcel(subjectID):
 				if words[0] in dd: 
 					dd[words[0]] = int(words[1])
 
-			sorted_dd = 
+			# sorted_dd = 
 			ws.write(rowW,2,str(dd.keys()))
 			ws.write(rowW,3,str(dd.values()))
 			rowW += 1	
@@ -319,4 +319,4 @@ def buildDietActTableWithSlpWithFreq():
 	buildActWithSleepExcel()
 	buildDietWithSleepExcel()
 
-buildDietActTableWithSlpWithFreq() 
+# buildDietActTableWithSlpWithFreq() 

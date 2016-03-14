@@ -23,9 +23,11 @@ def string2array(str):
 # Domain = ['ActItem','DietItem','DietType','ActType']
 Domain = ['DietType','ActType']
 available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
+
 # labelsActItem = string2array('0 0 3 3 0 2 1 1 1 1 2 2 3 2 1 2 2 1 1 2 0 1 3 2 1 1 2 2 1')
 # labelsDietItem = string2array('0 3 0 2 0 1 1 0 0 2 2 0 0 0 3 2 1 1 0 3 0 0 0 0 3 0 1 3 2')
-labelsDietType = string2array('1 0 1 1 1 0 0 1 1 1 0 0 0 1 1 1 0 1 1 0 1 1 1 1 0 1 0 0 0')
+
+labelsDietType = string2array('0 0 1 1 1 0 1 1 1 1 1 0 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1')
 labelsActType = string2array('2 1 2 2 0 0 0 0 1 2 0 0 2 0 1 0 0 2 2 0 1 2 2 0 2 2 0 1 1')
 
 def singleSubjectDailyArray(domain,subjectID):
@@ -201,4 +203,4 @@ def visDailyPatternInterGroup():
 			visSBDailyPatternInterGroup(domain,subjectID)
 
 # visSBDailyPatternInterGroup('DietItem','039')
-visDailyPatternInterGroup()
+# visDailyPatternInterGroup()

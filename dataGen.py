@@ -23,6 +23,8 @@ def genDailyActTypeFeatureTable():
 		vector = sheet.cell_value(row,3)
 		vector = vector.split('[')[1].split(']')[0].split(',') 
 		table.append(vector)
+		for i in range(len(vector)):
+			vector[i] = int(vector[i])
 
 	FT = np.array(table)
 
@@ -39,6 +41,8 @@ def genDailyDietTypeFeatureTable():
 		vector = sheet.cell_value(row,5)
 		vector = vector.split('[')[1].split(']')[0].split(',') 
 		table.append(vector)
+		for i in range(len(vector)):
+			vector[i] = int(vector[i])
 
 	FT = np.array(table)
 
@@ -121,5 +125,5 @@ def getOwlLabel():
 #print type(dframe['SubjId'])
 #print dframe.ix[1]
 
-#FT, labels = genDailyActTypeFeatureTable()
-#print FT
+# FT = genDailyActTypeFeatureTable()
+# print FT

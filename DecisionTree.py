@@ -11,28 +11,33 @@ from sklearn.ensemble import RandomForestClassifier
 import dataGen 
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import precision_recall_fscore_support
+from adasyn import ADASYN
 
 #dataset = dataGen.genDailyActTypeFeatureTable()
 dataset = dataGen.genDailyDietTypeFeatureTable()
 
-labels = dataGen.getMorningnessLabel()
+#labels = dataGen.getSlpTimeLabel()
+#labels = dataGen.getMorningnessLabel()
 #labels = dataGen.getEveningnessLabel()
 #labels = dataGen.getLarkLabel()
-#labels = dataGen.getOwlLabel()
+labels = dataGen.getOwlLabel()
+
+adsn = ADASYN(k=7,imb_threshold=0.6, ratio=0.75)
+new_X, new_y = adsn.fit_transform(dataset,labels)  # your imbalanced dataset is in X,y
 
 clf = RandomForestClassifier(n_estimators = 100,n_jobs = -1)
 
-data1 = dataset[0:160,:]
-label1 = labels[0:160]
+dataTrain = dataset[0:160,:]
+labelTrain = labels[0:160]
 
-clf.fit(data1,label1)
+clf.fit(dataTrain,labelTrain)
 
-data2 = dataset[160:,:]
-label2 = labels[160:]
-pre_labels = clf.predict(data2)
+dataTest = dataset[160:,:]
+labelTest = labels[160:]
+pre_labels = clf.predict(dataTest)
 
-accuracy = accuracy_score(label2,pre_labels)
-p,r,f,s = precision_recall_fscore_support(label2,pre_labels)
+accuracy = accuracy_score(labelTest,pre_labels)
+p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
 
 print cross_val_score(clf, dataset, labels)
 
