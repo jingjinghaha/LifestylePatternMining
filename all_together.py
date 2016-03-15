@@ -6,6 +6,7 @@ Created on Mon Nov 30 16:26:06 2015
 """
 import matplotlib.pyplot as plt
 import extractDietAct 
+import extractDietActWithTime  
 import preprocessDiary
 import buildItemFreqTXTFile
 import buildTypeFreqTXTFile
@@ -18,7 +19,7 @@ import visTFIDFMat
 import visDailyPatternInterGroup
 import visDailyPatternIntraGroup
 import buildDietActTable
-import clusteringKmeansLabels
+import clsKmeansLabels
 import groupAnalysis
 import buildDietActTableWithFreq
 import buildSubAveInfoTable 
@@ -30,9 +31,14 @@ plt.clf()
 extractDietAct.extractDietAct()
 extractDietAct.extractDailyActDiet()
 
+# extract diet and activity information from excel with date and timing info 
+extractDietActWithTime.extractDietActWithDate()
+extractDietActWithTime.extractDailyDietActWithTime()
+
 # preprocessing include: tokenization, word removal, spell checking, lemmatization
 preprocessDiary.preprocessDiary()
 preprocessDiary.preprocessDailyDiary()
+preprocessDiary.preprocessDailyDiaryWithTime()
 
 # build the diet/activity index with Item frequency in txt files 
 buildItemFreqTXTFile.buildItemFreqTXTFile()
@@ -88,7 +94,7 @@ buildDietActTableWithFreq.buildDietActTableWithSlpWithFreq()
 The following steps are done after we finish the Kmeans and get the best labels 
 '''
 # plot best labels got from KMeans 
-clusteringKmeansLabels.clusteringKmeansLabels()
+clsKmeansLabels.clusteringKmeansLabels()
 
 # grouping analysis will give the demo and sleep info of the groups and also the integration 
 groupAnalysis.groupAnalysis()

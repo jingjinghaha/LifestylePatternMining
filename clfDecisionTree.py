@@ -12,15 +12,19 @@ import dataGen
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import precision_recall_fscore_support
 from adasyn import ADASYN
+import numpy as np
+
 
 #dataset = dataGen.genDailyActTypeFeatureTable()
 dataset = dataGen.genDailyDietTypeFeatureTable()
+np.save('dataset.npy',dataset)
 
 #labels = dataGen.getSlpTimeLabel()
-#labels = dataGen.getMorningnessLabel()
+labels = dataGen.getMorningnessLabel()
 #labels = dataGen.getEveningnessLabel()
 #labels = dataGen.getLarkLabel()
-labels = dataGen.getOwlLabel()
+#labels = dataGen.getOwlLabel()
+np.save('labels.npy',labels)
 
 adsn = ADASYN(k=7,imb_threshold=0.6, ratio=0.75)
 new_X, new_y = adsn.fit_transform(dataset,labels)  # your imbalanced dataset is in X,y

@@ -56,7 +56,7 @@ def getSlpTimeLabel():
 	labels = [] 
 
 	for row in range(1,sheet.nrows):
-		labels.append(sheet.cell_value(row,7))
+		labels.append(int(sheet.cell_value(row,7)))
 
 	labels = np.array(labels)
 
@@ -70,7 +70,7 @@ def getMorningnessLabel():
 	labels = [] 
 
 	for row in range(1,sheet.nrows):
-		labels.append(sheet.cell_value(row,8))
+		labels.append(int(sheet.cell_value(row,8)))
 
 	labels = np.array(labels)
 
@@ -84,7 +84,7 @@ def getEveningnessLabel():
 	labels = [] 
 
 	for row in range(1,sheet.nrows):
-		labels.append(sheet.cell_value(row,9))
+		labels.append(int(sheet.cell_value(row,9)))
 
 	labels = np.array(labels)
 
@@ -98,7 +98,7 @@ def getLarkLabel():
 	labels = [] 
 
 	for row in range(1,sheet.nrows):
-		labels.append(sheet.cell_value(row,10))
+		labels.append(int(sheet.cell_value(row,10)))
 
 	labels = np.array(labels)
 
@@ -112,7 +112,7 @@ def getOwlLabel():
 	labels = [] 
 
 	for row in range(1,sheet.nrows):
-		labels.append(sheet.cell_value(row,11))
+		labels.append(int(sheet.cell_value(row,11)))
 
 	labels = np.array(labels)
 

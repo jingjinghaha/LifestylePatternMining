@@ -29,7 +29,7 @@ def preprocessing(in_file, out_file):
 		new_tokens = []
 		for token in words:
 			flag = 0 
-			token = re.sub(r'[a-zA-Z]*[0-9]+[a-zA-Z]*', r' ', token)
+			token = re.sub(r'[a-zA-Z]*[0-9]+[a-zA-Z]+|[a-zA-Z]+[0-9]+[a-zA-Z]*', r' ', token) 
 			# token = re.sub(r'[^\w]', r'', token)
 			token = token.encode('utf-8')
 			#remove stop words, which are meaningless
@@ -58,6 +58,46 @@ def preprocessing(in_file, out_file):
 			print >> fw, new_tokens
 	fw.close() 
 
+#preprocess single file with time
+def preprocessingWithTime(in_file, out_file):
+	fw = open(out_file,'w')
+	for line in open(in_file):
+		temp_string = ''.join(str(element) for element in line if element not in string.punctuation)
+		temp_string = temp_string.lower()
+		#tokenization 
+		words = wordpunct_tokenize(temp_string)
+		new_tokens = []
+		for token in words:
+			flag = 0 
+			token = re.sub(r'[a-zA-Z]*[0-9]+[a-zA-Z]+|[a-zA-Z]+[0-9]+[a-zA-Z]*', r' ', token) 
+			# token = re.sub(r'[^\w]', r'', token)
+			token = token.encode('utf-8')
+			#remove stop words, which are meaningless
+			for stopword in stopwords.words('english'):
+				if token==str(stopword) or token=='one' or token=='go' or token=='take' or token=='three' or \
+				token=='two' or token=='four' or token=='kg' or token=='baked' or token=='hawaii' or \
+				token=='brueno' or token=='french' or token=='american' or token=='turkish' or \
+				token=='chinese' or token=='indische' or token=='cole' or token=='alla':
+					flag = 1
+					break
+			if flag == 0:
+				if token != '':
+					if token != ' ':
+						#lemmatization 
+						token = nltk.stem.WordNetLemmatizer().lemmatize(token,'v')
+						#spell checking 
+						token = spellChecking.correct(token)
+						token = token.encode('utf-8')
+						if token!='peer' and token!='quark' and token!='flat' and token!='go' and token!='take' and \
+						token!='get' and token!='forget' and token!='stuff' and token!='brown' and token!='bad' and \
+						token!='child' and token!='bring' and token!='cream' and token!='mm' and token!='sensor' and \
+						token!='stuf' and token!='groceries' and token!='back' and token!='home' and token!='behind' and \
+						token!='city' and token!='dog' and token!='red' and token!='healthy':
+							new_tokens.append(token)
+		if len(new_tokens) > 1:
+			print >> fw, new_tokens
+	fw.close() 
+
 # preprocess all files
 def preprocessDiary():
 	print 'in preprocessDiary()'
@@ -80,6 +120,16 @@ def preprocessDailyDiary():
 		for n in range(1,duration+1):
 			preprocessing('activity/activityFromExcel/activity_'+subjectID+'_'+str(n)+'.txt','activity/activityProcessed/processed_activity_'+subjectID+'_'+str(n)+'.txt')
 			preprocessing('diet/dietFromExcel/diet_'+subjectID+'_'+str(n)+'.txt','diet/dietProcessed/processed_diet_'+subjectID+'_'+str(n)+'.txt')
+
+def preprocessDailyDiaryWithTime():
+	print 'in preprocessDailyDiaryWithTime()'
+	for subjectID in available_list:
+		print subjectID
+		duration = dietActInfoRetrv.getDuration(subjectID)
+		for n in range(1,duration+1):
+			preprocessingWithTime('activity/activityFromExcel/activity_'+subjectID+'_'+str(n)+'_with_time.txt','activity/activityProcessed/processed_activity_'+subjectID+'_'+str(n)+'_with_time.txt')
+			preprocessingWithTime('diet/dietFromExcel/diet_'+subjectID+'_'+str(n)+'_with_time.txt','diet/dietProcessed/processed_diet_'+subjectID+'_'+str(n)+'_with_time.txt')
 			
 # preprocessDiary()
 # preprocessDailyDiary()
+# preprocessDailyDiaryWithTime()
