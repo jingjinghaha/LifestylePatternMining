@@ -27,12 +27,15 @@ label2 = dataGen4SlpPrd.getMorningnessLabel()
 label3 = dataGen4SlpPrd.getEveningnessLabel()
 label4 = dataGen4SlpPrd.getLarkLabel()
 label5 = dataGen4SlpPrd.getOwlLabel()
+
 Labels = [label1,label2,label3,label4,label5]
+
 dataset_l1 = np.c_[dataset,label1.ravel()]
 dataset_l2 = np.c_[dataset,label2.ravel()]
 dataset_l3 = np.c_[dataset,label3.ravel()]
 dataset_l4 = np.c_[dataset,label4.ravel()]
 dataset_l5 = np.c_[dataset,label5.ravel()]
+
 header = ['f1','f2','f3','f4','f5','f6','f7','f8','f9','f10','f11','f12','f13','l']
 pd.DataFrame(dataset_l1).to_csv('dataset_l1.csv',index = False,header = header)
 pd.DataFrame(dataset_l2).to_csv('dataset_l2.csv',index = False,header = header)
