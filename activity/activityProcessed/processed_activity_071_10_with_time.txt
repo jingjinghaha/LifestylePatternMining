@@ -1,0 +1,6 @@
+['909', 'study', 'pack']
+['1045', 'cycle']
+['1100', 'lecture']
+['1525', 'cycle']
+['1735', 'study', 'pack']
+['2345', 'sleep']

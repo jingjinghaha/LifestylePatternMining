@@ -1,0 +1,12 @@
+1048        cycling
+1111        walking
+1128        taking the train
+1355        walking
+1420        cycling
+1530        table football
+1603        cycling
+1720        charging sensor
+1740        shopping
+1800        coocking
+2000        fitness and cycling
+2345        sleep

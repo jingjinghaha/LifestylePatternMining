@@ -2,4 +2,4 @@
 ['coconut', 'apple']
 ['vegetable', 'salad', 'aubergine']
 ['noodles', 'vegetable']
-['beer', 'champagne']
+['8', 'beer', '2', 'champagne']

@@ -1,0 +1,3 @@
+['855', 'sandwich', 'hamburger']
+['1445', 'sandwich', 'cheese', '2', 'muesli', 'bar']
+['2030', 'pasta', 'vongde', 'bread']

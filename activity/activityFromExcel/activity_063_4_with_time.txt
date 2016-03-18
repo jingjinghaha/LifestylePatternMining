@@ -1,0 +1,7 @@
+957         getting up and charging sensor
+1043        walking (phone not with me)
+1100        at university
+1618        walking
+1738        driving car
+1836        going in bad
+2234        sleep (not at home)

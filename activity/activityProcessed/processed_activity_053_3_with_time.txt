@@ -1,0 +1,6 @@
+['1300', 'teach', 'tennis', 'game']
+['1917', 'weight', 'measurement']
+['2002', 'study']
+['2134', 'drive', 'car']
+['102', 'sit', 'car']
+['1369', 'sleep']

@@ -1,3 +1,3 @@
-['sandwich']
-['pasta', 'bread', 'meat', 'drink', 'alcohol']
-['drink', 'alcohol']
+['3', 'sandwich']
+['pasta', 'bread', 'meat', '3', 'drink', 'alcohol']
+['3', 'drink', 'alcohol']

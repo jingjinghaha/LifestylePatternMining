@@ -1,6 +1,7 @@
 cheese                   1         
 sandwich                 1         
 kellogs                  1         
+675                      1         
 salami                   1         
 berry                    1         
 pasta                    3         

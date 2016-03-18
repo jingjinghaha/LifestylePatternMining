@@ -1,0 +1,4 @@
+1000        running 6km
+1300        working behind computer
+1800        cycling
+1900        shopping

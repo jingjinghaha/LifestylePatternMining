@@ -1,0 +1,7 @@
+931         shower
+1110        travelling with ov
+1230        shopping
+1805        travelling with ov
+1950        watching tv
+2050        charging sensor
+2136        sleep

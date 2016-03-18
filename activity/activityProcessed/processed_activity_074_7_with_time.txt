@@ -1,0 +1,8 @@
+['755', 'breakfast']
+['800', 'work']
+['1129', 'shop', 'cycle']
+['1345', 'work']
+['1500', 'cycle', 'shop']
+['1910', 'dish', 'computer']
+['2050', 'shower']
+['2148', 'sleep']

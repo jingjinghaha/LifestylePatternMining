@@ -1,0 +1,6 @@
+['748', 'oatmeal']
+['1108', 'kaki', 'nut']
+['1220', 'cabbage', 'rice', 'bread', 'yoghurt']
+['1445', 'bread', 'grapes', 'kiwi']
+['1600', 'zucchini', 'soup']
+['1840', '2', 'wine', 'lasagna', 'cake']

@@ -1,0 +1,7 @@
+150         sleep
+1215        household
+1350        bike uni
+1400        VO2max
+1500        gym
+1630        shower, recharge
+1930        study

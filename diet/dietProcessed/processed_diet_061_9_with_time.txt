@@ -1,0 +1,4 @@
+['1200', 'sandwich', 'apple']
+['1545', 'tangerines']
+['1730', 'stamp', 'chicken']
+['2400', '11', 'beer']

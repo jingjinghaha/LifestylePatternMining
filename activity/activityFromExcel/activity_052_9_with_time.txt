@@ -1,0 +1,14 @@
+805         shower
+850         cycling
+1340        cycling
+1345        walking
+1358        taking the train
+1530        cycling
+1535        home at parents place 
+1650        charging sensor
+1925        driving car
+2030        playing hockey game, get injured 
+2115        shower
+2230        driving car
+30          driving car
+110         sleep

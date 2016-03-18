@@ -1,4 +1,4 @@
 ['oatmeal']
 ['fruit']
-['cookie']
-['drink', 'alcohol']
+['2', 'cookie']
+['6', 'drink', 'alcohol']

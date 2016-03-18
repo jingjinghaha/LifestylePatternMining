@@ -1,6 +1,7 @@
 sandwich                 2         
 meat                     1         
 paprika                  1         
+4                        2         
 pasta                    1         
 banana                   1         
 zucchini                 1         

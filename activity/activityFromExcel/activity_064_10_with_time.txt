@@ -1,0 +1,13 @@
+125         shower
+200         trying to sleep
+400         sleep
+911         30 pushups
+1015        study
+1215        coocking and lunch
+1245        study
+1715        coocking and lunch
+1900        charging sensor
+2000        study
+2045        shower
+2055        study
+2200        sleep

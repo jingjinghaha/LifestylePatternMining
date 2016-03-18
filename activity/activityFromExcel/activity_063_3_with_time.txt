@@ -1,0 +1,6 @@
+30          sleep
+1027        shower
+1055        cycling
+1105        at university
+1600        cycling
+1800        going out

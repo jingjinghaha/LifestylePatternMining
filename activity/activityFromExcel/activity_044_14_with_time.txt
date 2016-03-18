@@ -1,0 +1,8 @@
+700         shower, dress
+725         walk
+730         work
+1745        walk
+1750        sit
+2120        dress
+2130        read
+2200        sleep

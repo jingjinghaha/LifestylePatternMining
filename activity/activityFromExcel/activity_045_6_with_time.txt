@@ -1,0 +1,3 @@
+750         cycling
+830         work
+1900        charging sensor

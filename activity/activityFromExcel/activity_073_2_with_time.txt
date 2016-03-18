@@ -1,0 +1,17 @@
+850         getting up
+858         walking with the dog
+920         driving car
+930         walking/ standing
+1045        driving car
+1056        driving car
+1110        driving car
+1220        driving car
+1240        walking
+1245        driving car
+1400        walking with the dog
+1500        driving car
+1513        driving car
+1945        fitness/ strenght training
+2100        watching tv
+2230        walking with the dog
+2245        sleep

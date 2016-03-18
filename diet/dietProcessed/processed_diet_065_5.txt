@@ -1,3 +1,3 @@
 ['sandwich', 'sugar', 'coffee']
 ['sandwich', 'apple', 'syrup']
-['beer']
+['8', 'beer']

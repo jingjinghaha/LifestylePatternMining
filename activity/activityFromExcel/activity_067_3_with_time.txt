@@ -1,0 +1,11 @@
+750         running
+800         cleaning
+940         running
+950         shower
+1000        walking with the dog
+1150        study and lunch
+1300        shopping
+1400        meeting with friends
+1600        study
+1830        diner with family
+2230        sleep

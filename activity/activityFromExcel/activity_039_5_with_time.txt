@@ -1,0 +1,8 @@
+2421        sleep
+1245        relax
+1515        bike gym
+1530        gym
+1645        bike home
+1700        recharge, shower
+2032        study
+2342        bike pub

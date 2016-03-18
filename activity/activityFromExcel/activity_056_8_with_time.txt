@@ -1,0 +1,10 @@
+658         driving car
+715         babysitting
+925          
+1500        driving car
+1720        coocking
+1839        driving car
+1847        fitness
+1944        driving car
+2005        shower
+2310        sleep

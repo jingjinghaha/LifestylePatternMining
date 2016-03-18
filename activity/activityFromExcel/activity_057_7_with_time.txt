@@ -1,0 +1,12 @@
+747         sensor on
+855         walking
+1000        walking
+1000        work
+1144        walking
+1212        work
+1437        driving car
+1610        work
+1724        driving car
+1757        vistit
+2015        driving car
+2215        sleep (sensor off)

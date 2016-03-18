@@ -1,0 +1,3 @@
+['800', 'egg', 'champignon', 'salami']
+['1200', 'potato', 'chicken', 'broccoli']
+['1800', 'potato', 'chicken', 'broccoli']

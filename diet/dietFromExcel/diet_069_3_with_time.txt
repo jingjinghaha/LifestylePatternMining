@@ -1,0 +1,4 @@
+1000        yoghurt with cruesli
+1200        2 sandwiches
+1500        snack
+1900        pasta

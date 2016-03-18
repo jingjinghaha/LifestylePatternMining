@@ -14,7 +14,6 @@ driving car
 work
 driving car and walking
 shower (sensor off)
-sensor off
 sensor on
 work
 driving car
@@ -37,7 +36,6 @@ driving car
 shopping for bicycle
 work
 shower (sensor off)
-sleep
 sensor on
 walking, moving stuff
 work

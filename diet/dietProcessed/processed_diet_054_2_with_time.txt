@@ -1,0 +1,5 @@
+['1030', 'coconut', 'apple']
+['1310', 'coconut', 'apple']
+['1600', 'vegetable', 'salad', 'aubergine']
+['1910', 'noodles', 'vegetable']
+['1945', '8', 'beer', '2', 'champagne']

@@ -1,0 +1,7 @@
+1200        study
+1710        cycling
+1720        getting dressed
+1730        sports
+1840        shopping
+1900        cycling
+2330        sleep

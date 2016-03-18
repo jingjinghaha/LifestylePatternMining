@@ -1,0 +1,5 @@
+['1150', 'shower']
+['1325', 'walk']
+['1335', 'practicum', 'university']
+['1635', 'walk']
+['100', 'sleep']

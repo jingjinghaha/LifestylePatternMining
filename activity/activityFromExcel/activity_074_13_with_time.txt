@@ -1,0 +1,8 @@
+708         getting up
+752         walking
+812         work
+1645        walking and shopping
+1734        coocking
+2007        driving car
+2155        shower
+2232        sleep

@@ -1,8 +1,11 @@
+snack                    1         
 coffee                   1         
 sandwich                 1         
 tea                      1         
+1                        1         
 juice                    1         
-snack                    1         
+3                        2         
+2                        1         
 cookie                   2         
 cola                     1         
 muesli                   1         

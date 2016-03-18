@@ -1,0 +1,3 @@
+['800', '2', 'sandwich']
+['1230', 'soup', 'sandwich']
+['2015', 'vegetable', 'meat']

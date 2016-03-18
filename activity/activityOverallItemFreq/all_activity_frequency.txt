@@ -3,10 +3,11 @@ taxi                     4
 move                     8         
 rest                     3         
 jacuzzi                  5         
-sleep                    297       
+sleep                    296       
 dish                     18        
+20                       3         
 tv                       59        
-charge                   137       
+charge                   136       
 bike                     51        
 hockey                   8         
 soccer                   9         
@@ -21,6 +22,7 @@ cook                     81
 school                   20        
 traineeship              9         
 university               46        
+crosstrainer             3         
 fitness                  12        
 craftwork                5         
 computer                 58        
@@ -40,6 +42,7 @@ wait                     10
 diner                    56        
 eat                      5         
 study                    164       
+30                       3         
 place                    7         
 ov                       7         
 cheese                   3         
@@ -50,7 +53,6 @@ market                   3
 prepare                  3         
 tennis                   3         
 visit                    12        
-crosstrainer             3         
 call                     3         
 sauna                    3         
 babysitting              5         

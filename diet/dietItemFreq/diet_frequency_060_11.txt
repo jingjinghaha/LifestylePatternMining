@@ -1,4 +1,5 @@
 orange                   1         
 muesli                   1         
+3                        1         
 rice                     1         
 pasta                    2         

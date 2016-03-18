@@ -1,0 +1,6 @@
+820         driving car
+840         work
+1700        driving car
+1825        going out for diner
+2037        charging sensor
+2310        sleep

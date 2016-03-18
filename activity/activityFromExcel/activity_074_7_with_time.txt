@@ -1,0 +1,9 @@
+755         breakfast
+800         work
+1129        shopping and cycling
+1345        work
+1500        cycling and shopping
+1628        at home
+1910        dishes and computer
+2050        shower
+2148        sleep

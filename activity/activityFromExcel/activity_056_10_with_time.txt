@@ -1,0 +1,14 @@
+1025        driving car
+1052        shower
+1155        driving car
+1213        babysitting
+1625        driving car
+1643        household activities
+1700        coocking
+1738        diner
+1809        dishes
+1914        driving car
+1930        fitness (forgot phone)
+2037        driving car
+2050        shower and charging sensor
+2330        sleep

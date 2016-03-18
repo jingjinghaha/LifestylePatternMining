@@ -1,0 +1,11 @@
+700         shower, dress, pack
+730         walk
+735         work
+1300        walk
+1320        car
+1325        work
+1800        groceries, car
+1830        cook
+1900        relax
+2240        to bed
+2255        sleep

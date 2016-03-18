@@ -1,0 +1,3 @@
+5           cycling
+32          sleep
+900         cycling

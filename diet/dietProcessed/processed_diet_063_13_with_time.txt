@@ -1,0 +1,2 @@
+['1230', 'sugar', 'tea', 'sandwich']
+['1945', 'potato', 'meat', 'paprika', 'choco']

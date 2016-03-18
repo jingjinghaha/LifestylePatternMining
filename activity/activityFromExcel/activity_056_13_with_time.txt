@@ -1,0 +1,15 @@
+10          sleep
+843         driving car
+1231        driving car
+1321        lunch
+1319        driving car
+1401        driving car
+1423        charging sensor
+1459        walking
+1502        birthday party
+1751        walking
+1801        charging sensor
+1831        diner
+1936        driving car
+2334        driving car
+100         sleep

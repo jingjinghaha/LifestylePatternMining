@@ -1,0 +1,7 @@
+['800', 'muesli', 'sugar']
+['1330', 'bread', 'cheese']
+['1430', 'carrot']
+['1500', 'coffee', 'milk', 'sugar']
+['1600', 'pear']
+['1910', 'chili', 'con', 'meat', 'vegetable', 'cheese']
+['2130', 'pudding']

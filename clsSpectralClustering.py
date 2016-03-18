@@ -6,15 +6,14 @@ Created on Fri Jan 08 17:34:11 2016
 """
 
 from sklearn.cluster import SpectralClustering
-import matplotlib.pyplot as plt
-from itertools import cycle
 import visSimilarityMat
 import utilise
 
-Domain = ['DietItem','ActItem','DietType','ActType']
+Domain = ['DietType','ActType']
+
 # dist is to set the similarity measurement method, the default is TFIDFCosin
 # jaccard,novelJaccard,TFIDFCosin,TFIDFEclud,TFCosin,TFEclud
-dist = 'TFIDFCosin'
+dist = 'TFEclud'
 for domain in Domain:
 	dietSimilarity_dict = {}
 	if domain == 'DietItem':

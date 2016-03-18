@@ -1,0 +1,7 @@
+['830', 'walk']
+['906', 'charge']
+['906', 'study']
+['1430', 'walk', 'phone']
+['1502', 'computer']
+['2100', 'study']
+['100', 'sleep']

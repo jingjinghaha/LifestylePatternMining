@@ -1,0 +1,8 @@
+215         sleep
+1215        study, household
+1425        bike city
+1500        study
+1700        walk city, shop
+2130        walk
+2200        bike home
+2245        recharge

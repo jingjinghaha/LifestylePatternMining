@@ -1,0 +1,5 @@
+['121', 'sleep', 'friends', 'place']
+['1120', 'clean']
+['1200', 'shop']
+['1800', 'cook']
+['1940', 'chill']

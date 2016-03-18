@@ -1,0 +1,10 @@
+1005        sensor off
+1145        walking in city
+1250        sitting
+1400        taking the bus
+1500        walking at christmas market
+1640        sitting
+1705        walking
+2047        taking the bus
+2140        walking
+2200        at home

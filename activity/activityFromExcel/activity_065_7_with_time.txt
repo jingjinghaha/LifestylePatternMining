@@ -1,0 +1,13 @@
+938         crosstrainer/ sports
+1000        breakfast
+1030        meeting
+1050        shower and administration
+1215        shopping
+1530        study
+1915        driving car
+1930        walking
+1935        waiting
+2000        taking the train
+2125        cycling
+2140        working at home
+2330        reading

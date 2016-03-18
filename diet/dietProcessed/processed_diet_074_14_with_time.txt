@@ -1,0 +1,6 @@
+['834', 'sandwich']
+['1020', 'apple', 'nut']
+['1230', 'soup', 'sandwich', 'yoghurt', 'chocolate']
+['1500', 'grapes', 'sandwich', 'candy']
+['1805', 'rice', 'vegetable']
+['2240', 'sandwich', 'cheese', 'muesli', 'yoghurt']

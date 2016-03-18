@@ -1,0 +1,8 @@
+['920', 'craftwork']
+['1315', 'craftwork']
+['1545', 'shop', 'cycle']
+['1645', 'cook']
+['1810', 'drive', 'car']
+['1830', 'train']
+['2030', 'walk']
+['2300', 'sleep']

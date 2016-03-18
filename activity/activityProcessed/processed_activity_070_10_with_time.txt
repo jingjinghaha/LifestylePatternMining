@@ -1,0 +1,4 @@
+['700', 'shower', 'dress']
+['900', 'work']
+['1945', 'drive', 'car']
+['2230', 'sleep']

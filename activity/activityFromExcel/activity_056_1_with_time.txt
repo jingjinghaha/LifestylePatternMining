@@ -1,0 +1,5 @@
+1350        shopping 
+1645        shopping (with the car)
+1715        coocking
+1815        watching tv
+2330        sleep

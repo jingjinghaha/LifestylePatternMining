@@ -1,0 +1,11 @@
+1004        walking with the dog
+1323        lunch
+1421        walking with the dog
+1430        driving car
+1700        driving car
+1730        driving car
+1815        diner
+1855        walking with the dog
+2000        watching tv
+2300        walking with the dog
+2310        sleep

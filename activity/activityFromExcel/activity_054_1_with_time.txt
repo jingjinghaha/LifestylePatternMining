@@ -1,0 +1,15 @@
+205         cycling
+220         cleaning
+234         study
+406         dancing
+442         shower and charging
+1508        craftwork
+1615        watching tv
+1707        study
+1807        study
+1840        cycling
+1900        meeting
+1930        shopping
+1945        cycling
+2000        chillen with roommates
+2300        sleep

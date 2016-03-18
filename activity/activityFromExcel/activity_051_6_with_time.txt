@@ -1,0 +1,12 @@
+823         taking the bus
+916         taking the train
+1021        taking the bus
+1041        school
+1244        taking the train
+1352        taking the bus
+1403        cycling
+1420        sitting
+1515        walking with the dog
+1600        study
+2000        taking a bad
+2200        sleep

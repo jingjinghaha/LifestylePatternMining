@@ -1,0 +1,6 @@
+['1140', 'fish']
+['1330', 'fries', 'mc', 'flurry']
+['1430', 'chocolate']
+['1930', 'pasta', 'meat']
+['2000', 'chip', 'candy']
+['2355', 'shots']

@@ -12,7 +12,7 @@ from itertools import cycle
 import visSimilarityMat
 import utilise
 
-Domain = ['DietItem','ActItem','DietType','ActType']
+Domain = ['DietType','ActType']
 # sim is to set the similarity measurement method, the default is TFIDFCosin
 # jaccard,novelJaccard,TFIDFCosin,TFIDFEclud,TFCosin,TFEclud
 Sim = ['jaccard','novelJaccard','TFCosin','TFEclud','TFIDFCosin','TFIDFEclud']

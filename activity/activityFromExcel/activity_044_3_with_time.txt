@@ -1,0 +1,11 @@
+615         dress, pack
+645         car swimming pool
+700         swim
+840         car
+855         walk
+905         work
+1505        walk
+1810        terrace
+1830        home
+2100        movie
+2230        sleep

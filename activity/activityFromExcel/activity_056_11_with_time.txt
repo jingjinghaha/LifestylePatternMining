@@ -1,0 +1,9 @@
+855         driving car
+925         work
+1732        driving car
+1800        diner
+1903        driving car
+1930        soccer training
+2004        driving car
+2020        shower and charging sensor
+2337        sleep

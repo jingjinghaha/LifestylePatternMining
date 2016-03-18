@@ -1,0 +1,4 @@
+1030        4 sandwiches
+1510        beer
+1800        red wine
+1830        sushi

@@ -1,0 +1,8 @@
+930         breakfast
+1030        taking shower
+1140        working
+1600        diner and relaxen
+1805        walking
+1815        working
+2305        walking
+2330        sleep

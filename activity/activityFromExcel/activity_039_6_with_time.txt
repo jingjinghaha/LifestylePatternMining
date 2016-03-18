@@ -1,0 +1,7 @@
+2430        bike home
+235         sleep
+1415        pc
+1515        recharge
+1600        pc
+2030        study
+2230        walk

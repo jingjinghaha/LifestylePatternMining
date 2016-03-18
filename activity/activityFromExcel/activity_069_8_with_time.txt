@@ -1,0 +1,7 @@
+830         cycling
+900         exam
+1015        cycling
+1100        standard protocol
+1300        cycling
+1440        taking the bus
+2300        sleep

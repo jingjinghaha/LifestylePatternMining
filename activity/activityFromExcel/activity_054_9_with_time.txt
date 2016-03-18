@@ -1,0 +1,11 @@
+1100        study
+1530        cycling (phone not with me)
+1600        lecture
+1700        cycling
+1710        shopping
+1725        cycling
+1730        coocking
+2100        cycling
+2110        at city (phone empty)
+2200        cycling
+2300        sleep

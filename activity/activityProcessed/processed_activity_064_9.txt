@@ -1,4 +1,4 @@
-['pushups']
+['30', 'pushups']
 ['relax']
 ['cycle']
 ['school']

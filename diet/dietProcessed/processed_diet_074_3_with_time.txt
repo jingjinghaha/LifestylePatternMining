@@ -1,0 +1,5 @@
+['1035', 'apple', 'yoghurt', 'muesli', 'chocolate']
+['1255', 'eat', 'olives']
+['1350', 'potato', 'fish', 'vegetable', 'yoghurt', 'chocolate']
+['1540', 'orange']
+['2000', 'pizza', 'salad', 'yoghurt']

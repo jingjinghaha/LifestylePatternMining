@@ -1,0 +1,3 @@
+['745', 'sandwich', 'milk', 'cornflakes']
+['1600', 'tea', 'cookie']
+['1830', 'shrimp', 'cocktail', 'beef', 'pie']

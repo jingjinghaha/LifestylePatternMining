@@ -1,0 +1,7 @@
+2400        sleep
+1119        study
+1212        recharge
+1637        running
+1705        shower, recharge
+1740        study
+1925        study

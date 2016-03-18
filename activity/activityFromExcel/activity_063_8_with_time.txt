@@ -1,0 +1,5 @@
+1150        getting up and shower
+1325        walking
+1335        practicum at university
+1635        walking
+100         sleep

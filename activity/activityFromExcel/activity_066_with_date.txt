@@ -1,0 +1,82 @@
+1.06.2015   driving car
+1.06.2015   visiting
+1.06.2015   driving car
+1.06.2015   coocking
+1.06.2015   bringing child to bed
+1.06.2015   charging sensor
+1.07.2015   sleep
+1.07.2015   shower
+1.07.2015   driving car
+1.07.2015   driving car to work
+1.07.2015   cycling
+1.07.2015   work
+1.07.2015   driving car
+1.07.2015   walking 
+1.07.2015   driving car
+1.07.2015   cycling
+1.07.2015   walking 
+1.07.2015   driving car
+1.07.2015   driving car
+1.07.2015   watching tv
+1.07.2015   sleep
+1.08.2015   shower
+1.08.2015   driving car
+1.08.2015   work
+1.08.2015   driving car
+1.08.2015   walking/ cycling
+1.08.2015   work
+1.08.2015   cycling
+1.08.2015   work
+1.08.2015   cycling
+1.08.2015   driving car
+1.08.2015   party
+1.08.2015   driving car
+1.08.2015   bringing child to bed
+1.08.2015   watching tv
+1.08.2015   reading in bed
+1.08.2015   sleep (charging sensor)
+1.09.2015   shower
+1.09.2015   walking 
+1.09.2015   taking the bus
+1.09.2015   shopping
+1.09.2015   computer
+1.09.2015   cycling
+1.09.2015   shopping
+1.09.2015   cycling
+1.09.2015   bringing child to bed
+1.09.2015   watching tv
+1.10.2015   sleep
+1.10.2015   shower
+1.10.2015   walking (forgot phone)
+1.10.2015   driving car
+1.10.2015   shopping
+1.10.2015   driving car
+1.10.2015   bringing child to bed
+1.10.2015   reading in bed (charging sensor)
+1.10.2015   sleep
+1.11.2015   shower (charging sensor)
+1.11.2015   getting dressed
+1.11.2015   household activities
+1.11.2015   driving car (forgot phone)
+1.11.2015   walking 
+1.11.2015   bringing child to bed
+1.11.2015   bringing child to bed
+1.11.2015   watching tv
+1.11.2015   household activities
+1.11.2015   going to bed (charging sensor)
+1.11.2015   sleep
+1.12.2015   shower
+1.12.2015   driving car
+1.12.2015   driving car
+1.12.2015   cycling
+1.12.2015   driving car
+1.12.2015   driving car
+1.12.2015   cycling
+1.12.2015   cycling
+1.12.2015   driving car
+1.12.2015   driving car
+1.12.2015   driving car
+1.12.2015   meeting
+1.12.2015   going to bed (charging sensor)
+1.12.2015   sleep
+1.13.2015   shower

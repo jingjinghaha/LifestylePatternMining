@@ -5,6 +5,7 @@ choco                    1
 soup                     2         
 fruit                    1         
 vegetable                1         
+69                       1         
 chicken                  1         
 yoghurt                  1         
 pumpkin                  1         

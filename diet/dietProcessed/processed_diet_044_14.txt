@@ -1,4 +1,4 @@
-['bread', 'butter', 'jam', 'cheese', 'juice']
+['3', 'bread', 'butter', 'jam', '2', 'cheese', 'juice']
 ['baguette', 'meat']
 ['strawberry', 'cheese']
 ['chocolate', 'milk', 'chocolate', 'muffin']

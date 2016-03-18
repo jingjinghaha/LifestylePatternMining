@@ -1,0 +1,8 @@
+['725', 'breakfast']
+['805', 'cycle']
+['830', 'study']
+['1400', 'drive', 'lesson']
+['1610', 'walk', 'cycle', 'shop']
+['1700', 'clean', 'shower', 'study']
+['1915', 'cinema', 'bike']
+['2245', 'talk', 'friend']

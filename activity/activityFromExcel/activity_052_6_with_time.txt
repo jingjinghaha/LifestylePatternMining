@@ -1,0 +1,13 @@
+800         shower
+815         cycling
+830         study
+1505        cycling
+1528        taking the train
+1645        cycling
+1650        relaxing
+2000        hockey
+2225        driving car
+2230        shower
+2240        driving car. Charging sensor 
+2245        with girlfriend, charging sensor
+5           driving car

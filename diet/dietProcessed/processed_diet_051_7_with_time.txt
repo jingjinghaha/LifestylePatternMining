@@ -1,0 +1,5 @@
+['630', 'piece', 'ginger', 'bread']
+['1030', 'cookie']
+['1130', 'sandwich']
+['1820', 'beef']
+['2000', 'bread', 'fish']

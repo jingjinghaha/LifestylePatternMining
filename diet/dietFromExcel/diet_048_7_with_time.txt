@@ -1,0 +1,3 @@
+800         bf, coffee
+1300        lunch
+1800        pizza, beer

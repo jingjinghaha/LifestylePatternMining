@@ -1,0 +1,6 @@
+1700        driving car
+1745        visiting
+1815        driving car
+1820        coocking
+1930        bringing child to bed
+2000        charging sensor

@@ -1,0 +1,4 @@
+['800', 'cereals', 'milk']
+['1100', 'sandwich', 'meat']
+['1230', '6', 'sandwich']
+['1840', 'potato', 'meat', 'vegetable']

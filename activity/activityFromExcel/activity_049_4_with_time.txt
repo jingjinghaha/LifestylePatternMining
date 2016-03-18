@@ -1,0 +1,9 @@
+1000        food intake
+1030        shower
+1115        driving
+1200        driving
+1235        walking
+1245        working
+2030        cinema
+2245        walking
+2300        sleep

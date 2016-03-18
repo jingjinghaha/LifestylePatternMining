@@ -1,0 +1,4 @@
+1330        sandwich
+1530        chocolade waffle
+1750        spaghetti and salad
+1815        nuts

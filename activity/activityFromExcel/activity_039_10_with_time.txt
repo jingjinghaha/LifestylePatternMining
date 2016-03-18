@@ -1,0 +1,9 @@
+204         sleep
+1640        recharge
+1530        bike uni
+1545        study
+1907        bike home
+2150        bike gym
+2200        gym
+2300        bike home
+2315        recharge rest

@@ -1,0 +1,10 @@
+115         sleep
+730         dress, pack
+800         walk
+805         work
+1500        walk
+1535        walk, bike pack
+1555        train
+1700        wait
+1715        car
+1815        drinks

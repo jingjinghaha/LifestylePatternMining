@@ -1,0 +1,5 @@
+['100', '2', 'cookie', 'juice']
+['1510', '5', 'wine', 'snack', 'cake']
+['1800', '3', 'wine', '4', 'piece', 'baguette', 'butter']
+['1800', 'beef', 'fries', 'lettuce', 'mayo']
+['2120', '8', 'beer']

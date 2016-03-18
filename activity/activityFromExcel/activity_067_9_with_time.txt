@@ -1,0 +1,8 @@
+600         getting up
+615         shower
+730         walking with the dog
+810         going to the university by bus
+1630        driving car
+1900        set up christmas tree
+2000        running
+2200        sleep

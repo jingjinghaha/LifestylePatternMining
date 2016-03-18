@@ -1,0 +1,2 @@
+['1230', 'beef']
+['1715', 'potato', 'meat', 'vegetable']

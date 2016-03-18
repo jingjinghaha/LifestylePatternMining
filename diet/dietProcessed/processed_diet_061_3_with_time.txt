@@ -1,0 +1,4 @@
+['1215', 'banana', 'egg', 'tomato', 'vegetable']
+['1600', 'apple']
+['1630', 'snack', 'pizza']
+['2251', '21', 'beer']

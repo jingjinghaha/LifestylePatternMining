@@ -1,0 +1,8 @@
+740         shower
+11          walking-  taking the train-  cycling
+1457        cycling
+1745        cycling
+1800        watching judo exam
+1900        cycling
+2107        charging sensor
+2210        going to bed

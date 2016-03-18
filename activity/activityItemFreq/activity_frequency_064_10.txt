@@ -1,5 +1,6 @@
 try                      1         
 study                    4         
+30                       1         
 pushups                  1         
 shower                   2         
 lunch                    2         

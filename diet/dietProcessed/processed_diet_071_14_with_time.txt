@@ -1,0 +1,4 @@
+['840', 'muesli', 'yoghurt']
+['1325', 'pasta', 'zucchini', 'tomato', 'vegetable']
+['1925', 'bread', 'cheese']
+['2000', '1', 'wine', 'orange', 'chip']

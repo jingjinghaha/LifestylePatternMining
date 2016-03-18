@@ -1,0 +1,5 @@
+['220', 'banana']
+['515', 'tomato', 'soup', 'carrot']
+['1530', 'banana']
+['1745', 'vegetable', 'salad', 'aubergine']
+['2100', 'coconut', 'apple']

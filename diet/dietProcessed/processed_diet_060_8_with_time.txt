@@ -1,0 +1,3 @@
+['700', 'oatmeal']
+['1050', 'bread', '3', 'muesli', 'bread']
+['2100', 'pasta', 'broccoli']

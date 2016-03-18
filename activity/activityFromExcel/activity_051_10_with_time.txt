@@ -1,0 +1,8 @@
+830         cleaning room
+930         cycling 
+1100        work
+1715        cycling 
+1743        taking the train
+1810        taking the bus
+1930        watching tv
+2230        sleep

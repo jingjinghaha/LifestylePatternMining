@@ -1,0 +1,7 @@
+220         cycling
+245         sleep (not at home)
+930         going home (NS)
+1510        charging sensor
+1610        sleep
+1805        cycling
+1845        game/ watching movie

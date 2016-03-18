@@ -1,5 +1,5 @@
 ['breakfast']
-['cycle', 'minutes']
+['cycle', '20', 'minutes']
 ['work']
 ['run']
 ['relax']

@@ -1,0 +1,4 @@
+['835', 'cookie', 'meat', 'waffle', 'tea']
+['1200', 'doner', 'salmon', 'water']
+['1505', 'chocolate', 'waffle', 'tea']
+['1700', 'doner', 'salmon']

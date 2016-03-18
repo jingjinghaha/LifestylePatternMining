@@ -1,0 +1,6 @@
+950         shower
+1040        driving car to zoo
+1118        walking in zoo
+1415        driving car
+2100        charging sensor
+2230        going to bed

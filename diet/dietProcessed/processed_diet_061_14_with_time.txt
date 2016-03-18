@@ -1,0 +1,3 @@
+['830', '5', 'sandwich', '1', 'burrito', 'banana', 'apple', 'cookie']
+['1720', 'noodles', 'chicken', 'nut']
+['2030', '1', 'beer']

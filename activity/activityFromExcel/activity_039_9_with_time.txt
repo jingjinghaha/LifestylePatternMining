@@ -1,0 +1,8 @@
+2450        sandwich, cheese chicken
+200         sleep
+1330        tv
+1415        recharge
+1535        bike city
+1600        study
+1945        study
+2345        bike home

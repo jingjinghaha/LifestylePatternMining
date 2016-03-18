@@ -1,4 +1,4 @@
 ['bread']
 ['soup']
-['wine']
-['alcohol']
+['5', 'wine']
+['10', 'alcohol']

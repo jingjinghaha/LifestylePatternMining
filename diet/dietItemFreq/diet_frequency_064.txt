@@ -9,6 +9,9 @@ chicken                  5
 snack                    1         
 end                      1         
 meatballs                2         
+3                        1         
+735                      1         
+4                        2         
 chip                     4         
 pizza                    1         
 sandwich                 4         
@@ -16,6 +19,7 @@ mushroom                 1
 chocolate                2         
 salami                   3         
 flurry                   1         
+74                       1         
 cookie                   3         
 pasta                    7         
 broccoli                 3         
@@ -27,5 +31,6 @@ fries                    2
 candy                    2         
 lasagna                  3         
 shots                    1         
+721                      1         
 cake                     1         
 egg                      9         

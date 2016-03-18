@@ -8,6 +8,7 @@ car                      1
 work                     11        
 run                      1         
 drive                    1         
+20                       3         
 lunch                    1         
 charge                   2         
 train                    2         

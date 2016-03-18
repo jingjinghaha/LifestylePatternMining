@@ -1,0 +1,4 @@
+1013        2 sandwiches
+1102        1 orange
+1420        tosti, tomato
+1750        apple, banana

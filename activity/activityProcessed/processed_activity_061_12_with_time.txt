@@ -1,0 +1,8 @@
+['730', 'shower']
+['824', 'train']
+['900', 'traineeship']
+['1605', 'train']
+['1630', 'drive', 'car']
+['1710', 'drive', 'car']
+['1930', 'play', 'judo']
+['2045', 'watch', 'computer', 'tv']

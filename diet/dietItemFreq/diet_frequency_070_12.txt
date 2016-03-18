@@ -7,3 +7,5 @@ sugar                    1
 water                    1         
 soup                     1         
 bean                     2         
+2                        1         
+4                        1         

@@ -1,0 +1,4 @@
+['40', 'iceCream', 'tea']
+['955', 'sandwich']
+['1519', 'sandwich', 'cheese']
+['1847', 'fries', 'tomato']

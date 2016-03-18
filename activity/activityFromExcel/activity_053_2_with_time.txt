@@ -1,0 +1,6 @@
+1043        shower
+1100        cycling
+1310        shower
+1628        travelling with ov
+105         walking
+341         sleep

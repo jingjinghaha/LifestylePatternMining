@@ -1,0 +1,11 @@
+840         shower (charging sensor)
+910         getting dressed
+1050        household activities
+1125        driving car (forgot phone)
+1140        walking 
+1330        bringing child to bed
+2030        bringing child to bed
+2050        watching tv
+2150        household activities
+2340        going to bed (charging sensor)
+25          sleep

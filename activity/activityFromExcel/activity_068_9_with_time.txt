@@ -1,0 +1,11 @@
+850         getting up
+920         cycling
+935         study
+1345        cycling
+1400        meeting
+1525        cycling
+1540        group work at university
+1830        walking
+1835        talking while standing
+1900        shopping and cycling
+2243        sensor off (thereafter sleep)

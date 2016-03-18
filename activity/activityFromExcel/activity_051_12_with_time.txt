@@ -1,0 +1,11 @@
+730         cycling 
+745         driving car
+900         lesson
+1100        driving car
+1130        lesson
+1540        driving car
+1620        cycling 
+1630        study
+1830        study
+2000        watching tv
+2200        sleep

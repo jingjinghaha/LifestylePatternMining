@@ -1,0 +1,3 @@
+['710', 'muesli', 'yoghurt']
+['1850', 'soup', 'bread', '1', 'drink', 'wine']
+['2015', 'coffee']

@@ -1,0 +1,8 @@
+715         breakfast
+715         cycling for 20 minutes
+800         work
+1430        running
+1530        relaxen
+1830        cleaning
+2200        going out
+300         sleep

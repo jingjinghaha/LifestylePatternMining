@@ -1,0 +1,3 @@
+['615', 'yoghurt', 'fruit', 'muesli']
+['700', 'sandwich', 'tuna', 'soup', 'cake']
+['1730', 'soup', 'pizza']

@@ -1,0 +1,6 @@
+['708', 'oatmeal']
+['1000', 'oatmeal', 'grapes', 'chocolate']
+['1200', 'sandwich', 'orange', 'yoghurt']
+['1500', 'orange', 'cookie', 'oatmeal']
+['1811', 'rice', 'bean', 'lentils', 'curry', 'chocolate']
+['2110', 'nut', 'tangerines']

@@ -1,6 +1,6 @@
 ['watch', 'tv']
 ['wash', 'clothe']
-['pushups']
+['30', 'pushups']
 ['cycle']
 ['school']
 ['cycle']

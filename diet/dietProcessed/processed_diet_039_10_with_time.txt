@@ -1,0 +1,3 @@
+['100', 'pizza']
+['1300', 'egg', 'sausage', 'coffee', 'cookie']
+['1940', 'pasta', 'pasta']

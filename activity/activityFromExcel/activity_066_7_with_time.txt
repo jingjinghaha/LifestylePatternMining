@@ -1,0 +1,14 @@
+625         shower
+740         driving car
+755         driving car
+815         cycling
+950         driving car
+1110        driving car
+1325        cycling
+1355        cycling
+1745        driving car
+1825        driving car
+1945        driving car
+2000        meeting
+2305        going to bed (charging sensor)
+5           sleep

@@ -1,0 +1,9 @@
+30          sleep
+930         charing sensor
+1400        study
+1823        driving car
+1835        driving car
+1850        taking the train
+1935        taking the train
+2235        charing sensor
+2330        deuterium water

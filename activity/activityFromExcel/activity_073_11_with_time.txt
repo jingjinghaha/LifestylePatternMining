@@ -1,0 +1,12 @@
+822         walking with the dog
+830         breakfast
+850         driving car
+814         driving car
+1240        lunch
+1335        walking with the dog
+1717        walking with the dog
+1725        diner
+1835        fitness
+1925        walking with the dog
+2200        walking with the dog
+2243        sleep

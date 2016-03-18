@@ -1,0 +1,6 @@
+['30', 'sleep', 'shower']
+['1030', 'travel', 'shop']
+['1201', 'travel', 'ov']
+['1600', 'study']
+['2210', 'charge']
+['2259', 'sleep']

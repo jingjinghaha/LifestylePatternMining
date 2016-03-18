@@ -1,0 +1,5 @@
+['1244', 'clean']
+['1430', 'drive', 'car']
+['1450', 'eat', 'visit']
+['1935', 'travel', 'walk', 'bus', 'train', 'car']
+['2140', 'charge']

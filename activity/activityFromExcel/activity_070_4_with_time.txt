@@ -1,0 +1,6 @@
+805         cycling
+815         work
+1550        cycling
+1803        cycling
+2048        charging sensor
+2352        sleep

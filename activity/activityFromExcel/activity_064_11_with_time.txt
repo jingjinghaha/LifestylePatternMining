@@ -1,0 +1,15 @@
+600         watching tv
+630         washing clothes
+740         30 pushups
+845         cycling
+900         at school
+1030        cycling
+1100        coocking and lunch
+1130        study
+1300        sleep
+1400        watching tv
+1515        cycling
+1530        experiment sensor off
+1740        cycling
+1800        coocking
+2100        game/ watching movie

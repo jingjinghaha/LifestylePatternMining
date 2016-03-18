@@ -1,0 +1,6 @@
+['1040', 'apple']
+['1230', 'carrot', 'apple', 'egg']
+['1530', 'sandwich', 'apple', 'syrup']
+['1820', 'vegetable', 'pasta', 'apple', 'pie']
+['1905', 'wine']
+['2320', 'wine', 'chip']

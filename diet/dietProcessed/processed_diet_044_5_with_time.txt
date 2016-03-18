@@ -1,0 +1,6 @@
+['820', 'muesli', 'sugar']
+['920', 'lemonade']
+['1130', '2', 'buns', 'cheese', 'boil', 'egg']
+['1310', 'bun', 'humus', 'cola', 'avocado']
+['1920', 'cheese', '2', 'buns', '80', 'g', 'pasta', 'pumpkin', 'leek', 'courgette', 'vegetable', 'chicken']
+['1950', '2', 'mandarin', '1', 'wine']

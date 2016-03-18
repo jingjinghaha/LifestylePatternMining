@@ -1,0 +1,3 @@
+['745', '69', 'yoghurt', 'fruit', 'choco']
+['1314', 'pumpkin', 'soup', 'sandwich', 'meat']
+['1800', 'vegetable', 'soup', 'doner', 'chicken']

@@ -1,0 +1,9 @@
+215         sleep
+1220        clean
+1350        bike
+1410        study
+1740        study
+1920        walk
+1945        study
+2145        bike home
+2340        sleep

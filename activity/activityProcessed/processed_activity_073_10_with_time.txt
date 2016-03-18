@@ -1,0 +1,8 @@
+['1030', 'drive', 'car', 'walk']
+['1330', 'drive', 'car']
+['1650', 'walk']
+['1750', 'drive', 'car']
+['1804', 'drive', 'car']
+['1900', 'drive', 'car']
+['2348', 'walk']
+['2356', 'sleep']

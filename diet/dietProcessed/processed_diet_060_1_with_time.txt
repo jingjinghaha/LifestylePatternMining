@@ -1,0 +1,3 @@
+['1140', 'coffee', 'chocolate']
+['1824', 'vegetable', 'rice']
+['2235', 'fruit']

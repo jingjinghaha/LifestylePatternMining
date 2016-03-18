@@ -1,0 +1,9 @@
+830         getting up
+915         walking
+930         taking the train
+1100        vo2max test
+1230        taking the train
+1500        studying
+1800        coocking and diner
+2030        watching a movie
+2300        sleep

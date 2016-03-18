@@ -1,0 +1,12 @@
+820         shower
+910         driving car
+920         taking the train
+1000        studying
+1230        traineeship at ok
+1631        running for train
+1635        taking the train
+1705        driving car
+1915        playing soccer
+2115        shower (sticker los)
+2300        drinking 
+2330        going out

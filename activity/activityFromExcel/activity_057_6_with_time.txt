@@ -1,0 +1,7 @@
+709         sensor on
+811         walking, moving stuff
+857         work
+1143        driving car for shopping
+1228        home
+2015        sensor loose cable (from electrode)
+2235        sleep (sensor off)

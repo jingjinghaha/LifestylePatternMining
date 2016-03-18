@@ -1,0 +1,7 @@
+['910', 'pie']
+['1050', 'cycle']
+['1234', 'cook', 'clean']
+['1538', 'drive', 'car']
+['1737', 'pack', 'talk']
+['1810', 'inflate', 'ait', 'mattress']
+['40', 'sleep']

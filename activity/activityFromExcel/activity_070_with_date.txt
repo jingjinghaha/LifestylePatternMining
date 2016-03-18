@@ -1,0 +1,81 @@
+1.06.2015   cycling
+1.06.2015   work
+1.06.2015   cycling
+1.06.2015   cycling
+1.06.2015   cycling
+1.06.2015   charging sensor
+1.06.2015   driving car
+1.06.2015   sleep
+1.07.2015   cycling
+1.07.2015   swimming (sensor off)
+1.07.2015   sensor on
+1.07.2015   cycling
+1.07.2015   cycling
+1.07.2015   work
+1.07.2015   cycling and shopping
+1.07.2015   charging sensor
+1.07.2015   sleep
+1.08.2015   getting up and shower
+1.08.2015   driving car
+1.08.2015   work
+1.08.2015   walk
+1.08.2015   walk
+1.08.2015   charging sensor
+1.08.2015   sleep
+1.09.2015   cycling
+1.09.2015   work
+1.09.2015   cycling
+1.09.2015   cycling
+1.09.2015   charging sensor
+1.09.2015   sleep
+1.10.2015   shower and getting dressed
+1.10.2015   buying new car
+1.10.2015   visiting parents
+1.10.2015   interclassis cars Maastricht (walking)
+1.10.2015   charging sensor
+1.10.2015   shopping and coocking
+1.10.2015   sensor off due to irritations
+1.11.2015   driving car and visiting friends
+1.11.2015   sleep
+1.12.2015   driving car
+1.12.2015   work
+1.12.2015   walk
+1.12.2015   walk
+1.12.2015   shopping and coocking
+1.12.2015   cycling
+1.12.2015   lecture
+1.12.2015   cycling
+1.12.2015   sleep
+1.13.2015   charging sensor
+1.13.2015   cycling
+1.13.2015   work
+1.13.2015   cycling
+1.13.2015   coocking and shopping
+1.13.2015   diner
+1.13.2015   sleep
+1.14.2015   charging sensor
+1.14.2015   driving car
+1.14.2015   swimming (sensor off)
+1.14.2015   driving car
+1.14.2015   work
+1.14.2015   visiting friends
+1.14.2015   sleep
+1.15.2015   shower and getting dressed
+1.15.2015   work
+1.15.2015   driving car
+1.15.2015   sleep
+1.16.2015   shower and getting dressed
+1.16.2015   work
+1.16.2015   driving car
+1.16.2015   sleep
+1.17.2015   charging sensor
+1.17.2015   shopping
+1.17.2015   driving car
+1.17.2015   going out
+1.18.2015   sleep
+1.18.2015   driving car
+1.18.2015   food intake 
+1.18.2015   driving car
+1.18.2015   sleep
+1.19.2015   work
+1.19.2015   sleep

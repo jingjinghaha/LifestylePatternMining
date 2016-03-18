@@ -1,0 +1,11 @@
+725         walking with the dog
+735         breakfast
+750         cycling
+802         taking the train
+1205        lunch
+1525        driving car
+1644        driving car
+1900        fitness
+2010        walking with the dog
+2324        walking with the dog
+2330        sleep

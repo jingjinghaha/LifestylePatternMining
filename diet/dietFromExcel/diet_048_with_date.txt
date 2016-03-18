@@ -1,0 +1,26 @@
+10.13.2014  apple
+10.13.2014  kale+tuna
+10.13.2014  apricots
+10.14.2014  breakfast
+10.14.2014  coffee, banana, apple
+10.14.2014  apricots
+10.14.2014  pasta, fish
+10.15.2014  bf
+10.15.2014  pasta
+10.15.2014  apricots
+10.16.2014  bf
+10.16.2014  nuts
+10.16.2014  sandwich
+10.16.2014  apple, banana
+10.16.2014  diner
+10.17.2014  bf
+10.17.2014  coffee
+10.17.2014  chocolat
+10.17.2014  eggs
+10.18.2014  bf
+10.18.2014  chocolat, juice
+10.18.2014  lunch
+10.18.2014  eggs, tuna
+10.19.2014  bf, coffee
+10.19.2014  lunch
+10.19.2014  pizza, beer

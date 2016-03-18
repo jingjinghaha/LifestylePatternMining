@@ -1,0 +1,6 @@
+835         charging and skillslab
+1214        study
+1515        study
+1645        travelling with ov
+2040        watching movie
+2349        sleep (not at home, sensor off)

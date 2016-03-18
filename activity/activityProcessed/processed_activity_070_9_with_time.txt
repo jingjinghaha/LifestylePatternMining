@@ -1,0 +1,7 @@
+['655', 'charge']
+['655', 'drive', 'car']
+['715', 'swim']
+['820', 'drive', 'car']
+['900', 'work']
+['1730', 'visit', 'friends']
+['2215', 'sleep']

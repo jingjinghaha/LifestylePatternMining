@@ -1,0 +1,6 @@
+1310        two sandwiches
+1100        two eggs and two sandwiches
+1800        french fries and frikandel
+1000        two sandwiches and one banana
+1000        two sandwiches and one banana
+2100        yoghurt and apple

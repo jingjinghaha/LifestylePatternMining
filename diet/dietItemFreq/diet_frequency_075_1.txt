@@ -1,4 +1,5 @@
 fish                     1         
-drink                    1         
+6                        1         
 alcohol                  1         
+drink                    1         
 spinach                  1         

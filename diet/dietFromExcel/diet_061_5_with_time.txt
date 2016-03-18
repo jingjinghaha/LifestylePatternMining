@@ -1,0 +1,3 @@
+655         one banana, two sandwiches
+1240        four sandwiches and one apple
+1830        spaghetti, soup, salad

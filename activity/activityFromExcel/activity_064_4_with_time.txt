@@ -1,0 +1,10 @@
+750         breakfast
+845         cycling
+900         at school
+1115        cycling
+1230        shower and getting ready
+1300        shopping (by bus)
+1500        MRI research
+1700        taking the train
+2345        cycling
+2355        party

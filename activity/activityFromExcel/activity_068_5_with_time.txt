@@ -1,0 +1,6 @@
+800         getting up
+840         cycling
+900         study
+1000        cycling, shopping
+1600        cycling
+1925        walking

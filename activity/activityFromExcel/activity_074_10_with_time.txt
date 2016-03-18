@@ -1,0 +1,10 @@
+800         training via internet
+1030        cycling and fitness
+1230        coocking
+1308        dishes and dessert
+1342        shower
+1419        cycling and shopping
+1836        coocking
+1918        diner and watching movie
+2100        at home
+2243        sleep

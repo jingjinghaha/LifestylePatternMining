@@ -3,4 +3,6 @@ meat                     1
 doner                    1         
 fries                    1         
 beer                     1         
+4                        1         
+6                        1         
 apple                    1         

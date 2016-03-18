@@ -1,5 +1,4 @@
 ['sleep', 'friends', 'place']
-['charge']
 ['clean']
 ['walk']
 ['train']

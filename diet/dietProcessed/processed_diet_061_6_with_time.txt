@@ -1,0 +1,7 @@
+['720', 'sandwich', 'apple']
+['1010', 'sandwich']
+['1245', 'apple', 'sandwich']
+['1611', 'cookie', 'orange']
+['1805', 'chicken', 'potato', 'vegetable']
+['2130', 'beer']
+['2215', 'chip']

@@ -1,0 +1,7 @@
+830         study at home
+1635        shopping
+1635        coocking and diner
+1920        walking
+1920        study
+2245        walking
+2245        sensor off

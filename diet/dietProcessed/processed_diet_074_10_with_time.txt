@@ -1,0 +1,4 @@
+['735', 'oatmeal']
+['945', 'oatmeal', 'banana']
+['1250', 'rice', 'vegetable', 'tofu', 'yoghurt']
+['1918', 'cake']

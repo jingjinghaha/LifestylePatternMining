@@ -1,0 +1,14 @@
+1000        charging sensor
+1130        relaxen
+1250        walking
+1315        dentist
+1330        walking
+1350        coffee with friends
+1520        at university
+1615        fitness
+1730        walking
+1830        shopping
+1850        making soup
+2030        study
+150         walking
+300         sleep

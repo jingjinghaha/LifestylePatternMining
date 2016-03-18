@@ -1,0 +1,9 @@
+830         cycling
+1000        cycling
+1030        cycling
+1115        work 
+1430        cycling
+1445        work 
+1730        cycling
+2130        cycling
+2200        sleep (sensor off)

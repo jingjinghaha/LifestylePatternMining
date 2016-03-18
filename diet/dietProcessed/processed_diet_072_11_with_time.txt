@@ -1,0 +1,6 @@
+['819', '2', 'sandwich']
+['1005', '14', 'bread']
+['1155', 'quiche']
+['1505', 'cookie']
+['1755', 'pizza', 'salad', 'rice', 'cookie']
+['2115', 'liqueur']

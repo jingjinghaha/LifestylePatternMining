@@ -1,0 +1,8 @@
+1555        cycling
+1605        coocking
+1655        reading
+2023        cycling to swimmingpool
+2045        swimming (sensor off)
+2210        cycling
+2225        cinema
+140         cycling

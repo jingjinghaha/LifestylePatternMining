@@ -1,0 +1,5 @@
+1630        Study
+1745        cycling
+1820        50 sit ups
+1830        shower
+2345        sleep

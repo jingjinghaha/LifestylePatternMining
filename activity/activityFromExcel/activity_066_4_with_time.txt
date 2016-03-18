@@ -1,0 +1,10 @@
+915         shower
+1045        walking 
+1100        taking the bus
+1110        shopping
+1445        computer
+1530        cycling
+1545        shopping
+1715        cycling
+1945        bringing child to bed
+2030        watching tv

@@ -1,5 +1,5 @@
-['sandwich']
+['3', 'sandwich']
 ['cookie']
-['sandwich']
+['25', 'sandwich']
 ['kaki', 'fruit']
 ['salad', 'pasta', 'rice', 'cookie']

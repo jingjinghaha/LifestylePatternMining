@@ -1,0 +1,13 @@
+730         shower
+755         breakfast
+810         driving car
+824         taking the train
+900         traineeship
+1506        taking the train
+1533        driving car
+1545        watching computer/ tv
+1730        coocking and diner
+1810        watching computer/ tv
+1925        playing soccer
+2130        canteen with friends
+2400        going out

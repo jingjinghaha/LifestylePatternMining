@@ -4,6 +4,7 @@ big                      1
 chip                     1         
 bean                     1         
 beer                     1         
+2                        2         
 cookie                   1         
 orange                   1         
 make                     1         

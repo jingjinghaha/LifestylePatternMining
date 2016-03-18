@@ -4,5 +4,6 @@ chip                     1
 candy                    1         
 kaassoufle               1         
 beer                     1         
+4                        1         
 pasta                    1         
 banana                   1         

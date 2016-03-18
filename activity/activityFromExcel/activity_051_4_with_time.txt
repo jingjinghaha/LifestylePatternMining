@@ -1,0 +1,8 @@
+1015        shower
+1100        study
+1615        cycling 
+1630        driving car
+1642        taking the train
+1736        driving car
+2000        study
+2300        sleep

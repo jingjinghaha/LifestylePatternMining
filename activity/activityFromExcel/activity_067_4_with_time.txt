@@ -1,0 +1,7 @@
+900         shower
+930         walking with the dog
+1030        christmas market
+1400        running
+1500        walking with the dog
+1800        watching tv
+2300        sleep

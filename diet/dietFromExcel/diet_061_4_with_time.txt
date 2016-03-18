@@ -1,0 +1,5 @@
+400         peer
+1045        74,5kg
+1115        apple, peer, two sandwiches
+1545        coockie
+1745        patatoe, fish, vegetables

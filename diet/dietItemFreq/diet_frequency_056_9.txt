@@ -1,5 +1,6 @@
-salad                    1         
 sandwich                 1         
-cookie                   1         
 meat                     1         
+salad                    1         
+3                        1         
+cookie                   1         
 tangerines               1         

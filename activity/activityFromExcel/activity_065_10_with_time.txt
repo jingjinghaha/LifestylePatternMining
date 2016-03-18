@@ -1,0 +1,20 @@
+130         sleep
+830         getting up
+855         cycling
+900         breakfast
+940         cycling
+945         study with friends
+1440        cycling
+1515        sleep
+1645        cleaning
+1716        walking to supermarkt, shopping
+1735        coocking
+1750        pasta, zucchini, mushrooms
+1815        dishes and cleaning
+1830        study
+1933        cycling to gym
+200         workout, HIT
+2055        cycling
+2115        shower and dressing up
+2200        reading
+2330        sleep

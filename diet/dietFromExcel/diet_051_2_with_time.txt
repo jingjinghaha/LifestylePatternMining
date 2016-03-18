@@ -1,0 +1,4 @@
+940         apple, banana, dried fruit
+1245        cup a soup
+1745        coockies 
+1840        macaroni

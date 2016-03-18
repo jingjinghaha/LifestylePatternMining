@@ -1,0 +1,8 @@
+['815', 'yoghurt', 'muesli']
+['1040', 'sandwich']
+['1300', 'sandwich', 'nut', 'butter']
+['1318', 'banana']
+['1440', 'sausage', 'roll']
+['2000', '2030']
+['2300', 'alcohol', '30', 'drink']
+['450', 'pizza']

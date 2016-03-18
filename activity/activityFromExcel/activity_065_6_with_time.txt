@@ -1,0 +1,17 @@
+100         cycling
+125         sleep
+930         shower
+100         cleaning, laundry
+1100        cycling
+1128        taking the train
+1322        walking
+1335        lunch and tea
+1430        shopping and running to the train
+1540        taking the train
+1625        going out 
+1806        taking the train
+1907        walking to the bus
+1917        taking the bus
+1933        driving car
+2000        watchting tv
+2345        sleep

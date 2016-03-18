@@ -1,0 +1,8 @@
+['900', 'shower']
+['934', 'dress', 'breakfast']
+['1000', 'study']
+['1230', 'laundry', 'pack']
+['1305', 'banana']
+['1315', 'cycle', 'university']
+['1615', 'cycle', 'hockey', 'shower']
+['1900', 'cycle', 'game']

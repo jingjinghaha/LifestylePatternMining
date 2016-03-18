@@ -1,0 +1,5 @@
+1100        shower
+1100        charging sensor
+1350        cycling
+1445        playing hockey (sensor off)
+1445        alcohol

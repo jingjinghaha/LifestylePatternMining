@@ -1,0 +1,5 @@
+1244        cleaning 
+1430        driving car
+1450        eat, visiting
+1935        traveling (walking, bus, train, car)
+2140        charging sensor

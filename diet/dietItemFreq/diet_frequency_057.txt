@@ -1,11 +1,13 @@
 cheese                   7         
 apple                    1         
+rice                     6         
 croissants               1         
 chicken                  3         
 goulash                  1         
 milk                     6         
 choco                    1         
 sugar                    1         
+1                        1         
 macaroni                 1         
 sate                     1         
 vegetable                3         
@@ -19,7 +21,7 @@ water                    1
 fruit                    1         
 cookie                   7         
 muesli                   3         
-rice                     6         
+12                       1         
 meat                     6         
 salad                    1         
 potato                   3         

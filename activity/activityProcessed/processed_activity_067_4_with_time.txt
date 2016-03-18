@@ -1,0 +1,7 @@
+['900', 'shower']
+['930', 'walk']
+['1030', 'christmas', 'market']
+['1400', 'run']
+['1500', 'walk']
+['1800', 'watch', 'tv']
+['2300', 'sleep']

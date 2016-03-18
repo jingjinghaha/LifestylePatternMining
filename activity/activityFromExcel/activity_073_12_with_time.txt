@@ -1,0 +1,12 @@
+700         walking with the dog
+715         breakfast
+750         cycling
+804         taking the train
+830         work
+1205        lunch
+1702        taking the train
+1730        cycling
+1800        diner
+1930        running 
+2240        walking with the dog
+2250        sleep

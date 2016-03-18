@@ -1,0 +1,4 @@
+['1100', 'traineeship', 'ok']
+['1736', 'train']
+['1900', 'watch', 'computer', 'tv']
+['2315', 'charge']

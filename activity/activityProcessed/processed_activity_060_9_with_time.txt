@@ -1,0 +1,7 @@
+['900', 'charge']
+['935', 'cycle']
+['945', 'lecture']
+['1345', 'lecture']
+['1600', 'run', 'phone']
+['1730', 'cook']
+['2300', 'sleep']

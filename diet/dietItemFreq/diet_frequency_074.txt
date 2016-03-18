@@ -15,6 +15,8 @@ lentils                  1
 olives                   1         
 snack                    1         
 stamp                    1         
+2                        1         
+5                        1         
 orange                   10        
 yoghurt                  18        
 fish                     2         
@@ -32,6 +34,7 @@ coquille                 1
 eat                      1         
 bread                    3         
 butter                   4         
+zucchini                 2         
 rice                     4         
 salad                    3         
 potato                   6         
@@ -41,6 +44,6 @@ soup                     5
 lasagna                  1         
 tangerines               1         
 cake                     6         
-zucchini                 2         
-curry                    1         
 wine                     2         
+curry                    1         
+506                      1         

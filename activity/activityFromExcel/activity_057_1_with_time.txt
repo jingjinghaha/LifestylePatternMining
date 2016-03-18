@@ -1,0 +1,5 @@
+1405        driving car
+1419        work
+1600        walking
+1645        work
+2200        sleep (sensor off)

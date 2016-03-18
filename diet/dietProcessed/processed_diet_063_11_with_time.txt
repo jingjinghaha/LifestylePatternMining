@@ -1,0 +1,7 @@
+['1047', 'yoghurt', 'raisin']
+['1144', 'cookie']
+['1313', 'apple']
+['1515', 'noodles', 'choco']
+['1700', '1', 'wine']
+['1815', '2', 'cocktails', 'bread', 'coffee']
+['2200', 'potato', 'fish', 'asparagus']

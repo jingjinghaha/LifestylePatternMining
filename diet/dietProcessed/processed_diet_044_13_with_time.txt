@@ -1,0 +1,8 @@
+['700', 'muesli', 'sugar']
+['700', '4', 'bread', 'butter']
+['700', 'apple', 'banana']
+['700', 'coffee', 'milk', '1', 'sugar']
+['700', '1', 'crisp']
+['1840', 'instant', 'meal', 'chicken', '2', 'juice']
+['1840', '2', 'fruit', 'bar']
+['1840', 'yoghurt', 'strawberry']

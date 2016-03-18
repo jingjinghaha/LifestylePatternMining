@@ -1,0 +1,8 @@
+['2450', 'sandwich', 'cheese', 'chicken']
+['200', 'sleep']
+['1330', 'tv']
+['1415', 'charge']
+['1535', 'bike']
+['1600', 'study']
+['1945', 'study']
+['2345', 'bike']

@@ -1,0 +1,8 @@
+['1400', 'walk']
+['1420', 'university', 'phone']
+['1555', 'walk']
+['1910', 'drive', 'car']
+['2016', 'play', 'tennis']
+['2150', 'drive', 'car']
+['2220', 'shower']
+['2300', 'study']

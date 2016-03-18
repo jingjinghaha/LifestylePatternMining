@@ -1,0 +1,4 @@
+859         muesli, apple, yoghurt
+1255        bread, cheese, apple, tangerine
+1720        risotto, salmon
+2235        banana

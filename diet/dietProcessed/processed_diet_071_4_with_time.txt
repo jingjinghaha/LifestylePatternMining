@@ -1,0 +1,3 @@
+['857', 'muesli', 'apple', 'yoghurt']
+['930', 'sandwich', 'cheese', 'yoghurt', 'banana', 'orange', 'cookie']
+['1635', 'egg', 'potato']

@@ -1,0 +1,7 @@
+700         cycling
+733         taking the train
+825         taking the bus
+900         lesson
+1100        study
+1330        lesson
+1814        taking the train

@@ -6,4 +6,3 @@ driving car
 shopping for bicycle
 work
 shower (sensor off)
-sleep

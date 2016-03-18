@@ -1,0 +1,5 @@
+['1020', 'sandwich', 'egg']
+['1250', 'chocolate', 'milk']
+['1640', 'smoothie']
+['1930', '3', 'wine', 'wine']
+['2220', 'rice']

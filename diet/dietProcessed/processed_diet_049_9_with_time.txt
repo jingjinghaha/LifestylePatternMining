@@ -1,0 +1,2 @@
+['1000', 'sandwich', 'egg', 'sandwich', 'butter', 'juice', 'orange', 'coffee', 'yoghurt']
+['1900', 'shrimp', 'cocktail', 'spare', 'rib', 'coffee', 'wine']

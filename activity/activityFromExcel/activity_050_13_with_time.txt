@@ -1,0 +1,5 @@
+920         walking with the dog
+1325        driving car
+1340        driving car
+1710        walking with the dog
+2400        sleep

@@ -1,0 +1,4 @@
+1200        charging sensor
+1315        shopping
+1430        driving car
+2300        going out

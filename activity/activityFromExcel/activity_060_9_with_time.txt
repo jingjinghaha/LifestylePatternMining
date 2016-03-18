@@ -1,0 +1,7 @@
+900         charging sensor
+935         cycling
+945         lecture
+1345        lecture
+1600        10km running (phone not with me)
+1730        coocking
+2300        sleep 

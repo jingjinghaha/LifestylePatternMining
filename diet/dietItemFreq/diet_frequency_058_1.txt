@@ -1,4 +1,5 @@
 beer                     1         
+6                        1         
 lasagna                  1         
 banana                   1         
 apple                    1         

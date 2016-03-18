@@ -1,0 +1,3 @@
+['1845', 'walk']
+['1930', 'around', 'house', 'clean', 'dish', 'sit']
+['2330', 'sleep']

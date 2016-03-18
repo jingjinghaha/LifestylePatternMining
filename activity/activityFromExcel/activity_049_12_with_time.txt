@@ -1,0 +1,14 @@
+745         walking
+803         taking the train
+850         taking the bus
+900         school
+1250        taking the bus
+1314        taking the train
+1400        walking
+1415        shopping
+1445        walking
+1515        shower
+1600        studying
+1800        coocking and diner
+1930        studying
+2200        sleep

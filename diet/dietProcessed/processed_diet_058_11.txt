@@ -1,3 +1,3 @@
 ['sandwich', 'cheese', 'sandwich', 'chocolate', 'sugar']
-['sandwich', 'kiwi', 'salad']
+['sandwich', '2', 'kiwi', 'salad']
 ['salmon', 'gratin']

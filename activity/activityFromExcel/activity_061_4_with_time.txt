@@ -1,0 +1,5 @@
+215         cycling
+224         going out
+1045        getting up
+1352        charging sensor
+2200        sleep

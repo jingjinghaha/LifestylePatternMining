@@ -1,6 +1,7 @@
-sandwich                 2         
-egg                      1         
+12                       1         
+goulash                  1         
 fruit                    1         
+sandwich                 2         
 chicken                  1         
 rice                     1         
-goulash                  1         
+egg                      1         

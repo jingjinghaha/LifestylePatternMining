@@ -1,0 +1,4 @@
+['1340', 'carrot', 'sugar']
+['1700', 'cookie']
+['1900', 'candy']
+['1030', '7', 'beer', 'sandwich']

@@ -1,0 +1,8 @@
+920         craftwork
+1315        craftwork
+1545        shopping (cycling)
+1645        coocking
+1810        driving car
+1830        taking the train
+2030        walking
+2300        sleep

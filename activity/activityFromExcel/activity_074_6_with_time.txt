@@ -1,0 +1,20 @@
+430         nightmare 
+500         toilet
+726         packing stuf
+810         driving car
+815         walking
+830         cycling
+837         meeting
+848         cycling
+900         work
+1215        shopping
+1225        cleaning 
+1250        lunch
+1310        at home
+1400        driving car
+1600        cleaning and eating
+1830        relaxen
+1900        dishes and cleaning
+2000        cycling and fitness
+2230        shower and eating
+2319        sleep 

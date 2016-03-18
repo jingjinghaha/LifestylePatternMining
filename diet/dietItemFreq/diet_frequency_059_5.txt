@@ -2,5 +2,6 @@ sandwich                 2
 cereals                  1         
 meat                     2         
 potato                   1         
+6                        1         
 vegetable                1         
 milk                     1         

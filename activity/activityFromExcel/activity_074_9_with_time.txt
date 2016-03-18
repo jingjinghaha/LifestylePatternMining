@@ -1,0 +1,15 @@
+0           going to toilet
+842         breakfast
+901         computer
+1126        running
+1156        lunch and coocking
+1300        computer
+1334        dishes
+1349        computer
+1501        running
+1606        cycling and shopping
+1717        coocking
+1805        diner and dishes
+1900        watching tv
+2115        shower
+2153        sleep

@@ -1,0 +1,9 @@
+40          cycling
+55          sleep
+950         getting up and charging sensor
+1050        cycling
+1100        at university
+1430        cycling
+1450        cleaning/ household activity
+1645        cycling
+2030        walking

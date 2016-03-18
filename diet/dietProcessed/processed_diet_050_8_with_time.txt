@@ -1,0 +1,3 @@
+['700', 'tea', 'cookie']
+['1200', 'sandwich', 'water', 'drink']
+['1815', 'sandwich', 'chicken', 'drink']

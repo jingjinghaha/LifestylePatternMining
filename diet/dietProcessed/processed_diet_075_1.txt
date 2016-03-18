@@ -1,2 +1,2 @@
 ['fish', 'spinach']
-['drink', 'alcohol']
+['6', 'drink', 'alcohol']

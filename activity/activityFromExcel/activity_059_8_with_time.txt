@@ -1,0 +1,8 @@
+730         getting up
+805         driving car 
+1330        maximum CPET 
+1420        shower
+1805        driving car
+2000        driving car and shopping
+2100        driving car
+2330        sleep (not at home)

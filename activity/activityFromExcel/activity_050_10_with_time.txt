@@ -1,0 +1,4 @@
+935         walking with the dog
+1530        driving car
+1700        computer
+130         sleep

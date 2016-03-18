@@ -1,0 +1,7 @@
+10          sleep
+915         cycling
+925         lecture, practicum
+1220        cycling
+1235        study, coocking, cleaning
+1657        sensor off
+2000        cycling

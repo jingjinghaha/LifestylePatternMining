@@ -1,0 +1,9 @@
+650         running
+700         study
+800         walking with the dog
+1000        jacuzzi
+1100        study
+1430        shopping
+1530        birtday party
+1800        party
+2300        sleep

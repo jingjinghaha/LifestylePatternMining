@@ -1,0 +1,4 @@
+1017        muesli, yoghurt, blueberries
+1255        curry, salmon, rissoto
+1900        banana
+2200        apple

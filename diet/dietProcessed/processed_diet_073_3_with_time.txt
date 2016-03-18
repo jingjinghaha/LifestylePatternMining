@@ -1,0 +1,4 @@
+['924', '2', 'piece', 'bread']
+['1240', '2', 'sandwich']
+['1724', '1', 'white', 'wine']
+['2100', 'lychees', 'nut']

@@ -1,0 +1,92 @@
+12.04.2014  sleep
+12.05.2014  snooze
+12.05.2014  getting up
+12.05.2014  cycling to work
+12.05.2014  charging
+12.05.2014  cycling
+12.05.2014  going out for diner
+12.05.2014  shower
+12.06.2014  getting up
+12.06.2014  taking the car
+12.06.2014  charging sensor
+12.06.2014  shopping (taking the car to shopping centre)
+12.06.2014  walking
+12.06.2014  walking
+12.06.2014  sleep (not at home)
+12.06.2014  charging sensor
+12.07.2014  getting up 
+12.07.2014  taking the car
+12.07.2014  taking the train
+12.07.2014  taking the bus
+12.07.2014  walking
+12.07.2014  charging sensor
+12.07.2014  chillen at home
+12.07.2014  restart GPS logger (phone was empty)
+12.07.2014  taking the car for shopping
+12.07.2014  push ups
+12.07.2014  shower
+12.07.2014  going to bed
+12.07.2014  sleep
+12.08.2014  getting up 
+12.08.2014  cycling
+12.08.2014  taking the train
+12.08.2014  taking the bus
+12.08.2014  charging sensor
+12.08.2014  walking
+12.08.2014  taking the bus
+12.08.2014  walking
+12.08.2014  walking and running to bus
+12.08.2014  taking the bus
+12.08.2014  taking the train
+12.10.2014  cycling
+12.10.2014  sleep
+12.10.2014  getting up 
+12.10.2014  cycling to work
+12.10.2014  charging sensor
+12.10.2014  cycling
+12.10.2014  cycling
+12.10.2014  mountain bike (60km)
+12.10.2014  taking the car
+12.10.2014  taking the car
+12.10.2014  sleep
+12.11.2014  getting up
+12.11.2014  cycling to work
+12.11.2014  charging sensor
+12.11.2014  cycling and shopping
+12.11.2014  driving car
+12.11.2014  charging sensor
+12.12.2014  getting up
+12.12.2014  driving car 
+12.12.2014  maximum CPET 
+12.12.2014  shower
+12.12.2014  driving car
+12.12.2014  driving car and shopping
+12.12.2014  driving car
+12.12.2014  sleep (not at home)
+12.13.2014  getting up
+12.13.2014  charging sensor
+12.13.2014  driving car
+12.13.2014  driving car
+12.13.2014  driving car
+12.13.2014  walking
+12.13.2014  walking
+12.13.2014  sleep (not at home)
+12.14.2014  getting up
+12.14.2014  taking the car
+12.14.2014  charging sensor
+12.14.2014  driving car
+12.14.2014  taking the car
+12.14.2014  driving car
+12.14.2014  shower
+12.14.2014  sleep
+12.15.2014  getting up
+12.15.2014  cycling to work
+12.15.2014  charging sensor
+12.15.2014  cycling
+12.15.2014  spinning lesson (sport on bicycle)
+12.15.2014  shower
+12.15.2014  push ups
+12.15.2014  deuterium water procedure
+12.16.2014  getting up 
+12.16.2014  cycling to work
+12.16.2014  end of free living 

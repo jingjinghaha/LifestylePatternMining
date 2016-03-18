@@ -13,7 +13,7 @@
 ['rice', 'goat', 'cheese', 'mushroom', 'tomato', 'mozzarella', 'iceCream']
 ['sandwich', 'sugar', 'coffee']
 ['sandwich', 'apple', 'syrup']
-['beer']
+['8', 'beer']
 ['taco', 'vegetable', 'meat']
 ['sandwich', 'cheese', 'sugar']
 ['salad', 'sandwich', 'iceCream']

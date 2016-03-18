@@ -1,0 +1,3 @@
+845         yoghurt, fruit, muslie
+1030        sandwich ham, fruit 
+1800        salad tuna and salmon 

@@ -1,0 +1,3 @@
+['600', 'sandwich']
+['1310', 'sandwich', 'salad']
+['1700', 'beef', 'potato', 'cauliflower']

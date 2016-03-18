@@ -1,0 +1,7 @@
+['810', 'cycle', 'work']
+['1000', 'charge']
+['1720', 'cycle']
+['1735', 'spin', 'lesson', 'sport', 'bike']
+['1840', 'shower']
+['2300', 'push', 'up']
+['2306', 'deuterium', 'water', 'procedure']

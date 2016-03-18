@@ -1,0 +1,13 @@
+655         cycling
+733         taking the train
+821         walking
+900         study
+1100        study
+1540        walking
+1614        taking the train
+1700        cycling
+1730        shopping
+1800        cycling
+1840        watching tv
+2200        computer 
+2300        sleep

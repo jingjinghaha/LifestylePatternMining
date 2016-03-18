@@ -1,0 +1,14 @@
+700         shower
+720         food
+745         driving car
+754         taking the train
+1506        taking the train 
+1533        driving car
+1545        shower
+1630        shopping
+1715        driving car
+1900        driving car
+1915        shopping
+2105        driving car
+2130        watching computer / tv
+2310        charging sensor

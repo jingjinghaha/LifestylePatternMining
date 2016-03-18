@@ -1,0 +1,7 @@
+['930', 'shower', 'dress']
+['1000', 'buy', 'new', 'car']
+['1100', 'visit', 'parent']
+['1300', 'interclassis', 'car', 'maastricht', 'walk']
+['1630', 'charge']
+['1730', 'shop', 'cook']
+['2030', 'due', 'irritations']

@@ -1,0 +1,5 @@
+1030        cycling
+1130        work 
+1300        cycling
+1430        cycling
+30          sleep

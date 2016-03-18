@@ -1,0 +1,9 @@
+835         driving car
+857         work
+1348        walk
+1528        walk
+1725        shopping and coocking
+1935        cycling
+2005        lecture
+2155        cycling
+2230        sleep

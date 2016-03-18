@@ -1,0 +1,5 @@
+1005        study
+1125        work
+1223        charging sensor
+1907        shower 
+2030        driving car

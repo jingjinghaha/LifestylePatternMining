@@ -2,5 +2,5 @@
 ['pear']
 ['muesli', 'sugar']
 ['carrot']
-['beer', 'meat']
-['wine', 'bread', 'aioli']
+['4', 'beer', '3', 'meat']
+['1', 'wine', 'bread', 'aioli']

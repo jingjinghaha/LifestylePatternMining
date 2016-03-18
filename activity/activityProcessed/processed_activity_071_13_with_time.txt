@@ -1,0 +1,5 @@
+['1058', 'sauna']
+['1210', 'walk']
+['1230', 'drive', 'car']
+['1330', 'relax', 'watch', 'movie', 'pack']
+['2055', 'drive', 'car']

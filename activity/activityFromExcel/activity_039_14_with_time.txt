@@ -1,0 +1,10 @@
+1045        recharge
+1230        bike uni
+1300        exam
+1530        bike city
+1600        bike
+1830        pc
+2110        bike uni
+2120        gym
+2300        bike
+106         bike

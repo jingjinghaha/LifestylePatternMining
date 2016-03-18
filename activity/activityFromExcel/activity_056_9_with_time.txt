@@ -1,0 +1,8 @@
+707          driving car
+746         driving car
+820         sleep
+935         charging sensor
+730         babysitting
+1425        driving car
+1500        work
+2330        sleep (at work)

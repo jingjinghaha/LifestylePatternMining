@@ -1,0 +1,6 @@
+730         shower
+815         cycling and shopping
+1225        cycling and waiting
+1750        cycling and waiting
+2030        charging sensor
+2200        going to bed

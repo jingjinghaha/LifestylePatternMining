@@ -1,0 +1,11 @@
+1255        Walking/ cycling
+1458        cycling
+1530        walking with rabbit
+1645        cycling
+1705        coocking
+1735        cycling
+1745        coocking
+1840        diner and dishes
+1916        reading
+2050        watching tv and charging sensor
+2230        sleep

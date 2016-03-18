@@ -1,0 +1,9 @@
+712         sensor on
+730         work
+1042        driving car
+1049        sitting
+1123        driving car
+1158        work
+1530        walking
+1611        work
+2212        sensor off (sleep)

@@ -1,0 +1,3 @@
+700         4 sandwiches
+1312        soup, smoothie, healthy sandwich
+2000        french fries

@@ -1,0 +1,9 @@
+1030        cycling
+1100        work 
+1230        cycling
+1300        cycling
+1330        taking the train
+1400        taking the bus and walking
+1415        sauna (sensor off)
+2250        taking the train
+2305        cycling

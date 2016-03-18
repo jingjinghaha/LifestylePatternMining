@@ -1,0 +1,6 @@
+1200        taking the train
+1315        Walking
+1345        cycling
+1530        study
+1830        watching tv
+2200        Sleep

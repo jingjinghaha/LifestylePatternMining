@@ -1,0 +1,7 @@
+655         charging sensor
+655         driving car
+715         swimming (sensor off)
+820         driving car
+900         work
+1730        visiting friends
+2215        sleep

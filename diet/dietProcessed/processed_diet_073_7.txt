@@ -1,4 +1,4 @@
-['orange']
+['2', 'orange']
 ['apple', 'pie']
 ['pasta', 'chicken']
-['beer']
+['3', 'beer']

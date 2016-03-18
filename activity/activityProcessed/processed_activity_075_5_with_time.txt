@@ -1,0 +1,5 @@
+['840', 'cycle', 'university']
+['900', 'university']
+['1510', 'cycle']
+['1540', 'shop', 'thereafter', 'charge']
+['2000', 'clean']

@@ -1,0 +1,5 @@
+1250        study
+2015        cycling
+2040        going out (forgot the phone)
+2340        cycling
+15          sleep

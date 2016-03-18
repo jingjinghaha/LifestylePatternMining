@@ -1,0 +1,11 @@
+29          sleep
+746         sensor off
+805         study
+1045        cycling
+1055        lecture, presentation at university
+1745        cycling
+1800        driving car
+2148        driving car
+2015        walking (forgot phone)
+2223        sensor off
+2300        sleep

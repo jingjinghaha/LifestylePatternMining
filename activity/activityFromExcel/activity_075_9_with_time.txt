@@ -1,0 +1,4 @@
+1128        charging sensor
+1300        cleaning 
+1420        traveling (walking, bus, train, car)
+1815        eat, playing games etc

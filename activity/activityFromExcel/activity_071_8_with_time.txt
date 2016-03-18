@@ -1,0 +1,12 @@
+728         sensor off
+815         study
+945         cycling
+1000        study
+1314        cycling
+1422        cleaning and study
+1915        cycling to swimmingpool
+1935        meeting
+2045        swimming (sensor off)
+2205        cycling 
+2232        sensor off
+2347        sleep

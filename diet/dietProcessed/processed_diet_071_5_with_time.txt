@@ -1,0 +1,3 @@
+['1100', 'muesli', 'apple', 'yoghurt']
+['1300', 'egg', 'potato']
+['1710', 'cake', 'orange']

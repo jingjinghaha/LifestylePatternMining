@@ -3,4 +3,4 @@
 ['noodles']
 ['cookie']
 ['fries']
-['beer']
+['6', 'beer']

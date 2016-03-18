@@ -1,0 +1,4 @@
+930         shower
+1250        gardening
+2100        charging sensor
+2250        going to bed

@@ -1,0 +1,8 @@
+600         getting up
+610         shower
+645         walking with the dog
+745         going to the university by bus
+1830        taking the bus
+1945        walking with the dog
+2100        chillen
+2200        sleep

@@ -1,0 +1,9 @@
+915         driving car 
+930         practicum at university
+1210        driving car
+1500        study, packing stuff
+1618        sensor off
+1744        running
+1903        sensor off
+1940        cycling
+2000        going out

@@ -1,0 +1,7 @@
+['830', 'cycle']
+['900', 'exam']
+['1015', 'cycle']
+['1100', 'standard', 'protocol']
+['1300', 'cycle']
+['1440', 'bus']
+['2300', 'sleep']

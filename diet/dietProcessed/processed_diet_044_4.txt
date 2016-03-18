@@ -1,4 +1,4 @@
 ['coffee', 'milk']
 ['cheese', 'muesli']
-['juice', 'soup', 'bread', 'cotton', 'cheese', 'tomato']
-['pizza', 'chocolate', 'mandarins', 'wine']
+['2', 'juice', '1', 'soup', '2', 'bread', 'cotton', 'cheese', 'tomato']
+['pizza', 'chocolate', '3', 'mandarins', '1', 'wine']

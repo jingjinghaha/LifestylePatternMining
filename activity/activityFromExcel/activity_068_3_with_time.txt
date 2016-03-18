@@ -1,0 +1,13 @@
+750         getting up
+840         cycling
+900         taking the train
+1130        waiting trainstation (delay)
+1230        running for train
+1235        taking the train
+1330        walking
+1400        ICC
+1620        running for train
+1635        den haag
+1840        taking the train
+2135        cycling
+2200        sensor off

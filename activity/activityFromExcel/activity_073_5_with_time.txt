@@ -1,0 +1,12 @@
+721         walking with the dog
+755         cycling
+804         taking the train
+828         walking
+830         work
+1230        lunch
+1655        walking
+1702        taking the train
+1730        cycling
+1927        walking with the dog
+2209        walking with the dog (forgot phone)
+2218        sleep

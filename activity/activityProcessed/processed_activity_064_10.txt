@@ -1,7 +1,7 @@
 ['shower']
 ['try', 'sleep']
 ['sleep']
-['pushups']
+['30', 'pushups']
 ['study']
 ['cook', 'lunch']
 ['study']

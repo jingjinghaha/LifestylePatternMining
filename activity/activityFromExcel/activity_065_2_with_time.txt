@@ -1,0 +1,9 @@
+730         getting up and breakfast
+800         cycling
+830         study
+1730        cycling
+1845        cycling
+1900        lecture at uni
+2120        cycling
+2140        study
+2300        sleep

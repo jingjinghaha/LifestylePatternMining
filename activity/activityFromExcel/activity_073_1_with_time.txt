@@ -1,0 +1,8 @@
+1200        work
+1704        taking the train
+1730        cycling
+2015        walking (charging sensor)
+1655        walk
+2045        watching tv
+2210        walking with the dog
+2220        sleep

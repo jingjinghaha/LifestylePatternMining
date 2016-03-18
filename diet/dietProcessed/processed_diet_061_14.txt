@@ -1,3 +1,3 @@
-['sandwich', 'burrito', 'banana', 'apple', 'cookie']
+['5', 'sandwich', '1', 'burrito', 'banana', 'apple', 'cookie']
 ['noodles', 'chicken', 'nut']
-['beer']
+['1', 'beer']

@@ -1,0 +1,4 @@
+930         shower
+1300        gardening
+1450        Walking /cycling
+2100        charging sensor

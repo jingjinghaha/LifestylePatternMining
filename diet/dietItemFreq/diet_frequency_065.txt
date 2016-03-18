@@ -10,6 +10,7 @@ fondue                   1
 sugar                    9         
 beer                     1         
 vegetable                1         
+8                        1         
 rice                     1         
 syrup                    3         
 goat                     2         

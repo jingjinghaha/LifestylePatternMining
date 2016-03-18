@@ -1,0 +1,6 @@
+30          sleep, shower (sensor off)
+1030        traveling and shopping
+1201        travelling with ov
+1600        study
+2210        charging sensor
+2259        sleep

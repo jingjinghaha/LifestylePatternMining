@@ -1,0 +1,4 @@
+['515', 'egg', 'salami']
+['1100', 'fries', 'chicken']
+['1930', 'chicken']
+['2100', 'chip', 'cookie', 'pie']

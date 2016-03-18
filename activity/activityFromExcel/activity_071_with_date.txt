@@ -1,0 +1,124 @@
+1.06.2015   cycling
+1.06.2015   coocking
+1.06.2015   reading
+1.06.2015   cycling to swimmingpool
+1.06.2015   swimming (sensor off)
+1.06.2015   cycling
+1.06.2015   cinema
+1.06.2015   cycling
+1.07.2015   sleep
+1.07.2015   study and cleaning
+1.07.2015   sensor off
+1.07.2015   driving car
+1.07.2015   horse riding
+1.07.2015   driving car
+1.07.2015   shower
+1.07.2015   sleep
+1.08.2015   study
+1.08.2015   cycling to university
+1.08.2015   lecture
+1.08.2015   cycling
+1.08.2015   donate blood
+1.08.2015   cycling
+1.08.2015   cycling
+1.08.2015   cycling
+1.08.2015   sensor off
+1.08.2015   reading, study
+1.08.2015   sleep
+1.09.2015   cycling to university
+1.09.2015   lecture, practicum
+1.09.2015   cycling
+1.09.2015   sensor off
+1.09.2015   cycling 
+1.09.2015   spinning (elektrodes went loose)
+1.09.2015   shower
+1.09.2015   cycling
+1.09.2015   cycling
+1.09.2015   cycling
+1.09.2015   forgot phone
+1.10.2015   sleep
+1.10.2015   study, coocking, meeting
+1.10.2015   sensor off
+1.10.2015   sleep
+1.11.2015   study, coocking, cleaning
+1.11.2015   running
+1.11.2015   sensor off
+1.11.2015   study and backing
+1.11.2015   muffins 
+1.12.2015   sleep
+1.12.2015   sensor off
+1.12.2015   study
+1.12.2015   cycling
+1.12.2015   lecture, presentation at university
+1.12.2015   cycling
+1.12.2015   driving car
+1.12.2015   driving car
+1.12.2015   walking (forgot phone)
+1.12.2015   sensor off
+1.12.2015   sleep
+1.13.2015   sensor off
+1.13.2015   study
+1.13.2015   cycling
+1.13.2015   study
+1.13.2015   cycling
+1.13.2015   cleaning and study
+1.13.2015   cycling to swimmingpool
+1.13.2015   meeting
+1.13.2015   swimming (sensor off)
+1.13.2015   cycling 
+1.13.2015   sensor off
+1.13.2015   sleep
+1.14.2015   study
+1.14.2015   shopping and cycling
+1.14.2015   study, coocking, cleaning
+1.14.2015   bringing away garbage bags 
+1.14.2015   sensor off
+1.14.2015   study
+1.14.2015   driving car 
+1.14.2015   horse riding
+1.14.2015   driving car
+1.14.2015   sensor off
+1.14.2015   study
+1.14.2015   sleep
+1.15.2015   study, packing stuff
+1.15.2015   cycling
+1.15.2015   lecture
+1.15.2015   cycling
+1.15.2015   sensor off
+1.15.2015   study, packing stuff
+1.15.2015   sleep
+1.16.2015   driving car 
+1.16.2015   practicum at university
+1.16.2015   driving car
+1.16.2015   study, packing stuff
+1.16.2015   sensor off
+1.16.2015   running
+1.16.2015   sensor off
+1.16.2015   cycling
+1.16.2015   going out
+1.17.2015   cycling
+1.17.2015   sleep (at parents place)
+1.17.2015   driving car 
+1.17.2015   mountainbike
+1.17.2015   shower 
+1.17.2015   fitness
+1.17.2015   sauna (sensor off)
+1.17.2015   driving car 
+1.17.2015   driving car 
+1.17.2015   sleep (not at home, at hotel papendael)
+1.18.2015   sauna (sensor off)
+1.18.2015   walking
+1.18.2015   driving car 
+1.18.2015   relaxing, watching movie, packing stuff
+1.18.2015   driving car 
+1.18.2015   sensor off
+1.19.2015   sleep
+1.19.2015   cycling
+1.19.2015   lecture, practicum
+1.19.2015   cycling
+1.19.2015   study, coocking, cleaning
+1.19.2015   sensor off
+1.19.2015   cycling
+1.20.2015   cycling
+1.20.2015   sleep
+1.20.2015   cycling

@@ -1,2 +1,2 @@
 ['banana', 'apple', 'muesli']
-['beer']
+['7', 'beer']

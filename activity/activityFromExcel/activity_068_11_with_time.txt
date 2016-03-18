@@ -1,0 +1,11 @@
+950         going away and breakfast
+1131        taking the train
+1142        walking
+1342        taking the train
+1350        walking
+1440        cycling
+1500        study
+1650        cycling
+2035        cycling
+2103        cycling
+2130        christmas market

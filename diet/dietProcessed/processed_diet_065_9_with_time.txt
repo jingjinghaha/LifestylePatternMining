@@ -1,0 +1,6 @@
+['725', 'sandwich', 'sugar']
+['1200', 'sandwich', 'tuna']
+['1000', 'cookie']
+['1350', 'cookie']
+['1700', 'pumpkin', 'soup', 'cookie']
+['2345', 'drink', 'wine']

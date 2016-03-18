@@ -1,0 +1,7 @@
+930         charging sensor
+1130        relaxen in bed
+1300        at home
+1515        going to the city
+1730        coocking
+1830        diner and watching tv
+2400        sleep (not at home)

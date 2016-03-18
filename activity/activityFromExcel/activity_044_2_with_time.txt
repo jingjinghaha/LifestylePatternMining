@@ -1,0 +1,12 @@
+700         shower
+720         dishes, dress
+745         walk work
+750         work
+1720        walk home
+1735        run
+1830        rest
+1840        shower
+1850        cook
+2205        stretch
+2230        bed
+2250        sleep

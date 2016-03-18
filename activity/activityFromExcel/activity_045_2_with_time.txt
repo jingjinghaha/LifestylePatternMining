@@ -1,0 +1,5 @@
+840         cycling
+900         work
+1500        cycling
+2230        going out
+100         irriation sensor, sensor off

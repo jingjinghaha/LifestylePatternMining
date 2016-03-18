@@ -1,0 +1,5 @@
+['834', '506']
+['850', 'oatmeal']
+['1030', 'orange']
+['1250', 'vegetable', 'potato', 'cookie', 'butter']
+['1812', '5', 'wine', 'snack', 'coquille', 'duck', 'pie']

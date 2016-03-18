@@ -1,0 +1,5 @@
+['1100', 'shower']
+['1100', 'charge']
+['1350', 'cycle']
+['1445', 'play', 'hockey']
+['1445', 'alcohol']

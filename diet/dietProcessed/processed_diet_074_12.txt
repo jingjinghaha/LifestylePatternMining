@@ -3,4 +3,4 @@
 ['cabbage', 'rice', 'bread', 'yoghurt']
 ['bread', 'grapes', 'kiwi']
 ['zucchini', 'soup']
-['wine', 'lasagna', 'cake']
+['2', 'wine', 'lasagna', 'cake']

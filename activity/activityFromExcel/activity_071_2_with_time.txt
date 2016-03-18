@@ -1,0 +1,8 @@
+210         sleep
+1025        study and cleaning
+1551        sensor off
+1922        driving car
+1930        horse riding
+2120        driving car
+2143        shower
+2323        sleep

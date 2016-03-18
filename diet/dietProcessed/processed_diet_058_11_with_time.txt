@@ -1,0 +1,3 @@
+['915', 'sandwich', 'cheese', 'sandwich', 'chocolate', 'sugar']
+['1215', 'sandwich', '2', 'kiwi', 'salad']
+['1900', 'salmon', 'gratin']

@@ -1,0 +1,11 @@
+730         getting up and breakfast
+811         cycling
+830         sport
+900         cycling (for shopping)
+1030        shower
+1040        household activities
+1225        cycling
+1507        cycling
+1900        cleaning and reading
+2122        charging sensor
+2213        sleep

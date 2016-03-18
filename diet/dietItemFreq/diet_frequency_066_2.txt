@@ -1,3 +1,4 @@
+cookie                   1         
 coffee                   2         
 sandwich                 1         
 spinach                  1         
@@ -5,7 +6,9 @@ tea                      1
 nut                      1         
 drink                    1         
 rice                     1         
-cookie                   1         
+2                        1         
+5                        1         
+4                        1         
 muesli                   1         
 yoghurt                  1         
 curry                    1         

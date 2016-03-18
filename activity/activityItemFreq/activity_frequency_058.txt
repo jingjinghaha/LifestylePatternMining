@@ -10,6 +10,8 @@ breakfast                1
 hospital                 1         
 visit                    2         
 due                      1         
+1                        1         
+2                        1         
 party                    1         
 kiwi                     1         
 sandwich                 1         

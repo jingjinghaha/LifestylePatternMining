@@ -1,0 +1,9 @@
+815         charging sensor
+850         cycling
+900         meeting
+1100        cycling
+1300        cycling and shopping
+1445        walking
+1435        taking the train
+1730        watching movie
+2115        sleep (not at home)

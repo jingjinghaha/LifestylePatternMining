@@ -1,0 +1,8 @@
+1000        getting up
+1120        taking the car
+1415        charging sensor
+1800        driving car
+1920        taking the car
+2230        driving car
+2300        shower
+2359        sleep

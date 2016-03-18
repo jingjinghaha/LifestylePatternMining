@@ -1,0 +1,10 @@
+15          charging phone
+115         sleep
+830         homework
+1115        shower
+130         at school
+330         experiment sensor off
+530         shopping (by bus)
+730         coocking and diner
+710         charging sensor
+2045        chatten

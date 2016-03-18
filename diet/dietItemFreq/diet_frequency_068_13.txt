@@ -1,6 +1,7 @@
 tea                      1         
 water                    1         
 iceCream                 1         
+2                        1         
 orange                   2         
 yoghurt                  1         
 pizza                    1         

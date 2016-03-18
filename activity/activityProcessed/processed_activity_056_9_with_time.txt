@@ -1,0 +1,8 @@
+['707', 'drive', 'car']
+['746', 'drive', 'car']
+['820', 'sleep']
+['935', 'charge']
+['730', 'babysitting']
+['1425', 'drive', 'car']
+['1500', 'work']
+['2330', 'sleep', 'work']

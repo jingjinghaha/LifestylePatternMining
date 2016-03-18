@@ -1,0 +1,8 @@
+['740', 'shower']
+['11', 'walk', 'train', 'cycle']
+['1457', 'cycle']
+['1745', 'cycle']
+['1800', 'watch', 'judo', 'exam']
+['1900', 'cycle']
+['2107', 'charge']
+['2210', 'bed']

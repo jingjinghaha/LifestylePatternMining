@@ -1,0 +1,6 @@
+['700', 'muesli', 'yoghurt']
+['830', '2', 'coffee']
+['1230', 'bread', 'sandwich', 'milk']
+['1735', '1', 'juice', '3', 'cola', 'cookie']
+['1945', 'snack']
+['2035', 'tea', '3', 'cookie']

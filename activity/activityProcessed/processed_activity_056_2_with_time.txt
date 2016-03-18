@@ -1,0 +1,6 @@
+['915', 'household', 'activity']
+['1140', 'charge']
+['1230', 'shower']
+['1405', 'drive', 'car']
+['1430', 'work']
+['2300', 'sleep', 'work']

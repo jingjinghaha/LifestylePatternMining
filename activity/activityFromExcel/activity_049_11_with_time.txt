@@ -1,0 +1,9 @@
+1005        driving car
+1035        shower
+1050        walking
+1100        working
+1750        driving car
+1830        driving car
+1835        going out for diner
+2030        driving car
+2115        sleep

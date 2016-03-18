@@ -1,0 +1,121 @@
+10.23.2014  travelling by train
+10.23.2014  shopping
+10.23.2014  car driving
+10.23.2014  walking
+10.23.2014  car driving
+10.23.2014  shopping
+10.23.2014  car driving
+10.23.2014  walking
+10.23.2014  taxi
+10.23.2014  taxi
+10.23.2014  going out
+10.23.2014  taxi
+10.24.2014  walking
+10.24.2014  car driving
+10.24.2014  diner
+10.25.2014  walking
+10.25.2014  computer time
+10.25.2014  diner
+10.25.2014  walking
+10.26.2014  walking
+10.26.2014  breakfast
+10.26.2014  snack
+10.26.2014  car driving 
+10.26.2014  visiting grandmother
+10.26.2014  car driving
+10.26.2014  diner
+10.27.2014  walking
+10.27.2014  driving car
+10.27.2014  walking
+10.27.2014  taking the train
+10.27.2014  taking the train
+10.27.2014  driving car
+10.27.2014  walking with the dog
+10.27.2014  washing the car
+10.27.2014  computer
+10.27.2014  walking with the dog
+10.27.2014  cleaning the car
+10.27.2014  watching tv
+10.27.2014  studying
+10.27.2014  sleep
+10.28.2014  walking with the dog
+10.28.2014  charging sensor
+10.28.2014  studying
+10.28.2014  walking with the dog (forgot the phone)
+10.28.2014  computer
+10.28.2014  studying
+10.28.2014  sleep
+10.29.2014  walking with the dog (forgot the phone)
+10.29.2014  working on school
+10.29.2014  driving car
+10.29.2014  workout XCO
+10.29.2014  workout total abs
+10.29.2014  driving car
+10.29.2014  sleep (charging sensor)
+10.30.2014  driving car
+10.30.2014  walking
+10.30.2014  taking the train
+10.30.2014  taking the bus
+10.30.2014  course at school: medical taping
+10.30.2014  taking the bus
+10.30.2014  taking the train
+10.30.2014  walking
+10.30.2014  watching tv
+10.30.2014  sleep
+10.31.2014  driving car
+10.31.2014  walking
+10.31.2014  taking the train
+10.31.2014  taking the bus
+10.31.2014  course at school: medical taping
+10.31.2014  taking the bus
+10.31.2014  taking the train
+10.31.2014  walking
+10.31.2014  driving car
+10.31.2014  walking with the dog
+10.31.2014  walking with the dog
+10.31.2014  sleep
+11.01.2014  walking with the dog
+11.01.2014  driving car
+11.01.2014  computer
+11.01.2014  sleep
+11.02.2014  walking with the dog
+11.02.2014  charging sensor
+11.02.2014  driving car
+11.02.2014  visiting
+11.02.2014  driving car
+11.02.2014  sleep
+11.03.2014  walking with the dog
+11.03.2014  driving car
+11.03.2014  walking
+11.03.2014  taking the train
+11.03.2014  taking the bus
+11.03.2014  walking
+11.03.2014  school
+11.03.2014  walking
+11.03.2014  taking the bus
+11.03.2014  taking the train
+11.03.2014  walking
+11.03.2014  driving car
+11.03.2014  walking with the dog
+11.03.2014  workout XCO (forgot the phone)
+11.03.2014  driving car
+11.03.2014  studying
+11.03.2014  sleep
+11.04.2014  walking with the dog
+11.04.2014  driving car
+11.04.2014  driving car
+11.04.2014  walking with the dog
+11.04.2014  sleep
+11.05.2014  walking with the dog (forgot the phone)
+11.05.2014  driving car
+11.05.2014  walking
+11.05.2014  taking the train
+11.05.2014  taking the bus
+11.05.2014  walking
+11.05.2014  school
+11.05.2014  walking
+11.05.2014  taking the bus
+11.05.2014  taking the train
+11.05.2014  walking
+11.05.2014  driving car
+11.05.2014  sleep

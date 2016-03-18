@@ -1,3 +1,4 @@
+cocktails                1         
 coffee                   1         
 noodles                  1         
 apple                    1         
@@ -5,7 +6,8 @@ potato                   1
 asparagus                1         
 fish                     1         
 raisin                   1         
-cocktails                1         
+1                        1         
+2                        1         
 cookie                   1         
 wine                     1         
 bread                    1         

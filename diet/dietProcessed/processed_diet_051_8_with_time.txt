@@ -1,0 +1,3 @@
+['1118', 'piece', 'ginger', 'bread']
+['1330', 'noodles']
+['1830', 'pasta', 'spinach', 'meat']

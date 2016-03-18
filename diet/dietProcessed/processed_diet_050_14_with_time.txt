@@ -1,0 +1,3 @@
+['915', 'tea', 'doner', 'salmon']
+['1905', 'rice', 'chicken', 'sauce', 'energy', 'drink']
+['200', 'apple', 'cake']

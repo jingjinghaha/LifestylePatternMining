@@ -1,0 +1,7 @@
+915         chocolademousse
+1045        sandwich with jam
+1350        patatoe, meat
+1700        sandwich with jam
+1915        chocolade
+2100        pasta with meat
+2345        custard

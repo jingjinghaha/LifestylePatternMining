@@ -1,0 +1,5 @@
+['1400', 'shower', 'dress']
+['1520', 'walk']
+['1726', 'eat', 'play', 'game', 'etc']
+['2104', 'relax']
+['2131', 'play', 'game']

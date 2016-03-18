@@ -1,0 +1,4 @@
+['745', 'choco', 'milk']
+['1245', 'soup']
+['1445', 'sandwich']
+['1900', 'soup', 'salmon', 'potato', 'sugar', 'snap']

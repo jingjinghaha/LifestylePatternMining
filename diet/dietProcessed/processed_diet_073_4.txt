@@ -1,3 +1,3 @@
 ['piece', 'bread', 'bread']
-['hamburger']
-['beer']
+['3', 'hamburger']
+['3', 'beer']

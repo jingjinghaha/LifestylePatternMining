@@ -1,0 +1,3 @@
+900         getting up
+1000        cycling and work
+100         sleep

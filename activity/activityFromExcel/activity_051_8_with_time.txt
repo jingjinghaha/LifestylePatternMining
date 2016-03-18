@@ -1,0 +1,9 @@
+700         cycling
+733         taking the train
+1116        taking the bus
+1128        taking the train
+11          city
+1245        cycling 
+1330        study
+1900        watching tv
+2230        sleep

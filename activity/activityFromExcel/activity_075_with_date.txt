@@ -1,0 +1,87 @@
+1.08.2015   cycling and charging sensor
+1.08.2015   study and doing dishes
+1.08.2015   exam (sensor off)
+1.08.2015   watching tv
+1.08.2015   coocking and diner
+1.08.2015   cycling and going out
+1.09.2015   cleaning, doing dishes
+1.09.2015   traveling (walking, bus, train, car)
+1.09.2015   going out by car
+1.10.2015   shopping by car
+1.10.2015   watching tv
+1.10.2015   coocking and diner
+1.10.2015   watching tv
+1.11.2015   painting
+1.11.2015   charging sensor
+1.11.2015   traveling (walking, bus, train, car)
+1.12.2015   cycling to university
+1.12.2015   at university 
+1.12.2015   cycling
+1.12.2015   shopping (thereafter charging sensor)
+1.12.2015   cleaning 
+1.13.2015   shower
+1.13.2015   getting dressed and breakfast
+1.13.2015   study
+1.13.2015   doing laundry, packing stuff
+1.13.2015   banana
+1.13.2015   cycling and being at university
+1.13.2015   cycling, hockey, shower 
+1.13.2015   cycling and game
+1.14.2015   study
+1.14.2015   at university (by bike)
+1.14.2015   phonecall, internet
+1.14.2015   pilates (by bike)
+1.14.2015   shopping and diner
+1.14.2015   charging sensor
+1.14.2015   watching tv
+1.15.2015   shower and getting dressed
+1.15.2015   study
+1.15.2015   cycling to university
+1.15.2015   study
+1.15.2015   cycling to university
+1.15.2015   at university 
+1.15.2015   cycling
+1.15.2015   study
+1.15.2015   cycling
+1.15.2015   diner
+1.15.2015   going out
+1.16.2015   charging sensor
+1.16.2015   cleaning 
+1.16.2015   traveling (walking, bus, train, car)
+1.16.2015   eat, playing games etc
+1.17.2015   shower and getting dressed
+1.17.2015   walking
+1.17.2015   eat, playing games etc
+1.17.2015   relax
+1.17.2015   playing game
+1.18.2015   cleaning 
+1.18.2015   driving car
+1.18.2015   eat, visiting
+1.18.2015   traveling (walking, bus, train, car)
+1.18.2015   charging sensor
+1.19.2015   getting up
+1.19.2015   study
+1.19.2015   cleaning 
+1.19.2015   study
+1.19.2015   cycling, workout, cycling
+1.19.2015   shower and charging sensor
+1.20.2015   study
+1.20.2015   at university (by bike)
+1.20.2015   shopping
+1.20.2015   cleaning 
+1.20.2015   watching tv
+1.20.2015   charging sensor
+1.20.2015   watching tv
+1.21.2015   study
+1.21.2015   coocking and lunch
+1.21.2015   study
+1.21.2015   charging sensor
+1.21.2015   cycling
+1.21.2015   pilates (by bike)
+1.21.2015   coocking and diner
+1.21.2015   cycling
+1.21.2015   tennis
+1.21.2015   cycling
+1.21.2015   going to bed
+1.22.2015   packing stuff
+1.22.2015   shower

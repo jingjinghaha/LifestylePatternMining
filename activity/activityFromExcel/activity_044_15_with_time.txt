@@ -1,0 +1,10 @@
+650         shower, dress
+730         walk
+735         work
+1620        walk
+1645        bike
+1655        sit
+1730        bike
+1800        run
+1900        cook, pc
+2300        awake

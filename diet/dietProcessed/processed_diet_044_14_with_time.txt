@@ -1,0 +1,5 @@
+['730', '3', 'bread', 'butter', 'jam', '2', 'cheese', 'juice']
+['730', 'baguette', 'meat']
+['730', 'strawberry', 'cheese']
+['730', 'chocolate', 'milk', 'chocolate', 'muffin']
+['1750', 'olives', 'beer', 'lasagna']

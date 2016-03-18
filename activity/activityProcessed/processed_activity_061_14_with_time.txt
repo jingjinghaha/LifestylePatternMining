@@ -1,0 +1,5 @@
+['830', 'watch', 'computer']
+['1750', 'watch', 'computer']
+['1930', 'play', 'soccer']
+['2030', 'canteen', 'friends']
+['2130', 'watch', 'computer', 'tv']

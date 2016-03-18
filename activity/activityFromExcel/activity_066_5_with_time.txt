@@ -1,0 +1,9 @@
+100         sleep
+830         shower
+1230        walking (forgot phone)
+1725        driving car
+1725        shopping
+1805        driving car
+1940        bringing child to bed
+2310        reading in bed (charging sensor)
+2340        sleep

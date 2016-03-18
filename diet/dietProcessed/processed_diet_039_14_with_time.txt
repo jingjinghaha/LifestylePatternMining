@@ -1,0 +1,4 @@
+['1045', 'egg', 'coffee', 'cookie']
+['1745', 'potato', 'salmon']
+['2320', 'banana']
+['2400', 'sandwich', 'cheese', 'sausage']

@@ -1,0 +1,5 @@
+['620', 'banana']
+['920', 'muesli', 'sugar']
+['920', '2', 'buns', 'cheese', 'egg']
+['1505', 'pudding']
+['1740', 'pasta', 'port', 'salut', '15', 'bread', 'cheese', 'wine']

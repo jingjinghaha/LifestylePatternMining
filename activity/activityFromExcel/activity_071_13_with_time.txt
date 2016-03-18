@@ -1,0 +1,6 @@
+1058        sauna (sensor off)
+1210        walking
+1230        driving car 
+1330        relaxing, watching movie, packing stuff
+2055        driving car 
+2059        sensor off

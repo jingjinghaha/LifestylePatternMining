@@ -1,0 +1,6 @@
+['400', 'charge']
+['1015', 'watch', 'computer', 'tv']
+['1630', 'shower']
+['1800', 'drive', 'car']
+['2000', 'concert', 'sit']
+['2300', 'drive', 'car']

@@ -1,0 +1,12 @@
+730         driving lessons
+1030        cycling 
+1121        taking the bus
+1143        taking the train
+1230        taking the bus
+1330        lesson
+1530        driving car
+1606        cycling 
+1615        fix bicycle
+1800        study
+2200        shower
+2230        sleep 

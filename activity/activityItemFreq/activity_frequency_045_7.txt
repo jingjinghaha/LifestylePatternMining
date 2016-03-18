@@ -1,3 +1,4 @@
-work                     1         
 minutes                  1         
+work                     1         
+20                       1         
 cycle                    1         

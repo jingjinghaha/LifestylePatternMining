@@ -1,0 +1,15 @@
+700         charging sensor
+835         walking
+900         vo2max test
+1015        cycling
+1030        shopping and walking to train
+1050        taking the train
+1330        walking
+1345        lecture
+1540        walking
+1600        cleaning
+1650        cycling
+1705        climbing
+2030        cycling
+2045        coocking
+30          sleep

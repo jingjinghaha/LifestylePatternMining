@@ -1,0 +1,10 @@
+1000        cycling
+1020        cycling
+1040        cycling
+1300        cycling
+1315        work 
+1600        cycling
+1615        baby sitting
+1815        cycling
+1830        solarium (sensor off)
+1915        cycling

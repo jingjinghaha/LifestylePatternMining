@@ -1,0 +1,5 @@
+910         charging sensor
+1030        cycling
+1045        lecture
+1900        with friends
+2330        sleep

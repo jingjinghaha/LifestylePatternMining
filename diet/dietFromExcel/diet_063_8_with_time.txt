@@ -1,0 +1,4 @@
+1250        sandwich with pate
+1730        pie
+1800        1/2 sandwich
+1900        pasta

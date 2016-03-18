@@ -1,0 +1,6 @@
+['1005', 'drive', 'car']
+['1050', 'study']
+['1215', 'babysitting']
+['1615', 'test', 'drive', 'car']
+['2126', 'charge']
+['2126', 'sleep']

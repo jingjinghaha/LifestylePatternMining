@@ -1,0 +1,8 @@
+745         getting up
+810         taking the car
+1355        charging sensor
+1430        shopping (taking the car to shopping centre)
+2015        walking
+2200        walking
+2355        sleep (not at home)
+2355        charging sensor

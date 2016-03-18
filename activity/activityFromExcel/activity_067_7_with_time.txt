@@ -1,0 +1,11 @@
+530         getting up
+550         running
+610         shower
+640         walking with the dog
+700         study
+745         going to the university by bus
+845         work (behind computer)
+1730        taking the bus
+1900        walking with the dog
+2030        watching tv
+2130        sleep

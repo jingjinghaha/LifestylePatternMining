@@ -1,0 +1,14 @@
+710         getting up
+830         cycling
+900         exam at school
+1115        cycling 
+1130        shopping
+1130        cycling
+1135        study
+1310        cycling
+1325        at home
+1345        cycling
+1925        cycling
+1930        relaxen
+2237        cycling
+2320        sensor off

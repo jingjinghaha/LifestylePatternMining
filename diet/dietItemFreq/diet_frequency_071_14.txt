@@ -2,6 +2,7 @@ tomato                   1
 cheese                   1         
 orange                   1         
 chip                     1         
+1                        1         
 vegetable                1         
 wine                     1         
 pasta                    1         

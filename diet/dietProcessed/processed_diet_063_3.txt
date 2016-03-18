@@ -3,4 +3,4 @@
 ['fries']
 ['chocolate']
 ['raisin']
-['alcohol']
+['6', 'alcohol']

@@ -1,0 +1,11 @@
+900         cycling 
+933         taking the train
+1025        taking the bus
+1100        study
+1310        walking
+1344        taking the train
+1500        driving lessons
+1614        cycling 
+1700        fix bicycle
+2130        study
+2300        sleep

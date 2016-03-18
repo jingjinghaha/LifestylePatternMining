@@ -1,0 +1,3 @@
+['815', 'yoghurt', 'fruit', 'muesli', 'juice', 'orange']
+['1315', 'sandwich', 'chicken', 'coffee']
+['1800', 'sauerkraut', 'bacon']

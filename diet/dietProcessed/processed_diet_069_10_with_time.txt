@@ -1,0 +1,4 @@
+['1200', 'yoghurt', 'muesli']
+['1400', '2', 'sandwich']
+['1600', 'salad', 'pasta']
+['1930', 'carrot', 'beef', 'vegetable', 'meat', 'ball']

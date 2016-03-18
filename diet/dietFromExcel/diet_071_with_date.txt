@@ -1,0 +1,48 @@
+1.06.2015   pasta, pesto, avocado
+1.06.2015   tomato, nuts
+1.06.2015   banana
+1.07.2015   muesli, apple, yoghurt
+1.07.2015   patatoe, salad, parsnip
+1.07.2015   sandwich cheese, banana
+1.08.2015   muesli, apple, yoghurt
+1.08.2015   bread, banana
+1.08.2015   pasta, salmon, peanutpesto
+1.09.2015   muesli, apple, yoghurt
+1.09.2015   sandwich cheese, yoghurt, banana, tangerine, coockies
+1.09.2015   red cole, egg, patatoe
+1.10.2015   muesli, apple, yoghurt
+1.10.2015   red cole, egg, patatoe
+1.10.2015   pancake, tangerine
+1.11.2015   muesli, pineapple, apple
+1.11.2015   patatoe, parsnip, salad, egg
+1.12.2015   muesli, yoghurt, pineapple
+1.12.2015   sandwich cheese, tangerine
+1.12.2015   enchiladas, salad
+1.13.2015   muesli, yoghurt, pineapple
+1.13.2015   bread
+1.13.2015   spaghetti, vegetables, pesto
+1.13.2015   bread, cheese, apple
+1.14.2015   muesli, yoghurt, blueberries
+1.14.2015   curry, salmon, rissoto
+1.14.2015   banana
+1.14.2015   apple
+1.15.2015   muesli, apple, yoghurt
+1.15.2015   bread, cheese, apple, tangerine
+1.15.2015   risotto, salmon
+1.15.2015   banana
+1.16.2015   muesli, apple, yoghurt
+1.16.2015   bread, cheese, apple, tangerine
+1.16.2015   m&m, bread, ham
+1.16.2015   pizza
+1.16.2015   3 wine, candy
+1.17.2015   sandwich ham
+1.17.2015   sandwich cheese, 2 muesli bars
+1.17.2015   pasta alla vongde, bread
+1.18.2015   sandwich ham, yoghurt, pineapple, egg, jus
+1.18.2015   m&m
+1.18.2015   pie
+1.18.2015   risotto, salad
+1.19.2015   muesli, yoghurt
+1.19.2015   pasta, zucchini, tomato, onion
+1.19.2015   bread, cheese
+1.19.2015   1 wine, tangerine, chips

@@ -1,0 +1,12 @@
+1200        walking for shopping
+1245        charging sensor
+1420        shopping
+1530        coffee (walking)
+1630        getting dressed
+1730        walking
+1740        taking the train
+1755        walking
+1805        going out for diner
+2030        walking
+2045        speedboat 
+2130        gala party

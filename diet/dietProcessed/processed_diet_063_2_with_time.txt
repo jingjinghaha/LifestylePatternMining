@@ -1,0 +1,5 @@
+['915', 'sugar']
+['1155', 'chocolate', 'tea']
+['1332', 'cookie', 'apple', 'chocolate']
+['1707', 'cappuccino', 'chip']
+['1840', 'potato', 'meat']

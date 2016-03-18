@@ -1,0 +1,7 @@
+['145', '1', 'beer']
+['215', 'durum', 'doner']
+['1030', 'bread', 'fruit', 'carrot', 'chocolate', 'egg', 'drinkbf']
+['1330', 'baguette', 'cheese']
+['1630', 'chocolate', 'cookies']
+['1815', 'beef', 'tomato']
+['1815', 'mango', '2', 'lemonade']

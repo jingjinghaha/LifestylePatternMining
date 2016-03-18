@@ -1,0 +1,3 @@
+['900', 'raisin', 'bread']
+['1300', 'apple']
+['1730', 'vegetable', 'chicken', 'chicken']

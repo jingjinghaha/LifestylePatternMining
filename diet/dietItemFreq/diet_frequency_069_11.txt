@@ -1,3 +1,4 @@
 rice                     1         
 breakfast                1         
+2                        1         
 sandwich                 1         

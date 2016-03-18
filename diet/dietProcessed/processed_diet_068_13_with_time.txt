@@ -1,0 +1,5 @@
+['1220', 'yoghurt']
+['1440', 'water', 'iceCream']
+['1735', '2', 'orange']
+['1920', 'pizza']
+['2000', 'tea', 'orange']

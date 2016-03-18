@@ -1,0 +1,7 @@
+1200        charging sensor
+1230        watching computer/tv
+1700        shower
+1915        cycling
+1930        meeting
+2245        cycling
+2251        going out

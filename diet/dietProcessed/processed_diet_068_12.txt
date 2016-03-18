@@ -1,5 +1,5 @@
 ['sandwich', 'egg']
 ['chocolate', 'milk']
 ['smoothie']
-['wine', 'wine']
+['3', 'wine', 'wine']
 ['rice']

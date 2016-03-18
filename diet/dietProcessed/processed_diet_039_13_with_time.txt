@@ -1,0 +1,5 @@
+['100', 'pasta', 'pasta']
+['1120', 'yoghurt', 'kellogs', 'banana', 'berry']
+['1700', 'sandwich', 'cheese', 'chicken', 'salami']
+['2210', 'pasta', 'chicken']
+['2340', '675']

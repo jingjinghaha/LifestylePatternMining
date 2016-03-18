@@ -1,0 +1,6 @@
+['915', 'drive', 'car']
+['930', 'practicum', 'university']
+['1210', 'drive', 'car']
+['1500', 'study', 'pack']
+['1744', 'run']
+['1940', 'cycle']

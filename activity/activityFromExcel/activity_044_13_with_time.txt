@@ -1,0 +1,8 @@
+620         shower, dress
+650         walk
+700         work
+1745        walk
+1750        relax
+1840        cook, relax, read
+2300        to bed
+2310        sleep

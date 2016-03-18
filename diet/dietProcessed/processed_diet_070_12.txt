@@ -1,4 +1,4 @@
-['sandwich']
+['4', 'sandwich']
 ['bean', 'salmon']
 ['soup', 'potato', 'meat', 'spinach', 'bean', 'sugar']
-['water']
+['2', 'water']

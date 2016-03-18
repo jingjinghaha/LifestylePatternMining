@@ -1,0 +1,8 @@
+830         cycling
+900         Lecture
+1050        cycling
+1100        work 
+1310        cycling
+1345        cycling
+1800        cycling and shopping
+2330        sleep

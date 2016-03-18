@@ -1,0 +1,12 @@
+700         shower
+740         driving car
+754         taking the train
+830         traineeship
+1525        walking
+1536        taking the train 
+1607        driving car
+1615        computer
+1900        driving car
+1916        playing soccer
+2200        driving car
+2330        sleep

@@ -1,0 +1,59 @@
+11.10.2014  driving car
+11.10.2014  work
+11.10.2014  walking
+11.10.2014  work
+11.10.2014  sleep (sensor off)
+11.11.2014  sensor on
+11.11.2014  work
+11.11.2014  walking
+11.11.2014  driving car
+11.11.2014  shopping
+11.11.2014  driving car
+11.11.2014  work
+11.11.2014  driving car
+11.11.2014  work
+11.11.2014  driving car and walking
+11.11.2014  shower (sensor off)
+11.12.2014  sensor on
+11.12.2014  work
+11.12.2014  driving car
+11.12.2014  sitting
+11.12.2014  driving car
+11.12.2014  work
+11.12.2014  walking
+11.12.2014  work
+11.12.2014  sensor off (sleep)
+11.13.2014  sensor on
+11.13.2014  work
+11.13.2014  cleaning/ working at home
+11.13.2014  work
+11.13.2014  sensor off (sleep)
+11.14.2014  getting up
+11.14.2014  work
+11.14.2014  driving car
+11.14.2014  waiting
+11.14.2014  driving car
+11.14.2014  shopping for bicycle
+11.14.2014  work
+11.14.2014  shower (sensor off)
+11.15.2014  sensor on
+11.15.2014  walking, moving stuff
+11.15.2014  work
+11.15.2014  driving car for shopping
+11.15.2014  home
+11.15.2014  sensor loose cable (from electrode)
+11.15.2014  sleep (sensor off)
+11.16.2014  sensor on
+11.16.2014  walking
+11.16.2014  walking
+11.16.2014  work
+11.16.2014  walking
+11.16.2014  work
+11.16.2014  driving car
+11.16.2014  work
+11.16.2014  driving car
+11.16.2014  vistit
+11.16.2014  driving car
+11.16.2014  sleep (sensor off)
+11.17.2014  sensor on
+11.17.2014  work

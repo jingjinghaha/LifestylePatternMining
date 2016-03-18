@@ -1,0 +1,4 @@
+830         work
+830         cycling
+2145        hockey training
+30          sleep

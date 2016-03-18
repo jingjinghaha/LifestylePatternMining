@@ -1,0 +1,2 @@
+['1445', 'fries', 'hamburger', 'sandwich', 'meat', 'sandwich', 'meat']
+['1445', '1520', 'drink', 'beer']

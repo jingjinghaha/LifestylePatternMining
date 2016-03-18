@@ -1,0 +1,4 @@
+1000        muesli
+1130        2 sandwiches peanut butter
+1350        4 sandwiches cheese, 3 tangerine
+1800        quark and banana

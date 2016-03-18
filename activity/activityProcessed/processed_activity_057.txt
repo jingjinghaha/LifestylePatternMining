@@ -32,7 +32,6 @@
 ['shop', 'bike']
 ['work']
 ['shower']
-['sleep']
 ['walk', 'move']
 ['work']
 ['drive', 'car', 'shop']

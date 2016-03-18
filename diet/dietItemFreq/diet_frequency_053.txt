@@ -5,6 +5,8 @@ tea                      1
 chip                     1         
 cocktails                1         
 iceCream                 3         
+63                       1         
+64                       1         
 noodles                  1         
 cola                     1         
 snack                    1         

@@ -1,0 +1,6 @@
+['957', 'charge']
+['1043', 'walk', 'phone']
+['1100', 'university']
+['1618', 'walk']
+['1738', 'drive', 'car']
+['2234', 'sleep']

@@ -1,0 +1,7 @@
+['710', 'muesli', 'yoghurt']
+['1145', '4', 'sandwich', '5', 'coffee', 'day']
+['1900', 'curry', 'rice', 'spinach']
+['1950', 'coffee', 'cookie']
+['2000', '2', 'drink', 'wine']
+['2100', 'nut']
+['2100', 'tea']

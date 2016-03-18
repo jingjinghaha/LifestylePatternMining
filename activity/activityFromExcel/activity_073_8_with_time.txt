@@ -1,0 +1,10 @@
+735         walking
+830         driving car and walking
+1120        driving car
+1233        driving car
+1555        walking with the dog
+1700        driving car
+1726        driving car
+1905        walking with the dog
+2315        walking with the dog
+2320        sleep

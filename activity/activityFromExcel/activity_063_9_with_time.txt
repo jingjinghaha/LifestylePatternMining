@@ -1,0 +1,7 @@
+700         getting up
+725         running
+815         shower
+830         charging sensor
+1743        walking
+1900        diner three courses
+35          walking

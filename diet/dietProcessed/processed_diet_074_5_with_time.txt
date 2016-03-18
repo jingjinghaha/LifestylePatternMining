@@ -1,0 +1,5 @@
+['810', 'oatmeal']
+['1005', 'apple', 'sandwich', 'nut', 'butter']
+['1210', 'soup', 'sandwich', 'yoghurt']
+['1510', 'orange', 'sandwich', 'cookie']
+['1946', 'stamp', 'yoghurt']

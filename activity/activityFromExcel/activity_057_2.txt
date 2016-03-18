@@ -9,4 +9,3 @@ driving car
 work
 driving car and walking
 shower (sensor off)
-sensor off

@@ -1,5 +1,5 @@
 ['muesli', 'sugar']
 ['banana']
-['bread', 'cheese']
-['coffee', 'milk', 'sugar']
+['4', 'bread', '2', 'cheese']
+['2', 'coffee', 'milk', 'sugar']
 ['pasta', 'chicken', 'pudding']

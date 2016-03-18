@@ -1,0 +1,21 @@
+511         going to toilet
+802         getting up
+905         packing stuf
+915         walking
+930         meeting
+955         driving car
+1047        packing stuf
+1115        driving car
+1302        computer
+1430        meeting
+1533        cycling and shopping
+1601        at home
+1610        work (computer)
+1633        cleaning
+1721        coocking/ running
+1835        dishes
+1853        dessert
+1859        meeting
+2034        cycling and fitness
+2254        shower
+2335        sleep

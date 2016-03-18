@@ -2,6 +2,7 @@ cheese                   1
 cereals                  3         
 chip                     1         
 iceCream                 1         
+66                       1         
 chicken                  2         
 noodles                  1         
 milk                     4         
@@ -12,6 +13,7 @@ sugar                    1
 beer                     1         
 sate                     1         
 homemade                 1         
+6                        2         
 vegetable                1         
 yoghurt                  1         
 nut                      1         

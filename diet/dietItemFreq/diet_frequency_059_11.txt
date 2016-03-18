@@ -1,4 +1,5 @@
-sandwich                 1         
+6                        1         
 noodles                  1         
 milk                     1         
+sandwich                 1         
 choco                    1         

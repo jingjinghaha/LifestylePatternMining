@@ -1,0 +1,11 @@
+715         study
+1045        cycling to university
+1055        lecture
+1445        cycling
+1450        donate blood
+1515        cycling
+1545        cycling
+1618        cycling
+1820        sensor off
+1955        reading, study
+2344        sleep

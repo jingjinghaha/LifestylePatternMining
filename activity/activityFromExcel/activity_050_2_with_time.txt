@@ -1,0 +1,3 @@
+1213        walking
+1530        car driving
+1530        diner

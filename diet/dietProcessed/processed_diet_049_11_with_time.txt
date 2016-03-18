@@ -1,0 +1,3 @@
+['930', 'bread', 'sandwich', 'egg', 'juice', 'orange', 'coffee', 'cucumber']
+['1100', 'fruit', 'water']
+['1835', 'gyros', 'gree', 'tea']

@@ -1,5 +1,5 @@
 ['oatmeal']
-['banana', 'carrot']
-['orange', 'apple']
+['banana', '3', 'carrot']
+['1', 'orange', '1', 'apple']
 ['cookie']
 ['rice']

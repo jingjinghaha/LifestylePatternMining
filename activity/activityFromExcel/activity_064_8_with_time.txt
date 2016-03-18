@@ -1,0 +1,14 @@
+145         sleep
+900         shower
+1030        cycling
+1035        shopping
+1105        cycling
+1200        coocking and lunch
+1315        sleep
+1510        homework
+1745        workout
+1800        coocking and diner
+1830        study
+2210        charging sensor
+2315        computer
+2345        sleep

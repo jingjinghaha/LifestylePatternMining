@@ -1,0 +1,4 @@
+230         sleep
+1015        study, coocking, meeting
+1235        sensor off
+31          sleep

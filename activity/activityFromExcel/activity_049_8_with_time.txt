@@ -1,0 +1,6 @@
+700         traineeship
+1545        shopping
+1730        coocking
+1915        working
+2200        shower
+2300        sleep

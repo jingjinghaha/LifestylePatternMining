@@ -1,0 +1,4 @@
+['1133', '4', 'sandwich']
+['1810', 'bean', 'salmon']
+['1945', 'soup', 'potato', 'meat', 'spinach', 'bean', 'sugar']
+['2300', '2', 'water']

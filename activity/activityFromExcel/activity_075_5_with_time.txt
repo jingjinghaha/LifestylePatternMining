@@ -1,0 +1,5 @@
+840         cycling to university
+900         at university 
+1510        cycling
+1540        shopping (thereafter charging sensor)
+2000        cleaning 

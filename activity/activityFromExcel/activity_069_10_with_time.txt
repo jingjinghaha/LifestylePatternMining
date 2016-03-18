@@ -1,0 +1,8 @@
+1000        cleaning/ household activities
+1245        cycling
+1315        cycling
+1330        work 
+1530        cycling
+1650        cycling
+1800        cycling
+2315        sleep (elektrodes went loose during the night)

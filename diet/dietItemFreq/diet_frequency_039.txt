@@ -14,6 +14,7 @@ coffee                   8
 sandwich                 12        
 kellogs                  6         
 doner                    1         
+675                      1         
 thee                     3         
 salmon                   2         
 chocolate                1         

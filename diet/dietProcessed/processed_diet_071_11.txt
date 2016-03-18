@@ -2,4 +2,4 @@
 ['bread', 'cheese', 'apple', 'orange']
 ['bread', 'hamburger']
 ['pizza']
-['wine', 'candy']
+['3', 'wine', 'candy']

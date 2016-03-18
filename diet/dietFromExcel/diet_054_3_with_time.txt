@@ -1,0 +1,6 @@
+1040        apple
+1230        carot, apple, eggs
+1530        sandwich with apple syrup
+1820        vegetarian pasta and apple pie
+1905        two wine
+2320        two wine and chips

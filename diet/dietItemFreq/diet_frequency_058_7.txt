@@ -1,5 +1,6 @@
 apple                    1         
 chocolate                2         
+3                        1         
 mango                    1         
 cookie                   1         
 muesli                   1         

@@ -1,4 +1,4 @@
-['cookie']
+['3', 'cookie']
 ['raisin', 'sandwich']
 ['muesli', 'bar']
 ['apple', 'nut', 'cake']

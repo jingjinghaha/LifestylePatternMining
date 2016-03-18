@@ -1,0 +1,6 @@
+915         household activities
+1140        charging sensor
+1230        shower
+1405        driving car
+1430        work
+2300        sleep (at work)

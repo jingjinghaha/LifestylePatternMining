@@ -1,5 +1,7 @@
-orange                   1         
 sandwich                 2         
-macaroni                 1         
 apple                    1         
+3                        1         
+2                        1         
+macaroni                 1         
+orange                   1         
 pizza                    1         

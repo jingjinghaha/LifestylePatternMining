@@ -9,6 +9,7 @@ chicken                  1
 breakfast                1         
 beef                     1         
 spinach                  2         
+3                        2         
 granola                  1         
 vegetable                2         
 yoghurt                  1         
@@ -24,6 +25,7 @@ orange                   2
 cookie                   4         
 pasta                    1         
 muesli                   1         
+2                        2         
 bar                      1         
 meat                     2         
 salad                    4         

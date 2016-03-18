@@ -1,0 +1,4 @@
+842         getting up
+900         driving car
+945         driving car
+1600        driving car

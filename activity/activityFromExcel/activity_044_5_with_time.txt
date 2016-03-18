@@ -1,0 +1,13 @@
+820         dress
+850         prepare to bike
+920         cycling
+1100        shower, dress
+1130        prepare lunch
+1200        clean
+1300        bike
+1310        work
+1700        bike
+1710        clean cook
+1950        relax
+2210        read
+2310        sleep

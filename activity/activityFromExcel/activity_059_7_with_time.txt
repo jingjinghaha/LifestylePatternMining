@@ -1,0 +1,6 @@
+750         getting up
+815         cycling to work
+940         charging sensor
+1715        cycling and shopping
+1930        driving car
+2315        charging sensor

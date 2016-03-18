@@ -1,0 +1,15 @@
+30          sleep
+650         shower
+730         driving car
+750         driving car to work
+810         cycling
+820         work
+850         driving car
+900         walking 
+1000        driving car
+1500        cycling
+1745        walking 
+1750        driving car
+1830        driving car
+2000        watching tv
+2100        sleep

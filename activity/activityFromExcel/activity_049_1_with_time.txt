@@ -1,0 +1,6 @@
+1045        travelling by train
+1142        walking
+1230        working
+1830        coocking and diner
+2000        relaxen
+2200        sleep

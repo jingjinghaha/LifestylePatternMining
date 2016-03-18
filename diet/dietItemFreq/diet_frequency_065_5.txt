@@ -3,4 +3,5 @@ sandwich                 2
 apple                    1         
 sugar                    1         
 beer                     1         
+8                        1         
 syrup                    1         

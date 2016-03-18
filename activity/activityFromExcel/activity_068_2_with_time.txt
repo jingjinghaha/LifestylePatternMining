@@ -1,0 +1,7 @@
+900         getting up, breakfast
+940         cycling
+1000        lecture
+1500        study
+1730        relaxen
+1800        cycling
+2340        sleep

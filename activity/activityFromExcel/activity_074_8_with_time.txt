@@ -1,0 +1,14 @@
+732         shower
+900         work
+1029        cycling
+1051        vo2max test
+1145        cycling
+1202        lunch and computer
+1300        work
+1600        cleaning windows
+1634        coocking
+1757        diner and dishes
+1847        computer
+1945        cycling and fitness
+2217        shower
+2243        sleep

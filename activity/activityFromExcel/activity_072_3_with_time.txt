@@ -1,0 +1,16 @@
+730         getting up and shower
+812         cycling
+830         at school 
+900         cycling and shopping
+911         household activities
+1152        driving car
+1245        driving car
+1300        household activities
+1455        cycling
+1530        computer
+1647        cycling
+1735        cycling
+1750        coocking
+1911        reading
+2106        watching tv and charging sensor
+2212        sleep

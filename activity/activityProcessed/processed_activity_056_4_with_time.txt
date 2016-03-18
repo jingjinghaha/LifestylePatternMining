@@ -1,0 +1,5 @@
+['903', 'drive', 'car']
+['940', 'work']
+['1930', 'soccer', 'train']
+['2118', 'charge']
+['2330', 'sleep']

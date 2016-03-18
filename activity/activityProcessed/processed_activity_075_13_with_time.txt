@@ -1,0 +1,7 @@
+['826', 'study']
+['1315', 'university', 'bike']
+['1601', 'shop']
+['1724', 'clean']
+['1840', 'watch', 'tv']
+['2023', 'charge']
+['2230', 'watch', 'tv']

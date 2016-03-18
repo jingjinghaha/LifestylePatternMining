@@ -1,0 +1,4 @@
+['1420', 'walk', 'phone']
+['1600', 'drive', 'car']
+['2215', 'watch', 'tv', 'charge']
+['2330', 'sleep']

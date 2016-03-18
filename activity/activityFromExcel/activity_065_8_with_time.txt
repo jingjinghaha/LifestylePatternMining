@@ -1,0 +1,10 @@
+730         getting up and breakfast
+838         cycling
+900         study
+1525        study
+1600        (cannot read text)
+1712        cycling
+1750        diner with friends
+1850        cycling
+1900        reading
+2355        sleep

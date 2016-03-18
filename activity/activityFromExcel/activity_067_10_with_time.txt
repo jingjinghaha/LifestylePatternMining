@@ -1,0 +1,9 @@
+630         getting up
+700         running
+950         walking with the dog
+1120        backing pie
+1200        running
+1210        shower
+1230        study
+1700        walking with the dog
+1800        birtday party

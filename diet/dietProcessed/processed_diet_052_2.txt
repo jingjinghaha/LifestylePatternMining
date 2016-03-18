@@ -3,5 +3,6 @@
 ['sandwich', 'nut', 'butter']
 ['banana']
 ['sausage', 'roll']
-['alcohol', 'drink']
+['2030']
+['alcohol', '30', 'drink']
 ['pizza']

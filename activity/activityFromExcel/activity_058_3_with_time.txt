@@ -1,0 +1,4 @@
+830         getting up
+930         taking the train, shopping, visiting city
+930         lunch
+930         diner

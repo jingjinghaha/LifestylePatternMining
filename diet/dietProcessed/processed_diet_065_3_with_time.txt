@@ -1,0 +1,5 @@
+['730', 'coffee', 'fries', 'egg']
+['820', 'sandwich']
+['1215', 'sandwich']
+['1515', 'cookie']
+['1850', 'pasta', 'spinach', 'chocolate', 'iceCream']

@@ -1,0 +1,14 @@
+1311        cycling
+1411        household activities
+1503        driving car
+1520        meeting
+1555        driving car
+1600        moving stuff 
+1610        driving car
+1618        shopping
+1640        packing stuf
+1750        coocking
+1919        dishes and cleaning
+1948        driving car
+2138        moving stuff 
+2245        sleep 

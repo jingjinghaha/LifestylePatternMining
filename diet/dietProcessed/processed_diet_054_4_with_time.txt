@@ -1,0 +1,6 @@
+['1030', 'muesli']
+['1240', 'sandwich', 'egg', 'banana']
+['1330', 'snicker']
+['1550', 'cookie']
+['2000', 'pumpkin', 'soup', 'bread']
+['2115', 'chip', 'almond', 'bar']

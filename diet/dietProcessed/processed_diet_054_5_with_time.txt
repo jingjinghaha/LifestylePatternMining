@@ -1,0 +1,5 @@
+['1000', '4', 'sandwich', 'banana']
+['1200', 'beer', 'kaassoufle']
+['1415', 'sandwich']
+['1840', 'pasta', 'spinach']
+['1940', 'candy', 'chip']

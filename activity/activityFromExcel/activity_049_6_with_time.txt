@@ -1,0 +1,4 @@
+1700        shower
+1800        coocking
+1930        watching a movie
+2330        sleep

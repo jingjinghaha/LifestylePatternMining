@@ -1,0 +1,6 @@
+1005        driving car
+1050        study
+1215        babysitting
+1615        test and driving car
+2126        charging sensor
+2126        sleep

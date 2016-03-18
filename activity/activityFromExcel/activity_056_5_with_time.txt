@@ -1,0 +1,17 @@
+910         driving car
+1032        running/ walking
+1200        coocking
+1312        driving car
+1330        household activities
+1405        shower
+1428        household activities
+1455        driving car
+1520        babysitting
+1715        driving car
+1740        coocking
+1800        diner
+1815        cleaning
+1829        driving car
+2014        driving car
+2100        watching movie/ playing wii
+105         sleep

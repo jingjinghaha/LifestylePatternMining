@@ -1,0 +1,6 @@
+807         4 sandwiches
+1215        1.5 sandwich
+1525        coockie
+1550        chips
+1720        quiche
+1917        ice cream

@@ -8,6 +8,7 @@ computer                 17
 sleep                    5         
 canteen                  4         
 breakfast                1         
+1710                     1         
 sit                      1         
 tv                       11        
 los                      1         

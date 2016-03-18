@@ -1,0 +1,11 @@
+10          sleep
+1040        study
+1300        taking the train
+1250        cycling
+1317        taking the train
+1421        taking the train
+1500        cycling
+1535        cycling
+1610        study
+1810        cycling
+200         sensorr off because of irritation

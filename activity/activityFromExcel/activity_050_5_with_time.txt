@@ -1,0 +1,14 @@
+820         walking
+845         driving car
+900         walking
+933         taking the train
+1232        taking the train
+1322        driving car
+1410        walking with the dog
+1450        washing the car
+1530        computer
+1700        walking with the dog
+1800        cleaning the car
+1912        watching tv
+2115        studying
+2215        sleep

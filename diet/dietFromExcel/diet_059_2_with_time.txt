@@ -1,0 +1,6 @@
+800         cereals
+1015        two sandwiches
+1245        peer
+1300        four sandwiches
+1515        tomato, cucumber
+1800        sate

@@ -1,0 +1,13 @@
+830         shower
+845         cycling
+1035        cycling
+1045        lecture at school
+1316        cylcing
+1328        taking the train
+1502        cycling
+1755        cycling
+1930        cycling
+1900        charging sensor
+2000        trainen sport 
+2300        cycling
+500         sleep

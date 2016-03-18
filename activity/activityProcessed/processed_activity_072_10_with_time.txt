@@ -1,0 +1,7 @@
+['815', 'cycle', 'school']
+['830', 'crosstrainer', 'bodypump']
+['1005', 'cycle']
+['1015', 'shower']
+['1455', 'cycle', 'wait']
+['2015', 'charge']
+['2200', 'bed']

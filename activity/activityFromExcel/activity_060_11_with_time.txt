@@ -1,0 +1,9 @@
+900         charging sensor
+1000        study
+1030        cycling
+1045        lecture
+1315        lecture
+1730        cycling
+1830        shopping
+1900        coocking
+130         sleep

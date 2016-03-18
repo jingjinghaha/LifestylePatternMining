@@ -1,0 +1,7 @@
+930         walking
+930         breakfast
+930         snack
+1100        car driving 
+1115        visiting grandmother
+1300        car driving
+1700        diner

@@ -1,0 +1,7 @@
+['120', 'sleep']
+['1320', 'charge']
+['1512', 'bike', 'university']
+['1540', 'study']
+['1839', 'bike']
+['2000', 'study']
+['2306', 'charge']

@@ -1,0 +1,12 @@
+920         study
+1100        shopping and cycling
+1136        study, coocking, cleaning
+1705        bringing away garbage bags 
+1736        sensor off
+1736        study
+1920        driving car 
+2000        horse riding
+2115        driving car
+2139        sensor off
+2205        study
+2329        sleep

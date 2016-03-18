@@ -1,0 +1,9 @@
+705         cycling
+730         swimming (sensor off)
+900         sensor on
+840         cycling
+925         cycling
+930         work
+1715        cycling and shopping
+2050        charging sensor
+2208        sleep

@@ -1,0 +1,3 @@
+800         yoghurt
+1200        sandwich
+1800        fish, rice, vegetables

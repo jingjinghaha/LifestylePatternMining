@@ -1,5 +1,6 @@
 sandwich                 1         
 rice                     1         
+2                        1         
 orange                   1         
 muesli                   1         
 chicken                  1         

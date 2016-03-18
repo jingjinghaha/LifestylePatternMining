@@ -1,0 +1,4 @@
+800         cereals with milk
+1100        two sandwiches with meat
+1230        6 sandwiches
+1840        patatoe, meat, vegetables

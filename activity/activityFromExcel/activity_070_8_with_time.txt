@@ -1,0 +1,7 @@
+715         charging sensor
+910         cycling
+1100        work
+1220        cycling
+1732        coocking and shopping
+1801        diner
+2230        sleep

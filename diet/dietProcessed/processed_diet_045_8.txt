@@ -1,4 +1,4 @@
 ['yoghurt']
 ['sandwich']
-['beer']
+['5', 'beer']
 ['soup', 'taco']

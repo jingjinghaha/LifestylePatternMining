@@ -7,6 +7,7 @@ drink                    1
 pear                     1         
 ravioli                  1         
 juice                    1         
+3                        2         
 jam                      1         
 milk                     1         
 bread                    2         

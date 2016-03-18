@@ -1,0 +1,5 @@
+['10', 'sleep']
+['830', 'shower']
+['925', 'walk']
+['945', 'university']
+['1705', 'walk', 'shop']

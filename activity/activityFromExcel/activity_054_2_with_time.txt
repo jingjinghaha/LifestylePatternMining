@@ -1,0 +1,11 @@
+910         running
+950         shower
+1040        cycling
+1100        at university
+1300        cycling
+1310        craftwork and study
+1730        cycling
+1745        at church 
+1902        cycling
+1940        cycling
+1945        going out

@@ -1,0 +1,16 @@
+718         getting up
+815         computer
+833         household activities
+1005        running
+1115        shower
+1130        cycling and shopping
+1250        cycling
+1310        household activities
+1330        work
+1431        phone call
+1505        work
+1545        dishes
+1603        packing stuf
+1630        driving car
+1840        diner and game
+2305        sleep (not at home)

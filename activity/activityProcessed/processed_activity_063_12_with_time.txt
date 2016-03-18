@@ -1,0 +1,4 @@
+['30', 'sleep']
+['1215', 'charge']
+['1400', 'bike']
+['1700', 'train', 'car', 'parent']

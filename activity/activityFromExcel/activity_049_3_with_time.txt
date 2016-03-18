@@ -1,0 +1,8 @@
+930         food intake
+1050        walking
+1100        working
+1505        walking
+1600        coocking and diner
+1805        walking
+1815        working
+200         sleep

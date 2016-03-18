@@ -1,0 +1,13 @@
+730         getting up 
+800         taking the car
+830         taking the train
+930         taking the bus
+945         walking
+1425        charging sensor
+1030        chillen at home
+1535        restart GPS logger (phone was empty)
+1700        taking the car for shopping
+2045        push ups
+2100        shower
+2210        going to bed
+15          sleep

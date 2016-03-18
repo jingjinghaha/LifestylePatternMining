@@ -1,0 +1,11 @@
+700         driving lessons
+800         driving exam
+1200        walking
+1230        taking the train
+1436        cycling
+1445        at university
+1715        cycling
+1740        walking
+1800        taking the train
+1930        walking
+2350        sleep (at parents place)

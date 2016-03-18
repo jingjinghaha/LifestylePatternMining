@@ -1,0 +1,5 @@
+['945', '2', 'egg']
+['1050', 'banana']
+['1300', 'spell', 'cookie']
+['1615', 'nut', 'apple']
+['2000', 'soup', 'sandwich']

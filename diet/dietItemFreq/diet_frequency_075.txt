@@ -6,6 +6,10 @@ chicken                  2
 alcohol                  4         
 spinach                  1         
 sugar                    2         
+1                        4         
+3                        6         
+2                        2         
+6                        2         
 orange                   5         
 yoghurt                  2         
 banana                   3         

@@ -1,0 +1,4 @@
+['940', 'apple', 'banana', 'dry', 'fruit']
+['1245', 'cup', 'soup']
+['1745', 'cookie']
+['1840', 'macaroni']

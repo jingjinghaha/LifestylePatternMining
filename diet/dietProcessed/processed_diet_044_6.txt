@@ -1,3 +1,3 @@
-['coffee', 'sugar', 'milk']
+['3', 'coffee', 'sugar', 'milk']
 ['instant', 'meal', 'chicken', 'yoghurt', 'strawberry']
-['fruit', 'juice']
+['2', 'fruit', '2', 'juice']

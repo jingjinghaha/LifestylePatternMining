@@ -1,0 +1,3 @@
+['900', 'salad', 'cheese']
+['1400', 'sandwich', 'hamburger']
+['2000', 'make', 'pizza']

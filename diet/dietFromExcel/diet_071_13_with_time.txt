@@ -1,0 +1,4 @@
+1000        sandwich ham, yoghurt, pineapple, egg, jus
+1230        m&m
+1500        pie
+1847        risotto, salad

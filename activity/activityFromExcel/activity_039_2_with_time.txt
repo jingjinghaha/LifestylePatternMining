@@ -1,0 +1,10 @@
+2423        sleep
+1030        pc
+1315        recharge
+1410        tv
+1525        bike uni
+1545        study
+1844        bike home
+1935        bike uni
+2158        bike home
+2215        pc

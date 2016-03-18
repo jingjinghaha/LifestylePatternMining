@@ -1,0 +1,5 @@
+100         sleep
+1050        walking
+1700        walking
+2150        bringing car back
+100         sleep

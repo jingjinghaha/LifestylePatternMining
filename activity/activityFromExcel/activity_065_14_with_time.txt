@@ -1,0 +1,11 @@
+0           running to car
+0           sleep
+950         crosstrainer/sports
+1030        shower and dressing up
+1100        study
+1400        walking 
+1500        study
+1850        taking the bus and train
+2050        cycling
+2105        study and cleaning
+2345        sleep

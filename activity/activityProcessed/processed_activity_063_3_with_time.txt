@@ -1,0 +1,5 @@
+['30', 'sleep']
+['1027', 'shower']
+['1055', 'cycle']
+['1105', 'university']
+['1600', 'cycle']

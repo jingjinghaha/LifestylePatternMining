@@ -1,0 +1,4 @@
+30          sleep
+1215        charging sensor
+1400        going to city by bike
+1700        taking the train and car to parents home

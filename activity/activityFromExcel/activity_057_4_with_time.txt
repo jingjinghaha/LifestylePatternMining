@@ -1,0 +1,5 @@
+711         sensor on
+729         work
+1001        cleaning/ working at home
+1607        work
+2217        sensor off (sleep)

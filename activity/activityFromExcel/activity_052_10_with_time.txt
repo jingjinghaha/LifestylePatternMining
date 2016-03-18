@@ -1,0 +1,7 @@
+1135        driving car
+1235        driving car
+1330        study
+1735        driving car
+1800        driving car
+1735        driving car
+1800        driving car

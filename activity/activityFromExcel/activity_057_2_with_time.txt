@@ -1,0 +1,11 @@
+700         sensor on
+730         work
+845         walking
+853         driving car
+901         shopping
+955         driving car
+1005        work
+1137        driving car
+1210        work
+1524        driving car and walking
+1835        shower (sensor off)

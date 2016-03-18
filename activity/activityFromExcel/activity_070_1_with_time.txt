@@ -1,0 +1,8 @@
+1055        cycling
+1100        work
+1520        cycling
+1630        cycling
+1843        cycling
+1930        charging sensor
+1900        driving car
+2233        sleep

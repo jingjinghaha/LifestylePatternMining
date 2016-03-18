@@ -1,0 +1,3 @@
+['940', 'yoghurt']
+['1500', 'beer']
+['1815', 'soup', 'sandwich']

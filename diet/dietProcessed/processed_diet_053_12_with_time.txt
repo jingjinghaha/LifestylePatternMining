@@ -1,0 +1,4 @@
+['1130', 'sandwich', 'egg']
+['1920', 'potato', 'fish', 'vegetable']
+['2040', 'apple']
+['2205', 'deuterium']

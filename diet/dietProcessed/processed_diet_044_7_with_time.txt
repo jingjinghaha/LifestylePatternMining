@@ -1,0 +1,3 @@
+['800', '3', 'bread', 'butter', 'cheese', 'jam', 'juice', 'drink', 'natriumnitrate']
+['1345', '3', 'bread', 'cheese', 'cheese', 'salad', 'milk', 'pear']
+['1930', 'meat', 'ravioli']

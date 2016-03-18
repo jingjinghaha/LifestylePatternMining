@@ -1,0 +1,10 @@
+515         getting up
+545         running
+600         shower
+615         study
+715         walking with the dog
+800         going to the university by bus
+1700        taking the bus
+1915        relaxen
+2030        jacuzzi
+2130        sleep

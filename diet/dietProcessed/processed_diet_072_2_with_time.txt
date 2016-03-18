@@ -1,0 +1,5 @@
+['730', '3', 'sandwich']
+['1040', '2', 'orange']
+['1250', 'noodles', '1', 'sandwich']
+['1505', 'cookie']
+['1830', 'pasta', 'rice']

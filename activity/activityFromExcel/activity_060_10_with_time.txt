@@ -1,0 +1,16 @@
+750         charging sensor
+830         cycling
+845         lecture
+1030        cycling
+1040        cleaning
+1300        shopping
+1330        household activities
+1500        cycling (pick up some stuff)
+1530        shopping
+1610        core stability
+1630        6km running
+1700        cooling down
+1730        shower
+1800        coocking
+1920        study
+30          sleep

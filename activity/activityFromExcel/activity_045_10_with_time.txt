@@ -1,0 +1,3 @@
+1200        shopping
+1400        relaxen
+2400        sleep

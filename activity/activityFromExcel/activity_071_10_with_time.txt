@@ -1,0 +1,7 @@
+909         study, packing stuff
+1045        cycling
+1100        lecture
+1525        cycling
+1557        sensor off
+1735        study, packing stuff
+2345        sleep

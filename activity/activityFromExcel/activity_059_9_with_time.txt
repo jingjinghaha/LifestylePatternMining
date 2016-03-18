@@ -1,0 +1,8 @@
+1000        getting up
+1112        charging sensor
+1450        driving car
+1615        driving car
+1725        driving car
+2020        walking
+2138        walking
+10          sleep (not at home)

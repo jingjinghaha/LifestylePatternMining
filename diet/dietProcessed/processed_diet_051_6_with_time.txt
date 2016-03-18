@@ -1,0 +1,3 @@
+['745', 'bread']
+['1244', 'ginger', 'bread', 'rice', 'cookie']
+['1900', 'sauerkraut', 'meat']

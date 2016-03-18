@@ -1,3 +1,4 @@
+3                        1         
 rice                     1         
 cookie                   1         
 bread                    1         

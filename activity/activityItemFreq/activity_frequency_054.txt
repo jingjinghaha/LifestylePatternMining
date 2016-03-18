@@ -10,7 +10,7 @@ dish                     1
 lesson                   3         
 tv                       3         
 movie                    2         
-charge                   5         
+charge                   4         
 bike                     1         
 lecture                  2         
 chill                    1         

@@ -1,0 +1,13 @@
+200         sleep (one elektrode during the night loose)
+1015        charging sensor
+115         homework
+1140        coocking and lunch
+1216        shower
+1245        cycling
+1300        at school
+1736        cycling
+1751        coocking and diner
+1826        computer
+2005        charging sensor
+2105        homework
+2405        sleep

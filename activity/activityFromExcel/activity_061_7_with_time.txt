@@ -1,0 +1,10 @@
+645         getting up
+715         driving car
+724         taking the train
+751         walking 
+802         traineeship
+1510        phone empty (17.10 charging)
+1636        taking the train
+1700        driving car
+1715        watching computer/ tv
+2315        sleep

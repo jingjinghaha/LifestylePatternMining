@@ -1,0 +1,4 @@
+['645', 'banana']
+['745', '4', 'sandwich']
+['1258', '4', 'sandwich']
+['1940', '2', 'cup', 'soup', 'bread']

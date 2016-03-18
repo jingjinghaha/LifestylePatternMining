@@ -1,0 +1,6 @@
+1400        shower
+1740        taking the bus
+1832        taking the train
+1840        driving car
+1900        watching tv
+2230        sleep

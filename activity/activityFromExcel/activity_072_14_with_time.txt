@@ -1,0 +1,9 @@
+812         cycling
+830         sport
+1005        cycling
+1050        shower
+1100        cleaning
+1155        cycling
+1250        cycling and shopping
+1457        cycling
+2030        charging sensor

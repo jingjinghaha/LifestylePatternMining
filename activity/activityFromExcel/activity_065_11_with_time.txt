@@ -1,0 +1,16 @@
+730         getting up and breakfast
+835         running to friend 
+850         going to university (behind the bike)
+900         at university
+1220        cycling
+1300        exam for car
+1500        home resting 
+1545        cycling
+1615        lecture at uni
+1710        going to friend (behind the bike)
+1733        coocking and diner
+1910        walking to home
+1930        study at home
+2120        walking
+2230        study at home
+2350        sleep

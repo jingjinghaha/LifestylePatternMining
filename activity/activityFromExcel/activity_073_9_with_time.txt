@@ -1,0 +1,14 @@
+748         walking with the dog
+825         cycling
+843         cycling
+920         cycling
+1045        cycling
+1125        cycling
+1140        cycling
+1210        cycling
+1225        cycling
+1435        driving car
+1510        driving car
+2025        walking with the dog (forgot phone)
+2151        walking with the dog (forgot phone)
+2200        sleep

@@ -1,0 +1,17 @@
+200         nightmare 
+600         going to toilet
+600         awake in bed
+840         breakfast
+753         packing stuf
+1115        driving car
+1120        shopping
+1138        driving car
+1147        meeting
+1218        driving car
+1255        driving car and shopping
+1304        coocking and packing stuff
+1506        walking
+1848        coocking and packing stuff
+2000        watching tv
+2057        packing stuff and shower
+2244        sleep (at new home)

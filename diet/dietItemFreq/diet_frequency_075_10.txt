@@ -1,6 +1,7 @@
 sandwich                 1         
-alcohol                  2         
+meat                     1         
 drink                    2         
+alcohol                  2         
+3                        3         
 pasta                    1         
 bread                    1         
-meat                     1         

@@ -1,0 +1,5 @@
+1030        apple
+1300        apple
+1600        peer
+2030        patatoe,egg, vegetables
+2115        7 beer

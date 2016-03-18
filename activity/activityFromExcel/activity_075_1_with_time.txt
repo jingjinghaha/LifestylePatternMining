@@ -1,0 +1,6 @@
+950         cycling and charging sensor
+1130        study and doing dishes
+1151        exam (sensor off)
+1731        watching tv
+1900        coocking and diner
+2045        cycling and going out

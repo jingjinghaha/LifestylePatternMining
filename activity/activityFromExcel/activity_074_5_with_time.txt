@@ -1,0 +1,12 @@
+620         toilet
+725         shower and preparing sandwiches
+825         cleaning 
+850         cycling
+910         work
+1723        cycling and shopping
+1806        running
+1838        walking/ jogging
+1848        cleaning 
+2039        cleaning 
+2210        phone call
+2232        sleep 

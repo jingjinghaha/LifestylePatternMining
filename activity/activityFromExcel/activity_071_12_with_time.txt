@@ -1,0 +1,10 @@
+137         cycling
+206         sleep (at parents place)
+945         driving car 
+1134        mountainbike
+1510        shower 
+1530        fitness
+1754        sauna (sensor off)
+1910        driving car 
+2130        driving car 
+2300        sleep (not at home, at hotel papendael)

@@ -1,0 +1,6 @@
+10          sleep
+825         getting up
+830         shower
+925         walking
+945         at university
+1705        walking and shopping

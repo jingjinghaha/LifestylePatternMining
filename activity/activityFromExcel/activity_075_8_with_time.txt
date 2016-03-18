@@ -1,0 +1,11 @@
+725         shower and getting dressed
+815         study
+940         cycling to university
+1156        study
+1301        cycling to university
+1320        at university 
+1341        cycling
+1600        study
+1845        cycling
+1900        diner
+2200        going out

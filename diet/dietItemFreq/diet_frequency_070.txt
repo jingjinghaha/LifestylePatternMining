@@ -4,6 +4,8 @@ spinach                  2
 smoothie                 1         
 sugar                    1         
 beer                     1         
+2                        3         
+4                        16        
 vegetable                2         
 yoghurt                  2         
 banana                   6         

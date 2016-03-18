@@ -1,0 +1,7 @@
+115         driving car
+1200        studying
+1655        taking the bus
+1714        taking the train
+1800        walking
+1915        studying
+2230        sleep

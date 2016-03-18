@@ -1,0 +1,16 @@
+750         getting up
+800         driving lessons
+1015        shower
+1045        study
+1430        cycling
+1515        taking the train
+1530        shopping
+1718        taking the train
+1915        driving car
+1930        waiting 
+2000        laserquesten (forgot the phone)
+2045        walking
+2100        going out
+2200        taking the bus
+2230        watching tv
+2330        sleep (not at home)

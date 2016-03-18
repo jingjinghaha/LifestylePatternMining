@@ -1,0 +1,4 @@
+['930', 'sandwich', 'egg', 'chicken']
+['1330', 'sandwich']
+['1530', '1', 'white', 'wine', 'coffee']
+['1800', 'soup', 'beef', 'pie', 'candy', '1', 'wine']

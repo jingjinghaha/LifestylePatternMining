@@ -1,0 +1,6 @@
+['945', 'charge']
+['1130', 'lunch']
+['1210', 'shop']
+['1815', 'cook']
+['1900', 'diner', 'watch', 'tv']
+['2145', 'clean', 'pack']

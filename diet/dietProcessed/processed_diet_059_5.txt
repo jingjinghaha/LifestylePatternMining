@@ -1,4 +1,4 @@
 ['cereals', 'milk']
 ['sandwich', 'meat']
-['sandwich']
+['6', 'sandwich']
 ['potato', 'meat', 'vegetable']

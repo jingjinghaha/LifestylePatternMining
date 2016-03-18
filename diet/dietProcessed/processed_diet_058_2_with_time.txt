@@ -1,0 +1,3 @@
+['930', '3', 'cookie', '2', 'kiwi']
+['1200', 'sandwich']
+['1200', 'potato', 'vegetable', 'meat']

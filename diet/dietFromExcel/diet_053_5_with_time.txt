@@ -1,0 +1,6 @@
+720         one sandwich
+933         one sandwich
+1027        apple
+1231        three sandwiches
+1908        french fries, meat, dessert
+2135        chips

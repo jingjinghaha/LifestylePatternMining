@@ -4,6 +4,7 @@ sandwich                 2
 meat                     1         
 mayo                     1         
 fries                    1         
+1                        1         
 cookie                   2         
 sate                     1         
 rice                     1         

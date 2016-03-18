@@ -1,0 +1,14 @@
+900         study
+1102        charging sensor
+1208        study
+1220        shower
+1300        cycling
+1315        at school
+1325        cycling
+1335        shopping
+1400        cycling
+1410        study
+1735        study
+1920        sleep
+2000        gamen
+2235        charging sensor

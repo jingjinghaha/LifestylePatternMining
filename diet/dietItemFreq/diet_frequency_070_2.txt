@@ -1,5 +1,6 @@
-vegetable                1         
-yoghurt                  1         
 sandwich                 2         
 meat                     1         
 doner                    1         
+4                        2         
+vegetable                1         
+yoghurt                  1         

@@ -1,0 +1,7 @@
+['953', 'drive', 'car']
+['1032', 'drive', 'car']
+['1045', 'shop']
+['1337', 'drive', 'car']
+['1457', 'drive', 'car']
+['1930', 'voetbal', 'international']
+['2227', 'drive', 'car', 'phone', 'empty']

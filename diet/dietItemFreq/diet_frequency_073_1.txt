@@ -2,5 +2,6 @@ sandwich                 1
 meat                     1         
 chocolate                1         
 soup                     2         
+2                        1         
 noodles                  1         
 wine                     1         

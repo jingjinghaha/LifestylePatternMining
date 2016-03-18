@@ -1,0 +1,8 @@
+['1000', 'clean', 'household', 'activity']
+['1245', 'cycle']
+['1315', 'cycle']
+['1330', 'work']
+['1530', 'cycle']
+['1650', 'cycle']
+['1800', 'cycle']
+['2315', 'sleep', 'elektrodes', 'loose', 'night']

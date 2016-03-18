@@ -1,0 +1,6 @@
+1005        walking with the dog
+1650        charging sensor
+1900        driving car
+1910        visiting
+2310        driving car
+2320        sleep

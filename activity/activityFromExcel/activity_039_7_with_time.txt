@@ -1,0 +1,8 @@
+120         sleep
+1135        67kg
+1320        recharge
+1512        bike uni
+1540        study
+1839        bike home
+2000        study
+2306        recharge

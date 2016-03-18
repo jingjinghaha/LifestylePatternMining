@@ -1,0 +1,7 @@
+700         getting up and shower
+830         driving car
+835         work
+1238        walk
+1315        walk
+2146        charging sensor
+2315        sleep

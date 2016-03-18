@@ -1,0 +1,6 @@
+['933', 'yoghurt']
+['1250', 'yoghurt', 'muesli']
+['1448', 'noodles']
+['1830', 'cookie']
+['2000', 'fries']
+['2200', '6', 'beer']

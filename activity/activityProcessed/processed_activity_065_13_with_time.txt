@@ -1,0 +1,7 @@
+['845', 'crosstrainer', 'sport']
+['930', 'shower', 'dress']
+['1000', 'study', 'make', 'photo', 'book']
+['1730', 'train', 'work', 'phone']
+['1845', 'work']
+['2311', 'run', 'train']
+['2315', 'train']

@@ -1,0 +1,9 @@
+100         sleep
+930         getting up and charging sensor
+1006        shower
+1050        cycling
+1100        at university
+1320        cycling
+1608        sleep
+2155        cycling
+2200        going out

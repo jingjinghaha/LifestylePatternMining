@@ -1,0 +1,4 @@
+['1045', 'yoghurt', 'granola']
+['1300', 'doner', 'hamburger']
+['1800', 'beef', 'meat']
+['2205', 'apple', 'kiwi', 'banana']

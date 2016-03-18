@@ -1,0 +1,7 @@
+830         getting up
+835         sensor off
+915         cycling
+945         study
+1740        walking
+1830        study at home
+2200        sensor off

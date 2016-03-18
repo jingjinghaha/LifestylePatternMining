@@ -1,0 +1,6 @@
+['10', 'sleep']
+['915', 'cycle']
+['925', 'lecture', 'practicum']
+['1220', 'cycle']
+['1235', 'study', 'cook', 'clean']
+['2000', 'cycle']

@@ -1,0 +1,9 @@
+25          driving car
+40          party
+240         driving car
+255         sleep
+1050        work
+1655        study
+1909        study
+2039        visiting friends
+59          sleep

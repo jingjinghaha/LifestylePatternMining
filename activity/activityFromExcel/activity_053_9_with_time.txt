@@ -1,0 +1,5 @@
+120         sleep
+958         shower (charging sensor)
+1138        study
+1628        running
+1636        travelling with ov

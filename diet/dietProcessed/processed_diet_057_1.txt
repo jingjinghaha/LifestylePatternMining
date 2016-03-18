@@ -1,3 +1,3 @@
-['sandwich', 'egg', 'sandwich', 'chicken']
+['sandwich', 'egg', '12', 'sandwich', 'chicken']
 ['fruit']
 ['rice', 'goulash']

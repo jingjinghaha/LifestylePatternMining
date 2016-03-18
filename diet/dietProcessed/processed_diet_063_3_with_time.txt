@@ -1,0 +1,6 @@
+['1019', 'custard']
+['1240', 'cookie', 'chocolate']
+['1305', 'fries']
+['1350', 'chocolate']
+['1454', 'raisin']
+['1800', '6', 'alcohol']

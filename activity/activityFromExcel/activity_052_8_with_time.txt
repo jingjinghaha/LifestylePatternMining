@@ -1,0 +1,13 @@
+1030        cycling
+1037        study
+1450        cycling
+1545        cycling
+1627        cycling
+1700        charging sensor
+1705        shower
+1800        sensorr on
+1845        cycling
+2050        cycling
+2100        meeting
+2345        cycling
+2355        sleep

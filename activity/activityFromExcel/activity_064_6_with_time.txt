@@ -1,0 +1,8 @@
+245         sleep (not at home)
+1200        game/ watching movie
+1430        workout
+1530        lying 
+1600        shower
+1615        homework
+1715        cycling
+1930        homework (phone empty)

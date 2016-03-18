@@ -1,0 +1,3 @@
+['800', 'choco', 'milk']
+['1230', '6', 'sandwich']
+['2000', 'noodles']

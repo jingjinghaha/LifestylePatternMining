@@ -2,5 +2,6 @@ noodles                  1
 fries                    1         
 beer                     1         
 cookie                   1         
+6                        1         
 muesli                   1         
 yoghurt                  2         

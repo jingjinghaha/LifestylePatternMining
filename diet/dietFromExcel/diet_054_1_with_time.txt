@@ -1,0 +1,5 @@
+220         banana
+515         tomato soup and two carrots
+1530        banana
+1745        vegetarian salad with aubergine
+2100        coconut and apple

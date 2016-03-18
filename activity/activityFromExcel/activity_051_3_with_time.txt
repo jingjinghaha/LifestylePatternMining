@@ -1,0 +1,6 @@
+1200        shower
+1500        taking the car
+1523        taking the train
+1700        work
+2330        cycling
+45          sleep

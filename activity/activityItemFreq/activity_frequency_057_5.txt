@@ -4,5 +4,4 @@ work                     2
 drive                    2         
 shower                   1         
 bike                     1         
-sleep                    1         
 wait                     1         

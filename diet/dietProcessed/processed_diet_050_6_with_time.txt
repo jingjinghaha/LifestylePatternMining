@@ -1,0 +1,4 @@
+['919', 'tea', 'sandwich', 'meat', 'cookie']
+['1400', 'bread', 'tuna']
+['1700', 'sauerkraut', 'beef', 'meat']
+['2030', 'coconut', 'waffle']

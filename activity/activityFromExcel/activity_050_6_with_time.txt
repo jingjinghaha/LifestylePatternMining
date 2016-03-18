@@ -1,0 +1,7 @@
+830         walking with the dog
+906         charging sensor
+906         studying
+1430        walking with the dog (forgot the phone)
+1502        computer
+2100        studying
+100         sleep

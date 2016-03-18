@@ -1,0 +1,3 @@
+['815', '4', 'sandwich']
+['1217', '4', 'sandwich', 'banana']
+['1840', 'pasta', 'meat', 'paprika', 'zucchini']

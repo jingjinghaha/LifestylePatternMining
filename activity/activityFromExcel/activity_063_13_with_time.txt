@@ -1,0 +1,4 @@
+130         sleep
+1230        charging sensor
+1530        going in bad
+1630        taking the car (phone empty)

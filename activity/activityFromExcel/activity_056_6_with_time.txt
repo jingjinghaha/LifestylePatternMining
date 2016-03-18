@@ -1,0 +1,15 @@
+1015        driving car
+1022        backery
+1028        driving car
+1035        shopping
+1043        driving car
+1313        household activities
+1320        driving car
+1415        driving car/ shopping
+1639        driving car
+1655        shower
+1730        driving car
+1800        going out for diner
+2140        driving car
+2213        going out
+2330        sleep

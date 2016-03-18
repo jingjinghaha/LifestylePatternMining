@@ -1,0 +1,3 @@
+['711', 'milk', 'cookie', 'coffee']
+['1001', 'sandwich', 'sandwich', '1', 'rice', 'cookie', 'cheese', 'coffee']
+['1910', 'fries', 'meat', 'mayo', 'sate']

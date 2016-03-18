@@ -1,0 +1,8 @@
+815         cycling
+850         taking the car
+1030        taking the car
+1130        cycling
+1140        work 
+1930        taking the car
+2015        cycling
+2330        sleep

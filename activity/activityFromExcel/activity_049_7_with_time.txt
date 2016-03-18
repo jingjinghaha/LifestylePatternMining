@@ -1,0 +1,6 @@
+900         taking the train
+1000        studying
+1315        taking the train
+1700        coocking
+2000        visit
+2300        sleep

@@ -1,0 +1,8 @@
+1200        working
+1715        walking
+1730        taking the train
+1800        shopping
+1900        going out for diner
+2115        driving car
+2245        shower
+2300        sleep

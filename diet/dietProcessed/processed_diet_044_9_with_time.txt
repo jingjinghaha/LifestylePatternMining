@@ -1,0 +1,7 @@
+['805', 'muesli', 'sugar']
+['805', '4', 'bread', 'butter']
+['805', '2', 'coffee']
+['805', 'banana', 'pear']
+['1555', 'pizza', 'chocolate', 'cookie', 'crisp']
+['1815', 'pasat', 'tomato', 'shrimp', 'cola']
+['1815', '7', 'wine']

@@ -1,0 +1,7 @@
+145         1 beer
+215         durum doner
+1030        croissant, "fruitbf" carrots, chocolate egg, "drinkbf"
+1330        baguette cheese
+1630        chocolat cookies
+1815        steak, tomato
+1815        mango, 2 lemonade

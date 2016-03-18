@@ -1,0 +1,11 @@
+530         getting up
+600         running
+620         shower
+630         study
+800         driving car
+900         exam (phone not with me; forbidden)
+1730        shopping
+1800        driving car
+1945        walking with the dog
+2100        jacuzzi
+2145        sleep

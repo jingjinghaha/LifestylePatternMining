@@ -1,0 +1,6 @@
+['837', '3', 'cookie']
+['1210', 'raisin', 'sandwich']
+['1453', 'muesli', 'bar']
+['1615', 'apple', 'nut', 'cake']
+['1745', 'potato', 'fish', 'vegetable']
+['2230', 'chip']

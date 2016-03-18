@@ -1,6 +1,6 @@
-['piece', 'bread', 'tea']
+['2', 'piece', 'bread', 'tea']
 ['sandwich']
 ['banana']
 ['waffle']
 ['soup', 'potato', 'meat', 'sugar']
-['protein', 'gram', 'protein']
+['protein', '26', 'gram', 'protein']

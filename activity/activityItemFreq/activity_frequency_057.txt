@@ -8,7 +8,7 @@ drive                    13
 walk                     8         
 shower                   2         
 bike                     1         
-sleep                    6         
+sleep                    5         
 clean                    1         
 vistit                   1         
 loose                    1         

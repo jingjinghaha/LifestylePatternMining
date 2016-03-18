@@ -1,6 +1,6 @@
-['sandwich']
+['2', 'sandwich']
 ['cookie']
 ['orange']
 ['big', 'sandwich']
-['chip', 'beer']
+['chip', '2', 'beer']
 ['bean', 'make', 'meat']

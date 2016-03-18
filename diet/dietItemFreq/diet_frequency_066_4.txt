@@ -4,5 +4,7 @@ sandwich                 2
 sum                      1         
 juice                    1         
 beer                     2         
+2                        3         
+4                        1         
 popcorn                  1         
 milk                     1         

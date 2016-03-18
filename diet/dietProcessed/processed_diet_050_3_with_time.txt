@@ -1,0 +1,2 @@
+['1145', 'tea', 'cookie']
+['1700', 'potato', 'meat', 'bean']

@@ -1,0 +1,3 @@
+['731', '2', 'piece', 'bread']
+['1755', 'potato', 'meat', 'vegetable']
+['2209', 'chocolate', 'drop']

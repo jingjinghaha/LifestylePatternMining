@@ -1,0 +1,5 @@
+['950', 'muesli', 'yoghurt']
+['1035', 'coffee', 'cookie']
+['1315', '4', 'sandwich', 'milk']
+['1830', '5', 'cookie', 'beer']
+['1950', 'rice', 'chicken']

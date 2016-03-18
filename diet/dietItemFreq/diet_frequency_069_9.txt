@@ -3,6 +3,7 @@ apple                    1
 nut                      1         
 spell                    1         
 soup                     1         
+2                        1         
 cookie                   1         
 egg                      1         
 banana                   1         

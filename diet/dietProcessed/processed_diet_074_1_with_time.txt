@@ -1,0 +1,5 @@
+['1324', 'sandwich', 'vegetable', 'yoghurt', 'muesli']
+['1600', 'apple']
+['1635', 'tea', 'cookie', 'yoghurt', 'muesli']
+['1852', 'quiche', 'yoghurt']
+['2138', 'sandwich', 'nut', 'butter']

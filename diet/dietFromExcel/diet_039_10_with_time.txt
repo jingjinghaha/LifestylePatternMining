@@ -1,0 +1,4 @@
+100         pizza
+204         67kg
+1300        omelet, sausage, coffee cookie
+1940        spaghetti bolognese

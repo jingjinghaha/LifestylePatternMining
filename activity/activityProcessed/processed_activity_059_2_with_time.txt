@@ -1,0 +1,6 @@
+['645', 'snooze']
+['820', 'cycle', 'work']
+['1012', 'charge']
+['1710', 'cycle']
+['1800', 'diner']
+['2200', 'shower']

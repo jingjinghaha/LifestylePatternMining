@@ -1,0 +1,4 @@
+1145        walking
+1200        computer time
+1700        diner
+1730        walking

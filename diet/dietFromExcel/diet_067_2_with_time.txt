@@ -1,0 +1,3 @@
+730         yoghurt, muesli, sandwich, coffee
+1800        one red wine
+1230        yoghurt, two sandwiches, tea

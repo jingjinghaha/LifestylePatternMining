@@ -1,0 +1,3 @@
+['1100', 'carrot', 'egg', 'eggplant']
+['1345', 'muesli']
+['1930', 'pasta', 'spinach', 'beer']

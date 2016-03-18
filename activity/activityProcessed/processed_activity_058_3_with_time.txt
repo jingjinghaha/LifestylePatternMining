@@ -1,0 +1,3 @@
+['930', 'train', 'shop', 'visit']
+['930', 'lunch']
+['930', 'diner']

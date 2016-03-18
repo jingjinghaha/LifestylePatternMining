@@ -1,5 +1,5 @@
 ['study']
 ['cycle']
-['sit', 'up']
+['50', 'sit', 'up']
 ['shower']
 ['sleep']

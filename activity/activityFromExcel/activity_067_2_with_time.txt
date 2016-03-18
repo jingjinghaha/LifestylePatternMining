@@ -1,0 +1,11 @@
+600         running
+610         shower
+715         running
+745         walking with the dog
+815         taking the bus
+900         work (behind computer)
+1700        shopping
+1600        walking with the dog
+1800        diner (three courses)
+2115        jacuzzi
+2230        sleep

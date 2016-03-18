@@ -1,0 +1,11 @@
+710         get up
+720         walk
+725         work
+1700        walk
+1715        run
+1810        shower, dress
+1845        car
+1930        restaurant
+2215        car
+2310        dress, chat
+2420        sleep

@@ -1,0 +1,12 @@
+721         walking with the dog
+752         cycling
+804         taking the train
+830         work
+1210        lunch
+1430        vo2max test
+1652        walking
+1702        taking the train
+1735        cycling
+1946        walking with the dog
+2258        walking with the dog
+2306        sleep

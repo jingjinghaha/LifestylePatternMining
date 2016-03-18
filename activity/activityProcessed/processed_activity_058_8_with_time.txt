@@ -1,0 +1,5 @@
+['715', 'cycle', 'trainstation', 'visit', 'orbis', 'hospital']
+['930', 'university', 'labprotocol']
+['1250', 'cycle', 'shop']
+['1800', 'work', 'horeca']
+['30', 'sleep']

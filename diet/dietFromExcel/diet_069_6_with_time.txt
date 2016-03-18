@@ -1,0 +1,4 @@
+1200        2 sandwiches
+1300        coffee bread
+1630        sandwich
+2000        french fries

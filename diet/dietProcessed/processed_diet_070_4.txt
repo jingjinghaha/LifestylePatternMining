@@ -1,4 +1,4 @@
 ['banana']
-['sandwich']
-['sandwich']
-['cup', 'soup', 'bread']
+['4', 'sandwich']
+['4', 'sandwich']
+['2', 'cup', 'soup', 'bread']

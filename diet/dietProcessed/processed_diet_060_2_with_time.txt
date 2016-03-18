@@ -1,0 +1,2 @@
+['1325', 'vegetable', 'rice']
+['2000', 'sauerkraut']

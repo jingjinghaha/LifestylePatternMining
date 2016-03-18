@@ -1,0 +1,9 @@
+1000        going in bad
+1400        walking 
+1420        at university (phone with me)
+1555        walking
+1910        driving car
+2016        playing tennis
+2150        driving car
+2220        shower
+2300        study

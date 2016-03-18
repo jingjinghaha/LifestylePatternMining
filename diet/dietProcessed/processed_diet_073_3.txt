@@ -1,4 +1,4 @@
-['piece', 'bread']
-['sandwich']
-['white', 'wine']
+['2', 'piece', 'bread']
+['2', 'sandwich']
+['1', 'white', 'wine']
 ['lychees', 'nut']

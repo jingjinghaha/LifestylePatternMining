@@ -1,0 +1,6 @@
+1100        working
+1800        coocking
+2000        shower
+2055        driving car
+2200        going out 
+500         sleep (not at home)

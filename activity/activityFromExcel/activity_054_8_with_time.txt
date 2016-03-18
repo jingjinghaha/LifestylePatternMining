@@ -1,0 +1,11 @@
+945         cycling 
+1045        cycling
+1145        study
+1430        shower
+1600        cycling  (phone not with me)
+1605        walking
+1700        coockie
+1700        shopping
+1745        coocking
+2000        talking and watching movie
+2400        sleep

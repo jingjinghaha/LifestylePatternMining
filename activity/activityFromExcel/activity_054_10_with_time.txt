@@ -1,0 +1,10 @@
+810         running
+1015        shower
+1100        cycling
+1110        at university
+1550        cycling
+1610        cycling
+1628        taking the train
+1800        walking
+1900        driving lessons
+2300        sleep (at parents place)

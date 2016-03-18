@@ -1,0 +1,6 @@
+['1200', 'charge']
+['1230', 'watch', 'computer']
+['1700', 'shower']
+['1915', 'cycle']
+['1930', 'meet']
+['2245', 'cycle']

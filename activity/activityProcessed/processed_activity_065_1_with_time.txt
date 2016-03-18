@@ -1,0 +1,7 @@
+['1630', 'study']
+['1830', 'workout', 'hit']
+['1925', 'cycle']
+['1945', 'cook', 'diner']
+['2005', 'study']
+['2200', 'shower', 'clean']
+['2230', 'sleep']

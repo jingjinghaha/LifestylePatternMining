@@ -1,0 +1,5 @@
+1420        walking (phone not with me)
+1600        driving car
+1750        going in bad
+2215        watching tv, charging sensor
+2330        sleep (not at home)

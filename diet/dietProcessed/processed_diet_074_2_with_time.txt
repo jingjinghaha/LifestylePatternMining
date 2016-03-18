@@ -1,0 +1,8 @@
+['717', 'oatmeal']
+['1024', 'tea', 'nut', 'orange']
+['1125', 'sandwich', 'carrot']
+['1258', 'yoghurt', 'apple']
+['1414', 'sandwich']
+['1550', 'sandwich', 'nut', 'butter']
+['1908', 'quiche', 'salad', 'yoghurt', 'muesli']
+['2056', 'tea', 'chocolate']

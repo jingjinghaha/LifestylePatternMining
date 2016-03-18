@@ -1,0 +1,4 @@
+1300        apple
+1530        sandwich
+2000        pasta
+2200        2 red wine

@@ -6,10 +6,13 @@ apple                    1
 juice                    1         
 meal                     1         
 milk                     1         
-sugar                    2         
-instant                  1         
 fruit                    1         
+sugar                    2         
+1                        2         
+instant                  1         
 strawberry               1         
+2                        2         
+4                        1         
 muesli                   1         
 chicken                  1         
 yoghurt                  1         

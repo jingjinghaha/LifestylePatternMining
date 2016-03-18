@@ -1,0 +1,5 @@
+['930', '4', 'sandwich', 'coffee', 'juice']
+['1130', 'ginger', 'bread']
+['1315', '3', 'sandwich', 'milk']
+['1630', 'milk']
+['1910', 'tilapia', 'broccoli', 'potato']

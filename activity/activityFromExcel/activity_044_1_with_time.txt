@@ -1,0 +1,3 @@
+1845        walk home
+1930        around the house (clean, dishes, sit)
+2330        sleep

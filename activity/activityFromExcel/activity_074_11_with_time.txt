@@ -1,0 +1,11 @@
+830         running
+910         shower
+940         packing stuf
+1000        cycling
+1020        waiting
+1030        driving car
+1418        visiting
+1709        driving car
+1900        diner and watching movie
+2150        computer, making food
+2255        sleep

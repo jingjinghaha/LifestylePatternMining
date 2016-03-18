@@ -1,0 +1,15 @@
+240         cycling (behind)
+300         chain off bicycle
+340         sleep
+830         charging sensor and sleep
+1040        watching tv
+1455        shower
+1540        cycling
+1600        lecture
+1805        cycling
+1820        diner with friends
+1857        cycling
+1905        going out
+2300        walking
+2315        cycling
+2320        party

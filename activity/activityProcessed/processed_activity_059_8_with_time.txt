@@ -1,0 +1,7 @@
+['805', 'drive', 'car']
+['1330', 'maximum', 'cpet']
+['1420', 'shower']
+['1805', 'drive', 'car']
+['2000', 'drive', 'car', 'shop']
+['2100', 'drive', 'car']
+['2330', 'sleep']

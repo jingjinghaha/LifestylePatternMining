@@ -1,0 +1,4 @@
+['945', '2', 'sandwich', 'juice', 'coffee']
+['1400', '4', 'sandwich', 'milk']
+['1830', 'dim', 'sum', '2', 'beer']
+['2030', 'popcorn', '2', 'beer']

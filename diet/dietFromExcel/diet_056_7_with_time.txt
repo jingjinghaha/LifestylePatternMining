@@ -1,0 +1,4 @@
+1142        quark
+1435        2 tangerine
+1540        apple pie
+1825        chinees

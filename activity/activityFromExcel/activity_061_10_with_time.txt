@@ -1,0 +1,6 @@
+400         charging sensor
+1015        watching computer/ tv
+1630        shower
+1800        driving car
+2000        concert, sitting
+2300        driving car

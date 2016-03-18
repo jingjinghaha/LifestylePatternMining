@@ -1,0 +1,13 @@
+230         taking the taxi and train
+315         walking
+345         sleep
+1300        charging sensor
+1430        relaxen
+1500        cleaning and packing stuff
+1600        shopping and walking to train
+1635        taking the train
+1905        walking
+1915        coocking
+1945        watching movie
+2100        cleaning
+2300        sleep (not at home)

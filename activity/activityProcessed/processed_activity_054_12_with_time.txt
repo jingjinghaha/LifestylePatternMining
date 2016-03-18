@@ -1,0 +1,7 @@
+['940', 'run']
+['1100', 'shower']
+['1315', 'craftwork']
+['1815', 'shop', 'cycle']
+['1910', 'dish']
+['1920', 'watch', 'movie']
+['2330', 'sleep', 'parent', 'place']

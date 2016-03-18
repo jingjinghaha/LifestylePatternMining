@@ -1,5 +1,6 @@
-orange                   1         
 sandwich                 1         
-cookie                   1         
 sauerkraut               1         
 beef                     2         
+2                        1         
+cookie                   1         
+orange                   1         

@@ -1,0 +1,9 @@
+720         dress
+750         walk
+755         work
+1700        VO2max
+1730        walk
+1735        sit
+1800        cook
+1900        bath
+1945        relax

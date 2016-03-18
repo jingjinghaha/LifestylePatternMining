@@ -1,0 +1,7 @@
+['930', 'walk']
+['930', 'breakfast']
+['930', 'snack']
+['1100', 'car', 'drive']
+['1115', 'visit', 'grandmother']
+['1300', 'car', 'drive']
+['1700', 'diner']

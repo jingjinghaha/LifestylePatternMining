@@ -1,0 +1,11 @@
+1015        awake
+1030        work
+1200        shower, dress
+1245        bike
+1500        shop
+1700        pc
+1900        groceries
+1925        pc
+2230        make bed
+2240        read in bed
+2320        sleep

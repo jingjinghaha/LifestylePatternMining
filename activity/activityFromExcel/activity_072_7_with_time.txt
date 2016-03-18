@@ -1,0 +1,10 @@
+815         cycling
+830         sport
+1005        cycling
+1045        shower and cleaning
+1155        cycling
+1250        cycling and shopping
+1455        cycling
+1530        playing in garden
+1644        cycling
+2055        charging sensor

@@ -1,0 +1,12 @@
+740         driving car
+755         walking
+819         taking the train
+836         taking the bus
+900         course at school: medical taping
+1303        taking the bus
+1459        taking the train
+1512        walking
+1522        driving car
+1700        walking with the dog
+1745        walking with the dog
+2100        sleep

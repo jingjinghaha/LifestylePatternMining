@@ -1,0 +1,6 @@
+['908', '2', 'piece', 'bread', 'tea']
+['1310', 'sandwich']
+['1115', 'banana']
+['1530', 'waffle']
+['1815', 'soup', 'potato', 'meat', 'sugar']
+['2100', 'protein', '26', 'gram', 'protein']

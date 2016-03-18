@@ -1,0 +1,4 @@
+730         breakfast
+1000        coffee, banana, apple
+1545        apricots
+1800        pasta, fish

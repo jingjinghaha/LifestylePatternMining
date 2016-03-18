@@ -1,0 +1,4 @@
+['700', 'ginger', 'bread']
+['1250', 'sandwich', 'noodles']
+['1800', 'potato', 'vegetable']
+['2230', 'ginger', 'bread']

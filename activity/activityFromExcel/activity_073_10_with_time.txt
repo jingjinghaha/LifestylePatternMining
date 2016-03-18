@@ -1,0 +1,8 @@
+1030        driving car and walking
+1330        driving car
+1650        walking with the dog
+1750        driving car
+1804        driving car
+1900        driving car
+2348        walking
+2356        sleep

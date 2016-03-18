@@ -1,0 +1,7 @@
+['145', 'sleep', 'friends', 'place']
+['1140', 'clean']
+['1345', 'walk']
+['1417', 'train']
+['1730', 'walk']
+['1737', 'watch', 'tv']
+['2330', 'sleep']

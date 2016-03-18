@@ -1,0 +1,14 @@
+1010        shower
+1040        cycling
+1100        lesson
+1315        cycling and walking
+1320        shopping
+1325        cycling
+1410        cycling
+1755        charging sensor
+1840        cycling
+1900        meeting
+1025        cycling
+1030        going out
+220         cycling (behind)
+230         sleep (sensor off)

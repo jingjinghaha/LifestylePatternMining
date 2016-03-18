@@ -1,0 +1,3 @@
+['1000', 'yoghurt', 'muesli']
+['1200', 'coffee', 'bread', 'banana']
+['2030', 'soup', 'bread']

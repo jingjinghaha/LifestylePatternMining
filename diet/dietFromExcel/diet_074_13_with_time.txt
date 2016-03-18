@@ -1,0 +1,6 @@
+708         oatmeal
+1000        oatmeal, grapes, chocoalde
+1200        two sandwiches, tangerine, yoghurt
+1500        tangerine, cracker, oatmeal
+1811        rice, beans, lentils, curry, chocolade
+2110        nuts, tangerines

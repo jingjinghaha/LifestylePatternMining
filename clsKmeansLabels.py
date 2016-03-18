@@ -60,14 +60,14 @@ def bestLabel(metric,n_clusters):
 			# the labels are got from KMeans based on TF without PCA
 			
 			if domain == 'DietType' and n_clusters == 2:
-				labels = string2array('0 0 1 1 1 0 1 1 1 1 1 0 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1')
+				labels = string2array('1 1 0 1 1 1 1 0 0 0 0 1 0 0 0 0 1 0 0 1 0 0 0 0 1 0 1 1 1')
 			if domain == 'ActType' and n_clusters == 2:
 				labels = string2array('0 1 0 0 1 1 1 1 1 0 1 1 0 1 0 1 1 0 0 1 1 0 0 1 0 0 1 1 0')
 
 			if domain == 'DietType' and n_clusters == 3:
 				labels = string2array('0 2 0 1 0 2 1 0 0 1 1 2 0 0 0 1 2 0 0 2 0 0 0 0 1 0 1 2 1')
 			if domain == 'ActType' and n_clusters == 3:
-				labels = string2array('2 1 2 2 0 0 0 0 1 2 0 0 2 0 1 0 0 2 2 0 1 2 2 0 2 2 0 1 1')
+				labels = string2array('1 2 1 1 2 2 0 0 0 1 0 2 1 0 1 0 2 1 1 0 2 1 1 0 1 1 2 0 1')
 
 			if domain == 'DietType' and n_clusters == 4:
 				labels = string2array('0 1 2 1 2 0 1 2 2 3 3 0 2 2 2 2 0 1 2 0 2 2 2 2 3 2 1 3 3')
@@ -159,7 +159,7 @@ def bestLabel(metric,n_clusters):
 				# bestLabel(domain,metric,n_clusters)
 
 def clusteringKmeansLabels():
-	for n_clusters in range(3,4):
+	for n_clusters in range(2,3):
 		bestLabel('TF',n_clusters)
 
 # bestLabel('DietItem',4)

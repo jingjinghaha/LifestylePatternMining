@@ -1,0 +1,13 @@
+2300        sleep
+720         taking the train
+900         study
+1525        relaxing
+1645        shower
+1615        charging sensor
+1800        cycling
+1830        cycling
+1930        french fries, sate, salad
+2015        cycling
+2020        ice cream
+115         cycling
+145         sleep

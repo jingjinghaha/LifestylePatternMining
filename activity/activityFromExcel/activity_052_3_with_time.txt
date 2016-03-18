@@ -1,0 +1,4 @@
+1300        charging sensor
+1530        driving car
+1550        driving car
+2300        sleep

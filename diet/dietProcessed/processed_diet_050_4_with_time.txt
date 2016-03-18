@@ -1,0 +1,4 @@
+['930', 'tea', 'cookie', 'sandwich']
+['930', 'yoghurt', 'muesli']
+['1115', 'apple', 'pie', 'tea', 'fruit']
+['1700', 'pizza', 'yoghurt', 'muesli', 'tea']

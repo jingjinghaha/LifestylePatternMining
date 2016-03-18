@@ -1,3 +1,3 @@
 ['muesli', 'yoghurt']
-['soup', 'bread', 'drink', 'wine']
+['soup', 'bread', '1', 'drink', 'wine']
 ['coffee']

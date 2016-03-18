@@ -1,0 +1,17 @@
+820         walking with the dog
+900         driving car
+920         walking
+933         taking the train
+1024        taking the bus
+1031        walking
+1100        school
+1300        walking
+1305        taking the bus
+1314        taking the train
+1400        walking
+1410        driving car
+1430        walking with the dog
+1910        workout XCO (forgot the phone)
+2030        driving car
+2055        studying
+2230        sleep

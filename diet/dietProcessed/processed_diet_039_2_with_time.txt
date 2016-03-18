@@ -1,0 +1,5 @@
+['1512', 'egg', 'sandwich', 'cheese']
+['1300', 'coffee', 'cookie']
+['1905', 'mince', 'meat', 'noodles', 'salad']
+['1950', 'thee', 'cookie']
+['2307', 'sandwich', 'meat']

@@ -1,0 +1,5 @@
+['1015', 'sandwich', 'egg']
+['1400', 'banana', 'milk']
+['1430', 'sandwich', 'bread', 'bread']
+['1800', 'potato', 'bean', 'meat']
+['2115', 'chocolate']

@@ -1,0 +1,6 @@
+800         taking the bus
+830         taking the train
+1030        taking the car
+1615        taking the car
+1700        taking the train
+1930        taking the bus

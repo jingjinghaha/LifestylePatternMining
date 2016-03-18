@@ -1,0 +1,4 @@
+['1000', 'study', 'cook', 'clean']
+['1533', 'run']
+['1620', 'study']
+['1620', 'muffins']

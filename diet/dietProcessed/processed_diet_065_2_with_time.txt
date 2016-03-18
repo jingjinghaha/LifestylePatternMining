@@ -1,0 +1,3 @@
+['730', 'sandwich', 'cheese', 'sugar']
+['1300', 'sandwich', 'cheese']
+['1800', 'zucchini', 'soup', 'sandwich', 'goat', 'cheese', 'date']

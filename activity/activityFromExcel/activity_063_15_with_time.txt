@@ -1,0 +1,2 @@
+30          sleep
+900         getting up

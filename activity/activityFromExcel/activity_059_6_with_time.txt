@@ -1,0 +1,11 @@
+40          cycling
+110         sleep
+700         getting up 
+735         cycling to work
+905         charging sensor
+1200        cycling
+1225        cycling
+1330        mountain bike (60km)
+1825        taking the car
+2300        taking the car
+2330        sleep

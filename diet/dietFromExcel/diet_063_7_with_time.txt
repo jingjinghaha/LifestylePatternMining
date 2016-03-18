@@ -1,0 +1,5 @@
+1130        raisin
+1300        pie
+1500        pasta
+1553        chocolade
+1900        salad, chicken, patatoe

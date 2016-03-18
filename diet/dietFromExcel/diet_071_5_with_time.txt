@@ -1,0 +1,3 @@
+1100        muesli, apple, yoghurt
+1300        red cole, egg, patatoe
+1710        pancake, tangerine

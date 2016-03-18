@@ -1,0 +1,14 @@
+740         getting up, cleaning and breakfast
+842         cycling
+900         study
+1300        driving lessons
+1612        cycling
+1630        sleep
+1745        cycling to gym
+1815        workout
+1915        cycling
+1935        talking with roommate, taking a shower
+2005        cycling (phone not with me during the night)
+2010        diner
+2050        cycling
+2100        going out

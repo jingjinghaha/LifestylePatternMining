@@ -1,0 +1,16 @@
+645         shower
+730         driving car
+830         work
+1230        driving car
+1300        walking/ cycling
+1310        work
+1450        cycling
+1500        work
+1715        cycling
+1725        driving car
+1735        party
+1905        driving car
+2000        bringing child to bed
+2035        watching tv
+2230        reading in bed
+2330        sleep (charging sensor)

@@ -1,0 +1,8 @@
+713         getting up
+738         work
+1411        driving car
+1503        waiting
+1517        driving car
+1543        shopping for bicycle
+1627        work
+1902        shower (sensor off)

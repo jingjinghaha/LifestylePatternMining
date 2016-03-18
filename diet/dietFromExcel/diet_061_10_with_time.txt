@@ -1,0 +1,4 @@
+1000        three sandwiches, one apple, two banana, egg
+1715        pizza
+2000        four beer
+2345        chips

@@ -1,0 +1,7 @@
+815         charging sensor
+925         cycling
+1430        lunch part 2
+1610        cycling
+1840        cycling
+2140        cycling
+2330        sleep

@@ -1,0 +1,6 @@
+['730', 'shower']
+['815', 'cycle', 'shop']
+['1225', 'cycle', 'wait']
+['1750', 'cycle', 'wait']
+['2030', 'charge']
+['2200', 'bed']

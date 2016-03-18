@@ -1,0 +1,4 @@
+1100        peer, carrot, egg, eggplant
+1300        peer
+1345        musli
+1930        pasta with spinach. Two beer

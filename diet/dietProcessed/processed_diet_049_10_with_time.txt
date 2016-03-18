@@ -1,0 +1,4 @@
+['930', 'sandwich', 'egg', 'sandwich', 'nut', 'butter', 'coffee']
+['1100', 'sandwich', 'sandwich', 'meat', 'fruit']
+['1830', 'cauliflower', 'potato']
+['2200', 'five', 'beer', 'snack']

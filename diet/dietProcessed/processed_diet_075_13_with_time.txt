@@ -1,0 +1,3 @@
+['730', 'oatmeal']
+['1217', 'apple', 'orange', 'cookie', 'carrot']
+['1840', 'pasta']

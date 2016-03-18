@@ -1,0 +1,13 @@
+620         dress
+650         car
+700         swim
+900         dress
+910         car home
+920         pc
+1200        walk
+1205        work
+1500        walk
+1505        study
+1720        groceries, car
+1740        cook, relax, pc
+2320        sleep

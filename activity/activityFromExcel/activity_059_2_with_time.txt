@@ -1,0 +1,7 @@
+645         snooze
+745         getting up
+820         cycling to work
+1012        charging
+1710        cycling
+1800        going out for diner
+2200        shower

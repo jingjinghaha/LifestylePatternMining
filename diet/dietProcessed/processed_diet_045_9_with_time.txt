@@ -1,0 +1,3 @@
+['1400', 'sandwich']
+['2000', 'bread', 'meat', 'fries']
+['2200', '15', 'drink', 'alcohol']

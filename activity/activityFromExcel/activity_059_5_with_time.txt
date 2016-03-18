@@ -1,0 +1,11 @@
+745         getting up 
+810         cycling
+830         taking the train
+1030        taking the bus
+1112        charging sensor
+1850        walking
+1905        taking the bus
+1911        walking
+2145        walking and running to bus
+2217        taking the bus
+2238        taking the train

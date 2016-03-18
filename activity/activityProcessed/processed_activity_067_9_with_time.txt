@@ -1,0 +1,7 @@
+['615', 'shower']
+['730', 'walk']
+['810', 'university', 'bus']
+['1630', 'drive', 'car']
+['1900', 'set', 'christmas', 'tree']
+['2000', 'run']
+['2200', 'sleep']

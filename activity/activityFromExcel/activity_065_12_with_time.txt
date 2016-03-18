@@ -1,0 +1,9 @@
+730         getting up and breakfast
+910         cycling 
+930         at university
+1210        cycling to trainstation
+1228        taking the train
+1530        work
+1630        train and car to home
+1900        watching tv
+2230        sleep

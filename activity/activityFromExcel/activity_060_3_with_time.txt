@@ -1,0 +1,8 @@
+830         cycling
+845         lecture
+1130        cycling
+1140        walking
+1245        cycling
+1830        cycling
+2050        shopping
+2345        sleep

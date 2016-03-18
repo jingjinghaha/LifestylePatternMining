@@ -1,0 +1,3 @@
+['1030', '695', 'yoghurt', 'fruit', 'muesli', 'coffee']
+['1030', 'sandwich', 'egg', 'juice', 'orange']
+['1830', 'chicken', 'vegetable']

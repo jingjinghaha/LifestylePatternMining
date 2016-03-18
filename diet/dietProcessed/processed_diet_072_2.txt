@@ -1,5 +1,5 @@
-['sandwich']
-['orange']
-['noodles', 'sandwich']
+['3', 'sandwich']
+['2', 'orange']
+['noodles', '1', 'sandwich']
 ['cookie']
 ['pasta', 'rice']

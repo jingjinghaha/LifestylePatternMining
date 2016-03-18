@@ -31,6 +31,7 @@ diner                    3
 phone                    2         
 try                      1         
 study                    11        
+30                       3         
 shower                   9         
 empty                    1         
 elektrode                1         

@@ -1,0 +1,8 @@
+['245', 'sleep']
+['1200', 'game', 'watch', 'movie']
+['1430', 'workout']
+['1530', 'lie']
+['1600', 'shower']
+['1615', 'homework']
+['1715', 'cycle']
+['1930', 'homework', 'phone', 'empty']

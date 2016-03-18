@@ -1,0 +1,10 @@
+715         driving car
+736         walking
+749         taking the train
+806         taking the bus
+900         course at school: medical taping
+1703        taking the bus
+1745        taking the train
+1758        walking
+1830        watching tv
+2200        sleep

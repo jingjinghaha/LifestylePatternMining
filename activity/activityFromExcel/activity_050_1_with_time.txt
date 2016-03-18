@@ -1,0 +1,12 @@
+1045        travelling by train
+1142        shopping
+1230        car driving
+1250        walking
+1340        car driving
+1340        shopping
+1405        car driving
+1715        walking
+2030        taxi
+2200        taxi
+2230        going out
+215         taxi

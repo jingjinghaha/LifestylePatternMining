@@ -1,0 +1,6 @@
+['950', 'cycle', 'charge']
+['1130', 'study', 'dish']
+['1151', 'exam']
+['1731', 'watch', 'tv']
+['1900', 'cook', 'diner']
+['2045', 'cycle']

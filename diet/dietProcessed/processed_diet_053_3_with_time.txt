@@ -1,0 +1,6 @@
+['1459', 'iceCream']
+['1917', '63']
+['1843', 'meat', 'vegetable', 'potato']
+['1919', 'chocolate']
+['2001', 'tomato']
+['2200', 'ten', 'beer']

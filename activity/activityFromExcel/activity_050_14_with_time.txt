@@ -1,0 +1,13 @@
+950         walking with the dog (forgot the phone)
+1325        driving car
+1345        walking
+1403        taking the train
+1454        taking the bus
+1501        walking
+1530        school
+1730        walking
+1735        taking the bus
+1744        taking the train
+1828        walking
+1836        driving car
+2400        sleep

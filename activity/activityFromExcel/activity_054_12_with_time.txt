@@ -1,0 +1,7 @@
+940         running
+1100        shower
+1315        craftwork
+1815        shopping (cycling)
+1910        dishes
+1920        watching movie
+2330        sleep (at parents place)
