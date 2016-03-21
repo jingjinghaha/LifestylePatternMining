@@ -10,16 +10,16 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def visTFMatrix():
-	# tf_ActItem = utilise.normArray(utilise.genActItemTFArray())
-	tf_ActItem = utilise.genActItemTFArray()
+	tf_ActItem = utilise.normArray(utilise.genActItemTFArray())
+	# tf_ActItem = utilise.genActItemTFArray()
 	plt.figure()
 	plt.matshow(tf_ActItem)
 	plt.colorbar()
 	plt.title('actTFMatrix')
 	plt.savefig('visTForTFIDFMatrix/actTFMatrix')
 	
-	# tf_DietItem = utilise.normArray(utilise.genDietItemTFArray())
-	tf_DietItem = utilise.genDietItemTFArray()
+	tf_DietItem = utilise.normArray(utilise.genDietItemTFArray())
+	# tf_DietItem = utilise.genDietItemTFArray()
 	plt.figure()
 	plt.matshow(tf_DietItem)
 	plt.colorbar()
@@ -33,16 +33,16 @@ def visTFMatrix():
 	plt.title('actDietTFMatrix')
 	plt.savefig('visTForTFIDFMatrix/actDietTFMatrix')
 	
-	# tf_DietType = utilise.normArray(utilise.genDietTypeTFArray())
-	tf_DietType = utilise.genDietTypeTFArray()
+	tf_DietType = utilise.normArray(utilise.genDietTypeTFArray())
+	# tf_DietType = utilise.genDietTypeTFArray()
 	plt.figure()
 	plt.matshow(tf_DietType)
 	plt.colorbar()
 	plt.title('dietTypeTFMatrix')
 	plt.savefig('visTForTFIDFMatrix/dietTypeTFMatrix')
 	
-	# tf_ActType = utilise.normArray(utilise.genActTypeTFArray())
-	tf_ActType = utilise.genActTypeTFArray()
+	tf_ActType = utilise.normArray(utilise.genActTypeTFArray())
+	# tf_ActType = utilise.genActTypeTFArray()
 	plt.figure()
 	plt.matshow(tf_ActType)
 	plt.colorbar()
@@ -56,4 +56,4 @@ def visTFMatrix():
 	plt.title('actDietTypeTFMatrix')
 	plt.savefig('visTForTFIDFMatrix/actDietTypeTFMatrix')
 
-# visTFMatrix()
+visTFMatrix()
