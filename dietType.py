@@ -6,7 +6,7 @@ Created on Fri Dec 04 16:10:15 2015
 """
 
 '''
-the third version, sperate snacks into sweet food and nuts; and add eggP 
+the 3rd version, sperate snacks into sweet food and nuts; and add eggP 
 '''
 #fruit products: 
 Type1 = ['jam','raisin','currants','fruit','orange','apple','banana','kiwi','sultana','pineapple','smoothie','juice']

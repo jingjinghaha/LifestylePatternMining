@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 import numpy as np
 import utilise
-import slpInfoRetrv 
+import dataGen4DietAct
 from kmeans import * 
 
 # Domain = ['DietItem','ActItem','DietType','ActType','ActDietItem','ActDietType']
@@ -72,10 +72,12 @@ def KM(domain, metric, n_clusters):
         if Inertia[i] == min:
             inertia = Inertia[i] 
             labels = Labels[i]
-    a,b = kMeans(X,2)
-    print b[:,0].shape
-    print a,b[:,0].ravel()
-    print sum(b[:,1].ravel())
+    
+#    a,b = kMeans(X,2)
+#    print b[:,0].shape
+#    print a,b[:,0].ravel()
+#    print sum(b[:,1].ravel())
+    
     print domain,metric,n_clusters,inertia, labels
 
 def plotPCA(reduced_data,):
@@ -119,13 +121,22 @@ def plotPCA(reduced_data,):
     #plt.savefig('visClustering'+domain+'Pattern/KMeans_'+metric+'_'+str(n_clusters)+'_'+str(j))
     # plt.show()
 
-def KM_slp(n_clusters):
-    X = slpInfoRetrv.getSlpFeatTabl()
+
+def KM_nonslp(domain,metric,n_clusters):
+    if domain == 'DietType':
+        X = dataGen4DietAct.genDietTypeTFArrayWithSlp()
+    else:
+        X = dataGen4DietAct.genActTypeTFArrayWithSlp()
+    
+    X = utilise.normArray(X)
+
     Inertia = []
     Labels = []
-    for j in range(200):
-        reduced_data = PCA(n_components=2).fit_transform(X)
+
+    for j in range(300):
+
         kmeans = KMeans(init='k-means++', n_clusters=n_clusters, n_init=10)
+        
         kmeans.fit(X)
         
         inertia = kmeans.inertia_
@@ -133,30 +144,21 @@ def KM_slp(n_clusters):
         
         labels = kmeans.labels_
         Labels.append(labels)
-    
-    x_min, x_max = reduced_data[:, 0].min() - 1, reduced_data[:, 0].max() + 1
-    y_min, y_max = reduced_data[:, 1].min() - 1, reduced_data[:, 1].max() + 1
-    plt.figure()
-    plt.plot(reduced_data[:, 0], reduced_data[:, 1], 'k.', markersize=2)
-    # for i in range(reduced_data.shape[0]):
-        # plt.text(reduced_data[i, 0], reduced_data[i, 1],i)
-    centroids = kmeans.cluster_centers_
-    plt.scatter(centroids[:, 0], centroids[:, 1],
-                marker='x', s=100, linewidths=2,
-                color='w', zorder=10)
-    plt.xlim(x_min, x_max)
-    plt.ylim(y_min, y_max)
-    
+
     min = np.min(Inertia)
+    
     for i in range(len(Inertia)):
+        
         if Inertia[i] == min:
             inertia = Inertia[i] 
-            labels = Labels[i] 
-    print inertia, labels
+            labels = Labels[i]
+    
+    print domain,metric,n_clusters,inertia, labels
+    
 
-for n_clusters in range(2,3):
+for n_clusters in range(2,5):
     for domain in Domain:
-        KM(domain, 'TF',n_clusters)
+        KM_nonslp(domain, 'TF',n_clusters)
 
 # for n_clusters in range(5,7):
     # for domain in Domain:

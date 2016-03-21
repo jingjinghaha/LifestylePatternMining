@@ -59,7 +59,7 @@ def build_daily_single_diet_index_with_time(subjectID,n):
 	'''
 	index = {}
 	
-	PList = ['P1','P2','P3','P4','P5']
+	PList = ['P1','P2','P3','P4','P5','P6']
 	for key in PList:
 		index[key] = {}
 	
@@ -75,8 +75,10 @@ def build_daily_single_diet_index_with_time(subjectID,n):
 			P = 'P3'
 		elif time/100 <17:
 			P = 'P4'
-		else: 
+		elif time/100 < 19: 
 			P = 'P5'
+		else: 
+			P = 'P6'
 		
 		for i in range(1,len(line)): 
 			

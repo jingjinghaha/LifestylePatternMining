@@ -73,6 +73,7 @@ change the itemDict or typeDict into list
 def itemDict2list(dict):
 	list = []
 	for key in dict:
+		print key 
 		list.append(dict[key])
 	return list
 
