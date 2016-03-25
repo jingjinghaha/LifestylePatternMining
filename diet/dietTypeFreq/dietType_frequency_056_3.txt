@@ -1,5 +1,4 @@
-fruitP                   1         
 compositeP               1         
-sweetF                   1         
+snack                    2         
+fruitP                   1         
 starchyP                 1         
-nutP                     1         

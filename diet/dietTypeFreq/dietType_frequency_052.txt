@@ -1,9 +1,8 @@
-sweetF                   2         
+snack                    3         
 dairyP                   12        
 eggP                     4         
 seafood                  1         
 vegetables               2         
-nutP                     1         
 fruitP                   9         
 meatP                    10        
 compositeP               31        

@@ -1,4 +1,4 @@
-sweetF                   16        
+snack                    16        
 grainP                   5         
 vegetables               7         
 dairyP                   2         

@@ -1,11 +1,10 @@
 caffeineD                3         
-sweetF                   21        
+snack                    31        
 dairyP                   21        
-vegetables               15        
-nutP                     10        
+seafood                  2         
 alcoholD                 2         
 fruitP                   19        
 starchyP                 6         
 compositeP               20        
-seafood                  2         
+vegetables               15        
 grainP                   26        

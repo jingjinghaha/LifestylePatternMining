@@ -1,5 +1,5 @@
 vegetables               1         
-sweetF                   1         
+snack                    1         
 starchyP                 1         
 meatP                    1         
 grainP                   1         

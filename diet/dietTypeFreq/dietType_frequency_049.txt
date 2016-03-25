@@ -1,9 +1,8 @@
 caffeineD                9         
-sweetF                   3         
+snack                    4         
 dairyP                   8         
 eggP                     4         
 vegetables               7         
-nutP                     1         
 seafood                  4         
 fruitP                   17        
 meatP                    9         

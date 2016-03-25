@@ -1,5 +1,5 @@
 seafood                  1         
 compositeP               2         
 vegetables               1         
-sweetF                   1         
+snack                    1         
 caffeineD                1         

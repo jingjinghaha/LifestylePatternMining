@@ -1,4 +1,4 @@
-sweetF                   2         
+snack                    2         
 dairyP                   1         
 seafood                  1         
 fruitP                   1         

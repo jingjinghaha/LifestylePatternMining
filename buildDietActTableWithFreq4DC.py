@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Mar 21 17:47:04 2016
+Created on Tue Mar 22 15:26:13 2016
 
 @author: wu34
 """
@@ -8,7 +8,7 @@ Created on Mon Mar 21 17:47:04 2016
 import xlwt
 import xlrd
 import utilise
-import buildTypeIndex 
+import buildTypeIndex
 
 available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
 
@@ -33,45 +33,25 @@ def buildSingleActExcel(subjectID):
     
         if sheet.cell_value(rowR,0):
 
+            ws.write(rowW,0,subjectID)
+            ws.write(rowW,1,sheet.cell_value(rowR,0))
             index += 1
 
             dd = {}
-            PList = ['P1','P2','P3']
-            for key in PList:
-                dd[key] = {}
-            
-            for key in dd: 
-                for label in row_labels:
-                    dd[key][label] = 0
+            for label in row_labels:
+                dd[label] = 0
 
             temp = buildTypeIndex.build_daily_single_activity_index_with_time4DC(subjectID,index)
             
-            for key in dd: 
+            for key in temp: 
                 for type in temp[key]:
-                    if type in dd[key]:
-                        dd[key][type] = temp[key][type] 
+                    dd[type] += temp[key][type]
 
-            ws.write(rowW,0,subjectID)
-            ws.write(rowW,1,sheet.cell_value(rowR,0))
-            ws.write(rowW,2,'P1')
-            ws.write(rowW,3,str(dd['P1'].keys()))
-            ws.write(rowW,4,str(dd['P1'].values()))
-            rowW += 1
-            ws.write(rowW,0,subjectID)
-            ws.write(rowW,1,sheet.cell_value(rowR,0))
-            ws.write(rowW,2,'P2')
-            ws.write(rowW,3,str(dd['P2'].keys()))
-            ws.write(rowW,4,str(dd['P2'].values()))
-            rowW += 1
-            ws.write(rowW,0,subjectID)
-            ws.write(rowW,1,sheet.cell_value(rowR,0))
-            ws.write(rowW,2,'P3')
-            ws.write(rowW,3,str(dd['P3'].keys()))
-            ws.write(rowW,4,str(dd['P3'].values()))
-            rowW += 1
-            
+            ws.write(rowW,2,str(dd.keys()))
+            ws.write(rowW,3,str(dd.values()))
+            rowW += 1   
         
-    workbookW.save('activity/activityTable_'+subjectID+'_withFreq.xls')
+    workbookW.save('activity/activityTable_'+subjectID+'_withFreq4DC.xls')
 
 def buildSingleDietExcel(subjectID):
     '''
@@ -93,62 +73,25 @@ def buildSingleDietExcel(subjectID):
 
         if sheet.cell_value(rowR,0):
         
+            ws.write(rowW,0,subjectID)
+            ws.write(rowW,1,sheet.cell_value(rowR,0))
             index += 1 
 
             dd = {}
-            PList = ['P1','P2','P3','P4','P5','P6']
-            for key in PList:
-                dd[key] = {}
-            
-            for key in dd: 
-                for label in row_labels:
-                    dd[key][label] = 0
+            for label in row_labels:
+                dd[label] = 0
 
             temp = buildTypeIndex.build_daily_single_diet_index_with_time4DC(subjectID,index)
             
-            for key in dd: 
+            for key in temp: 
                 for type in temp[key]:
-                    if type in dd[key]:
-                        dd[key][type] = temp[key][type] 
+                    dd[type] += temp[key][type]
 
-            ws.write(rowW,0,subjectID)
-            ws.write(rowW,1,sheet.cell_value(rowR,0))
-            ws.write(rowW,2,'P1')
-            ws.write(rowW,3,str(dd['P1'].keys()))
-            ws.write(rowW,4,str(dd['P1'].values()))
-            rowW += 1
-            ws.write(rowW,0,subjectID)
-            ws.write(rowW,1,sheet.cell_value(rowR,0))
-            ws.write(rowW,2,'P2')
-            ws.write(rowW,3,str(dd['P2'].keys()))
-            ws.write(rowW,4,str(dd['P2'].values()))
-            rowW += 1
-            ws.write(rowW,0,subjectID)
-            ws.write(rowW,1,sheet.cell_value(rowR,0))
-            ws.write(rowW,2,'P3')
-            ws.write(rowW,3,str(dd['P3'].keys()))
-            ws.write(rowW,4,str(dd['P3'].values()))
-            rowW += 1
-            ws.write(rowW,0,subjectID)
-            ws.write(rowW,1,sheet.cell_value(rowR,0))
-            ws.write(rowW,2,'P4')
-            ws.write(rowW,3,str(dd['P4'].keys()))
-            ws.write(rowW,4,str(dd['P4'].values()))
-            rowW += 1
-            ws.write(rowW,0,subjectID)
-            ws.write(rowW,1,sheet.cell_value(rowR,0))
-            ws.write(rowW,2,'P5')
-            ws.write(rowW,3,str(dd['P5'].keys()))
-            ws.write(rowW,4,str(dd['P5'].values()))
-            rowW += 1
-            ws.write(rowW,0,subjectID)
-            ws.write(rowW,1,sheet.cell_value(rowR,0))
-            ws.write(rowW,2,'P6')
-            ws.write(rowW,3,str(dd['P6'].keys()))
-            ws.write(rowW,4,str(dd['P6'].values()))
+            ws.write(rowW,2,str(dd.keys()))
+            ws.write(rowW,3,str(dd.values()))
             rowW += 1
 
-    workbookW.save('diet/dietTable_'+subjectID+'_withFreq.xls')
+    workbookW.save('diet/dietTable_'+subjectID+'_withFreq4DC.xls')
 
 def buildActExcel():
     '''
@@ -160,7 +103,7 @@ def buildActExcel():
     rowW = 0
 
     for subjectID in available_list:
-        file_location = 'activity/activityTable_'+subjectID+'_withFreq.xls'
+        file_location = 'activity/activityTable_'+subjectID+'_withFreq4DC.xls'
         workbookR = xlrd.open_workbook(file_location)
         sheet = workbookR.sheet_by_index(0)
 
@@ -169,10 +112,10 @@ def buildActExcel():
             ws.write(rowW,1,sheet.cell_value(rowR,1))
             ws.write(rowW,2,sheet.cell_value(rowR,2))
             ws.write(rowW,3,sheet.cell_value(rowR,3))
-            ws.write(rowW,4,sheet.cell_value(rowR,4))
+            # ws.write(rowW,4,sheet.cell_value(rowR,4))
             rowW += 1
 
-    workbookW.save('activity/activityTable_withFreq.xls')
+    workbookW.save('activity/activityTable_withFreq4DC.xls')
 
 def buildDietExcel():
     '''
@@ -184,7 +127,7 @@ def buildDietExcel():
     rowW = 0
 
     for subjectID in available_list:
-        file_location = 'diet/dietTable_'+subjectID+'_withFreq.xls'
+        file_location = 'diet/dietTable_'+subjectID+'_withFreq4DC.xls'
         workbookR = xlrd.open_workbook(file_location)
         sheet = workbookR.sheet_by_index(0)
         
@@ -193,10 +136,10 @@ def buildDietExcel():
             ws.write(rowW,1,sheet.cell_value(rowR,1))
             ws.write(rowW,2,sheet.cell_value(rowR,2))
             ws.write(rowW,3,sheet.cell_value(rowR,3))
-            ws.write(rowW,4,sheet.cell_value(rowR,4))
+            # ws.write(rowW,4,sheet.cell_value(rowR,4))
             rowW += 1
 
-    workbookW.save('diet/dietTable_withFreq.xls')
+    workbookW.save('diet/dietTable_withFreq4DC.xls')
 
 def buildActWithSleepExcel():
     '''
@@ -210,7 +153,7 @@ def buildActWithSleepExcel():
         ws.write(0,i,titles[i])
 
     rowW = 1
-    file_location1 = 'activity/activityTable_withFreq.xls'
+    file_location1 = 'activity/activityTable_withFreq4DC.xls'
     workbookR1 = xlrd.open_workbook(file_location1)
     sheet1 = workbookR1.sheet_by_index(0)
     
@@ -279,7 +222,7 @@ def buildActWithSleepExcel():
                     ws.write(rowW,22,sheet2.cell_value(rowRSlp,23))
                     rowW += 1
 
-    workbookW.save('activity/activityTableWithSleep_withFreq.xls')
+    workbookW.save('activity/activityTableWithSleep_withFreq4DC.xls')
 
 def buildDietWithSleepExcel():
     '''
@@ -293,7 +236,7 @@ def buildDietWithSleepExcel():
         ws.write(0,i,titles[i])
 
     rowW = 1
-    file_location1 = 'diet/dietTable_withFreq.xls'
+    file_location1 = 'diet/dietTable_withFreq4DC.xls'
     workbookR1 = xlrd.open_workbook(file_location1)
     sheet1 = workbookR1.sheet_by_index(0)
     
@@ -362,7 +305,7 @@ def buildDietWithSleepExcel():
                     ws.write(rowW,22,sheet2.cell_value(rowRSlp,23))
                     rowW += 1
 
-    workbookW.save('diet/dietTableWithSleep_withFreq.xls')
+    workbookW.save('diet/dietTableWithSleep_withFreq4DC.xls')
 
 def buildDietActTableWithSlpWithFreq():
     for subjectID in available_list:
@@ -375,10 +318,4 @@ def buildDietActTableWithSlpWithFreq():
     buildActWithSleepExcel()
     buildDietWithSleepExcel()
 
-# buildDietActTableWithSlpWithFreq() 
-for subjectID in available_list:
-    buildSingleActExcel(subjectID)
-    buildSingleDietExcel(subjectID)
-    
-buildActExcel()
-buildDietExcel()
+buildDietActTableWithSlpWithFreq() 

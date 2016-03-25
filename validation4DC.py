@@ -26,7 +26,7 @@ def getActTypeTFArray4DC():
         duration = dietActInfoRetrv.getDuration(subjectID)
         
         for n in range(1,duration+1):
-            dictWithTime = buildTypeIndex.build_daily_single_activity_index_with_time(subjectID,n)
+            dictWithTime = buildTypeIndex.build_daily_single_activity_index_with_time4DC(subjectID,n)
             for time in dictWithTime:
                 for key in type_dict:
                     if type_dict[key] in dictWithTime[time]:
@@ -45,7 +45,7 @@ def getDietTypeTFArray4DC():
         duration = dietActInfoRetrv.getDuration(subjectID)
         
         for n in range(1,duration+1):
-            dictWithTime = buildTypeIndex.build_daily_single_diet_index_with_time(subjectID,n)
+            dictWithTime = buildTypeIndex.build_daily_single_diet_index_with_time4DC(subjectID,n)
             for time in dictWithTime:
                 for key in type_dict:
                     if type_dict[key] in dictWithTime[time]:

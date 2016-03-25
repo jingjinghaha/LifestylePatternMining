@@ -1,4 +1,4 @@
 compositeP               1         
 alcoholD                 1         
-sweetF                   3         
+snack                    3         
 vegetables               1         

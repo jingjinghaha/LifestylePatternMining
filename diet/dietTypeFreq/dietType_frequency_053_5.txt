@@ -1,5 +1,5 @@
-sweetF                   1         
 compositeP               3         
+snack                    1         
 fruitP                   1         
 meatP                    1         
 starchyP                 2         

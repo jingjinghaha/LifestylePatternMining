@@ -1,6 +1,6 @@
-sweetF                   3         
+snack                    3         
 grainP                   1         
-vegetables               1         
+alcoholD                 1         
 fruitP                   1         
 starchyP                 1         
-alcoholD                 1         
+vegetables               1         

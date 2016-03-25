@@ -6,7 +6,7 @@ Created on Mon Nov 18 14:24:53 2015
 """
 
 import re, collections
-import enchant
+#import enchant
 from nltk import wordpunct_tokenize
 import string
 

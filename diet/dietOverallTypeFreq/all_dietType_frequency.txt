@@ -1,9 +1,8 @@
 caffeineD                93        
-sweetF                   285       
+snack                    311       
 dairyP                   218       
 eggP                     51        
 vegetables               193       
-nutP                     26        
 alcoholD                 91        
 fruitP                   250       
 meatP                    177       

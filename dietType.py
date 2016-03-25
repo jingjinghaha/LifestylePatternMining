@@ -6,7 +6,7 @@ Created on Fri Dec 04 16:10:15 2015
 """
 
 '''
-the 3rd version, sperate snacks into sweet food and nuts; and add eggP 
+the 4rd version, merge sweet food and nuts
 '''
 #fruit products: 
 Type1 = ['jam','raisin','currants','fruit','orange','apple','banana','kiwi','sultana','pineapple','smoothie','juice']
@@ -17,7 +17,7 @@ Type3 = ['noodles','oatmeal','muesli','bread','macaroni''rice',]
 #meat products:
 Type4 = ['beef','bacon','meat','sausage','chicken','steak']
 #sweet
-Type5 = ['choco','pie','candy','iceCream','chocolate','cake','snack','cookie','sugar','waffle','pudding','kellogs'] 
+Type5 = ['nut','choco','pie','candy','iceCream','chocolate','cake','snack','cookie','sugar','waffle','pudding','kellogs'] 
 #vegetables products: 
 Type6 = ['salad','sauerkraut','cucumber','spinach','carrot','pumpkin','broccoli','tomato','vegetable','zucchini','bean']
 #caffeine drink: 
@@ -30,10 +30,8 @@ Type9 = ['fish','tuna','salmon','tilapia']
 Type10 = ['doner','sandwich','pizza','soup','pasta','lasagna','hamburger']
 #Potato products:
 Type11 = ['potato','chip','fries']
-#Nuts:
-Type12 = ['nut']
 #Egg:
-Type13 = ['egg']
+Type12 = ['egg']
 
 def dietType(word):
     diet_type = 'others'
@@ -46,7 +44,7 @@ def dietType(word):
     if word in Type4:
         diet_type = 'meatP'
     if word in Type5:
-        diet_type = 'sweetF'
+        diet_type = 'snack'
     if word in Type6:
         diet_type = 'vegetables'
     if word in Type7:
@@ -60,8 +58,6 @@ def dietType(word):
     if word in Type11:
         diet_type = 'starchyP'
     if word in Type12:
-        diet_type = 'nutP'
-    if word in Type13:
         diet_type = 'eggP'
     return diet_type 
 
@@ -91,3 +87,7 @@ the foloowing types separation is the second version
 # Type10 = ['egg','doner','sandwich','pizza','soup','pasta','lasagna','hamburger']
 # #Starchy products:
 # Type11 = ['potato','chip','fries']
+
+'''
+the 3rd version, sperate snacks into sweet food and nuts; and add eggP 
+'''

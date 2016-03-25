@@ -1,4 +1,4 @@
 vegetables               1         
-sweetF                   1         
+snack                    1         
 grainP                   2         
 meatP                    1         

@@ -1,7 +1,6 @@
-sweetF                   1         
+snack                    2         
 dairyP                   1         
 vegetables               1         
-nutP                     1         
 fruitP                   1         
 compositeP               2         
 alcoholD                 1         

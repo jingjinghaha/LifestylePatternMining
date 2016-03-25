@@ -1,5 +1,5 @@
 compositeP               3         
-sweetF                   1         
+snack                    1         
 dairyP                   1         
 meatP                    3         
 eggP                     1         

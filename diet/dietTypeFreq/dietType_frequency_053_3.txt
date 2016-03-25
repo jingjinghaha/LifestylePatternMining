@@ -1,5 +1,5 @@
-vegetables               2         
 alcoholD                 1         
-sweetF                   2         
+vegetables               2         
+snack                    2         
 starchyP                 1         
 meatP                    1         

@@ -1,5 +1,5 @@
-fruitP                   2         
-caffeineD                1         
-sweetF                   1         
-dairyP                   1         
 compositeP               1         
+caffeineD                1         
+snack                    1         
+fruitP                   2         
+dairyP                   1         

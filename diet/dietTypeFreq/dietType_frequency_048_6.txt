@@ -1,5 +1,5 @@
-fruitP                   1         
-seafood                  1         
-sweetF                   1         
-meatP                    1         
 eggP                     1         
+seafood                  1         
+snack                    1         
+fruitP                   1         
+meatP                    1         

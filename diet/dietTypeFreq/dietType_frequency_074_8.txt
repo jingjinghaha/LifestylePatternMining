@@ -1,6 +1,5 @@
-sweetF                   1         
-dairyP                   1         
 vegetables               1         
-nutP                     1         
+snack                    2         
 fruitP                   3         
+dairyP                   1         
 grainP                   3         

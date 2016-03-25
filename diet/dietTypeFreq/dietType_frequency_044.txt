@@ -1,5 +1,5 @@
 caffeineD                9         
-sweetF                   27        
+snack                    27        
 dairyP                   25        
 eggP                     3         
 vegetables               14        

@@ -1,5 +1,5 @@
 compositeP               3         
 seafood                  1         
-vegetables               1         
-sweetF                   4         
+snack                    4         
 alcoholD                 1         
+vegetables               1         

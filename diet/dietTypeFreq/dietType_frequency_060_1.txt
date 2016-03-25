@@ -1,4 +1,4 @@
-sweetF                   1         
 vegetables               1         
+snack                    1         
 fruitP                   1         
 caffeineD                1         

@@ -1,5 +1,5 @@
 caffeineD                1         
-sweetF                   3         
+snack                    3         
 grainP                   1         
 seafood                  1         
 meatP                    1         

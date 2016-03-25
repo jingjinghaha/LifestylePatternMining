@@ -1,5 +1,5 @@
-sweetF                   4         
 caffeineD                2         
+snack                    4         
 fruitP                   1         
 meatP                    1         
 starchyP                 2         

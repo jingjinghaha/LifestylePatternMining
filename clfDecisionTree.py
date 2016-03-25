@@ -26,9 +26,9 @@ label5 = dataGen4SlpPrd.getOwlLabel()
 Labels = [label1,label2,label3,label4,label5]
 
 
-dataset = dataGen4SlpPrd.genDailyDietTypeFeatureTable()
-print 'diet type dataset'
+dataset = dataGen4SlpPrd.genDailyDietTypeFeatureTableWithP()
 dataset = utilise.normArray(dataset)
+print 'diet type dataset 4DC with normalization'
 
 #dataset_l1 = np.c_[dataset,label1.ravel()]
 #dataset_l2 = np.c_[dataset,label2.ravel()]
@@ -44,27 +44,30 @@ dataset = utilise.normArray(dataset)
 #pd.DataFrame(dataset_l4).to_csv('dataset_l4.csv',index = False,header = header)
 #pd.DataFrame(dataset_l5).to_csv('dataset_l5.csv',index = False,header = header)
 
-#adsn = ADASYN(k=7,imb_threshold=0.6, ratio=0.75)
+#adsn = ADASYN(k=7,imb_threshold=0.6, ratio=0.8)
 #new_X, new_y = adsn.fit_transform(dataset,label2)  # your imbalanced dataset is in X,y
 
-N = [120,130,140,150,160,170,180]
+N = [160,170,180]
 #N = [150]
 
 
 for labels in Labels:
     bestAcc = 0
     division = 0 
-
+    
+    adsn = ADASYN(k=7,imb_threshold=0.6, ratio=0.8)
+    new_X, new_y = adsn.fit_transform(dataset,labels)
+    
     for i in range(200):
         for n in N: 
-            dataTrain = dataset[0:n,:]
-            labelTrain = labels[0:n]
+            dataTrain = new_X[0:n,:]
+            labelTrain = new_y[0:n]
             
             clf = RandomForestClassifier(n_estimators = 100,n_jobs = -1)
             clf.fit(dataTrain,labelTrain)
     
-            dataTest = dataset[n:,:]
-            labelTest = labels[n:]
+            dataTest = new_X[n:,:]
+            labelTest = new_y[n:]
             pre_labels = clf.predict(dataTest)
             
             # http://scikit-learn.org/stable/modules/model_evaluation.html#accuracy-score
@@ -79,23 +82,27 @@ for labels in Labels:
             # cross_val_score(clf, dataset, labels) 
     print division,bestAcc,p,r,f,s
     
-dataset = dataGen4SlpPrd.genDailyActTypeFeatureTable()
-print 'activity type dataset'
+dataset = dataGen4SlpPrd.genDailyActTypeFeatureTableWithP()
+dataset = utilise.normArray(dataset)
+print 'activity type dataset 4DC with normalization'
 
 for labels in Labels:
     bestAcc = 0
     division = 0 
-
+    
+    adsn = ADASYN(k=7,imb_threshold=0.6, ratio=0.8)
+    new_X, new_y = adsn.fit_transform(dataset,labels)
+    
     for i in range(200):
         for n in N: 
-            dataTrain = dataset[0:n,:]
-            labelTrain = labels[0:n]
+            dataTrain = new_X[0:n,:]
+            labelTrain = new_y[0:n]
             
             clf = RandomForestClassifier(n_estimators = 100,n_jobs = -1)
             clf.fit(dataTrain,labelTrain)
     
-            dataTest = dataset[n:,:]
-            labelTest = labels[n:]
+            dataTest = new_X[n:,:]
+            labelTest = new_y[n:]
             pre_labels = clf.predict(dataTest)
     
             accuracy = accuracy_score(labelTest,pre_labels)

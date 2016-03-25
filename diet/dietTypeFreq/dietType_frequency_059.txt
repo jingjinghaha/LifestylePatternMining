@@ -1,9 +1,8 @@
-sweetF                   5         
+snack                    6         
 dairyP                   6         
 grainP                   2         
 eggP                     1         
 alcoholD                 2         
-nutP                     1         
 seafood                  1         
 meatP                    6         
 compositeP               26        

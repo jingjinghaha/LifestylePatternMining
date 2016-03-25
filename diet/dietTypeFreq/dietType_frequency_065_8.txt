@@ -1,5 +1,5 @@
-sweetF                   1         
 compositeP               2         
 vegetables               2         
+snack                    1         
 fruitP                   1         
 dairyP                   1         

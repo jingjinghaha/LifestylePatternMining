@@ -1,5 +1,5 @@
 caffeineD                8         
-sweetF                   19        
+snack                    19        
 dairyP                   11        
 eggP                     6         
 alcoholD                 1         

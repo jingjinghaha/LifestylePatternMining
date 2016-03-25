@@ -1,4 +1,4 @@
 compositeP               1         
+snack                    1         
 fruitP                   2         
 meatP                    1         
-nutP                     1         

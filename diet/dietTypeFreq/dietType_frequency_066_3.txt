@@ -1,5 +1,5 @@
 caffeineD                3         
-sweetF                   3         
+snack                    3         
 grainP                   2         
 fruitP                   1         
 compositeP               1         
