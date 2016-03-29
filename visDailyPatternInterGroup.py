@@ -158,7 +158,7 @@ def visSBDailyPatternInterGroup(domain,subjectID):
     x = range(tf.shape[0])
     
     plt.figure()
-    
+
     for i in range(N):
         for j in range(tf.shape[0]):
             s[i][j] = 1/np.sqrt(sum(np.power(tf[j] - MeanVec[i], 2)))
@@ -174,6 +174,8 @@ def visSBDailyPatternInterGroup(domain,subjectID):
     plt.title(domain+'_'+subjectID+'_'+str(groupID)+'_InterGroupDailyPattern')
     plt.xlabel('Days')
     plt.ylabel('Percentage')
+    data = dietActInfoRetrv.getDaysList(subjectID)
+    plt.xticks(x,data)
     plt.savefig('visInterGroupDailyPattern/'+domain+'/daily'+domain+'Pattern_'+subjectID)
 
 def visDailyPatternInterGroup():
