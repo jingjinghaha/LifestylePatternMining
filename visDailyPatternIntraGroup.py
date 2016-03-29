@@ -7,41 +7,31 @@ Created on Mon Feb 01 15:48:39 2016
 
 import numpy as np
 import utilise 
+import dataGen4DietAct
 import buildItemIndex
 import buildTypeIndex
 import dietActInfoRetrv
 import matplotlib.pyplot as plt
 
-def string2array(str):
-	temp = str.split(' ')
-	for i in range(len(temp)):
-		token = int(temp[i])
-		temp[i] = token
-	array = np.array(temp)
-	return array 
-
 # Domain = ['ActItem','DietItem','DietType','ActType']
 Domain = ['DietType','ActType']
 available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
 
-# labelsActItem = string2array('0 0 3 3 0 2 1 1 1 1 2 2 3 2 1 2 2 1 1 2 0 1 3 2 1 1 2 2 1')
-# labelsDietItem = string2array('0 3 0 2 0 1 1 0 0 2 2 0 0 0 3 2 1 1 0 3 0 0 0 0 3 0 1 3 2')
-
-labelsDietType = string2array('0 0 1 1 1 0 1 1 1 1 1 0 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1')
-labelsActType = string2array('2 1 2 2 0 0 0 0 1 2 0 0 2 0 1 0 0 2 2 0 1 2 2 0 2 2 0 1 1')
+labelsDietType = utilise.string2array('1 1 0 1 1 1 0 0 0 0 0 1 0 0 0 0 1 0 0 1 0 0 0 0 1 0 1 1 1')
+labelsActType = utilise.string2array('1 0 1 1 0 0 2 2 2 1 2 0 1 2 1 2 0 1 1 2 0 1 1 2 1 1 0 2 1')
 
 def singleSubjectDailyArray(domain,subjectID):
 	'''
 	build daily item TF array 
 	'''
 	if domain == 'ActItem':
-		item_dict = utilise.genActItemDict()
+		item_dict = dataGen4DietAct.genActItemDict()
 	elif domain == 'DietItem':
-		item_dict = utilise.genDietItemDict()
+		item_dict = dataGen4DietAct.genDietItemDict()
 	elif domain == 'DietType':
-		item_dict = utilise.genDietTypeDict()
+		item_dict = dataGen4DietAct.genDietTypeDict()
 	elif domain == 'ActType':
-		item_dict = utilise.genActTypeDict()
+		item_dict = dataGen4DietAct.genActTypeDict()
 	# print item_dict
 	
 	duration = dietActInfoRetrv.getDuration(subjectID)
@@ -125,16 +115,16 @@ def getMeanVec(domain,groupID):
 	'''
 	if domain == 'ActItem':
 		labels = labelsActItem
-		X = utilise.genActItemTFArray()
+		X = dataGen4DietAct.genActItemTFArray()
 	if domain == 'DietItem':
 		labels = labelsDietItem
-		X = utilise.genDietItemTFArray()
+		X = dataGen4DietAct.genDietItemTFArray()
 	if domain == 'DietType':
 		labels = labelsDietType
-		X = utilise.genDietTypeTFArray()
+		X = dataGen4DietAct.genDietTypeTFArray()
 	if domain == 'ActType':
 		labels = labelsActType
-		X = utilise.genActTypeTFArray()
+		X = dataGen4DietAct.genActTypeTFArray()
 
 	class_members = labels == groupID
 	number = 0
@@ -184,3 +174,4 @@ def visDailyPatternIntraGroup():
 # print aa 
 # aa = singleSubjectDailyArray('DietType','039')
 # print aa 
+visDailyPatternIntraGroup()

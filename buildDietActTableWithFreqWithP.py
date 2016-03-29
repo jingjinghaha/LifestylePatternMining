@@ -8,6 +8,7 @@ Created on Mon Mar 21 17:47:04 2016
 import xlwt
 import xlrd
 import utilise
+import dataGen4DietAct
 import buildTypeIndex 
 
 available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
@@ -26,7 +27,7 @@ def buildSingleActExcel(subjectID):
     rowW = 0 
     index = 0 
     
-    row_labels = utilise.itemDict2list(utilise.genActTypeDict())
+    row_labels = utilise.itemDict2list(dataGen4DietAct.genActTypeDict())
     
 
     for rowR in range(8,sheet.nrows):
@@ -62,7 +63,7 @@ def buildSingleActExcel(subjectID):
             ws.write(rowW,8,str(dd['P3'].values()))
             rowW += 1
             
-    workbookW.save('activity/activityTable_'+subjectID+'_withFreq.xls')
+    workbookW.save('activity/activityTable_'+subjectID+'_withFreqP.xls')
 
 def buildSingleDietExcel(subjectID):
     '''
@@ -78,7 +79,7 @@ def buildSingleDietExcel(subjectID):
     rowW = 0 
     index = 0 
     
-    row_labels = utilise.itemDict2list(utilise.genDietTypeDict())
+    row_labels = utilise.itemDict2list(dataGen4DietAct.genDietTypeDict())
 
     for rowR in range(8,sheet.nrows):
 
@@ -119,7 +120,7 @@ def buildSingleDietExcel(subjectID):
             ws.write(rowW,14,str(dd['P6'].values()))
             rowW += 1
 
-    workbookW.save('diet/dietTable_'+subjectID+'_withFreq.xls')
+    workbookW.save('diet/dietTable_'+subjectID+'_withFreqP.xls')
 
 def buildActExcel():
     '''
@@ -131,7 +132,7 @@ def buildActExcel():
     rowW = 0
 
     for subjectID in available_list:
-        file_location = 'activity/activityTable_'+subjectID+'_withFreq.xls'
+        file_location = 'activity/activityTable_'+subjectID+'_withFreqP.xls'
         workbookR = xlrd.open_workbook(file_location)
         sheet = workbookR.sheet_by_index(0)
 
@@ -140,7 +141,7 @@ def buildActExcel():
                 ws.write(rowW,colR,sheet.cell_value(rowR,colR))
             rowW += 1
 
-    workbookW.save('activity/activityTable_withFreq.xls')
+    workbookW.save('activity/activityTable_withFreqP.xls')
 
 def buildDietExcel():
     '''
@@ -152,7 +153,7 @@ def buildDietExcel():
     rowW = 0
 
     for subjectID in available_list:
-        file_location = 'diet/dietTable_'+subjectID+'_withFreq.xls'
+        file_location = 'diet/dietTable_'+subjectID+'_withFreqP.xls'
         workbookR = xlrd.open_workbook(file_location)
         sheet = workbookR.sheet_by_index(0)
         
@@ -161,7 +162,7 @@ def buildDietExcel():
                 ws.write(rowW,colR,sheet.cell_value(rowR,colR))
             rowW += 1
 
-    workbookW.save('diet/dietTable_withFreq.xls')
+    workbookW.save('diet/dietTable_withFreqP.xls')
 
 def buildActWithSleepExcel():
     '''
@@ -175,7 +176,7 @@ def buildActWithSleepExcel():
         ws.write(0,i,titles[i])
 
     rowW = 1
-    file_location1 = 'activity/activityTable_withFreq.xls'
+    file_location1 = 'activity/activityTable_withFreqP.xls'
     workbookR1 = xlrd.open_workbook(file_location1)
     sheet1 = workbookR1.sheet_by_index(0)
     
@@ -229,7 +230,7 @@ def buildActWithSleepExcel():
                         ws.write(rowW,i,sheet2.cell_value(rowRSlp,i-4))
                     rowW += 1
 
-    workbookW.save('activity/activityTableWithSleep_withFreq.xls')
+    workbookW.save('activity/activityTableWithSleep_withFreqP.xls')
 
 def buildDietWithSleepExcel():
     '''
@@ -243,7 +244,7 @@ def buildDietWithSleepExcel():
         ws.write(0,i,titles[i])
 
     rowW = 1
-    file_location1 = 'diet/dietTable_withFreq.xls'
+    file_location1 = 'diet/dietTable_withFreqP.xls'
     workbookR1 = xlrd.open_workbook(file_location1)
     sheet1 = workbookR1.sheet_by_index(0)
     
@@ -296,7 +297,7 @@ def buildDietWithSleepExcel():
 
                     rowW += 1
 
-    workbookW.save('diet/dietTableWithSleep_withFreq.xls')
+    workbookW.save('diet/dietTableWithSleep_withFreqP.xls')
 
 def buildDietActTableWithSlpWithFreq():
     for subjectID in available_list:

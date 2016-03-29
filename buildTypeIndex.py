@@ -222,7 +222,7 @@ def build_daily_single_activity_index_with_time(subjectID,n):
     return singleActType_dict
 
 #build_daily_single_diet_index_with_time4DC('039',5)
-#build_daily_single_diet_index_with_time('039',5)
+#print build_daily_single_diet_index('039',5)
 #build_daily_single_activity_index_with_time('039',5)
 
 

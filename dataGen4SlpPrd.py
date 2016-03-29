@@ -12,6 +12,26 @@ import numpy as np
 
 #dframe = pd.read_csv('SlpGroupInfo.csv')
 
+def genActTypeLabel():
+    file = 'SlpGroupInfo.xlsx'
+    workbook = xlrd.open_workbook(file)
+    sheet = workbook.sheet_by_index(0)
+    label = sheet.cell_value(1,2)
+    labels = label.split('[')[1].split(']')[0].split(',') 
+    for i in range(len(labels)):
+        labels[i] = labels[i].strip(' ').split("'")[1]
+    return labels 
+
+def genDietTypeLabel():
+    file = 'SlpGroupInfo.xlsx'
+    workbook = xlrd.open_workbook(file)
+    sheet = workbook.sheet_by_index(0)
+    label = sheet.cell_value(1,4)
+    labels = label.split('[')[1].split(']')[0].split(',') 
+    for i in range(len(labels)):
+        labels[i] = labels[i].strip(' ').split("'")[1]
+    return labels
+
 def genDailyActTypeFeatureTable():
     file = 'SlpGroupInfo.xlsx'
     workbook = xlrd.open_workbook(file)
@@ -248,3 +268,4 @@ def getOwlLabel():
 #print getSlpTimeLabel()
 #print getMorningnessLabel()
 #print getEveningnessLabel()
+#genDietTypeLabel()

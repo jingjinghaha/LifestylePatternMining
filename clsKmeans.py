@@ -15,35 +15,13 @@ from kmeans import *
 
 # Domain = ['DietItem','ActItem','DietType','ActType','ActDietItem','ActDietType']
 Domain = ['DietType','ActType']
-Metric = ['TF']
 
-def KM(domain, metric, n_clusters):
-    if metric == 'TF':
-        if domain == 'DietItem':
-            X = utilise.genDietItemTFArray()
-        elif domain == 'ActItem':
-            X = utilise.genActItemTFArray()
-        elif domain == 'DietType':
-            X = utilise.genDietTypeTFArray()
-        elif domain == 'ActType':
-            X = utilise.genActTypeTFArray()
-        # elif domain == 'ActDietItem':
-            # X = utilise.genCombiArray(utilise.genActItemTFArray(),utilise.genDietItemTFArray())
-        # elif domain == 'ActDietType':
-            # X = utilise.genCombiArray(utilise.genActTypeTFArray(),utilise.genDietTypeTFArray())
-    elif metric == 'TFIDF':
-        if domain == 'DietItem':
-            X = utilise.DietItemTfidfArray()
-        elif domain == 'ActItem':
-            X = utilise.ActItemTfidfArray()
-        elif domain == 'DietType':
-            X = utilise.DietTypeTfidfArray()
-        elif domain == 'ActType':
-            X = utilise.ActTypeTfidfArray()
-        # elif domain == 'ActDietItem':
-            # X = utilise.genCombiArray(utilise.ActItemTfidfArray(),utilise.DietItemTfidfArray())
-        # elif domain == 'ActDietType':
-            # X = utilise.genCombiArray(utilise.ActTypeTfidfArray(),utilise.DietTypeTfidfArray())
+def KM(domain, n_clusters):
+    if domain == 'DietType':
+        X = dataGen4DietAct.genDietTypeTFArray()
+    elif domain == 'ActType':
+        X = dataGen4DietAct.genActTypeTFArray()
+
     X = utilise.normArray(X)
     # print X
     # print X.shape
@@ -62,7 +40,7 @@ def KM(domain, metric, n_clusters):
         kmeans.fit(X)
         inertia = kmeans.inertia_
         Inertia.append(inertia)
-        # print domain,metric,inertia
+        # print domain,inertia
         labels = kmeans.labels_
         Labels.append(labels)
         # print labels
@@ -78,7 +56,7 @@ def KM(domain, metric, n_clusters):
 #    print a,b[:,0].ravel()
 #    print sum(b[:,1].ravel())
     
-    print domain,metric,n_clusters,inertia, labels
+    print domain, n_clusters,inertia, labels
 
 def plotPCA(reduced_data,):
     kmeans = KMeans(init='k-means++', n_clusters=n_clusters, n_init=10)
@@ -122,7 +100,7 @@ def plotPCA(reduced_data,):
     # plt.show()
 
 
-def KM_nonslp(domain,metric,n_clusters):
+def KM_nonslp(domain,n_clusters):
     if domain == 'DietType':
         X = dataGen4DietAct.genDietTypeTFArrayWithSlp()
     else:
@@ -153,17 +131,12 @@ def KM_nonslp(domain,metric,n_clusters):
             inertia = Inertia[i] 
             labels = Labels[i]
     
-    print domain,metric,n_clusters,inertia, labels
+    print domain,n_clusters,inertia, labels
     
 
 for n_clusters in range(2,5):
     for domain in Domain:
-        KM_nonslp(domain, 'TF',n_clusters)
-
-# for n_clusters in range(5,7):
-    # for domain in Domain:
-        # for metric in Metric:
-            # KM(domain, metric,n_clusters)
+        KM_nonslp(domain,n_clusters)
 
 # KM('ActItem', 'TFIDF')
 # KM_slp(4)

@@ -89,5 +89,5 @@ def extractDailyDietActWithTime():
 		print subjectID
 		extract_daily_act_diet_with_time(subjectID)
 
-extractDietActWithDate()
-extractDailyDietActWithTime()
+#extractDietActWithDate()
+#extractDailyDietActWithTime()

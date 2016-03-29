@@ -9,6 +9,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 import utilise
 import dataGen4DietAct
+import dataGen4DietAct
 
 Domain = ['ActType','DietType']
 Metric = ['TF']
@@ -16,14 +17,14 @@ Metric = ['TF']
 def sihouetteScore(domain,metric):
     if metric == 'TF':
         if domain == 'DietType':
-            X = utilise.genDietTypeTFArray()
+            X = dataGen4DietAct.genDietTypeTFArray()
         elif domain == 'ActType':
-            X = utilise.genActTypeTFArray()
+            X = dataGen4DietAct.genActTypeTFArray()
     elif metric == 'TFIDF':
         if domain == 'DietType':
-            X = utilise.DietTypeTfidfArray()
+            X = dataGen4DietAct.DietTypeTfidfArray()
         elif domain == 'ActType':
-            X = utilise.ActTypeTfidfArray()
+            X = dataGen4DietAct.ActTypeTfidfArray()
     X = utilise.normArray(X)
     
     range_n_clusters = [2, 3, 4, 5, 6] 

@@ -90,19 +90,19 @@ visTFIDFMat.visTFIDFMatrix()
 buildDietActTable.buildDietActTableWithSlp()
 buildDietActTableWithFreq.buildDietActTableWithSlpWithFreq()
 
-'''
-The following steps are done after we finish the Kmeans and get the best labels 
-'''
-# plot best labels got from KMeans 
-clsKmeansLabels.clusteringKmeansLabels()
+# '''
+# The following steps are done after we finish the Kmeans and get the best labels 
+# '''
+# # plot best labels got from KMeans 
+# clsKmeansLabels.clusteringKmeansLabels()
 
-# grouping analysis will give the demo and sleep info of the groups and also the integration 
-groupAnalysis.groupAnalysis()
+# # grouping analysis will give the demo and sleep info of the groups and also the integration 
+# groupAnalysis.groupAnalysis()
 
-# visualization of subject's daily pattern based best grouping results from KMeans
-visDailyPatternIntraGroup.visDailyPatternIntraGroup()
-visDailyPatternInterGroup.visDailyPatternInterGroup()
+# # visualization of subject's daily pattern based best grouping results from KMeans
+# visDailyPatternIntraGroup.visDailyPatternIntraGroup()
+# visDailyPatternInterGroup.visDailyPatternInterGroup()
 
-# build table 1 for subjects' demo and avrage sleep info with their grouping info 
-# table 2 for diet type TF table; table 3 for avtivity type TF table; 
-buildSubAveInfoTable.buildSubAveInfo()
+# # build table 1 for subjects' demo and avrage sleep info with their grouping info 
+# # table 2 for diet type TF table; table 3 for avtivity type TF table; 
+# buildSubAveInfoTable.buildSubAveInfo()

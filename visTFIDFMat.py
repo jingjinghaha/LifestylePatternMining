@@ -6,19 +6,20 @@ Created on Fri Jan 08 15:29:13 2016
 """
 
 import utilise
+import dataGen4DietAct
 import matplotlib.pyplot as plt
 
 def visTFIDFMatrix():
-	tfidf1 = utilise.normArray(utilise.ActItemTfidfArray())
-	# tfidf1 = utilise.ActItemTfidfArray()
+	tfidf1 = utilise.normArray(dataGen4DietAct.ActItemTfidfArray())
+	# tfidf1 = dataGen4DietAct.ActItemTfidfArray()
 	plt.figure()
 	plt.matshow(tfidf1)
 	plt.colorbar()
 	plt.title('actTFIDFMatrix')
 	plt.savefig('visTForTFIDFMatrix/actTFIDFMatrix')
 	
-	tfidf2 = utilise.normArray(utilise.DietItemTfidfArray())
-	# tfidf2 = utilise.DietItemTfidfArray()
+	tfidf2 = utilise.normArray(dataGen4DietAct.DietItemTfidfArray())
+	# tfidf2 = dataGen4DietAct.DietItemTfidfArray()
 	plt.figure()
 	plt.matshow(tfidf2)
 	plt.colorbar()
@@ -32,16 +33,16 @@ def visTFIDFMatrix():
 	plt.title('actDietTFIDFMatrix')
 	plt.savefig('visTForTFIDFMatrix/actDietTFIDFMatrix')
 	
-	tfidf2 = utilise.normArray(utilise.DietTypeTfidfArray())
-	# tfidf2 = utilise.DietTypeTfidfArray()
+	tfidf2 = utilise.normArray(dataGen4DietAct.DietTypeTfidfArray())
+	# tfidf2 = dataGen4DietAct.DietTypeTfidfArray()
 	plt.figure()
 	plt.matshow(tfidf2)
 	plt.colorbar()
 	plt.title('dietTypeTFIDFMatrix')
 	plt.savefig('visTForTFIDFMatrix/dietTypeTFIDFMatrix')
 	
-	tfidf1 = utilise.normArray(utilise.ActTypeTfidfArray())
-	# tfidf1 = utilise.ActTypeTfidfArray()
+	tfidf1 = utilise.normArray(dataGen4DietAct.ActTypeTfidfArray())
+	# tfidf1 = dataGen4DietAct.ActTypeTfidfArray()
 	plt.figure()
 	plt.matshow(tfidf1)
 	plt.colorbar()

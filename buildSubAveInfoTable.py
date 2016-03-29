@@ -7,14 +7,15 @@ Created on Tue Feb 16 16:26:50 2016
 
 import xlwt
 import utilise
+import dataGen4DietAct
 import slpInfoRetrv
 import dietActInfoRetrv
 import validation4DC
 available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
 sleep_list = ['044','045','048','050','051','052','053','056','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
 
-labelsDietType = dietActInfoRetrv.string2array('1 0 1 1 0 0 1 1 1 1 1 0 1 1 1 1 0 1 1 0 1 1 1 1 0 1 1 0 0')
-labelsActType = dietActInfoRetrv.string2array('1 0 1 1 0 0 2 2 2 1 2 0 1 2 1 2 0 1 1 2 0 1 1 2 1 1 0 2 1')
+labelsDietType = utilise.string2array('1 1 0 1 1 1 0 0 0 0 0 1 0 0 0 0 1 0 0 1 0 0 0 0 1 0 1 1 1')
+labelsActType = utilise.string2array('1 0 1 1 0 0 2 2 2 1 2 0 1 2 1 2 0 1 1 2 0 1 1 2 1 1 0 2 1')
 
 def buildSubAveInfo():
     workbookW = xlwt.Workbook()
@@ -66,9 +67,9 @@ def buildSubAveInfo():
     
     ws2 = workbookW.add_sheet('DietTF')
     
-    row_labels = utilise.itemDict2list(utilise.genDietTypeDict())
+    row_labels = utilise.itemDict2list(dataGen4DietAct.genDietTypeDict())
     
-    X = utilise.normArray(utilise.genDietTypeTFArray())
+    X = utilise.normArray(dataGen4DietAct.genDietTypeTFArray())
 
     ws2.write(0,0,'SubjId')
     ws2.write(0,1,'DietGroup')
@@ -92,9 +93,9 @@ def buildSubAveInfo():
 
     ws3 = workbookW.add_sheet('ActTF')
     
-    row_labels = utilise.itemDict2list(utilise.genActTypeDict())
+    row_labels = utilise.itemDict2list(dataGen4DietAct.genActTypeDict())
     
-    X = utilise.normArray(utilise.genActTypeTFArray())
+    X = utilise.normArray(dataGen4DietAct.genActTypeTFArray())
 
     ws3.write(0,0,'SubjId')
     ws3.write(0,1,'ActGroup')
@@ -168,7 +169,7 @@ def buildSubAveInfo4DC():
     
     ws2 = workbookW.add_sheet('DietTF')
     
-    row_labels = utilise.itemDict2list(utilise.genDietTypeDict())
+    row_labels = utilise.itemDict2list(dataGen4DietAct.genDietTypeDict())
     
     X = utilise.normArray(validation4DC.getDietTypeTFArray4DC())
 
@@ -194,7 +195,7 @@ def buildSubAveInfo4DC():
 
     ws3 = workbookW.add_sheet('ActTF')
     
-    row_labels = utilise.itemDict2list(utilise.genActTypeDict())
+    row_labels = utilise.itemDict2list(dataGen4DietAct.genActTypeDict())
     
     X = utilise.normArray(validation4DC.getActTypeTFArray4DC())
 

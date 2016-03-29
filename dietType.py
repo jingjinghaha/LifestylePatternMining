@@ -16,7 +16,7 @@ Type2 = ['shake','milk','cheese','yoghurt']
 Type3 = ['noodles','oatmeal','muesli','bread','macaroni''rice',]
 #meat products:
 Type4 = ['beef','bacon','meat','sausage','chicken','steak']
-#sweet
+#snack 
 Type5 = ['nut','choco','pie','candy','iceCream','chocolate','cake','snack','cookie','sugar','waffle','pudding','kellogs'] 
 #vegetables products: 
 Type6 = ['salad','sauerkraut','cucumber','spinach','carrot','pumpkin','broccoli','tomato','vegetable','zucchini','bean']
