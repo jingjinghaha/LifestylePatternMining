@@ -91,12 +91,30 @@ def genDailyActTypeDataSet():
 	print len(dataset)
 	return dataset
 
+def genDailyActDietTypeDataSet():
+    dataset = [] 
+
+    for subjectid in available_list:
+        duration = dietActInfoRetrv.getDuration(subjectid)
+        for i in range(duration):
+            indexDict1 = buildTypeIndex.build_daily_single_activity_index(subjectid,i+1)
+            temp1 = tuple(indexDict1)
+            indexDict2 = buildTypeIndex.build_daily_single_diet_index(subjectid,i+1)
+            temp2 = tuple(indexDict2)
+            temp = temp1+temp2
+            dataset.append(temp)
+
+    dataset = tuple(dataset)
+    print len(dataset)
+    return dataset
+
 # transactions = genDietItemDataSet()
 # transactions = genActItemDataSet()
 # transactions = genDailyDietDataSet()
 # transactions = genDailyActDataSet()
-# transactions = genDailyDietTypeDataSet()
-transactions = genDailyActTypeDataSet()
+#transactions = genDailyDietTypeDataSet()
+#transactions = genDailyActTypeDataSet()
+transactions = genDailyActDietTypeDataSet()
 
 # print transactions
 

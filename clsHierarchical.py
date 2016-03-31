@@ -8,33 +8,34 @@ Created on Fri Jan 09 17:34:11 2016
 import scipy.cluster.hierarchy as sch
 import scipy.spatial.distance as ssd
 import utilise
+import dataGen4DietAct
 import pydendroheatmap as pdh
 import visSimilarityMat
 
-Domain = ['DietItem','ActItem','DietType','ActType']
+Domain = ['DietType','ActType']
 Metric = ['TF','TFIDF']
-Sim = ['jaccard','novelJaccard','TFCosin','TFEclud','TFIDFCosin','TFIDFEclud']
+Sim = ['TFEclud']
 
 def HC(domain,para):
 	if para in Metric:
 		if para == 'TF':
 			if domain == 'DietItem':
-				X = utilise.genDietItemTFArray()
+				X = dataGen4DietAct.genDietItemTFArray()
 			elif domain == 'ActItem':
-				X = utilise.genActItemTFArray()
+				X = dataGen4DietAct.genActItemTFArray()
 			elif domain == 'DietType':
-				X = utilise.genDietTypeTFArray()
+				X = dataGen4DietAct.genDietTypeTFArray()
 			elif domain == 'ActType':
-				X = utilise.genActTypeTFArray()
+				X = dataGen4DietAct.genActTypeTFArray()
 		elif para == 'TFIDF':
 			if domain == 'DietItem':
-				X = utilise.DietItemTfidfArray()
+				X = dataGen4DietAct.DietItemTfidfArray()
 			elif domain == 'ActItem':
-				X = utilise.ActItemTfidfArray()
+				X = dataGen4DietAct.ActItemTfidfArray()
 			elif domain == 'DietType':
-				X = utilise.DietTypeTfidfArray()
+				X = dataGen4DietAct.DietTypeTfidfArray()
 			elif domain == 'ActType':
-				X = utilise.ActTypeTfidfArray()
+				X = dataGen4DietAct.ActTypeTfidfArray()
 		X = utilise.normArray(X)
 	
 	if para in Sim:
@@ -82,13 +83,13 @@ def HC(domain,para):
 		col_labels = range(X.shape[1])
 	if para in Metric:
 		if domain == 'DietItem':
-			col_labels = utilise.itemDict2list(utilise.genDietItemDict())
+			col_labels = utilise.itemDict2list(dataGen4DietAct.genDietItemDict())
 		elif domain == 'ActItem':
-			col_labels = utilise.itemDict2list(utilise.genActItemDict())
+			col_labels = utilise.itemDict2list(dataGen4DietAct.genActItemDict())
 		elif domain == 'DietType':
-			col_labels = utilise.itemDict2list(utilise.genDietTypeDict())
+			col_labels = utilise.itemDict2list(dataGen4DietAct.genDietTypeDict())
 		elif domain == 'ActType':
-			col_labels = utilise.itemDict2list(utilise.genActTypeDict())
+			col_labels = utilise.itemDict2list(dataGen4DietAct.genActTypeDict())
 	col_idxing = list(col_idxing)
 	row_idxing = list(row_idxing)
 	print col_idxing
@@ -110,6 +111,6 @@ def HC(domain,para):
 
 for domain in Domain:
 	for sim in Sim:
-		HC(domain,sim)
+		HC(domain,'TF')
 
 # HC('ActItem','TFIDFEclud')

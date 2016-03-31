@@ -11,18 +11,25 @@ from sklearn.decomposition import PCA
 import numpy as np
 import utilise
 import dataGen4DietAct
+import visSimilarityMat
 from kmeans import * 
 
 # Domain = ['DietItem','ActItem','DietType','ActType','ActDietItem','ActDietType']
 Domain = ['DietType','ActType']
 
 def KM(domain, n_clusters):
+    # if domain == 'DietType':
+        # X = dataGen4DietAct.genDietTypeTFArray()
+    # elif domain == 'ActType':
+        # X = dataGen4DietAct.genActTypeTFArray()
+    # X = utilise.normArray(X)
+    
     if domain == 'DietType':
-        X = dataGen4DietAct.genDietTypeTFArray()
+        Similarity_dict = utilise.SimilarityDict(domain,'TFEclud')
     elif domain == 'ActType':
-        X = dataGen4DietAct.genActTypeTFArray()
-
-    X = utilise.normArray(X)
+        Similarity_dict = utilise.SimilarityDict(domain,'TFEclud')
+    X = visSimilarityMat.similarityDict2array(Similarity_dict,0)
+    
     # print X
     # print X.shape
     
@@ -51,16 +58,41 @@ def KM(domain, n_clusters):
             inertia = Inertia[i] 
             labels = Labels[i]
     
-#    a,b = kMeans(X,2)
-#    print b[:,0].shape
-#    print a,b[:,0].ravel()
-#    print sum(b[:,1].ravel())
+    plt.figure()
+    reduced_data = PCA(n_components=2).fit_transform(X)
+    N = np.max(labels) + 1
+    for k in range(N):
+        class_members = labels == k
+        if k == 0:
+            for x in reduced_data[class_members]:
+                plt.plot(x[0], x[1], 'go', markersize=5)
+        if k == 1: 
+            for x in reduced_data[class_members]:
+                plt.plot(x[0], x[1], 'ro', markersize=5)
+        if k == 2:
+            for x in reduced_data[class_members]:
+                plt.plot(x[0], x[1], 'bo', markersize=5)
+        if k == 3:
+            for x in reduced_data[class_members]:
+                plt.plot(x[0], x[1], 'yo', markersize=5)
+    for i in range(reduced_data.shape[0]):
+        plt.text(reduced_data[i, 0], reduced_data[i, 1],i)
+    plt.title('K-means clustering (PCA-reduced data)')
+    plt.savefig('visClustering'+domain+'Pattern/KMeans_TFEclud_'+str(n_clusters))
+    
+    # a,b = kMeans(X,2)
+    # print b[:,0].shape
+    # print a,b[:,0].ravel()
+    # print sum(b[:,1].ravel())
     
     print domain, n_clusters,inertia, labels
-
-def plotPCA(reduced_data,):
-    kmeans = KMeans(init='k-means++', n_clusters=n_clusters, n_init=10)
     
+
+def plotPCA(X,n_clusters):
+    
+    reduced_data = PCA(n_components=2).fit_transform(X)
+    kmeans = KMeans(init='k-means++', n_clusters=n_clusters, n_init=300)
+    kmeans.fit(X)
     # plot based on PCA 
     # Step size of the mesh. Decrease to increase the quality of the VQ.
     h = .02     # point in the mesh [x_min, m_max]x[y_min, y_max].
@@ -136,7 +168,7 @@ def KM_nonslp(domain,n_clusters):
 
 for n_clusters in range(2,5):
     for domain in Domain:
-        KM_nonslp(domain,n_clusters)
+        KM(domain,n_clusters)
 
 # KM('ActItem', 'TFIDF')
 # KM_slp(4)

@@ -7,6 +7,7 @@ Created on Sat Mar 12 18:49:22 2016
 
 from sklearn.cross_validation import cross_val_score
 from sklearn.tree import DecisionTreeClassifier
+from sklearn import cross_validation
 from sklearn.ensemble import RandomForestClassifier
 import dataGen4SlpPrd 
 import utilise 
@@ -27,8 +28,8 @@ Labels = [label1,label2,label3,label4,label5]
 
 
 dataset = dataGen4SlpPrd.genDailyDietTypeFeatureTableWithP()
-dataset = utilise.normArray(dataset)
-print 'diet type dataset 4DC with normalization'
+#dataset = utilise.normArray(dataset)
+print 'diet type dataset 4DC'
 
 #dataset_l1 = np.c_[dataset,label1.ravel()]
 #dataset_l2 = np.c_[dataset,label2.ravel()]
@@ -55,19 +56,16 @@ for labels in Labels:
     bestAcc = 0
     division = 0 
     
-    adsn = ADASYN(k=7,imb_threshold=0.6, ratio=0.8)
-    new_X, new_y = adsn.fit_transform(dataset,labels)
+#    adsn = ADASYN(k=7,imb_threshold=0.6, ratio=0.8)
+#    new_X, new_y = adsn.fit_transform(dataset,labels)
     
     for i in range(200):
         for n in N: 
-            dataTrain = new_X[0:n,:]
-            labelTrain = new_y[0:n]
+            dataTrain, dataTest, labelTrain, labelTest = cross_validation.train_test_split(dataset, labels, train_size =n, random_state=10)
             
             clf = RandomForestClassifier(n_estimators = 100,n_jobs = -1)
             clf.fit(dataTrain,labelTrain)
-    
-            dataTest = new_X[n:,:]
-            labelTest = new_y[n:]
+
             pre_labels = clf.predict(dataTest)
             
             # http://scikit-learn.org/stable/modules/model_evaluation.html#accuracy-score
@@ -81,38 +79,38 @@ for labels in Labels:
             # p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
             # cross_val_score(clf, dataset, labels) 
     print division,bestAcc,p,r,f,s
-    
-dataset = dataGen4SlpPrd.genDailyActTypeFeatureTableWithP()
-dataset = utilise.normArray(dataset)
-print 'activity type dataset 4DC with normalization'
-
-for labels in Labels:
-    bestAcc = 0
-    division = 0 
-    
-    adsn = ADASYN(k=7,imb_threshold=0.6, ratio=0.8)
-    new_X, new_y = adsn.fit_transform(dataset,labels)
-    
-    for i in range(200):
-        for n in N: 
-            dataTrain = new_X[0:n,:]
-            labelTrain = new_y[0:n]
-            
-            clf = RandomForestClassifier(n_estimators = 100,n_jobs = -1)
-            clf.fit(dataTrain,labelTrain)
-    
-            dataTest = new_X[n:,:]
-            labelTest = new_y[n:]
-            pre_labels = clf.predict(dataTest)
-    
-            accuracy = accuracy_score(labelTest,pre_labels)
-            
-            if accuracy > bestAcc:
-                bestAcc = accuracy
-                division = n 
-                p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
-                
-            # p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
-            # cross_val_score(clf, dataset, labels) 
-    print division,bestAcc,p,r,f,s
+#    
+#dataset = dataGen4SlpPrd.genDailyActTypeFeatureTableWithP()
+#dataset = utilise.normArray(dataset)
+#print 'activity type dataset 4DC with normalization'
+#
+#for labels in Labels:
+#    bestAcc = 0
+#    division = 0 
+#    
+#    adsn = ADASYN(k=7,imb_threshold=0.6, ratio=0.8)
+#    new_X, new_y = adsn.fit_transform(dataset,labels)
+#    
+#    for i in range(200):
+#        for n in N: 
+#            dataTrain = new_X[0:n,:]
+#            labelTrain = new_y[0:n]
+#            
+#            clf = RandomForestClassifier(n_estimators = 100,n_jobs = -1)
+#            clf.fit(dataTrain,labelTrain)
+#    
+#            dataTest = new_X[n:,:]
+#            labelTest = new_y[n:]
+#            pre_labels = clf.predict(dataTest)
+#    
+#            accuracy = accuracy_score(labelTest,pre_labels)
+#            
+#            if accuracy > bestAcc:
+#                bestAcc = accuracy
+#                division = n 
+#                p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
+#                
+#            # p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
+#            # cross_val_score(clf, dataset, labels) 
+#    print division,bestAcc,p,r,f,s
 

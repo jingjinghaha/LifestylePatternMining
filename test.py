@@ -6,7 +6,7 @@ Created on Sun Mar 27 15:48:33 2016
 """
 import numpy as np
 import matplotlib.pyplot as plt 
-
+import pandas as pd
 d = np.array([[0, 2, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0],
               [0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 1], 
 [1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1],
@@ -24,6 +24,11 @@ d = np.array([[0, 2, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0],
 x = np.arange(13)
 print d.shape
 
-plt.figure()
-plt.stackplot(x,d[:,0],d[:,1],d[:,2],d[:,3],d[:,4],d[:,5],d[:,6],d[:,7],d[:,8],d[:,9],d[:,10],d[:,11])
-plt.xlabel('days')
+#plt.figure()
+#plt.stackplot(x,d[:,0],d[:,1],d[:,2],d[:,3],d[:,4],d[:,5],d[:,6],d[:,7],d[:,8],d[:,9],d[:,10],d[:,11])
+#plt.xlabel('days')
+
+
+d = pd.DataFrame(d)
+a = d[d[0]>=2]
+print d.iloc[0]
