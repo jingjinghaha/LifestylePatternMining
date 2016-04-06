@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Mar 27 15:48:33 2016
-
 @author: jingjing
 """
 import numpy as np
@@ -62,4 +61,3 @@ pca.fit(X)
 fa = FactorAnalysis()
 fa.fit(X)
 print fa.components_
-

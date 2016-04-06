@@ -9,6 +9,7 @@ import xlrd
 import dietActInfoRetrv
 import pandas as pd 
 import numpy as np
+import utilise
 
 #dframe = pd.read_csv('SlpGroupInfo.csv')
 
@@ -32,6 +33,11 @@ def genDietTypeLabel():
         labels[i] = labels[i].strip(' ').split("'")[1]
     return labels
 
+def genDietActTypeLabel():
+    label1 = genDietTypeLabel()
+    label2 = genActTypeLabel()
+    return label1+label2
+  
 def genDailyActTypeFeatureTable():
     file = 'SlpGroupInfo.xlsx'
     workbook = xlrd.open_workbook(file)
@@ -68,6 +74,11 @@ def genDailyDietTypeFeatureTable():
 
     return FT
 
+def genDailyDietActTypeFeaT():
+    table1 = genDailyDietTypeFeatureTable()
+    table2 = genDailyActTypeFeatureTable()
+    return utilise.genCombiArray(table1,table2)
+
 def genDailyActTypeFeatureTable4DC():
     file = 'SlpGroupInfo4DC.xlsx'
     workbook = xlrd.open_workbook(file)
@@ -103,7 +114,12 @@ def genDailyDietTypeFeatureTable4DC():
     FT = np.array(table)
 
     return FT
-
+    
+def genDailyDietActTypeFeaT4DC():
+    table1 = genDailyDietTypeFeatureTable4DC()
+    table2 = genDailyActTypeFeatureTable4DC()
+    return utilise.genCombiArray(table1,table2)
+    
 def genDailyActTypeFeatureTableWithP():
     file = 'SlpGroupInfoWithP.xlsx'
     workbook = xlrd.open_workbook(file)
@@ -178,6 +194,30 @@ def genDailyDietTypeFeatureTableWithP():
 
     return FT
 
+def genDailyDietActTypeFeaTWithP():
+    table1 = genDailyDietTypeFeatureTableWithP()
+    table2 = genDailyActTypeFeatureTableWithP()
+    return utilise.genCombiArray(table1,table2)
+
+def genDailyDietActTypeFeaT4DCWithP():
+    table1 = genDailyDietActTypeFeaT4DC()
+    table2 = genDailyDietActTypeFeaTWithP()
+    return utilise.genCombiArray(table1,table2)
+
+def getSlpTime():
+    file = 'SlpGroupInfo.xlsx'
+    workbook = xlrd.open_workbook(file)
+    sheet = workbook.sheet_by_index(0)
+
+    labels = [] 
+
+    for row in range(1,sheet.nrows):
+        labels.append(float(sheet.cell_value(row,6)))
+
+    labels = np.array(labels)
+
+    return labels
+   
 def getSlpTimeLabel():
     file = 'SlpGroupInfo.xlsx'
     workbook = xlrd.open_workbook(file)
@@ -243,6 +283,20 @@ def getOwlLabel():
 
     for row in range(1,sheet.nrows):
         labels.append(int(sheet.cell_value(row,11)))
+
+    labels = np.array(labels)
+
+    return labels
+
+def getGender():
+    file = 'SlpGroupInfo.xlsx'
+    workbook = xlrd.open_workbook(file)
+    sheet = workbook.sheet_by_index(0)
+
+    labels = [] 
+
+    for row in range(1,sheet.nrows):
+        labels.append(int(sheet.cell_value(row,12)))
 
     labels = np.array(labels)
 
