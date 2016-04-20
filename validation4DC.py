@@ -78,8 +78,8 @@ def sihouetteScore(domain):
         print(domain, 'For n_clusters =', n_clusters,
               'The average silhouette_score is :', silhouette_avg)
 
-# for domain in Domain:
-    # sihouetteScore(domain)
+for domain in Domain:
+    sihouetteScore(domain)
 
 
 def KM(domain, n_clusters):
@@ -109,8 +109,8 @@ def KM(domain, n_clusters):
         if Inertia[i] == min:
             inertia = Inertia[i] 
             labels = Labels[i] 
-    print domain,metric,n_clusters,inertia, labels
+    print domain,n_clusters,inertia, labels
     
 #for n_clusters in range(2,5):
 #    for domain in Domain:
-#        KM(domain, 'TF',n_clusters)
+#        KM(domain,n_clusters)

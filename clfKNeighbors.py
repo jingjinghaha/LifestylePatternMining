@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Apr 07 17:03:04 2016
+Created on Wed Apr 06 16:17:31 2016
 
 @author: wu34
 """
-from sklearn.tree import DecisionTreeClassifier
+
+from sklearn.neighbors import KNeighborsClassifier 
 from sklearn import cross_validation
 from sklearn.grid_search import GridSearchCV
 import dataGen4SlpPrd 
@@ -13,15 +14,13 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import precision_recall_fscore_support
 import numpy as np
 import pandas as pd
-import artificialDataGenerator
-
 
 label1 = dataGen4SlpPrd.getSlpTimeLabel()
 label2 = dataGen4SlpPrd.getMorningnessLabel()
 label3 = dataGen4SlpPrd.getEveningnessLabel()
 label4 = dataGen4SlpPrd.getLarkLabel()
 label5 = dataGen4SlpPrd.getOwlLabel()
-Labels = [label1]#,label2,label3,label4,label5]
+Labels = [label1]
 
 gender = dataGen4SlpPrd.getGender()
 time = dataGen4SlpPrd.getSlpTime()
@@ -35,45 +34,40 @@ Dataset = [dateset2,dataset3,dataset4,dataset5]
 #dataset = np.c_[dataset,gender.ravel()]
 #dataset = utilise.normArray(dataset)
 
-'''
-best performance 
-'''
-#for labels in Labels:
-#    
-#    print 'change label'
-#    for dataset in Dataset:
-#        
-#        bestAcc = 0
-#        
-#        for i in range(500):
-#            dataTrain, dataTest, labelTrain, labelTest = cross_validation.train_test_split(dataset, labels, train_size =180)
-#            
-#            clf = DecisionTreeClassifier(criterion='entropy')
-#            clf.fit(dataTrain,labelTrain)
-#            
-#            pre_labels = clf.predict(dataTest)
-#            # http://scikit-learn.org/stable/modules/model_evaluation.html#accuracy-score
-#            accuracy = accuracy_score(labelTest,pre_labels)
-#            
-#            scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
-#            accuracy = scores.mean()
-#            
-#            if accuracy > bestAcc:
-#                bestAcc = accuracy
-#                #p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
-#                    
-#            # p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
-#            # cross_val_score(clf, dataset, labels) 
-#        print bestAcc#,p,r,f,s
+for labels in Labels:
     
-'''
-grid search for parameters 
-'''
+    print 'change label'
+    for dataset in Dataset:
+        
+        bestAcc = 0
+        
+        for i in range(500):
+            dataTrain, dataTest, labelTrain, labelTest = cross_validation.train_test_split(dataset, labels, train_size =180)
+            
+            clf = KNeighborsClassifier(n_neighbors=8,algorithm='brute')
+            clf.fit(dataTrain,labelTrain)
+            
+            pre_labels = clf.predict(dataTest)
+            # http://scikit-learn.org/stable/modules/model_evaluation.html#accuracy-score
+            accuracy = accuracy_score(labelTest,pre_labels)
+            
+            scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+            accuracy = scores.mean()
+            
+            if accuracy > bestAcc:
+                bestAcc = accuracy
+                # p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
+                    
+            # p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
+            # cross_val_score(clf, dataset, labels) 
+        print bestAcc # ,p,r,f,s
+    
+
 #dataset = dataGen4SlpPrd.genDailyDietActTypeFeaT4DCWithP()
 #dataset = np.c_[dataset,gender.ravel()]
 #
 ##dataTrain, dataTest, labelTrain, labelTest = cross_validation.train_test_split(dataset, label5, train_size =180, random_state=10)
-##clf = DecisionTreeClassifier()
+##clf = KNeighborsClassifier()
 ##clf.fit(dataTrain,labelTrain)
 ##pre_labels = clf.predict(dataTest)
 ##accuracy = accuracy_score(labelTest,pre_labels)
@@ -81,9 +75,9 @@ grid search for parameters
 ##p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
 ##print p,r,f,s
 #
-#tuned_parameters = [{'criterion':['gini','entropy']}]
+#tuned_parameters = [{'algorithm':['auto','ball_tree','kd_tree','brute'],'n_neighbors':[3,4,5,6,7,8]}]
 ## cv: integer, to specify the number of folds
-#clf = GridSearchCV(DecisionTreeClassifier(), tuned_parameters, cv=5)
+#clf = GridSearchCV(KNeighborsClassifier(), tuned_parameters, cv=5)
 #clf.fit(dataset,label1)
 #print clf.best_params_
 ##print clf.best_estimator_
@@ -91,14 +85,4 @@ grid search for parameters
 ##print clf.scorer_  
 ##for params, mean_score, scores in clf.grid_scores_:
 ##    print("%0.2f (+/-%0.02f) for %r"% (mean_score, scores.std()*2, params))
-
-'''
-artificial data test 
-'''
-df,labels = artificialDataGenerator.artificialData()
-dataset = df.as_matrix()
-clf = DecisionTreeClassifier(criterion='entropy') 
-scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
-accuracy = scores.mean()
-
 

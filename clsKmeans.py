@@ -12,23 +12,30 @@ import numpy as np
 import utilise
 import dataGen4DietAct
 import visSimilarityMat
+import validation4DC 
 from kmeans import * 
 
 # Domain = ['DietItem','ActItem','DietType','ActType','ActDietItem','ActDietType']
 Domain = ['DietType','ActType']
 
 def KM(domain, n_clusters):
-    # if domain == 'DietType':
-        # X = dataGen4DietAct.genDietTypeTFArray()
-    # elif domain == 'ActType':
-        # X = dataGen4DietAct.genActTypeTFArray()
-    # X = utilise.normArray(X)
+#    if domain == 'DietType':
+#        X = dataGen4DietAct.genDietTypeTFArray()
+#    elif domain == 'ActType':
+#        X = dataGen4DietAct.genActTypeTFArray()
+#    X = utilise.normArray(X)
     
     if domain == 'DietType':
-        Similarity_dict = utilise.SimilarityDict(domain,'TFEclud')
+        X = validation4DC.getDietTypeTFArray4DC()
     elif domain == 'ActType':
-        Similarity_dict = utilise.SimilarityDict(domain,'TFEclud')
-    X = visSimilarityMat.similarityDict2array(Similarity_dict,0)
+        X = validation4DC.getActTypeTFArray4DC()
+    X = utilise.normArray(X)
+    
+    # if domain == 'DietType':
+        # Similarity_dict = utilise.SimilarityDict(domain,'TFEclud')
+    # elif domain == 'ActType':
+        # Similarity_dict = utilise.SimilarityDict(domain,'TFEclud')
+    # X = visSimilarityMat.similarityDict2array(Similarity_dict,0)
     
     # print X
     # print X.shape
@@ -78,7 +85,7 @@ def KM(domain, n_clusters):
     for i in range(reduced_data.shape[0]):
         plt.text(reduced_data[i, 0], reduced_data[i, 1],i)
     plt.title('K-means clustering (PCA-reduced data)')
-    plt.savefig('visClustering'+domain+'Pattern/KMeans_TFEclud_'+str(n_clusters))
+    plt.savefig('visClustering'+domain+'Pattern/KMeans_TF_'+str(n_clusters))
     
     # a,b = kMeans(X,2)
     # print b[:,0].shape

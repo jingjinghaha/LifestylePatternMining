@@ -94,7 +94,7 @@ buildDietActTableWithFreq.buildDietActTableWithSlpWithFreq()
 # The following steps are done after we finish the Kmeans and get the best labels 
 # '''
 # # plot best labels got from KMeans 
-# clsKmeansLabels.clusteringKmeansLabels()
+# visKmeansLabels.clusteringKmeansLabels()
 
 # # grouping analysis will give the demo and sleep info of the groups and also the integration 
 # groupAnalysis.groupAnalysis()

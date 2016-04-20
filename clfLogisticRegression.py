@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Apr 04 11:48:23 2016
-
 @author: wu34
 """
 
@@ -15,6 +14,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import precision_recall_fscore_support
 import numpy as np
 import pandas as pd
+import artificialDataGenerator 
 
 
 label1 = dataGen4SlpPrd.getSlpTimeLabel()
@@ -22,39 +22,55 @@ label2 = dataGen4SlpPrd.getMorningnessLabel()
 label3 = dataGen4SlpPrd.getEveningnessLabel()
 label4 = dataGen4SlpPrd.getLarkLabel()
 label5 = dataGen4SlpPrd.getOwlLabel()
-Labels = [label1,label2,label3,label4,label5]
+Labels = [label1]#,label2,label3,label4,label5]
 
 gender = dataGen4SlpPrd.getGender()
+time = dataGen4SlpPrd.getSlpTime()
 
-dataset = dataGen4SlpPrd.genDailyDietActTypeFeaT4DC()
-dataset = np.c_[dataset,gender.ravel()]
+dataset1 = dataGen4SlpPrd.genDailyDietActTypeFeaT()
+dateset2 = dataGen4SlpPrd.genDailyDietActTypeFeaT4DC()
+dataset3 = dataGen4SlpPrd.genDailyDietActTypeFeaTWithP()
+dataset4 = dataGen4SlpPrd.genDailyDietActTypeFeaT4DCWithP()
+dataset5 = np.c_[dataset4,gender.ravel()]
+Dataset = [dateset2,dataset3,dataset4,dataset5]
+#dataset = np.c_[dataset,gender.ravel()]
 #dataset = utilise.normArray(dataset)
 
-for labels in Labels:
-    bestAcc = 0
-    
-#    adsn = ADASYN(k=7,imb_threshold=0.6, ratio=0.8)
-#    new_X, new_y = adsn.fit_transform(dataset,labels)
-    
-    for i in range(200):
-        dataTrain, dataTest, labelTrain, labelTest = cross_validation.train_test_split(dataset, labels, train_size =180)
-        
-        clf = LogisticRegression(penalty = 'l1',C=0.5)
-        clf.fit(dataTrain,labelTrain)
-        
-        pre_labels = clf.predict(dataTest)
-        # http://scikit-learn.org/stable/modules/model_evaluation.html#accuracy-score
-        accuracy = accuracy_score(labelTest,pre_labels)
-            
-        if accuracy > bestAcc:
-            bestAcc = accuracy
-            p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
-                
-        # p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
-        # cross_val_score(clf, dataset, labels) 
-    print bestAcc,p,r,f,s
-    
 
+'''
+best performance 
+'''
+#for labels in Labels:
+#    
+#    print 'change label'
+#    for dataset in Dataset:
+#        
+#        bestAcc = 0
+#        
+#        for i in range(500):
+#            dataTrain, dataTest, labelTrain, labelTest = cross_validation.train_test_split(dataset, labels, train_size =180)
+#            
+#            clf = LogisticRegression(penalty = 'l1',C=0.5)
+#            clf.fit(dataTrain,labelTrain)
+#            
+#            pre_labels = clf.predict(dataTest)
+#            # http://scikit-learn.org/stable/modules/model_evaluation.html#accuracy-score
+#            accuracy = accuracy_score(labelTest,pre_labels)
+#            
+#            scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+#            accuracy = scores.mean()
+#            
+#            if accuracy > bestAcc:
+#                bestAcc = accuracy
+#                #p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
+#                    
+#            # p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
+#            # cross_val_score(clf, dataset, labels) 
+#        print bestAcc#,p,r,f,s
+    
+'''
+grid search for parameters 
+'''
 #dataset = dataGen4SlpPrd.genDailyDietActTypeFeaT4DC()
 #dataset = np.c_[dataset,gender.ravel()]
 #
@@ -77,3 +93,19 @@ for labels in Labels:
 ##print clf.scorer_  
 ##for params, mean_score, scores in clf.grid_scores_:
 ##    print("%0.2f (+/-%0.02f) for %r"% (mean_score, scores.std()*2, params))
+
+
+'''
+artificial data test 
+'''
+df,labels = artificialDataGenerator.artificialData()
+dataset = df.as_matrix()
+bestAcc = 0
+for i in range(1):
+    clf = LogisticRegression(penalty = 'l1',C=0.5)
+    scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+    accuracy = scores.mean()
+    if accuracy > bestAcc:
+        bestAcc = accuracy
+
+print bestAcc

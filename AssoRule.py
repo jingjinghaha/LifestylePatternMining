@@ -9,6 +9,7 @@ import buildItemIndex
 import buildTypeIndex
 import dietActInfoRetrv
 from pymining import itemmining, assocrules 
+from pymining import seqmining
 available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
  
 def genDietItemDataSet():
@@ -70,6 +71,7 @@ def genDailyDietTypeDataSet():
 		duration = dietActInfoRetrv.getDuration(subjectid)
 		for i in range(duration):
 			indexDict = buildTypeIndex.build_daily_single_diet_index(subjectid,i+1)
+			if 'compositeP' in indexDict: del indexDict['compositeP']
 			temp = tuple(indexDict)
 			dataset.append(temp)
 
@@ -108,21 +110,28 @@ def genDailyActDietTypeDataSet():
     print len(dataset)
     return dataset
 
+
+#indexDict = buildTypeIndex.build_daily_single_diet_index('039',5)
+#print indexDict
+
 # transactions = genDietItemDataSet()
 # transactions = genActItemDataSet()
 # transactions = genDailyDietDataSet()
 # transactions = genDailyActDataSet()
 #transactions = genDailyDietTypeDataSet()
-#transactions = genDailyActTypeDataSet()
-transactions = genDailyActDietTypeDataSet()
+transactions = genDailyActTypeDataSet()
+#ransactions = genDailyActDietTypeDataSet()
 
 # print transactions
 
 relim_input = itemmining.get_relim_input(transactions)
-item_sets = itemmining.relim(relim_input, min_support=100)
-# print item_sets
-rules = assocrules.mine_assoc_rules(item_sets, min_support=100, min_confidence=0.70)
+item_sets = itemmining.relim(relim_input, min_support=10)
+#print item_sets
+rules = assocrules.mine_assoc_rules(item_sets, min_support=10, min_confidence=0.95)
 print rules 
+
+freq_seqs = seqmining.freq_seq_enum(transactions, 100)
+print sorted(freq_seqs)
 
 
 # transactions = perftesting.get_default_transactions()
