@@ -31,15 +31,25 @@ def generateOneDay(df):
     else:
         walk = 0
     
-    entertainment = np.random.normal(df['entertainmentRelax'].mean(),df['entertainmentRelax'].std())
-    if entertainment>2.5:
-        entertainment = 3
-    elif entertainment>1.5:
-        entertainment = 2
-    elif entertainment>0.5:
-        entertainment = 1
+    social = np.random.normal(df['social'].mean(),df['social'].std())
+    if social>2.5:
+        social = 3
+    elif social>1.5:
+        social = 2
+    elif social>0.5:
+        social = 1
     else:
-        entertainment = 0
+        social = 0
+    
+    sport = np.random.normal(df['sport'].mean(),df['sport'].std())
+    if sport>2.5:
+        sport = 3
+    elif sport>1.5:
+        sport = 2
+    elif sport>0.5:
+        sport = 1
+    else:
+        sport = 0
     
     alcohol = np.random.normal(df['alcoholD'].mean(),df['alcoholD'].std())
     if alcohol>5.5:
@@ -69,29 +79,12 @@ def generateOneDay(df):
                 bike = 2
             else:
                 bike = 1
-            car = 0
         else:
             bike = 0 
-            temp_df = df[df['transportation2']>0]
-            car = np.random.normal(temp_df['transportation2'].mean(),temp_df['transportation2'].std())
-            if car>2.5:
-                car = 3
-            elif car>1.5:
-                car = 2
-            else:
-                car = 1
     elif gender == 1:
         poss = np.random.rand()
         if poss>0.3:
             bike = 0 
-            temp_df = df[df['transportation2']>0]
-            car = np.random.normal(temp_df['transportation2'].mean(),temp_df['transportation2'].std())
-            if car>2.5:
-                car = 3
-            elif car>1.5:
-                car = 2
-            else:
-                car = 1
         else:
             temp_df = df[df['transportation3']>0]
             bike = np.random.normal(temp_df['transportation3'].mean(),temp_df['transportation3'].std())
@@ -101,7 +94,6 @@ def generateOneDay(df):
                 bike = 2
             else:
                 bike = 1
-            car = 0
     
     #dependent variables generation: workStudy 
     if bike == 3: 
@@ -157,60 +149,161 @@ def generateOneDay(df):
         else:
             workStudy = 0  
     
-    #dependent variables generation: cafeSnack
+    #dependent variables generation: cafe and Snack
     if walk == 3: 
         poss = np.random.rand()
-        if poss>0.2:
-            temp_df = df[df['cafeSnack']>0]
-            cafeSnack = np.random.normal(temp_df['cafeSnack'].mean(),temp_df['cafeSnack'].std())
-            if cafeSnack>2.5:
-                cafeSnack = 3
-            elif cafeSnack>1.5:
-                cafeSnack = 2
+        if poss>0.4:
+            temp_df = df[df['caffeineD']>0]
+            cafe = np.random.normal(temp_df['caffeineD'].mean(),temp_df['caffeineD'].std())
+            if cafe>5.5:
+                cafe = 6
+            elif cafe>4.5:
+                cafe = 5
+            elif cafe>3.5:
+                cafe = 4
+            elif cafe>2.5:
+                cafe = 3
+            elif cafe>1.5:
+                cafe = 2
             else:
-                cafeSnack = 1
+                cafe = 1
         else:
-            cafeSnack = 0
+            cafe = 0
     elif walk == 2: 
         poss = np.random.rand()
-        if poss>0.3:
-            temp_df = df[df['cafeSnack']>0]
-            cafeSnack = np.random.normal(temp_df['cafeSnack'].mean(),temp_df['cafeSnack'].std())
-            if cafeSnack>2.5:
-                cafeSnack = 3
-            elif cafeSnack>1.5:
-                cafeSnack = 2
+        if poss>0.43:
+            temp_df = df[df['caffeineD']>0]
+            cafe = np.random.normal(temp_df['caffeineD'].mean(),temp_df['caffeineD'].std())
+            if cafe>5.5:
+                cafe = 6
+            elif cafe>4.5:
+                cafe = 5
+            elif cafe>3.5:
+                cafe = 4
+            elif cafe>2.5:
+                cafe = 3
+            elif cafe>1.5:
+                cafe = 2
             else:
-                cafeSnack = 1
+                cafe = 1
         else:
-            cafeSnack = 0        
+            cafe = 0      
     elif walk == 1: 
         poss = np.random.rand()
-        if poss>0.4:
-            temp_df = df[df['cafeSnack']>0]
-            cafeSnack = np.random.normal(temp_df['cafeSnack'].mean(),temp_df['cafeSnack'].std())
-            if cafeSnack>2.5:
-                cafeSnack = 3
-            elif cafeSnack>1.5:
-                cafeSnack = 2
+        if poss>0.47:
+            temp_df = df[df['caffeineD']>0]
+            cafe = np.random.normal(temp_df['caffeineD'].mean(),temp_df['caffeineD'].std())
+            if cafe>5.5:
+                cafe = 6
+            elif cafe>4.5:
+                cafe = 5
+            elif cafe>3.5:
+                cafe = 4
+            elif cafe>2.5:
+                cafe = 3
+            elif cafe>1.5:
+                cafe = 2
             else:
-                cafeSnack = 1
+                cafe = 1
         else:
-            cafeSnack = 0  
+            cafe = 0  
     elif walk == 0: 
         poss = np.random.rand()
         if poss>0.5:
-            temp_df = df[df['cafeSnack']>0]
-            cafeSnack = np.random.normal(temp_df['cafeSnack'].mean(),temp_df['cafeSnack'].std())
-            if cafeSnack>2.5:
-                cafeSnack = 3
-            elif cafeSnack>1.5:
-                cafeSnack = 2
+            temp_df = df[df['caffeineD']>0]
+            cafe = np.random.normal(temp_df['caffeineD'].mean(),temp_df['caffeineD'].std())
+            if cafe>5.5:
+                cafe = 6
+            elif cafe>4.5:
+                cafe = 5
+            elif cafe>3.5:
+                cafe = 4
+            elif cafe>2.5:
+                cafe = 3
+            elif cafe>1.5:
+                cafe = 2
             else:
-                cafeSnack = 1
+                cafe = 1
         else:
-            cafeSnack = 0 
-    
+            cafe = 0 
+
+    if walk == 3: 
+        poss = np.random.rand()
+        if poss>0.2:
+            temp_df = df[df['snack']>0]
+            snack = np.random.normal(temp_df['snack'].mean(),temp_df['snack'].std())
+            if snack>5.5:
+                snack = 6
+            elif snack>4.5:
+                snack = 5
+            elif snack>3.5:
+                snack = 4
+            elif snack>2.5:
+                snack = 3
+            elif snack>1.5:
+                snack = 2
+            else:
+                snack = 1
+        else:
+            snack = 0
+    elif walk == 2: 
+        poss = np.random.rand()
+        if poss>0.3:
+            temp_df = df[df['snack']>0]
+            snack = np.random.normal(temp_df['snack'].mean(),temp_df['snack'].std())
+            if snack>5.5:
+                snack = 6
+            elif snack>4.5:
+                snack = 5
+            elif snack>3.5:
+                snack = 4
+            elif snack>2.5:
+                snack = 3
+            elif snack>1.5:
+                snack = 2
+            else:
+                snack = 1
+        else:
+            snack = 0      
+    elif walk == 1: 
+        poss = np.random.rand()
+        if poss>0.4:
+            temp_df = df[df['snack']>0]
+            snack = np.random.normal(temp_df['snack'].mean(),temp_df['snack'].std())
+            if snack>5.5:
+                snack = 6
+            elif snack>4.5:
+                snack = 5
+            elif snack>3.5:
+                snack = 4
+            elif snack>2.5:
+                snack = 3
+            elif snack>1.5:
+                snack = 2
+            else:
+                snack = 1
+        else:
+            snack = 0  
+    elif walk == 0: 
+        poss = np.random.rand()
+        if poss>0.5:
+            temp_df = df[df['snack']>0]
+            snack = np.random.normal(temp_df['snack'].mean(),temp_df['snack'].std())
+            if snack>5.5:
+                snack = 6
+            elif snack>4.5:
+                snack = 5
+            elif snack>3.5:
+                snack = 4
+            elif snack>2.5:
+                snack = 3
+            elif snack>1.5:
+                snack = 2
+            else:
+                snack = 1
+        else:
+            snack = 0
+ 
     #generate variables that are not in the dependency graph 
     dairy = np.random.normal(df['dairyP'].mean(),df['dairyP'].std())
     if dairy>5.5:
@@ -355,27 +448,28 @@ def generateOneDay(df):
         starchy = 1
     else:
         starchy = 0
+
     
-    social = np.random.normal(df['social'].mean(),df['social'].std())
-    if social>2.5:
-        social = 3
-    elif social>1.5:
-        social = 2
-    elif social>0.5:
-        social = 1
+    entertainment = np.random.normal(df['entertainmentRelax'].mean(),df['entertainmentRelax'].std())
+    if entertainment>2.5:
+        entertainment = 3
+    elif entertainment>1.5:
+        entertainment = 2
+    elif entertainment>0.5:
+        entertainment = 1
     else:
-        social = 0
-    
-    sport = np.random.normal(df['sport'].mean(),df['sport'].std())
-    if sport>2.5:
-        sport = 3
-    elif sport>1.5:
-        sport = 2
-    elif sport>0.5:
-        sport = 1
+        entertainment = 0
+
+    car = np.random.normal(df['transportation2'].mean(),df['transportation2'].std())
+    if car>2.5:
+        car = 3
+    elif car>1.5:
+        car = 2
+    elif car>0.5:
+        car = 1
     else:
-        sport = 0
-    
+        car = 0
+        
     others = np.random.normal(df['others'].mean(),df['others'].std())
     if others>2.5:
         others = 3
@@ -386,7 +480,7 @@ def generateOneDay(df):
     else:
         others = 0
     
-    return gender,walk,entertainment,alcohol,car,bike,workStudy,cafeSnack,dairy,grain,egg,seafood,fruit,meat,composite,vegetables,starchy,social,sport,others 
+    return gender,walk,entertainment,alcohol,car,bike,workStudy,cafe,snack,dairy,grain,egg,seafood,fruit,meat,composite,vegetables,starchy,social,sport,others 
 
 
 def originalData():
@@ -394,20 +488,19 @@ def originalData():
     col2 = dataGen4SlpPrd.genActTypeLabel()
     cols = col1+col2
     cols.append('gender')
-    #cols.append('sleepTime')
+    cols.append('sleepTime')
     cols.append('label')
     
     dataset = dataGen4SlpPrd.genDailyDietActTypeFeaT4DC()
     gender = dataGen4SlpPrd.getGender()
     dataset = np.c_[dataset,gender.ravel()]
     
-    #time = dataGen4SlpPrd.getSlpTime() 
-    #dataset = np.c_[dataset,time.ravel()]
+    time = dataGen4SlpPrd.getSlpTime() 
+    dataset = np.c_[dataset,time.ravel()]
     
     label1 = dataGen4SlpPrd.getSlpTimeLabel()
     dataset_l1 = np.c_[dataset,label1.ravel()]
     df = pd.DataFrame(dataset_l1,columns=cols)
-    df['cafeSnack'] = df['snack']+df['caffeineD']
     
     return df,cols  
 
@@ -415,19 +508,17 @@ def artificialData():
 
     df,cols = originalData()
     dd = {}
-    dd['cafeSnack'] = []
-    for i in range(len(cols)-1):
-        if cols[i] != 'caffeineD' and cols[i] != 'snack':
-            dd[cols[i]] = []
+    for i in range(len(cols)):
+        dd[cols[i]] = []
     labels = []
     
     for i in range(10000):
-        gender,walk,entertainment,alcohol,car,bike,workStudy,cafeSnack,dairy,grain,egg,seafood,fruit,meat,composite,vegetables,starchy,social,sport,others = generateOneDay(df)
-        time = -0.15*gender + 0.05*entertainment - 0.19*alcohol + 0.1*car + 0.1*workStudy +0.15*cafeSnack
-        time = ((time + 1.59)/(1.83 + 1.59)*(12 - 5)) + 5 
-        if time >= 9:
+        gender,walk,entertainment,alcohol,car,bike,workStudy,cafe,snack,dairy,grain,egg,seafood,fruit,meat,composite,vegetables,starchy,social,sport,others = generateOneDay(df)
+        time = -0.16*gender + 0.056*walk - 0.198*alcohol - 0.11*workStudy +0.074*cafe - 0.01*sport - 0.056*social - 0.015*bike 
+        time = ((time + 1.846)/(0.687 + 1.846)*(12 - 5)) + 5 
+        if time >= 9.8:
             label = 2
-        elif time >= 8.6:
+        elif time >= 9.4:
             label = 1
         else:
             label = 0
@@ -438,7 +529,8 @@ def artificialData():
         dd['transportation2'].append(car)
         dd['transportation3'].append(bike)
         dd['workStudy'].append(workStudy)
-        dd['cafeSnack'].append(cafeSnack) 
+        dd['snack'].append(snack) 
+        dd['caffeineD'].append(cafe)
         dd['dairyP'].append(dairy)
         dd['grainP'].append(grain)
         dd['eggP'].append(egg)
@@ -451,11 +543,12 @@ def artificialData():
         dd['social'].append(social)
         dd['sport'].append(sport)
         dd['others'].append(others)
-        #dd['sleepTime'].append(time) 
+        dd['sleepTime'].append(time) 
+        dd['label'].append(label)
         labels.append(label)
     
     newDF = pd.DataFrame(dd)
-    
+    print newDF['sleepTime'].mean()
     return newDF,labels  
 
 def visdiff():
@@ -466,8 +559,14 @@ def visdiff():
         df[i].plot.kde(label='old')
         newDF[i].plot.kde(label='new')
         #newDF[i].hist()
+        if i == 'transportation1':
+            i = 'walk'
+        if i == 'transportation2':
+            i = 'car'
+        if i == 'transportation3':
+            i = 'bike' 
         plt.legend()
         plt.title(i)
         plt.savefig('distribution/'+i+'_new')
 
-visdiff()
+#visdiff()

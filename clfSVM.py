@@ -14,8 +14,37 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import precision_recall_fscore_support
 import numpy as np
 import pandas as pd
+import artificialDataGenerator
 
+'''
+grid search for parameters 
+'''
+#dataset = dataGen4SlpPrd.genDailyDietActTypeFeaT4DCWithP()
+#dataset = np.c_[dataset,gender.ravel()]
+#
+##dataTrain, dataTest, labelTrain, labelTest = cross_validation.train_test_split(dataset, label5, train_size =180, random_state=10)
+##clf = SVC()
+##clf.fit(dataTrain,labelTrain)
+##pre_labels = clf.predict(dataTest)
+##accuracy = accuracy_score(labelTest,pre_labels)
+##print accuracy
+##p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
+##print p,r,f,s
+#
+#tuned_parameters = [{'kernel':['linear','poly','rbf','sigmoid'],'C':[0.1,0.3,0.5,0.8,1,5,10,20,30]}]
+## cv: integer, to specify the number of folds
+#clf = GridSearchCV(SVC(), tuned_parameters, cv=5)
+#clf.fit(dataset,label1)
+#print clf.best_params_
+##print clf.best_estimator_
+#print clf.best_score_
+##print clf.scorer_  
+##for params, mean_score, scores in clf.grid_scores_:
+##    print("%0.2f (+/-%0.02f) for %r"% (mean_score, scores.std()*2, params))
 
+'''
+best performance on old data 
+'''
 label1 = dataGen4SlpPrd.getSlpTimeLabel()
 label2 = dataGen4SlpPrd.getMorningnessLabel()
 label3 = dataGen4SlpPrd.getEveningnessLabel()
@@ -27,11 +56,11 @@ gender = dataGen4SlpPrd.getGender()
 time = dataGen4SlpPrd.getSlpTime()
 
 dataset1 = dataGen4SlpPrd.genDailyDietActTypeFeaT()
-dateset2 = dataGen4SlpPrd.genDailyDietActTypeFeaT4DC()
+dataset2 = dataGen4SlpPrd.genDailyDietActTypeFeaT4DC()
 dataset3 = dataGen4SlpPrd.genDailyDietActTypeFeaTWithP()
 dataset4 = dataGen4SlpPrd.genDailyDietActTypeFeaT4DCWithP()
-dataset5 = np.c_[dataset4,gender.ravel()]
-Dataset = [dateset2,dataset3,dataset4,dataset5]
+dataset5 = np.c_[dataset2,gender.ravel()]
+Dataset = [dataset5]#,dataset3,dataset4,dataset5]
 #dataset = np.c_[dataset,gender.ravel()]
 #dataset = utilise.normArray(dataset)
 
@@ -64,26 +93,14 @@ for labels in Labels:
         print bestAcc#,p,r,f,s
     
 
-#dataset = dataGen4SlpPrd.genDailyDietActTypeFeaT4DCWithP()
-#dataset = np.c_[dataset,gender.ravel()]
-#
-##dataTrain, dataTest, labelTrain, labelTest = cross_validation.train_test_split(dataset, label5, train_size =180, random_state=10)
-##clf = SVC()
-##clf.fit(dataTrain,labelTrain)
-##pre_labels = clf.predict(dataTest)
-##accuracy = accuracy_score(labelTest,pre_labels)
-##print accuracy
-##p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
-##print p,r,f,s
-#
-#tuned_parameters = [{'kernel':['linear','poly','rbf','sigmoid'],'C':[0.1,0.3,0.5,0.8,1,5,10,20,30]}]
-## cv: integer, to specify the number of folds
-#clf = GridSearchCV(SVC(), tuned_parameters, cv=5)
-#clf.fit(dataset,label1)
-#print clf.best_params_
-##print clf.best_estimator_
-#print clf.best_score_
-##print clf.scorer_  
-##for params, mean_score, scores in clf.grid_scores_:
-##    print("%0.2f (+/-%0.02f) for %r"% (mean_score, scores.std()*2, params))
+'''
+artificial data test 
+'''
+#df,labels = artificialDataGenerator.artificialData()
+#dataset = df.as_matrix()
+#clf = SVC(kernel='linear',C=1)
+#scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+#accuracy = scores.mean()
+#print accuracy
+
 

@@ -8,8 +8,9 @@ Created on Mon Dec 10 16:26:06 2015
 import buildItemIndex
 import buildTypeIndex
 import dietActInfoRetrv
+import artificialDataGenerator
 from pymining import itemmining, assocrules 
-from pymining import seqmining
+#from pymining import seqmining
 available_list = ['039','044','045','048','049','050','051','052','053','054','056','057','058','059','060','061','063','064','065','066','067','068','069','070','071','072','073','074','075']
  
 def genDietItemDataSet():
@@ -102,6 +103,7 @@ def genDailyActDietTypeDataSet():
             indexDict1 = buildTypeIndex.build_daily_single_activity_index(subjectid,i+1)
             temp1 = tuple(indexDict1)
             indexDict2 = buildTypeIndex.build_daily_single_diet_index(subjectid,i+1)
+            if 'compositeP' in indexDict2: del indexDict2['compositeP']
             temp2 = tuple(indexDict2)
             temp = temp1+temp2
             dataset.append(temp)
@@ -110,6 +112,22 @@ def genDailyActDietTypeDataSet():
     print len(dataset)
     return dataset
 
+def genArtificialActDietTypeDataSet():
+    dataset = []
+
+    newDF,labels = artificialDataGenerator.artificialData()
+    for i in range(newDF.shape[0]):
+        temp = []
+        for j in newDF.columns:
+            if j != 'compositeP': 
+                if newDF.ix[i,j] > 0:
+                    temp.append(j)
+        temp = tuple(temp)
+        dataset.append(temp)
+    
+    dataset = tuple(dataset)
+    print len(dataset)
+    return dataset
 
 #indexDict = buildTypeIndex.build_daily_single_diet_index('039',5)
 #print indexDict
@@ -119,20 +137,21 @@ def genDailyActDietTypeDataSet():
 # transactions = genDailyDietDataSet()
 # transactions = genDailyActDataSet()
 #transactions = genDailyDietTypeDataSet()
-transactions = genDailyActTypeDataSet()
-#ransactions = genDailyActDietTypeDataSet()
+#transactions = genDailyActTypeDataSet()
+#transactions = genDailyActDietTypeDataSet()
+transactions = genArtificialActDietTypeDataSet()
 
 # print transactions
 
 relim_input = itemmining.get_relim_input(transactions)
-item_sets = itemmining.relim(relim_input, min_support=10)
+item_sets = itemmining.relim(relim_input, min_support=100)
 #print item_sets
-rules = assocrules.mine_assoc_rules(item_sets, min_support=10, min_confidence=0.95)
+rules = assocrules.mine_assoc_rules(item_sets, min_support=2000, min_confidence=0.80)
 print rules 
 
-freq_seqs = seqmining.freq_seq_enum(transactions, 100)
-print sorted(freq_seqs)
 
+#freq_seqs = seqmining.freq_seq_enum(transactions, 100)
+#print sorted(freq_seqs)
 
 # transactions = perftesting.get_default_transactions()
 # relim_input = itemmining.get_relim_input(transactions)

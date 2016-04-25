@@ -15,16 +15,45 @@ from sklearn.metrics import precision_recall_fscore_support
 from adasyn import ADASYN
 import numpy as np
 import pandas as pd
+import artificialDataGenerator
 
+'''
+grid search for parameters 
+'''
+#dataset = dataGen4SlpPrd.genDailyDietActTypeFeaT4DC()
+#dataset = np.c_[dataset,gender.ravel()]
+#
+##dataTrain, dataTest, labelTrain, labelTest = cross_validation.train_test_split(dataset, label1, train_size =180, random_state=0)
+##clf = RandomForestClassifier(n_estimators = 200,n_jobs = -1)
+##clf.fit(dataTrain,labelTrain)
+##pre_labels = clf.predict(dataTest)
+##accuracy = accuracy_score(labelTest,pre_labels)
+##print accuracy
+##p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
+##print p,r,f,s
+##print clf.feature_importances_  
+#
+#dataTrain, dataTest, labelTrain, labelTest = cross_validation.train_test_split(dataset, label1, train_size =180, random_state=0)
+#tuned_parameters = [{'n_estimators':[50,100,200,300,400,500],'criterion':['gini','entropy']}]
+## cv: integer, to specify the number of folds
+#clf = GridSearchCV(RandomForestClassifier(), tuned_parameters, cv=5)
+#clf.fit(dataset,label1)
+#print clf.best_params_
+##print clf.best_estimator_
+#print clf.best_score_
+##print clf.scorer_  
+##for params, mean_score, scores in clf.grid_scores_:
+##    print("%0.2f (+/-%0.02f) for %r"% (mean_score, scores.std()*2, params))
 
-
+'''
+best performance on old data 
+'''
 label1 = dataGen4SlpPrd.getSlpTimeLabel()
 label2 = dataGen4SlpPrd.getMorningnessLabel()
 label3 = dataGen4SlpPrd.getEveningnessLabel()
 label4 = dataGen4SlpPrd.getLarkLabel()
 label5 = dataGen4SlpPrd.getOwlLabel()
 Labels = [label1]#,label2,label3,label4,label5]
-
 
 #dataset_l1 = np.c_[dataset,label1.ravel()]
 #dataset_l2 = np.c_[dataset,label2.ravel()]
@@ -47,11 +76,11 @@ gender = dataGen4SlpPrd.getGender()
 time = dataGen4SlpPrd.getSlpTime()
 
 dataset1 = dataGen4SlpPrd.genDailyDietActTypeFeaT()
-dateset2 = dataGen4SlpPrd.genDailyDietActTypeFeaT4DC()
+dataset2 = dataGen4SlpPrd.genDailyDietActTypeFeaT4DC()
 dataset3 = dataGen4SlpPrd.genDailyDietActTypeFeaTWithP()
 dataset4 = dataGen4SlpPrd.genDailyDietActTypeFeaT4DCWithP()
-dataset5 = np.c_[dataset4,gender.ravel()]
-Dataset = [dateset2,dataset3,dataset4,dataset5]
+dataset5 = np.c_[dataset2,gender.ravel()]
+Dataset = [dataset5]#,dataset3,dataset4,dataset5]
 #dataset = np.c_[dataset,gender.ravel()]
 #dataset = utilise.normArray(dataset)
 
@@ -83,28 +112,14 @@ for labels in Labels:
             # cross_val_score(clf, dataset, labels) 
         print bestAcc#,p,r,f,s
 
-#dataset = dataGen4SlpPrd.genDailyDietActTypeFeaT4DC()
-#dataset = np.c_[dataset,gender.ravel()]
-#
-##dataTrain, dataTest, labelTrain, labelTest = cross_validation.train_test_split(dataset, label1, train_size =180, random_state=0)
-##clf = RandomForestClassifier(n_estimators = 200,n_jobs = -1)
-##clf.fit(dataTrain,labelTrain)
-##pre_labels = clf.predict(dataTest)
-##accuracy = accuracy_score(labelTest,pre_labels)
-##print accuracy
-##p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
-##print p,r,f,s
-##print clf.feature_importances_  
-#
-#dataTrain, dataTest, labelTrain, labelTest = cross_validation.train_test_split(dataset, label1, train_size =180, random_state=0)
-#tuned_parameters = [{'n_estimators':[50,100,200,300,400,500],'criterion':['gini','entropy']}]
-## cv: integer, to specify the number of folds
-#clf = GridSearchCV(RandomForestClassifier(), tuned_parameters, cv=5)
-#clf.fit(dataset,label1)
-#print clf.best_params_
-##print clf.best_estimator_
-#print clf.best_score_
-##print clf.scorer_  
-##for params, mean_score, scores in clf.grid_scores_:
-##    print("%0.2f (+/-%0.02f) for %r"% (mean_score, scores.std()*2, params))
-#
+
+'''
+artificial data test 
+'''
+#df,labels = artificialDataGenerator.artificialData()
+#dataset = df.as_matrix()
+#clf = RandomForestClassifier(n_estimators = 50,criterion='gini',n_jobs = -1)
+#scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+#accuracy = scores.mean()
+#print accuracy
+
