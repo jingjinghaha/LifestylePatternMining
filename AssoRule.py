@@ -119,7 +119,7 @@ def genArtificialActDietTypeDataSet():
     for i in range(newDF.shape[0]):
         temp = []
         for j in newDF.columns:
-            if j != 'compositeP': 
+            if j != 'compositeP' and j != 'sleepTime' and j != 'label': 
                 if newDF.ix[i,j] > 0:
                     temp.append(j)
         temp = tuple(temp)
@@ -146,7 +146,7 @@ transactions = genArtificialActDietTypeDataSet()
 relim_input = itemmining.get_relim_input(transactions)
 item_sets = itemmining.relim(relim_input, min_support=100)
 #print item_sets
-rules = assocrules.mine_assoc_rules(item_sets, min_support=2000, min_confidence=0.80)
+rules = assocrules.mine_assoc_rules(item_sets, min_support=3000, min_confidence=0.78)
 print rules 
 
 

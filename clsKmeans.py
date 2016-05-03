@@ -11,8 +11,9 @@ from sklearn.decomposition import PCA
 import numpy as np
 import utilise
 import dataGen4DietAct
-import visSimilarityMat
+import visSimilarityMat 
 import validation4DC 
+import artificialDataGenerator
 from kmeans import * 
 
 # Domain = ['DietItem','ActItem','DietType','ActType','ActDietItem','ActDietType']
@@ -25,18 +26,18 @@ def KM(domain, n_clusters):
 #        X = dataGen4DietAct.genActTypeTFArray()
 #    X = utilise.normArray(X)
     
-    if domain == 'DietType':
-        X = validation4DC.getDietTypeTFArray4DC()
-    elif domain == 'ActType':
-        X = validation4DC.getActTypeTFArray4DC()
-    X = utilise.normArray(X)
-    
     # if domain == 'DietType':
         # Similarity_dict = utilise.SimilarityDict(domain,'TFEclud')
     # elif domain == 'ActType':
         # Similarity_dict = utilise.SimilarityDict(domain,'TFEclud')
     # X = visSimilarityMat.similarityDict2array(Similarity_dict,0)
-    
+
+    if domain == 'DietType':
+        X = validation4DC.getDietTypeTFArray4DC()
+    elif domain == 'ActType':
+        X = validation4DC.getActTypeTFArray4DC()
+    X = utilise.normArray(X)
+       
     # print X
     # print X.shape
     
@@ -172,10 +173,53 @@ def KM_nonslp(domain,n_clusters):
     
     print domain,n_clusters,inertia, labels
     
-
-for n_clusters in range(2,5):
+def KM_AtificialData():
+    df,cols = artificialDataGenerator.artificialData()
     for domain in Domain:
-        KM(domain,n_clusters)
+        print df.columns 
+        if domain == 'DietType':
+            df_temp = df[['alcoholD','caffeineD','compositeP','dairyP','eggP','fruitP','grainP','meatP','seafood','snack','starchyP','vegetables']]
+        else:
+            df_temp = df[['entertainmentRelax','others','social','sport','transportation1','transportation2','transportation3','workStudy']]
+        X = df_temp.as_matrix()
+        X = utilise.normArray(X)
+        
+        range_n_clusters = [2, 3, 4, 5, 6] 
+    
+        for n_clusters in range_n_clusters:
+            kmeans = KMeans(n_clusters=n_clusters, n_init = 3000)
+            kmeans.fit(X)
+            labels = kmeans.labels_
+            inertia = kmeans.inertia_
+
+            plt.figure()
+            reduced_data = PCA(n_components=2).fit_transform(X)
+            N = np.max(labels) + 1
+            for k in range(N):
+                class_members = labels == k
+                if k == 0:
+                    for x in reduced_data[class_members]:
+                        plt.plot(x[0], x[1], 'go', markersize=5)
+                if k == 1: 
+                    for x in reduced_data[class_members]:
+                        plt.plot(x[0], x[1], 'ro', markersize=5)
+                if k == 2:
+                    for x in reduced_data[class_members]:
+                        plt.plot(x[0], x[1], 'bo', markersize=5)
+                if k == 3:
+                    for x in reduced_data[class_members]:
+                        plt.plot(x[0], x[1], 'yo', markersize=5)
+#            for i in range(reduced_data.shape[0]):
+#                plt.text(reduced_data[i, 0], reduced_data[i, 1],i)
+            plt.title('K-means clustering (PCA-reduced data)')
+            plt.savefig('visClustering'+domain+'Pattern/KMeans_TF_artificial_'+str(n_clusters))
+            
+            print domain, n_clusters,inertia, labels
+
+#for n_clusters in range(2,5):
+#    for domain in Domain:
+#        KM(domain,n_clusters)
 
 # KM('ActItem', 'TFIDF')
 # KM_slp(4)
+KM_AtificialData()

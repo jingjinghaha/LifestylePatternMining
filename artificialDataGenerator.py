@@ -152,7 +152,7 @@ def generateOneDay(df):
     #dependent variables generation: cafe and Snack
     if walk == 3: 
         poss = np.random.rand()
-        if poss>0.4:
+        if poss>0.2:
             temp_df = df[df['caffeineD']>0]
             cafe = np.random.normal(temp_df['caffeineD'].mean(),temp_df['caffeineD'].std())
             if cafe>5.5:
@@ -171,7 +171,7 @@ def generateOneDay(df):
             cafe = 0
     elif walk == 2: 
         poss = np.random.rand()
-        if poss>0.43:
+        if poss>0.3:
             temp_df = df[df['caffeineD']>0]
             cafe = np.random.normal(temp_df['caffeineD'].mean(),temp_df['caffeineD'].std())
             if cafe>5.5:
@@ -190,7 +190,7 @@ def generateOneDay(df):
             cafe = 0      
     elif walk == 1: 
         poss = np.random.rand()
-        if poss>0.47:
+        if poss>0.4:
             temp_df = df[df['caffeineD']>0]
             cafe = np.random.normal(temp_df['caffeineD'].mean(),temp_df['caffeineD'].std())
             if cafe>5.5:
@@ -448,7 +448,38 @@ def generateOneDay(df):
         starchy = 1
     else:
         starchy = 0
-
+    
+#    cafe = np.random.normal(df['caffeineD'].mean(),df['caffeineD'].std())
+#    if cafe>5.5:
+#        cafe = 6
+#    elif cafe>4.5:
+#        cafe = 5
+#    elif cafe>3.5:
+#        cafe = 4
+#    elif cafe>2.5:
+#        cafe = 3
+#    elif cafe>1.5:
+#        cafe = 2
+#    elif cafe>0.5:
+#        cafe = 1
+#    else:
+#        cafe = 0
+#
+#    snack = np.random.normal(df['snack'].mean(),df['snack'].std())
+#    if snack>5.5:
+#        snack = 6
+#    elif snack>4.5:
+#        snack = 5
+#    elif snack>3.5:
+#        snack = 4
+#    elif snack>2.5:
+#        snack = 3
+#    elif snack>1.5:
+#        snack = 2
+#    elif snack>0.5:
+#        snack = 1
+#    else:
+#        snack = 0
     
     entertainment = np.random.normal(df['entertainmentRelax'].mean(),df['entertainmentRelax'].std())
     if entertainment>2.5:
@@ -512,7 +543,7 @@ def artificialData():
         dd[cols[i]] = []
     labels = []
     
-    for i in range(10000):
+    for i in range(1000):
         gender,walk,entertainment,alcohol,car,bike,workStudy,cafe,snack,dairy,grain,egg,seafood,fruit,meat,composite,vegetables,starchy,social,sport,others = generateOneDay(df)
         time = -0.16*gender + 0.056*walk - 0.198*alcohol - 0.11*workStudy +0.074*cafe - 0.01*sport - 0.056*social - 0.015*bike 
         time = ((time + 1.846)/(0.687 + 1.846)*(12 - 5)) + 5 
@@ -556,8 +587,8 @@ def visdiff():
     df,cols = originalData() 
     for i in newDF.columns:
         plt.figure()
-        df[i].plot.kde(label='old')
-        newDF[i].plot.kde(label='new')
+        df[i].plot.kde(label='original')
+        newDF[i].plot.kde(label='surrogate')
         #newDF[i].hist()
         if i == 'transportation1':
             i = 'walk'
@@ -567,6 +598,6 @@ def visdiff():
             i = 'bike' 
         plt.legend()
         plt.title(i)
-        plt.savefig('distribution/'+i+'_new')
+        plt.savefig('distribution/'+i+'_surrogate')
 
 #visdiff()

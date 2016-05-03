@@ -39,8 +39,11 @@ def genDietTypeDict():
     for line in open('diet/dietOverallTypeFreq/all_dietType_frequency.txt','r'):
         line = line.strip('\n')
         words = wordpunct_tokenize(line)
-        item_dict[n] = words[0]
-        n += 1
+        if words[0] != 'compositeP':
+            item_dict[n] = words[0]
+            n += 1
+#        item_dict[n] = words[0]
+#        n += 1
     # print item_dict
     return item_dict
 
@@ -67,8 +70,11 @@ def genActTypeDict():
     for line in open('activity/activityOverallTypeFreq/all_activityType_frequency.txt','r'):
         line = line.strip('\n')
         words = wordpunct_tokenize(line)
-        item_dict[n] = words[0]
-        n += 1
+        if words[0] != 'others':
+            item_dict[n] = words[0]
+            n += 1
+#        item_dict[n] = words[0]
+#        n += 1
     # print item_dict
     return item_dict
 
