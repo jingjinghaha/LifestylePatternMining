@@ -72,57 +72,57 @@ PCA and factor analysis
 '''
 df test 
 '''
-import dataGen4SlpPrd
-import numpy as np
-import pandas as pd 
-import copy
-from pandas.tools.plotting import scatter_matrix
-import matplotlib.pyplot as plt
-
-col1 = dataGen4SlpPrd.genDietTypeLabel()
-col2 = dataGen4SlpPrd.genActTypeLabel()
-cols = col1+col2
-cols.append('gender')
-cols.append('sleepTime')
-cols.append('label')
-
-print cols 
-dataset = dataGen4SlpPrd.genDailyDietActTypeFeaT4DC()
-gender = dataGen4SlpPrd.getGender()
-dataset = np.c_[dataset,gender.ravel()]
-
-time = dataGen4SlpPrd.getSlpTime() 
-dataset = np.c_[dataset,time.ravel()]
-
-label1 = dataGen4SlpPrd.getSlpTimeLabel()
-dataset_l1 = np.c_[dataset,label1.ravel()]
-df = pd.DataFrame(dataset_l1,columns=cols)
-
-dd = {}
-dd_low = {}
-dd_high = {}
-for i in df.columns:
-    if i != 'label':
-        dd[i] = [0,0,0] 
-        temp = df[df[i]>0]
-    #    dd[i][0] = temp[temp['label']==0].shape[0] 
-    #    dd[i][1] = temp[temp['label']==1].shape[0]
-    #    dd[i][2] = temp[temp['label']==2].shape[0]
-#        if temp[temp['label']==0].shape[0] == 0:
-#            print i 
-#            break 
-        dd[i][0] = sum(temp[temp['label']==0][i])#/(temp[temp['label']==0].shape[0])
-        dd[i][1] = sum(temp[temp['label']==1][i])#/(temp[temp['label']==1].shape[0])
-        dd[i][2] = sum(temp[temp['label']==2][i])#/(temp[temp['label']==2].shape[0])
-        ll = copy.deepcopy(dd)
-        dd[i][0] = dd[i][0]/float(sum(ll[i]))
-        dd[i][1] = dd[i][1]/float(sum(ll[i]))
-        dd[i][2] = dd[i][2]/float(sum(ll[i]))
-        dd_low[i] = dd[i][0] + dd[i][1]
-        dd_high[i] = dd[i][1] + dd[i][2]
-    
-temp = df[df['workStudy']>0]
-print temp[temp['label']==2].shape
+#import dataGen4SlpPrd
+#import numpy as np
+#import pandas as pd 
+#import copy
+#from pandas.tools.plotting import scatter_matrix
+#import matplotlib.pyplot as plt
+#
+#col1 = dataGen4SlpPrd.genDietTypeLabel()
+#col2 = dataGen4SlpPrd.genActTypeLabel()
+#cols = col1+col2
+#cols.append('gender')
+#cols.append('sleepTime')
+#cols.append('label')
+#
+#print cols 
+#dataset = dataGen4SlpPrd.genDailyDietActTypeFeaT4DC()
+#gender = dataGen4SlpPrd.getGender()
+#dataset = np.c_[dataset,gender.ravel()]
+#
+#time = dataGen4SlpPrd.getSlpTime() 
+#dataset = np.c_[dataset,time.ravel()]
+#
+#label1 = dataGen4SlpPrd.getSlpTimeLabel()
+#dataset_l1 = np.c_[dataset,label1.ravel()]
+#df = pd.DataFrame(dataset_l1,columns=cols)
+#
+#dd = {}
+#dd_low = {}
+#dd_high = {}
+#for i in df.columns:
+#    if i != 'label':
+#        dd[i] = [0,0,0] 
+#        temp = df[df[i]>0]
+#    #    dd[i][0] = temp[temp['label']==0].shape[0] 
+#    #    dd[i][1] = temp[temp['label']==1].shape[0]
+#    #    dd[i][2] = temp[temp['label']==2].shape[0]
+##        if temp[temp['label']==0].shape[0] == 0:
+##            print i 
+##            break 
+#        dd[i][0] = sum(temp[temp['label']==0][i])#/(temp[temp['label']==0].shape[0])
+#        dd[i][1] = sum(temp[temp['label']==1][i])#/(temp[temp['label']==1].shape[0])
+#        dd[i][2] = sum(temp[temp['label']==2][i])#/(temp[temp['label']==2].shape[0])
+#        ll = copy.deepcopy(dd)
+#        dd[i][0] = dd[i][0]/float(sum(ll[i]))
+#        dd[i][1] = dd[i][1]/float(sum(ll[i]))
+#        dd[i][2] = dd[i][2]/float(sum(ll[i]))
+#        dd_low[i] = dd[i][0] + dd[i][1]
+#        dd_high[i] = dd[i][1] + dd[i][2]
+#    
+#temp = df[df['workStudy']>0]
+#print temp[temp['label']==2].shape
 
 #a = df[df['label']==0]
 #b = a.mean().to_frame()
@@ -161,5 +161,15 @@ print temp[temp['label']==2].shape
 #        plt.legend()
 #        plt.title(i)
 #        plt.savefig('distribution/'+i)
-#    
+
+'''
+clf test
+'''
+import clfDecisionTree 
+import clfKNeighbors
+import clfLogisticRegression
+import clfNB
+import clfRandomForest
+import clfSVM
+
 

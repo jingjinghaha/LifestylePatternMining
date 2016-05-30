@@ -10,11 +10,12 @@ import artificialDataGenerator
 import matplotlib.pyplot as plt
 
 #df = pd.read_csv('newData.csv')
-#
-##tempDF = df[df['Duration']>10]
+#df_sub = pd.read_csv('subInfo_newData.csv')
 #
 #print df.shape
 #print df.columns
+#print df_sub.columns 
+
 #print type(df['Duration'][1]) 
 #print type(df['Breakfast'][1])
 #print int(df['Duration'][1].split(':')[0])
@@ -40,24 +41,34 @@ import matplotlib.pyplot as plt
 
 def newFeatureFrame():
     df = pd.read_csv('newData.csv')
+    df_sub = pd.read_csv('subInfo_newData.csv')
     
-    columns = ['alcoholD','caffeineD','dairyP','eggP','fruitP','grainP','meatP','seafood','snack','starchyP','vegetables','leisure','social','sport','walk','car','bike','workStudy','label']
+    columns = ['ID','gender','age','alcoholD','caffeineD','dairyP','eggP','fruitP','grainP','meatP','seafood','snack','starchyP','vegetables','leisure','social','sport','walk','car','bike','workStudy','label']
     x = df.shape[0]
     n = len(columns)
     array = np.zeros((x,n))
     feature_df = pd.DataFrame(array,columns = columns) 
     
     for i in range(df.shape[0]):
+        feature_df['ID'][i] = df['ID'][i]
+        feature_df['gender'][i] = df_sub['gender'][df['ID'][i]-1] 
+        feature_df['age'][i] = df_sub['age'][df['ID'][i]-1]
         
-        df.set_value(i,'Duration',int(df['Duration'][i].split(':')[0]))
+        df.set_value(i,'Duration',int(df['Duration'][i].split(':')[0])+float(df['Duration'][i].split(':')[1])/100)
         
-        if df['Duration'][i] >= 9:
-            feature_df['label'][i] = 2
-        elif df['Duration'][i] >= 8:
+#        print df['Duration'][i]
+#        if df['Duration'][i] >= 8.45:
+#            feature_df['label'][i] = 2
+#        elif df['Duration'][i] >= 7.5:
+#            feature_df['label'][i] = 1
+#        else:
+#            feature_df['label'][i] = 0            
+            
+        if df['Duration'][i] > 8.1:
             feature_df['label'][i] = 1
         else:
-            feature_df['label'][i] = 0            
-            
+            feature_df['label'][i] = 0 
+        
         if type(df['Breakfast'][i]) is str:
             if 'Alcohol' in df['Breakfast'][i]:
                 feature_df['alcoholD'][i] += 1 
@@ -358,8 +369,33 @@ def newFeatureFrame():
     
     return feature_df
     
-#feature = newFeatureFrame(df)
+#df = newFeatureFrame()
+#print df.sum()/df.shape[0]
+#df['label'].plot.kde()
+#print df[df['label']==0].shape[0]
+#print df[df['label']==1].shape[0]
+#print df[df['label']==2].shape[0]
 
+def newSubInfo():
+    df = newFeatureFrame()
+    temp_df = df[df['ID']==1]
+    se = temp_df.sum()
+    se['ID'] = 1
+    sub_df = pd.DataFrame(se).transpose()
+    
+    for i in range(1,30):
+        temp_df = df[df['ID']==(i+1)]
+        se = temp_df.sum()
+        se['ID'] = i+1
+        dd = pd.DataFrame(se).transpose()
+        sub_df = pd.concat([sub_df,dd])
+        
+    sub_df.index = range(sub_df.shape[0])
+    
+    return sub_df 
+
+#sub_df = newSubInfo()
+ 
 def visdiff():
     surrogateDF,labels = artificialDataGenerator.artificialData()
     df,cols = artificialDataGenerator.originalData() 
@@ -380,9 +416,10 @@ def visdiff():
         df[i].plot.kde(label='original')
         surrogateDF[i].plot.kde(label='surrogate')
         
-        plt.legend()
+#        plt.legend()
+        plt.legend(bbox_to_anchor=(1.05,1), loc=2)
         plt.title(i)
         plt.savefig('distribution/'+i+'_diff')
   
-visdiff()
+#visdiff()
   

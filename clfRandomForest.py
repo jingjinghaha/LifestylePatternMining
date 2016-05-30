@@ -16,6 +16,7 @@ from adasyn import ADASYN
 import numpy as np
 import pandas as pd
 import artificialDataGenerator
+import newDataProcess
 
 '''
 grid search for parameters 
@@ -48,70 +49,120 @@ grid search for parameters
 '''
 best performance on old data 
 '''
-label1 = dataGen4SlpPrd.getSlpTimeLabel()
-label2 = dataGen4SlpPrd.getMorningnessLabel()
-label3 = dataGen4SlpPrd.getEveningnessLabel()
-label4 = dataGen4SlpPrd.getLarkLabel()
-label5 = dataGen4SlpPrd.getOwlLabel()
-Labels = [label1]#,label2,label3,label4,label5]
-
-#dataset_l1 = np.c_[dataset,label1.ravel()]
-#dataset_l2 = np.c_[dataset,label2.ravel()]
-#dataset_l3 = np.c_[dataset,label3.ravel()]
-#dataset_l4 = np.c_[dataset,label4.ravel()]
-#dataset_l5 = np.c_[dataset,label5.ravel()]
+#label1 = dataGen4SlpPrd.getSlpTimeLabel()
+#label2 = dataGen4SlpPrd.getMorningnessLabel()
+#label3 = dataGen4SlpPrd.getEveningnessLabel()
+#label4 = dataGen4SlpPrd.getLarkLabel()
+#label5 = dataGen4SlpPrd.getOwlLabel()
+#Labels = [label1]#,label2,label3,label4,label5]
 #
-#header = ['f1','f2','f3','f4','f5','f6','f7','f8','f9','f10','f11','f12','f13','l']
+##dataset_l1 = np.c_[dataset,label1.ravel()]
+##dataset_l2 = np.c_[dataset,label2.ravel()]
+##dataset_l3 = np.c_[dataset,label3.ravel()]
+##dataset_l4 = np.c_[dataset,label4.ravel()]
+##dataset_l5 = np.c_[dataset,label5.ravel()]
+##
+##header = ['f1','f2','f3','f4','f5','f6','f7','f8','f9','f10','f11','f12','f13','l']
+##
+##pd.DataFrame(dataset_l1).to_csv('dataset_l1.csv',index = False,header = header)
+##pd.DataFrame(dataset_l2).to_csv('dataset_l2.csv',index = False,header = header)
+##pd.DataFrame(dataset_l3).to_csv('dataset_l3.csv',index = False,header = header)
+##pd.DataFrame(dataset_l4).to_csv('dataset_l4.csv',index = False,header = header)
+##pd.DataFrame(dataset_l5).to_csv('dataset_l5.csv',index = False,header = header)
 #
-#pd.DataFrame(dataset_l1).to_csv('dataset_l1.csv',index = False,header = header)
-#pd.DataFrame(dataset_l2).to_csv('dataset_l2.csv',index = False,header = header)
-#pd.DataFrame(dataset_l3).to_csv('dataset_l3.csv',index = False,header = header)
-#pd.DataFrame(dataset_l4).to_csv('dataset_l4.csv',index = False,header = header)
-#pd.DataFrame(dataset_l5).to_csv('dataset_l5.csv',index = False,header = header)
+##adsn = ADASYN(k=7,imb_threshold=0.6, ratio=0.8)
+##new_X, new_y = adsn.fit_transform(dataset,label2)  # your imbalanced dataset is in X,y
+#
+#time = dataGen4SlpPrd.getSlpTime()
+#gender = dataGen4SlpPrd.getGender()
+#age = dataGen4SlpPrd.getAge()
+#BMI = dataGen4SlpPrd.getBMI()
+#percFat = dataGen4SlpPrd.getPercFat()
+#
+##dataset1 = dataGen4SlpPrd.genDailyDietActTypeFeaT()
+##dataset3 = dataGen4SlpPrd.genDailyDietActTypeFeaTWithP()
+##dataset4 = dataGen4SlpPrd.genDailyDietActTypeFeaT4DCWithP()
+#
+#dataset1 = dataGen4SlpPrd.genDailyDietActTypeFeaT4DC()
+#dataset2 = np.c_[dataset1,gender.ravel()]
+#dataset3 = np.c_[dataset2,age.ravel()]
+#dataset4 = np.c_[dataset3,BMI.ravel()]
+#dataset5 = np.c_[dataset4,percFat.ravel()]
+#dataset6 = dataGen4SlpPrd.genDailyDietActTypeFeaTWithP() 
+#dataset7 = dataGen4SlpPrd.genDailyDietActTypeFeaT4DCWithP()
+#dataset8 = np.c_[dataset7,gender.ravel()]
+#dataset9 = np.c_[dataset8,age.ravel()]
+#dataset10 = np.c_[dataset9,BMI.ravel()]
+#dataset11 = np.c_[dataset10,percFat.ravel()]
+#Dataset = [dataset8,dataset9,dataset10,dataset11]
+#
+#for labels in Labels:
+#    
+#    print 'change label'
+#    for dataset in Dataset:
+#        
+#        bestAcc = 0
+#        
+#        for i in range(500):
+#            dataTrain, dataTest, labelTrain, labelTest = cross_validation.train_test_split(dataset, labels, train_size =180)
+#            
+#            clf = RandomForestClassifier(n_estimators = 50,criterion='gini',n_jobs = -1)
+#            clf.fit(dataTrain,labelTrain)
+#            
+#            pre_labels = clf.predict(dataTest)
+#            # http://scikit-learn.org/stable/modules/model_evaluation.html#accuracy-score
+#            accuracy = accuracy_score(labelTest,pre_labels)
+#            
+#            scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+#            accuracy = scores.mean()
+#            
+#            if accuracy > bestAcc:
+#                bestAcc = accuracy
+#                #p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
+#                    
+#            # p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
+#            # cross_val_score(clf, dataset, labels) 
+#        print bestAcc#,p,r,f,s
 
-#adsn = ADASYN(k=7,imb_threshold=0.6, ratio=0.8)
-#new_X, new_y = adsn.fit_transform(dataset,label2)  # your imbalanced dataset is in X,y
+'''
+original data test 
+'''
+#df = artificialDataGenerator.originalData()
+#temp_df = df[['compositeP','others','alcoholD','caffeineD','dairyP','eggP','fruitP','grainP','meatP','seafood','snack','starchyP','vegetables','entertainmentRelax','social','sport','transportation1','transportation2','transportation3','workStudy','gender']]
+#dataset = temp_df.as_matrix()
+#labels = list(df['label'])
+#clf = RandomForestClassifier(n_estimators = 50,criterion='gini',n_jobs = -1)
+#scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+#accuracy = scores.mean()
+#print accuracy
+#clf.fit(dataset,labels)
+#print clf.feature_importances_
 
-gender = dataGen4SlpPrd.getGender()
-time = dataGen4SlpPrd.getSlpTime()
-
-dataset1 = dataGen4SlpPrd.genDailyDietActTypeFeaT()
-dataset2 = dataGen4SlpPrd.genDailyDietActTypeFeaT4DC()
-dataset3 = dataGen4SlpPrd.genDailyDietActTypeFeaTWithP()
-dataset4 = dataGen4SlpPrd.genDailyDietActTypeFeaT4DCWithP()
-dataset5 = np.c_[dataset2,gender.ravel()]
-Dataset = [dataset5]#,dataset3,dataset4,dataset5]
-#dataset = np.c_[dataset,gender.ravel()]
-#dataset = utilise.normArray(dataset)
-
-for labels in Labels:
-    
-    print 'change label'
-    for dataset in Dataset:
-        
-        bestAcc = 0
-        
-        for i in range(500):
-            dataTrain, dataTest, labelTrain, labelTest = cross_validation.train_test_split(dataset, labels, train_size =180)
-            
-            clf = RandomForestClassifier(n_estimators = 50,criterion='gini',n_jobs = -1)
-            clf.fit(dataTrain,labelTrain)
-            
-            pre_labels = clf.predict(dataTest)
-            # http://scikit-learn.org/stable/modules/model_evaluation.html#accuracy-score
-            accuracy = accuracy_score(labelTest,pre_labels)
-            
-            scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
-            accuracy = scores.mean()
-            
-            if accuracy > bestAcc:
-                bestAcc = accuracy
-                #p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
-                    
-            # p,r,f,s = precision_recall_fscore_support(labelTest,pre_labels)
-            # cross_val_score(clf, dataset, labels) 
-        print bestAcc#,p,r,f,s
-
+'''
+original data test pattern features
+'''
+df = artificialDataGenerator.originalData()
+df['bikeWork'] = 0
+df['walkCar'] = 0
+for j in range(df.shape[0]): 
+    if df['transportation3'][j] > 0 and df['workStudy'][j] > 0:
+        df.set_value(j,'bikeWork',1)   
+    if df['transportation1'][j] > 0 and df['transportation2'][j] > 0:
+        df.set_value(j,'walkCar',1)
+temp_df = df[['alcoholD','eggP','seafood','gender','bikeWork','walkCar']]
+#temp_df = df[['alcoholD','eggP','seafood','gender']]
+for i in temp_df.columns:
+    for j in range(temp_df.shape[0]):
+        if temp_df[i][j] > 1:
+            temp_df.set_value(j,i,1)
+dataset = temp_df.as_matrix()
+labels = list(df['label'])
+clf = RandomForestClassifier(n_estimators = 50,criterion='gini',n_jobs = -1) 
+scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+accuracy = scores.mean()
+print accuracy
+clf.fit(dataset,labels)
+print clf.feature_importances_
 
 '''
 artificial data test 
@@ -122,4 +173,19 @@ artificial data test
 #scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
 #accuracy = scores.mean()
 #print accuracy
+#clf.fit(dataset,labels)
+#print clf.feature_importances_
 
+'''
+new data test 
+'''
+#df = newDataProcess.newFeatureFrame()
+#temp_df = df[['alcoholD','caffeineD','dairyP','eggP','fruitP','grainP','meatP','seafood','snack','starchyP','vegetables','leisure','social','sport','walk','car','bike','workStudy','gender']]
+#dataset = temp_df.as_matrix()
+#labels = list(df['label'])
+#clf = RandomForestClassifier(n_estimators = 50,criterion='gini',n_jobs = -1) 
+#scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+#accuracy = scores.mean()
+#print accuracy
+#clf.fit(dataset,labels)
+#print clf.feature_importances_

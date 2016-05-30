@@ -251,7 +251,8 @@ def featureScaling(vec):
 
 def normArray(array):
     for j in range(array.shape[0]):
-        array[j] = normVec_max(array[j])
+        if max(array[j]) != 0:
+            array[j] = normVec_max(array[j])
     # for j in range(array.shape[1]):
         # array[:,j] = featureScaling(array[:,j]) 
     return array

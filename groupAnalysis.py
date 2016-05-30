@@ -237,4 +237,56 @@ def groupAnalysis():
 	genDemoInfoDietGroups()
 	groupingAnalysis()
 
-groupAnalysis()
+#groupAnalysis()
+
+
+def getGroups(labels):
+    import numpy as np 
+    groups = {} 
+    
+    N = np.max(labels) + 1 
+
+    for k in range(N):
+        groups[k] = []
+        class_members = labels == k
+        # print class_members.shape[0]
+
+        for i in range(class_members.shape[0]):
+            if class_members[i] == True:
+                groups[k].append(i)
+
+    return groups
+
+def groupingAnalysisNewData():
+
+    labelsDietType = utilise.string2array('0 0 1 0 0 0 0 0 0 1 1 0 0 0 1 1 0 0 0 0 1 1 0 0 1 1 0 0 0 0')   
+    labelsActType = utilise.string2array('1 2 0 0 0 1 2 0 1 1 2 2 0 1 0 0 1 0 1 1 0 0 1 2 1 2 2 0 0 2')
+    
+    groupDiet = getGroups(labelsDietType)
+    groupAct = getGroups(labelsActType)
+    print groupAct
+    print groupDiet
+				
+    dd = {}
+    for key1 in groupDiet:
+        dd[key1] = {}
+        for key2 in groupAct:
+            dd[key1][key2] = 0 
+            for item in groupDiet[key1]:
+                if item in groupAct[key2]:
+                    dd[key1][key2] += 1   
+    print dd 
+
+    dd = {}
+    for key1 in groupAct:
+        dd[key1] = {}
+        for key2 in groupDiet:
+            dd[key1][key2] = 0 
+            for item in groupAct[key1]:
+                if item in groupDiet[key2]:
+                    dd[key1][key2] += 1 
+    print dd 
+
+groupingAnalysisNewData()
+
+    

@@ -301,6 +301,92 @@ def getGender():
 
     return labels
 
+def getAge():
+    file = 'SlpGroupInfo.xlsx'
+    workbook = xlrd.open_workbook(file)
+    sheet = workbook.sheet_by_index(0)
+
+    labels = [] 
+
+    for row in range(1,sheet.nrows):
+        labels.append(int(sheet.cell_value(row,13)))
+
+    labels = np.array(labels)
+
+    return labels
+
+def getHeight():
+    file = 'SlpGroupInfo.xlsx'
+    workbook = xlrd.open_workbook(file)
+    sheet = workbook.sheet_by_index(0)
+
+    labels = [] 
+
+    for row in range(1,sheet.nrows):
+        labels.append(int(sheet.cell_value(row,14)))
+
+    labels = np.array(labels)
+
+    return labels
+
+def getWeight():
+    file = 'SlpGroupInfo.xlsx'
+    workbook = xlrd.open_workbook(file)
+    sheet = workbook.sheet_by_index(0)
+
+    labels = [] 
+
+    for row in range(1,sheet.nrows):
+        labels.append(int(sheet.cell_value(row,15)))
+
+    labels = np.array(labels)
+
+    return labels
+
+def getBMI():
+    file = 'SlpGroupInfo.xlsx'
+    workbook = xlrd.open_workbook(file)
+    sheet = workbook.sheet_by_index(0)
+
+    labels = [] 
+
+    for row in range(1,sheet.nrows):
+        labels.append(int(sheet.cell_value(row,16)))
+
+    labels = np.array(labels)
+
+    return labels
+
+def getPercFat():
+    file = 'SlpGroupInfo.xlsx'
+    workbook = xlrd.open_workbook(file)
+    sheet = workbook.sheet_by_index(0)
+
+    labels = [] 
+
+    for row in range(1,sheet.nrows):
+        labels.append(int(sheet.cell_value(row,17)))
+
+    labels = np.array(labels)
+
+    return labels
+    
+
+def getID():
+    file = 'SlpGroupInfo.xlsx'
+    workbook = xlrd.open_workbook(file)
+    sheet = workbook.sheet_by_index(0)
+
+    labels = [] 
+
+    for row in range(1,sheet.nrows):
+        labels.append(int(sheet.cell_value(row,0)))
+
+    labels = np.array(labels)
+
+    return labels
+
+#print getID()
 #print type(dframe.iloc[3][3])
 ##dframe['frequency'][0:1] = dframe['frequency'][0:1].split('[')[1].split(']')[0].split(',')
 #print type(dframe.iloc[0][3])

@@ -7,8 +7,9 @@ Created on Mon Feb 01 15:48:39 2016
 
 import numpy as np
 import utilise 
+import dataGen4DietAct
 import buildItemIndex
-import infoRetrival
+import dietActInfoRetrv
 import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import TfidfTransformer
 
@@ -22,11 +23,11 @@ def singleSubjectDailyArray(domain,subjectID):
 	build daily item TFIDF normalization array 
 	'''
 	if domain == 'ActItem':
-		item_dict = utilise.genActItemDict()
+		item_dict = dataGen4DietAct.genActItemDict()
 	elif domain == 'DietItem':
-		item_dict = utilise.genDietItemDict()
+		item_dict = dataGen4DietAct.genDietItemDict()
 	
-	duration = infoRetrival.getDuration(subjectID)
+	duration = dietActInfoRetrv.getDuration(subjectID)
 	x = duration 
 	n = len(item_dict)
 	dims = (x,n)
@@ -65,10 +66,10 @@ def whichGroup(domain,subjectID):
 def getMeanVec(domain,groupID):
 	if domain == 'ActItem':
 		labels = labelsActItem
-		X = utilise.ActItemTfidfArray()
+		X = dataGen4DietAct.ActItemTfidfArray()
 	if domain == 'DietItem':
 		labels = labelsDietItem
-		X = utilise.DietItemTfidfArray()
+		X = dataGen4DietAct.DietItemTfidfArray()
 	for k in range(4):
 		class_members = labels == k
 		i = 0
