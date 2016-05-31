@@ -288,38 +288,40 @@ def genNewActDietTypeDataSetForMoreSleep():
     print len(dataset)
     return dataset
 
-for i in range(1,10):
-    # transactions = genDietItemDataSet()
-    # transactions = genActItemDataSet()
-    # transactions = genDailyDietDataSet()
-    # transactions = genDailyActDataSet()
-    #transactions = genDailyDietTypeDataSet()
-    #transactions = genDailyActTypeDataSet()
-    #transactions = genDailyActDietTypeDataSet()
-    #transactions = genOriginalActDietTypeDataSet()
-    transactions = genOriginalActDietTypeDataSetForLessSleep()
-#    transactions = genOriginalActDietTypeDataSetForMoreSleep()
-    #transactions = genArtificialActDietTypeDataSet()
-    #transactions = genArtificialActDietTypeDataSetForLessSleep()
-    #transactions = genArtificialActDietTypeDataSetForMoreSleep()
-    #transactions = genNewActDietTypeDataSet()
-    #transactions = genNewActDietTypeDataSetForLessSleep()
-    #transactions = genNewActDietTypeDataSetForMoreSleep()
-    
-    # print transactions
-    
-    relim_input = itemmining.get_relim_input(transactions)
+#for i in range(1,10):
+#    # transactions = genDietItemDataSet()
+#    # transactions = genActItemDataSet()
+#    # transactions = genDailyDietDataSet()
+#    # transactions = genDailyActDataSet()
+#    #transactions = genDailyDietTypeDataSet()
+#    #transactions = genDailyActTypeDataSet()
+#    #transactions = genDailyActDietTypeDataSet()
+#    #transactions = genOriginalActDietTypeDataSet()
+##    transactions = genOriginalActDietTypeDataSetForLessSleep()
+##    transactions = genOriginalActDietTypeDataSetForMoreSleep()
+#    #transactions = genArtificialActDietTypeDataSet()
+#    transactions = genArtificialActDietTypeDataSetForLessSleep()
+#    #transactions = genArtificialActDietTypeDataSetForMoreSleep()
+#    #transactions = genNewActDietTypeDataSet()
+#    #transactions = genNewActDietTypeDataSetForLessSleep()
+#    #transactions = genNewActDietTypeDataSetForMoreSleep()
+#    
+#    # print transactions
+#    
+#    relim_input = itemmining.get_relim_input(transactions)
+#
+#    print 0.1*i
+#    item_sets = itemmining.relim(relim_input, min_support=int(len(transactions)*0.1*3))
+##    print len(item_sets)
+#    rules = assocrules.mine_assoc_rules(item_sets, min_support=int(len(transactions)*0.1*3), min_confidence=0.1*i)
+#    print len(rules)
 
-    print 0.1*i
-    item_sets = itemmining.relim(relim_input, min_support=int(len(transactions)*0.1*3))
-#    print len(item_sets)
-    rules = assocrules.mine_assoc_rules(item_sets, min_support=int(len(transactions)*0.1*3), min_confidence=0.1*i)
-    print len(rules)
-
-#item_sets = itemmining.relim(relim_input, min_support=33)
+transactions = genArtificialActDietTypeDataSetForLessSleep()
+relim_input = itemmining.get_relim_input(transactions)
+item_sets = itemmining.relim(relim_input, min_support=int(len(transactions)*0.1*3))
 #print item_sets  
-#rules = assocrules.mine_assoc_rules(item_sets, min_support=len(transactions)*0.3, min_confidence=0.7)
-#print rules 
+rules = assocrules.mine_assoc_rules(item_sets, min_support=len(transactions)*0.3, min_confidence=0.70)
+print rules 
 
 
 #freq_seqs = seqmining.freq_seq_enum(transactions, 100)

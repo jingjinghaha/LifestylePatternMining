@@ -122,16 +122,100 @@ print clf.feature_importances_
 '''
 original data test pattern features
 '''
-#df = artificialDataGenerator.originalData()
-#df['bikeWork'] = 0
-#df['walkCar'] = 0
-#for j in range(df.shape[0]): 
-#    if df['transportation3'][j] > 0 and df['workStudy'][j] > 0:
-#        df.set_value(j,'bikeWork',1)   
-#    if df['transportation1'][j] > 0 and df['transportation2'][j] > 0:
-#        df.set_value(j,'walkCar',1)
+df = artificialDataGenerator.originalData()
+df['bikeWork'] = 0
+df['walkCar'] = 0
+for j in range(df.shape[0]): 
+    if df['transportation3'][j] > 0 and df['workStudy'][j] > 0:
+        df.set_value(j,'bikeWork',1)   
+    if df['transportation1'][j] > 0 and df['transportation2'][j] > 0:
+        df.set_value(j,'walkCar',1)
+temp_df = df[['alcoholD','eggP','seafood','gender','bikeWork','walkCar']]
+for i in temp_df.columns:
+    for j in range(temp_df.shape[0]):
+        if temp_df[i][j] > 1:
+            temp_df.set_value(j,i,1)
+dataset = temp_df.as_matrix()
+labels = list(df['label'])
+clf = DecisionTreeClassifier(criterion='entropy')
+scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+accuracy = scores.mean()
+print accuracy
+clf.fit(dataset,labels)
+print clf.feature_importances_
+#
+#temp_df = df[['bikeWork']]
+#for i in temp_df.columns:
+#    for j in range(temp_df.shape[0]):
+#        if temp_df[i][j] > 1:
+#            temp_df.set_value(j,i,1)
+#dataset = temp_df.as_matrix()
+#labels = list(df['label'])
+#clf = DecisionTreeClassifier(criterion='entropy')
+#scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+#accuracy = scores.mean()
+#print accuracy
+#clf.fit(dataset,labels)
+#print clf.feature_importances_
+#
+#temp_df = df[['bikeWork','eggP']]
+#for i in temp_df.columns:
+#    for j in range(temp_df.shape[0]):
+#        if temp_df[i][j] > 1:
+#            temp_df.set_value(j,i,1)
+#dataset = temp_df.as_matrix()
+#labels = list(df['label'])
+#clf = DecisionTreeClassifier(criterion='entropy')
+#scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+#accuracy = scores.mean()
+#print accuracy
+#clf.fit(dataset,labels)
+#print clf.feature_importances_
+#
+#temp_df = df[['bikeWork','eggP','seafood']]
+#for i in temp_df.columns:
+#    for j in range(temp_df.shape[0]):
+#        if temp_df[i][j] > 1:
+#            temp_df.set_value(j,i,1)
+#dataset = temp_df.as_matrix()
+#labels = list(df['label'])
+#clf = DecisionTreeClassifier(criterion='entropy')
+#scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+#accuracy = scores.mean()
+#print accuracy
+#clf.fit(dataset,labels)
+#print clf.feature_importances_
+#
+#temp_df = df[['alcoholD','bikeWork','eggP','seafood']]
+#for i in temp_df.columns:
+#    for j in range(temp_df.shape[0]):
+#        if temp_df[i][j] > 1:
+#            temp_df.set_value(j,i,1)
+#dataset = temp_df.as_matrix()
+#labels = list(df['label'])
+#clf = DecisionTreeClassifier(criterion='entropy')
+#scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+#accuracy = scores.mean()
+#print accuracy
+#clf.fit(dataset,labels)
+#print clf.feature_importances_
+#
+#
+#temp_df = df[['alcoholD','bikeWork','eggP','seafood','gender']]
+#for i in temp_df.columns:
+#    for j in range(temp_df.shape[0]):
+#        if temp_df[i][j] > 1:
+#            temp_df.set_value(j,i,1)
+#dataset = temp_df.as_matrix()
+#labels = list(df['label'])
+#clf = DecisionTreeClassifier(criterion='entropy')
+#scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+#accuracy = scores.mean()
+#print accuracy
+#clf.fit(dataset,labels)
+#print clf.feature_importances_
+#
 #temp_df = df[['alcoholD','eggP','seafood','gender','bikeWork','walkCar']]
-##temp_df = df[['alcoholD','eggP','seafood','gender']]
 #for i in temp_df.columns:
 #    for j in range(temp_df.shape[0]):
 #        if temp_df[i][j] > 1:
@@ -173,10 +257,21 @@ artificial data test
 #print clf.feature_importances_
 
 '''
-new data test 
+artificial data test pattern features
 '''
-#df = newDataProcess.newFeatureFrame()
-#temp_df = df[['alcoholD','caffeineD','dairyP','eggP','fruitP','grainP','meatP','seafood','snack','starchyP','vegetables','leisure','social','sport','walk','car','bike','workStudy','gender']]
+#df = artificialDataGenerator.artificialData()
+#df['bikeWork'] = 0
+#df['walkCar'] = 0
+#for j in range(df.shape[0]): 
+#    if df['transportation3'][j] > 0 and df['workStudy'][j] > 0:
+#        df.set_value(j,'bikeWork',1)   
+#    if df['transportation1'][j] > 0 and df['transportation2'][j] > 0:
+#        df.set_value(j,'walkCar',1)
+#temp_df = df[['alcoholD','eggP','seafood','gender','bikeWork','walkCar']]
+#for i in temp_df.columns:
+#    for j in range(temp_df.shape[0]):
+#        if temp_df[i][j] > 1:
+#            temp_df.set_value(j,i,1)
 #dataset = temp_df.as_matrix()
 #labels = list(df['label'])
 #clf = DecisionTreeClassifier(criterion='entropy') 
@@ -185,3 +280,42 @@ new data test
 #print accuracy
 #clf.fit(dataset,labels)
 #print clf.feature_importances_
+
+'''
+new data test 
+'''
+df = newDataProcess.newFeatureFrame()
+temp_df = df[['alcoholD','caffeineD','dairyP','eggP','fruitP','grainP','meatP','seafood','snack','starchyP','vegetables','leisure','social','sport','walk','car','bike','workStudy','gender']]
+dataset = temp_df.as_matrix()
+labels = list(df['label'])
+clf = DecisionTreeClassifier(criterion='entropy') 
+scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+accuracy = scores.mean()
+print accuracy
+clf.fit(dataset,labels)
+print clf.feature_importances_
+
+'''
+new data test pattern features
+'''
+df = newDataProcess.newFeatureFrame()
+df['bikeWork'] = 0
+df['walkCar'] = 0
+for j in range(df.shape[0]): 
+    if df['bike'][j] > 0 and df['workStudy'][j] > 0:
+        df.set_value(j,'bikeWork',1)   
+    if df['walk'][j] > 0 and df['car'][j] > 0:
+        df.set_value(j,'walkCar',1)
+temp_df = df[['alcoholD','eggP','seafood','gender','bikeWork','walkCar']]
+for i in temp_df.columns:
+    for j in range(temp_df.shape[0]):
+        if temp_df[i][j] > 1:
+            temp_df.set_value(j,i,1)
+dataset = temp_df.as_matrix()
+labels = list(df['label'])
+clf = DecisionTreeClassifier(criterion='entropy') 
+scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+accuracy = scores.mean()
+print accuracy
+clf.fit(dataset,labels)
+print clf.feature_importances_

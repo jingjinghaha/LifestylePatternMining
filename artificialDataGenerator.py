@@ -4,10 +4,12 @@ Created on Wed Apr 06 11:46:47 2016
 
 @author: wu34
 """
+from __future__ import division
 import dataGen4SlpPrd
 import numpy as np
 import pandas as pd 
 import matplotlib.pyplot as plt
+ 
 
 #print np.random.rand(100) #random value in (0,1) fit average distribution 
 #print np.random.normal(0.2,0.4,100) #normal distribution with mean and std 
@@ -747,38 +749,897 @@ def originalData():
 #    plt.plot(x,freq_list)
 #    plt.title(j)
 
+'''
+version 1. funtion to generate time 
+'''
+#def artificialData():
+#
+#    df = originalData()
+#    dd = {}
+#    
+#    for i in df.columns[:-1]:
+#        dd[i] = []
+#    
+#    for i in range(10000):
+#        gender,walk,entertainment,alcohol,car,bike,workStudy,cafe,snack,dairy,grain,egg,seafood,fruit,meat,composite,vegetables,starchy,social,sport,others = generateOneDay1(df)
+#        
+##        time = -0.16*gender - 0.198*alcohol - 0.11*workStudy +0.074*cafe - 0.01*sport - 0.056*social - 0.015*bike 
+##        ymin = -1.846
+##        ymax = 0.687
+##        time = ((time - ymin)/(ymax - ymin))*(12 - 5) + 5 
+##        if time >= 9.68:
+##            label = 2
+##        elif time >= 9.27:
+##            label = 1
+##        else:
+##            label = 0
+#            
+#        time = 8 - 0.22*gender - 0.46*alcohol + 0.38*egg + 0.44*seafood  
+#        ymin = 8 - 2.98
+#        ymax = 8 + 4.92
+#        time = ((time - ymin)/(ymax - ymin))*(12 - 5) + 5 
+#        if time >= 7.58:
+#            label = 1
+#        else:
+#            label = 0
+#            
+#        dd['gender'].append(gender)
+#        dd['transportation1'].append(walk)
+#        dd['entertainmentRelax'].append(entertainment)
+#        dd['alcoholD'].append(alcohol)
+#        dd['transportation2'].append(car)
+#        dd['transportation3'].append(bike)
+#        dd['workStudy'].append(workStudy)
+#        dd['snack'].append(snack) 
+#        dd['caffeineD'].append(cafe)
+#        dd['dairyP'].append(dairy)
+#        dd['grainP'].append(grain)
+#        dd['eggP'].append(egg)
+#        dd['seafood'].append(seafood)
+#        dd['fruitP'].append(fruit)
+#        dd['meatP'].append(meat)
+#        dd['compositeP'].append(composite)
+#        dd['vegetables'].append(vegetables)
+#        dd['starchyP'].append(starchy)
+#        dd['social'].append(social)
+#        dd['sport'].append(sport)
+#        dd['others'].append(others)
+#        dd['sleepTime'].append(time) 
+#        dd['label'].append(label)
+#    
+#    newDF = pd.DataFrame(dd)
+##    print newDF['sleepTime'].mean()
+#    return newDF  
 
+#df = artificialData()
+#print df.sum()/df.shape[0]
+##df['label'].plot.kde()
+#df['sleepTime'].hist()
+#print df[df['label']==0].shape[0]
+#print df[df['label']==1].shape[0]
+#print df[df['label']==2].shape[0]
+
+'''
+version 2. generate time first, then according to the suppport and confidence  
+'''
+#def artificialData():
+#
+#    df = originalData()
+#    dd = {}
+#    
+#    for i in ['alcoholD','gender','eggP','seafood','label','transportation1','transportation2','transportation3','workStudy']:
+#        dd[i] = []
+#    
+#    for i in range(10000):
+##        print i
+#        label = np.random.randint(2) 
+#
+#        if label == 0: 
+#            poss = np.random.rand()
+#            if poss>0.38:
+#                gender = 1
+#            else:
+#                gender = 0
+#                
+#            poss = np.random.rand()
+#            if poss>0.29:
+#                temp_df = df[df['alcoholD']>0]
+#                alcohol = np.random.normal(temp_df['alcoholD'].mean(),temp_df['alcoholD'].std())
+#                if alcohol>2.5:
+#                    alcohol = 3
+#                elif alcohol>1.5:
+#                    alcohol = 2
+#                else:
+#                    alcohol = 1
+#            else:
+#                alcohol = 0
+#            
+#            poss = np.random.rand()
+#            if poss>0.62:
+#                egg = np.random.normal(df['eggP'].mean(),df['eggP'].std())
+#                if egg>2.5:
+#                    egg = 3
+#                elif egg>1.5:
+#                    egg = 2
+#                else:
+#                    egg = 1
+#            else:
+#                egg = 0
+#            
+#            poss = np.random.rand()
+#            if poss>0.68:
+#                seafood = np.random.normal(df['seafood'].mean(),df['seafood'].std())
+#                if seafood>2.5:
+#                    seafood = 3
+#                elif seafood>1.5:
+#                    seafood = 2
+#                else:
+#                    seafood = 1
+#            else:
+#                seafood = 0
+#            
+#            '''
+#            bike -> work/study 
+#            '''
+#            bike = np.random.normal(df[df['label']==0]['transportation3'].mean(),df[df['label']==0]['transportation3'].std())
+#            if bike>2.5:
+#                bike = 3
+#            elif bike>1.5:
+#                bike = 2
+#            elif bike>0.5:
+#                bike = 1
+#            else:
+#                bike = 0
+#            
+#            if bike >0:
+#                poss = np.random.rand()
+#                if poss > 0.16:
+#                    temp_df = df[df['workStudy']>0]
+#                    workStudy = np.random.normal(temp_df['workStudy'].mean(),temp_df['workStudy'].std())
+#                    if workStudy>2.5:
+#                        workStudy = 3
+#                    elif workStudy>1.5:
+#                        workStudy = 2
+#                    else:
+#                        workStudy = 1
+#                else:
+#                    workStudy = 0 
+#            else:
+#                workStudy = np.random.normal(df['workStudy'].mean(),df['workStudy'].std())
+#                if workStudy>2.5:
+#                    workStudy = 3
+#                elif workStudy>1.5:
+#                    workStudy = 2
+#                elif workStudy>0.5:
+#                    workStudy = 1
+#                else:
+#                    workStudy = 0
+#            
+#            '''
+#            walk -> car 
+#            '''
+#            walk = np.random.normal(df[df['label']==0]['transportation1'].mean(),df[df['label']==0]['transportation1'].std())
+#            if walk>2.5:
+#                walk = 3
+#            elif walk>1.5:
+#                walk = 2
+#            elif walk>0.5:
+#                walk = 1
+#            else:
+#                walk = 0
+#            
+#            if walk >0:
+#                poss = np.random.rand()
+#                if poss > 0.81:
+#                    temp_df = df[df['transportation2']>0]
+#                    car = np.random.normal(temp_df['transportation2'].mean(),temp_df['transportation2'].std())
+#                    if car>2.5:
+#                        car = 3
+#                    elif car>1.5:
+#                        car = 2
+#                    else:
+#                        car = 1
+#                else:
+#                    car = 0 
+#            else:
+#                car = np.random.normal(df['transportation2'].mean(),df['transportation2'].std())
+#                if car>2.5:
+#                    car = 3
+#                elif car>1.5:
+#                    car = 2
+#                elif car>0.5:
+#                    car = 1
+#                else:
+#                    car = 0
+#        else: 
+#            poss = np.random.rand()
+#            if poss>0.62:
+#                gender = 1
+#            else:
+#                gender = 0
+#                
+#            poss = np.random.rand()
+#            if poss>0.71:
+#                temp_df = df[df['alcoholD']>0]
+#                alcohol = np.random.normal(temp_df['alcoholD'].mean(),temp_df['alcoholD'].std())
+#                if alcohol>2.5:
+#                    alcohol = 3
+#                elif alcohol>1.5:
+#                    alcohol = 2
+#                else:
+#                    alcohol = 1
+#            else:
+#                alcohol = 0
+#            
+#            poss = np.random.rand()
+#            if poss>0.38:
+#                egg = np.random.normal(df['eggP'].mean(),df['eggP'].std())
+#                if egg>2.5:
+#                    egg = 3
+#                elif egg>1.5:
+#                    egg = 2
+#                else:
+#                    egg = 1
+#            else:
+#                egg = 0
+#            
+#            poss = np.random.rand()
+#            if poss>0.32:
+#                seafood = np.random.normal(df['seafood'].mean(),df['seafood'].std())
+#                if seafood>2.5:
+#                    seafood = 3
+#                elif seafood>1.5:
+#                    seafood = 2
+#                else:
+#                    seafood = 1
+#            else:
+#                seafood = 0
+#                
+#            '''
+#            bike -> work/study 
+#            '''
+#            bike = np.random.normal(df[df['label']==1]['transportation3'].mean(),df[df['label']==1]['transportation3'].std())
+#            if bike>2.5:
+#                bike = 3
+#            elif bike>1.5:
+#                bike = 2
+#            elif bike>0.5:
+#                bike = 1
+#            else:
+#                bike = 0
+#            
+#            if bike >0:
+#                poss = np.random.rand()
+#                if poss > 0.84:
+#                    temp_df = df[df['workStudy']>0]
+#                    workStudy = np.random.normal(temp_df['workStudy'].mean(),temp_df['workStudy'].std())
+#                    if workStudy>2.5:
+#                        workStudy = 3
+#                    elif workStudy>1.5:
+#                        workStudy = 2
+#                    else:
+#                        workStudy = 1
+#                else:
+#                    workStudy = 0 
+#            else:
+#                workStudy = np.random.normal(df['workStudy'].mean(),df['workStudy'].std())
+#                if workStudy>2.5:
+#                    workStudy = 3
+#                elif workStudy>1.5:
+#                    workStudy = 2
+#                elif workStudy>0.5:
+#                    workStudy = 1
+#                else:
+#                    workStudy = 0
+#            
+#            '''
+#            walk -> car 
+#            '''
+#            walk = np.random.normal(df[df['label']==1]['transportation1'].mean(),df[df['label']==1]['transportation1'].std())
+#            if walk>2.5:
+#                walk = 3
+#            elif walk>1.5:
+#                walk = 2
+#            elif walk>0.5:
+#                walk = 1
+#            else:
+#                walk = 0
+#            
+#            if walk >0:
+#                poss = np.random.rand()
+#                if poss > 0.19:
+#                    temp_df = df[df['transportation2']>0]
+#                    car = np.random.normal(temp_df['transportation2'].mean(),temp_df['transportation2'].std())
+#                    if car>2.5:
+#                        car = 3
+#                    elif car>1.5:
+#                        car = 2
+#                    else:
+#                        car = 1
+#                else:
+#                    car = 0 
+#            else:
+#                car = np.random.normal(df['transportation2'].mean(),df['transportation2'].std())
+#                if car>2.5:
+#                    car = 3
+#                elif car>1.5:
+#                    car = 2
+#                elif car>0.5:
+#                    car = 1
+#                else:
+#                    car = 0
+#        
+#        dd['gender'].append(gender)
+#        dd['alcoholD'].append(alcohol)
+#        dd['eggP'].append(egg)
+#        dd['seafood'].append(seafood)
+#        dd['label'].append(label)
+#        dd['transportation1'].append(walk)
+#        dd['transportation2'].append(car)
+#        dd['transportation3'].append(bike)
+#        dd['workStudy'].append(workStudy)
+#    
+#    newDF = pd.DataFrame(dd)
+#    return newDF
+
+#df = artificialData()
+#print df.sum()/df.shape[0]
+#df['label'].plot.kde()
+#print df[df['label']==0].shape[0]
+#print df[df['label']==1].shape[0]
+#print df[df['label']==2].shape[0]
+
+'''
+version 3. generate time first, then according to original distribution   
+'''
 def artificialData():
 
     df = originalData()
     dd = {}
     
-    for i in df.columns[:-1]:
+    for i in ['alcoholD','caffeineD','dairyP','eggP','fruitP','grainP','meatP','seafood','snack','starchyP','vegetables','entertainmentRelax','social','sport','transportation1','transportation2','transportation3','workStudy','gender','label']:
         dd[i] = []
     
     for i in range(10000):
-        gender,walk,entertainment,alcohol,car,bike,workStudy,cafe,snack,dairy,grain,egg,seafood,fruit,meat,composite,vegetables,starchy,social,sport,others = generateOneDay1(df)
+#        print i
+        label = np.random.randint(2) 
+
+        if label == 0: 
+            gender = np.random.normal(df[df['label']==0]['gender'].mean(),df[df['label']==0]['gender'].std())
+            if gender>0.5:
+                gender = 1
+            else:
+                gender = 0
+                
+            alcohol = np.random.normal(df[df['label']==0]['alcoholD'].mean(),df[df['label']==0]['alcoholD'].std())
+            if alcohol>5.5:
+                alcohol = 6
+            elif alcohol>4.5:
+                alcohol = 5
+            elif alcohol>3.5:
+                alcohol = 4
+            elif alcohol>2.5:
+                alcohol = 3
+            elif alcohol>1.5:
+                alcohol = 2
+            elif alcohol>0.5:
+                alcohol = 1
+            else:
+                alcohol = 0
+            
+            poss = np.random.rand()
+            if poss>0.65:
+                egg = np.random.normal(df['eggP'].mean(),df['eggP'].std())
+                if egg>2.5:
+                    egg = 3
+                elif egg>1.5:
+                    egg = 2
+                else:
+                    egg = 1
+            else:
+                egg = 0
+            
+            poss = np.random.rand()
+            if poss>0.65:
+                seafood = np.random.normal(df['seafood'].mean(),df['seafood'].std())
+                if seafood>2.5:
+                    seafood = 3
+                elif seafood>1.5:
+                    seafood = 2
+                else:
+                    seafood = 1
+            else:
+                seafood = 0
+            
+            '''
+            bike -> work/study 
+            '''
+            bike = np.random.normal(df[df['label']==0]['transportation3'].mean(),df[df['label']==0]['transportation3'].std())
+            if bike>2.5:
+                bike = 3
+            elif bike>1.5:
+                bike = 2
+            elif bike>0.5:
+                bike = 1
+            else:
+                bike = 0
+            
+            if bike >0:
+                poss = np.random.rand()
+                if poss > 0.16:
+                    temp_df = df[df['label']==0][df['workStudy']>0]
+                    workStudy = np.random.normal(temp_df['workStudy'].mean(),temp_df['workStudy'].std())
+                    if workStudy>2.5:
+                        workStudy = 3
+                    elif workStudy>1.5:
+                        workStudy = 2
+                    else:
+                        workStudy = 1
+                else:
+                    workStudy = 0 
+            else:
+                workStudy = np.random.normal(df[df['label']==0]['workStudy'].mean(),df[df['label']==0]['workStudy'].std())
+                if workStudy>2.5:
+                    workStudy = 3
+                elif workStudy>1.5:
+                    workStudy = 2
+                elif workStudy>0.5:
+                    workStudy = 1
+                else:
+                    workStudy = 0
+            
+            '''
+            walk -> car 
+            '''
+            walk = np.random.normal(df[df['label']==0]['transportation1'].mean(),df[df['label']==0]['transportation1'].std())
+            if walk>2.5:
+                walk = 3
+            elif walk>1.5:
+                walk = 2
+            elif walk>0.5:
+                walk = 1
+            else:
+                walk = 0
+            
+            car = np.random.normal(df[df['label']==0]['transportation2'].mean(),df[df['label']==0]['transportation2'].std())
+            if car>2.5:
+                car = 3
+            elif car>1.5:
+                car = 2
+            elif car>0.5:
+                car = 1
+            else:
+                car = 0
+            
+            '''
+            non important parameters 
+            '''
+            social = np.random.normal(df[df['label']==0]['social'].mean(),df[df['label']==0]['social'].std())
+            if social>2.5:
+                social = 3
+            elif social>1.5:
+                social = 2
+            elif social>0.5:
+                social = 1
+            else:
+                social = 0
+            
+            sport = np.random.normal(df[df['label']==0]['sport'].mean(),df[df['label']==0]['sport'].std())
+            if sport>2.5:
+                sport = 3
+            elif sport>1.5:
+                sport = 2
+            elif sport>0.5:
+                sport = 1
+            else:
+                sport = 0
         
-#        time = -0.16*gender - 0.198*alcohol - 0.11*workStudy +0.074*cafe - 0.01*sport - 0.056*social - 0.015*bike 
-#        ymin = -1.846
-#        ymax = 0.687
-#        time = ((time - ymin)/(ymax - ymin))*(12 - 5) + 5 
-#        if time >= 9.68:
-#            label = 2
-#        elif time >= 9.27:
-#            label = 1
-#        else:
-#            label = 0
+            cafe = np.random.normal(df[df['label']==0]['caffeineD'].mean(),df[df['label']==0]['caffeineD'].std())
+            if cafe>5.5:
+                cafe = 6
+            elif cafe>4.5:
+                cafe = 5
+            elif cafe>3.5:
+                cafe = 4
+            elif cafe>2.5:
+                cafe = 3
+            elif cafe>1.5:
+                cafe = 2
+            elif cafe>0.5:
+                cafe = 1
+            else:
+                cafe = 0
+        
+            dairy = np.random.normal(df[df['label']==0]['dairyP'].mean(),df[df['label']==0]['dairyP'].std())
+            if dairy>5.5:
+                dairy = 6
+            elif dairy>4.5:
+                dairy = 5
+            elif dairy>3.5:
+                dairy = 4
+            elif dairy>2.5:
+                dairy = 3
+            elif dairy>1.5:
+                dairy = 2
+            elif dairy>0.5:
+                dairy = 1
+            else:
+                dairy = 0
             
-        time = 8 - 0.22*gender - 0.46*alcohol + 0.38*egg + 0.44*seafood  
-        ymin = 8 - 2.98
-        ymax = 8 + 4.92
-        time = ((time - ymin)/(ymax - ymin))*(12 - 5) + 5 
-        if time >= 7.58:
-            label = 1
-        else:
-            label = 0
+            grain = np.random.normal(df[df['label']==0]['grainP'].mean(),df[df['label']==0]['grainP'].std())
+            if grain>5.5:
+                grain = 6
+            elif grain>4.5:
+                grain = 5
+            elif grain>3.5:
+                grain = 4
+            elif grain>2.5:
+                grain = 3
+            elif grain>1.5:
+                grain = 2
+            elif grain>0.5:
+                grain = 1
+            else:
+                grain = 0
             
+            fruit = np.random.normal(df[df['label']==0]['fruitP'].mean(),df[df['label']==0]['fruitP'].std())
+            if fruit>5.5:
+                fruit = 6
+            elif fruit>4.5:
+                fruit = 5
+            elif fruit>3.5:
+                fruit = 4
+            elif fruit>2.5:
+                fruit = 3
+            elif fruit>1.5:
+                fruit = 2
+            elif fruit>0.5:
+                fruit = 1
+            else:
+                fruit = 0
+            
+            meat = np.random.normal(df[df['label']==0]['meatP'].mean(),df[df['label']==0]['meatP'].std())
+            if meat>5.5:
+                meat = 6
+            elif meat>4.5:
+                meat = 5
+            elif meat>3.5:
+                meat = 4
+            elif meat>2.5:
+                meat = 3
+            elif meat>1.5:
+                meat = 2
+            elif meat>0.5:
+                meat = 1
+            else:
+                meat = 0
+            
+            vegetables = np.random.normal(df[df['label']==0]['vegetables'].mean(),df[df['label']==0]['vegetables'].std())
+            if vegetables>5.5:
+                vegetables = 6
+            elif vegetables>4.5:
+                vegetables = 5
+            elif vegetables>3.5:
+                vegetables = 4
+            elif vegetables>2.5:
+                vegetables = 3
+            elif vegetables>1.5:
+                vegetables = 2
+            elif vegetables>0.5:
+                vegetables = 1
+            else:
+                vegetables = 0
+            
+            starchy = np.random.normal(df[df['label']==0]['starchyP'].mean(),df[df['label']==0]['starchyP'].std())
+            if starchy>5.5:
+                starchy = 6
+            elif starchy>4.5:
+                starchy = 5
+            elif starchy>3.5:
+                starchy = 4
+            elif starchy>2.5:
+                starchy = 3
+            elif starchy>1.5:
+                starchy = 2
+            elif starchy>0.5:
+                starchy = 1
+            else:
+                starchy = 0
+        
+            snack = np.random.normal(df[df['label']==0]['snack'].mean(),df[df['label']==0]['snack'].std())
+            if snack>5.5:
+                snack = 6
+            elif snack>4.5:
+                snack = 5
+            elif snack>3.5:
+                snack = 4
+            elif snack>2.5:
+                snack = 3
+            elif snack>1.5:
+                snack = 2
+            elif snack>0.5:
+                snack = 1
+            else:
+                snack = 0
+            
+            entertainment = np.random.normal(df[df['label']==0]['entertainmentRelax'].mean(),df[df['label']==0]['entertainmentRelax'].std())
+            if entertainment>2.5:
+                entertainment = 3
+            elif entertainment>1.5:
+                entertainment = 2
+            elif entertainment>0.5:
+                entertainment = 1
+            else:
+                entertainment = 0
+        else: 
+            gender = np.random.normal(df[df['label']==1]['gender'].mean(),df[df['label']==1]['gender'].std())
+            if gender>0.5:
+                gender = 1
+            else:
+                gender = 0
+                
+            alcohol = np.random.normal(df[df['label']==1]['alcoholD'].mean(),df[df['label']==1]['alcoholD'].std())
+            if alcohol>5.5:
+                alcohol = 6
+            elif alcohol>4.5:
+                alcohol = 5
+            elif alcohol>3.5:
+                alcohol = 4
+            elif alcohol>2.5:
+                alcohol = 3
+            elif alcohol>1.5:
+                alcohol = 2
+            elif alcohol>0.5:
+                alcohol = 1
+            else:
+                alcohol = 0
+            
+            poss = np.random.rand()
+            if poss>0.35:
+                egg = np.random.normal(df['eggP'].mean(),df['eggP'].std())
+                if egg>2.5:
+                    egg = 3
+                elif egg>1.5:
+                    egg = 2
+                else:
+                    egg = 1
+            else:
+                egg = 0
+            
+            poss = np.random.rand()
+            if poss>0.35:
+                seafood = np.random.normal(df['seafood'].mean(),df['seafood'].std())
+                if seafood>2.5:
+                    seafood = 3
+                elif seafood>1.5:
+                    seafood = 2
+                else:
+                    seafood = 1
+            else:
+                seafood = 0
+                
+            '''
+            bike -> work/study 
+            '''
+            bike = np.random.normal(df[df['label']==1]['transportation3'].mean(),df[df['label']==1]['transportation3'].std())
+            if bike>2.5:
+                bike = 3
+            elif bike>1.5:
+                bike = 2
+            elif bike>0.5:
+                bike = 1
+            else:
+                bike = 0
+            
+            workStudy = np.random.normal(df[df['label']==1]['workStudy'].mean(),df[df['label']==1]['workStudy'].std())
+            if bike>2.5:
+                workStudy = 3
+            elif workStudy>1.5:
+                workStudy = 2
+            elif workStudy>0.5:
+                workStudy = 1
+            else:
+                workStudy = 0
+                
+            
+            '''
+            walk -> car 
+            '''
+            walk = np.random.normal(df[df['label']==1]['transportation1'].mean(),df[df['label']==1]['transportation1'].std())
+            if walk>2.5:
+                walk = 3
+            elif walk>1.5:
+                walk = 2
+            elif walk>0.5:
+                walk = 1
+            else:
+                walk = 0
+            
+            if walk >0:
+                poss = np.random.rand()
+                if poss > 0.19:
+                    temp_df = df[df['label']==1][df['transportation2']>0]
+                    car = np.random.normal(temp_df['transportation2'].mean(),temp_df['transportation2'].std())
+                    if car>2.5:
+                        car = 3
+                    elif car>1.5:
+                        car = 2
+                    else:
+                        car = 1
+                else:
+                    car = 0 
+            else:
+                car = np.random.normal(df[df['label']==1]['transportation2'].mean(),df[df['label']==1]['transportation2'].std())
+                if car>2.5:
+                    car = 3
+                elif car>1.5:
+                    car = 2
+                elif car>0.5:
+                    car = 1
+                else:
+                    car = 0
+        
+            '''
+            non important parameters 
+            '''
+            social = np.random.normal(df[df['label']==1]['social'].mean(),df[df['label']==1]['social'].std())
+            if social>2.5:
+                social = 3
+            elif social>1.5:
+                social = 2
+            elif social>0.5:
+                social = 1
+            else:
+                social = 0
+            
+            sport = np.random.normal(df[df['label']==1]['sport'].mean(),df[df['label']==1]['sport'].std())
+            if sport>2.5:
+                sport = 3
+            elif sport>1.5:
+                sport = 2
+            elif sport>0.5:
+                sport = 1
+            else:
+                sport = 0
+        
+            cafe = np.random.normal(df[df['label']==1]['caffeineD'].mean(),df[df['label']==1]['caffeineD'].std())
+            if cafe>5.5:
+                cafe = 6
+            elif cafe>4.5:
+                cafe = 5
+            elif cafe>3.5:
+                cafe = 4
+            elif cafe>2.5:
+                cafe = 3
+            elif cafe>1.5:
+                cafe = 2
+            elif cafe>0.5:
+                cafe = 1
+            else:
+                cafe = 0
+        
+            dairy = np.random.normal(df[df['label']==1]['dairyP'].mean(),df[df['label']==1]['dairyP'].std())
+            if dairy>5.5:
+                dairy = 6
+            elif dairy>4.5:
+                dairy = 5
+            elif dairy>3.5:
+                dairy = 4
+            elif dairy>2.5:
+                dairy = 3
+            elif dairy>1.5:
+                dairy = 2
+            elif dairy>0.5:
+                dairy = 1
+            else:
+                dairy = 0
+            
+            grain = np.random.normal(df[df['label']==1]['grainP'].mean(),df[df['label']==1]['grainP'].std())
+            if grain>5.5:
+                grain = 6
+            elif grain>4.5:
+                grain = 5
+            elif grain>3.5:
+                grain = 4
+            elif grain>2.5:
+                grain = 3
+            elif grain>1.5:
+                grain = 2
+            elif grain>0.5:
+                grain = 1
+            else:
+                grain = 0
+            
+            fruit = np.random.normal(df[df['label']==1]['fruitP'].mean(),df[df['label']==1]['fruitP'].std())
+            if fruit>5.5:
+                fruit = 6
+            elif fruit>4.5:
+                fruit = 5
+            elif fruit>3.5:
+                fruit = 4
+            elif fruit>2.5:
+                fruit = 3
+            elif fruit>1.5:
+                fruit = 2
+            elif fruit>0.5:
+                fruit = 1
+            else:
+                fruit = 0
+            
+            meat = np.random.normal(df[df['label']==1]['meatP'].mean(),df[df['label']==1]['meatP'].std())
+            if meat>5.5:
+                meat = 6
+            elif meat>4.5:
+                meat = 5
+            elif meat>3.5:
+                meat = 4
+            elif meat>2.5:
+                meat = 3
+            elif meat>1.5:
+                meat = 2
+            elif meat>0.5:
+                meat = 1
+            else:
+                meat = 0
+            
+            vegetables = np.random.normal(df[df['label']==1]['vegetables'].mean(),df[df['label']==1]['vegetables'].std())
+            if vegetables>5.5:
+                vegetables = 6
+            elif vegetables>4.5:
+                vegetables = 5
+            elif vegetables>3.5:
+                vegetables = 4
+            elif vegetables>2.5:
+                vegetables = 3
+            elif vegetables>1.5:
+                vegetables = 2
+            elif vegetables>0.5:
+                vegetables = 1
+            else:
+                vegetables = 0
+            
+            starchy = np.random.normal(df[df['label']==1]['starchyP'].mean(),df[df['label']==1]['starchyP'].std())
+            if starchy>5.5:
+                starchy = 6
+            elif starchy>4.5:
+                starchy = 5
+            elif starchy>3.5:
+                starchy = 4
+            elif starchy>2.5:
+                starchy = 3
+            elif starchy>1.5:
+                starchy = 2
+            elif starchy>0.5:
+                starchy = 1
+            else:
+                starchy = 0
+        
+            snack = np.random.normal(df[df['label']==1]['snack'].mean(),df[df['label']==1]['snack'].std())
+            if snack>5.5:
+                snack = 6
+            elif snack>4.5:
+                snack = 5
+            elif snack>3.5:
+                snack = 4
+            elif snack>2.5:
+                snack = 3
+            elif snack>1.5:
+                snack = 2
+            elif snack>0.5:
+                snack = 1
+            else:
+                snack = 0
+            
+            entertainment = np.random.normal(df[df['label']==1]['entertainmentRelax'].mean(),df[df['label']==1]['entertainmentRelax'].std())
+            if entertainment>2.5:
+                entertainment = 3
+            elif entertainment>1.5:
+                entertainment = 2
+            elif entertainment>0.5:
+                entertainment = 1
+            else:
+                entertainment = 0
+                
         dd['gender'].append(gender)
         dd['transportation1'].append(walk)
         dd['entertainmentRelax'].append(entertainment)
@@ -794,27 +1655,24 @@ def artificialData():
         dd['seafood'].append(seafood)
         dd['fruitP'].append(fruit)
         dd['meatP'].append(meat)
-        dd['compositeP'].append(composite)
         dd['vegetables'].append(vegetables)
         dd['starchyP'].append(starchy)
         dd['social'].append(social)
         dd['sport'].append(sport)
-        dd['others'].append(others)
-        dd['sleepTime'].append(time) 
         dd['label'].append(label)
     
     newDF = pd.DataFrame(dd)
-#    print newDF['sleepTime'].mean()
-    return newDF  
+    return newDF
 
 #df = artificialData()
-#print df.sum()/df.shape[0]
+##print df.sum()/df.shape[0]
 ##df['label'].plot.kde()
-#df['sleepTime'].hist()
-#print df[df['label']==0].shape[0]
-#print df[df['label']==1].shape[0]
-#print df[df['label']==2].shape[0]
+#print df[df['label']==0][df['seafood']>0].shape[0]
+#print df[df['label']==1][df['seafood']>0].shape[0]
 
+'''
+every item fit original distribution it the each group  
+'''
 def artificialData2():
     df,cols = originalData()
     dd = {}

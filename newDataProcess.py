@@ -50,6 +50,7 @@ def newFeatureFrame():
     feature_df = pd.DataFrame(array,columns = columns) 
     
     for i in range(df.shape[0]):
+#        print i 
         feature_df['ID'][i] = df['ID'][i]
         feature_df['gender'][i] = df_sub['gender'][df['ID'][i]-1] 
         feature_df['age'][i] = df_sub['age'][df['ID'][i]-1]
