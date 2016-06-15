@@ -1105,25 +1105,28 @@ def artificialData():
         label = np.random.randint(2) 
 
         if label == 0: 
-            gender = np.random.normal(df[df['label']==0]['gender'].mean(),df[df['label']==0]['gender'].std())
-            if gender>0.5:
-                gender = 1
+            poss = np.random.rand()
+            if poss>0.35:
+                    gender = 1
             else:
                 gender = 0
-                
-            alcohol = np.random.normal(df[df['label']==0]['alcoholD'].mean(),df[df['label']==0]['alcoholD'].std())
-            if alcohol>5.5:
-                alcohol = 6
-            elif alcohol>4.5:
-                alcohol = 5
-            elif alcohol>3.5:
-                alcohol = 4
-            elif alcohol>2.5:
-                alcohol = 3
-            elif alcohol>1.5:
-                alcohol = 2
-            elif alcohol>0.5:
-                alcohol = 1
+
+            
+            poss = np.random.rand()
+            if poss>0.35:
+                alcohol = np.random.normal(df['alcoholD'].mean(),df['alcoholD'].std())
+                if alcohol>5.5:
+                    alcohol = 6
+                elif alcohol>4.5:
+                    alcohol = 5
+                elif alcohol>3.5:
+                    alcohol = 4
+                elif alcohol>2.5:
+                    alcohol = 3
+                elif alcohol>1.5:
+                    alcohol = 2
+                else:
+                    alcohol = 1
             else:
                 alcohol = 0
             
@@ -1211,166 +1214,6 @@ def artificialData():
             else:
                 car = 0
             
-            '''
-            non important parameters 
-            '''
-            social = np.random.normal(df[df['label']==0]['social'].mean(),df[df['label']==0]['social'].std())
-            if social>2.5:
-                social = 3
-            elif social>1.5:
-                social = 2
-            elif social>0.5:
-                social = 1
-            else:
-                social = 0
-            
-            sport = np.random.normal(df[df['label']==0]['sport'].mean(),df[df['label']==0]['sport'].std())
-            if sport>2.5:
-                sport = 3
-            elif sport>1.5:
-                sport = 2
-            elif sport>0.5:
-                sport = 1
-            else:
-                sport = 0
-        
-            cafe = np.random.normal(df[df['label']==0]['caffeineD'].mean(),df[df['label']==0]['caffeineD'].std())
-            if cafe>5.5:
-                cafe = 6
-            elif cafe>4.5:
-                cafe = 5
-            elif cafe>3.5:
-                cafe = 4
-            elif cafe>2.5:
-                cafe = 3
-            elif cafe>1.5:
-                cafe = 2
-            elif cafe>0.5:
-                cafe = 1
-            else:
-                cafe = 0
-        
-            dairy = np.random.normal(df[df['label']==0]['dairyP'].mean(),df[df['label']==0]['dairyP'].std())
-            if dairy>5.5:
-                dairy = 6
-            elif dairy>4.5:
-                dairy = 5
-            elif dairy>3.5:
-                dairy = 4
-            elif dairy>2.5:
-                dairy = 3
-            elif dairy>1.5:
-                dairy = 2
-            elif dairy>0.5:
-                dairy = 1
-            else:
-                dairy = 0
-            
-            grain = np.random.normal(df[df['label']==0]['grainP'].mean(),df[df['label']==0]['grainP'].std())
-            if grain>5.5:
-                grain = 6
-            elif grain>4.5:
-                grain = 5
-            elif grain>3.5:
-                grain = 4
-            elif grain>2.5:
-                grain = 3
-            elif grain>1.5:
-                grain = 2
-            elif grain>0.5:
-                grain = 1
-            else:
-                grain = 0
-            
-            fruit = np.random.normal(df[df['label']==0]['fruitP'].mean(),df[df['label']==0]['fruitP'].std())
-            if fruit>5.5:
-                fruit = 6
-            elif fruit>4.5:
-                fruit = 5
-            elif fruit>3.5:
-                fruit = 4
-            elif fruit>2.5:
-                fruit = 3
-            elif fruit>1.5:
-                fruit = 2
-            elif fruit>0.5:
-                fruit = 1
-            else:
-                fruit = 0
-            
-            meat = np.random.normal(df[df['label']==0]['meatP'].mean(),df[df['label']==0]['meatP'].std())
-            if meat>5.5:
-                meat = 6
-            elif meat>4.5:
-                meat = 5
-            elif meat>3.5:
-                meat = 4
-            elif meat>2.5:
-                meat = 3
-            elif meat>1.5:
-                meat = 2
-            elif meat>0.5:
-                meat = 1
-            else:
-                meat = 0
-            
-            vegetables = np.random.normal(df[df['label']==0]['vegetables'].mean(),df[df['label']==0]['vegetables'].std())
-            if vegetables>5.5:
-                vegetables = 6
-            elif vegetables>4.5:
-                vegetables = 5
-            elif vegetables>3.5:
-                vegetables = 4
-            elif vegetables>2.5:
-                vegetables = 3
-            elif vegetables>1.5:
-                vegetables = 2
-            elif vegetables>0.5:
-                vegetables = 1
-            else:
-                vegetables = 0
-            
-            starchy = np.random.normal(df[df['label']==0]['starchyP'].mean(),df[df['label']==0]['starchyP'].std())
-            if starchy>5.5:
-                starchy = 6
-            elif starchy>4.5:
-                starchy = 5
-            elif starchy>3.5:
-                starchy = 4
-            elif starchy>2.5:
-                starchy = 3
-            elif starchy>1.5:
-                starchy = 2
-            elif starchy>0.5:
-                starchy = 1
-            else:
-                starchy = 0
-        
-            snack = np.random.normal(df[df['label']==0]['snack'].mean(),df[df['label']==0]['snack'].std())
-            if snack>5.5:
-                snack = 6
-            elif snack>4.5:
-                snack = 5
-            elif snack>3.5:
-                snack = 4
-            elif snack>2.5:
-                snack = 3
-            elif snack>1.5:
-                snack = 2
-            elif snack>0.5:
-                snack = 1
-            else:
-                snack = 0
-            
-            entertainment = np.random.normal(df[df['label']==0]['entertainmentRelax'].mean(),df[df['label']==0]['entertainmentRelax'].std())
-            if entertainment>2.5:
-                entertainment = 3
-            elif entertainment>1.5:
-                entertainment = 2
-            elif entertainment>0.5:
-                entertainment = 1
-            else:
-                entertainment = 0
         else: 
             gender = np.random.normal(df[df['label']==1]['gender'].mean(),df[df['label']==1]['gender'].std())
             if gender>0.5:
@@ -1395,7 +1238,7 @@ def artificialData():
                 alcohol = 0
             
             poss = np.random.rand()
-            if poss>0.35:
+            if poss>0.25:
                 egg = np.random.normal(df['eggP'].mean(),df['eggP'].std())
                 if egg>2.5:
                     egg = 3
@@ -1407,7 +1250,7 @@ def artificialData():
                 egg = 0
             
             poss = np.random.rand()
-            if poss>0.35:
+            if poss>0.25:
                 seafood = np.random.normal(df['seafood'].mean(),df['seafood'].std())
                 if seafood>2.5:
                     seafood = 3
@@ -1479,167 +1322,167 @@ def artificialData():
                 else:
                     car = 0
         
-            '''
-            non important parameters 
-            '''
-            social = np.random.normal(df[df['label']==1]['social'].mean(),df[df['label']==1]['social'].std())
-            if social>2.5:
-                social = 3
-            elif social>1.5:
-                social = 2
-            elif social>0.5:
-                social = 1
-            else:
-                social = 0
-            
-            sport = np.random.normal(df[df['label']==1]['sport'].mean(),df[df['label']==1]['sport'].std())
-            if sport>2.5:
-                sport = 3
-            elif sport>1.5:
-                sport = 2
-            elif sport>0.5:
-                sport = 1
-            else:
-                sport = 0
+        '''
+        non important parameters 
+        '''
+        social = np.random.normal(df['social'].mean(),df['social'].std())
+        if social>2.5:
+            social = 3
+        elif social>1.5:
+            social = 2
+        elif social>0.5:
+            social = 1
+        else:
+            social = 0
         
-            cafe = np.random.normal(df[df['label']==1]['caffeineD'].mean(),df[df['label']==1]['caffeineD'].std())
-            if cafe>5.5:
-                cafe = 6
-            elif cafe>4.5:
-                cafe = 5
-            elif cafe>3.5:
-                cafe = 4
-            elif cafe>2.5:
-                cafe = 3
-            elif cafe>1.5:
-                cafe = 2
-            elif cafe>0.5:
-                cafe = 1
-            else:
-                cafe = 0
+        sport = np.random.normal(df['sport'].mean(),df['sport'].std())
+        if sport>2.5:
+            sport = 3
+        elif sport>1.5:
+            sport = 2
+        elif sport>0.5:
+            sport = 1
+        else:
+            sport = 0
+    
+        cafe = np.random.normal(df['caffeineD'].mean(),df['caffeineD'].std())
+        if cafe>5.5:
+            cafe = 6
+        elif cafe>4.5:
+            cafe = 5
+        elif cafe>3.5:
+            cafe = 4
+        elif cafe>2.5:
+            cafe = 3
+        elif cafe>1.5:
+            cafe = 2
+        elif cafe>0.5:
+            cafe = 1
+        else:
+            cafe = 0
+    
+        dairy = np.random.normal(df['dairyP'].mean(),df['dairyP'].std())
+        if dairy>5.5:
+            dairy = 6
+        elif dairy>4.5:
+            dairy = 5
+        elif dairy>3.5:
+            dairy = 4
+        elif dairy>2.5:
+            dairy = 3
+        elif dairy>1.5:
+            dairy = 2
+        elif dairy>0.5:
+            dairy = 1
+        else:
+            dairy = 0
+            
+        grain = np.random.normal(df['grainP'].mean(),df['grainP'].std())
+        if grain>5.5:
+            grain = 6
+        elif grain>4.5:
+            grain = 5
+        elif grain>3.5:
+            grain = 4
+        elif grain>2.5:
+            grain = 3
+        elif grain>1.5:
+            grain = 2
+        elif grain>0.5:
+            grain = 1
+        else:
+            grain = 0
+            
+        fruit = np.random.normal(df['fruitP'].mean(),df['fruitP'].std())
+        if fruit>5.5:
+            fruit = 6
+        elif fruit>4.5:
+            fruit = 5
+        elif fruit>3.5:
+            fruit = 4
+        elif fruit>2.5:
+            fruit = 3
+        elif fruit>1.5:
+            fruit = 2
+        elif fruit>0.5:
+            fruit = 1
+        else:
+            fruit = 0
+            
+        meat = np.random.normal(df['meatP'].mean(),df['meatP'].std())
+        if meat>5.5:
+            meat = 6
+        elif meat>4.5:
+            meat = 5
+        elif meat>3.5:
+            meat = 4
+        elif meat>2.5:
+            meat = 3
+        elif meat>1.5:
+            meat = 2
+        elif meat>0.5:
+            meat = 1
+        else:
+            meat = 0
         
-            dairy = np.random.normal(df[df['label']==1]['dairyP'].mean(),df[df['label']==1]['dairyP'].std())
-            if dairy>5.5:
-                dairy = 6
-            elif dairy>4.5:
-                dairy = 5
-            elif dairy>3.5:
-                dairy = 4
-            elif dairy>2.5:
-                dairy = 3
-            elif dairy>1.5:
-                dairy = 2
-            elif dairy>0.5:
-                dairy = 1
-            else:
-                dairy = 0
-            
-            grain = np.random.normal(df[df['label']==1]['grainP'].mean(),df[df['label']==1]['grainP'].std())
-            if grain>5.5:
-                grain = 6
-            elif grain>4.5:
-                grain = 5
-            elif grain>3.5:
-                grain = 4
-            elif grain>2.5:
-                grain = 3
-            elif grain>1.5:
-                grain = 2
-            elif grain>0.5:
-                grain = 1
-            else:
-                grain = 0
-            
-            fruit = np.random.normal(df[df['label']==1]['fruitP'].mean(),df[df['label']==1]['fruitP'].std())
-            if fruit>5.5:
-                fruit = 6
-            elif fruit>4.5:
-                fruit = 5
-            elif fruit>3.5:
-                fruit = 4
-            elif fruit>2.5:
-                fruit = 3
-            elif fruit>1.5:
-                fruit = 2
-            elif fruit>0.5:
-                fruit = 1
-            else:
-                fruit = 0
-            
-            meat = np.random.normal(df[df['label']==1]['meatP'].mean(),df[df['label']==1]['meatP'].std())
-            if meat>5.5:
-                meat = 6
-            elif meat>4.5:
-                meat = 5
-            elif meat>3.5:
-                meat = 4
-            elif meat>2.5:
-                meat = 3
-            elif meat>1.5:
-                meat = 2
-            elif meat>0.5:
-                meat = 1
-            else:
-                meat = 0
-            
-            vegetables = np.random.normal(df[df['label']==1]['vegetables'].mean(),df[df['label']==1]['vegetables'].std())
-            if vegetables>5.5:
-                vegetables = 6
-            elif vegetables>4.5:
-                vegetables = 5
-            elif vegetables>3.5:
-                vegetables = 4
-            elif vegetables>2.5:
-                vegetables = 3
-            elif vegetables>1.5:
-                vegetables = 2
-            elif vegetables>0.5:
-                vegetables = 1
-            else:
-                vegetables = 0
-            
-            starchy = np.random.normal(df[df['label']==1]['starchyP'].mean(),df[df['label']==1]['starchyP'].std())
-            if starchy>5.5:
-                starchy = 6
-            elif starchy>4.5:
-                starchy = 5
-            elif starchy>3.5:
-                starchy = 4
-            elif starchy>2.5:
-                starchy = 3
-            elif starchy>1.5:
-                starchy = 2
-            elif starchy>0.5:
-                starchy = 1
-            else:
-                starchy = 0
+        vegetables = np.random.normal(df['vegetables'].mean(),df['vegetables'].std())
+        if vegetables>5.5:
+            vegetables = 6
+        elif vegetables>4.5:
+            vegetables = 5
+        elif vegetables>3.5:
+            vegetables = 4
+        elif vegetables>2.5:
+            vegetables = 3
+        elif vegetables>1.5:
+            vegetables = 2
+        elif vegetables>0.5:
+            vegetables = 1
+        else:
+            vegetables = 0
         
-            snack = np.random.normal(df[df['label']==1]['snack'].mean(),df[df['label']==1]['snack'].std())
-            if snack>5.5:
-                snack = 6
-            elif snack>4.5:
-                snack = 5
-            elif snack>3.5:
-                snack = 4
-            elif snack>2.5:
-                snack = 3
-            elif snack>1.5:
-                snack = 2
-            elif snack>0.5:
-                snack = 1
-            else:
-                snack = 0
+        starchy = np.random.normal(df['starchyP'].mean(),df['starchyP'].std())
+        if starchy>5.5:
+            starchy = 6
+        elif starchy>4.5:
+            starchy = 5
+        elif starchy>3.5:
+            starchy = 4
+        elif starchy>2.5:
+            starchy = 3
+        elif starchy>1.5:
+            starchy = 2
+        elif starchy>0.5:
+            starchy = 1
+        else:
+            starchy = 0
+        
+        snack = np.random.normal(df['snack'].mean(),df['snack'].std())
+        if snack>5.5:
+            snack = 6
+        elif snack>4.5:
+            snack = 5
+        elif snack>3.5:
+            snack = 4
+        elif snack>2.5:
+            snack = 3
+        elif snack>1.5:
+            snack = 2
+        elif snack>0.5:
+            snack = 1
+        else:
+            snack = 0
+        
+        entertainment = np.random.normal(df['entertainmentRelax'].mean(),df['entertainmentRelax'].std())
+        if entertainment>2.5:
+            entertainment = 3
+        elif entertainment>1.5:
+            entertainment = 2
+        elif entertainment>0.5:
+            entertainment = 1
+        else:
+            entertainment = 0
             
-            entertainment = np.random.normal(df[df['label']==1]['entertainmentRelax'].mean(),df[df['label']==1]['entertainmentRelax'].std())
-            if entertainment>2.5:
-                entertainment = 3
-            elif entertainment>1.5:
-                entertainment = 2
-            elif entertainment>0.5:
-                entertainment = 1
-            else:
-                entertainment = 0
-                
         dd['gender'].append(gender)
         dd['transportation1'].append(walk)
         dd['entertainmentRelax'].append(entertainment)

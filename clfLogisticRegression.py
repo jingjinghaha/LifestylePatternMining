@@ -143,38 +143,38 @@ print accuracy
 '''
 artificial data test 
 '''
-#df = artificialDataGenerator.artificialData()
-#temp_df = df[['alcoholD','caffeineD','dairyP','eggP','fruitP','grainP','meatP','seafood','snack','starchyP','vegetables','entertainmentRelax','social','sport','transportation1','transportation2','transportation3','workStudy','gender']]
-#dataset = temp_df.as_matrix()
-#labels = list(df['label'])
-#clf = LogisticRegression(penalty = 'l1',C=0.5)
-#scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
-#accuracy = scores.mean()
-#print accuracy
+df = artificialDataGenerator.artificialData()
+temp_df = df[['alcoholD','caffeineD','dairyP','eggP','fruitP','grainP','meatP','seafood','snack','starchyP','vegetables','entertainmentRelax','social','sport','transportation1','transportation2','transportation3','workStudy','gender']]
+dataset = temp_df.as_matrix()
+labels = list(df['label'])
+clf = LogisticRegression(penalty = 'l1',C=0.5)
+scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+accuracy = scores.mean()
+print accuracy
 
 '''
 artificial data test pattern features 
 '''
-#df = artificialDataGenerator.artificialData()
-#df['bikeWork'] = 0
-#df['walkCar'] = 0
-#for j in range(df.shape[0]): 
-#    if df['transportation3'][j] > 0 and df['workStudy'][j] > 0:
-#        df.set_value(j,'bikeWork',1)   
-#    if df['transportation1'][j] > 0 and df['transportation2'][j] > 0:
-#        df.set_value(j,'walkCar',1)
-#temp_df = df[['alcoholD','eggP','seafood','gender','bikeWork','walkCar']]
-##temp_df = df[['alcoholD','eggP','seafood','gender']]
-#for i in temp_df.columns:
-#    for j in range(temp_df.shape[0]):
-#        if temp_df[i][j] > 1:
-#            temp_df.set_value(j,i,1)
-#dataset = temp_df.as_matrix()
-#labels = list(df['label'])
-#clf = LogisticRegression(penalty = 'l1',C=0.5)
-#scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
-#accuracy = scores.mean()
-#print accuracy
+df = artificialDataGenerator.artificialData()
+df['bikeWork'] = 0
+df['walkCar'] = 0
+for j in range(df.shape[0]): 
+    if df['transportation3'][j] > 0 and df['workStudy'][j] > 0:
+        df.set_value(j,'bikeWork',1)   
+    if df['transportation1'][j] > 0 and df['transportation2'][j] > 0:
+        df.set_value(j,'walkCar',1)
+temp_df = df[['alcoholD','eggP','seafood','gender']]
+#temp_df = df[['alcoholD','eggP','seafood','gender']]
+for i in temp_df.columns:
+    for j in range(temp_df.shape[0]):
+        if temp_df[i][j] > 1:
+            temp_df.set_value(j,i,1)
+dataset = temp_df.as_matrix()
+labels = list(df['label'])
+clf = LogisticRegression(penalty = 'l1',C=0.5)
+scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+accuracy = scores.mean()
+print accuracy
 
 '''
 new data test 

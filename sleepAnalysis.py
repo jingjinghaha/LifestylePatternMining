@@ -109,7 +109,7 @@ def artificialData():
     
     return dd,dd_low,dd_high,dd_diff
 
-#dd,dd_low,dd_high,dd_diff = artificialData()
+dd,dd_low,dd_high,dd_diff = artificialData()
 
 def newData():
     df = newDataProcess.newFeatureFrame()
