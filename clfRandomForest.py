@@ -145,7 +145,7 @@ df = artificialDataGenerator.originalData()
 df['bikeWork'] = 0
 df['walkCar'] = 0
 df['dairyWork'] = 0
-df['fruitWork'] = 0
+df['fruitSnack'] = 0
 for j in range(df.shape[0]): 
     if df['transportation3'][j] > 0 and df['workStudy'][j] > 0:
         df.set_value(j,'bikeWork',1)   
@@ -153,9 +153,9 @@ for j in range(df.shape[0]):
         df.set_value(j,'walkCar',1)
     if df['dairyP'][j] > 0 and df['workStudy'][j] > 0:
         df.set_value(j,'dairyWork',1) 
-    if df['fruitP'][j] > 0 and df['workStudy'][j] > 0:
-        df.set_value(j,'fruitWork',1)
-temp_df = df[['alcoholD','eggP','seafood','gender','bikeWork','walkCar']]
+    if df['fruitP'][j] > 0 and df['snack'][j] > 0:
+        df.set_value(j,'fruitSnack',1)
+temp_df = df[['alcoholD','eggP','seafood','gender','bikeWork','walkCar','fruitSnack']]
 for i in temp_df.columns:
     for j in range(temp_df.shape[0]):
         if temp_df[i][j] > 1:
@@ -271,80 +271,80 @@ print clf.feature_importances_
 '''
 artificial data test 
 '''
-df = artificialDataGenerator.artificialData()
-temp_df = df[['alcoholD','caffeineD','dairyP','eggP','fruitP','grainP','meatP','seafood','snack','starchyP','vegetables','entertainmentRelax','social','sport','transportation1','transportation2','transportation3','workStudy','gender']]
-dataset = df.as_matrix()
-labels = list(df['label'])
-clf = RandomForestClassifier(n_estimators = 50,criterion='gini',n_jobs = -1)
-scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
-accuracy = scores.mean()
-print accuracy
-clf.fit(dataset,labels)
-print clf.feature_importances_
+#df = artificialDataGenerator.artificialData()
+#temp_df = df[['alcoholD','caffeineD','dairyP','eggP','fruitP','grainP','meatP','seafood','snack','starchyP','vegetables','entertainmentRelax','social','sport','transportation1','transportation2','transportation3','workStudy','gender']]
+#dataset = df.as_matrix()
+#labels = list(df['label'])
+#clf = RandomForestClassifier(n_estimators = 50,criterion='gini',n_jobs = -1)
+#scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+#accuracy = scores.mean()
+#print accuracy
+#clf.fit(dataset,labels)
+#print clf.feature_importances_
 
 '''
 artificial data test pattern features 
 '''
-df = artificialDataGenerator.artificialData()
-df['bikeWork'] = 0
-df['walkCar'] = 0
-for j in range(df.shape[0]): 
-    if df['transportation3'][j] > 0 and df['workStudy'][j] > 0:
-        df.set_value(j,'bikeWork',1)   
-    if df['transportation1'][j] > 0 and df['transportation2'][j] > 0:
-        df.set_value(j,'walkCar',1)
-temp_df = df[['alcoholD','eggP','seafood','gender','bikeWork','walkCar']]
-#temp_df = df[['alcoholD','caffeineD','dairyP','eggP','fruitP','grainP','meatP','seafood','snack','starchyP','vegetables','leisure','social','sport','walk','car','bike','workStudy']]
-for i in temp_df.columns:
-    for j in range(temp_df.shape[0]):
-        if temp_df[i][j] > 1:
-            temp_df.set_value(j,i,1)
-dataset = df.as_matrix()
-labels = list(df['label'])
-clf = RandomForestClassifier(n_estimators = 50,criterion='gini',n_jobs = -1)
-scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
-accuracy = scores.mean()
-print accuracy
-clf.fit(dataset,labels)
-print clf.feature_importances_
+#df = artificialDataGenerator.artificialData()
+#df['bikeWork'] = 0
+#df['walkCar'] = 0
+#for j in range(df.shape[0]): 
+#    if df['transportation3'][j] > 0 and df['workStudy'][j] > 0:
+#        df.set_value(j,'bikeWork',1)   
+#    if df['transportation1'][j] > 0 and df['transportation2'][j] > 0:
+#        df.set_value(j,'walkCar',1)
+#temp_df = df[['alcoholD','eggP','seafood','gender','bikeWork','walkCar']]
+##temp_df = df[['alcoholD','caffeineD','dairyP','eggP','fruitP','grainP','meatP','seafood','snack','starchyP','vegetables','leisure','social','sport','walk','car','bike','workStudy']]
+#for i in temp_df.columns:
+#    for j in range(temp_df.shape[0]):
+#        if temp_df[i][j] > 1:
+#            temp_df.set_value(j,i,1)
+#dataset = df.as_matrix()
+#labels = list(df['label'])
+#clf = RandomForestClassifier(n_estimators = 50,criterion='gini',n_jobs = -1)
+#scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+#accuracy = scores.mean()
+#print accuracy
+#clf.fit(dataset,labels)
+#print clf.feature_importances_
 
 
 '''
 new data test 
 '''
-df = newDataProcess.newFeatureFrame()
-temp_df = df[['alcoholD','caffeineD','dairyP','eggP','fruitP','grainP','meatP','seafood','snack','starchyP','vegetables','leisure','social','sport','walk','car','bike','workStudy','gender']]
-dataset = temp_df.as_matrix()
-labels = list(df['label'])
-clf = RandomForestClassifier(n_estimators = 50,criterion='gini',n_jobs = -1) 
-scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
-accuracy = scores.mean()
-print accuracy
-clf.fit(dataset,labels)
-print clf.feature_importances_
+#df = newDataProcess.newFeatureFrame()
+#temp_df = df[['alcoholD','caffeineD','dairyP','eggP','fruitP','grainP','meatP','seafood','snack','starchyP','vegetables','leisure','social','sport','walk','car','bike','workStudy','gender']]
+#dataset = temp_df.as_matrix()
+#labels = list(df['label'])
+#clf = RandomForestClassifier(n_estimators = 50,criterion='gini',n_jobs = -1) 
+#scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+#accuracy = scores.mean()
+#print accuracy
+#clf.fit(dataset,labels)
+#print clf.feature_importances_
 
 '''
 new data test pattern test 
 '''
-df = newDataProcess.newFeatureFrame()
-df['bikeWork'] = 0
-df['walkCar'] = 0
-for j in range(df.shape[0]): 
-    if df['bike'][j] > 0 and df['workStudy'][j] > 0:
-        df.set_value(j,'bikeWork',1)   
-    if df['walk'][j] > 0 and df['car'][j] > 0:
-        df.set_value(j,'walkCar',1)
-#temp_df = df[['alcoholD','eggP','seafood','gender','bikeWork','walkCar']]
-temp_df = df[['alcoholD','caffeineD','dairyP','eggP','fruitP','grainP','meatP','seafood','snack','starchyP','vegetables','leisure','social','sport','walk','car','bike','workStudy']]
-for i in temp_df.columns:
-    for j in range(temp_df.shape[0]):
-        if temp_df[i][j] > 1:
-            temp_df.set_value(j,i,1)
-dataset = temp_df.as_matrix()
-labels = list(df['label'])
-clf = RandomForestClassifier(n_estimators = 50,criterion='gini',n_jobs = -1) 
-scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
-accuracy = scores.mean()
-print accuracy
-clf.fit(dataset,labels)
-print clf.feature_importances_
+#df = newDataProcess.newFeatureFrame()
+#df['bikeWork'] = 0
+#df['walkCar'] = 0
+#for j in range(df.shape[0]): 
+#    if df['bike'][j] > 0 and df['workStudy'][j] > 0:
+#        df.set_value(j,'bikeWork',1)   
+#    if df['walk'][j] > 0 and df['car'][j] > 0:
+#        df.set_value(j,'walkCar',1)
+##temp_df = df[['alcoholD','eggP','seafood','gender','bikeWork','walkCar']]
+#temp_df = df[['alcoholD','caffeineD','dairyP','eggP','fruitP','grainP','meatP','seafood','snack','starchyP','vegetables','leisure','social','sport','walk','car','bike','workStudy']]
+#for i in temp_df.columns:
+#    for j in range(temp_df.shape[0]):
+#        if temp_df[i][j] > 1:
+#            temp_df.set_value(j,i,1)
+#dataset = temp_df.as_matrix()
+#labels = list(df['label'])
+#clf = RandomForestClassifier(n_estimators = 50,criterion='gini',n_jobs = -1) 
+#scores = cross_validation.cross_val_score(clf, dataset, labels, cv=5)
+#accuracy = scores.mean()
+#print accuracy
+#clf.fit(dataset,labels)
+#print clf.feature_importances_

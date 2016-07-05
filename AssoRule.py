@@ -316,13 +316,47 @@ def genNewActDietTypeDataSetForMoreSleep():
 #    rules = assocrules.mine_assoc_rules(item_sets, min_support=int(len(transactions)*0.1*3), min_confidence=0.1*i)
 #    print len(rules)
 
-transactions = genNewActDietTypeDataSetForMoreSleep()
+transactions = genOriginalActDietTypeDataSetForMoreSleep()
 relim_input = itemmining.get_relim_input(transactions)
 item_sets = itemmining.relim(relim_input, min_support=int(len(transactions)*0.1*3))
 #print item_sets  
 rules = assocrules.mine_assoc_rules(item_sets, min_support=len(transactions)*0.3, min_confidence=0.70)
 print rules 
 
+
+#df = newDataProcess.newFeatureFrame()
+#df = df[df['label']==1]
+#print df.shape[0]
+#for factor in ['bike','leisure','starchyP','fruitP']:
+#    df_temp1 = df[df[factor]>0]
+#    #print df_temp1.shape[0]
+#    df_temp2 = df[df['workStudy']>0]
+#    #print df_temp2.shape[0]
+#    df_temp3 = df_temp1[df_temp1['workStudy']>0]
+#    #print df_temp3.shape[0]
+#    print (float(df_temp3.shape[0])/(df_temp1.shape[0]*df_temp2.shape[0]))*df.shape[0]
+
+df = artificialDataGenerator.originalData()
+df = df[df['label']==1]
+print df.shape[0]
+df_temp1 = df[df['transportation1']>0]
+#print df_temp1.shape[0]
+df_temp2 = df[df['transportation2']>0]
+#print df_temp2.shape[0]
+df_temp3 = df_temp1[df_temp1['transportation2']>0]
+#print df_temp3.shape[0]
+print (float(df_temp3.shape[0])/(df_temp1.shape[0]*df_temp2.shape[0]))*df.shape[0]
+
+#df = newDataProcess.newFeatureFrame()
+#for factor in df.columns:
+#    print factor
+#    df_temp1 = df[df[factor]>0]
+##    print df_temp1.shape[0]
+#    df_temp2 = df[df['label']==1]
+##    print df_temp2.shape[0]
+#    df_temp3 = df_temp1[df_temp1['label']==1]
+##    print df_temp3.shape[0]
+#    print (float(df_temp3.shape[0])/(df_temp1.shape[0]*df_temp2.shape[0]))*df.shape[0]
 
 #freq_seqs = seqmining.freq_seq_enum(transactions, 100)
 #print sorted(freq_seqs)
